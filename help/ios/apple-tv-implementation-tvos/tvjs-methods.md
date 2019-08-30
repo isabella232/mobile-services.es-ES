@@ -799,9 +799,10 @@ del usuario. Entre los posibles valores están:
          * Tipo: `String`
          * ID de tercero para usar en solicitudes de destino.
    * Este es un ejemplo de código para este método:
-   ```objective-c
-   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
-   ```
+
+      ```objective-c
+      ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
+      ```
 
 * **targetPcID**
 

@@ -43,6 +43,7 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
 1. Obtenga el ID/token de registro mediante la API de Firebase Cloud Messaging (FCM).
 
    * Para obtener más información acerca de la configuración de FCM, consulte [Set Up a Firebase Cloud Messaging Client App on Android (Configurar una aplicación cliente de Firebase Cloud Messaging en Android)](https://firebase.google.com/docs/cloud-messaging/android/client).
+
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -58,6 +59,7 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
    Estos son los requisitos para habilitar los informes de clics en mensajes push:
 
    * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. Esto se puede hacer mediante `putExtras` el método. For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
+
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

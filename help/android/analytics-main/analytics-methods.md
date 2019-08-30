@@ -120,9 +120,10 @@ Devuelve el identificador de visitante generado automáticamente para Analytics.
    >Esta llamada no envía una visita.
 
    * Esta es la sintaxis para este método:
-   ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
-   ```
+
+      ```java
+      publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+      ```
 
    * Este es un ejemplo de código para este método:
 

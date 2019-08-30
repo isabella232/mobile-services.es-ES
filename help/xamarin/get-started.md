@@ -41,6 +41,7 @@ Importe el componente adbmobile al proyecto Xamarin. Android:
 
    * `INTERNET`
    * `ACCESS_NETWORK_STATE`
+
    ```java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
