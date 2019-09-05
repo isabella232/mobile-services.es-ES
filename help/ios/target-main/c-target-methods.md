@@ -7,7 +7,7 @@ title: Métodos de Target para iOS
 topic: Desarrollador e implementación
 uuid: 692 bcda 1-02 ba -4902-bd 65-15888 adf 1952
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
@@ -20,7 +20,7 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 >[!TIP]
 >
->Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md).
+>Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). Si envía solicitudes de Target dentro del método `didFinishLaunching` delegado, agregue una `[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` o una llamada antes del código de implementación de Target. De este modo, las solicitudes de Target contendrán los datos completos del ciclo vital.
 
 ## Referencia de clase: Adbtargetlocationrequest
 
