@@ -7,7 +7,7 @@ title: Search Ads de Apple
 topic: Desarrollador e implementación
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 translation-type: tm+mt
-source-git-commit: 215ad01507a541096e6951a2138c47af50bc1b87
+source-git-commit: cc3313a5874f2bd09cd8ee0a6ad83079fe61fb2f
 
 ---
 
@@ -49,5 +49,5 @@ Para habilitar su aplicación para la atribución de Search Ads:
    * "`iad-campaign-name`" --&gt; "`a.referrer.campaign.name`"
    * "`iad-adgroup-id`" --&gt; "`a.referrer.campaign.content`"
    * "`iad-keyword`" --&gt; "`a.referrer.campaign.term`"
-   Esta asignación pone los valores a disposición de la realización de informes estándar.
+   Esta asignación garantiza que los valores estén disponibles en nuestros informes estándar.
 
