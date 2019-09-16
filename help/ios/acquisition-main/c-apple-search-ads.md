@@ -2,12 +2,12 @@
 description: El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple.
 seo-description: El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple.
 seo-title: Search Ads de Apple
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Search Ads de Apple
 topic: Desarrollador e implementación
-uuid: 790080 e 8-067 e -4 bfd-a 169-0027 db 4 fdff 3
+uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 translation-type: tm+mt
-source-git-commit: 9c6923d14d1a5f30e5873299def61b0734e52429
+source-git-commit: 215ad01507a541096e6951a2138c47af50bc1b87
 
 ---
 
@@ -33,7 +33,7 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
 1. Implemente la versión 4.13.2 o superior del SDK de Adobe.
 
-   Para obtener más información, consulte [Implementación principal y ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
 
 1. Agregue el marco iAd al archivo del proyecto Xcode de la aplicación.
 
@@ -45,9 +45,9 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
    Además, se asignarán los siguientes valores del diccionario “`iad`” a campos habituales de datos de contexto de adquisición:
 
-   * " `iad-campaign-id`" --&gt; " `a.referrer.campaign.trackingcode`"
-   * " `iad-campaign-name`" --&gt;" `a.referrer.campaign.name``"
-   * " `iad-adgroup-id`" --&gt; " `a.referrer.campaign.content`"
-   * " `iad-keyword`" --&gt; " `a.referrer.campaign.term`"
+   * "`iad-campaign-id`" --&gt; "`a.referrer.campaign.trackingcode`"
+   * "`iad-campaign-name`" --&gt; "`a.referrer.campaign.name`"
+   * "`iad-adgroup-id`" --&gt; "`a.referrer.campaign.content`"
+   * "`iad-keyword`" --&gt; "`a.referrer.campaign.term`"
    Esta asignación pone los valores a disposición de la realización de informes estándar.
 
