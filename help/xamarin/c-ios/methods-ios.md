@@ -2,12 +2,12 @@
 description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
 seo-description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
-seo-title: Métodos iOS
-solution: Marketing Cloud, Desarrollador
-title: Métodos iOS
-uuid: d 6 a 056 db -80 c 1-44 d 0-970 f-c 961 ad 01 b 0 bc
+seo-title: Métodos de iOS
+solution: Marketing Cloud,Desarrollador
+title: Métodos de iOS
+uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
 ---
 
@@ -34,7 +34,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
       ADBMobile.CollectLifecycleData();
       ```
 
-* **Debuglogging**
+* **DebugLogging**
 
    Devuelve la preferencia de registro de depuración actual. El valor predeterminado es `false`.
 
@@ -57,13 +57,15 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Esta es la sintaxis para este método:
 
       ```objective-c
-      public static void SetDebugLogging(bool enabled); 
-      
+      public static void SetDebugLogging(bool enabled);
+      ```
+
    * Este es un ejemplo de código para este método:
 
       ```objective-c
       ADBMobile.SetDebugLogging(true);
-      
+      ```
+
 * **LifetimeValue**
 
    Devuelve el valor de duración del usuario actual.
@@ -71,13 +73,13 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Esta es la sintaxis para este método:
 
       ```objective-c
-      public static double LifetimeValue(); 
+      public static double LifetimeValue();
       ```
 
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-      var lifetimeValue = ADBMobile.LifetimeValue(); 
+      var lifetimeValue = ADBMobile.LifetimeValue();
       ```
 
 * **PrivacyStatus**
@@ -85,7 +87,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
    * `ADBMobilePrivacyStatus.OptIn` - las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatus.OptOut` - las visitas se descartarán.
-   * ADBMobilePrivacyStatus.Unknown - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) o opt-out (entonces se descartan las visitas). Si el seguimiento sin conexión está deshabilitado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
+   * ADBMobilePrivacyStatus.Unknown - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) o opt-out (entonces se descartan las visitas). Si el seguimiento sin conexión está desactivado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
@@ -97,11 +99,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-       var privacyStatus = ADBMobile.PrivacyStatus(); 
+      var privacyStatus = ADBMobile.PrivacyStatus();
       ```
 
 
-* **Setprivacystatus**
+* **SetPrivacyStatus**
 
    Establece el estado de privacidad del usuario actual como estado. Establezca uno de los siguientes valores:
    * `ADBMobilePrivacyStatus.OptIn` - las visitas se envían inmediatamente.
@@ -174,12 +176,12 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
    >[!TIP]
    >
-   >Este método está pensado para utilizarse en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano y solo debería invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >Este método está diseñado para utilizarse en aplicaciones que se registran para recibir notificaciones en segundo plano y solo debe invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
 
    * Esta es la sintaxis para este método:
 
       ```objective-c
-       public static void KeepLifecycleSessionAlive();
+      public static void KeepLifecycleSessionAlive();
       ```
 
    * Este es un ejemplo de código para este método:
@@ -203,15 +205,15 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-       var trackingId = ADBMobile.TrackingIdentifier();
+      var trackingId = ADBMobile.TrackingIdentifier();
       ```
 
 * **TrackState**
 
-   Realiza un seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como “pantalla de título”, “nivel 1” o “pausa”, entre otros. Estos estados son similares a las páginas de un sitio web y `TrackState` las llamadas incrementan las vistas de página. Si el estado está vacío, se muestra como «app name app version (build)» en los informes. Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
+   Realiza un seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como “pantalla de título”, “nivel 1” o “pausa”, entre otros. Estos estados son similares a las páginas de un sitio web y las llamadas incrementan las vistas de página.Si el estado está vacío, se muestra como "nombre de aplicación versión de la aplicación (compilación)" en los informes. `TrackState` Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
 
    [!TIP]
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
    >
    * Esta es la sintaxis para este método:
 
@@ -321,7 +323,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
    * Esta es la sintaxis para este método:
 
-      public nbsp; static void tracklifetimevalueincrease (double amount, nsdictionary cdata);
+      public nbsp;static void TrackLifetimeValueIncrease(doble amount, NSDictionary data);
 
    * Este es un ejemplo de código para este método:
 
@@ -383,8 +385,9 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
       ```objective-c
       ADBMobile.TrackTimedActionEnd  ("level2", (double  arg1,  double  arg2,  NSMutableDictionary  arg3)  =>  { 
       return  Convert.ToSByte(true); 
-      }); 
-      
+      });
+      ```
+
 * **TrackingTimedActionExists**
 
    Devuelve si una acción temporizada está (o no) en curso.
@@ -483,8 +486,8 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-       NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
-       ADBMobile.VisitorSyncIdentifiers(ids); 
+      NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
+      ADBMobile.VisitorSyncIdentifiers(ids); 
       ```
 
 ## Métodos de Target {#section_C1E4121CAF9D43538511D857A1F549A7}
@@ -502,11 +505,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-       NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
-       ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
-       ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
-       Console.WriteLine  (context); 
-       });
+      NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
+      ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
+      ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
+      Console.WriteLine  (context); 
+      });
       ```
 
 * **TargetCreateRequest**
@@ -528,13 +531,14 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TargetCreateOrderConfirmRequest**
 
-   Crea `ADBTargetLocationRequest`un.
+   Crea un `ADBTargetLocationRequest`.
 
    * Esta es la sintaxis para este método:
 
       ```objective-c
       public static ADBTargetLocationRequest ADBTargetLocationRequest TargetCreateRequest (string name, string defaultContent, NSDictionary parameters);
-      
+      ```
+
    * Este es un ejemplo de código para este método:
 
       ```objective-c
@@ -774,7 +778,7 @@ Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-       ADBMobile.MediaStop (settings.Name, 3);
+      ADBMobile.MediaStop (settings.Name, 3);
       ```
 
 * **MediaClick**
