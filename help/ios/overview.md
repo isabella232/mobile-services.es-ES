@@ -7,7 +7,7 @@ title: SDK para iOS 4.x para soluciones de Experience Cloud
 topic: Desarrollador e implementación
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: 0f6eec995626f4c93f56d59b682083bd0428d9e1
+source-git-commit: a16fe85f44d2ce852e806b2cc41fb5d40952ad6d
 
 ---
 
@@ -22,7 +22,7 @@ El SDK para iOS 4.x para soluciones de Experience Cloud le permite realizar medi
 
 >[!IMPORTANT]
 >
->El SDK para iOS 4.x para soluciones de Experience Cloud ahora es compatible con [iOS 13 y Xcode 11][https://developer.apple.com/ios/]. Para garantizar una compatibilidad perfecta, utilice las versiones más recientes de los SDK 4.x de iOS. Para obtener más información sobre la versión más reciente, consulte las notas de la [versión](/help/ios/rel-notes.md).
+>El SDK para iOS 4.x para soluciones de Experience Cloud ahora es compatible con [iOS 13 y Xcode 11](https://developer.apple.com/ios/). Para garantizar una compatibilidad perfecta, utilice las versiones más recientes de los SDK 4.x de iOS. Para obtener más información sobre la versión más reciente, consulte las notas de la [versión](/help/ios/rel-notes.md).
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
@@ -45,7 +45,7 @@ Información que debe recordar:
 
 * En la versión 4.2 o posterior del SDK, todas las visitas se envían ahora mediante HTTP POST.
 
-   This has no impact on the data that is collected or reported, but you need to use a packet analyzer that supports inspecting POST data to view hits.
+   Esto no afecta a los datos recopilados o notificados, pero debe utilizar un analizador de paquetes que admita la inspección de datos POST para ver las visitas.
 
 * If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](/help/ios/getting-started/migration-v3.md).
 
