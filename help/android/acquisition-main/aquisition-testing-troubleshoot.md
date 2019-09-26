@@ -1,27 +1,27 @@
 ---
-description: La siguiente información ayuda a solucionar problemas de prueba de adquisición.
-keywords: android; Adquisición; prueba
-seo-description: La siguiente información ayuda a solucionar problemas de prueba de adquisición.
-seo-title: Resolución de problemas de las pruebas de adquisición
-solution: Marketing Cloud, Analytics
-title: Resolución de problemas de las pruebas de adquisición
+description: La siguiente información le ayuda a solucionar los problemas de las pruebas de adquisición.
+keywords: android;Acquisition;testing
+seo-description: The following information helps you troubleshoot Acquisition testing issues.
+seo-title: Troubleshooting Acquisition testing
+solution: Marketing Cloud,Analytics
+title: Troubleshooting Acquisition testing
 translation-type: tm+mt
 source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
 
 ---
 
 
-# Resolución de problemas de las pruebas de adquisición {#aquistion-testing-troubleshooting}
+# Resolución de problemas de pruebas de adquisición {#aquistion-testing-troubleshooting}
 
-A continuación se indican algunos problemas que podría afrontar al probar Adquisición y algunas posibles soluciones:
+Estos son algunos de los problemas que podría tener al probar la adquisición y algunas posibles soluciones:
 
-* Si no se especifica lo contrario, el archivo adbmobileconfig. json debe colocarse en la carpeta assets.
+* Si no se especifica lo contrario, el archivo ADBMobileConfig.json debe colocarse en la carpeta assets.
 
-* El nombre distingue entre mayúsculas y minúsculas, por lo que no debe proporcionar un nombre en letras minúsculas.
+* El nombre distingue entre mayúsculas y minúsculas, por lo que no proporcione un nombre en letras minúsculas.
 
-   Debe asegurarse de que se llama `Config.setContext(this.getApplicationContext())` desde la actividad principal. Para obtener más información, consulte [Métodos de configuración](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html).
+   Debe asegurarse de que `Config.setContext(this.getApplicationContext())` se llama desde la actividad principal. Para obtener más información, consulte Métodos [de configuración](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html).
 
-* En el archivo AndroidManifest.xml proporcionado faltan algunos permisos de usuario, estos son necesarios para enviar datos y registrar llamadas de seguimiento sin conexión:
+* Faltan algunos permisos de usuario en el archivo AndroidManifest.xml proporcionado; estos permisos son necesarios para enviar datos y registrar llamadas de seguimiento sin conexión:
 
    ```html
    <manifest..>
@@ -31,11 +31,11 @@ A continuación se indican algunos problemas que podría afrontar al probar Adqu
    </manifest>
    ```
 
-* En la configuración, si el tiempo de espera del referente está establecido, `referrerTimeout: 5`es necesario enviar la calidad de instalación en un intervalo de tiempo de 5 segundos después de que la aplicación se instale e inicie por primera vez para ver la información del referente anexada a la visita de instalación.
+* En la configuración, si el tiempo de espera del referente está establecido en `referrerTimeout: 5`, significa que debe enviar la intención de instalación en un intervalo de tiempo de 5 segundos después de que la aplicación se haya instalado e iniciado por primera vez para ver la información del referente adjunta a la visita de instalación.
 
-   Para realizar pruebas manuales, aumente `referrerTimeout` a 10 a 15 segundos, de modo que haya suficiente tiempo para enviar la información del referente antes de que se procese la visita de instalación.
+   Para las pruebas manuales, aumente el tiempo `referrerTimeout` a 10-15 segundos, de modo que haya tiempo suficiente para enviar la información del referente antes de que se procese la visita de instalación.
 
-* Es importante ejecutar todos los pasos en [Comprobación de la adquisición de Vínculo de marketing](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) en orden y asegurarse de ejecutar `adb` el shell y, a continuación, lo siguiente:
+* Es importante ejecutar todos los pasos en [Prueba de adquisición](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) de vínculo de marketing en orden y asegurarse de ejecutar `adb` shell y, a continuación, lo siguiente:
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n 
@@ -45,4 +45,4 @@ A continuación se indican algunos problemas que podría afrontar al probar Adqu
 
 >[!IMPORTANT]
 >
->Debe ejecutar estos dos comandos de forma independiente para procesar correctamente la calidad del referente. De lo contrario `adb` , duplica la información del referente y los datos recibidos por el receptor de emisión estarán incompletos.
+>Debe ejecutar estos dos comandos de forma independiente para procesar correctamente la intención del referente.  De lo contrario, `adb` se escapa dos veces la información del referente y los datos recibidos por el receptor de la emisión estarán incompletos.
