@@ -1,18 +1,18 @@
 ---
 description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
 seo-description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
-seo-title: Archivo de configuración adbmobileconfig. json
-solution: Marketing Cloud, Analytics
-title: Archivo de configuración adbmobileconfig. json
+seo-title: Archivo de configuración ADBMobileConfig.json
+solution: Marketing Cloud,Analytics
+title: Archivo de configuración ADBMobileConfig.json
 topic: Desarrollador e implementación
-uuid: a 45 b 91 cc -982 e -4 d 6 c-a 4 e 4-d 2 e 4 b 4 fa 7556
+uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
 source-git-commit: 1dbdb998228bd3b0ae41e774b6e9aa111d8dbe1c
 
 ---
 
 
-# `ADBMobileConfig.json` config, archivo {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` archivo config {#adbmobileconfig-json-config}
 
 Information to help you use the `ADBMobile.json` config file.
 
@@ -22,7 +22,7 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
    (Necesario para Analytics). Uno o más grupos de informes para recibir datos de Analytics. Los ID de grupos de informes deben separarse con comas, sin espacios intermedios.
 
-   * Estos son los ejemplos de código de esta variable:
+   * Estos son los ejemplos de código para esta variable:
 
       ```js
       "rsids" : "rsid"
@@ -60,7 +60,7 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
 * **batchLimit**
 
-   Envía las visitas en lotes. Por ejemplo, si se establece en 50, las visitas se ponen en cola hasta que se acumulan 50 y entonces se envían todas. Requiere `offlineEnabled=true`. El valor predeterminado es `0` (Sin lotes).
+   Envía las visitas en lotes. Por ejemplo, si se establece en 50, las visitas se ponen en cola hasta que se acumulan 50 y entonces se envían todas. Requiere `offlineEnabled=true`. El valor predeterminado es `0` (sin lotes).
 
 * **privacyDefault**
 
@@ -72,13 +72,13 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
       >[!TIP]
       >
-      >Esto establece únicamente el valor predeterminado. Si este valor se llega a establecer o cambiar en el código, se guarda en el almacenamiento local y se utiliza en adelante hasta que se cambia de nuevo, o hasta que la aplicación se desinstale y se vuelva a instalar.
+      >Esto sólo establece el valor predeterminado. Si este valor se llega a establecer o cambiar en el código, se guarda en el almacenamiento local y se utiliza en adelante hasta que se cambia de nuevo, o hasta que la aplicación se desinstale y se vuelva a instalar.
 
 * **poi**
 
    Cada matriz de punto de interés (POI) guarda su nombre, latitud, longitud y radio del área (en metros). El nombre del punto puede ser cualquier cadena. Cuando se envía una llamada a `trackLocation`, si las coordinadas actuales se encuentran dentro de un punto de interés definido, se rellena una variable de datos de contexto que se envía junto con la llamada a `trackLocation`.
 
-   * Esta es la muestra de código para esta variable:
+   * Este es el ejemplo de código para esta variable:
 
       ```js
       "poi": [
