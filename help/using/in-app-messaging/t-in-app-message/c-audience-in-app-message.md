@@ -2,11 +2,11 @@
 description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
 keywords: móvil
 seo-description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
-seo-title: Mensaje en la aplicación de audiencia
-solution: Marketing Cloud, Analytics
-title: Mensaje en la aplicación de audiencia
+seo-title: Mensaje de audiencia en la aplicación
+solution: Marketing Cloud,Analytics
+title: Mensaje de audiencia en la aplicación
 topic: Métricas
-uuid: 6 c 815 d 4 c -7626-4 cf 4-9158-3 f 059 c 79317 a
+uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -41,10 +41,10 @@ Puede configurar las opciones de audiencia para los mensajes en la aplicación, 
 
       >[!IMPORTANT]
       >
-      >Si selecciona varios activadores, para que se muestre el mensaje, todos los desencadenadores deben producirse en la misma visita.
+      >Si selecciona varios activadores para que se muestre el mensaje, todos los activadores deben producirse en la misma visita.
 
-   * **[!UICONTROL Características]**
-Puede determinar quién debe ver el mensaje en la aplicación cuando se activa y filtrar (segmentar) la audiencia a visitas que tengan datos especificados. Por ejemplo, puede definir una regla en la que Puntos de interés contenga Denver. Este filtro permite mostrar, en el momento de la activación, el mensaje a los clientes que estén en uno de los puntos de interés con Denver en el nombre.
+   * **[!UICONTROL Traits]**
+You can determine who should see the in-app message when it is triggered and filter (segment) the audience to hits that have specified data. Por ejemplo, puede definir una regla en la que Puntos de interés contenga Denver. Este filtro permite mostrar, en el momento de la activación, el mensaje a los clientes que estén en uno de los puntos de interés con Denver en el nombre.
 
 
 
@@ -64,9 +64,9 @@ Después de validar la asignación, seleccione el valor coincidente apropiado o 
 
 ### Selecting metrics and variables {#example_AB126F03BD1C4094B791E230B3DB1189}
 
-![opciones desencadenadoras](assets/custom_trigger_matcher_options.png)
+![activar opciones](assets/custom_trigger_matcher_options.png)
 
-Los siguientes escenarios ayudan a determinar si se selecciona una métrica o una variable como activador:
+Los escenarios siguientes le ayudan a determinar si desea seleccionar una métrica o una variable como activador:
 
 ### Métricas
 
