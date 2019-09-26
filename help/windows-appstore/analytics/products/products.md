@@ -1,11 +1,11 @@
 ---
 description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
 seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
-seo-title: Variable products
-solution: Marketing Cloud, Analytics
-title: Variable products
+seo-title: Products variable
+solution: Marketing Cloud,Analytics
+title: Products variable
 topic: Desarrollador e implementación
-uuid: 2057 a 564-06 ae -4171-bbe 7-0 baffa 71608 b
+uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
@@ -46,4 +46,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 ![](assets/products-procrules.png)
 
-No es necesario asignar *`products`* la variable mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
+You do not need to map the  variable using processing rules since it is set directly on the image request by the SDK.*`products`*
