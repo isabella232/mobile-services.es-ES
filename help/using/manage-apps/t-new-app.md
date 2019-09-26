@@ -3,10 +3,10 @@ description: Puede usar esta información para crear una nueva aplicación y con
 keywords: móvil
 seo-description: Puede usar esta información para crear una nueva aplicación y configurar sus métricas clave; configurar las opciones del SDK para Adobe Analytics y Adobe Audience Manager; configurar las opciones de adquisición y servicio de ID; así como descargar el archivo de configuración, los SDK y las herramientas para el desarrollador y el evaluador.
 seo-title: Agregar nueva aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Agregar nueva aplicación
 topic: Métricas
-uuid: 706 b 5 e 4 d -1318-4 a 9 e -8 c 69-ffabf 51 fa 02 c
+uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -26,7 +26,7 @@ Para poder configurar la aplicación, primero debe agregarla en la interfaz de u
    * Haga clic en **[!UICONTROL Crear nueva]para crear una aplicación.**
    * Para crear aplicaciones adicionales, haga clic en Administrar aplicaciones en el menú de navegación de la izquierda y luego haga clic en **[!UICONTROL Agregar]**.
 
-      Para obtener más información sobre cómo iniciar sesión, consulte [Iniciar sesión](/help/using/gs/gs-signin.md).
+      For more information about signing in, see Sign in.[](/help/using/gs/gs-signin.md)
 
       >[!TIP]
       >
@@ -42,22 +42,22 @@ Para poder configurar la aplicación, primero debe agregarla en la interfaz de u
 
    * **[!UICONTROL ID del grupo de informes]**
 
-      Este ID identifica exclusivamente el grupo de informes en Adobe Analytics. El prefijo de la empresa se agrega automáticamente al principio del ID.
+      This ID uniquely identifies the report suite in Adobe Analytics. El prefijo de la empresa se agrega automáticamente al principio del ID.
 
-   * **[!UICONTROL Copiar ajustes de]**
+   * **[!UICONTROL Copy Settings From]**
 
-      Las variables, los eventos, las reglas de procesamiento y otros ajustes se configuran en el nuevo grupo de informes exactamente igual que en este grupo de informes. Un grupo de informes creado en Mobile Services solo está disponible sin conexión (o marcado con hora) si el grupo de informes **Copiar ajustes de** que se ha usado es la plantilla de aplicación móvil, o si se crea un grupo de informes disponible sin conexión.
+      Las variables, los eventos, las reglas de procesamiento y otras opciones de configuración se configuran en el nuevo grupo de informes de la misma manera que en este grupo de informes. Un grupo de informes creado en Mobile Services solo está disponible sin conexión (o marcado con hora) si el grupo de informes **Copiar ajustes de** que se ha usado es la plantilla de aplicación móvil, o si se crea un grupo de informes disponible sin conexión.
 
-   * **[!UICONTROL Huso horario]**
+   * **[!UICONTROL Timezone]**
 
-      Todas las fechas de los informes están en esta zona horaria. Este ajuste intenta usar una zona horaria más cercana a la que usa su explorador.
+      Todas las fechas de informes están en este huso horario. Este ajuste intenta usar una zona horaria más cercana a la que usa su explorador.
 
    * **[!UICONTROL Moneda]**
 
-      Los ingresos se registran y se registran como este tipo de moneda.
+      Los ingresos se rastrean y se registran como este tipo de moneda.
    >[!TIP]
    >
-   >Para utilizar un grupo de informes virtuales (VRS), consulte [Grupos de informes virtuales](/help/using/manage-apps/c-mob-vrs.md).
+   >To use a virtual reporting suite (VRS), see Virtual Report Suites.[](/help/using/manage-apps/c-mob-vrs.md)
 
    * **[!UICONTROL Icono]**
 
@@ -65,7 +65,7 @@ Para poder configurar la aplicación, primero debe agregarla en la interfaz de u
 
    * **[!UICONTROL Nombre]**
 
-      (**Optional**) Type a descriptive name for the app. Este nombre le ayuda a localizar rápidamente una aplicación y un nombre significativo puede ayudarle a comprender rápidamente el propósito y la configuración de la aplicación.
+      (**Optional**) Type a descriptive name for the app. This name helps you quickly locate an app, and a meaningful name can help you quickly understand the app's purpose and settings.
 
    * **[!UICONTROL Tipo]**
 
@@ -83,7 +83,7 @@ Para poder configurar la aplicación, primero debe agregarla en la interfaz de u
 
       * **[!UICONTROL Juego]**
 
-         Esta opción se parece a **[!UICONTROL Estándar]**, con la diferencia de que **Juego]actualiza la terminología usada en los informes por términos de este campo.[!UICONTROL ** Por ejemplo, los usuarios se cambian a reproductores. Los informes específicos de juegos se muestran automáticamente en las aplicaciones de juegos.
+         Esta opción se parece a **[!UICONTROL Estándar]**, con la diferencia de que **Juego]actualiza la terminología usada en los informes por términos de este campo.[!UICONTROL ** For example, users is changed to players. Los informes específicos de juegos se muestran automáticamente en las aplicaciones de juegos.
    * **[!UICONTROL Descripción]**
 
       (**Optional**) Type a description for the app.
