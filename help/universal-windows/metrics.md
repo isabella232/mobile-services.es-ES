@@ -1,12 +1,12 @@
 ---
 description: Lista las métricas y dimensiones que se pueden medir automáticamente mediante la biblioteca móvil.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Lista las métricas y dimensiones que se pueden medir automáticamente mediante la biblioteca móvil.
 seo-title: Métricas del ciclo vital
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas del ciclo vital
 topic: Desarrollador e implementación
-uuid: f 958 c 3 ef -1 d 79-4 b 30-8966-ef 74 bd 48 a 5 d 6
+uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,14 +17,14 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Lista las métricas y dimensiones que se pueden medir automáticamente mediante la biblioteca móvil.
 
-Para obtener más información, consulte [Solución de problemas de los datos del ciclo vital](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obtener más información, consulte [Solución de problemas con los datos](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)del ciclo vital.
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos contextuales a Analytics, en parámetros a Target con cada llamada de mbox y como señal para la gestión de público. Analytics y Target usan el mismo formato, mientras que la gestión de público emplea un prefijo distinto para cada métrica.
 
-En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se registran usando la métrica o la dimensión. Las excepciones se indican en el contenido.
+Para Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se registran mediante la métrica o la dimensión. El contenido incluye excepciones.
 
 ## Métricas
 
@@ -48,7 +48,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
    >[!IMPORTANT]
    >
-   >Esta métrica no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
+   >This metric is not automatically stored in an Analytics metric. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
 
    * Analytics Context Data/Target parameter: `a.DailyEngUserEvent`
    * Audience Manager signal: `c_a_DailyEngUserEvent`
@@ -90,7 +90,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Install Date**
 
-   Fecha del primer inicio después de la instalación. El formato de fecha `MM/DD/YYYY`es.
+   Fecha del primer inicio después de la instalación. El formato de fecha es `MM/DD/YYYY`.
 
    * Analytics Context Data/Target parameter: `a.InstallDate`
    * Audience Manager signal: `c_a_InstallDate`
@@ -139,7 +139,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Versión del sistema operativo**
 
-   Versión del sistema operativo.
+   Versión del SO.
 
    * Analytics Context Data/Target parameter: `a.OSVersion`
    * Audience Manager signal: `c_a_OSVersion`
@@ -224,7 +224,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
    Populated by `trackLocation` methods.
 
-   * Parámetros de Target/datos contextuales de contexto de Analytics:
+   * Analytics Context Data/Target parameter(s):
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -238,7 +238,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
    Populated by `trackLocation` methods.
 
-   * Parámetros de Target/datos contextuales de contexto de Analytics:
+   * Parámetros de Analytics Context Data/Target:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -252,7 +252,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
    Populated by `trackLocation` methods.
 
-   * Parámetros de Target/datos contextuales de contexto de Analytics:
+   * Parámetros de Analytics Context Data/Target:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
