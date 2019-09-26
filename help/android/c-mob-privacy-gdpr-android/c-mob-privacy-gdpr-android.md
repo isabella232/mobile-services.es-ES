@@ -1,9 +1,9 @@
 ---
 description: Los SDK de Mobile de Experience Cloud ofrecen API preparadas para el Reglamento general de protección de datos (RGPD) para los controladores, lo que permite a los usuarios recuperar identidades almacenadas de forma local y establecer indicadores de estado de inclusión para la recopilación y transmisión de datos.
 seo-description: Los SDK de Mobile de Experience Cloud ofrecen API preparadas para el Reglamento general de protección de datos (RGPD) para los controladores, lo que permite a los usuarios recuperar identidades almacenadas de forma local y establecer indicadores de estado de inclusión para la recopilación y transmisión de datos.
-seo-title: Información general sobre el Reglamento de protección de datos general y privacidad
-title: Información general sobre el Reglamento de protección de datos general y privacidad
-uuid: 56 d 6 f 155-efec -4 b 3 f-a 972-a 63155729167
+seo-title: Privacy and General Data Protection Regulation overview
+title: Información general sobre el Reglamento general de protección de datos y privacidad
+uuid: 56d6f155-efec-4b3f-a972-a63155729167
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -37,10 +37,10 @@ Para las partes de sus aplicaciones móviles correspondientes al SDK de Adobe Mo
 
 * Para recuperar datos de los SDK y enviarlos a sus servidores, utilice el método `getAllIdentifiersAsync`.
 
-   Para obtener más información, consulte [Recuperación de identificadores almacenados](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md).
+   Para obtener más información, consulte [Recuperación de identificadores](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)almacenados.
 
 * Para establecer su estado de inclusión y ayudarle con una solicitud de eliminación de datos en virtud del RGPD, utilice la siguiente configuración:
 
    * `privacyDefault`
    * `setPrivacyStatus`
-   Para obtener más información, consulte [Configuración del estado de exclusión del usuario](/help/android/c-mob-privacy-gdpr-android/privacy.md).
+   Para obtener más información, consulte [Configuración del estado](/help/android/c-mob-privacy-gdpr-android/privacy.md)de opción del usuario.
