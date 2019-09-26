@@ -2,10 +2,10 @@
 description: Si su aplicación abre contenido de una web móvil, debe asegurarse de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 seo-description: Si su aplicación abre contenido de una web móvil, debe asegurarse de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 seo-title: Seguimiento de visitantes entre una aplicación y la web móvil
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
 topic: Desarrollador e implementación
-uuid: 2 d 951 de 6-3954-4379-a 4 ff -99 b 9695 b 9869
+uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
 translation-type: tm+mt
 source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
@@ -22,19 +22,19 @@ El SDK para iOS genera un ID de visitante exclusivo cuando se instala una aplica
 
 >[!TIP]
 >
->Los ID de visitante de la aplicación persisten a través de actualizaciones.
+>Los ID de visitante de la aplicación persisten a través de las actualizaciones.
 
 ## ID de visitante en la web móvil
 
 Las implementaciones web móviles típicas utilizan las mismas bibliotecas `s_code.js` o `AppMeasurement.js` estándar de Analytics que se emplean en los sitios de escritorio. Las bibliotecas de JavaScript tienen sus propios métodos para generar ID de visitante exclusivos, lo que causa que se genere un ID de visitante distinto al abrir contenido de la web móvil desde la aplicación.
 
-Para utilizar el mismo ID de visitante en la aplicación y la web móvil y pasar el ID de visitante de la aplicación a la web móvil en la URL:
+Para utilizar el mismo ID de visitante en la aplicación y en la web móvil y pasar el ID de visitante de la aplicación a la web móvil en la URL:
 
 ## Implement visitor tracking between an app and mobile web {#section_EDC91D6C67AD43999227707C2769C65D}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Para adjuntar información de visitante a la URL que se está utilizando para abrir el visor web, llame a `visitorAppendToURL`:
 
    ```objective-c
@@ -60,7 +60,7 @@ Este código de servicio de ID en el dominio de destino extrae el MID de la URL,
 
 Al producirse visitas en el contenido de la web móvil, compruebe en cada visita si el parámetro `mid` está presente y que su valor coincida con el del parámetro `mid` enviado por el código de la aplicación.
 
-## Solución de problemas del seguimiento de visitantes {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
+## Solucionar problemas de seguimiento de visitantes {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
 
 ### I do not see `[ADBMobile visitorAppendToURL:]`.
 
