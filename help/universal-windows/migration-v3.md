@@ -1,22 +1,22 @@
 ---
 description: En esta sección se explica cómo migrar la versión 3.x de un SDK móvil anterior de Windows al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
 seo-description: En esta sección se explica cómo migrar la versión 3.x de un SDK móvil anterior de Windows al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
-seo-title: Migrar a 4. x
-solution: Marketing Cloud, Analytics
-title: Migrar a 4. x
+seo-title: Migrar a 4.x
+solution: Marketing Cloud,Analytics
+title: Migrar a 4.x
 topic: Desarrollador e implementación
-uuid: bdd 6 c 5 cd -3892-4 e 99-b 69 e -77105 ad 66 e 25
+uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# Migración a los SDK 4. x{#migrate-to-x}
+# Migrar a los SDK 4.x{#migrate-to-x}
 
-En esta sección se describe cómo migrar de la versión 3. x del SDK móvil de Windows al SDK 4. x de la Plataforma universal de Windows para Soluciones de Experience Cloud.
+En esta sección se describe cómo migrar de la versión 3.x del SDK móvil de Windows al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
 
-Ahora, al pasar a la versión 4. x, se puede acceder a todas las funciones a través de métodos estáticos. Ya no es necesario realizar un seguimiento de sus propios objetos.
+With the move to version 4.x, all functionality is now accessible through static methods. You no longer need to keep track of your own objects.
 
 Las siguientes secciones explican cómo se realiza la migración de la versión 3.x a la 4.x.
 
@@ -56,7 +56,7 @@ Las siguientes tablas listan las variables de configuración que debe mover al a
 
 ### Migración desde 3.x
 
-En la tabla siguiente se proporciona una lista de variables en los SDK 3. x y el nuevo nombre en los SDK 4. x:
+The following table provides a list of variables in the 3.x SDKs and the new name in the 4.x SDKs:
 
 | Variable de configuración/Método | Variable in the `ADBMobileConfig.json` file. |
 |--- |--- |
@@ -80,9 +80,9 @@ En vez de utilizar las llamadas `Track` y `TrackLink`, centradas en la web, la v
 
 El parámetro `contextData` para ambos métodos contiene pares de nombre-valor que se envían como datos de contexto.
 
-### Eventos, props, evars
+### Events, props, eVars
 
-Si ha consultado los métodos [](/help/universal-windows/c-configuration/methods.md)del SDK, probablemente se esté preguntando dónde configurar eventos, evars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+Si ha observado los métodos [del](/help/universal-windows/c-configuration/methods.md)SDK, probablemente se esté preguntando dónde configurar eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
@@ -90,15 +90,15 @@ Las reglas de procesamiento ofrecen las siguientes ventajas:
 * Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
 * El impacto de enviar los datos extra es ínfimo. Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento.
 
-Para obtener más información, consulte *la sección Reglas* de procesamiento en [Información general](/help/universal-windows/analytics/analytics.md)de Analytics.
+Para obtener más información, consulte la sección Reglas *de* procesamiento en Información general [de Analytics](/help/universal-windows/analytics/analytics.md).
 
 Cualquier valor que asignara directamente a variables debe agregarse a los datos de contexto. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
-### Appsection/Server, geozip, transaction ID, Campaign y otras variables estándar
+### AppSection/Server, GeoZip, transaction ID, Campaign, and other standard variables
 
-Cualquier otro dato que configurara en el objeto de medición, incluidas las variables arriba indicadas, deben agregarse a los datos de contexto. Es decir, los únicos datos que se envían con una `TrackState` o `TrackAction` llamada es la carga útil del `data` parámetro.
+Cualquier otro dato que configurara en el objeto de medición, incluidas las variables arriba indicadas, deben agregarse a los datos de contexto. Es decir, los únicos datos enviados con una llamada `TrackState` o `TrackAction` son la carga útil en el `data` parámetro .
 
-**Reemplazar llamadas de seguimiento**
+**Replace tracking calls**
 
 En todo su código, sustituya los siguientes métodos con una llamada a `trackState` o `trackAction`:
 
@@ -115,7 +115,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-El seguimiento sin conexión está habilitado en `ADBMobileConfig.json` el archivo. El resto de la configuración sin conexión se realiza automáticamente.
+El seguimiento sin conexión está habilitado en el `ADBMobileConfig.json` archivo. El resto de la configuración sin conexión se realiza automáticamente.
 
 En todo su código, elimine las llamadas a los métodos siguientes:
 
