@@ -1,28 +1,27 @@
 ---
 description: 'La siguiente información le ayuda a configurar el SDK para Android, lo que incluye la configuración JSON, el agrupamiento de visitas y los métodos SDK '
 seo-description: 'La siguiente información le ayuda a configurar el SDK para Android, lo que incluye la configuración JSON, el agrupamiento de visitas y los métodos SDK '
-seo-title: Información general sobre la configuración
+seo-title: Configuration overview
 solution: Marketing Cloud,Analytics
-title: Información general sobre la configuración
+title: Configuration overview
 topic: Desarrollador e implementación
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
 translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Información general sobre la configuración {#configuration}
+# Configuration overview {#configuration}
 
-La información de esta sección le ayuda a configurar el SDK para Android, incluida la configuración JSON y el agrupamiento de visitas, y a obtener más información sobre los métodos del SDK.
+The information in this section helps you configure the Android SDK, including JSON configuration and hit batching and learn more about the SDK methods.
 
-## Nueva versión del SDK de Adobe Experience Cloud
+## New Adobe Experience Platform Mobile SDK Release
 
 ¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
->[!IMPORTANT]
->
->En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para empezar, vaya a [Launch](https://launch.adobe.com/).
+* Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+
