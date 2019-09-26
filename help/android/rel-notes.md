@@ -14,15 +14,15 @@ source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 
 # Notas de la versión {#release-notes}
 
-Estas son las notas de la versión, los problemas conocidos y la información de correcciones urgentes del SDK 4.x de Android para las soluciones de Experience Cloud:
+Here is the release notes, known issues, and hot fix information for Android SDK 4.x for Experience Cloud Solutions:
 
-**20 de septiembre de 2019: Versión 4.17.10**
+**September 20, 2019: Version 4.17.10**
 
-* General: Se corrigió la generación de cadenas de configuración regional en algunas regiones del nivel 21 o posterior de la API de Android.
+* General: Fixed locale string generation for some regions on Android API level 21 or newer.
 
 **18 de julio de 2019: Versión 4.17.8**
 
-* Adobe Target: Todas las solicitudes ahora incluyen el cliente y el sessionId en los parámetros de consulta de la dirección URL.
+* Adobe Target: All requests now include the client and the sessionId in the URL query parameters.
 * Mensajería en la aplicación: Se ha corregido un problema por el que, cuando un mensaje se activaba con una URL de pulsaciones vacías, las aplicaciones de Android se bloqueaban.
 * Servicio de ID de visitante: Las API `Visitor.appendToURL` y `Visitor.getUrlVariablesAsync` ya no codifican dos veces sus valores devueltos.
 
@@ -33,7 +33,7 @@ Estas son las notas de la versión, los problemas conocidos y la información de
 * General: Las llamadas de red en niveles de API de Android inferiores a 20 ahora utilizarán TLS 1.1 o TLS 1.2.
 * Analytics: estado de la opción de inclusión push anexada a los datos del ciclo vital cuando las notificaciones push están habilitadas.
 
-**24 de mayo de 2019: Versión 4.17.6**
+**May 24, 2019: Version 4.17.6**
 
 * servicio de ID de visitante: La variable
    `setPushIdentifier` La llamada de API ahora envía una llamada asincrónica al servicio de ID de visitante cada vez que se llama a él.
