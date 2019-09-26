@@ -3,12 +3,12 @@ description: Este complemento le permite enviar llamadas iOS AppMeasurement desd
 keywords: phonegap
 seo-description: Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto PhoneGap.
 seo-title: Complemento PhoneGap
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Complemento PhoneGap
 topic: Desarrollador e implementación
-uuid: f 88 bcf 10-1 f 9 e -4 c 97-b 348-40 db 797 c 9923
+uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
 
 ---
 
@@ -17,18 +17,17 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto PhoneGap.
 
-## Nueva versión del SDK de Adobe Experience Cloud
+## Nueva versión del SDK de Adobe Experience Platform Mobile
 
 ¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para empezar, vaya a Launch.
+* Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. Para obtener más información, consulte [Adobe Analytics: Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services).
+
+## Creación de un proyecto de PhoneGap
 
 To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
@@ -42,7 +41,7 @@ To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-
 
 ## Instalación manual del complemento {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
-### Incluir la biblioteca appmeasurement
+### Incluir la biblioteca AppMeasurement
 
 Para incluir AppMeasurement:
 
@@ -71,7 +70,7 @@ La biblioteca AppMeasurement requiere lo siguiente:
    1. Seleccione **[!UICONTROL Copiar elementos a la carpeta del grupo de destino (si es necesario)]**.
    1. Seleccione **[!UICONTROL Crear grupos para todas las carpetas agregadas]**.
    1. Seleccione los destinos en los que quiere usar el código AppMeasurement y haga clic en **[!UICONTROL Finalizar]**.
-   ![](assets/xcode-settings.png){width = "672"}
+   ![](assets/xcode-settings.png){width="672"}
 
 1. En la ficha **[!UICONTROL Fases de compilación]** del destino del proyecto, expanda la sección **Vincular binario con bibliotecas]y agregue las bibliotecas siguientes:[!UICONTROL **
 
