@@ -1,11 +1,11 @@
 ---
 description: Clases y métodos provistos por la biblioteca de la Plataforma universal de Windows.
 seo-description: Clases y métodos provistos por la biblioteca de la Plataforma universal de Windows.
-seo-title: Métodos de SDK
-solution: Marketing Cloud, Analytics
-title: Métodos de SDK
+seo-title: SDK methods
+solution: Marketing Cloud,Analytics
+title: Métodos SDK
 topic: Desarrollador e implementación
-uuid: e 3 aa 41 d 6-7 bc 0-4208-a 662-12907 c 209 a 77
+uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -20,7 +20,7 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-* **Getversion (winjs: Getversion)**
+* **GetVersion (winJS: getVersion)**
 
    Devuelve la versión actual de la biblioteca de Adobe Mobile.
 
@@ -36,15 +36,15 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
       var ADB = ADBMobile;var libVersion = ADB.Config.getVersion();
       ```
 
-* **Getprivacystatusasync (winjs: Getprivacystatusasync)**
+* **GetPrivacyStatusAsync (winJS: getPrivacyStatusAsync)**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
 
    * `ADBMobilePrivacyStatusOptIn` - Las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - Las visitas se descartan.
+   * `ADBMobilePrivacyStatusOptOut` - Hits are discarded.
    * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
 
-      The default value is set in the `ADBMobileConfig.json` config file. Para obtener más información, consulte [Archivo de configuración adbmobileconfig. json](/help/universal-windows/c-configuration/c.json.md).
+      The default value is set in the `ADBMobileConfig.json` config file. Para obtener más información, consulte [Archivo](/help/universal-windows/c-configuration/c.json.md)de configuración ADBMobileConfig.json.
 
    * Esta es la sintaxis para este método:
 
@@ -53,9 +53,9 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
       ^getPrivacyStatusAsync();
       ```
 
-   * Estos son los ejemplos de código de este método:
+   * Estos son los ejemplos de código para este método:
 
-      **C Sharp**
+      **C**
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int { ADBMobilePrivacyStatusOptIn = 1, 
@@ -73,7 +73,7 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
       );
       ```
 
-* **Setprivacystatus (winjs: Setprivacystatus)**
+* **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
    Sets the privacy status for the current user to `status`. Establezca uno de los siguientes valores:
    * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
@@ -86,9 +86,9 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
          static void SetPrivacyStatus(ADBMobilePrivacyStatus status);
          ```
 
-      * Estos son los ejemplos de código de este método:
+      * Estos son los ejemplos de código para este método:
 
-         **C-sharp**
+         **Engranaje en C**
 
          ```csharp
          public enum class ADBMobilePrivacyStatus : int { 
@@ -106,7 +106,7 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
          );
          ```
 
-* **Getlifetimevalue (winjs: Getlifetimevalue)**
+* **GetLifetimeValue (winJS: getLifetimeValue)**
 
    Devuelve el valor de duración del usuario actual. El valor predeterminado es `0`.
 
@@ -123,14 +123,14 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
       var ltv = ADB.Config.getLifetimeValue();
       ```
 
-* **Getuseridentifier (winjs: Getuseridentifier)**
+* **GetUserIdentifier (winJS: getUserIdentifier)**
 
    Devuelve el identificador de usuario personalizado si se ha establecido alguno. Returns `null` if a custom identifier is not set.
 El valor predeterminado es `null`.
 
    >[!IMPORTANT]
    >
-   >Si la aplicación se actualiza del SDK 3. x al 4. x de Experience Cloud, el servicio de ID previo (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el servicio de ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
 
    * Esta es la sintaxis para este método:
 
@@ -145,7 +145,7 @@ El valor predeterminado es `null`.
       var userId = ADB.Config.getUserIdentifier(); 
       ```
 
-* **Setuseridentifier (winjs: Setuseridentifier)**
+* **SetUserIdentifier (winJS: setUserIdentifier)**
 
    Establece el identificador de usuario como `identifier`.
 
@@ -162,7 +162,7 @@ El valor predeterminado es `null`.
       ADB.Config.setUserIdentifier("someUserId");
       ```
 
-* **Getdebuglogging (winjs: Getdebuglogging)**
+* **GetDebugLogging (winJS: getDebugLogging)**
 
    Devuelve la preferencia de registro de depuración actual. El valor predeterminado es `false`.
 
@@ -179,7 +179,7 @@ El valor predeterminado es `null`.
       var logging = ADB.Config.getDebugLogging();
       ```
 
-* **Setdebuglogging (winjs: Setdebuglogging)**
+* **SetDebugLogging (winJS: setDebugLogging)**
 
    Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento ignora esta configuración.
 
@@ -196,7 +196,7 @@ El valor predeterminado es `null`.
       ADB.Config.setDebugLogging(true);
       ```
 
-* **Collectlifecycledata (winjs: Collectlifecycledata)**
+* **CollectLifecycleData (winJS: collectLifecycleData)**
 
    Indica al SDK que los datos del ciclo vital deben ser recopilados para su uso en todas las soluciones en el SDK. For more information, see  [Lifecycle metrics](/help/universal-windows/metrics.md).
 
@@ -213,7 +213,7 @@ El valor predeterminado es `null`.
       ADB.Config.collectLifecycleData();
       ```
 
-* **Pausecollectinglifecycledata (winjs: Pausecollectinglifecycledata)**
+* **PauseCollecting&#x200B;LifecycleData (winJS: pauseCollecting&#x200B;LifecycleData)**
 
    Indica al SDK que la aplicación está en pausa para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
 
