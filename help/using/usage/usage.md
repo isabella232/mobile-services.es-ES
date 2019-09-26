@@ -3,10 +3,10 @@ description: Los informes de uso muestran la longitud promedio de sesión, los u
 keywords: móvil
 seo-description: Los informes de uso muestran la longitud promedio de sesión, los usuarios que participan diariamente y mensualmente, las actualizaciones y otros datos que le permiten saber cómo se usa su aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención de usuarios 1, 7 y 28 días después del primer inicio.
 seo-title: Informes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Informes
 topic: Informes, métricas
-uuid: 2 abc 2 bd 1-dbae -4 af 1-9 b 8 d -1 df 2 f 6 d 3 a 81 f
+uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -19,7 +19,7 @@ Los informes de uso muestran la longitud promedio de sesión, los usuarios que p
 
 Puede generar los siguientes informes en la interfaz de usuario de Mobile:
 
-* [Información general ](/help/using/usage/usage-overview.md)
+* [Información general](/help/using/usage/usage-overview.md)
 * [Usuarios y sesiones](/help/using/usage/users-sessions.md)
 * [Retención](/help/using/usage/reports-retention.md)
 * [Embudo](/help/using/usage/reports-funnel.md)
