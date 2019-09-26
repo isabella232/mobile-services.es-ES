@@ -3,7 +3,7 @@ description: Para empezar a utilizar la cooperación entre dispositivos de Exper
 seo-description: Para empezar a utilizar la cooperación entre dispositivos de Experience Cloud, póngase en contacto con su representante de Adobe.
 seo-title: Cooperación entre dispositivos de Experience Cloud
 title: Cooperación entre dispositivos de Experience Cloud
-uuid: 7 bb 8 a 19 c -4 b 80-4911-879 d-f 9941 baa 3 b 62
+uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,21 +18,21 @@ Si quiere habilitar sus aplicaciones móviles para la cooperación entre disposi
 
 >[!IMPORTANT]
 >
->Esta funcionalidad requiere la versión 4.8.3 o posterior del SDK para Android.
+>This functionality requires Android SDK version 4.8.3 or later.
 
 Empezando en la versión 4.16.1 de SDK, los miembros de Device Co-op pueden excluir sus datos de dispositivo móvil del Device Co-op de Experience Cloud. Para obtener más información, consulte [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md) y el método `visitorAPI.js` para [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html).
 
 1. Implemente el SDK de Adobe Mobile.
 
-   Para obtener más información, consulte [Implementación principal y Ciclo vital](/help/android/getting-started/dev-qs.md).
+   For more information, see Core Implementation and Lifecycle.[](/help/android/getting-started/dev-qs.md)
 1. Habilite su Experience Cloud ID.
 
    For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
 1. Transfiera los identificadores autenticados, como los de CRM o correos electrónicos con hash, utilizando uno de los métodos de sincronización.
 
-   Para obtener más información, consulte [Métodos de servicio de identidad de Adobe Experience Platform](/help/android/c-marketing-cloud/mc-methods.md).
+   For more information, see Adobe Experience Platform Identity Service Methods.[](/help/android/c-marketing-cloud/mc-methods.md)
 
-## `coopUnsafe` indicador
+## `coopUnsafe` flag
 
 Aquí puede encontrar más información sobre el marcador `coopUnsafe`:
 
