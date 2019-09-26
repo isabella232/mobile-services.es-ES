@@ -2,10 +2,10 @@
 description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-title: Seguimiento de bloqueos de aplicaciones
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic: Desarrollador e implementación
-uuid: 3 ab 98 c 14-ccdf -4060-ad 88-ec 07 c 1 c 6 bf 07
+uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqu
 
 >[!TIP]
 >
->Los bloqueos de aplicaciones se rastrean como parte de métricas del ciclo vital. Para poder rastrear bloqueos, agregue la biblioteca al proyecto e implemente el ciclo vital. Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto intellij IDEA o Eclipse* en [implementación y ciclo vital de Core](/help/android/getting-started/dev-qs.md).
+>App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the library to your project and implement lifecycle. For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 Cuando se implementan las métricas del ciclo vital, se llama a `Config.collectLifecycleData` en el método `OnResume` de cada actividad. In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
 
@@ -38,7 +38,7 @@ Para obtener información sobre el ciclo de duración de las actividades de Andr
 
    >[!TIP]
    >
-   >Para evitar este bloqueo, coloque en segundo plano la aplicación antes de volver a iniciarla desde el IDE.
+   >You can avoid this crash by backgrounding the app before launching again from the IDE.
 
 1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
 
@@ -50,7 +50,7 @@ Los fragmentos tienen eventos de ciclo vital de aplicación similares a las acti
 >
 >Debe confiar en los eventos de ciclo vital con los que las actividades contenedoras pueden ejecutar el código. Esto lo gestionará la vista principal del fragmento.
 
-## (Opcional) Implemente llamadas de retorno de ciclo vital de actividad
+## (Opcional) Implementar llamadas de retorno de ciclo vital de la actividad
 
 Desde el Nivel 14 de la API, Android permite las llamadas de retorno de ciclo vital globales para las actividades. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 
