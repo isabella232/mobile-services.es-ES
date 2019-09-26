@@ -3,10 +3,10 @@ description: Debe completar estas tareas antes de configurar la mensajería push
 keywords: móvil
 seo-description: Debe completar estas tareas antes de configurar la mensajería push en las aplicaciones.
 seo-title: Requisitos previos para activar la mensajería push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Requisitos previos para activar la mensajería push
 topic: Métricas
-uuid: 194 e 6 e 07-b 794-4152-a 838-a 4125 c 3292 d 4
+uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 translation-type: tm+mt
 source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
@@ -15,11 +15,11 @@ source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
 # Prerequisites to enable push messaging {#prerequisites-to-enable-push-messaging}
 
-Debe completar estas tareas antes de configurar la mensajería push en las aplicaciones.
+Debe completar estas tareas antes de configurar la mensajería push en sus aplicaciones.
 
 ## Habilitar Experience Cloud para su empresa
 
-La empresa de Adobe Analytics debe estar habilitada para Experience Cloud. Puede verificar el estado del ejecutivo de cuentas de Adobe.
+La empresa de Adobe Analytics debe estar habilitada para Experience Cloud. Puede comprobar el estado del ejecutivo de cuentas de Adobe.
 
 ## Instalación y configuración del SDK de Mobile
 
@@ -32,14 +32,14 @@ La empresa de Adobe Analytics debe estar habilitada para Experience Cloud. Puede
    Debe configurar los servicios push en el SDK de Mobile.
 Para obtener más información, consulte el contenido siguiente:
 
-   * [Mensajería push en Android](/help/android/messaging-main/push-messaging/push-messaging.md)
-   * [Mensajería push en iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
+   * [Push Messaging in Android](/help/android/messaging-main/push-messaging/push-messaging.md)
+   * [Push Messaging in iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 ## Inicie sesión en los servicios principales de Mobile mediante el uso del Adobe ID
 
 >[!IMPORTANT]
 >
->Para utilizar la función de servicios push, los usuarios deben iniciar sesión en Mobile Core Service usando su Adobe ID y su cuenta de Analytics debe estar vinculada a sus Adobe ID. La función de servicios push no está disponible en caso de que los usuarios inicien sesión mediante sus cuentas de Adobe Analytics.
+>Para utilizar la funcionalidad de servicios push, los usuarios deben iniciar sesión en Mobile Core Service con su Adobe ID y su cuenta de Analytics debe estar vinculada a sus Adobe ID. La función de servicios push no está disponible en caso de que los usuarios inicien sesión mediante sus cuentas de Adobe Analytics.
 
 Si los usuarios no tienen un Adobe ID, complete estos pasos:
 
@@ -51,7 +51,7 @@ Si los usuarios no tienen un Adobe ID, complete estos pasos:
 
 1. (**Users**) Log in to Mobile using their Adobe ID.
 
-## Vincular cuentas de usuarios en Experience Cloud
+## Link users' accounts in the Experience Cloud
 
 Todos los usuarios deben vincular la cuenta de la solución Analytics desde la organización de Experience Cloud.
 
@@ -67,11 +67,11 @@ Todos los usuarios deben vincular la cuenta de la solución Analytics desde la o
 
 Para obtener más información, consulte [Solución de problemas con la vinculación de cuentas](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-## Configurar los servicios push y el servicio de ID de SDK en la interfaz de usuario de Mobile
+## Configuración de servicios push y el servicio de ID de SDK en la interfaz de usuario de Mobile
 
-Antes de activar el servicio de ID en la aplicación, se desactiva la sección **[!UICONTROL Servicios push],** Sin embargo, después de habilitar el servicio de ID, la sección Servicios push está activada. Para obtener más información sobre cómo activar los servicios push, consulte [Configurar opciones de servicio de ID de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
+Antes de activar el servicio de ID en la aplicación, se desactiva la sección **[!UICONTROL Servicios push],** But, after you enable the ID service, the Push Services section is enabled. For more information about enabling push services, see Configure SDK ID service options.[](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
 
->[!IMPORTANT]: Debe hacer clic **[!UICONTROL en Guardar]** para guardar los cambios y actualizar los servicios push.
+>[!IMPORTANT]:: Debe hacer clic en **[!UICONTROL Guardar]** para guardar los cambios y actualizar los servicios push.
 >
 >Puede configurar una aplicación de tienda de aplicaciones para Apple y otra para Google en cada grupo de informes. Si necesita más aplicaciones, por ejemplo, una para un entorno de producción y otra para uno de desarrollo, configure una aplicación de tienda de aplicaciones y un grupo de informes para cada entorno.
 
@@ -91,4 +91,4 @@ Antes de activar el servicio de ID en la aplicación, se desactiva la sección *
 
    Escriba los tokens push del dispositivo que desee enviar al mensaje. Para enviar el mensaje a varios dispositivos, puede especificar los tokens en una lista separada por comas.
 
-   ![Mensaje de prueba push](assets/push_test_list.png)
+   ![mensaje push test](assets/push_test_list.png)
