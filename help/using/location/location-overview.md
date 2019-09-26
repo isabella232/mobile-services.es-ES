@@ -3,7 +3,7 @@ description: Información general sobre la sección Ubicación.
 keywords: móvil
 seo-description: Información general sobre la sección Ubicación.
 seo-title: Información general de ubicación
-title: Información general de ubicación
+title: Location overview
 translation-type: tm+mt
 source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
 
@@ -18,4 +18,4 @@ source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
 
 >[!IMPORTANT]
 >
->En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html). Para comenzar, vaya a [https://launch.adobe.com/](https://launch.adobe.com/). Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+>En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html). Para empezar, vaya a [https://launch.adobe.com/](https://launch.adobe.com/). Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
