@@ -3,10 +3,10 @@ description: Puede configurar las opciones de SDK Analytics en la página Admini
 keywords: móvil
 seo-description: Puede configurar las opciones de SDK Analytics en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar las opciones de SDK Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configurar las opciones de SDK Analytics
 topic: Métricas
-uuid: fd 3 a 21 d 2-6560-4 e 96-92 fe-b 99 caac 5 e 834
+uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Antedatar coincidencias de sesión]**
 
-   Active o desactive la capacidad de antedatar coincidencias de información de sesión de Adobe SDK. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Al activarse, Adobe SDK antedatará la coincidencia de información de la sesión un segundo después de la última coincidencia de la sesión anterior. Esto significa que los bloqueos y los datos de la sesión estarán correlacionados con la fecha correcta en la que tuvieron lugar. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
+   Habilite o deshabilite la capacidad del SDK de Adobe para antedatar las visitas de información de sesión. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Al activarse, Adobe SDK antedatará la coincidencia de información de la sesión un segundo después de la última coincidencia de la sesión anterior. Esto significa que los bloqueos y los datos de la sesión estarán correlacionados con la fecha correcta en la que tuvieron lugar. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
 
 * **[!UICONTROL Privacidad]**
 
