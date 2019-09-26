@@ -2,10 +2,10 @@
 description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se envía una llamada de estado de seguimiento. En iOS, el seguimiento de los estados suele realizarse en el método viewDidLoad de cada vista.
 seo-description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se envía una llamada de estado de seguimiento. En iOS, el seguimiento de los estados suele realizarse en el método viewDidLoad de cada vista.
 seo-title: Seguimiento de estados de aplicaciones
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de estados de aplicaciones
 topic: Desarrollador e implementación
-uuid: 12 cca 4 eb -1 f 15-4 cec-a 58 f -76 b 69 eaff 99 d
+uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -24,7 +24,7 @@ Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca.
 
    ```objective-c
