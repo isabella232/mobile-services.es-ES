@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: Desarrollador e implementación
-uuid: c 2 cef 3 d 3-77 a 7-4 a 8 e-bbe 4-3 db 10 a 77996 a
+uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,11 +14,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Analytics {#analytics}
 
-Después de agregar la biblioteca a su proyecto, puede hacer que cualquiera de los métodos de Analytics realice llamadas en cualquier parte de la aplicación.
+Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación.
 
 >[!TIP]
 >
->Asegúrese de importar `ADBMobile.h` a la clase.
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -38,7 +38,7 @@ Antes de añadir código, pida a su administrador de Analytics que complete los 
 
 Ya se pueden capturar las métricas del ciclo vital, e Informes de aplicaciones móviles aparece en el menú **Informes** de la interfaz de informes de marketing.
 
-### Versiones nuevas
+### Nuevas versiones
 
 Se lanzan nuevas versiones de los informes de aplicaciones móviles de forma periódica. Estas versiones no se aplican automáticamente a su grupo de informes, debe repetir estos pasos para realizar la actualización. Recomendamos repetir estos pasos cada vez que añada nuevas funciones de Experience Cloud a la aplicación para garantizar que dispone de la configuración más reciente.
 
@@ -46,7 +46,7 @@ Se lanzan nuevas versiones de los informes de aplicaciones móviles de forma per
 
 Para recopilar métricas del ciclo vital en la aplicación, añada llamadas que se activen cuando lo haga la aplicación, como se muestra en los ejemplos siguientes.
 
-### Winjs en default. js
+### WinJS in default.js
 
 ```js
 app.onactivated = function (args) { 
@@ -61,7 +61,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C # en App. xaml. cs
+### C# in App.xaml.cs
 
 ```js
 public App() 
@@ -178,15 +178,15 @@ Las variables de datos de contexto que definen eventos incrementadores pueden te
 
 >[!TIP]
 >
->Adobe se reserva el espacio de nombres `a.`. Aparte de esta restricción, las variables de datos de contexto solo tienen que ser únicas en su empresa de inicio de sesión para evitar conflictos.
+>Adobe reserves the namespace . `a.` Aparte de esta restricción, las variables de datos de contexto solo deben ser únicas en su empresa de inicio de sesión para evitar conflictos.
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Para obtener más información, consulte [Variable products](/help/universal-windows/analytics/products.md).
+Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. For more information, see Products variable.[](/help/universal-windows/analytics/products.md)
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Preste especial atención a los requisitos de marca de hora descritos en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
+To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. Antes de habilitar el seguimiento sin conexión, preste especial atención a los requisitos de marca de hora descritos en la referencia del archivo de configuración.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
