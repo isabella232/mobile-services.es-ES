@@ -3,10 +3,10 @@ description: Puede hacer un seguimiento de los datos que recibe de la aplicació
 keywords: móvil
 seo-description: Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
 seo-title: Gestionar su aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Gestionar su aplicación
 topic: Métricas
-uuid: 0 cc 356 c 3-8457-40 a 7-8 c 97-7 cbc 68 a 5 dc 0 c
+uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -21,12 +21,12 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
 * **Variables y métricas estándar**
 
-   Cada aplicación incluye variables y métricas para hacer un seguimiento del carro de la compra y de las actividades de compra. Some purchase information cannot be handled with processing rules, so the SDK exposes the special `"&&products"` context data. Por ejemplo, puede tener las variables de adiciones al carro de la compra, eliminaciones de este, cierres de compras, pedidos, etc. Los datos de contexto se deben asignar a los datos de Adobe Analytics. Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Déjelo en blanco si las reglas más complejas rellenan la variable en las Herramientas de administración de Analytics.
+   Cada aplicación incluye variables y métricas para hacer un seguimiento del carro de la compra y de las actividades de compra. Some purchase information cannot be handled with processing rules, so the SDK exposes the special `"&&products"` context data. Por ejemplo, puede tener las variables de adiciones al carro de la compra, eliminaciones de este, cierres de compras, pedidos, etc. Los datos de contexto se deben asignar a los datos de Adobe Analytics. Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Déjela en blanco si la variable se rellena con reglas más complejas en las Herramientas de administración de Analytics.
 
    Para obtener más información sobre estas variables y métricas, consulte los siguientes temas:
 
    * [Variables de producto en Android](/help/android/analytics-main/products/products.md)
-   * [Variables de producto en iOS](/help/ios/analytics-main/products/products.md)
+   * [Product Variables in iOS](/help/ios/analytics-main/products/products.md)
 
 * **Variables personalizadas**
 
@@ -38,7 +38,7 @@ Click **[!UICONTROL Manage App Settings]** &gt; **[!UICONTROL Manage Variables &
 
 These mappings call the same API that is used in [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-![Asignación de datos de contexto](assets/custom_data_content.png)
+![Context Data Mapping](assets/custom_data_content.png)
 
 Esta lista recoge las variables personalizadas que se pueden configurar:
 
@@ -47,9 +47,9 @@ Esta lista recoge las variables personalizadas que se pueden configurar:
    Cuando un valor se establece para una propiedad en una llamada (o visita) de seguimiento, dicho valor solo se aplica a esta llamada.
 
 * The **[!UICONTROL Custom Variables]** (or evars) also answer the question "which one?" Sin embargo, un valor de una variable no solo se puede aplicar a la visita en la que se envía, sino también a las variables y a las métricas enviadas en los resultados subsiguientes hasta que el valor caduque o hasta que se defina un nuevo valor.
-* The **[!UICONTROL Custom List Variables (or Multi-Value Variables)]** behave the same as variables except they allow you to capture multiple values on one hit. Para obtener más información, consulte [Variables de lista](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html).
+* The **[!UICONTROL Custom List Variables (or Multi-Value Variables)]** behave the same as variables except they allow you to capture multiple values on one hit. Para obtener más información, consulte [Variables](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html)de lista.
 
-Las asignaciones siguientes se muestran en Analytics como creadas en Mobile Services.
+The following mappings display in Analytics as being created in Mobile Services.
 
 * **[!UICONTROL Nombre]**
 
@@ -61,7 +61,7 @@ Las asignaciones siguientes se muestran en Analytics como creadas en Mobile Serv
 
    Haga clic en la columna de datos de contexto y seleccione la variable de datos de contexto que desea asignar. La lista desplegable contiene las variables recibidas durante los últimos 30 días, por lo que si los datos de contexto que desea asignar no están en la lista, los puede escribir.
 
-* **[!UICONTROL Persistencia (Variables personalizadas y Variables de lista personalizadas)]**
+* **[!UICONTROL Persistencia (variables personalizadas y variables de lista personalizadas)]**
 
    La persistencia determina el punto en el que el valor de una variable personalizada (eVar) caducará o dejará de estar asociado a visitas adicionales. Si una eVar ha caducado cuando se activa una visita, se asociará el valor Ninguno a esa visita para esa eVar. Esto significa que no había ningún valor de eVar activo cuando se activó la visita.
 
@@ -69,42 +69,42 @@ Las asignaciones siguientes se muestran en Analytics como creadas en Mobile Serv
 
    * **[!UICONTROL Sesión]**
 
-      El valor de evar persiste durante la duración de la visita de Analytics.
+      The eVar value persists for the length of the Analytics visit.
 
    * **[!UICONTROL Llamada de seguimiento]**
 
-      El valor de evar persiste solamente para la llamada de seguimiento o la visita en la que se incluyó.
+      El valor de eVar persiste solamente para la llamada de seguimiento o la visita en la que se incluyó.
 
    * **[!UICONTROL No caducar nunca]**
 
-      El valor de evar persiste para todas las llamadas de seguimiento subsiguientes.
+      El valor de eVar persiste para todas las llamadas de seguimiento subsiguientes.
    * **[!UICONTROL Avanzadas]**
 
-      Adobe Analytics tiene una interfaz de usuario más avanzada para establecer la persistencia de las eVars. Si se establece un valor de persistencia para la evar que no se admite en Mobile Services, este valor se muestra en la interfaz de usuario de Mobile Services.
+      Adobe Analytics tiene una interfaz de usuario más avanzada para establecer la persistencia de las eVars. Si se establece un valor de persistencia para la eVar que no se admite en Mobile Services, este valor se muestra en la interfaz de usuario de Mobile Services.
 
       To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** &gt; **[!UICONTROL Conversion Variables UI]**.
 
    * **[!UICONTROL Compatibilidad de lista]**
 
-      Permite asociar varios valores a la propiedad en una llamada de seguimiento. El delimitador debe ser un carácter y no puede ser cero o un espacio.
+      Permite asociar el paso de varios valores con la propiedad en una llamada de seguimiento. El delimitador debe ser un carácter y no puede ser un cero o un espacio.
 
    * **[!UICONTROL Delimitador]**
 
-      El delimitador debe ser un carácter y no puede ser cero o un espacio.
+      The delimiter must be one character and cannot be a zero or a space.
 
 ### Variables adicionales de Analytics
 
 Puede activar variables adicionales en la lista desplegable que hay en la parte inferior de cada sección de variables.
 
-![agregar una variable](assets/add_variable.png)
+![add a variable](assets/add_variable.png)
 
 Seleccione un número de variable que no esté en uso y escriba un nombre. También puede proporcionar la variable de datos de contexto que desea almacenar, así como cualquier información adicional.
 
 * **Métricas personalizadas**
 
-   Las métricas (o los eventos) responden a las preguntas *.* o *¿cuántos?*. Los eventos pueden, bien aumentar cada vez que un usuario realiza una acción, o bien retener valores numéricos, como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación de un archivo PDF o CSV, el guardado de una campaña, la descarga de un SDK, la ejecución de un informe, la adición de un vínculo a la tienda de aplicaciones, la activación de un mensaje en la aplicación, etc.
+   *Metrics (or events) answer the questions how much? or how many?***. Los eventos pueden, bien aumentar cada vez que un usuario realiza una acción, o bien retener valores numéricos, como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación de un archivo PDF o CSV, el guardado de una campaña, la descarga de un SDK, la ejecución de un informe, la adición de un vínculo a la tienda de aplicaciones, la activación de un mensaje en la aplicación, etc.
 
-   Seleccione uno de los siguientes tipos de métricas personalizadas:
+   Select one of the following custom metric types:
 
    * **[!UICONTROL Número entero]**
    * **[!UICONTROL Número decimal]**
@@ -112,11 +112,11 @@ Seleccione un número de variable que no esté en uso y escriba un nombre. Tambi
 
 ## Administrar puntos de interés {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
-Los puntos de interés le permiten definir ubicaciones geográficas que puede utilizar para fines de correlación, dirigir con mensajes en la aplicación, etc. Al enviar una visita en un punto de interés, este se adjunta a la visita. Para obtener más información sobre los puntos de interés, consulte [Administrar puntos de interés](/help/using/location/t-manage-points.md).
+Points of interest allow you to define geographical locations that you can use for correlation purposes, target with in-app messages, and so on. Al enviar una visita en un punto de interés, este se adjunta a la visita. Para obtener más información sobre los puntos de interés, consulte [Administrar puntos de interés](/help/using/location/t-manage-points.md).
 
 ## Administrar destinos de vínculo {#section_F722A387E22A430187B063D358A87711}
 
-Puede crear, editar, archivar/desarchivar y eliminar destinos de vínculos. Estos destinos se pueden llamar en línea al crear vínculos de marketing, notificaciones push o mensajes en la aplicación. Para obtener más información acerca de los destinos de vínculo, consulte [Administrar destinos de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md).
+Puede crear, editar, archivar/desarchivar y eliminar destinos de vínculos. Estos destinos se pueden llamar en línea al crear vínculos de marketing, notificaciones push o mensajes en la aplicación. For more information about link destinations, see Manage Link Destinations.[](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
 
 ## Administrar postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
