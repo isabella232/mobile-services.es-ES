@@ -2,29 +2,38 @@
 description: A partir de WatchOS 2, las extensiones WatchKit se pueden ejecutar en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el marco WatchConnectivity comparta datos con la aplicación iOS contenedora.
 seo-description: A partir de WatchOS 2, las extensiones WatchKit se pueden ejecutar en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el marco WatchConnectivity comparta datos con la aplicación iOS contenedora.
 seo-title: Implementación de Apple Watch con WatchOS 2
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementación de Apple Watch con WatchOS 2
 topic: Desarrollador e implementación
-uuid: 9498467 e-db 5 e -411 e-a 00 e-d 19841 f 485 de
+uuid: 9498467e-db5e-411e-a00e-d19841f485de
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
 
 # Apple Watch implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
 
-A partir de watchos 2, las extensiones watchkit pueden ejecutarse en Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
+A partir de WatchOS 2, las extensiones WatchKit se pueden ejecutar en Apple Watch. Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
 
 >[!TIP]
 >
->A partir de `AdobeMobileLibrary` la versión 4.6.0, `WatchConnectivity` es compatible.
+>Se admite a partir de `AdobeMobileLibrary` v4.6.0 `WatchConnectivity` .
+
+## Nueva versión del SDK de Adobe Experience Platform Mobile
+
+¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* Para empezar, vaya a Adobe Experience Platform Launch.
+* Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 ## Primeros pasos {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
->Asegúrese de tener un proyecto con al menos los siguientes objetivos:
+>Asegúrese de que tiene un proyecto con al menos los siguientes objetivos:
 >
 >* La aplicación contenedora
 >* La aplicación WatchKit
@@ -73,7 +82,7 @@ Complete los siguientes pasos en su proyecto Xcode:
 
 1. In your app delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
 
-   `syncSettings:` en `ADBMobile` la biblioteca, que devuelve un booleano que indica si el diccionario estaba destinado a consumo por `ADBMobile` parte de la biblioteca. Si devuelve el valor `No`, el mensaje no se inició desde el SDK de Adobe.
+   `syncSettings:` is called in the  library, which returns a bool that indicates whether the dictionary was meant for consumption by the  library. `ADBMobile``ADBMobile` Si devuelve el valor `No`, el mensaje no se inició desde el SDK de Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -90,7 +99,7 @@ Complete los siguientes pasos en su proyecto Xcode:
    } 
    ```
 
-## Configurar la extensión watchkit {#section_5ADE31741E514330A381F2E3CFD4A814}
+## Configuración de la extensión WatchKit {#section_5ADE31741E514330A381F2E3CFD4A814}
 
 1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target.
 1. En la ficha **[!UICONTROL Fases de compilación]** del destino de su extensión WatchKit, expanda la sección **Vincular binario con bibliotecas]y agregue las bibliotecas siguientes:[!UICONTROL **
@@ -130,7 +139,7 @@ Complete los siguientes pasos en su proyecto Xcode:
 
 1. In your extension delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
 
-   `syncSettings:` en `ADBMobile` la biblioteca, que devuelve un booleano que indica si el diccionario estaba destinado a consumo por `ADBMobile` parte de la biblioteca. Si devuelve el valor `NO`, el mensaje no se inició desde el SDK de Adobe.
+   `syncSettings:` se llama en la `ADBMobile` biblioteca, que devuelve un bool que indica si el diccionario estaba destinado al consumo en la `ADBMobile` biblioteca. Si devuelve el valor `NO`, el mensaje no se inició desde el SDK de Adobe.
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
