@@ -3,10 +3,10 @@ description: Puede configurar las opciones de programación para los mensajes en
 keywords: móvil
 seo-description: Puede configurar las opciones de programación para los mensajes en la aplicación, incluida la duración, los días de la semana y la hora del día.
 seo-title: Programar mensaje en la aplicación
-solution: Marketing Cloud, Analytics
-title: Programar mensaje en la aplicación
+solution: Marketing Cloud,Analytics
+title: Schedule  In-App Message
 topic: Métricas
-uuid: d 10 e 691 b -105 a -4165-a 49 d-d 046 ce 250 acd
+uuid: d10e691b-105a-4165-a49d-d046ce250acd
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -19,7 +19,7 @@ Puede configurar las opciones de programación para los mensajes en la aplicaci�
 
 >[!TIP]
 >
->Los intervalos de fecha están definidos por su zona horaria. Los días concretos y los intervalos de hora son relativos al dispositivo del usuario.
+>El huso horario define los intervalos de fechas. Los días concretos y los intervalos de hora son relativos al dispositivo del usuario.
 
 1. In your app, click **[!UICONTROL Messaging]** &gt; **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]** &gt; **[!UICONTROL Create In-App]**.
 1. Haga clic en **[!UICONTROL Programación]**.
