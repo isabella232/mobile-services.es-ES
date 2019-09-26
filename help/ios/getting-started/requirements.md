@@ -2,10 +2,10 @@
 description: Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
 seo-description: Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
 seo-title: Antes de comenzar
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Antes de comenzar
 topic: Desarrollador e implementación
-uuid: 04133 f 68-3618-41 fd -8 a 13-aec 5 b 6 f 04 df 6
+uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -52,11 +52,11 @@ Puede iniciar sesión en Adobe Mobile Services de una de las siguientes formas:
 
    Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID.
 
-   Este método asume que su empresa se ha aprovisionado y que ha vinculado su cuenta de Analytics. Para obtener más información sobre el aprovisionamiento, consulte [Administración de usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html). Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones y vinculación de cuentas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+   This method assumes that your company has been provisioned and you have linked your Analytics account. Para obtener más información sobre el aprovisionamiento, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)de Experience Cloud. Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones y vinculación](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de cuentas.
 
    >[!TIP]
    >
-   >Si no está seguro de si su empresa ha sido aprovisionada en Experience Cloud, utilice su cuenta existente de Adobe Analytics.
+   >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
 
 * **Adobe Analytics**
 
@@ -74,7 +74,7 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 1. Introduzca el nombre de su aplicación y seleccione un ID de grupo de informes exclusivo.
 
-   Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Debe configurar grupos de informes y aplicaciones separados para las versiones de desarrollo y producción. Cuando esté listo para configurar la versión de producción, repita estos pasos.
+   Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Debe configurar grupos de informes y aplicaciones independientes para las versiones de desarrollo y producción. Cuando esté listo para configurar la versión de producción, repita estos pasos.
 1. Deje seleccionado **[!UICONTROL Plantilla de aplicación móvil].**
 
    Esta plantilla permite que las marcas de fecha y hora recopilen datos sin conexión y activar las variables de soluciones móviles para capturar métricas del ciclo vital.
@@ -85,7 +85,7 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 Para descargar el SDK de Mobile:
 
-1. Inicie sesión en Mobile Services y abra la aplicación de una de las siguientes maneras:
+1. Inicie sesión en Mobile Services y abra la aplicación de una de las siguientes formas:
 
    * En la lista desplegable **[!UICONTROL Todas las aplicaciones], seleccione su aplicación.**
    * En el panel derecho, busque su aplicación y ábrala.
@@ -97,5 +97,5 @@ Para descargar el SDK de Mobile:
 
 >[!TIP]
 >
->En la descarga del SDK se incluye automáticamente un archivo de configuración para su aplicación, por lo que no es necesario descargar ese archivo por separado. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
+>A config file for your app is automatically included in the SDK download, so you do not need to download that file separately. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
 
