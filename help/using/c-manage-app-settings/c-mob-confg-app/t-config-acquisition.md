@@ -3,10 +3,10 @@ description: Puede configurar las opciones de adquisición de SDK en la página 
 keywords: móvil
 seo-description: Puede configurar las opciones de adquisición de SDK en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar las opciones de adquisición de SDK
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configurar las opciones de adquisición de SDK
 topic: Métricas
-uuid: 50 ce 51 ad -39 bf -4 ac 7-bd 94-757443 d 11 ca 7
+uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
 source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
 
@@ -27,7 +27,7 @@ Puede configurar las opciones de adquisición de SDK en la página Administrar c
 
       Especifique el valor de tiempo de espera del referente.
 
-      El valor predeterminado es de 5 segundos, y este valor especifica la cantidad de segundos que debe esperar la información de adquisición antes de enviar la visita de primer inicio.
+      The default value is 5 seconds, and this value specifies the number of seconds to wait for acquisition information before sending the First Launch hit.
 
    * **[!UICONTROL Más detalles]**
 
