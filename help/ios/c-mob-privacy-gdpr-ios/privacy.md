@@ -2,10 +2,10 @@
 description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 seo-description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 seo-title: Configuración del estado de exclusión del cliente
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configuración del estado de exclusión del cliente
 topic: Desarrollador e implementación
-uuid: 44 a 09 a 25-93 c 6-4 e 1 a-b 69 e -710018 e 8 b 6 c 3
+uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -22,7 +22,7 @@ Esta información le será de ayuda para la solicitud de eliminación de datos d
 
 Puede controlar si la actividad de Analytics, Target y Audience Manager está permitida en un dispositivo mediante la siguiente configuración:
 
-* `privacyDefault` en [la configuración JSON de adbmobile](/help/ios/configuration/json-config/json-config.md).
+* `privacyDefault` en [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
 
    Este ajuste controla la configuración inicial que persiste hasta que se cambia en el código.
 
@@ -50,7 +50,7 @@ Esta es la información sobre cada estado de privacidad:
    * Value in the JSON config file: `optedout`
    * Valor en `setPrivacyStatus`: `ADBMobilePrivacyStatusOptOut`
 
-* **Desconocido**
+* **Unknown**
 
    * Analytics: si el seguimiento en línea **está** activado, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
 
