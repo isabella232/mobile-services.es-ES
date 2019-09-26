@@ -2,10 +2,10 @@
 description: Puede enviar mensajes en las aplicaciones que se activen mediante cualquier dato o evento de Analytics. Tras la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
 seo-description: Puede enviar mensajes en las aplicaciones que se activen mediante cualquier dato o evento de Analytics. Tras la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
 seo-title: Mensajería en la aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensajería en la aplicación
 topic: Desarrollador e implementación
-uuid: 351 ee 3 d 2-80 b 9-4 f 2 d -9696-21 f 274 d 89 f 5 a
+uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -41,7 +41,7 @@ Puede crear mensajes, así como las reglas de Adobe Mobile Services que definen 
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto intellij IDEA o Eclipse* en [implementación y ciclo vital de Core](/help/android/getting-started/dev-qs.md).
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 1. Update the `AndroidManifest.xml` file to declare the full screen activity and enable the Message Notification Handler:
 
@@ -123,11 +123,11 @@ El SDK de Mobile para Android realiza un seguimiento de las siguientes métricas
 
    * **Impresiones**: cuando el usuario activa un mensaje dentro de la aplicación.
    * **Pulsaciones**: cuando el usuario pulsa **[!UICONTROL Pulsaciones]**.
-   * **Cancela: cuando el usuario pulsa****Cancelar.**
+   * **Cancels: when user presses Cancel.******
 
 * Para los mensajes personalizados en pantalla completa, el contenido HTML del mensaje debe incluir el código adecuado para notificar al sistema de seguimiento del SDK el uso de los botones siguientes:
 
-   * **Seguimiento de ejemplo de pulsación** (redirección):
+   * **Click-through (redirect) example tracking:**
 
       `adbinapp://confirm/?url=https://www.yoursite.com`
    * **Cancelar** (cerrar) seguimiento de ejemplo:
@@ -140,7 +140,7 @@ Al crear un mensaje de pantalla completa, tiene la opción de especificar una im
 
 >[!IMPORTANT]
 >
->El nombre de recurso de la imagen de reserva se especifica al configurar el mensaje en Adobe Mobile Services y debe asegurarse de que el recurso especificado está disponible.
+>El nombre del recurso de imagen de reserva se especifica al configurar el mensaje en Adobe Mobile Services y debe asegurarse de que el recurso especificado está disponible.
 
 ## Configuring notification icons {#section_DDA28BDBCBB748BCBECF3AB50A177D48}
 
@@ -156,7 +156,7 @@ Los siguientes métodos le permiten configurar los iconos pequeños y grandes qu
       public static void setSmallIconResourceId(final int resourceId); 
       ```
 
-   * Este es el ejemplo de código de este método:
+   * Here is the code example for this method:
 
       ```java
       Config.setSmallIconResourceId(R.drawable.appIcon);
