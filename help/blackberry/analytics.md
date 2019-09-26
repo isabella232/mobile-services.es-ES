@@ -3,7 +3,7 @@ description: Después de agregar la biblioteca al proyecto, puede realizar cualq
 seo-description: Después de agregar la biblioteca al proyecto, puede realizar cualquier llamada a un método de Analytics desde cualquier punto de su aplicación (asegúrese de importar ADBMobile.h en su clase).
 seo-title: Analytics
 title: Analytics
-uuid: de 018 eda-b 37 d -4 afe -83 a 0-8011381 d 7 aff
+uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -32,7 +32,7 @@ Antes de añadir código, pida a su administrador de Analytics que complete los 
 
 Lifecycle metrics are now ready to be captured, and Mobile Application Reports] appear in the **[!UICONTROL Reports]** menu in the marketing reports interface.
 
-## Recopilación de métricas del ciclo vital {#task_25D469C62DF84573AEB5E8E950B96205}
+## Recopilar métricas del ciclo vital {#task_25D469C62DF84573AEB5E8E950B96205}
 
 1. To collect lifecycle metrics in your app, call `collectLifecycleData()` in the `ApplicationUI` constructor.
 
@@ -50,7 +50,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 ## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Si ha consultado la Referencia de métodos y clases [adbmobile](/help/blackberry/methods.md), probablemente se esté preguntando dónde configurar eventos, evars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+Si ha consultado la Referencia [de métodos y clases](/help/blackberry/methods.md)ADBMobile, probablemente se pregunte dónde configurar eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
@@ -108,7 +108,7 @@ Las variables de contexto que definen eventos de aumento pueden tener el evento 
 >
 >Adobe se reserva el espacio de nombres `a.`. Aparte de esta pequeña restricción, las variables de datos de contexto solo tienen que ser exclusivas en su empresa de inicio de sesión para evitar conflictos.
 
-## Habilitar el seguimiento sin conexión {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
+## Habilitar seguimiento sin conexión {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
 To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file.
 
@@ -116,4 +116,4 @@ Preste mucha atención a los requisitos de marca de fecha y hora que se describe
 
 ## Métodos de Analytics
 
-Para obtener una lista de los métodos de Analytics disponibles para blackberry, consulte *Métodos de Analytics* en [Referencia de métodos y clases móviles de Adobe](/help/blackberry/methods.md).
+For a list of the Analytics methods that are available for BlackBerry, see Analytics methods in Adobe Mobile Class and Method Reference.**[](/help/blackberry/methods.md)
