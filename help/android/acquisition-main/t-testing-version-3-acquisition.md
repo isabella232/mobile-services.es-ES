@@ -1,12 +1,12 @@
 ---
 description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición Versión 3
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Prueba de adquisición Versión 3
 topic: Desarrollador e implementación
-uuid: 5 e 38 b 43 d -389 e -4412-99 e 5-3 e 6223 b 6 ad 28
+uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -19,13 +19,13 @@ Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelt
 
 >[!IMPORTANT]
 >
->La adquisición en V 3 hace referencia a los vínculos de adquisición que crea con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para usar esta función, debe efectuar la actualización al SDK para Android 4.x para soluciones de Experience Cloud 4.6.0 o versiones posteriores.
+>La adquisición en V3 hace referencia a los vínculos de adquisición que se crean con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para usar esta función, debe efectuar la actualización al SDK para Android 4.x para soluciones de Experience Cloud 4.6.0 o versiones posteriores.
 
 Si la aplicación móvil aún no está en Google Play al crearse el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
-1. Complete las tareas previas de [Adquisición de aplicaciones móviles](/help/android/acquisition-main/acquisition.md) y asegúrese de que ha implementado correctamente el receptor de emisión.`INSTALL_REFERRER`
+1. Complete the prerequisite tasks in Mobile App Acquisition and ensure that you have correctly implemented the broadcast receiver for .[](/help/android/acquisition-main/acquisition.md)`INSTALL_REFERRER`
 1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
@@ -34,7 +34,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    >[!TIP]
    >
-   >Si hace referencia a aplicaciones Android y iOS en el vínculo de adquisición, use Google Play como tienda predeterminada.
+   >If you refer to both Android and iOS apps in the acquisition link, use Google Play as the default store.
 
 1. Abra el vínculo generado en un navegador de escritorio.
 
@@ -43,7 +43,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Copy the unique ID after `utm_content%3D`.
 
-   En el ejemplo anterior, el ID es `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
+   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
 1. Construya el vínculo de fin de adquisición utilizando el ID exclusivo del paso 3, empleando el siguiente formato:
 
@@ -63,7 +63,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | Configuración | Valor |
    |--- |--- |
-   | adquisición | The server should be `c00.adobe.com`.   *`appid`* debe ser igual a `appid` en el vínculo de adquisición. |
+   | acquisition | The server should be `c00.adobe.com`.   *`appid`*  should equal the `appid`  in your acquisition link. |
    | analytics | Para realizar pruebas establezca un tiempo de espera del referente adecuado (60 segundos o más) para poder enviar manualmente la emisión. Tras la prueba, puede restablecer la configuración original del tiempo de espera. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
@@ -97,7 +97,7 @@ La siguiente tabla contiene información adicional acerca de los posibles errore
 | Analytics - Unable to decode response(*String*). | El formato de la respuesta no es correcto. |
 | Analytics - Unable to parse response (*a JSON Response*). | El formato de la cadena JSON no es correcto. |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | No hay parámetro contextData en la respuesta. |
-| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` no se incluye en contextdata. |
+| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`  is not included in  contextData. |
 | Analytics - Acquisition referrer timed out. | No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo.  Además, debe asegurarse de abrir el vínculo de adquisición antes de instalar la aplicación. |
 
 Recuerde la información siguiente:
