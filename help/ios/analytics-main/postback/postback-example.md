@@ -2,10 +2,10 @@
 description: Definición y ejemplos de código fuente de la función Postback.
 seo-description: Definición y ejemplos de código fuente de la función Postback.
 seo-title: Ejemplo de Postback
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Ejemplo de Postback
 topic: Desarrollador e implementación
-uuid: 809 c 5646-7 a 80-40 df -984 b -0 af 89 d 854259
+uuid: 809c5646-7a80-40df-984b-0af89d854259
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -58,6 +58,6 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. La dirección URL sustituye todas las variables de plantilla por valores de la visita. Si la sesión anterior del usuario tuviera 132 segundos y ese usuario se encuentra en la versión 4.6.0 de iOS SDK, aquí se muestra un ejemplo de la URL resultante:
+Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. Assuming that the user’s previous session was 132 seconds long, and that user is on iOS SDK version 4.6.0, here is an example of the resulting URL:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`
