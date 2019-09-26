@@ -2,10 +2,10 @@
 description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
 seo-description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
-seo-title: Métodos Android
-solution: Marketing Cloud, Desarrollador
-title: Métodos Android
-uuid: 860 af 1 c 4-f 57 e -4 bcb -8308-4 e 316 da 9 a 27 b
+seo-title: Métodos de Android
+solution: Marketing Cloud,Developer
+title: Android methods
+uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,9 +18,9 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 ## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-* **Debuglogging**
+* **DebugLogging**
 
-   Devuelve la preferencia de registro de depuración actual y el valor predeterminado es false.
+   Returns the current debug logging preference, and the default is false.
 
    * Esta es la sintaxis para este método:
 
@@ -54,7 +54,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 * **PrivacyStatus**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
-   * `ADBMobilePrivacyStatus.OptIn` - las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
    * `ADBMobilePrivacyStatus.OptOut` - las visitas se descartarán.
    * `ADBMobilePrivacyStatus.Unknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
    El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
@@ -210,7 +210,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackingIdentifier**
 
-   Devuelve el ID generado de forma automática para Analytics. Se trata de un ID exclusivo de aplicación que se genera durante el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina durante la desinstalación.
+   Devuelve el ID generado de forma automática para Analytics. Se trata de un ID exclusivo y específico para la aplicación que se genera durante el primer inicio y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    * Esta es la sintaxis para este método:
 
@@ -230,7 +230,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
 
    * Esta es la sintaxis para este método:
 
@@ -424,7 +424,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **SendQueuedHits**
 
-   Fuerza a la biblioteca a enviar todas las visitas en la cola sin conexión, independientemente de cuántas visitas haya en cola.
+   Obliga a la biblioteca a enviar todas las visitas en la cola sin conexión, independientemente de cuántas visitas haya en la cola.
 
    * Esta es la sintaxis para este método:
 
@@ -456,7 +456,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **QueueSize**
 
-   Recupera el número de visitas que se encuentran actualmente en la cola sin conexión.
+   Recupera el número de visitas que hay actualmente en la cola sin conexión.
 
    * Esta es la sintaxis para este método:
 
@@ -551,7 +551,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **CreateOrderConfirmRequest**
 
-   Crea `ADBTargetLocationRequest`un.
+   Creates an `ADBTargetLocationRequest`.
 
    * Esta es la sintaxis para este método:
 
@@ -691,7 +691,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obtener más información acerca de Video Analytics, consulte [Análisis de vídeo](/help/android/analytics-main/video-qs.md).
+Para obtener más información sobre Video Analytics, consulte [Video Analytics](/help/android/analytics-main/video-qs.md).
 
 * **MediaSettings**
 
@@ -727,7 +727,7 @@ Para obtener más información acerca de Video Analytics, consulte [Análisis de
       MediaSettings adSettings = Media.AdSettingsWith ("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1"); 
       ```
 
-* **Abrir**
+* **Open**
 
    Abre un objeto `ADBMediaSettings` para su seguimiento.
 
