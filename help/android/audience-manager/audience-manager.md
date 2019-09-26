@@ -1,19 +1,19 @@
 ---
 description: Esta información le ayuda a enviar señales y recuperar segmentos del visitante desde Audience Manager.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta información le ayuda a enviar señales y recuperar segmentos del visitante desde Audience Manager.
-seo-title: Descripción general de Audience Manager
-solution: Marketing Cloud, Analytics
-title: Descripción general de Audience Manager
+seo-title: Información general de Audience Manager
+solution: Marketing Cloud,Analytics
+title: Información general de Audience Manager
 topic: Desarrollador e implementación
-uuid: cfa 4106 d -13 c 1-45 ba-bee 6-6 f 992 aaf 9919
+uuid: cfa4106d-13c1-45ba-bee6-6f992aaf9919
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Descripción general de Audience Manager {#audience-manager}
+# Información general de Audience Manager {#audience-manager}
 
 La información de esta sección le ayuda a enviar señales y recuperar segmentos de visitantes desde Audience Manager.
 
