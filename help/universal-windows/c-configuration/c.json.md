@@ -1,18 +1,18 @@
 ---
 description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
 seo-description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
-seo-title: Configuración adbmobileconfig. json
-solution: Marketing Cloud, Analytics
-title: Configuración adbmobileconfig. json
+seo-title: Configuración de ADBMobileConfig.json
+solution: Marketing Cloud,Analytics
+title: ADBMobileConfig.json config
 topic: Desarrollador e implementación
-uuid: cbcb 54 a 3-4 b 8 f -4651-8 ce 9-2731 ac 988545
+uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# Archivo de configuración adbmobileconfig. json {#adbmobileconfig-json-config}
+# Archivo de configuración ADBMobileConfig.json {#adbmobileconfig-json-config}
 
 Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
 
@@ -52,7 +52,7 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
    If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor `false`.
 
-   Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes tiene habilitada la marca de fecha y hora, póngase en contacto con el Servicio de atención al cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   Si esta configuración no se realiza correctamente, se perderán datos. If you are unsure whether a report suite is timestamp enabled, contact Customer Care. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
    El valor predeterminado es `false`.
 
@@ -66,17 +66,17 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
    Envía las visitas en lotes.
 
-   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Requiere `offlineEnabled=true`y el valor predeterminado `0` es (Sin agrupamiento).
+   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Requiere `offlineEnabled=true`y el valor predeterminado es `0` (sin lotes).
 
 * **privacyDefault**
 
-   Las opciones son:
+   The options are:
 
    * `optedin` - las visitas se envían inmediatamente.
    * `optedout` - las visitas se descartarán.
    * `optunknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
 
-      Esto establece únicamente el valor predeterminado. Si este valor se llega a establecer o cambiar en el código, se guarda en el almacenamiento local y se utiliza en adelante hasta que se cambia de nuevo, o hasta que la aplicación se desinstale y se vuelva a instalar.
+      Esto sólo establece el valor predeterminado. Si este valor se llega a establecer o cambiar en el código, se guarda en el almacenamiento local y se utiliza en adelante hasta que se cambia de nuevo, o hasta que la aplicación se desinstale y se vuelva a instalar.
 
       El valor predeterminado es `optedin`.
 
@@ -84,7 +84,7 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
    Cada matriz de punto de interés (POI) guarda su nombre, latitud, longitud y radio del área (en metros). El nombre del punto puede ser cualquier cadena. Cuando se envía una llamada a `trackLocation`, si las coordinadas actuales se encuentran dentro de un punto de interés definido, se rellena una variable de datos de contexto que se envía junto con la llamada a `trackLocation`.
 
-   * Esta es la muestra de código para esta variable:
+   * Este es el ejemplo de código para esta variable:
 
       ```js
        "poi" [ 
