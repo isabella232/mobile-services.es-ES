@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: Desarrollador e implementación
-uuid: fa 0 ef 6 c 4-c 04 d -4695-9 eb 4-ada 4 e 9920 e 6 c
+uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,11 +14,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Analytics {#analytics}
 
-Después de agregar la biblioteca a su proyecto, puede hacer que cualquiera de los métodos de Analytics realice llamadas en cualquier parte de la aplicación.
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
 
 >[!TIP]
 >
->Asegúrese de importar `ADBMobile.h` a la clase.
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -48,7 +48,7 @@ Se lanzan nuevas versiones de los informes de aplicaciones móviles de forma per
 Para recopilar métricas del ciclo vital en la aplicación, añada llamadas que se activen cuando lo haga la aplicación, como se muestra en los ejemplos siguientes.
 
 
-### Winjs en default. js
+### WinJS in default.js
 
 
 ```js
@@ -64,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C # en App. xaml. cs
+### C# en App.xaml.cs
 
 ```js
 public App() 
@@ -93,7 +93,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-### C/CX en App. xaml. cpp
+### C/CX en App.xaml.cpp
 
 ```js
 App::App() 
@@ -128,7 +128,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-Si ha consultado la Referencia de métodos y clases [adbmobile](/help/windows-appstore/c-configuration/methods.md), probablemente se esté preguntando dónde configurar eventos, evars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+Si ha consultado la Referencia [de métodos y clases](/help/windows-appstore/c-configuration/methods.md)ADBMobile, probablemente se pregunte dónde configurar eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
@@ -145,7 +145,7 @@ Se utilizan reglas de procesamiento para copiar los datos que envía en variable
 
 [Formación de reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 
-[Información general sobre reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
 [Obtener autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
@@ -189,7 +189,7 @@ Las variables de datos de contexto que definen eventos incrementadores pueden te
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Consulte [Variable products](/help/windows-appstore/analytics/products/products.md).
+Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Consulte Variable [Productos](/help/windows-appstore/analytics/products/products.md).
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
