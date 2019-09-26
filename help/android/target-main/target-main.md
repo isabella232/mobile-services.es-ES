@@ -1,12 +1,12 @@
 ---
 description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
 seo-title: Información general de Target
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Información general de Target
 topic: Desarrollador e implementación
-uuid: 3501 b 76 d-f 83 f -45 eb-b 56 d -39 e 64717772 e
+uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Información general de Target {#target}
 
-La información de esta sección le ayuda a enviar contenido de destino en aplicaciones Android.
+La información de esta sección le ayuda a distribuir contenido de destino en aplicaciones Android.
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
