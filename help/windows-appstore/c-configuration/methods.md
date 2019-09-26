@@ -1,11 +1,11 @@
 ---
 description: Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
 seo-description: Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
-seo-title: Métodos de SDK
-solution: Marketing Cloud, Analytics
-title: Métodos de SDK
+seo-title: Métodos SDK
+solution: Marketing Cloud,Analytics
+title: SDK methods
 topic: Desarrollador e implementación
-uuid: 0 f 558 ff 4-73 d 3-4439-9 d 51-62 fbd 74 d 2 cea
+uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -20,7 +20,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-* **Getversion (winjs: Getversion)**
+* **GetVersion (winJS: getVersion)**
 
    Devuelve la versión actual de la biblioteca de Adobe Mobile.
 
@@ -36,7 +36,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       varADB = ADBMobile;var libVersion = ADB.Config.getVersion(); 
       ```
 
-* **Getprivacystatusasync (winjs: Getprivacystatusasync)**
+* **GetPrivacyStatusAsync (winJS: getPrivacyStatusAsync)**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
 
@@ -52,7 +52,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       static Windows::Foundation::IAsyncOperation<ADBMobilePrivacyStatus> ^getPrivacyStatusAsync(); 
       ```
 
-   * Estos son los ejemplos de código de este método:
+   * Estos son los ejemplos de código para este método:
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int  {
@@ -70,7 +70,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       }); 
       ```
 
-* **Setprivacystatus (winjs: Setprivacystatus)**
+* **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
    Sets the privacy status for the current user to `status`. Establezca uno de los siguientes valores:
 
@@ -99,7 +99,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       ADB.Config.setPrivacyStatus(ADB.ADBMobilePrivacyStatus.adbmobilePrivacyStatusOptIn); 
       ```
 
-* **Getlifetimevalue (winjs: Getlifetimevalue)**
+* **GetLifetimeValue (winJS: getLifetimeValue)**
 
    Devuelve el valor de duración del usuario actual. El valor predeterminado es 0.
 
@@ -116,13 +116,13 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
        var ltv = ADB.Config.getLifetimeValue(); 
       ```
 
-* **Getuseridentifier (winjs: Getuseridentifier)**
+* **GetUserIdentifier (winJS: getUserIdentifier)**
 
    Devuelve el identificador del usuario si se ha establecido un identificador personalizado. Devuelve vacío si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3. x al 4. x de Experience Cloud, el ID previo (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
 
    * Esta es la sintaxis para este método:
 
@@ -137,7 +137,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       var userId = ADB.Config.getUserIdentifier(); 
       ```
 
-* **Setuseridentifier (winjs: Setuseridentifier)**
+* **SetUserIdentifier (winJS: setUserIdentifier)**
 
    Establece el identificador de usuario como `identifier`.
 
@@ -154,7 +154,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       ADB.Config.setUserIdentifier("someUserId"); 
       ```
 
-* **Getdebuglogging (winjs: Getdebuglogging)**
+* **GetDebugLogging (winJS: getDebugLogging)**
 
    Devuelve la preferencia de registro de depuración actual. El valor predeterminado es `false`.
 
@@ -171,7 +171,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       var logging = ADB.Config.getDebugLogging(); 
       ```
 
-* **Setdebuglogging (winjs: Setdebuglogging)**
+* **SetDebugLogging (winJS: setDebugLogging)**
 
    Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento ignora esta configuración.
 
@@ -188,7 +188,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       ADB.Config.setDebugLogging(true); 
       ```
 
-* **Collectlifecycledata (winjs: Collectlifecycledata)**
+* **CollectLifecycleData (winJS: collectLifecycleData)**
 
    Indica al SDK que los datos del ciclo vital deben ser recopilados para su uso en todas las soluciones en el SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/windows-appstore/metrics.md).
 
@@ -209,7 +209,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       ADB.Config.collectLifecycleData(); 
       ```
 
-* **Pausecollectinglifecycledata (winjs: Pausecollectinglifecycledata)**
+* **PauseCollecting&#x200B;LifecycleData (winJS: pauseCollecting&#x200B;LifecycleData)**
 
    Indica al SDK que la aplicación está en pausa para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/windows-appstore/metrics.md).
 
