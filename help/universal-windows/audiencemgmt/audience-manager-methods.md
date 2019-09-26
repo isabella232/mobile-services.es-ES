@@ -1,11 +1,11 @@
 ---
 description: Lista de métodos de Audience Manager provistos por la biblioteca de la Plataforma universal de Windows.
 seo-description: Lista de métodos de Audience Manager provistos por la biblioteca de la Plataforma universal de Windows.
-seo-title: Métodos de Audience Manager
-solution: Marketing Cloud, Analytics
+seo-title: Audience Manager methods
+solution: Marketing Cloud,Analytics
 title: Métodos de Audience Manager
 topic: Desarrollador e implementación
-uuid: efbe 8 f 33-7 f 53-40 a 6-b 7 aa-a 36 ac 718 c 047
+uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -22,9 +22,9 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-Si Audience Manager está configurado en su archivo JSON, se envía una señal que contiene métricas del ciclo vital junto con su visita de ciclo vital.
+Si Audience Manager está configurado en el archivo JSON, se envía una señal que contiene métricas del ciclo vital junto con la visita del ciclo vital.
 
-* **Getvisitorprofile (winjs: Getvisitorprofile)**
+* **GetVisitorProfile (winJS: getVisitorProfile)**
 
    Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve `null` si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `SharedPreferences` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
@@ -41,7 +41,7 @@ Si Audience Manager está configurado en su archivo JSON, se envía una señal q
       var profile = ADB.AudienceManager.getVisitorProfile();
       ```
 
-* **Getdpid (winjs: Getdpid)**
+* **GetDpid (winJS: getDpid)**
 
    Devuelve el DPID actual.
 
@@ -58,7 +58,7 @@ Si Audience Manager está configurado en su archivo JSON, se envía una señal q
       var dpid = ADB.AudienceManager.getDpid(); 
       ```
 
-* **Getdpuuid (winjs: Getdpuuid)**
+* **GetDpuuid (winJS: getDpuuid)**
 
    Devuelve el DPUUID actual.
 
@@ -75,7 +75,7 @@ Si Audience Manager está configurado en su archivo JSON, se envía una señal q
       var dpuuid = ADB.AudienceManager.getDpuuid();
       ```
 
-* **Setdpidanddpuuid (winjs: Setdpidanddpuuid)**
+* **SetDpidAndDpuuid (winJS: setDpidAndDpuuid)**
 
    Establece el DPID y el DPUUID. Si DPID y DPUUID se han establecido, se envían con cada señal.
 
@@ -92,7 +92,7 @@ Si Audience Manager está configurado en su archivo JSON, se envía una señal q
       ADB.AudienceManager.setDpidAndDpuuid("newDpid", "newDpuuid");
       ```
 
-* **Signalwithdata (winjs: Signalwithdata)**
+* **SignalWithData (winJS: signalWithData)**
 
    Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno a block.
 
