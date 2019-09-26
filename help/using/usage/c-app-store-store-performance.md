@@ -3,10 +3,10 @@ description: El informe Información general de la App Store le proporciona una 
 keywords: móvil
 seo-description: El informe Información general de la App Store le proporciona una instantánea de las métricas del almacén de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio del almacén de aplicaciones, los ingresos de descargas, los ingresos en la aplicación, las descargas por país, las descargas por almacén de aplicaciones y las compras en la aplicación por nombre.
 seo-title: Informe Información general de la tienda de aplicaciones
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Informe Información general de la tienda de aplicaciones
 topic: Métricas
-uuid: ac 066 f 31-ec 4 b -4 b 67-b 839-780 c 2 cd 1574 e
+uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -29,11 +29,11 @@ Puede hacer clic en cualquier métrica para ocultar o mostrar su línea correspo
 
 >[!IMPORTANT]
 >
->Las métricas de almacén de aplicaciones, como descargas, clasificación, ingresos, clasificación, etc. en Adobe Analytics requieren una integración de Conector de datos con un proveedor apropiado. `appFigures` proporciona actualmente una integración que requiere la compra del producto o servicio apropiado de `appFigures`**antes** de que pueda habilitar la integración. Para obtener más información sobre las integraciones de Data Connector, consulte [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
+>Las métricas del almacén de aplicaciones, como descargas, clasificaciones, ingresos, clasificaciones, etc., en Adobe Analytics requieren una integración del conector de datos con un proveedor adecuado. `appFigures` proporciona actualmente una integración que requiere la compra del producto o servicio apropiado de `appFigures`**antes** de que pueda habilitar la integración. Para obtener más información sobre las integraciones de Data Connector, consulte [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html).
 
 >[!TIP]
 >
->Además de cambiar el intervalo de fechas del informe haciendo clic en el icono del calendario en la parte superior derecha, puede personalizar algunos de los informes detallados, agregar filtros y series (métricas), agregar filtros adhesivos y descargar el informe en formato PDF o CSV. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
+>Además de cambiar el intervalo de fechas del informe haciendo clic en el icono del calendario en la parte superior derecha, puede personalizar algunos de los informes de exploración en profundidad, agregar filtros y series (métricas), agregar filtros adhesivos y descargar el informe en formato PDF o CSV. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## Puntuación media de la tienda de aplicaciones {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
