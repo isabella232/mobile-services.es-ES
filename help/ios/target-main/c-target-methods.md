@@ -1,28 +1,28 @@
 ---
 description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
-seo-title: Métodos de Target de iOS para Adobe Mobile Services
-solution: Marketing Cloud, Analytics
+seo-title: iOS Target Methods for Adobe Mobile Services
+solution: Marketing Cloud,Analytics
 title: Métodos de Target para iOS
 topic: Desarrollador e implementación
-uuid: 692 bcda 1-02 ba -4902-bd 65-15888 adf 1952
+uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 translation-type: tm+mt
 source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
 
-# Métodos de Target para iOS {#target-methods}
+# Target methods for iOS {#target-methods}
 
 Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de Adobe Experience Platform. Los métodos tienen un prefijo que depende de la solución. Por ejemplo, los métodos de llevan el prefijo `target`target.
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Los métodos tienen un prefijo que depende de la solución. Por ejemplo, los métodos de llevan el prefijo `target`target.
 
 >[!TIP]
 >
->Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). Si envía solicitudes de Target dentro del método `didFinishLaunching` delegado, agregue una `[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` o una llamada antes del código de implementación de Target. De este modo, las solicitudes de Target contendrán los datos completos del ciclo vital.
+>Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). If you are sending Target requests inside the  delegate method, add a  or  call before the Target implementation code. `didFinishLaunching``[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` This way, the Target requests will contain the complete lifecycle data.
 
-## Referencia de clase: Adbtargetlocationrequest
+## Referencia de clase: ADBTargetLocationRequest
 
 ### Propiedades
 
@@ -36,7 +36,7 @@ NSMutableDictionary *parameters;
 
 >[!TIP]
 >
->Las constantes siguientes facilitan la utilización de claves para parámetros personalizados.
+>Las siguientes constantes facilitan el uso al definir claves para parámetros personalizados.
 
 ```iOS
 NSString *const ADBTargetParameterOrderId; 
@@ -99,7 +99,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    * Devuelve: N/A
 
-   * Estos son los parámetros de este método:
+   * Here are the parameters for this method:
 
       * **`name`**
 
@@ -152,7 +152,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obtener más información sobre la API de Target subyacente, consulte [Desarrolladores de Adobe Target](https://docs.adobe.com/dev/products/target/reference/delivery.html).
+      Para obtener más información sobre la API de Target subyacente, consulte Desarrolladores [de](https://docs.adobe.com/dev/products/target/reference/delivery.html)Adobe Target.
 
 
 
@@ -191,7 +191,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 * **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
 
-   Crea `ADBTargetLocationRequest`un.
+   Creates an .`ADBTargetLocationRequest`
 
    * Esta es la sintaxis para este método:
 
@@ -264,7 +264,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    >[!TIP]
    >
-   >Desde la versión 4.10.0 del SDK, Target ya no utiliza cookies. Este método restablece thirdPartyID y sessionID.
+   >Since version 4.10.0 of the SDK, Target no longer uses cookies. Este método restablece thirdPartyID y sessionID.
 
    * Esta es la sintaxis para este método:
 
