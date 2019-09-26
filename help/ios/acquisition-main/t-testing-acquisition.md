@@ -2,9 +2,9 @@
 description: La siguiente información le ayuda a realizar una campaña de adquisición de elementos heredados de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-description: La siguiente información le ayuda a realizar una campaña de adquisición de elementos heredados de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de elementos heredados
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
-uuid: e 0591 f 4 a-e 26 b -4 fe 4-97 c 1-a 6831 a 926 fa 5
+uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -17,7 +17,7 @@ La siguiente información le ayuda a realizar una campaña de adquisición de el
 
 Si la aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de campaña. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo.
 
-1. Navigate to **[!UICONTROL Use Legacy Acquisition Links]** in Adobe Mobile Services and generate an acquisition campaign URL.
+1. Vaya a **[!UICONTROL Uso de vínculos de adquisición de elementos heredados]en Adobe Mobile Services y genere una URL de campaña de adquisición.**
 
    Para obtener más información, consulte [Uso de vínculos de adquisición de elementos heredados](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
 
@@ -32,7 +32,7 @@ Si la aplicación móvil aún no está en Google Play, puede seleccionar cualqui
 Recuerde la información siguiente:
 
 * El servidor de adquisición proporciona una coincidencia de atribución basada en la dirección IP y en la información de usuario-agente que se registra al hacer clic en vínculo (paso 2) y al iniciarse la aplicación (paso 3).
-* Mediante herramientas de monitoreado HTTP, las visitas enviadas desde la aplicación pueden monitorearse para verificar la atribución de adquisición.
+* Mediante herramientas de monitoreado HTTP, las visitas enviadas desde la aplicación pueden monitorizarse para verificar la atribución de adquisición.
 
 >[!TIP]
 >
