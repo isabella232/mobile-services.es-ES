@@ -1,18 +1,18 @@
 ---
 description: En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x Universal App Store para Windows 8.1 para Soluciones de Experience Cloud.
 seo-description: En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x Universal App Store para Windows 8.1 para Soluciones de Experience Cloud.
-seo-title: Migración a los SDK 4. x
-solution: Marketing Cloud, Analytics
-title: Migración a los SDK 4. x
+seo-title: Migrar a los SDK 4.x
+solution: Marketing Cloud,Analytics
+title: Migrar a los SDK 4.x
 topic: Desarrollador e implementación
-uuid: e 0 fe 3 b 7 b-cda 5-4 a 91-834 c -2 c 7 e 17 a 501 a 3
+uuid: e0fe3b7b-cda5-4a91-834c-2c7e17a501a3
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# Migración a los SDK 4. x {#migrate-to-the-x-sdks}
+# Migrate to the 4.x SDKs {#migrate-to-the-x-sdks}
 
 En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x Universal App Store para Windows 8.1 para Soluciones de Experience Cloud.
 
@@ -22,7 +22,7 @@ Las siguientes secciones explican cómo se realiza la migración de la versión 
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-Habrá notado que la descarga incluye un nuevo archivo `ADBMobileConfig.json`. Este archivo contiene ajustes globales y específicos de la aplicación y reemplaza a la mayoría de las variables de configuración utilizadas en versiones anteriores. Este es un ejemplo de archivo `ADBMobileConfig.json`:
+Habrá notado que la descarga incluye un nuevo archivo `ADBMobileConfig.json`. Este archivo contiene la configuración global específica de la aplicación y reemplaza a la mayoría de las variables de configuración que se usaban en versiones anteriores. Este es un ejemplo de archivo `ADBMobileConfig.json`:
 
 ```js
 { 
@@ -78,7 +78,7 @@ El parámetro `contextData` para ambos métodos contiene pares de nombre-valor q
 
 ## Events, props y eVars
 
-Si ha consultado los métodos [](/help/windows-appstore/c-configuration/methods.md)del SDK, probablemente se esté preguntando dónde configurar eventos, evars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+If you've looked at the SDK methods, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/windows-appstore/c-configuration/methods.md) En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
@@ -113,7 +113,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-El seguimiento sin conexión está habilitado en `ADBMobileConfig.json` el archivo. El resto de la configuración sin conexión se realiza automáticamente.
+El seguimiento sin conexión está habilitado en el `ADBMobileConfig.json` archivo. All other offline configuration is done automatically.
 
 En todo su código, elimine las llamadas a los métodos siguientes:
 
