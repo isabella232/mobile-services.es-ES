@@ -1,11 +1,11 @@
 ---
 description: Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
 seo-description: Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
-seo-title: Métodos de Analytics
-solution: Marketing Cloud, Analytics
+seo-title: Analytics methods
+solution: Marketing Cloud,Analytics
 title: Métodos de Analytics
 topic: Desarrollador e implementación
-uuid: 79 db 105 c -216 c -4061-97 f 3-a 55954995 e 67
+uuid: 79db105c-216c-4061-97f3-a55954995e67
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -16,7 +16,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud], incluidas Analytics], Target] y Audience Manager]. Los métodos tienen un prefijo que depende de la solución. El prefijo de los métodos de Analytics es “Analytics”.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics], Target] y Audience Manager]. Los métodos tienen un prefijo que depende de la solución. El prefijo de los métodos de Analytics es “Analytics”.
 
 Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Analytics.
 
@@ -24,13 +24,13 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-* **Trackstate (winjs: Trackstate)**
+* **TrackState (winJS: trackState)**
 
    Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como “tablero de inicio”, “configuración de la aplicación”, “carrito”, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si `state` está vacío, en los informes se muestra “app name app version (build)”. Si observa este valor en los informes, asegúrese de que está estableciendo `state` en todas las llamadas a `TrackState`.
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >This is the only tracking call that increments page views.
 
    * Esta es la sintaxis para este método:
 
@@ -45,7 +45,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackState("loginScreen", null);
       ```
 
-* **Trackaction (winjs: Trackaction)**
+* **TrackAction (winJS: trackAction)**
 
    Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, “inicios de sesión”, “toques en banners”, “suscripciones a fuentes” y otras métricas.
 
@@ -62,7 +62,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackAction("Button Click", null); 
       ```
 
-* **Gettrackingidentifierasync (winjs: Gettrackingidentifierasync)**
+* **GetTrackingIdentifierAsync (winJS: getTrackingIdentifierAsync)**
 
    Devuelve el identificador de usuario generado de forma automática para Analytics. Se trata de un identificador de visitante exclusivo y específico para la aplicación que se genera durante el lanzamiento inicial, que después se almacena y utiliza a partir de ese momento. Esta ID se conserva entre las actualizaciones de la aplicación y se elimina al desinstalarla.
 
@@ -81,7 +81,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       });
       ```
 
-* **Tracklocation (winjs: Tracklocation)**
+* **TrackLocation (winJS: trackLocation)**
 
    Envía las coordenadas x e y actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada a `trackLocation`.
 
@@ -98,7 +98,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackLocation(47.60621, -122.33207, null);
       ```
 
-* **Tracklifetimevalueincrease (winjs: Tracklifetimevalueincrease)**
+* **TrackLifetime &#x200B; ValueIncrease (winJS: trackLifetime &#x200B; ValueIncrease)**
 
    Agrega una `amount` al valor de duración del usuario.
 
@@ -115,7 +115,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackLifetimeValueIncrease(10, null); 
       ```
 
-* **Tracktimedactionstart (winjs: Tracktimedactionstart)**
+* **TrackTimed &#x200B; ActionStart (winJS: trackTimed &#x200B; ActionStart)**
 
    Inicia una acción temporizada llamada `action`. Si invoca este método para una acción que ya se ha iniciado, se sobrescribe la acción temporizada anterior.
 
@@ -136,7 +136,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackTimedActionStart("cartToCheckout", null); 
       ```
 
-* **Tracktimedactionupdate (winjs: Tracktimedactionupdate)**
+* **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
    Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. The `data` passed is appended to the existing data for the given action, and overwrites the data if the same key is already defined for `action`.
 
@@ -159,7 +159,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackTimedActionUpdate("cartToCheckout", contextData); 
       ```
 
-* **Tracktimedactionexistsasync (winjs: Tracktimedactionexistsasync)**
+* **TrackTimedActionExistsAsync (winJS: trackTimedActionExistsAsync)**
 
    Devuelve true si la acción temporizada dada existe, y false si no es así.
 
@@ -177,7 +177,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       });
       ```
 
-* **Tracktimedactionend (winjs: Tracktimedactionend)**
+* **TrackTimed &#x200B; ActionEnd (winJS: trackTimed &#x200B; ActionEnd)**
 
    Finaliza una acción temporizada.
 
@@ -194,23 +194,23 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
       ADB.Analytics.trackTimedActionEnd("cartToCheckout"); 
       ```
 
-* **Cleartrackingqueue (winjs: Cleartrackingqueue)**
+* **ClearTrackingQueue (winJS: clearTrackingQueue)**
 
    Borra todas las visitas almacenadas de la cola de seguimiento de Analytics.
 
-   * Esta es la sintaxis para este mensaje:
+   * Esta es la sintaxis de este mensaje:
 
       ```csharp
       static void ClearTrackingQueue();
       ```
 
-   * Este es el ejemplo de código:
+   * Here is the code sample:
 
       ```js
       ADBMobile.Analytics.clearTrackingQueue();
       ```
 
-* **Getqueuesizeasync (winjs: Getqueuesizeasync)**
+* **GetQueueSizeAsync (winJS: getQueueSizeAsync)**
 
    Devuelve el número de visitas almacenadas en la cola de Analytics.
 
