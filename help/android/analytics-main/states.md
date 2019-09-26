@@ -2,10 +2,10 @@
 description: Los estados son las distintas pantallas o vistas de su aplicación.
 seo-description: Los estados son las distintas pantallas o vistas de su aplicación.
 seo-title: Seguimiento de estados de aplicaciones
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de estados de aplicaciones
 topic: Desarrollador e implementación
-uuid: 69 c 99 d 05-5816-4 c 86-97 c 5-d 218 dc 26 c 129
+uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando u
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto intellij IDEA o Eclipse* en [implementación y ciclo vital de Core](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
@@ -43,7 +43,7 @@ Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando u
    }
    ```
 
-The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. En otras interfaces de Analytics `View State` se informa como `Page Name`, y `state views` se informa como `page views`.
+The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. In other Analytics interfaces, `View State` is reported as `Page Name`, and `state views` is reported as `page views`.
 
 ## Send additional data {#section_CFDB4F944496401786A145C209AB387C}
 
