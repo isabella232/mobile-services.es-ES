@@ -2,10 +2,10 @@
 description: Esta es una lista de métodos de Adobe Analytics que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos de Adobe Analytics que proporciona la biblioteca iOS.
 seo-title: Métodos de Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de Analytics
 topic: Desarrollador e implementación
-uuid: d 49 fe 6 de-cb 32-4 b 96-9891-c 567310 e 59 a 6
+uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta es una lista de métodos de Adobe Analytics que proporciona la biblioteca iOS.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de Adobe Experience Platform. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma Adobe Experience. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
 
 Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Analytics.
 
@@ -26,7 +26,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
 
    * Esta es la sintaxis para este método:
 
@@ -44,7 +44,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **trackAction:&#x200B;data:**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones que desea medir, como, y otras `logons``banner taps``feed subscriptions`métricas, se producen en la aplicación.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones que desea medir, como `logons``banner taps`, `feed subscriptions`y otras métricas, se producen en la aplicación.
 
    >[!TIP]
    >
@@ -263,7 +263,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **trackingSendQueuedHits**
 
-   Requiere SDK 4.1. Independientemente de cuántas visitas haya en cola, fuerza a la biblioteca a enviar todas las visitas en la cola sin conexión.
+   Requiere SDK 4.1. Independientemente de cuántas visitas haya actualmente en cola, fuerza a la biblioteca a enviar todas las visitas en la cola sin conexión.
 
    * Esta es la sintaxis para este método:
 
@@ -321,7 +321,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
    >[!IMPORTANT]
    >
-   >Este método no incrementa las vistas de página.
+   >This method does not increment page views.
 
    * Esta es la sintaxis para este método:
 
