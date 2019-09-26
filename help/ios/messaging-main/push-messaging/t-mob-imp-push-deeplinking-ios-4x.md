@@ -3,7 +3,7 @@ description: Después de configurar la URL de vinculación profunda en la interf
 seo-description: Después de configurar la URL de vinculación profunda en la interfaz de usuario de Adobe Mobile Services, esta URL estará en la carga útil push con la clave adb_deeplink.
 seo-title: Implementar la mensajería push con vinculación profunda
 title: Implementar la mensajería push con vinculación profunda
-uuid: ee 9590 fc -8 bd 3-4111-9221-9011 d 9 edbd 84
+uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
