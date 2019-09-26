@@ -2,11 +2,11 @@
 description: El informe Embudo identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe Embudo para comparar las acciones de diferentes segmentos.
 keywords: móvil
 seo-description: El informe Embudo identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe Embudo para comparar las acciones de diferentes segmentos.
-seo-title: Informe Canal
-solution: Marketing Cloud, Analytics
-title: Informe Canal
+seo-title: Informe de canal
+solution: Marketing Cloud,Analytics
+title: Informe de canal
 topic: Informes, métricas
-uuid: 268 b 4 ab 9-2 e 29-4423-9 f 79-ad 93 f 5231 ede
+uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -23,7 +23,7 @@ Al abrir el informe **[!UICONTROL Embudo], debe crear un canal personalizado.** 
 
 >[!TIP]
 >
->Para guardar el canal personalizado, guarde la URL después de configurar su configuración y ejecutar el informe. Puede compartir la URL con otros usuarios o guardarla en un documento.
+>Para guardar el canal personalizado, guarde la dirección URL después de configurar la configuración y ejecutar el informe. Puede compartir la URL con otros usuarios o guardarla en un documento.
 
 A continuación, puede ver un ejemplo de este informe:
 
@@ -53,7 +53,7 @@ Para este informe, puede configurar las siguientes opciones:
    Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filtro]**
 
-   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)adhesivo.
 * **[!UICONTROL Descargar]**
 
    Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
