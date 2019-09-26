@@ -3,10 +3,10 @@ description: Puede crear vínculos de tienda de aplicaciones para descargar apli
 keywords: móvil
 seo-description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir sus eventos de éxito a las descargas.
 seo-title: Crear un vínculo de adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Crear un vínculo de adquisición
 topic: Métricas
-uuid: bb 603013-fca 9-44 a 2-820 a -59 e 1 c 85 d 9444
+uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -22,16 +22,15 @@ Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones dire
 
    * (**Required**) **[!UICONTROL Name]**
 Specify a descriptive name for the App Link.
-   * **[!UICONTROL Código
-de seguimiento]** Especifique el código de seguimiento deseado o haga clic **[!UICONTROL en Generar]** para crear un nuevo código de seguimiento.
-   * **(Requerido**) **[!UICONTROL Especifique el]**
-referente original, como "boletín" o "página principal".
-   * **[!UICONTROL Medio]**
-Especifique el medio de mercadotecnia, como «banner» o «correo electrónico».
-   * **[!UICONTROL Contenido]**
-Especifique el nombre o ID del anuncio con el vínculo.
-   * **[!UICONTROL Término]**
-Especifique los términos de pago u otros términos de búsqueda de la publicidad.
+   * **[!UICONTROL Código]** de seguimiento Especifique el código de seguimiento deseado o haga clic en **[!UICONTROL Generar]** para crear un nuevo código de seguimiento.
+   * (**Required**) **[!UICONTROL Source]**
+Specify the original referrer, such as "newsletter" or "homepage."
+   * **[!UICONTROL Medium
+Specify the marketing medium, such as "banner" or "email."]**
+   * **[!UICONTROL Content
+Specify the name or ID of the ad with the link.]**
+   * **[!UICONTROL Term
+Specify paid terms or other search terms for the ad.]**
    >[!IMPORTANT]
    >
    >Los valores de los campos anteriores no se pueden cambiar una vez creado el vínculo de adquisición.
@@ -45,13 +44,13 @@ Especifique los términos de pago u otros términos de búsqueda de la publicida
       * Google Play
       Las opciones de cada almacén de aplicaciones pueden variar, tal y como se describe a continuación.
 
-   * **[!UICONTROL Región del explorador (solo App Store de Apple)]**
+   * **[!UICONTROL Browser Region (Apple App Store Only)]**
 
       Especifique un almacén de aplicaciones regional concreta para los exploradores de escritorio.
 
       Esta configuración permite definir el almacén de aplicaciones específica de su región a la que quiere que los vínculos de adquisición se redireccionen cuando un usuario hace clic en el vínculo del explorador de escritorio. Redireccionamiento automático de dispositivos móviles en función de la configuración de los dispositivos.
 
-   * **[!UICONTROL Idioma del explorador (Google Play solamente))]**
+   * **[!UICONTROL Idioma del explorador (Google Language (solo Google Play))]**
 
       Seleccione un idioma en la lista desplegable.
 
@@ -59,7 +58,7 @@ Especifique los términos de pago u otros términos de búsqueda de la publicida
 
    * **[!UICONTROL Buscar por nombre]**
 
-      * En el caso de Apple App Store, si no conoce el ID de la aplicación, puede buscar la aplicación por su nombre.
+      * For the Apple App Store, if you do not know the App ID, you can search for the app by its name.
 
          Puede limitar la búsqueda mediante la selección de una región opcional en la lista desplegable **[!UICONTROL En la región].**
 
@@ -82,4 +81,4 @@ Especifique los términos de pago u otros términos de búsqueda de la publicida
 
 1. Click ![clipboard icon](assets/icon_clipboard.png) to copy the tracked link to your clipboard.
 
-1. Pegue el vínculo en las publicaciones de medios sociales, publicidades, mensajes de correo electrónico, etc.
+1. Pegue el vínculo en las publicaciones de medios sociales, las publicidades, los mensajes de correo electrónico, etc.
