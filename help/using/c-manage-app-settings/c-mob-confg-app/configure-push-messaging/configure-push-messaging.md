@@ -3,10 +3,10 @@ description: Puede usar esta información para configurar las opciones de los se
 keywords: móvil
 seo-description: Puede usar esta información para configurar las opciones de los servicios push en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar la mensajería push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Configurar la mensajería push
 topic: Métricas
-uuid: 6763858 d -6046-4 d 36-87 c 0-cf 3600 a 44 fb 1
+uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 translation-type: tm+mt
 source-git-commit: 2c85c31d2fa54de26771553a6d349d3101e0048c
 
@@ -15,9 +15,9 @@ source-git-commit: 2c85c31d2fa54de26771553a6d349d3101e0048c
 
 # Configure push messaging{#configure-push-messaging}
 
-Puede utilizar esta información para configurar las opciones de los servicios push en la página Administrar configuración de aplicación al crear una aplicación nueva o editar una existente.
+You can use this information to help you configure the Push Services options on the Manage App Settings page when creating a new app or editing an existing app.
 
-Antes de configurar la mensajería push, complete las tareas previas en [Requisitos previos para activar la mensajería push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md).
+Antes de configurar la mensajería push, complete las tareas previas en Requisitos [previos para activar la mensajería](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)push.
 
 * **Consideraciones sobre los grupos de informes**
 
@@ -25,7 +25,7 @@ Antes de configurar la mensajería push, complete las tareas previas en [Requisi
 
 >[!IMPORTANT]
 >
->No se admite la transferencia de la aplicación a un nuevo grupo de informes. En caso de hacerlo, podría desajustarse la configuración de push y los mensajes no se enviarían.
+>Moving your app to a new report suite is not supported. En caso de hacerlo, podría desajustarse la configuración de push y los mensajes no se enviarían.
 
 1. En **[!UICONTROL Servicios push, rellene los siguientes campos]**:
 
@@ -40,13 +40,13 @@ Antes de configurar la mensajería push, complete las tareas previas en [Requisi
 
    * **[!UICONTROL Certificado]**
 
-      Especifique un certificado válido. Esta opción solo es necesaria si la entrada de **[!UICONTROL Clave privada]** **no** contiene ningún certificado. Para obtener más información sobre cómo obtener el certificado SSL y la clave privada, consulte [Configurar aplicación para utilizar APNS o FCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+      Especifique un certificado válido. Esta opción solo es necesaria si la entrada de **[!UICONTROL Clave privada]** **no** contiene ningún certificado. Para obtener más información sobre la obtención del certificado SSL y la clave privada, consulte [Configuración de la aplicación para utilizar APNS o FCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
    * Google
 
       **[!UICONTROL Clave de API]**
 
-      Especifique una clave de API válida. Para obtener más información sobre cómo obtener la clave de API, consulte [Configurar aplicación para utilizar APNS o FCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
+      Especifique una clave de API válida. Para obtener más información sobre la obtención de la clave de API, consulte [Configuración de la aplicación para utilizar APNS o FCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md).
 
       Para obtener más información, consulte los temas siguientes:
 
