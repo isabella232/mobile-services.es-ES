@@ -3,10 +3,10 @@ description: Los especialistas en marketing pueden crear vínculos de seguimient
 keywords: móvil
 seo-description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en marketing puede crear un vínculo que dirija a los usuarios a las plataformas iOS, Android u otras según corresponda.
 seo-title: Adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Adquisición
 topic: Métricas
-uuid: 987146 e 4-2 cca -46 e 7-88 aa -74 b 62 d 9 f 1 dc 5
+uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -32,17 +32,17 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 >[!IMPORTANT]
 >
->Aunque puede configurar funciones en la interfaz de usuario, estas funciones no funcionarán hasta que descargue el archivo de configuración generado y agregue este archivo al SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
 
-Puede crear, editar, administrar y ver informes en vínculos de marketing de aplicaciones móviles rastreables.
+You can create, edit, manage, and view reports on trackable mobile app Marketing Links.
 
 >[!TIP]
 >
->Esta funcionalidad requiere Adobe Analytics - Aplicaciones móviles o Adobe Analytics Premium SKU.
+>Esta funcionalidad requiere el SKU de Adobe Analytics - Aplicaciones móviles o Adobe Analytics Premium.
 
 Los siguientes informes de adquisición proporcionan una visión detallada del rendimiento de los vínculos de marketing:
 
-* **Información general**{#section_5B2BA47F22694919A472AB591101237E}
+* **Información general** {#section_5B2BA47F22694919A472AB591101237E}
 
    Este informe muestra las principales campañas que condujeron a los usuarios hasta su aplicación y contiene información sobre el rendimiento de las campañas en relación con otros metadatos de seguimiento, como el origen de adquisición, el medio, el término y el contenido.
 
@@ -50,7 +50,7 @@ Los siguientes informes de adquisición proporcionan una visión detallada del r
 
 * **Informe de vínculos** {#section_A23A640C363B43569D9D484CF49EA277}
 
-   Este informe proporciona una vista clasificada en el rendimiento de Vínculos de marketing. Además de ver los nombres de los vínculos con métricas clave de rendimiento, este informe es completamente personalizable. Para obtener más información, consulte [Personalizar informes](/help/using/usage/reports-customize/t-reports-customize.md).
+   Este informe proporciona una vista clasificada del rendimiento de los vínculos de marketing. Además de ver los nombres de los vínculos con métricas clave de rendimiento, este informe es completamente personalizable. Para obtener más información, consulte [Personalizar informes](/help/using/usage/reports-customize/t-reports-customize.md).
 
    Recuerde la información siguiente:
 
