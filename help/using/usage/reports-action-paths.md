@@ -3,10 +3,10 @@ description: El informe Rutas de acción se basa en el análisis de las rutas y 
 keywords: móvil
 seo-description: El informe Rutas de acción se basa en el análisis de las rutas y muestra un gráfico que representa las rutas que han pasado de un estado a otro en la aplicación.
 seo-title: Informe de rutas de acción
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Informe de rutas de acción
 topic: Informes, métricas
-uuid: a 21 e 5 d 9 e-fd 57-4178-9 d 64-87181 b 7 f 988 b b
+uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -40,7 +40,7 @@ To expand, click the **[!UICONTROL +]** icon. Esta opción muestra las rutas adi
 
 La expansión de un estado es similar a un canal.
 
-![ruta de acción expandir](assets/action_paths_expand.png)
+![expansión de ruta de acción](assets/action_paths_expand.png)
 
 To isolate the node and show paths that come into, and go out of the selected node, click the  ![focus icon](assets/icon_focus.png) icon. En el gráfico de abajo, las rutas siguientes se completaron **antes** de que los usuarios seleccionaran una foto:
 
@@ -60,7 +60,7 @@ De los usuarios que seleccionaron una foto, las rutas siguientes se completaron 
 
 Puede enfocar o expandir varios nodos para obtener una vista detallada de las rutas que siguen los usuarios en la aplicación. Por ejemplo:
 
-![ruta de acción múltiple](assets/action_paths_mult.png)
+![action path multi](assets/action_paths_mult.png)
 
 Para este informe, puede configurar las siguientes opciones:
 
@@ -74,7 +74,7 @@ Para este informe, puede configurar las siguientes opciones:
 
 * **[!UICONTROL Filtro]**
 
-   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Adición de un filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL Descargar]**
 
