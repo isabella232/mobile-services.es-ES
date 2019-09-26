@@ -1,12 +1,12 @@
 ---
 description: La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android; library; mobile; sdk
+keywords: android;library;mobile;sdk
 seo-description: La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de elementos heredados
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
 topic: Desarrollador e implementación
-uuid: bb 7 ace 96-68 eb -4 f 43-b 3 cf-af 80730 b 9 cee
+uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
