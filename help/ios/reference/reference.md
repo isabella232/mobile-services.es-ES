@@ -2,10 +2,10 @@
 description: Este material de referencia le ayuda a utilizar el SDK para iOS en soluciones de Experience Cloud.
 seo-description: Este material de referencia le ayuda a utilizar el SDK para iOS en soluciones de Experience Cloud.
 seo-title: Referencia del SDK para iOS
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Referencia del SDK para iOS
 topic: Desarrollador e implementación
-uuid: 4 e 80 b 0 ce-d 36 e -440 e -96 ff-de 5 df 6804 e 3 e
+uuid: 4e80b0ce-d36e-440e-96ff-de5df6804e3e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
