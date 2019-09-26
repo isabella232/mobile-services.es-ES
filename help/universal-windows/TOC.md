@@ -1,5 +1,5 @@
 ---
-product: mobile-services
+product: servicios móviles
 audience: usuario final
 user-guide-title: Ayuda de la Plataforma universal de Windows de Mobile Services
 translation-type: tm+mt
@@ -12,13 +12,13 @@ source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
 + [SDK de Plataforma universal de Windows para soluciones de Experience Cloud 4.x](overview.md)
 + Get started {#get-started-univ-win-plat}
-   + [Introducción](c-getting-started/c-getting-started.md)
-   + [Inicio rápido para desarrolladores](c-getting-started/dev-qs.md)
+   + [Get started](c-getting-started/c-getting-started.md)
+   + [Developer quick start](c-getting-started/dev-qs.md)
 + [Notas de la versión](release-notes.md)
 + Configuración {#config-univ-win-plat}
-   + [Información general de configuración](c-configuration/c-configuration.md)
-   + [Configuración adbmobileconfig. json](c-configuration/c.json.md)
-   + [Métodos de SDK](c-configuration/methods.md)
+   + [Información general sobre la configuración](c-configuration/c-configuration.md)
+   + [ADBMobileConfig.json config](c-configuration/c.json.md)
+   + [Métodos SDK](c-configuration/methods.md)
 + Analytics {#analytics-univ-win-plat}
    + [Información general de Analytics](analytics/analytics.md)
    + [Variable products](analytics/products.md)
@@ -28,5 +28,5 @@ source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 + [Métodos de Target](target/target-methods.md)
 + [Métodos de Audience Manager](audiencemgmt/audience-manager-methods.md)
 + [Métricas del ciclo vital](metrics.md)
-+ [Extensiones de Windows Visual Studio para SDK 4. x de Soluciones de Experience Cloud](extensions/win-vse-4x.md)
-+ [Migrar a 4. x](migration-v3.md)
++ [Extensiones de Windows Visual Studio para el SDK de soluciones de Experience Cloud 4.x](extensions/win-vse-4x.md)
++ [Migrar a 4.x](migration-v3.md)
