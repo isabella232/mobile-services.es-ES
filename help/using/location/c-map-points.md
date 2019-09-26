@@ -3,10 +3,10 @@ description: Puede ver un mapa interactivo que muestra sus puntos de interés y 
 keywords: móvil
 seo-description: Puede ver un mapa interactivo que muestra sus puntos de interés y otros marcadores de datos.
 seo-title: Mapa
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mapa
 topic: Métricas
-uuid: 3 c 271738-eb 8 d -4 c 26-baaf -54 b 247 bfc 4 da
+uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -15,13 +15,13 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 # Mapa {#map}
 
-Puede ver un mapa interactivo que muestre su punto de interés y otros marcadores de datos.
+You can view an interactive map that displays your POI and other data markers.
 
 ![](assets/map.png)
 
-Información importante para recordar:
+Here is some important information to remember:
 
-* Puede aumentar o disminuir el tamaño del mapa.
+* You can increase or decrease the size of the map.
 
    Esta función resulta útil, por ejemplo, si tiene dos puntos de interés que estén próximos entre sí. Al aumentar el mapa, podrá verlo con mayor detalle.
 * Los puntos de interés se muestran en azul.
@@ -34,8 +34,7 @@ Click ![layers](assets/map_layers.png) to select the following options:
 
    Muestre un mapa sencillo.
 
-* **[!UICONTROL Satellite]**
-Display the map in satellite mode.
+* **[!UICONTROL Satélite]** Muestra el mapa en modo satélite.
 
 * **[!UICONTROL Marcadores de datos]**
 
@@ -61,7 +60,7 @@ Para este informe, puede configurar las siguientes opciones:
 
 * **[!UICONTROL Filtro]**
 
-   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Adición de un filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL Descargar]**
 
