@@ -3,10 +3,10 @@ description: Puede dirigir a los usuarios a un destino dependiendo de si tienen 
 keywords: móvil
 seo-description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
 seo-title: Intersticiales
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Intersticiales
 topic: Métricas
-uuid: 7 dce 8 ab 2-2 a 5 d -4384-ac 1 e-e 31 dfaa 33654
+uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -17,7 +17,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor que sean los usuarios quienes elijan las rutas. Los especialistas en marketing pueden proporcionar elecciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
 
-Para configurar un intersticial al crear un vínculo de marketing:
+Para configurar un intersticial al creating a Marketing Link:
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
 
@@ -29,7 +29,7 @@ Para configurar un intersticial al crear un vínculo de marketing:
 
       Seleccione su página HTML intersticial personalizada.
 
-      Al utilizar intersticiales personalizados, los especialistas en marketing pueden personalizar páginas de aterrizaje intersticiales con HTML/CSS/JS personalizado, que le permite personalizar sus páginas.
+      Mediante intersticiales personalizados, los especialistas en marketing pueden personalizar las páginas de aterrizaje intersticiales con HTML/CSS/JS personalizado, lo que le permite personalizar las páginas.
 
       Estos son los requisitos de la página HTML:
 
