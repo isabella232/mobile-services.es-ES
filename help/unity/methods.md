@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: Métodos adbmobile. cs
-solution: Marketing Cloud, Desarrollador
-title: Métodos adbmobile. cs
-uuid: af 504934-febd -45 d 9-81 e 2-2 a 310 f 4 c 65 dc
+seo-title: Métodos ADBMobile.cs
+solution: Marketing Cloud,Developer
+title: ADBMobile.cs methods
+uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,7 +14,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # ADBMobile.cs methods {#adbmobile-cs-methods}
 
-## Métodos de configuración
+## Configuration methods
 
 * **CollectLifecycleData**
 
@@ -83,8 +83,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 * **GetPrivacyStatus**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`: Las visitas se envían inmediatamente.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Las visitas se descartan.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:: Las visitas se envían inmediatamente.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:: Las visitas se descartan.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas).
 
       Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
@@ -139,7 +139,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >Este método está pensado para utilizarse en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano y solo debería invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >This method is intended to be used for apps that register for notifications while in the background and should only be called from your code that runs while your app is in the background.
 
    * Esta es la sintaxis para este método:
 
@@ -171,7 +171,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **SetContext (solo Android)**
 
-   Indica al SDK que debe establecer su contexto de aplicación desde la actividad actual de unityplayer.
+   Indica al SDK que debe establecer su contexto de aplicación desde la actividad actual de UnityPlayer.
 
    * Esta es la sintaxis para este método:
 
@@ -201,12 +201,12 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       ADBMobile.SetDebugLogging(true); 
       ```
 
-* **Setprivacystatus**
+* **SetPrivacyStatus**
 
    Establece el estado de privacidad del usuario actual como estado. Establezca uno de los siguientes valores:
 
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`: Las visitas se envían inmediatamente.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Las visitas se descartan.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:: Las visitas se envían inmediatamente.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:: Las visitas se descartan.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
    * Esta es la sintaxis para este método:
@@ -215,7 +215,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       public static void SetPrivacyStatus(ADBPrivacyStatusstatus); 
       ```
 
-   * Esta es la muestra de código para esta sintaxis:
+   * Este es el ejemplo de código para esta sintaxis:
 
       ```java
       ADBMobile.SetPrivacyStatus(ADBMobile.ADBPrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
@@ -263,7 +263,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
 
    * Esta es la sintaxis para este método:
 
