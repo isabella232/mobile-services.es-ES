@@ -1,11 +1,11 @@
 ---
 description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 seo-description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
-seo-title: Configuración del estado de exclusión del usuario
-solution: Marketing Cloud, Analytics
-title: Configuración del estado de exclusión del usuario
+seo-title: Configuración del estado de selección del usuario
+solution: Marketing Cloud,Analytics
+title: Configuración del estado de selección del usuario
 topic: Desarrollador e implementación
-uuid: f 8 a 3 e 6 be -44 dd -494 e -9 cda-dbbac 86 d 6772
+uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -22,7 +22,7 @@ Esta información le será de ayuda para la solicitud de eliminación de datos d
 
 Puede controlar si la actividad de Analytics, Target y Audience Manager está permitida en un dispositivo mediante la siguiente configuración:
 
-* `privacyDefault` en [la configuración JSON de adbmobile](/help/android/configuration/json-config/json-config.md).
+* `privacyDefault` en [ADBMobile JSON Config](/help/android/configuration/json-config/json-config.md).
 
    Este ajuste controla la configuración inicial que persiste hasta que se cambia en el código.
 
@@ -48,9 +48,9 @@ La siguiente tabla describe todos los estados de privacidad:
    * Value in the JSON config file: `optedout`
    * Valor en `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_OPT_OUT`
 
-* **Desconocido**
+* **Unknown**
 
-   * **Analytics**: Si el seguimiento sin conexión **habilita**, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
+   * **Analytics**: If offline tracking **enabled**, hits are saved until the privacy status changes to opt-in (hits are sent) or opt-out (hits are discarded).
 
       Si el seguimiento en línea <b>no está activado</b>, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
    * **Target**: se envían las solicitudes mbox.
