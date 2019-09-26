@@ -2,9 +2,9 @@
 description: 'La biblioteca iOS proporciona los siguientes métodos de adquisición '
 seo-description: 'La biblioteca iOS proporciona los siguientes métodos de adquisición '
 seo-title: Métodos de adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de adquisición
-uuid: 6 f 88 de 57-793 d -4 d 33-9 a 54-f 6714289 fd 2 c
+uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -15,7 +15,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 La biblioteca iOS proporciona los siguientes métodos de adquisición:
 
-Se admite el método siguiente:
+Se admite el siguiente método:
 
 * **acquisitionCampaignStartForApp:data:**
 
