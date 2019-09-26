@@ -2,10 +2,10 @@
 description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
 seo-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
 seo-title: Mensajería en la aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mensajería en la aplicación
 topic: Desarrollador e implementación
-uuid: 21 fa 6 a 94-bb 7 f -4 c 78-843 b-a 50 f 1974 db 22
+uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -25,13 +25,13 @@ Información que debe recordar:
 
    >[!TIP]
    >
-   >Puede completar estos pasos aunque no haya ningún mensaje definido. Después de definir los mensajes, éstos se envían dinámicamente a su aplicación y se muestran sin actualizar la tienda de aplicaciones.
+   >Puede completar estos pasos aunque no tenga ningún mensaje definido. Después de definir los mensajes, se envían de forma dinámica a la aplicación y se muestran sin actualizar la tienda de aplicaciones.
 
 ## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/requirements.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/requirements.md).
 
 1. Importe la biblioteca:
 
@@ -69,7 +69,7 @@ Información que debe recordar:
    >
    >`messages` o `remotes` es obligatorio.
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obtener más información, consulte [Implementación principal y Ciclo vital](/help/ios/getting-started/requirements.md).
+   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obtener más información, consulte Implementación [principal y ciclo vital](/help/ios/getting-started/requirements.md).
 
 ## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
@@ -78,12 +78,12 @@ El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes mét
 * Para los mensajes dentro de la aplicación en pantalla completa y de estilo de alerta:
 
    * **[!UICONTROL Impresiones]**: cuando el usuario activa un mensaje en la aplicación.
-   * **[!UICONTROL Pulsaciones]**: cuando el usuario inserta **[!UICONTROL el]** botón Pulsación.
-   * **[!UICONTROL Cancela: cuando el usuario inserte el botón]** Cancelar **[!UICONTROL .]**
+   * **[!UICONTROL Pulsaciones]**: cuando el usuario pulsa el botón de **[!UICONTROL pulsación]** .
+   * **[!UICONTROL Cancela]**: cuando el usuario pulsa el botón **[!UICONTROL Cancelar]** .
 
 * Para los mensajes personalizados en pantalla completa, el contenido HTML del mensaje debe incluir el código adecuado para notificar al sistema de seguimiento del SDK el uso de los botones siguientes:
 
-   * **[!UICONTROL Seguimiento de ejemplo de pulsación]** (redirección): `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL Seguimiento de ejemplo de pulsaciones]** (redirecciones): `adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL Cancelar]** (cerrar) seguimiento de ejemplo: `adbinapp://cancel`
 
 * Para notificaciones locales (remotas):
