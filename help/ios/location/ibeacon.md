@@ -2,10 +2,10 @@
 description: El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-description: El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-title: Seguimiento de iBeacon
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de iBeacon
 topic: Desarrollador e implementación
-uuid: 390883 db -027 e -4 d 12-8 a 16-86 d 514579 db 1
+uuid: 390883db-027e-4d12-8a16-86d514579db1
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleand
 
 Los siguientes datos de señalización se envían a Analytics y Target cuando se llama a `trackBeacon`:
 
-* `a.beacon.uuid` - Proximityuuid de la señalización
+* `a.beacon.uuid` - ProximityUUID de la señalización
 * `a.beacon.major`: número mayor de la señalización, como un número de almacén
 * `a.beacon.minor`: número menor de la señalización, como un número exclusivo dentro de un almacén
 * `a.beacon.prox`: los siguientes valores representan la proximidad del usuario a la señalización:
@@ -28,11 +28,11 @@ Los siguientes datos de señalización se envían a Analytics y Target cuando se
    * `2` es cerca
    * `3` es lejos
 
-## Ibeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Track iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
 1. Importe la biblioteca:
 
    ```objective-c
