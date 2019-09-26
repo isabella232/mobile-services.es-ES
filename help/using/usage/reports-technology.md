@@ -2,11 +2,11 @@
 description: El informe Tecnología sirve para ver los diferentes tipos de dispositivos, sistemas operativos, versiones de sistemas operativos y operadores de telefonía móvil en los que se utiliza la aplicación.
 keywords: móvil
 seo-description: El informe Tecnología sirve para ver los diferentes tipos de dispositivos, sistemas operativos, versiones de sistemas operativos y operadores de telefonía móvil en los que se utiliza la aplicación.
-seo-title: Informe Tecnología
-solution: Marketing Cloud, Analytics
+seo-title: Technology report
+solution: Marketing Cloud,Analytics
 title: Informe Tecnología
 topic: Informes, métricas
-uuid: 4 b 7322 c 4-8920-43 cd-bb 72-5 a 5 bd 515 ae 84
+uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -51,7 +51,7 @@ En la siguiente tabla se describen los informes estándar y cómo se rellenan en
 
 >[!TIP]
 >
->En el informe **[!UICONTROL Portadoras]** , se informa a los usuarios de Wi-Fi como `none`.
+>En el informe **[!UICONTROL Portadoras]** , los usuarios de Wi-Fi se informan como `none`.
 
 
 ## Agregar desgloses y métricas {#section_15833511E82648869E7B1EFC24EF7B82}
