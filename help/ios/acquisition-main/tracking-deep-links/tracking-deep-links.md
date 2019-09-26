@@ -2,9 +2,9 @@
 description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 seo-description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 seo-title: Seguimiento de vínculos profundos
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de vínculos profundos
-uuid: 08 dc 2820-7 fd 3-419 f-ac 2 d-dcf 12532578 a
+uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -21,10 +21,10 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
 
 1. Añada el SDK al proyecto e implemente métricas del ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
-1. Registre la aplicación para gestionar comunicaciones entre aplicaciones o admitir vínculos universales.
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+1. Register the application to handle Inter-App Communications or support Universal Links.
 
-   Para obtener más información, consulte [Comunicaciones entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o [Vínculos universales de soporte técnico.](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+   Para obtener más información, consulte Comunicaciones [entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o Vínculos universales de [compatibilidad](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 1. Realice un seguimiento de vínculos profundos en openURL.
 
@@ -50,7 +50,7 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
 
 The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or Universal Link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo vital y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
 
-También puede añadir una o más de las siguientes claves reservadas (con valores generados por el usuario) al vínculo profundo o universal:
+También puede anexar una o varias de las siguientes claves reservadas (con valores generados por el usuario) al vínculo profundo o universal:
 
 * `a.launch.campaign.trackingcode`
 * `a.launch.campaign.source`
@@ -69,7 +69,7 @@ Estas claves son variables preasignadas para la realización de informes en Adob
    }];
    ```
 
-1. Control `ADBMobileDataEventDeepLink` dentro `AdobeDataCallback`de.
+1. Gestionar `ADBMobileDataEventDeepLink` dentro de `AdobeDataCallback`.
 
    ```objective-c
    [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) { 
