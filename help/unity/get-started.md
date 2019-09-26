@@ -3,9 +3,9 @@ description: Este complemento le permite enviar llamadas Adobe Analytics desde s
 keywords: Unity
 seo-description: Este complemento le permite enviar llamadas Adobe Analytics desde sus aplicaciones Unity.
 seo-title: Complemento Unity para los SDK de iOS y Android 4.x
-solution: Marketing Cloud, Desarrollador
+solution: Marketing Cloud,Desarrollador
 title: Complemento Unity para los SDK de iOS y Android 4.x
-uuid: 83289 a 73-982 d -4472-a 8 c 8-00 b 562 dc 80 f 5
+uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
 source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
@@ -22,7 +22,7 @@ Este complemento le permite enviar llamadas Adobe Analytics desde sus aplicacion
 
 Descargue el archivo [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) desde GitHub o Developer Connection.
 
-Este es el contenido del `ADBMobile.unitypackage` archivo:
+A continuación se muestra el contenido del `ADBMobile.unitypackage` archivo:
 
 * Recursos (raíz)
 
