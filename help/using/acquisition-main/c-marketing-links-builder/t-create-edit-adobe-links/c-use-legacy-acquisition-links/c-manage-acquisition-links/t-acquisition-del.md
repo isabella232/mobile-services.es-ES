@@ -3,10 +3,10 @@ description: Puede eliminar uno o varios vínculos de adquisición en caso de qu
 keywords: móvil
 seo-description: Puede eliminar uno o varios vínculos de adquisición en caso de que ya no los necesite.
 seo-title: Eliminar vínculos de adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Eliminar vínculos de adquisición
 topic: Métricas
-uuid: e 7362348-ca 24-4 f 1 c-b 37 f-eca 6 d 2 b 0 da 6 d
+uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
