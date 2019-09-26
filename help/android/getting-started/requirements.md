@@ -2,10 +2,10 @@
 description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
 seo-description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
 seo-title: Antes de comenzar
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Antes de comenzar
 topic: Desarrollador e implementación
-uuid: 0 ca 9 e 937-8 d 40-4570-9 dbf -9 aecc 6 ecfs 6
+uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -50,11 +50,11 @@ Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una 
 
 ### Experience Cloud
 
-Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administración de usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)de Experience Cloud.
 
 >[!TIP]
 >
->Si no está seguro de si su empresa ha sido aprovisionada en Experience Cloud, utilice su cuenta existente de Adobe Analytics.
+>Si no está seguro de si su empresa ha sido aprovisionada en Experience Cloud, utilice su cuenta de Adobe Analytics existente.
 
 ### Adobe Analytics
 
@@ -95,7 +95,7 @@ Para descargar el SDK de Mobile:
 
 >[!TIP]
 >
->En la descarga del SDK se incluye automáticamente un archivo de configuración para su aplicación, por lo que no es necesario descargar ese archivo por separado. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
+>La descarga del SDK incluye automáticamente un archivo de configuración para la aplicación, por lo que no es necesario descargarlo por separado. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
 
 If you are using Android Studio, you can also add the following to your app's `build.gradle` file:
 
