@@ -2,10 +2,10 @@
 description: A partir de iOS 10, Apple permite la creación de una extensión llamada extensión independiente, que puede distribuirse sin necesidad de aplicación contenedora. De este modo, no se necesita un grupo de aplicaciones, ya que no hay ninguna aplicación contenedora con la que compartir datos.
 seo-description: A partir de iOS 10, Apple permite la creación de una extensión llamada extensión independiente, que puede distribuirse sin necesidad de aplicación contenedora. De este modo, no se necesita un grupo de aplicaciones, ya que no hay ninguna aplicación contenedora con la que compartir datos.
 seo-title: Implementación de extensiones independientes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementación de extensiones independientes
 topic: Desarrollador e implementación
-uuid: 9 b 47 f 082-b 78 f -4611-968 d -014 c 32 ede 6 bc
+uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -18,7 +18,7 @@ A partir de iOS 10, Apple permite la creación de una extensión llamada extensi
 
 >[!IMPORTANT]
 >
->Para utilizar extensiones independientes, debe tener la versión 4.13.0 o posterior del SDK móvil.
+>To use stand-alone extensions, you must have Mobile SDK version 4.13.0 or later.
 
 ## Configurar la extensión independiente para su uso con el SDK {#section_B7A84603BB9D4B48BB46BE8D3B9E3CF0}
 
