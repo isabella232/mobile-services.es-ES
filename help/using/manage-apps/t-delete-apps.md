@@ -3,10 +3,10 @@ description: Puede eliminar una aplicación de Adobe Mobile.
 keywords: móvil
 seo-description: Puede eliminar una aplicación de Adobe Mobile.
 seo-title: Eliminar una aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Eliminar una aplicación
 topic: Métricas
-uuid: 1721 cce 5-b 368-4 f 05-a 40 b-e 3 f 2348 d 96 d 8
+uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -22,7 +22,7 @@ Puede eliminar una aplicación de la interfaz de usuario de Mobile Services.
 
    >[!IMPORTANT]
    >
-   >Al eliminar una aplicación de Adobe Mobile, esta se elimina de la interfaz de usuario de Adobe Mobile, pero la aplicación no se elimina de Apple App Store ni de Google Play. El grupo de informes y los datos seguirán estando disponibles en Adobe Analytics, pero no podrá administrarlos en Adobe Mobile.
+   >Al eliminar una aplicación de Adobe Mobile, ésta se elimina de la interfaz de usuario de Adobe Mobile, pero no de Apple App Store ni de Google Play. El grupo de informes y los datos seguirán estando disponibles en Adobe Analytics, pero no podrá administrarlos en Adobe Mobile.
 
 1. Click **[!UICONTROL Delete Selected]**.
 1. Click **[!UICONTROL Delete]**.
