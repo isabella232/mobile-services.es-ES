@@ -1,31 +1,29 @@
 ---
 description: Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap.
-seo-title: Descripción general del complemento phonegap
-solution: Marketing Cloud, Analytics
-title: Descripción general del complemento phonegap
+seo-title: PhoneGap plug-in overview
+solution: Marketing Cloud,Analytics
+title: PhoneGap plug-in overview
 topic: Desarrollador e implementación
-uuid: c 5 c 32357-d 8 df -458 a-b 0 e 8-e 0 c 56040241 d
+uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Descripción general del complemento phonegap {#phonegap-plug-in}
+# PhoneGap plug-in overview {#phonegap-plug-in}
 
 Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap. To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
-## Nueva versión del SDK de Adobe Experience Cloud
+## Nueva versión del SDK de Adobe Experience Platform Mobile
 
 ¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
->[!IMPORTANT]
->
->En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para empezar, vaya a [Launch](https://launch.adobe.com/).
+* Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
@@ -41,11 +39,11 @@ cordova plugin add adobe-mobile-services
 
 ## Incluir el complemento
 
-1. Arrastre `ADBMobile_PhoneGap.java` el archivo a `src` su carpeta.
+1. Arrastre el `ADBMobile_PhoneGap.java` archivo a la `src` carpeta.
 
    Para mover este archivo, haga clic en **[!UICONTROL Aceptar]**.
 
-1. Arrastre `ADB_Helper.js` el archivo a la carpeta que contiene `index.html` el archivo
+1. Arrastre el `ADB_Helper.js` archivo a la carpeta que contiene el `index.html` archivo
 
    Para mover este archivo, haga clic en **[!UICONTROL Aceptar]**.
 
@@ -63,10 +61,10 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-## Incluir la biblioteca appmeasurement
+## Incluir la biblioteca AppMeasurement
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. Arrastre el `adobeMobileLibrary.jar` archivo a su `src` carpeta.
+1. Arrastre el `adobeMobileLibrary.jar` archivo a la `src` carpeta.
 
    Para mover este archivo, haga clic en **[!UICONTROL Aceptar]**.
 
