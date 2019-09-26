@@ -3,10 +3,10 @@ description: Esta información resulta útil para solucionar problemas con la me
 keywords: móvil
 seo-description: Esta información resulta útil para solucionar problemas con la mensajería push.
 seo-title: Solucionar los problemas de la mensajería push
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Solucionar los problemas de la mensajería push
 topic: Métricas
-uuid: c 7 be 4 ab 7-0 cfe -4296-84 a 8-01412 f 4 fd 93 f
+uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -33,12 +33,12 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
    >[!TIP]
    >
-   >Este recuento es el número de envíos correctos al servicio push. Los servicios push no garantizan el envío de un mensaje.
+   >Este recuento es el número de envíos correctos a los servicios push. Los servicios push no garantizan el envío de un mensaje.
 
-   Para obtener más información sobre la fiabilidad del servicio, consulte:
+   For more information about the reliability of service, see:
 
    * [Calidad del servicio](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [Duración de un mensaje](https://developers.google.com/cloud-messaging/concept-options#lifetime).
+   * [Lifetime of a Message.](https://developers.google.com/cloud-messaging/concept-options#lifetime)
 
 ## ¿Por qué mi clave de GCM API para Android no es válida?
 
@@ -82,7 +82,7 @@ El certificado de APNS puede no ser válido por varios motivos:
 
 ## Resolver errores de mensajes push
 
-**Ejemplo**
+**Un ejemplo**
 
 El ejemplo siguiente ilustra cómo se puede resolver un error de push al emplear un VRS.
 
@@ -94,7 +94,7 @@ El cliente siguiente tiene dos aplicaciones iOS:
    * VRSID Definition Segment: `a.appid contains “PhotoShop_iOS_app_SF”`
 * Nombre de la aplicación: PhotoShop_app_iOS
    * RSID principal: AllAdobe PhotoShop_apps
-   * RSID: Photoshop_ iOS_ app_ LA
+   * RSID: PhotoShop_iOS_app_LA
    * VRSID Definition Segment: `a.os contains “iOS”`
 
 In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users.
@@ -103,4 +103,4 @@ If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers
 
 >[!CAUTION]
 >
->After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. Si hay alguna aplicación que **no** lo tiene, los segmentos de audiencia pueden seguir bloqueados indefinidamente y tal vez no pueda volver a enviar mensajes push a los usuarios afectados. Para obtener más información sobre segmentos de audiencia, consulte [Audiencia: defina y configure las opciones de audiencia para los mensajes push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+>After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. Si hay alguna aplicación que **no** lo tiene, los segmentos de audiencia pueden seguir bloqueados indefinidamente y tal vez no pueda volver a enviar mensajes push a los usuarios afectados. For more information about audience segments, see Audience: define and configure audience options for push messages.[](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)
