@@ -3,10 +3,10 @@ description: Puede crear un nuevo destino de vínculo que dirija a los usuarios 
 keywords: móvil
 seo-description: Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo web o profundo en su aplicación.
 seo-title: Crear un nuevo destino de vínculo
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Crear un nuevo destino de vínculo
 topic: Métricas
-uuid: 390 e 3 dea -0221-4 f 97-980 d-a 90 ca 9 f 162 fa
+uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -24,11 +24,11 @@ Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo
 1. Rellene los campos siguientes:
    * **[!UICONTROL Título]**
 
-      Escriba un nombre descriptivo para el destino de Vínculo de aplicación. El título solo aparece en la página Administrar destinos de vínculo de la interfaz de usuario de Adobe Mobile Services. Un nombre descriptivo le ayuda a usted y a otras personas de su organización a encontrar rápidamente destinos de vínculo específicos y puede proporcionar información sobre su finalidad.
+      Escriba un nombre descriptivo para el destino del vínculo de aplicación. El título solo aparece en la página Administrar destinos de vínculo de la interfaz de usuario de Adobe Mobile Services. Un nombre descriptivo le ayuda a usted y a otras personas de su organización a encontrar rápidamente destinos de vínculo específicos y puede proporcionar información sobre su finalidad.
 
    * **[!UICONTROL Tipo de vínculo]**
 
-      Esta es una lista de los tipos de vínculos disponibles:
+      Here is a list of the available link types:
 
       * **[!UICONTROL Vínculo profundo de la aplicación]**
 
@@ -41,8 +41,7 @@ Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo
       * **[!UICONTROL Vínculo híbrido]**
 
          Type an iOS Universal Link or an Android App Link (for example, `https://yourwebsite.com`). Los vínculos híbridos admiten vínculos universales iOS o vínculos para aplicaciones Android.
-   * **[!UICONTROL Aplicación]**
-Seleccione la aplicación asociada con el vínculo que va a proporcionar.
+   * **[!UICONTROL Aplicación]** Seleccione la aplicación asociada al vínculo que va a proporcionar.
 
       >[!TIP]
       >
@@ -50,7 +49,7 @@ Seleccione la aplicación asociada con el vínculo que va a proporcionar.
 
    * **[!UICONTROL Tipo de vínculo]**
 
-      Escriba la dirección URL real del vínculo seleccionado. La etiqueta de este campo variará según el tipo de vínculo seleccionado.
+      Type the actual URL for the link you selected. The label of this field will vary depeneding on the type of link you selected.
 
    * **[!UICONTROL Notas]**
 
