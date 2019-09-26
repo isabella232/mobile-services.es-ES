@@ -3,10 +3,10 @@ description: Después de la creación de los vínculos de adquisición, estos se
 keywords: móvil
 seo-description: Después de la creación de los vínculos de adquisición, estos se pueden eliminar, importar y exportar.
 seo-title: Administrar vínculos de adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Administrar vínculos de adquisición
 topic: Métricas
-uuid: 06 b 35 bbc -7 cd 6-4375-aa 17-204 edab 40 e 62
+uuid: 06b35bbc-7cd6-4375-aa17-204edab40e62
 translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
