@@ -2,11 +2,11 @@
 description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 keywords: móvil
 seo-description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
-seo-title: Mensaje en la aplicación de experiencia
-solution: Marketing Cloud, Analytics
-title: Mensaje en la aplicación de experiencia
+seo-title: Mensaje de experiencia en la aplicación
+solution: Marketing Cloud,Analytics
+title: Mensaje de experiencia en la aplicación
 topic: Métricas
-uuid: 4 c 6 d 6756-47 fb -4 f 1 b -8338-0 b 0 c 9 b 0 fgi 0
+uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,8 +21,8 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 1. En la página Experiencia, escriba el nombre del mensaje.
 1. Rellene los campos de la sección **[!UICONTROL Tipo]:**
 
-   * **[!UICONTROL Escriba]**
-el tipo de mensaje para la campaña de mensaje en la aplicación:
+   * **[!UICONTROL Type
+Select the message type for your in-app message campaign:]**
 
       * **[!UICONTROL Pantalla completa]**
       * **[!UICONTROL Alerta]**
@@ -79,7 +79,7 @@ el tipo de mensaje para la campaña de mensaje en la aplicación:
 
    * **[!UICONTROL Botón Pulsación]**
 
-      Etiqueta del botón **[!UICONTROL Pulsación].** Al tocar este botón se cuenta como una pulsación correcta. Se redirige al usuario al destino.
+      Etiqueta del botón **[!UICONTROL Pulsación].** Tocar este botón cuenta como una pulsación correcta. El usuario se redirige al destino.
 
    * **[!UICONTROL Destino]**
 
@@ -88,7 +88,7 @@ el tipo de mensaje para la campaña de mensaje en la aplicación:
       Esta dirección URL puede contener la siguiente información:
 
       * `{userId}`, que se sustituye por el identificador de usuario o se queda en blanco cuando este no se define.
-      * `{trackingId}`, que se sustituye por la ayuda (se correlaciona con *la cookie s_ vi* ).
+      * `{trackingId}`, que se sustituye por la ayuda (se correlaciona con *la cookie s_vi* ).
       * `{messageId}`, que se sustituye por el identificador único del mensaje en la aplicación.
       * `{lifetimeValue}`, que se sustituye por el valor de duración o por 0 si este no existe.
       Este es un ejemplo de seguimiento del identificador de usuario: `https://www.mysite.com?uid={userId}`.
@@ -102,26 +102,26 @@ el tipo de mensaje para la campaña de mensaje en la aplicación:
 
 1. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
 
-   * **[!UICONTROL Resumen]** oculta el panel de vista previa.
+   * **[!UICONTROL El resumen]** oculta el panel de vista previa.
 
       Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL Cambiar la orientación]**
 
-      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). Para los relojes, la orientación cambia de una ronda a otra cuadrada.
+      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). En el caso de los relojes, la orientación cambia de una cara redonda a una cuadrada.
 
-   * **[!UICONTROL Vista previa en el reloj del usuario]**
+   * **[!UICONTROL Vista previa en el reloj de un usuario]**
 
-      Para obtener una vista previa del mensaje como aparecerá en el reloj del usuario, haga clic ![en el icono](assets/icon_watch.png)de Watch.
+      To preview your message as it will appear on a user's watch, click watch icon.![](assets/icon_watch.png)
 
-   * **[!UICONTROL Vista previa en el teléfono móvil de un usuario]**
+   * **[!UICONTROL Preview on a user's mobile phone]**
 
-      Para obtener una vista previa del mensaje, tal como aparecerá en el icono de teléfono del teléfono ![móvil de un usuario](assets/icon_phone.png).
+      To preview your message as it will appear on a users's mobile phone click phone icon.![](assets/icon_phone.png)
 
-   * **[!UICONTROL Vista previa en tablets de un usuario]**
+   * **[!UICONTROL Preview on a user's tablet]**
 
-      Para obtener una vista previa del mensaje en la tablet de un usuario, haga clic ![en el icono tablet](assets/icon_tablet.png).
+      To preview your message in a user's tablet, click tablet icon.![](assets/icon_tablet.png)
 
       En la parte inferior del panel de vista previa, puede ver una descripción de la audiencia que seleccionó en el paso anterior. También puede ver una descripción de la audiencia seleccionada en el paso anterior en la parte inferior del panel de vista previa.
 
-1. Configure [las opciones de Programación](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md).
+1. Configure Schedule options.[](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
