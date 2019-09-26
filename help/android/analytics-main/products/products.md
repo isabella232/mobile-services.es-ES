@@ -1,12 +1,12 @@
 ---
 description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada del servidor.
-keywords: android; library; mobile; sdk
+keywords: android;library;mobile;sdk
 seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada del servidor.
 seo-title: Variable products
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Variable products
 topic: Desarrollador e implementación
-uuid: f 4484022-cb 8 b -4 dea -9209-5 a 110 ba 607 df
+uuid: f4484022-cb8b-4dea-9209-5a110ba607df
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
@@ -46,4 +46,4 @@ The *products* variable is set on the image request, and the other variables are
 
 ![](assets/map-products.png)
 
-No es necesario que asigne la variable *variable products* mediante reglas de procesamiento porque el SDK establece esta variable directamente en la solicitud de imagen.
+No es necesario que asigne la variable *products* variable by using processing rules because this variable is set directly on the image request by the SDK.
