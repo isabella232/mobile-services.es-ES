@@ -2,10 +2,10 @@
 description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-title: Reglas de procesamiento y datos de contexto
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic: Desarrollador e implementación
-uuid: 51338 ccd-fa 52-4 d 9 c -97 c 4-947 a 4100465 d d
+uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -21,7 +21,7 @@ Para obtener más información, consulte el contenido siguiente:
 * [Formación de reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 * Obtener autorización para utilizar reglas de procesamiento
 
-   Para obtener más información sobre las reglas de procesamiento, consulte [Descripción general de reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Para obtener más información sobre las reglas de procesamiento, consulte Introducción a las reglas [de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Al trabajar con reglas de procesamiento, recuerde la información siguiente:
 
