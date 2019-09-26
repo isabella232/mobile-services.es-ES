@@ -3,21 +3,21 @@ description: El informe Usuarios y sesiones muestra las métricas de visitantes 
 keywords: móvil
 seo-description: El informe Usuarios y sesiones muestra las métricas de visitantes únicos durante el lapso de tiempo seleccionado.
 seo-title: Informe Usuarios y sesiones
-solution: Marketing Cloud, Analytics
-title: Informe Usuarios y sesiones
+solution: Marketing Cloud,Analytics
+title: Users and Sessions report
 topic: Informes, métricas
-uuid: 6 d 70 d 7 f 6-de 81-4307-a 4 f 3-14 f 18 fc 3 c 9 b 3
+uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Informe de usuarios y sesiones{#users-and-sessions}
+# Users and sessions report{#users-and-sessions}
 
 El informe Usuarios y sesiones muestra las métricas de visitantes únicos durante el lapso de tiempo seleccionado.
 
-![Informe Usuarios y sesiones](assets/users_sessions.png)
+![Users and Sessions report](assets/users_sessions.png)
 
 Para este informe, puede configurar las siguientes opciones:
 
@@ -31,7 +31,7 @@ Para este informe, puede configurar las siguientes opciones:
 
 * **[!UICONTROL Filtro]**
 
-   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. For more information, see Add sticky filter.[](/help/using/usage/reports-customize/t-sticky-filter.md)
 
 * **[!UICONTROL Descargar]**
 
