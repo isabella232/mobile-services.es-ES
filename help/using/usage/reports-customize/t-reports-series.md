@@ -3,10 +3,10 @@ description: Esta información sirve para personalizar los informes integrados m
 keywords: móvil
 seo-description: Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
 seo-title: Agregar series (métricas) a informes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Agregar series (métricas) a informes
 topic: Informes, métricas
-uuid: 84 fdfb 1 f -70 e 6-4 c 02-9 b 3 b -526 e 9 c 924 f 74
+uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -43,7 +43,7 @@ In this example, we will customize the **[!UICONTROL Users &amp; Sessions]** rep
 
       ![Resultado de los pasos](assets/add_series.png)
 
-   * Para agregar una aplicación nueva en un grupo de informes diferente y poder comparar los datos entre aplicaciones, haga clic en el nombre de la aplicación en la serie recién creada y seleccione la aplicación que desee.
+   * Para agregar una aplicación nueva en un grupo de informes diferente para poder comparar datos entre aplicaciones, haga clic en el nombre de la aplicación en la serie recién creada y seleccione la aplicación que desee.
 
       ![](assets/add_series_app.png)
 
