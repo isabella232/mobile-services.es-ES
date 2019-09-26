@@ -1,12 +1,12 @@
 ---
 description: El seguimiento de señalización le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: El seguimiento de señalización le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-title: Seguimiento de señalización
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de señalización
 topic: Desarrollador e implementación
-uuid: 16 c 1 d 267-85 f 4-4 a 6 a-a 6 d 3-d 6 ffb 0 f 80 b 29
+uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -19,7 +19,7 @@ El seguimiento de señalización le permite medir y segmentar microubicaciones e
 
 Los siguientes datos de señalización se envían a Analytics y Target cuando se llama a `trackBeacon`:
 
-* `a.beacon.uuid` - Proximityuuid de la señalización
+* `a.beacon.uuid` - ProximityUUID de la señalización
 * `a.beacon.major`: número mayor de la señalización (por ejemplo, número de almacén)
 * `a.beacon.minor`: número menor de la señalización (por ejemplo, un número exclusivo dentro de un almacén)
 * `a.beacon.prox`: los valores 0-3 representan la proximidad del usuario a la señalización.
@@ -37,7 +37,7 @@ Estos datos de señalización se capturan en variables de soluciones móviles.
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto intellij IDEA o Eclipse* en [implementación y ciclo vital de Core](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
