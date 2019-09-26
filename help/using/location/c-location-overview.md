@@ -3,10 +3,10 @@ description: El informe Información general de ubicación le permite ver los di
 keywords: móvil
 seo-description: El informe Información general de ubicación le permite ver los diferentes países, regiones y puntos de interés en los que se utiliza la aplicación.
 seo-title: Información general (ubicación)
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Información general (ubicación)
 topic: Informes, métricas
-uuid: a 701 abc 3-001 b -4015-843 f -5 fb 2 c 6 c 80 d 17
+uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -19,7 +19,7 @@ The **[!UICONTROL Location Overview]** report lets you see the different countri
 
 Este informe ofrece una visualización de destello solar de los datos existentes. Lo puede usar para descubrir segmentos de audiencias (conjuntos de visitantes) a los que desee dirigirse. Crear y administrar audiencias es similar a crear y usar segmentos, con la diferencia de que las audiencias se pueden publicar en Experience Cloud.
 
-A continuación encontrará información adicional sobre este informe:
+Here is some additional information about this report:
 
 ## Navigation and usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
