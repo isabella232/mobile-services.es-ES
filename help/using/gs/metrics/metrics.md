@@ -3,10 +3,10 @@ description: Puede medir distintas métricas usando Adobe Mobile y recabar las m
 keywords: móvil
 seo-description: Puede medir distintas métricas usando Adobe Mobile y recabar las métricas de las que quiera realizar un seguimiento para su aplicación.
 seo-title: Métricas móviles
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas móviles
 topic: Métricas
-uuid: c 4457 f 4 a -9 d 1 c -4 fe 9-ad 4 a -9 eb 2 e 37 feab 7
+uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -31,7 +31,7 @@ Se miden los siguientes tipos de métricas:
 
 * **Ingresos**
 
-   Puede ver los ingresos recopilados por las tiendas de aplicaciones y los ingresos medidos directamente mediante eventos de compra dentro de la aplicación. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+   Puede ver los ingresos recopilados por los almacenes de aplicaciones y los ingresos medidos directamente mediante los eventos de compra dentro de la aplicación. Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 
 * **Eventos de aplicaciones**
 
@@ -43,7 +43,7 @@ Se miden los siguientes tipos de métricas:
 
 * **Ubicación y puntos de interés**
 
-   Si la generación de informes geográficos está habilitada en su grupo de informes de Analytics, hay varios informes basados en ubicación disponibles. En Wi-Fi, la precisión de la generación de informes geográficos es similar a la de un navegador web de escritorio. En una conexión de datos, la exactitud varía en función del proveedor y de cómo se dirigen las solicitudes.
+   Si la generación de informes geográficos está habilitada en su grupo de informes de Analytics, hay varios informes basados en ubicación disponibles. En Wi-Fi, la precisión de los informes geográficos es similar a la de un navegador web de escritorio. En una conexión de datos, la exactitud varía en función del proveedor y de cómo se dirigen las solicitudes.
 
    Para aumentar la precisión, también puede agregar el seguimiento de la ubicación y los puntos de interés en la aplicación. Estas opciones permiten consignar información detallada sobre la longitud y latitud de una ubicación, y usar vallas geográficas para determinar cuándo un usuario se encuentra dentro del radio de un punto de interés definido previamente.
 
