@@ -1,11 +1,11 @@
 ---
 description: Puede cargar un archivo de configuración ADBMobile JSON diferente al iniciar la aplicación.
 seo-description: Puede cargar un archivo de configuración ADBMobile JSON diferente al iniciar la aplicación.
-seo-title: Anular la ruta de configuración JSON de adbmobile
-solution: Marketing Cloud, Analytics
-title: Anular la ruta de configuración JSON de adbmobile
+seo-title: Anular la ruta de configuración JSON de ADBMobile
+solution: Marketing Cloud,Analytics
+title: Anular la ruta de configuración JSON de ADBMobile
 topic: Desarrollador e implementación
-uuid: 0 d 1 be 674-c 634-4 a 48-aa 31-5701681911 b 9
+uuid: 0d1be674-c634-4a48-aa31-5701681911b9
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
