@@ -16,16 +16,16 @@ source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
 
-**20 de septiembre de 2019: Versión 4.18.8**
+**September 20, 2019: Version 4.18.8**
 
-* Mensajería en la aplicación:
+* In App Messaging:
 
    * En dispositivos con iOS 10 o posterior, el marco de trabajo ahora se utiliza para programar notificaciones locales para aplicaciones vinculadas al `UserNotifications` `UserNotifications.framework`.
    * Los mensajes a pantalla completa ahora utilizan WKWebViews de `WebKit.framework`, que debe estar vinculado en el proyecto Xcode.
    * Se corrigió un error en el cual la carga útil de pulsaciones no se podía usar como características para la mensajería en la aplicación.
    * Se ha corregido un problema de bloqueo.
 
-* General: se ha corregido un error por el que los datos del SDK se sincronizaban con la aplicación WatchOS en pares en cada llamada de Analytics.
+* General - Fixed a bug where SDK data was synchronized to the paired watchOS app on every Analytics call.
 
 **2 de agosto de 2019: Versión 4.18.7**
 
@@ -41,7 +41,7 @@ Estas son las notas de la versión, los problemas conocidos y la información so
 
    La doble codificación provocaba que los valores devueltos de esas API se marcaran con indicadores de ciertas revisiones de seguridad.
 
-**5 de junio de 2019: Versión 4.18.5**
+**June 5, 2019: Version 4.18.5**
 
 * Analytics: anexe el estado de la opción de inclusión push a los datos del ciclo vital cuando las notificaciones push estén habilitadas.
 
