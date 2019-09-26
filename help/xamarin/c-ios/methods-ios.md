@@ -2,8 +2,8 @@
 description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
 seo-description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
-seo-title: Métodos de iOS
-solution: Marketing Cloud,Desarrollador
+seo-title: iOS methods
+solution: Marketing Cloud,Developer
 title: Métodos de iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
@@ -213,7 +213,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    Realiza un seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como “pantalla de título”, “nivel 1” o “pausa”, entre otros. Estos estados son similares a las páginas de un sitio web y las llamadas incrementan las vistas de página.Si el estado está vacío, se muestra como "nombre de aplicación versión de la aplicación (compilación)" en los informes. `TrackState` Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
 
    [!TIP]
-   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
+   >This is the only tracking call that increments page views.
    >
    * Esta es la sintaxis para este método:
 
