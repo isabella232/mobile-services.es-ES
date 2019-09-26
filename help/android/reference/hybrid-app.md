@@ -1,11 +1,11 @@
 ---
 description: Si su aplicación abre contenido de una web móvil, asegúrese de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 seo-description: Si su aplicación abre contenido de una web móvil, asegúrese de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
-seo-title: Seguimiento de visitantes entre una aplicación y una web móvil
-solution: Marketing Cloud, Analytics
+seo-title: Visitor Tracking between an app and mobile web
+solution: Marketing Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y una web móvil
 topic: Desarrollador e implementación
-uuid: 073572 e 4-4 c 55-4 b 27-b 4 a 7-e 4349 ccde 7 bf
+uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -16,13 +16,13 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 Si su aplicación abre contenido de una web móvil, asegúrese de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 
-## ID de visitante en aplicaciones
+## Visitor IDs in apps
 
 El SDK para Android genera un ID de visitante exclusivo cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil, se envía con cada visita y solo se elimina cuando el usuario desinstala la aplicación.
 
 >[!TIP]
 >
->Los ID de visitante de la aplicación persisten a través de actualizaciones.
+>Los ID de visitante de la aplicación persisten a través de las actualizaciones.
 
 ## ID de visitante en la web móvil
 
@@ -34,7 +34,7 @@ Para utilizar el mismo identificador de visitante en la aplicación y la web mó
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto intellij IDEA o Eclipse* en [implementación y ciclo vital de Core](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
 
 1. Para adjuntar información de visitante a la URL que se está utilizando para abrir el visor web, llame a `visitorAppendToURL`:
 
@@ -90,5 +90,5 @@ Si estos pasos no solucionan sus problemas, póngase en contacto con Adobe Exper
 
 >[!IMPORTANT]
 >
->Para permitir que Adobe valide la implementación, debe compartir una aplicación de ejemplo y el sitio asociado.
+>Para permitir que Adobe valide la implementación, debe compartir una aplicación de muestra y el sitio asociado.
 
