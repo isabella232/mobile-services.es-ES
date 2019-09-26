@@ -1,11 +1,11 @@
 ---
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
-seo-title: Configuración JSON de adbmobile
-solution: Marketing Cloud, Analytics
-title: Configuración JSON de adbmobile
+seo-title: Configuración JSON de ADBMobile
+solution: Marketing Cloud,Analytics
+title: Configuración JSON de ADBMobile
 topic: Desarrollador e implementación
-uuid: d 9708 d 59-e 30 a -4 f 6 c-ab 1 b-d 9499855 d 0 c 2
+uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -24,7 +24,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 >
 >En **iOS**, el archivo `ADBMobileConfig.json` puede colocarse en cualquier parte accesible del paquete.
 
-* **adquisición**
+* **acquisition**
 
    Habilita la adquisición de aplicación móvil.
 
@@ -57,7 +57,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Versión mínima del SDK: 4.6
    >[!IMPORTANT]
    >
-   >La información antedatada de visitas de sesión se envía en una llamada al servidor de información de sesión y podrían aplicarse llamadas adicionales al servidor.
+   >La información de visitas de sesión con fecha anterior se envía en una llamada al servidor de información de sesión y se pueden aplicar llamadas al servidor adicionales.
 
 
 * **batchLimit**
@@ -80,7 +80,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    >[!IMPORTANT]
    >
-   >Target requiere esta variable.
+   >This variable is required by Target.
 
    * Versión mínima del SDK: 4.0
 
@@ -125,7 +125,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Cuando está activado, las visitas se ponen en cola mientras el dispositivo está sin conexión y se envían más tarde, cuando el dispositivo se conecta. El grupo de informes debe tener habilitada la marca de fecha y hora para poder utilizar el seguimiento sin conexión. El valor predeterminado es `false`.
 
-   Información importante:
+   A continuación se presenta información importante:
 
    * Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` *debe* ser verdadera.
    * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
@@ -136,7 +136,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **org**
 
-   Especifica el ID de organización de Experience Cloud para el servicio de identidad de Adobe Experience Platform.
+   Especifica el ID de organización de Experience Cloud para el servicio de identidad de la plataforma de Adobe Experience Cloud.
 
    * Versión mínima del SDK: 4.3
 
@@ -145,7 +145,6 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    Cada matriz de punto de interés (POI) guarda su nombre, latitud, longitud y radio del área (en metros). El nombre del punto puede ser cualquier cadena. Cuando se envía una llamada a `trackLocation`, si las coordinadas actuales se encuentran dentro de un punto de interés definido, se rellena una variable de datos de contexto que se envía junto con la llamada a `trackLocation`.
 
    * Versión mínima del SDK: 4.0
-
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]
@@ -161,7 +160,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de comenzar](/help/ios/getting-started/requirements.md).
+   Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de iniciar](/help/ios/getting-started/requirements.md).
 
 * **postback**
 
@@ -175,7 +174,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
        "timeout": 0 //optional-number of seconds to wait before timingout.Defaultis2.}
    ```
 
-   `payload` El objeto del código es una carga útil de ejemplo para una definición de mensaje que iría en `ADBMobileConfig.json` el archivo. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   The `payload` object in the code is an example payload for a message definition that would go in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
    * Versión mínima del SDK: 4.6
 
@@ -257,7 +256,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
        "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
    ```
 
-   `payload` El objeto del código es una carga útil de muestra para una definición de mensaje que va del `ADBMobileConfig.json` archivo. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
    * Versión mínima del SDK: 4.0
 
@@ -268,7 +267,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Versión mínima del SDK: 4.0
 
 
-## `ADBMobileConfig.json` Archivo de muestra {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 
