@@ -1,12 +1,12 @@
 ---
 description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
 seo-title: Métodos de configuración
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Desarrollador e implementación
-uuid: 663 aeb 6 c -1 b 97-4 a 3 a -8 c 0 e-dd 4 c 2 ec 28 c 01 c
+uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -38,7 +38,7 @@ Este es un ejemplo de código para este método:
 
 * **registerAdobeDataCallback**
 
-   * Registra un objeto que implementa la interfaz `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obtener más detalles sobre los eventos que activarán esta llamada de retorno, consulte *mobiledataeventenum* al final de este tema.
+   * Registra un objeto que implementa la interfaz `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obtener más información sobre los eventos que activarán esta llamada de retorno, consulte *MobileDataEventEnum* en la parte inferior de este tema.
 
       >[!TIP]
       >
@@ -87,7 +87,7 @@ Este es un ejemplo de código para este método:
       Estos son los valores de estado de privacidad:
 
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, donde las visitas se envían inmediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan los "its".
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan).
 
          Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a incluido. El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
@@ -110,7 +110,7 @@ Este es un ejemplo de código para este método:
 
       Puede establecer el estado de privacidad en uno de los siguientes valores:
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, donde las visitas se envían inmediatamente. Estas visitas se envían inmediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan. Estas visitas se descartan.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan los "its". Estas visitas se descartan.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan).
 Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a incluido.
    * Esta es la sintaxis para este método:
@@ -119,7 +119,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
       public static void setPrivacyStatus(MobilePrivacyStatus status); 
       ```
 
-   * Este es un ejemplo de código para este método:
+   * Here is a code sample for this method:
 
       ```java
       Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
@@ -148,7 +148,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
       >[!TIP]
       >
-      >Si la aplicación se actualiza de Experience Cloud 3. x al SDK 4. x, el ID de visitante previo personalizado o generado automáticamente se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para las instalaciones nuevas en el SDK 4.x, hasta que esté establecido, el identificador de usuario será `null`.
+      >Si la aplicación se actualiza del SDK 3.x a 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para las instalaciones nuevas en el SDK 4.x, hasta que esté establecido, el identificador de usuario será `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -156,7 +156,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
       public static String&amp getUserIdentifier();
       ```
 
-   * Aquí se muestra la muestra de código de este método:
+   * Here the code sample for this method:
 
       ```java
       String userId = Config.getUserIdentifier();
