@@ -1,43 +1,43 @@
 ---
-description: Puede configurar la aplicación para utilizar el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud Messaging (FCM).
+description: Puede configurar la aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o Firebase Cloud Messaging (FCM).
 keywords: móvil
-seo-description: Puede configurar la aplicación para utilizar el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud Messaging (FCM).
-seo-title: Configurar aplicación para utilizar APNS o FCM
-solution: Marketing Cloud, Analytics
-title: Configurar aplicación para utilizar APNS o FCM
+seo-description: You can configure your app to use Apple Push Notification Service (APNS) or Firebase Cloud Messaging (FCM).
+seo-title: Configure App to use APNS or FCM
+solution: Marketing Cloud,Analytics
+title: Configure App to use APNS or FCM
 topic: Métricas
-uuid: fa 411 f 2 a-ba 47-4499-bbe 5-1 aedef 6 b 49 ad
+uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
 translation-type: tm+mt
 source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
 
 ---
 
 
-# Configurar la aplicación para que utilice APNS o FCM{#configure-app-to-use-apns-or-fcm}
+# Configure la aplicación para que utilice APNS o FCM{#configure-app-to-use-apns-or-fcm}
 
-Puede configurar la aplicación para utilizar el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud Messaging (FCM).
+Puede configurar la aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o Firebase Cloud Messaging (FCM).
 
 ## Aplicaciones de Android {#section_41D304102CDF4586911EC1413AD35A10}
 
-### Si FCM no está habilitado en la aplicación
+### Si FCM no está activado en la aplicación
 
-Para configurar la aplicación de Android para utilizar FCM en este escenario:
+Para configurar la aplicación de Android para que utilice FCM en este escenario:
 
 1. Go to [https://firebase.google.com/](https://firebase.google.com/) and log in with your Google Dev credentials.
 
-1. Haga clic **[!UICONTROL en Introducción]** y seleccione **[!UICONTROL Agregar proyecto]**.
+1. Haga clic en **[!UICONTROL Comenzar]** y seleccione **[!UICONTROL Agregar proyecto]**.
 
-1. Introduzca un nombre de proyecto y, si opta por datos de Google Analytics para datos de Firebase, haga clic en la casilla de verificación que acepta los términos del controlador.
+1. Introduzca un nombre de proyecto y, si selecciona Google Analytics para los datos de Firebase, haga clic en la casilla de verificación que acepta los términos controlador-controlador.
 
-1. Haga clic **[!UICONTROL en Crear proyecto]** y espere a que se cree el proyecto.
+1. Haga clic en **[!UICONTROL Crear proyecto]** y espere a que se cree el proyecto.
 
-1. Haga clic en el proyecto creado y en la **[!UICONTROL página Información general]** del proyecto para el proyecto creado. Haga clic en el botón con el icono Android para agregar una aplicación de Android al proyecto.
+1. Haga clic en el proyecto creado y se mostrará la página Información general **[!UICONTROL del]** proyecto para el proyecto creado. Haga clic en el botón con el icono de Android para añadir una aplicación de Android al proyecto.
 
-1. Introduzca el nombre del paquete de la aplicación, el alias de la aplicación y el certificado de firma, si es necesario.
+1. Introduzca el nombre del paquete de la aplicación, el apodo de la aplicación y el certificado de firma si es necesario.
 
-1. Siga los pasos adicionales sugeridos por el asistente de instalación. Después de verificar la configuración de Firebase mediante la prueba de comunicación con los servidores de Firebase, vuelva a la página **[!UICONTROL Información general]** del proyecto.
+1. Siga los pasos adicionales sugeridos por el asistente de configuración. Después de comprobar la configuración de Firebase probando la comunicación con los servidores Firebase, vuelva a la página Información general **[!UICONTROL del]** proyecto.
 
-1. Haga clic en el icono de engranaje situado a la derecha **[!UICONTROL del botón Información general]** del proyecto y haga clic **[!UICONTROL en Ajustes del proyecto]**.
+1. Haga clic en el icono de engranaje situado a la derecha del botón Información general **[!UICONTROL del]** proyecto y haga clic en Configuración **[!UICONTROL del proyecto]**.
 
 1. Haga clic en la ficha **[!UICONTROL Cloud Messaging]** .
 
@@ -53,15 +53,15 @@ Para configurar la aplicación de Android para utilizar FCM en este escenario:
    - Sender ID = 835015092250
    ```
 
-### Si FCM está habilitado en la aplicación
+### Si FCM está activado en la aplicación
 
-Para configurar la aplicación de Android para utilizar FCM en este escenario:
+To configure your Android app to use FCM in this scenario:
 
 1. Go to [https://firebase.google.com/](https://firebase.google.com/) and log in with your Google Dev credentials.
 
-1. Haga clic **[!UICONTROL en Introducción]**. Se abrirá la página de índice del proyecto. Busque el proyecto activado de Firebase que está vinculado a su aplicación de Android y haga clic en la tarjeta de proyecto.
+1. Haga clic en **[!UICONTROL Comenzar]**. Se abrirá la página de índice del proyecto. Busque el proyecto habilitado para Firebase que está vinculado a su aplicación de Android y haga clic en la tarjeta del proyecto.
 
-1. Se debe cargar la Información general **[!UICONTROL del proyecto]** para el proyecto. Haga clic en el icono de engranaje situado a la derecha **[!UICONTROL del botón Información general]** del proyecto y haga clic **[!UICONTROL en Ajustes del proyecto]**.
+1. Luego se debe cargar la Información general **[!UICONTROL del]** proyecto para el proyecto. Haga clic en el icono de engranaje situado a la derecha del botón Información general **[!UICONTROL del]** proyecto y haga clic en Configuración **[!UICONTROL del proyecto]**.
 
 1. Haga clic en la ficha **[!UICONTROL Cloud Messaging]** .
 
@@ -85,7 +85,7 @@ Si desea configurar la aplicación de iOS para el uso de APNS:
 
 1. Vaya a [https://developer.apple.com/account](https://developer.apple.com/account) e inicie sesión en su [cuenta para desarrolladores de Apple](https://developer.apple.com/account).
 1. En **[!UICONTROL Aplicaciones de iOS]**, seleccione **[!UICONTROL Identificadores]**.
-1. Si tiene un ID de aplicación configurado para la activación, vaya al paso 11.
+1. Si tiene un ID de aplicación configurado para la inserción, vaya al paso 11.
 1. Press the **[!UICONTROL +]** button to create a new App ID.
 1. Escriba la descripción del ID de aplicación.
 1. Escriba el sufijo del ID de aplicación.
@@ -102,14 +102,14 @@ Si desea configurar la aplicación de iOS para el uso de APNS:
 1. Si ya dispone de un certificado push, vaya al paso 15.
 1. Desplácese hacia abajo hasta **[!UICONTROL Notificaciones push]** y haga clic en el botón **[!UICONTROL Crear certificado…]**.
 
-   El botón que haga clic dependerá si está creando un certificado para desarrollo o producción.
-1. Siga los pasos sobre cómo crear su CSR en el sitio Web de Apple, cargar el CSR y generar su certificado.
+   El botón en el que se hace clic depende de si se está creando un certificado para desarrollo o producción.
+1. Siga los pasos para crear su CSR en el sitio web de Apple, cargar el CSR y generar el certificado.
 1. Desplácese hacia abajo hasta la sección **[!UICONTROL Notificaciones push]** y descargue el certificado SSL que acaba de crear.
-1. Haga doble clic en el certificado descargado para agregarlo al llavero.
+1. Double-click the downloaded certificate to add it to your keychain.
 
-### Certificado SSL y claves privadas
+### SSL certificate and private keys
 
-Para obtener el certificado SSL y la clave privada (APNS):
+To get your SSL certificate and private key (APNS):
 
 1. Abra **[!UICONTROL Acceso a Llaveros]**.
 1. Haga clic en **[!UICONTROL Mis certificados]** y busque el **[!UICONTROL Certificado de servicios de iOS]** apropiado para su aplicación y su entorno.
