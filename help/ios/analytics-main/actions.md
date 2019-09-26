@@ -2,10 +2,10 @@
 description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede realizar un seguimiento de cuándo se realiza una nueva suscripción, cuándo se ve un artículo o cuándo se completa un nivel. Las métricas correspondientes a estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
 seo-description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede realizar un seguimiento de cuándo se realiza una nueva suscripción, cuándo se ve un artículo o cuándo se completa un nivel. Las métricas correspondientes a estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
 seo-title: Seguimiento de acciones de aplicaciones
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de acciones de aplicaciones
 topic: Desarrollador e implementación
-uuid: 62017 be 1-5395-4 d 16-bde 3-4 c 40 a 2 c 012 d 4
+uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ No se realiza un seguimiento automático de las acciones y, por lo tanto, para r
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca.
 
    ```objective-c
