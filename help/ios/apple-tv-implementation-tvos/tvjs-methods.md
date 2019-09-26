@@ -2,10 +2,10 @@
 description: Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 seo-description: Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 seo-title: Métodos de TVJS
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de TVJS
 topic: Desarrollador e implementación
-uuid: a 7 bfa 85 a -0 d 6 e -4 f 51-9 a 9 e -70429 c 2 a 9806
+uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -42,8 +42,8 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    Las opciones son las siguientes:
 
-   * `ADBMobilePrivacyStatusOptIn`: Las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut`: Las visitas se descartan.
+   * `ADBMobilePrivacyStatusOptIn`:: Hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut`:: Hits are discarded.
    * `ADBMobilePrivacyStatusUnknown`: si el seguimiento en línea está activado, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
 
       Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in. THe default value is set in the `ADBMobileConfig.json` file.
@@ -66,9 +66,9 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    Establece el estado de privacidad del usuario actual en uno de los siguientes valores:
 
-   * `ADBMobilePrivacyStatusOptIn`: Las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut`: Las visitas se descartan.
-   * `ADBMobilePrivacyStatusUnknown`: Si el seguimiento en línea está habilitado, las visitas se guardan hasta que el estado de privacidad cambia a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
+   * `ADBMobilePrivacyStatusOptIn`:: Las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptOut`:: Hits are discarded.
+   * `ADBMobilePrivacyStatusUnknown`:: Si el seguimiento sin conexión está activado, las visitas se guardan hasta que el estado de privacidad cambia a Opt-in (se envían las visitas) u Opt-out (se descartan las visitas).
    Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
    * Esta es la sintaxis para este método:
@@ -108,7 +108,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    >[!IMPORTANT]
    >
-   >Si la aplicación se actualiza del SDK 3. x al 4. x de Experience Cloud, el ID de visitante previo personalizado o generado automáticamente se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es nil hasta que se establece.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es nil hasta que se establece.
 
    * Esta es la sintaxis para este método:
 
@@ -149,11 +149,11 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
 * **setAdvertisingIdentifier**
 
-   Establece el IDFA en el SDK y, si se ha establecido en el SDK, el IDFA se envía en ciclo vital. También se puede acceder al IDFA en Señales (Postbacks).
+   Sets the IDFA in the SDK, and if it has been set in the SDK, the IDFA is sent in lifecycle. También se puede acceder al IDFA en Señales (Postbacks).
 
    >[!IMPORTANT]
    >
-   >Recupere el IDFA desde las API de Apple solo si utiliza un servicio publicitario. Si recupera el IDFA y no lo utiliza de forma apropiada, podría rechazarse la aplicación.
+   >Retrieve the IDFA from Apple APIs only if you are using an ad service. Si recupera el IDFA y no lo utiliza de forma apropiada, podría rechazarse la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -204,7 +204,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
 
    * Esta es la sintaxis para este método:
 
@@ -368,7 +368,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    Finaliza una acción temporizada.
 
-   Si proporciona una función de llamada de retorno, puede acceder a los valores de tiempo finales. Si no se proporciona ninguna llamada de retorno, o si la llamada de retorno devuelve el valor true, el SDK de Adobe envía una visita automáticamente. Cuando la llamada de retorno devuelve un valor false, se suprimirá la visita de la acción temporizada.
+   Si proporciona una función de llamada de retorno, puede acceder a los valores de tiempo finales. Si no se proporciona ninguna llamada de retorno, o si la llamada de retorno devuelve el valor true, el SDK de Adobe envía una visita automáticamente. Cuando se devuelve un valor false desde la llamada de retorno, se suprime la visita de acción temporizada.
 
    * Esta es la sintaxis para este método:
 
@@ -410,7 +410,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
       * Devuelve: Bool
       * Parámetro: `name`
          * Tipo: `String`
-         * Nombre de la acción temporizada para la que necesita comprobar la existencia.
+         * Nombre de la acción temporizada para la que debe comprobar la existencia.
    * Este es un ejemplo de código para este método:
 
 
@@ -427,7 +427,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3. x al 4. x de Experience Cloud, el ID de visitante previo personalizado o generado automáticamente se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento. Para obtener más información, consulte abajo la fila userIdentifier.
+   >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento. Para obtener más información, consulte abajo la fila userIdentifier.
 
    * Esta es la sintaxis para este método:
 
@@ -692,7 +692,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
          * Identificadores para sincronizar con el servicio de ID del usuario actual.
       * Parámetro: `authState`
          * Tipo: ADBMobileVisitorAuthenticationState
-         * Estado de autenticación del usuario y los posibles valores incluyen:
+         * El estado de autenticación del usuario y los valores posibles incluyen:
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -714,7 +714,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
       visitorSyncIdentifierWithTypeIdentifierAuthenticationState(idType, identifier, authState)
       ```
 
-      * Devolver: N/D
+      * Return: N/A
       * Parámetro: `idType`
          * Tipo: `String`
          * Tipo de identificador que está sincronizando.
@@ -722,8 +722,8 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
          * Tipo: `String`
          * Valor del identificador que está sincronizando.
       * Parámetro: `authState`
-         * Tipo: Estado de Autenticación adbmobilevisitorauthenticationstate
-del usuario. Entre los posibles valores están:
+         * Type: ADBMobileVisitorAuthenticationState
+Authentication state of the user. Entre los posibles valores están:
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -799,10 +799,9 @@ del usuario. Entre los posibles valores están:
          * Tipo: `String`
          * ID de tercero para usar en solicitudes de destino.
    * Este es un ejemplo de código para este método:
-
-      ```objective-c
-      ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
-      ```
+   ```objective-c
+   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
+   ```
 
 * **targetPcID**
 
