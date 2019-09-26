@@ -2,10 +2,10 @@
 description: Esta información le ayuda a utilizar las funciones de ubicación de sus aplicaciones iOS.
 seo-description: Esta información le ayuda a utilizar las funciones de ubicación de sus aplicaciones iOS.
 seo-title: Ubicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Ubicación
 topic: Desarrollador e implementación
-uuid: a 4 e 5650 a-f 5 d 3-4 fb 1-bd 11-a 27 a 3918 d 763
+uuid: a4e5650a-f5d3-4fb1-bd11-a27a3918d763
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -14,7 +14,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Ubicación {#location}
 
-La información de esta sección le ayuda a utilizar las funciones de Ubicación de sus aplicaciones iOS.
+La información de esta sección le ayuda a utilizar las funciones de ubicación de sus aplicaciones de iOS.
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
