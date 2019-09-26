@@ -3,9 +3,9 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: Realización de llamadas a la biblioteca
-solution: Marketing Cloud, Desarrollador
+solution: Marketing Cloud,Desarrollador
 title: Realización de llamadas a la biblioteca
-uuid: 74 c 30379-6 cdf -4318-9 db 8-e 14 fb 63 aa 18 a
+uuid: 74c30379-6cdf-4318-9db8-e14fb63aa18a
 translation-type: tm+mt
 source-git-commit: 7cb277652eaeedff7253a4f3c42208ceaf78acb7
 
@@ -14,7 +14,7 @@ source-git-commit: 7cb277652eaeedff7253a4f3c42208ceaf78acb7
 
 # Making calls to the library{#making-calls-to-the-library}
 
-Cuando desee realizar llamadas al complemento desde las secuencias de comandos, importe el espacio de nombres:
+When you want to make calls to the plug-in from your scripts, import the namespace:
 
 * **C#:** utilizando `com.adobe.mobile;`
 
@@ -22,4 +22,4 @@ Cuando desee realizar llamadas al complemento desde las secuencias de comandos, 
 
 * **boo:** importar `com.adobe.mobile;`
 
-Después de importar el espacio de nombres, puede realizar llamadas directamente al complemento mediante los métodos estáticos de la clase adbmobile.
+Después de importar el espacio de nombres, puede realizar llamadas directamente al complemento a través de los métodos estáticos de la clase ADBMobile.
