@@ -1,11 +1,11 @@
 ---
 description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
 seo-description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
-seo-title: Geolocalización y puntos de interés
-solution: Marketing Cloud, Analytics
-title: Geolocalización y puntos de interés
+seo-title: Ubicación geográfica y puntos de interés
+solution: Marketing Cloud,Analytics
+title: Ubicación geográfica y puntos de interés
 topic: Desarrollador e implementación
-uuid: c 800 ec 85-a 33 f -425 d-b 28 f-bfe 8 bf 229 ae 8
+uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -34,15 +34,15 @@ A partir de la versión 4.2, los puntos de interés se definen en la interfaz de
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Para obtener más información, consulte [Configuración JSON de adbmobile](/help/ios/configuration/json-config/json-config.md).
+For more information, see ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
 
-Si no se ha realizado esta configuración, debe descargar y agregar a la aplicación una versión actualizada del archivo `ADBMobile.json`. Para obtener más información e instrucciones, consulte *Descargar el SDK y las herramientas de prueba* en [Antes de comenzar](/help/ios/getting-started/requirements.md).
+Si no se ha realizado esta configuración, debe descargar y agregar a la aplicación una versión actualizada del archivo `ADBMobile.json`. Para obtener más información e instrucciones, consulte *Descargar el SDK y las herramientas* de prueba en [Antes de iniciar](/help/ios/getting-started/requirements.md).
 
-## Seguimiento de ubicaciones geográficas y puntos de interés {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Rastrear geolocalizaciones y puntos de interés {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
@@ -60,7 +60,7 @@ Si no se ha realizado esta configuración, debe descargar y agregar a la aplicac
    >
    >Puede llamar `trackLocation` en cualquier momento.
 
-   Para determinar la ubicación que se pasa a `trackLocation` la llamada, utilice [Obtención de la ubicación del usuario](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
+   To determine the location that is passed to the  call, use Getting the User’s Location.`trackLocation`[](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)
 
 Además, si se determina que la ubicación está en el radio de un punto de interés definido, se envía una variable de datos de contexto `a.loc.poi` junto a la visita de `trackLocation` y se comunica como punto de interés en los informes de ubicación. También se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
 
