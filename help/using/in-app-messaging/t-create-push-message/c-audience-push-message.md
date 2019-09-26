@@ -2,11 +2,11 @@
 description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
 keywords: móvil
 seo-description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
-seo-title: Definición y configuración de segmentos de audiencia para los mensajes push
-solution: Marketing Cloud, Analytics
-title: Definición y configuración de segmentos de audiencia para los mensajes push
+seo-title: Audiencia Definir y configurar segmentos de audiencia para mensajes push
+solution: Marketing Cloud,Analytics
+title: Audience  Define and Configure Audience Segments for Push Messages
 topic: Métricas
-uuid: efd 410 e 7-3 b 6 c -4 cf 4-a 26 f-b 11688 adc 491
+uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
 source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
@@ -19,9 +19,9 @@ Puede definir y configurar las opciones de audiencia para los mensajes push, inc
 
 ## Define audience segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-Cuando se crea un segmento de audiencia para mensajería push, este podría incluir a usuarios de una o varias aplicaciones porque los grupos de informes o los grupos de informes virtuales pueden contener datos de una aplicación o más. Para obtener información sobre los grupos de informes virtuales, consulte [Grupos de informes virtuales](/help/using/manage-apps/c-mob-vrs.md).
+Cuando se crea un segmento de audiencia para mensajería push, este podría incluir a usuarios de una o varias aplicaciones porque los grupos de informes o los grupos de informes virtuales pueden contener datos de una aplicación o más. Para obtener información sobre los grupos de informes virtuales, consulte [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-En Adobe Mobile Services, los especialistas en marketing solo pueden insertar en una aplicación por plataforma. Si los especialistas en marketing intentan insertar en segmentos que contengan usuarios de varias aplicaciones, se muestra una advertencia en la que se indica que continuar puede provocar errores graves de inserción y el posible bloqueo de los usuarios. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en [Solución de problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+En Adobe Mobile Services, los especialistas en marketing solo pueden insertar en una aplicación por plataforma. Si los especialistas en marketing intentan insertar en segmentos que contengan usuarios de varias aplicaciones, se muestra una advertencia en la que se indica que continuar puede provocar errores graves de inserción y el posible bloqueo de los usuarios. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en [Troubleshooting push messaging](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar datos de Audience Manager en su definición de segmento, consulte [Audience Analytics](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
@@ -31,21 +31,21 @@ Para usar datos de Audience Manager en su definición de segmento, consulte [Aud
 
 Si selecciona un segmento de audiencia que contiene usuarios en varias aplicaciones, puede ver la siguiente alerta:
 
-![nombre de aplicación múltiple](assets/multiple_appname.png)
+![multiple app name](assets/multiple_appname.png)
 
 The app name is based on the pared down version of the appId, which is automatically sent to Adobe Analytics by the Mobile Services SDK in the `<app name> <version number> (<bundle id>)` format.
 
 >[!TIP]
 >
->El número de versión es opcional.
+>The version number is optional.
 
 De la versión, se eliminan hasta 6 conjuntos de números y, del identificador del paquete, se eliminan hasta 5.
 
 Por ejemplo:
 
-* `Bea[rd]cons 1.0 (123)` aparecerá como `Bea[rd]cons`
-* `Bea[rd]cons 1.2 (1.2)` aparecerá como `Bea[rd]cons`
-* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` aparecerá como `Bea[rd]cons .7`
+* `Bea[rd]cons 1.0 (123)` will appear as `Bea[rd]cons`
+* `Bea[rd]cons 1.2 (1.2)` will appear as `Bea[rd]cons`
+* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` will appear as `Bea[rd]cons .7`
 * `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` aparecerá como `Bea[rd]cons (.6)`
 
 Para enviar el mensaje push a las aplicaciones de la lista, seleccione la casilla de verificación **Yes, I want to proceed (Sí, deseo continuar).** y haga clic en **[!UICONTROL Enviar]**.
@@ -84,7 +84,7 @@ Estos ejemplos le ayudarán a entender cómo definir los segmentos debidamente:
 
       Esto significa que el SDK ha enviado el valor `True` en la eVar Inclusión del mensaje push.
 
-   * Aunque el dispositivo tenga un token válido, a menos que Adobe Analytics haya establecido el indicador de inclusión, el mensaje no se inserta en el dispositivo.
+   * Aunque el dispositivo tenga un token de dispositivo válido, a menos que Adobe Analytics haya establecido el indicador de selección, el mensaje no se inserta en el dispositivo.
 
    * Para obtener más información sobre la solución de problemas con la mensajería push, consulte estos temas:
 
@@ -108,7 +108,7 @@ Estos ejemplos le ayudarán a entender cómo definir los segmentos debidamente:
 
    * **[!UICONTROL Segmentos de Analytics]**
 
-      Seleccione un segmento de Adobe Analytics existente en la lista desplegable. For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+      Select an existing Adobe Analytics segment from the drop-down list. For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
    * **[!UICONTROL Segmentos personalizados]**
 
