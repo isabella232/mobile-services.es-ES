@@ -3,7 +3,7 @@ description: Puede configurar el activador de mensajes en la aplicación para qu
 seo-description: Puede configurar el activador de mensajes en la aplicación para que este sea el ID del mensaje push que se envía cuando un usuario abre la aplicación mediante el mensaje push.
 seo-title: Activador de mensajes en la aplicación al abrirla mediante un mensaje push
 title: Activador de mensajes en la aplicación al abrirla mediante un mensaje push
-uuid: e 1 c 8 e 29 d -1 c 2 b -47 b 2-8 ab 2-6 b 6 e 15 df 86 f 6
+uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
 translation-type: tm+mt
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
@@ -28,7 +28,7 @@ Puede configurar el activador de mensajes en la aplicación para que este sea el
 
    >[!TIP]
    >
-   >El ID de mensaje push es el ID que se encuentra en el paso 1.
+   >El ID del mensaje push es el ID que se encuentra en el paso 1.
 
    El activador debe añadirse manualmente, ya que no está disponible en la lista desplegable **[!UICONTROL Activador].**
 
