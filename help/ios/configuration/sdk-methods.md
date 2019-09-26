@@ -2,10 +2,10 @@
 description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-title: Métodos de configuración
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Desarrollador e implementación
-uuid: 623 c 7 b 07-fbb 3-4 d 39-a 5 c 4-e 64 faec 4 ca 29
+uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -16,7 +16,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 Esta es una lista de métodos que proporciona la biblioteca iOS.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de Adobe Experience Platform.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma Adobe Experience.
 
 * **setAppExtensionType**
 
@@ -24,7 +24,7 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
    Establezca uno de los siguientes valores:
    * `ADBMobileAppExtensionTypeRegular` - la extensión se incluye con una aplicación contenedora.
-   * `ADBMobileAppExtensionTypeStandAlone` - la extensión no está empaquetada con una aplicación contenedora.
+   * `ADBMobileAppExtensionTypeStandAlone` - extension is not bundled with a containing app.
    >[!TIP]
    >
    >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
@@ -124,7 +124,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza de Experience Cloud 3. x al SDK 4. x, el ID de visitante previo personalizado o generado automáticamente se recupera y se almacena como identificador de usuario personalizado. Para obtener más información, consulte abajo la fila `userIdentifier`. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento.
+   >Si la aplicación se actualiza del SDK 3.x a 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. Para obtener más información, consulte abajo la fila `userIdentifier`. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento.
 
    * Esta es la sintaxis para este método:
 
@@ -144,7 +144,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3. x al 4. x de Experience Cloud, el ID de visitante previo personalizado o generado automáticamente se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK.
 
    Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `nil` hasta que se establece.
 
@@ -214,7 +214,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Este método está pensado para utilizarse en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano y solo debería invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >Este método está diseñado para utilizarse en aplicaciones que se registran para recibir notificaciones en segundo plano y solo debe invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
 
    * Esta es la sintaxis para este método:
 
