@@ -1,29 +1,27 @@
 ---
 description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
-keywords: android;biblioteca;móvil;sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
-seo-title: Información general de Target
+seo-title: Target overview
 solution: Marketing Cloud,Analytics
-title: Información general de Target
+title: Target overview
 topic: Desarrollador e implementación
 uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
 translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Información general de Target {#target}
+# Target overview {#target}
 
-La información de esta sección le ayuda a distribuir contenido de destino en aplicaciones Android.
+The information in this section helps you deliver targeted content in Android applications.
 
-## Nueva versión del SDK de Adobe Experience Cloud
+## New Adobe Experience Platform Mobile SDK Release
 
 ¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
->[!IMPORTANT]
->
->En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Para empezar, vaya a [Launch](https://launch.adobe.com/).
+* To get started, go to Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
