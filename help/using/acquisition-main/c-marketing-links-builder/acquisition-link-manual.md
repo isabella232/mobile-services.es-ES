@@ -2,26 +2,26 @@
 description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
 keywords: móvil
 seo-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
-seo-title: Crear vínculos de adquisición manualmente
-solution: Marketing Cloud, Analytics
-title: Crear vínculos de adquisición manualmente
+seo-title: Creación manual de vínculos de adquisición
+solution: Marketing Cloud,Analytics
+title: Manually create Acquisition links
 topic: Métricas
-uuid: d 7709203-f 793-4982-adaa -9 c 3 c 914 aca 2 b
+uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 translation-type: tm+mt
 source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ---
 
 
-# Crear vínculos de adquisición manualmente {#create-acquisition-link-manually}
+# Creación manual de vínculos de adquisición {#create-acquisition-link-manually}
 
 Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
 
 >[!IMPORTANT]
 >
->Esta función requiere la versión 4.6 o posterior del SDK. Para obtener más información, consulte [Requisitos previos de adquisición](/help/using/acquisition-main/c-acquisition-prerequisites.md).
+>Esta función requiere la versión 4.6 o posterior del SDK. Para obtener más información, consulte Requisitos previos [de adquisición](/help/using/acquisition-main/c-acquisition-prerequisites.md).
 
-El siguiente diagrama ilustra los componentes de un vínculo de seguimiento incorporado manualmente y muestra los diferentes parámetros de URL que debe configurar correctamente al crear vínculos de adquisición de forma manual.
+El diagrama siguiente ilustra los componentes de un vínculo de seguimiento generado manualmente y muestra los diferentes parámetros de URL que debe configurar correctamente al crear vínculos de adquisición manualmente.
 
 ![](assets/acquisition_url.png)
 
@@ -33,7 +33,7 @@ Para crear vínculos manualmente, use el formato URL siguiente:
 
 >[!TIP]
 >
->La versión del SDK de Android que está utilizando no afecta a este proceso.
+>La versión del SDK de Android que está utilizando no tiene ningún impacto en este proceso.
 
 En el caso de iOS, asegúrese de usar el protocolo correcto:
 
@@ -112,30 +112,30 @@ Esta es la lista de parámetros:
 
 * **`ctxa.referrer.campaign.source`**
 
-   El origen.
+   La fuente.
 
-   * Valor de muestra: Red de publicidad
+   * Sample value: Ad Network
 
 * **`ctxa.referrer.campaign.medium`**
 
    Medio
 
-   * Valor de muestra: Correo electrónico
+   * Sample value: Email
 
 * **`ctxa.referrer.campaign.content`**
 
    Contenido
 
-   * Valor de muestra: Imagen n. º 325689
+   * Sample value: Image # 325689
 
 * **`ctxa.referrer.campaign.term`**
 
    Término
 
-   * Valor de muestra: botas + botas
+   * Sample value: hiking+boots
 
 
-Cuando cree vínculos de adquisición manualmente, recuerde la siguiente información:
+When you manually create acquisition links, remember the following information:
 
 * Los parámetros que no coinciden con los de la tabla se transfieren como parte del redireccionamiento de tiendas de aplicaciones.
 * Todos los parámetros son técnicamente opcionales, aunque el vínculo no funcionará, si se especifica al menos un ID de tienda.
