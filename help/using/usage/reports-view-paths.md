@@ -2,24 +2,24 @@
 description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
 keywords: móvil
 seo-description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
-seo-title: Ver informe de rutas
-solution: Marketing Cloud, Analytics
-title: Ver informe de rutas
+seo-title: View Paths report
+solution: Marketing Cloud,Analytics
+title: View Paths report
 topic: Informes, métricas
-uuid: bc 73 edce -0 cc 0-4349-9 a 48-e 0 a 40 cbe 1 b 67
+uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Ver informe de rutas {#view-paths}
+# View Paths report {#view-paths}
 
 El informe **[!UICONTROL Ver rutas], que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.**
 
 >[!TIP]
 >
->The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. El informe **[!UICONTROL Ver rutas]permite ver cómo navegan los usuarios en la aplicación de una pantalla a otra.** El informe **[!UICONTROL Ver acciones]muestra la secuencia de acciones y eventos, como clics, selecciones, cambios de tamaño, etc., que los usuarios realizan en la aplicación.** Puede utilizar un informe de canal para combinar la navegación y las acciones en un informe. For more information, see [Funnel](/help/using/usage/reports-funnel.md).
+>The **[!UICONTROL View Paths]** and **[!UICONTROL View Action]** reports are similar because both are pathing reports. El informe **[!UICONTROL Ver rutas]permite ver cómo navegan los usuarios en la aplicación de una pantalla a otra.** El informe **[!UICONTROL Ver acciones]muestra la secuencia de acciones y eventos, como clics, selecciones, cambios de tamaño, etc., que los usuarios realizan en la aplicación.** You can use a funnel report to combine navigation and actions in one report. For more information, see [Funnel](/help/using/usage/reports-funnel.md).
 
 ![ver rutas](assets/view_paths.png)
 
@@ -43,18 +43,17 @@ Click ![focus icon](assets/icon_focus.png) to isolate the node and to show the p
 * Carrete
 * Cámara
 
-![enfoque de ruta de visualización](assets/view_paths_focus.png)
+![ver el enfoque de la ruta](assets/view_paths_focus.png)
 
 Puede enfocar o expandir varios nodos para obtener una vista detallada de las rutas que siguen los usuarios en la aplicación. Por ejemplo:
 
-![ver ruta múltiple](assets/view_paths_mult.png)
+![view path multi](assets/view_paths_mult.png)
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]** Haga clic en **[!UICONTROL el icono de calendario]** para seleccionar un período personalizado o seleccionar un período de tiempo preestablecido en la lista desplegable.
-* **[!UICONTROL Personalice]**
-personalizar los informes cambiando las **[!UICONTROL opciones Mostrar por]** , agregando métricas y filtros, agregando series (métricas) adicionales y más. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
-* **[!UICONTROL Filtro]**
-Haga clic **[!UICONTROL en Filtro]** para crear un filtro que incluya distintos informes y ver cómo funciona un segmento en todos los informes móviles. Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
-* **[!UICONTROL Descargue]**
-PDF o ******[!UICONTROL CSV]** para descargar o abrir documentos y compartir con usuarios que no tengan acceso a Mobile Services o para utilizar el archivo en presentaciones.
+* **[!UICONTROL Período]** de tiempo Haga clic en el icono **[!UICONTROL Calendario]** para seleccionar un período personalizado o para seleccionar un período de tiempo preestablecido en la lista desplegable.
+* **[!UICONTROL Personalice]** los informes cambiando las opciones de **[!UICONTROL Mostrar por]** , agregando métricas y filtros y agregando series (métricas) adicionales, entre otras cosas. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+* **[!UICONTROL Filter
+Click Filter to create a filter that spans different reports to see how a segment is performing across all mobile reports.]****** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)adhesivo.
+* **[!UICONTROL Download]**
+Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
