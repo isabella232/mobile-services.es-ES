@@ -1,12 +1,12 @@
 ---
 description: Esta información le ayuda a utilizar el SDK para Android con Adobe Analytics.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta información le ayuda a utilizar el SDK para Android con Adobe Analytics.
 seo-title: Información general de Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Información general de Analytics
 topic: Desarrollador e implementación
-uuid: cc 9 fa 1 d 9-bc 48-4 d 03-854 a-f 7 b 263580 a 91
+uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -28,7 +28,7 @@ La información de esta sección le ayuda a utilizar el SDK para Android con Ado
 * Para empezar, vaya a [Launch](https://launch.adobe.com/).
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-## Generación de identificadores de seguimiento de Analytics
+## Generating Analytics tracking identifiers
 
 En los SDK, los identificadores se utilizan para realizar seguimientos de los usuarios. Esta es la jerarquía de identificadores:
 
@@ -38,7 +38,7 @@ En los SDK, los identificadores se utilizan para realizar seguimientos de los us
 
 >[!TIP]
 >
->Las siglas correctas para el identificador de Experience Cloud son ECID. Aunque los SDK todavía usan MID, es el acrónimo antiguo.
+>La sigla correcta para el identificador de Experience Cloud es ECID. Aunque los SDK todavía usan MID, es el acrónimo antiguo.
 
 El SDK genera el AID, que a veces también se denomina Identificador de seguimiento, cuando la aplicación no está configurada para utilizar una MID. El valor persiste entre inicios y actualizaciones de aplicaciones en `SharedPreferences`. Si el usuario elimina la aplicación de su dispositivo y luego la reinstala, o si el desarrollador de la aplicación elimina SharedPreferences, el SDK genera un nuevo identificador. Este proceso da como resultado un nuevo usuario en los informes de Analytics.
 
