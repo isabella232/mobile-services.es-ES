@@ -1,12 +1,12 @@
 ---
 description: 'La biblioteca Android proporciona los siguientes métodos de adquisición '
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: 'La biblioteca Android proporciona los siguientes métodos de adquisición '
 seo-title: Métodos de adquisición
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de adquisición
 topic: Desarrollador e implementación
-uuid: 22 ec 432 f-e 7 ae -4 e 89-be 07-26-26206 bbeacf 8
+uuid: 22ec432f-e7ae-4e89-be07-26206bbeacf8
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -15,7 +15,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 # Acquisition methods{#acquisition-methods}
 
-La biblioteca Android proporciona el método de adquisición siguiente:
+La biblioteca Android proporciona el siguiente método de adquisición:
 
 * **campaignStartForApp**
 
