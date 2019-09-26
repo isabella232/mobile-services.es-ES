@@ -3,7 +3,7 @@ description: En Adobe Analytics, puede administrar los roles en la página princ
 seo-description: En Adobe Analytics, puede administrar los roles en la página principal de las herramientas de administración.
 seo-title: Roles y permisos
 title: Roles y permisos
-uuid: ad 350 f 8 d-ef 51-4519-98 aa -3025 bc 0 f 5588
+uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
@@ -28,7 +28,7 @@ Un administrador de Analytics administra grupos de usuarios y asigna permisos, u
 
 Para obtener más información sobre este rol, consulte los siguientes temas:
 
-* [Información general sobre administración de usuarios](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
+* [Información general sobre la administración de usuarios](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
 
 * [Cambios en los permisos de usuario y grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
 
@@ -58,13 +58,13 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
 ### Administrador de Analytics
 
-* Todos los permisos de administrador de aplicaciones móviles y de usuario
+* Todos los permisos de administración de usuarios y aplicaciones móviles
 * Crear una aplicación con un grupo de informes nuevo
 * Eliminar una aplicación de Mobile Services
 
    >[!IMPORTANT]
    >
-   >Aunque la aplicación se ha eliminado en la interfaz de usuario de Mobile Services, el grupo de informes sigue existiendo en Analytics.
+   >Aunque la aplicación se ha eliminado en la interfaz de usuario de Mobile Services, el grupo de informes aún existe en Analytics.
 
 * Administrar configuración de aplicación
 
@@ -106,7 +106,7 @@ Este rol solo tiene permiso de visualización y puede proporcionar comentarios e
 
    >[!IMPORTANT]
    >
-   >Los usuarios sólo pueden ver los grupos de informes para los que tienen acceso en Adobe Analytics.
+   >Users can only see the report suites for which they have access in Adobe Analytics.
 
 * Ver la configuración de la aplicación
 
