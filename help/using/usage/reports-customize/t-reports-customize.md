@@ -3,10 +3,10 @@ description: Esta información sirve para personalizar los informes integrados m
 keywords: móvil
 seo-description: Esta información sirve para personalizar los informes integrados mediante la adición de filtros (segmentos) adicionales.
 seo-title: Añadir filtros a informes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Añadir filtros a informes
 topic: Informes, métricas
-uuid: 19 c 395 cc -2 e 07-4588-825 b-f 2 f 8 b 10 a 87 c 1
+uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -39,7 +39,7 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones],
 
    ![](assets/customize3.png)
 
-   Para agregar Android como filtro, debe repetir este paso.
+   To add Android as a filter, you need to repeat this step.
 
 1. Click **[!UICONTROL And]**, select **[!UICONTROL Operating Systems]** from the drop-down list, and select **[!UICONTROL Android]**.
 
@@ -54,7 +54,7 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones],
 
    ![](assets/customize5.png)
 
-   Puede personalizar este informe más. Desde iOS 8.3, puede agregar la métrica Primeros lanzamientos con un filtro de versión del sistema operativo iOS 8.3 para ver cuántos clientes de iOS 8.3 han actualizado sus aplicaciones y han realizado un primer uso.
+   You can customize this report more. From iOS 8.3, you can add the First Launches metric with an iOS 8.3 operating system version filter to see how many iOS 8.3 customers upgraded their apps and performed a first launch.
 1. Under **[!UICONTROL First Launches]**, click **[!UICONTROL Add Filter]**, click **[!UICONTROL Add Rule]**, select **[!UICONTROL Operating Systems]** from the drop-down list, and select **[!UICONTROL iOS]**.
 1. Click **[!UICONTROL And]**, select **[!UICONTROL Operating System Versions]** from the drop-down list, and select **[!UICONTROL iOS 8.3]**.
 
@@ -68,4 +68,4 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones],
 
    ![](assets/customize7.png)
 
-   Pruebe las diferentes opciones del menú de personalización del informe y no olvide agregar sus favoritos. Las direcciones URL de los informes de Adobe Mobile funcionan y pueden enviarse por correo electrónico o agregarse a sus favoritos.
+   Pruebe las diferentes opciones del menú de personalización del informe y no olvide agregar sus favoritos. Report URLs in Adobe Mobile are functional and can be emailed or added to your favorites.
