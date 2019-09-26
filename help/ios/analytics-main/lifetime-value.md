@@ -2,10 +2,10 @@
 description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario.
 seo-description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario.
 seo-title: Valor de duración del visitante
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Valor de duración del visitante
 topic: Desarrollador e implementación
-uuid: d 830 d 18 b -4313-43 bb -8 d 75-3789869 d 0 f 1 d
+uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ Cada vez que envía un valor con `trackLifetimeValueIncrease`, el valor se agreg
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en [Implementación principal y Ciclo vital](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
