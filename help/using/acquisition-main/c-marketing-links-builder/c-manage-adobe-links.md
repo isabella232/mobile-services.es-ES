@@ -3,10 +3,10 @@ description: Puede usar la página Vínculos de marketing para crear, utilizar y
 keywords: móvil
 seo-description: Puede usar la página Vínculos de marketing para crear, utilizar y archivar vínculos de marketing.
 seo-title: Administrar vínculos de marketing
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Administrar vínculos de marketing
 topic: Métricas
-uuid: 98 ac 3520-89 ed -4513-83 f 6-120 dda 9 d 0157
+uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -19,9 +19,9 @@ Puede utilizar la página Vínculos de marketing para crear, utilizar y archivar
 
 >[!IMPORTANT]
 >
->Para crear y utilizar vínculos de marketing, primero debe crear destinos de vínculo. Para obtener más información, consulte [Creación o edición de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md).
+>Para crear y utilizar vínculos de marketing, primero debe crear destinos de vínculo. Para obtener más información, consulte [Creación o edición de vínculos](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)de marketing.
 
-En la página Vínculos de marketing, complete las siguientes tareas:
+En la página Vínculos de marketing, realice las siguientes tareas:
 
 * **Mostrar vínculos de marketing**
 
@@ -34,5 +34,5 @@ En la página Vínculos de marketing, complete las siguientes tareas:
    * To archive a Marketing Link, select the check box next to a link, and click **[!UICONTROL Archive Selected]**.
    * To unarchive a marketing clink, click **[!UICONTROL View Archive]**, select a link and click **[!UICONTROL Unarchive Selected]**.
 
-      En la página Ver archivo solo se muestran los vínculos de marketing archivados anteriormente.
+      Only previously archived Marketing Links are displayed in the View Archive page.
 
