@@ -3,10 +3,10 @@ description: Esta información le ayuda a solucionar problemas de la mensajería
 keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 seo-title: Solucionar los problemas de la mensajería en la aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Solucionar los problemas de la mensajería en la aplicación
 topic: Métricas
-uuid: 58533 aa 3-2 eb 2-4597-8525-77 e 4 e 5975 e 56
+uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
 translation-type: tm+mt
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
@@ -35,13 +35,13 @@ Asegúrese de haber declarado en el manifiesto el receptor local de emisiones de
 
 Vaya a la vista de lista de la página Administrar mensajes en la aplicación y compruebe si está activo en la columna Estado.
 
-## Observe *mostrar una vez*, *mostrar siempre*, *mostrar* la configuración sin conexión en la ficha Audiencia.
+## Observe *mostrar una vez*, *mostrar siempre* y *mostrar la configuración sin conexión* en la ficha Audiencia.
 
 Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **Activador], que le permiten especificar con qué frecuencia se muestran los mensajes.[!UICONTROL **
 
 ## Si se usa el evento de inicio como activador...
 
-El inicio solo se desencadena en una nueva sesión. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. Para obtener más información, consulte [Configuración JSON de adbmobile](/help/ios/configuration/json-config/json-config.md).
+El inicio solo se desencadena en una nueva sesión. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. Para obtener más información, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
 
 ## He actualizado mi mensaje de forma remota, pero en mi aplicación aún aparece el mensaje antiguo.
 
