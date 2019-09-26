@@ -3,10 +3,10 @@ description: El informe Uso compartido en medios sociales proporciona una visual
 keywords: móvil
 seo-description: El informe Uso compartido en medios sociales proporciona una visualización radial de los datos existentes. Este informe solo está disponible para los clientes de Digital Publishing Suite (DPS).
 seo-title: Uso compartido en medios sociales
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Uso compartido en medios sociales
 topic: Métricas
-uuid: 900 e 58 aa-c 1 d 3-4590-af 44-df 67575214 a 4
+uuid: 900e58aa-c1d3-4590-af44-df67575214a4
 translation-type: tm+mt
 source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
@@ -15,7 +15,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 # Uso compartido en medios sociales{#social-sharing}
 
-El informe **[!UICONTROL Uso compartido en medios sociales]proporciona una visualización radial de los datos existentes.** Este informe solo está disponible para clientes de DPS.
+El informe **[!UICONTROL Uso compartido en medios sociales]proporciona una visualización radial de los datos existentes.** Este informe solo está disponible para los clientes de DPS.
 
 ![](assets/dps_social_share.png)
 
