@@ -2,10 +2,10 @@
 description: Esta es una lista de métodos de Audience Manager que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos de Audience Manager que proporciona la biblioteca iOS.
 seo-title: Métodos de Audience Manager
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de Audience Manager
 topic: Desarrollador e implementación
-uuid: 97658 bd 6-4 c 4 f -4875-abe 9-36 dad 4 ec 8 bae
+uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta es una lista de métodos de Audience Manager que proporciona la biblioteca iOS.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de Adobe Experience Platform. Los métodos tienen un prefijo que depende de la solución y los de Manager llevan el prefijo “`audience`audience”.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma de Adobe Experience Cloud. Los métodos tienen un prefijo que depende de la solución y los de Manager llevan el prefijo “`audience`audience”.
 
 Si Audience Manager está configurado en su archivo JSON, junto a `application:didFinishLaunchingWithOptions:` : se envía una señal que contiene métricas del ciclo vital.
 
@@ -30,7 +30,7 @@ Si Audience Manager está configurado en su archivo JSON, junto a `application:d
       + (NSDictionary *) audienceVisitorProfile;
       ```
 
-   * Este es el ejemplo de código de este menú:
+   * Este es el ejemplo de código para este menú:
 
       ```objective-c
       NSDictionary *profile = [ADBMobile audienceVisitorProfile]; 
@@ -77,7 +77,7 @@ Si Audience Manager está configurado en su archivo JSON, junto a `application:d
 
       >[!IMPORTANT]
       >
-      >Antes de la versión 4.13. x, DPUUID no se codificaba automáticamente. Desde la versión 4.13.x, el SDK primero descodifica el valor pasado y posteriormente vuelve a codificarlo. Este proceso garantiza que el SDK no anule la compatibilidad con versiones anteriores.
+      >Antes de la versión 4.13.x, DPUUID no se codificaba automáticamente. Desde la versión 4.13.x, el SDK primero descodifica el valor pasado y posteriormente vuelve a codificarlo. Este proceso garantiza que el SDK no anule la compatibilidad con versiones anteriores.
 
    * Esta es la sintaxis para este método:
 
