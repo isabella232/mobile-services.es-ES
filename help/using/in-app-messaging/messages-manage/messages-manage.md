@@ -3,10 +3,10 @@ description: Vea una lista de los mensajes push y en la aplicación con detalles
 keywords: móvil
 seo-description: Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y el estado activo o desactivado de cada mensaje.
 seo-title: Administrar mensajes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Administrar mensajes
 topic: Métricas
-uuid: 4 d 934 ede -0 c 68-4 dd 5-ba 37-9 caf 727 cc 717
+uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -15,11 +15,11 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 # Administrar mensajes{#manage-messages}
 
-Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y si los mensajes están activos o desactivados.
+View a list of your in-app and push messages with details about when each message was last updated and whether the messages are live or have been deactivated.
 
 Puede duplicar, activar/desactivar y archivar/desarchivar mensajes. También puede ver un informe que muestre el número de usuarios que han visto el mensaje y el número de usuarios que han hecho clic en el mensaje.
 
-Para administrar los mensajes, haga clic en ***your_ app_ name*** &gt; **[!UICONTROL Mensajería]** &gt; **[!UICONTROL Administrar mensajes]**.
+Para administrar los mensajes, haga clic en ***your_app_name*** &gt; **[!UICONTROL Mensajería]** &gt; **[!UICONTROL Administrar mensajes]**.
 
 ![](assets/manage_messages.png)
 
