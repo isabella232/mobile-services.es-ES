@@ -2,10 +2,10 @@
 description: Información para ayudarle con el Análisis de vídeo.
 seo-description: Información para ayudarle con el Análisis de vídeo.
 seo-title: 'Video Analytics '
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 'Video Analytics '
 topic: Desarrollador e implementación
-uuid: f 45 dac 3 b-cd 2 e -4 fba-a 3 b 2-c 243640 ecfa 4
+uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 translation-type: tm+mt
 source-git-commit: 1c0b7dadc28f772e903baa8605016e70f05081d7
 
@@ -18,15 +18,15 @@ Información para ayudarle con el Análisis de vídeo.
 
 Video measurement is described in detail in the [Measuring video and audio in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) guide. En general, el proceso para medir vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido contiene información general básica de las tareas de los programadores junto con ejemplos de código.
 
-La siguiente tabla indica los datos multimedia que se envían a Analytics. Utilice reglas de procesamiento para asignar los datos de contexto a una variable de Analytics.
+La siguiente tabla indica los datos multimedia que se envían a Analytics. Use processing rules to map the context data to an Analytics variable.
 
 * **a.media.name**
 
-   **(Obligatorio**) Recopila el nombre del video, tal como se especifica en la implementación, cuando un visitante ve el video de alguna manera. Puede agregar clasificaciones para esta variable.
+   (**Required**) Collects the name of the video, as specified in the implementation, when a visitor views the video in some way.You can add classifications for this variable.
 
    (**Opcional**) La variable Insight personalizada proporciona información sobre la ruta del vídeo.
 
-   * Tipo de variable: Evar
+   * Tipo de variable: eVar
    * Caducidad predeterminada: visita
    * Insight personalizada (s.prop, se utiliza para rutas de vídeo)
 
@@ -35,7 +35,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
    (**Opcional**) Proporciona información sobre la ruta del vídeo. ClientCare debe habilitar las rutas para esta variable.
 
    * Tipo de evento: Insight personalizada (s.prop).
-   * Tipo de variable: Perspectiva personalizada (s. prop)
+   * Tipo de variable: Perspectiva personalizada (s.prop)
 
 * **a.media.segment**
 
@@ -45,7 +45,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    El método predeterminado de recopilación de datos de vídeo recopila datos en los siguientes puntos: inicio de vídeo (reproducción), comienzo de vídeo y fin de vídeo (detención). Analytics cuenta la primera vista de segmento en el inicio del segmento, cuando el visitante comienza a verlo. El segmento siguiente se visualiza cuando empieza el segmento.
 
-   * Tipo de variable: Evar
+   * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
 
 * **a.contentType**
@@ -54,7 +54,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    Desde una perspectiva de medición de vídeo, Tipo de contenido permite identificar visitantes de vídeo y, por consiguiente, calcular las tasas de conversión de vídeo.
 
-   * Tipo de variable: Evar
+   * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
 
 * **a.media.timePlayed**
@@ -124,7 +124,7 @@ property bool isMediaAd;
 
 ### Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **Settingswith (winjs: Settingswith)**
+* **SettingsWith (winJS: settingsWith)**
 
    Devuelve un objeto `MediaSettings` con parámetros especificados.
 
@@ -140,7 +140,7 @@ property bool isMediaAd;
       var  mySettings  =  ADB.Media.settingsWith("name", 10,  "playerName", "playerId"); 
       ```
 
-* **Adsettingswith (winjs: Adsettingswith)**
+* **AdSettingsWith (winJS: adSettingsWith)**
 
    Devuelve un objeto `MediaSettings` que se utiliza en el seguimiento de un vídeo de anuncio.
 
@@ -156,7 +156,7 @@ property bool isMediaAd;
       var  myAdSettings = ADB.Media.adSettingsWith("name", 10,  "playerName", "parentName", "parentPod", 5, "myCPM");
       ```
 
-* **Abrir (winjs: open)**
+* **Open (winJS: open)**
 
    Tracks a media open using the settings defined in `settings`.
 
@@ -172,7 +172,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings);
       ```
 
-* **Cerrar (winjs: close)**
+* **Cerrar (winJS: close)**
 
    Realiza un seguimiento del cierre de un recurso para el elemento multimedia llamado *`name`*.
 
@@ -188,7 +188,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName"); 
       ```
 
-* **Reproducir (winjs: play)**
+* **Play (winJS: play)**
 
    Realiza un seguimiento de la reproducción de un recurso para el elemento multimedia llamado *`name`* con el desfase *offset* dado (en segundos).
 
@@ -204,7 +204,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName",  0);
       ```
 
-* **Complete (winjs: complete)**
+* **Complete (winJS: complete)**
 
    Marca de forma manual como completado el elemento de medios en el *offset* indicado (en segundos).
 
@@ -220,7 +220,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8);
       ```
 
-* **Detener (winjs: stop)**
+* **Stop (winJS: stop)**
 
    Notifica al módulo de medios que el vídeo se ha detenido o pausado en el *offset* indicado.
 
@@ -236,7 +236,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName",  4);
       ```
 
-* **Haga clic (winjs: click)**
+* **Haga clic en (winJS: click)**
 
    Notifica al módulo de medios que se ha hecho clic en el elemento de medios.
 
@@ -252,7 +252,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName",  3); 
       ```
 
-* **Track (winjs: track)**
+* **Track (winJS: track)**
 
    Envía una llamada de acción de seguimiento (sin visualización de página) al estado de medios actual.
 
