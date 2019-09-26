@@ -1,12 +1,12 @@
 ---
 description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
-keywords: mobile; change password; iniciar sesión; cerrar sesión; login; cerrar sesión; iniciar sesión; signate
+keywords: mobile;change password;log in;log out;login;logout;sign in;signin
 seo-description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
 seo-title: Iniciar sesión
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Iniciar sesión
 topic: Métricas
-uuid: d 6 ea 0 ca 1-3511-4133-9 d 41-21 ea 2 d 2 f 7 b 3 a
+uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
 translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
@@ -47,7 +47,7 @@ Para iniciar sesión en la interfaz de usuario de Adobe Mobile Services con el E
 
    >[!IMPORTANT]
    >
-   >If you click **[!UICONTROL Facebook]** or **[!UICONTROL Google]** to sign in, your Facebook and Google account email address must match the Adobe ID or Enterprise ID account email address that has access to Adobe Analytics. Si las credenciales de correo electrónico de Facebook o Google no coinciden con su dirección de correo electrónico de usuario de Adobe ID o Enterprise ID, póngase en contacto con su administrador.
+   >If you click **[!UICONTROL Facebook]** or **[!UICONTROL Google]** to sign in, your Facebook and Google account email address must match the Adobe ID or Enterprise ID account email address that has access to Adobe Analytics. Si sus credenciales de correo electrónico de Facebook o Google no coinciden con su dirección de correo electrónico de usuario de Adobe ID o Enterprise ID, póngase en contacto con el administrador.
 
 ### Analytics ID
 
