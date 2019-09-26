@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Inicio rápido para desarrolladores
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Inicio rápido para desarrolladores
 topic: Desarrollador e implementación
-uuid: b 368959 b-d 985-436 e -8 b 3 e -97 e 355 a 97951
+uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -45,7 +45,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Select the correct version of the library and browse to the associated `ADBMobile.winmd` file.
 
-   Para obtener más información, consulte la sección *de versión* correcta a continuación.
+   Para obtener más información, consulte la sección *Seleccionar la versión* correcta a continuación.
 
 1. Haga clic en **[!UICONTROL Agregar]**.
 
@@ -53,13 +53,13 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
    >[!NOTE]
    >
-   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionar `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de **[!UICONTROL Archivos de componente]** a **Todos los archivos**.
+   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionarla `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de Archivos **[!UICONTROL de]** componentes a **Todos los archivos**.
 
 1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**.
 
-   Omita este paso si también tiene un proyecto C + + en la solución.
+   Omita este paso si también tiene un proyecto de C++ en la solución.
 
-1. En la ficha **Windows** de la izquierda, seleccione **[!UICONTROL Extensiones]** y, a continuación, seleccione y agregue **[!UICONTROL Paquete de tiempo de ejecución de Microsoft Visual C + + 2013 para Windows]**.
+1. En la ficha **Windows** de la izquierda, seleccione **[!UICONTROL Extensiones]** y, a continuación, seleccione y agregue Paquete de tiempo de ejecución de **[!UICONTROL Microsoft Visual C++ 2013 para Windows]**.
 
 1. Agregue la siguiente línea a la clase:
 
@@ -69,7 +69,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click you your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
 
-1. Vaya a su `ADBMobileConfig.json` archivo y haga clic **[!UICONTROL en Agregar]**.
+1. Vaya al `ADBMobileConfig.json` archivo y haga clic en **[!UICONTROL Agregar]**.
 
 1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**.
 
@@ -82,15 +82,15 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Select the correct version of the library and then add a reference to the associated `ADBMobile.winmd` file.
 
-   Para obtener más información, consulte abajo *la sección Seleccionar versión* correcta.
+   Para obtener más información, consulte la sección *Seleccionar la versión* correcta a continuación.
 
 1. Haga clic en **[!UICONTROL Agregar]**.
 
-1. En la ventana **[!UICONTROL Administrador]** de referencias, verifique `ADBMobile.winmd` que esté seleccionada y haga clic **[!UICONTROL en Aceptar]**.
+1. En la ventana Administrador **[!UICONTROL de]** referencias, verifique que `ADBMobile.winmd` esté seleccionado y haga clic en **[!UICONTROL Aceptar]**.
 
    >[!TIP]
    >
-   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionar `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de **[!UICONTROL Archivos de componente]** a **Todos los archivos**.
+   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionarla `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de Archivos **[!UICONTROL de]** componentes a **Todos los archivos**.
 
 1. Agregue la siguiente línea a la clase:
 
@@ -111,7 +111,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 1. Inicie Visual Studio y abra la solución.
 1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**.
 
-   Para obtener más información, consulte *Seleccionar la* versión correcta de la versión.
+   Para obtener más información, consulte *Seleccionar la sección Versión* correcta más abajo.
 
 1. Select the correct version of the library and then browse to the associated `ADBMobile.winmd` file.
 
@@ -121,13 +121,13 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
    >[!TIP]
    >
-   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionar `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de **[!UICONTROL Archivos de componente]** a **Todos los archivos**.
+   >Al agregar una referencia a una aplicación de Windows Phone, para seleccionarla `ADBMobile.winmd`, cambie el filtro de archivos predeterminado de Archivos **[!UICONTROL de]** componentes a **Todos los archivos**.
 
 1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**.
 
-   Omita este paso si también tiene un proyecto C + + en la solución.
+   Omita este paso si también tiene un proyecto de C++ en la solución.
 
-1. En la ficha **[!UICONTROL Windows]** de la izquierda, seleccione **[!UICONTROL Extensiones]** y seleccione y agregue **[!UICONTROL Paquete de tiempo de ejecución de Microsoft Visual C + + 2013 para Windows]**.
+1. En la ficha **[!UICONTROL Windows]** de la izquierda, seleccione **[!UICONTROL Extensiones]** y seleccione y agregue Paquete de tiempo de ejecución de **[!UICONTROL Microsoft Visual C++ 2013 para Windows]**.
 
 1. Right-click your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
 
@@ -135,13 +135,13 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click the `ADBMobileConfig.json]` file in your solution and select **[!UICONTROL Properties]**.
 
-1. Con las Propiedades **[!UICONTROL de archivo]** seleccionadas, asegúrese de que **[!UICONTROL Acción de paquete]** está configurada en **[!UICONTROL Contenido]**.
+1. Una vez seleccionadas las propiedades **** del archivo, asegúrese de que la acción **[!UICONTROL de]** paquete está establecida en **[!UICONTROL Contenido]**.
 
-   En el caso de proyectos de JavaScript, el archivo se establece en **[!UICONTROL Contenido]** de forma predeterminada.
+   Para proyectos JavaScript, el archivo se establece en **[!UICONTROL Contenido]** de forma predeterminada.
 
 ## Update the ADBMobileConfig.json config file {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
-`ADBMobileConfig.json` El archivo contiene la configuración global del SDK y se encuentra en la raíz del proyecto después de completar los pasos en *la* sección Agregar biblioteca y archivo de configuración a su proyecto. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
+The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the steps in the *Add the Library and Config File to your Project* section. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
 
 Esto es un ejemplo de archivo `ADBMobileConfig.json`:
 
@@ -183,11 +183,11 @@ For more details, see [ADBMobileConfig.json config](/help/windows-appstore/c-con
 
 Cuando quiera activar la depuración para el SDK, tendrá que realizar una llamada a `ADBMobile.Config.setDebugLogging(true);`.
 
-Para las aplicaciones C Sharp y JS, debe activar la depuración de código nativo completando los pasos siguientes (la depuración de código nativo es la configuración predeterminada para las aplicaciones de C + +):
+Para las aplicaciones de C Sharp y JS, debe activar la depuración de código nativo completando los siguientes pasos (la depuración de código nativo es la configuración predeterminada para las aplicaciones de C++):
 
-### C Sharp
+### C
 
-Right-click the project, select **[!UICONTROL Properties]** &gt; **[!UICONTROL Debug tab]**. En la lista desplegable Depurador, seleccione **[!UICONTROL Solo nativo]**.
+Right-click the project, select **[!UICONTROL Properties]** &gt; **[!UICONTROL Debug tab]**. En la lista desplegable del depurador, seleccione Solo **[!UICONTROL nativo]**.
 
 ### JS
 
