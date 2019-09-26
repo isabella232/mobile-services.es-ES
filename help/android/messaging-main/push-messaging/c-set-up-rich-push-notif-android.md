@@ -3,7 +3,7 @@ description: Puede adjuntar archivos de imagen a sus notificaciones de Android. 
 seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Android. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
 seo-title: Recibir notificaciones push enriquecidas
 title: Recibir notificaciones push enriquecidas
-uuid: 4 a 0340 a 6-666 b -49 b 6-907 a -9 afc 966 dfdba
+uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
 translation-type: tm+mt
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
@@ -30,7 +30,7 @@ Si la aplicación está en primer plano, el mensaje push lo gestiona la aplicaci
 
 >[!IMPORTANT]
 >
->La clase que contiene `onMessageReceived()` la implementación gestiona los datos recibidos.
+>La clase que contiene la implementación `onMessageReceived()` administra los datos recibidos.
 
 If the push message contains a Media URL, the URL will be available in the `RemoteMessage` parameter that is passed to the `onMessageReceived()` function. La clave a utilizar es `attachment-url`, como se muestra en el siguiente ejemplo de código:
 
