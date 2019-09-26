@@ -3,10 +3,10 @@ description: Esta información sirve para comprender y usar Adobe Mobile Service
 keywords: móvil
 seo-description: Esta información sirve para comprender y usar Adobe Mobile Services.
 seo-title: Primeros pasos
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Primeros pasos
 topic: Métricas
-uuid: a 7 ae 7 c 5 a-dab 8-4603-b 4 cd-af 73 a 2 f 09 f 71
+uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -41,7 +41,7 @@ Adobe Mobile Services ayuda a aumentar la participación en su aplicación móvi
 
 En *Adquirir* se usan medios de pago, en propiedad y obtenidos para fomentar la adquisición de usuarios en las descargas de la aplicación desde las principales tiendas de aplicaciones. Con Adobe Mobile Services, puede acelerar el proceso de adquisición de usuarios de la aplicación.
 
-Adobe Mobile Services ofrece flujos de trabajo de adquisición de usuarios, incluido el seguimiento de las adquisiciones y los vínculos profundos, que miden la eficacia de los canales a la hora de adquirir usuarios de la aplicación. Con vínculos de marketing que hacen un seguimiento de qué usuarios provienen de qué canal, puede ver qué canales de adquisición son los más eficaces para generar usuarios rentables y comprometidos.
+Adobe Mobile Services ofrece flujos de trabajo de adquisición de usuarios, incluido el seguimiento de las adquisiciones y los vínculos profundos, que miden la eficacia de los canales a la hora de adquirir usuarios de la aplicación. Con los vínculos de marketing que rastrean qué usuarios provienen de qué canal, puede obtener visibilidad sobre qué canales de adquisición son los más eficaces para impulsar a los usuarios rentables y comprometidos.
 
 Además, con los vínculos profundos, puede llevar a los usuarios directamente al contenido de la aplicación que desea que vean e invitarlos a que la instalen si es necesario.
 
@@ -121,7 +121,7 @@ Ahora, Adobe Target para aplicaciones móviles aprovecha al máximo las funcione
 
 Para obtener más información sobre la ubicación, consulte los siguientes temas:
 
-* [Ubicación en la guía del usuario de Mobile Services](/help/using/location/c-location-overview.md)
+* [Location in the Mobile Services user's guide](/help/using/location/c-location-overview.md)
 * [Ubicación en la guía de SDK para Android.](/help/android/location/location.md)
 * [Ubicación en la guía de SDK para iOS.](/help/ios/location/location.md)
 
