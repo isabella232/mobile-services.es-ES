@@ -1,9 +1,9 @@
 ---
 description: Clases y métodos proporcionados por la biblioteca de BlackBerry.
 seo-description: Clases y métodos proporcionados por la biblioteca de BlackBerry.
-seo-title: Referencia de métodos y clases móviles de Adobe Mobile
-title: Referencia de métodos y clases móviles de Adobe Mobile
-uuid: 1 e 42 d 759-be 43-4 bb 3-ac 1 a-c 7 d 64133 d 61 c
+seo-title: Referencia de clases y métodos de Adobe Mobile
+title: Referencia de clases y métodos de Adobe Mobile
+uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -14,7 +14,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 Clases y métodos proporcionados por la biblioteca de BlackBerry.
 
-Actualmente, el SDK admite Adobe Analytics y los métodos están en clases independientes basadas en la solución.
+The SDK currently has support for Adobe Analytics, and methods are in separate classes based on the solution.
 
 ## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -44,7 +44,7 @@ Actualmente, el SDK admite Adobe Analytics y los métodos están en clases indep
 
    Sets the privacy status for the current user to `status`. Establezca uno de los siguientes valores:
 
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
    * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
    * `ADBMobilePrivacyStatusUnknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
 
@@ -153,7 +153,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
    >[!TIP]
    >
-   >Es la única llamada de seguimiento que incrementa las vistas de página.
+   >This is the only tracking call that increments page views.
 
    * Esta es la sintaxis para este método:
 
@@ -199,15 +199,15 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
         ADBMobile::trackLocation(event, null);
       ```
 
-## `ADBMobileConfig.json` referencia del archivo de configuración {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` referencia del archivo config {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
-`ADBMobileConfig.json` El archivo debe colocarse en la carpeta *assets* .
+The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **rsids**
 
    (Requerido). Uno o más grupos de informes para recibir datos de Analytics. Los ID de grupos de informes deben separarse con comas, sin espacios intermedios.
 
-   Esta es la muestra de código para esta variable:
+   Este es el ejemplo de código para esta variable:
 
    ```js
    "rsids" : "rsid"
@@ -235,7 +235,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, póngase en contacto [Asistencia para empresas](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, póngase en contacto Asistencia técnica [empresarial](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
    Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
@@ -249,16 +249,16 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **batchLimit**
 
-   Número máximo de visitas sin conexión almacenadas en la cola. El valor predeterminado es 0 (Sin límite).
+   Número máximo de visitas sin conexión almacenadas en la cola. The default value is 0 (No limit).
 
 * **privacyDefault**
 
-   * `optedin` - las visitas se envían inmediatamente.
+   * `optedin` - hits are sent immediately.
    * `optedout` - las visitas se descartarán.
    * `optunknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). 
 
       Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
-   Esta variable define únicamente el valor inicial. Si este valor se establece o se cambia en el código en algún momento, se utiliza el valor nuevo en adelante hasta que se vuelva a cambiar, o hasta que la aplicación se desinstale y reinstale.
+   This variable sets the initial value only. Si este valor se establece o se cambia en el código en algún momento, se utiliza el valor nuevo en adelante hasta que se vuelva a cambiar, o hasta que la aplicación se desinstale y reinstale.
 
    El valor predeterminado es `optedin`.
 
