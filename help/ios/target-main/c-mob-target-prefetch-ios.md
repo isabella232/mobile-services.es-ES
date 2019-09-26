@@ -3,7 +3,7 @@ description: La función de recuperación previa de Adobe Target usa los SDK de 
 seo-description: La función de recuperación previa de Adobe Target usa los SDK de Mobile para iOS para recuperar contenido de ofertas el menor número de veces posible almacenando en caché las respuestas del servidor.
 seo-title: Recuperar previamente contenido de ofertas en iOS
 title: Recuperar previamente contenido de ofertas en iOS
-uuid: fef 58042-65 e 2-4579-b 8 f 1-d 21554 d 2 af 57
+uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
@@ -16,7 +16,7 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para i
 
 >[!IMPORTANT]
 >
->La funcionalidad de recuperación previa en los SDK móviles para iOS no es compatible con los tipos de actividades de Segmentación automática, Asignación automática y Personalización automatizada en Adobe Target.
+>La funcionalidad de recuperación previa en los SDK móviles para iOS no se admite en los tipos de actividad de segmentación automática, asignación automática y personalización automatizada de Adobe Target.
 
 Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target acerca de qué mbox visitó el usuario de una aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la memoria caché para todas las llamadas futuras que incluyan este contenido para el nombre de mbox especificado.
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Métodos de recuperación previa {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 Estos son los métodos que puede utilizar para recuperar previamente en iOS:
 
@@ -55,7 +55,7 @@ Estos son los métodos que puede utilizar para recuperar previamente en iOS:
                             callback:(nullable void(^)(BOOL success))callback;
       ```
 
-   * Estos son los parámetros de este método:
+   * Here are the parameters for this method:
 
       * **`targetPrefetchArray`**
 
@@ -75,7 +75,7 @@ Estos son los métodos que puede utilizar para recuperar previamente en iOS:
 
    >[!IMPORTANT]
    >
-   >Si el contenido de las ubicaciones solicitadas ya se encuentra en caché, se devolverá inmediatamente en la llamada de retorno proporcionada. En caso contrario, el SDK enviará una solicitud de red a los servidores de Target para recuperar el contenido.
+   >Si el contenido de las ubicaciones solicitadas ya está en la caché, se devolverá inmediatamente en la llamada de retorno proporcionada. En caso contrario, el SDK enviará una solicitud de red a los servidores de Target para recuperar el contenido.
 
    * Esta es la sintaxis para este método:
 
@@ -104,7 +104,7 @@ Estos son los métodos que puede utilizar para recuperar previamente en iOS:
       (void) targetPrefetchClearCache; 
       ```
 
-   * No existen parámetros para este método.
+   * No hay parámetros para este método.
 
 * **targetRequestObjectWithName**
 
@@ -119,7 +119,7 @@ Estos son los métodos que puede utilizar para recuperar previamente en iOS:
       callback:(nullablevoid(^)(NSString*__nullablecontent))callback;
       ```
 
-   * No existen parámetros para este método.
+   * No hay parámetros para este método.
 
 * **createTargetPrefetchObject**
 
@@ -136,13 +136,13 @@ Estos son los métodos que puede utilizar para recuperar previamente en iOS:
 
 Estas son las clases públicas que admiten la recuperación previa en iOS:
 
-### Referencia de clase: Targetprefetchobject
+### Referencia de clase: TargetPreFetchObject
 
 Encapsula el nombre de mbox y los parámetros que se utilizan para la recuperación previa de mbox.
 
 * **`name`**
 
-   Nombre para la ubicación o el mbox que desea recuperar.
+   Nombre de la ubicación o mbox que desea recuperar.
 
    * **Tipo:** NSString*
 
@@ -164,7 +164,7 @@ Encapsula el nombre de mbox y los parámetros que se utilizan para la recuperaci
 
    * **Tipo:** NSDictionary*
 
-### Referencia de clase: Targetrequestobject
+### Referencia de clase: TargetRequestObject
 
 Esta clase encapsula el nombre de mbox, el contenido predeterminado, los parámetros de mbox y la llamada de retorno utilizada para las solicitudes de ubicación de Target.
 
