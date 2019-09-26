@@ -2,10 +2,10 @@
 description: El agrupamiento de visitas permite a las aplicaciones que tienen habilitado el seguimiento sin conexión retener el envío de visitas hasta que el número de visitas en la cola supera un límite configurable.
 seo-description: El agrupamiento de visitas permite a las aplicaciones que tienen habilitado el seguimiento sin conexión retener el envío de visitas hasta que el número de visitas en la cola supera un límite configurable.
 seo-title: Agrupamiento de visitas
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Agrupamiento de visitas
 topic: Desarrollador e implementación
-uuid: 3 dda 7372-0695-4 cb 7-b 779-6 abca 2 d 6 e 0 d 9
+uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ El agrupamiento de visitas permite a las aplicaciones que tienen habilitado el s
 
 >[!IMPORTANT]
 >
->El agrupamiento de visitas requiere la versión 4.1 o posterior del SDK.
+>Hit batching requires SDK version 4.1 or later.
 
 To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
 
