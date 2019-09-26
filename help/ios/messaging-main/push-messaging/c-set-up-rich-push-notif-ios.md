@@ -3,7 +3,7 @@ description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Ag
 seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
 seo-title: Recibir notificaciones push enriquecidas
 title: Recibir notificaciones push enriquecidas
-uuid: 0 dbda 409-cf 49-4 eb 8-90 ee-baf 27911 dc 07
+uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -35,7 +35,7 @@ Para recibir notificaciones push enriquecidas en su aplicación iOS:
       (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
       ```
 
-      En este método, puede obtener la URL de medios `userInfo` utilizando `attachment-url` la clave. Después de descargar el archivo en un directorio local, agregue la ruta local.`bestAttemptContent.attachments`
+      En este método, puede obtener la URL de medios desde `userInfo` la `attachment-url` clave. Después de descargar el archivo en un directorio local, agregue la ruta local a `bestAttemptContent.attachments`.
 
       Este es un ejemplo de código para este método:
 
