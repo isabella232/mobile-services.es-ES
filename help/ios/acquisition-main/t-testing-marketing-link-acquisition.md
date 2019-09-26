@@ -1,12 +1,12 @@
 ---
-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición con un vínculo de marketing basado en una huella de dispositivo.
-keywords: android; library; mobile; sdk
-seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición con un vínculo de marketing basado en una huella de dispositivo.
-seo-title: Prueba de adquisición de vínculo de marketing
-solution: Marketing Cloud, Analytics
-title: Prueba de adquisición de vínculo de marketing
+description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
+keywords: android;library;mobile;sdk
+seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing basado en la huella de un dispositivo.
+seo-title: Prueba de adquisición de vínculos de marketing
+solution: Marketing Cloud,Analytics
+title: Prueba de adquisición de vínculos de marketing
 topic: Desarrollador e implementación
-uuid: 69503 e 01-182 d -44 c 6-b 0 fb-e 1 c 012 ffa 3 bd
+uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,7 +15,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-Las siguientes instrucciones le ayudan a realizar una campaña de adquisición con un vínculo de marketing basado en una huella de dispositivo.
+Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing basado en la huella de un dispositivo.
 
 1. Complete las tareas previas necesarias en [Adquisición de aplicación móvil](/help/ios/acquisition-main/acquisition.md).
 1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
@@ -42,7 +42,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición c
 
    | Configuración | Valor |
    |--- |--- |
-   | adquisición | The server should be  `c00.adobe.com`. `appid` debe ser igual a *`appid`* en el vínculo de adquisición. |
+   | acquisition | The server should be  `c00.adobe.com`. `appid` should equal the  *`appid`* in your acquisition link. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 1. (Condicional) Si el ajuste SSL en el archivo de configuración de la aplicación está establecido en `false`, actualice el vínculo de adquisición para que utilice el protocolo HTTP en lugar de HTTPS.
@@ -59,9 +59,9 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición c
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Si no ve estos registros, verifique que ha completado los pasos 4 y 5.
+   If you do not see these logs, verify that you completed steps 4 and 5.
 
-   A continuación encontrará información sobre posibles errores:
+   Here is some information about possible errors:
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`:
 
@@ -77,7 +77,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición c
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` no se incluye `contextData`en.
+      `a.referrer.campaign.name` is not included in `contextData`.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -89,18 +89,18 @@ Recuerde la información siguiente:
 
    Debe estar en la misma red al hacer clic en la URL y al abrir la aplicación.
 
-* Mediante herramientas de monitoreado HTTP, las visitas enviadas desde la aplicación pueden monitorearse para verificar la atribución de adquisición.
+* Mediante herramientas de monitoreado HTTP, las visitas enviadas desde la aplicación pueden monitorizarse para verificar la atribución de adquisición.
 
-   You should see one `/v3/<appid>/start` request and one `/v3/<appid>/end` request that are sent to the acquisition server.
+   Debería ver una solicitud de `/v3/<appid>/start` y una solicitud de `/v3/<appid>/end` que se han enviado al servidor de adquisición.
 
 * Cualquier variación en el usuario-agente enviado puede provocar el fallo de la atribución.
 
-   Asegúrese de que `https://c00.adobe.com/v3/<appid>/start` y `https://c00.adobe.com/v3/<appid>/end` tiene los mismos valores de usuario-agente.
+   Ensure that  and  have the same user-agent values.`https://c00.adobe.com/v3/<appid>/start``https://c00.adobe.com/v3/<appid>/end`
 
 * El vínculo de adquisición y la visita del SDK deben utilizar el mismo protocolo (HTTP o HTTPS).
 
-   Si el vínculo y la visita utilizan protocolos diferentes, por ejemplo, el vínculo utiliza HTTP y el SDK utiliza HTTPS, la dirección IP puede diferir en algunos operadores para cada solicitud. Esto podría provocar el fallo de la atribución.
+   Si el vínculo y la visita están utilizando diferentes protocolos, donde por ejemplo, el vínculo utiliza HTTP y el SDK utiliza HTTPS, la dirección IP puede diferir en algunos operadores para cada solicitud. Esto podría provocar el fallo de la atribución.
 
-* Los vínculos de marketing se almacenan en caché en el servidor con un tiempo de caducidad de diez minutos.
+* The Marketing Links are cached on the server side with a ten-minutes expiration time.
 
-   Cuando realice cambios en Vínculos de marketing, debe esperar unos 10 minutos antes de utilizar los vínculos.
+   When you make changes to Marketing Links, you should wait about 10 minutes before using the links.
