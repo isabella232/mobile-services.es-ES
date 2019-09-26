@@ -3,10 +3,10 @@ description: Al personalizar informes, la gran flexibilidad puede suscitar algun
 keywords: mobile
 seo-description: Al personalizar informes, la gran flexibilidad puede suscitar algunas preguntas referentes a cuál es el mejor tipo de informe para obtener los datos que necesita.
 seo-title: Tipos de informes
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Tipos de informes
 topic: Informes, métricas
-uuid: 8747 b 11 e -31 b 1-47 bc-ad 55-db 5 ab 4 ef 7078
+uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -21,11 +21,11 @@ Antes de personalizar los informes, debe conocer la diferencia entre una métric
 
 * Métrica
 
-   Una métrica se usa para medir sus datos. Las métricas son valores que se pueden contar y sumar, y se usan para ver con qué frecuencia ocurren acciones específicas en su aplicación. Entre las métricas comunes se incluyen: instalaciones, lanzamientos, ingresos, valores de duración e inicios de sesión. Por ejemplo, cada vez que se inicia su aplicación, el valor de los _ launches_ value se incrementa en uno.
+   Una métrica se usa para medir sus datos. Las métricas son valores que se pueden contar y sumar, y se usan para ver con qué frecuencia ocurren acciones específicas en su aplicación. Entre las métricas comunes se incluyen: instalaciones, lanzamientos, ingresos, valores de duración e inicios de sesión. Por ejemplo, cada vez que se inicia su aplicación, el valor de los _launches_value se incrementa en uno.
 
 * Dimensión
 
-   Una dimensión se usa para describir sus datos. Las dimensiones se representan usando una cadena o un número que actúa como una cadena (como un código postal, y se utiliza para organizar y segmentar los datos. La versión del sistema operativo, el nombre de la campaña, el nombre del producto y el operador de telefonía móvil son ejemplos de dimensiones comunes. Cada dimensión tiene un número de valores concretos que están asociados a ella. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   Una dimensión se usa para describir sus datos. Las dimensiones se representan mediante una cadena o un número que actúa como una cadena (como un código postal) y se utiliza para organizar y segmentar los datos. La versión del sistema operativo, el nombre de la campaña, el nombre del producto y el operador de telefonía móvil son ejemplos de dimensiones comunes. Cada dimensión tiene un número de valores concretos que están asociados a ella. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
 
 Estos son los tipos de informes que se pueden generar en la interfaz de usuario de Mobile:
 
