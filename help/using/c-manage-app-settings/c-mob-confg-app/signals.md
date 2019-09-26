@@ -3,7 +3,7 @@ description: Los postbacks permiten enviar datos recopilados por Adobe Mobile a 
 seo-description: Los postbacks permiten enviar datos recopilados por Adobe Mobile a un servidor independiente de terceros. Con los mismos activadores y las mismas características que se emplean para mostrar un mensaje en la aplicación, es posible configurar Mobile Services para que envíe datos personalizados a un destino de terceros.
 seo-title: Configurar los postbacks
 title: Configurar los postbacks
-uuid: a 026575 c -057 b -4868-b 6 c 8-9514 cbc 32 b 4 d
+uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -32,15 +32,15 @@ Los postbacks permiten enviar datos recopilados por Adobe Mobile a un servidor i
 
    * **[!UICONTROL Dirección URL]**
 
-      Especifique una URL de extremo válida (con los parámetros de consulta adecuados según se requiera para las solicitudes GET). Puede obtener esta URL de la parte a la que envía los datos (servidor de publicidad o su propio extremo). Por ejemplo `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+      Especifique una dirección URL de extremo válida (con los parámetros de consulta adecuados según sea necesario para las solicitudes GET). Puede obtener esta URL de la parte a la que envía los datos (servidor de publicidad o su propio extremo). Por ejemplo `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
 
    * **[!UICONTROL Variable de contexto]**
 
-      Resalte partes de la URL y seleccione la variable de contexto que desee en la lista desplegable. También puede insertar variables de contexto en la URL y la dirección URL sustituirá a todas las variables de plantilla con valores de la visita.
+      Resalte partes de la URL y seleccione la variable de contexto que desee en la lista desplegable. También puede insertar variables de contexto en la dirección URL y ésta sustituirá todas las variables de plantilla por valores de la visita.
 
    * **[!UICONTROL Agregar cuerpo del anuncio]**
 
-      Especifique contenido del cuerpo del anuncio adicional, como en una solicitud de post. Si especifica texto del cuerpo del anuncio, especifique el tipo de contenido del cuerpo del anuncio. Por ejemplo, `application/json`.
+      Especifique contenido del cuerpo del anuncio adicional, como en una solicitud de post. Si especifica el texto del cuerpo del anuncio, especifique el tipo de contenido para el cuerpo del anuncio. Por ejemplo, `application/json`.
 
    * **[!UICONTROL Tiempo de espera (en segundos)]**
 
