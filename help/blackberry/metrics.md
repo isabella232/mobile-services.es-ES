@@ -1,12 +1,12 @@
 ---
 description: A continuación encontrará las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo.
-keywords: android; library; mobile; sdk
+keywords: android;library;mobile;sdk
 seo-description: A continuación encontrará las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo.
 seo-title: Métricas del ciclo vital
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas del ciclo vital
 topic: Desarrollador e implementación
-uuid: 5 a 371 f 11-6521-410 f-a 01 f-fc 3 b 285 b 050 f
+uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 translation-type: tm+mt
 source-git-commit: 6c440c2130781943796cdfb581a39a8167f5ba13
 
@@ -23,7 +23,7 @@ Para obtener más información, vaya a [Solución de problemas en los datos del 
 
 Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos contextuales a Analytics, en parámetros a Target con cada llamada de mbox y como señal para la gestión de público. Analytics y Target usan el mismo formato, mientras que la gestión de público emplea un prefijo distinto para cada métrica.
 
-En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se registran usando la métrica o la dimensión.
+Para Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se registran mediante la métrica o la dimensión.
 
 ### Métricas
 
@@ -88,7 +88,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Install Date**
 
-   Fecha del primer inicio después de la instalación. El formato de fecha `MM/DD/YYYY`es.
+   Fecha del primer inicio después de la instalación. The date format is .`MM/DD/YYYY`
 
    * Analytics context data/Target parameter: `a.InstallDate`
    * Audience Manager signal: `c_a_InstallDate`
@@ -140,7 +140,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Versión del sistema operativo**
 
-   Versión del sistema operativo.
+   The version of the OS.
 
    * Analytics context data/Target parameter: `a.OSVersion`
    * Audience Manager signal: `c_a_OSVersion`
@@ -151,7 +151,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
    >[!IMPORTANT]
    >
-   >Esta métrica no se almacena automáticamente en una variable de Analytics. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
+   >This metric is not automatically stored in an Analytics variable. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
 
    * Analytics context data/Target parameter: `a.DaysSinceLastUpgrade`
    * Audience Manager signal: `c_a_DaysSinceLastUpgrade`
@@ -194,17 +194,17 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-El método enumerado captura las siguientes métricas y dimensiones en las variables de soluciones móviles.
+Las siguientes métricas y dimensiones se capturan en variables de soluciones móviles mediante el método que se enumera.
 
 * **Ubicación (menos de 10 km)**
 
    Populated by `trackLocation` methods.
 
-   * Parámetro de datos contextuales/Target de Analytics:
+   * Datos de contexto de Analytics/parámetro de Target:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Característica Gestión de público:
+   * Característica de gestión de público:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -214,11 +214,11 @@ El método enumerado captura las siguientes métricas y dimensiones en las varia
 
    Populated by `trackLocation` methods.
 
-   * Parámetro de datos contextuales/Target de Analytics:
+   * Datos de contexto de Analytics/parámetro de Target:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Característica Gestión de público:
+   * Característica de gestión de público:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -228,11 +228,11 @@ El método enumerado captura las siguientes métricas y dimensiones en las varia
 
    Populated by `trackLocation` methods.
 
-   * Parámetro de datos contextuales/Target de Analytics:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Característica Gestión de público:
+   * Audience Management trait:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -242,10 +242,10 @@ El método enumerado captura las siguientes métricas y dimensiones en las varia
 
    Rellenado con métodos `trackLocation` cuando el dispositivo está dentro de un punto de interés definido.
 
-   * Parámetro de datos contextuales/Target de Analytics:
+   * Analytics context data/Target parameter:
 
       * `a.loc.poi`
-   * Característica Gestión de público:
+   * Característica de gestión de público:
 
       * `c_a_loc_poi`
 
@@ -254,9 +254,9 @@ El método enumerado captura las siguientes métricas y dimensiones en las varia
 
    Rellenado con métodos `trackLocation` cuando el dispositivo está dentro de un punto de interés definido.
 
-   * Parámetro de datos contextuales/Target de Analytics:
+   * Datos de contexto de Analytics/parámetro de Target:
 
       * `a.loc.dist`
-   * Característica Gestión de público:
+   * Característica de gestión de público:
 
       * `c_a_loc_dist`
