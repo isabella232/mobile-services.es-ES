@@ -3,10 +3,10 @@ description: Puede mostrar las últimas métricas clave de rendimiento de las ap
 keywords: móvil
 seo-description: Puede mostrar las últimas métricas clave de rendimiento de las aplicaciones que ha visto. De forma predeterminada, se puede ver un máximo de 12 aplicaciones. Puede cambiar el intervalo de fechas y crear filtros para segmentar los datos y editar cualquier aplicación en la página Información general.
 seo-title: Mostrar las métricas móviles
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mostrar las métricas móviles
 topic: Métricas
-uuid: 57 db 0 b 77-6 b 0 a -4 a 0 c -9 aad -0731275233 fd
+uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -38,7 +38,7 @@ Puede realizar las siguientes tareas en la página Información general:
    1. Haga clic en el icono **[!UICONTROL Filtro]** para mostrar el cuadro de diálogo **Filtro adhesivo[!UICONTROL .]**
    1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
 
-      Por ejemplo, puede seleccionar Versión **[!UICONTROL de la aplicación]** y escribir `4.5` para la versión. You could select **[!UICONTROL Device Type]** and type `Android`.
+      Por ejemplo, puede seleccionar Versión **** de aplicación y escribir `4.5` para la versión. You could select **[!UICONTROL Device Type]** and type `Android`.
 
       >[!TIP]
       >
@@ -53,7 +53,7 @@ Puede realizar las siguientes tareas en la página Información general:
 
 * **Mostrar los indicadores clave de rendimiento (KPI)**
 
-   Haga clic en el nombre de la aplicación para mostrar detalles sobre los indicadores clave de rendimiento. Las líneas del gráfico están codificadas por color. Puede pasar el ratón sobre el punto de datos para ver las estadísticas de una fecha determinada. Para explorar en profundidad, haga clic en **** el icono &gt; junto a Indicadores **[!UICONTROL clave de rendimiento]**. Las líneas del gráfico están codificadas por color y puede pasar el ratón sobre cualquier punto de datos para ver las estadísticas de fechas específicas. Haga clic en un encabezado de columna para ordenar los datos de forma ascendente o descendente.
+   Haga clic en el nombre de la aplicación para mostrar detalles sobre los indicadores clave de rendimiento. Las líneas del gráfico están codificadas por color. Puede pasar el ratón sobre el punto de datos para ver las estadísticas de una fecha determinada. Para explorar en profundidad, haga clic en el icono **** &gt; situado junto a Indicadores de rendimiento **[!UICONTROL clave]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Haga clic en un encabezado de columna para ordenar los datos de forma ascendente o descendente.
 
 ## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
