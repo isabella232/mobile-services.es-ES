@@ -14,7 +14,7 @@ source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 # Search Ads de Apple {#apple-search-ads}
 
-El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple. Para obtener más información acerca de campañas de Search Ads, consulte [Search Ads de Apple](https://searchads.apple.com).
+El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple. Para obtener más información acerca de campañas de Search Ad, consulte [Search Ads de Apple](https://searchads.apple.com).
 
 ## Ventajas {#section_CEA30C652AC8470784B8054E299B80FA}
 
@@ -43,10 +43,10 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
    If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
 
-   In addition, the following values will be mapped from the `"iad"` dictionary to our typical acquisition context data fields:
+   Además, se asignarán los siguientes valores del diccionario `"iad"` a campos habituales de datos de contexto de adquisición:
 
    * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
    * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
    * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
-   Esta asignación garantiza que los valores estén disponibles en nuestros informes estándar.
+   This mapping ensures that the values are available in our standard reporting.
