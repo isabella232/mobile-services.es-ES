@@ -3,7 +3,7 @@ description: El informe Bloqueos ofrece una instantánea de los bloqueos de la a
 seo-description: El informe Bloqueos ofrece una instantánea de los bloqueos de la aplicación. Puede ver el número de bloqueos y la frecuencia de bloqueo, así como iniciar sesión en la interfaz de usuario de Apteligent.
 seo-title: Informe Bloqueos
 title: Informe Bloqueos
-uuid: 0 c 96190 f-e 16 b -49 d 5-aaa 5-b 651780 a 7266
+uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -34,4 +34,4 @@ Para este informe, puede configurar las siguientes opciones:
 
    Haga clic en **[!UICONTROL Filtro]para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles.** Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas.
 
-   Para obtener más información, consulte [Agregue un filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
+   Para obtener más información, consulte [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
