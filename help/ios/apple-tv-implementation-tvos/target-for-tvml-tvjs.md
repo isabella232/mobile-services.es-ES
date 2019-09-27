@@ -3,7 +3,7 @@ description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS efectua
 seo-description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS efectuando reemplazos directos en los archivos .xml. Designe áreas de su página que se reemplazarán con contenido de Target empleando el elemento XML personalizado ADBTarget.
 seo-title: Adobe Target para TVML/TVJS
 title: Adobe Target para TVML/TVJS
-uuid: afd 5 a 583-5266-43 f 2-8 cb 0-0 ace 89 c 53 a 57
+uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -16,7 +16,7 @@ Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS efectuando reemplazo
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. Para obtener más información, consulte [Implementación de Apple TV con tvos](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
+>Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. Para obtener más información, consulte Implementación de [Apple TV con tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
 
 ## Primeros pasos {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
@@ -30,11 +30,11 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 >[!TIP]
 >
->Debe planificar lo que desee reemplazar en consecuencia.
+>You should plan what you want to replace accordingly.
 
 Su caso de uso podría ser tan sencillo como sustituir un valor de cadena en una etiqueta, o tan complejo como reemplazar una página entera.
 
-## Configurar el elemento adbtarget {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox`mbox. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
@@ -47,7 +47,7 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
 * **`id`**
 
-   El ID de pedido.
+   ID del pedido.
 
    * Tipo de propiedad: Cadena
    * Esta propiedad **no es** obligatoria.
@@ -63,7 +63,7 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
    Una lista separada por comas del ID de los productos adquiridos en este pedido.
 
-   * Esta es la muestra de código para esta propiedad:
+   * Este es el ejemplo de código de esta propiedad:
 
 
       ```objective-c
@@ -75,9 +75,9 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
 * **`mboxParameters`**
 
-   Una lista de pares clave-valor para `mboxParameters`. Cada entrada de esta cadena se separa con un punto y coma y los valores clave se separan con dos puntos.
+   Una lista de pares clave-valor para `mboxParameters`. Each entry in this string is separated by a semicolon, and key-values are separated by a colon.
 
-   * Esta es la muestra de código para esta propiedad:
+   * Here is the code sample for this property:
 
       ```objective-c
       mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
@@ -88,7 +88,7 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
 * **`customParameterName`**
 
-   El valor de esta propiedad `customParameterValue`es.
+   El valor de esta propiedad es `customParameterValue`.
 
    * Tipo de propiedad: Cadena
    * Esta propiedad **no es** obligatoria.
