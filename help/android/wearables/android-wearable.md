@@ -2,10 +2,10 @@
 description: A partir de la versión 4.5 del SDK para Android, se ha añadido una nueva extensión de Android que le permitirá recopilar datos de su aplicación Android Wearable.
 seo-description: A partir de la versión 4.5 del SDK para Android, se ha añadido una nueva extensión de Android que le permitirá recopilar datos de su aplicación Android Wearable.
 seo-title: Introducción a Android Wearables
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Introducción a Android Wearables
 topic: Desarrollador e implementación
-uuid: bfe 5 d 41 e-b 17 c -4634-80 ac -7 a 38671 ecb 81
+uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ A partir de la versión 4.5 del SDK para Android, se ha añadido una nueva exten
 
 ## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-Para obtener más información sobre la importación del SDK en su proyecto, consulte [Implementación principal y Ciclo vital](/help/android/getting-started/dev-qs.md).
+For more information about importing the SDK into your project, see Core Implementation and Lifecycle.[](/help/android/getting-started/dev-qs.md)
 
 1. Añada el archivo `ADBMobileConfig.json` a la carpeta de recursos de su proyecto.
 1. Añada el archivo `adobeMobileLibrary-*.jar` a la carpeta de bibliotecas o asegúrese de que el proyecto haga referencia a este archivo.
@@ -175,7 +175,7 @@ Para obtener más información sobre la importación del SDK en su proyecto, con
    }
    ```
 
-1. Agregar `WearListenerService` al `AndroidManifest.xml` archivo:
+1. Add `WearListenerService` to the `AndroidManifest.xml` file:
 
    ```java
    If you are using Google Play Services  < 8.2 
