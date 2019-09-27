@@ -3,10 +3,10 @@ description: Esta información resulta útil para solucionar los problemas de me
 keywords: móvil
 seo-description: Esta información resulta útil para solucionar los problemas de mensajería en la aplicación.
 seo-title: Solucionar los problemas de la mensajería en la aplicación
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Solucionar los problemas de la mensajería en la aplicación
 topic: Métricas
-uuid: 8813 e 8 d 8-bb 1 e -46 ad -83 cd -98 ae 68 f 73 ce 6
+uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -37,13 +37,13 @@ Verifique si ha declarado en el manifiesto el receptor local de emisiones de not
 
 Fíjese en la vista de lista en la columna **[!UICONTROL Estado]** de la página Administrar mensaje en la aplicación y verifique si el mensaje está activo.
 
-## Observe *mostrar una vez*, *mostrar siempre*, *mostrar* la configuración sin conexión en la página Audiencia.
+## Observe *show una vez*, *show always*, *show offline* settings en la página Audiencia.
 
 Compruebe si esta configuración es correcta. En la página Audiencia, revise las opciones de la pestaña **Activador**, donde puede especificar la frecuencia con que se muestra el mensaje.
 
 ## Si se usa el evento de inicio como activador...
 
-El inicio solo se desencadena en una nueva sesión. Para obtener información sobre cuándo comienza una sesión consulte `lifecycleTimeout` en el archivo [de configuración](/help/ios/configuration/json-config/json-config.md) JSON de adbmobile.
+El inicio solo se desencadena en una nueva sesión. Para obtener información sobre cuándo comienza una sesión consulte `lifecycleTimeout` in the [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md) file.
 
 ## He actualizado mi mensaje de forma remota, pero en mi aplicación aún aparece el mensaje antiguo.
 
@@ -77,7 +77,7 @@ El SDK trae mensajes nuevos o actualizados al momento del lanzamiento del ciclo 
 
 Complete los pasos siguientes:
 
-1. Abra la URL de mensajes en el archivo de configuración para verificar que se actualice el mensaje remoto (por ejemplo, `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
+1. Corrija la dirección URL de los mensajes en el archivo de configuración para verificar que se ha actualizado el mensaje remoto (por ejemplo, `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
 1. Cierre la aplicación.
 1. Wait for a time period that is longer than the `lifecycleTimeout` in the config file.
 1. Abra la aplicación, vaya al sitio donde el mensaje deba aparecer y verifique que se ha actualizado.
