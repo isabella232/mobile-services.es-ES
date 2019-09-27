@@ -1,12 +1,12 @@
 ---
 description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
 seo-title: Implementación principal y ciclo vital
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Implementación principal y ciclo vital
 topic: Desarrollador e implementación
-uuid: af 4 d 11 ac -8245-46 a 0-9 b 3 a -4 a 0 a 29 cfbbb 2
+uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbb2
 translation-type: tm+mt
 source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
@@ -28,9 +28,9 @@ Esta información le ayuda a implementar la biblioteca Android y a recopilar mé
    * [Crear un grupo de informes](/help/android/getting-started/requirements.md)
    * [Descargar el SDK](/help/android/getting-started/requirements.md)
 
-1. Descargue y descomprima `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` el archivo y verifique que existen los siguientes componentes de software:
+1. Descargue y descomprima el `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` archivo y compruebe que existen los siguientes componentes de software:
 
-   * `adobeMobileLibrary.jar`, que es la biblioteca que se utilizará con dispositivos y simuladores Android.
+   * `adobeMobileLibrary.jar`, que es la biblioteca que se utilizará con los simuladores y dispositivos Android.
 
    * `ADBMobileConfig.json`, que es el archivo de configuración del SDK personalizado para su aplicación.
    >[!IMPORTANT]
@@ -39,7 +39,7 @@ Esta información le ayuda a implementar la biblioteca Android y a recopilar mé
 
 ## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**Proyecto intellij IDEA**
+**IntelliJ IDEA project**
 
 Para añadir el SDK y el archivo de configuración a su proyecto:
 
@@ -81,7 +81,7 @@ Para agregar estos permisos, agregue las siguientes líneas al archivo `AndroidM
 
 ## Set the application context {#set-application-context}
 
-El siguiente código debe agregarse en `onCreate` el método de la actividad principal:
+Se debe agregar el siguiente código en el `onCreate` método de la actividad principal:
 
 ```java
    @Override
@@ -125,9 +125,9 @@ Después de habilitar el ciclo vital, cada vez que inicie la aplicación se envi
 
 >[!IMPORTANT]
 >
->Debe agregar estas llamadas a todas las actividades para garantizar un informe de bloqueo preciso. Para obtener más información, consulte [Seguimiento de bloqueos de aplicación](/help/android/analytics-main/crashes.md).
+>You must add these calls to every activity to ensure accurate crash reporting. Para obtener más información, consulte [Seguimiento de bloqueos](/help/android/analytics-main/crashes.md)de aplicaciones.
 
-## Incluir datos adicionales con llamadas del ciclo vital
+## Include additional data with lifecycle calls
 
 Para incluir datos adicionales en las llamadas a métricas del ciclo vital, pase a `collectLifecycleData` un parámetro adicional que contenga datos de contexto:
 
