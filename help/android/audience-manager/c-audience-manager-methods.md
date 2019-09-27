@@ -1,12 +1,12 @@
 ---
 description: Esta es una lista de métodos de Audience Manager que proporciona la biblioteca Android.
-keywords: android; library; mobile; sdk
+keywords: android;biblioteca;móvil;sdk
 seo-description: Esta es una lista de métodos de Audience Manager que proporciona la biblioteca Android.
 seo-title: Métodos de Audience Manager
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de Audience Manager
 topic: Desarrollador e implementación
-uuid: 2 f 6 e 4664-1306-41 d 4-9 fa 7-e 3 a 99 f 1 df 4 ab
+uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -17,7 +17,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 Esta es una lista de métodos de Audience Manager que proporciona la biblioteca Android.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de Adobe Experience Platform. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma de Adobe Experience Cloud. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
 
 Si Audience Manager está configurado en su archivo JSON, junto a su visita de ciclo vital se envía una señal que contiene métricas del ciclo vital.
 
@@ -73,7 +73,7 @@ Si Audience Manager está configurado en su archivo JSON, junto a su visita de c
 
    Establece el DPID y el DPUUID, y estos valores se envían con cada señal.
 
-   Si el valor de DPUUID que se pasa a este método contiene caracteres que no son seguros para la URL, los clientes deben codificar el parámetro antes de pasarlo al SDK.
+   Si el valor DPUUID que se pasa a este método contiene caracteres que no son seguros para URL, los clientes deben codificar el parámetro antes de pasarlo al SDK.
 
    * Esta es la sintaxis para este método:
 
