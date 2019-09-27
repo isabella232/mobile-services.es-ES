@@ -1,10 +1,10 @@
 ---
 description: Documentos técnicos para Adobe Mobile Services
-seo-description: Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Services, lo que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario con aplicaciones móviles.
+seo-description: Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Services, que aúna las capacidades de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en las aplicaciones móviles.
 seo-title: 'Adobe Mobile Services '
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: 'Adobe Mobile Services '
-uuid: e 86 a 77 c 9-4 ff 1-403 f-a 5 a 1-4 afbdc 4 e 6 f 68
+uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
 source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
@@ -13,11 +13,11 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Services, lo que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario con aplicaciones móviles.
+Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Services, que aúna las capacidades de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en las aplicaciones móviles.
 
 >[!IMPORTANT]
 >
->El SKU de Adobe Analytics Mobile Marketing Add-on es necesario para permitir el acceso de Mobile Services a la adquisición móvil, vinculación profunda, geolocalización y capacidades de mensajería móvil. Para obtener más información, póngase en contacto con su Adobe CSM.
+>El SKU del complemento de marketing móvil de Adobe Analytics es necesario para habilitar el acceso de Mobile Services a las funciones de adquisición móvil, vinculación profunda, geolocalización y mensajería móvil. Para obtener más información, póngase en contacto con el CSM de Adobe.
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
@@ -40,7 +40,7 @@ Para ver las últimas notas de la versión, consulte [Notas de la versión de Ex
 
 ## Temas populares {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
 
-Aquí tiene algunos temas populares:
+Estos son algunos de los temas populares de esta guía:
 
 * [Primeros pasos](/help/using/gs/gs.md)
 * [Iniciando sesión](/help/using/gs/gs-signin.md)
@@ -53,7 +53,7 @@ Aquí tiene algunos temas populares:
 
 ## Desarrolladores
 
-A continuación, presentamos algunos vínculos para ayudar a los desarrolladores:
+A continuación se muestran algunos vínculos para ayudar a los desarrolladores:
 
 * [Descarga de herramientas y SDK de Mobile](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
 * [Desarrollador](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
