@@ -2,29 +2,29 @@
 description: Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap.
 keywords: android;biblioteca;móvil;sdk
 seo-description: Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap.
-seo-title: PhoneGap plug-in overview
+seo-title: Descripción general del complemento PhoneGap
 solution: Marketing Cloud,Analytics
-title: PhoneGap plug-in overview
+title: Descripción general del complemento PhoneGap
 topic: Desarrollador e implementación
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# PhoneGap plug-in overview {#phonegap-plug-in}
+# Descripción general del complemento PhoneGap {#phonegap-plug-in}
 
 Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap. To create a PhoneGap project, see [PhoneGap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## Nueva versión del SDK de Adobe Experience Platform Mobile
 
-¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con SDK móviles de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Para empezar, vaya a Adobe Experience Platform Launch.
-* Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Para ver el contenido de los repositorios de SDK de Experience Platform, vaya a [Github: SDK de Adobe Experience Platform ](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
 ## Instalación del complemento utilizando npm {#section_43229E57C16944C0B51531CB92089189}
