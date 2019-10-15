@@ -1,26 +1,26 @@
 ---
-description: This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
-keywords: android;library;mobile;sdk
+description: En este tema se proporciona información sobre cómo solucionar problemas que podría tener durante las pruebas de adquisición.
+keywords: android;biblioteca;móvil;sdk
 seo-description: En este tema se proporciona información sobre cómo solucionar problemas que podría tener durante las pruebas de adquisición.
-seo-title: Troubleshoot Acquisition testing
+seo-title: Resolución de problemas de pruebas de adquisición
 solution: Marketing Cloud,Analytics
-title: Troubleshoot Acquisition testing
+title: Resolución de problemas de pruebas de adquisición
 topic: Desarrollador e implementación
 translation-type: tm+mt
-source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# Troubleshoot Acquisition testing {#troubleshoot-acquisition-testing}
+# Resolución de problemas de pruebas de adquisición {#troubleshoot-acquisition-testing}
 
-This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
+En este tema se proporciona información sobre cómo solucionar problemas que podría tener durante las pruebas de adquisición.
 
 * Si no se especifica lo contrario, el archivo ADBMobileConfig.json debe colocarse en la `assets` carpeta.
 
    El nombre distingue entre mayúsculas y minúsculas, por lo que no utilice mayúsculas y minúsculas.
 
-* Ensure that  is called from your main activity.`Config.setContext(this.getApplicationContext())`
+* Asegúrese de que `Config.setContext(this.getApplicationContext())` se llama desde la actividad principal.
 
    Para obtener más información, consulte Métodos [de configuración](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html).
 
