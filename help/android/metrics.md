@@ -8,7 +8,7 @@ title: Métricas del ciclo vital
 topic: Desarrollador e implementación
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -19,12 +19,12 @@ Esta sección proporciona información sobre las métricas y dimensiones que la 
 
 ## Nueva versión del SDK de Adobe Experience Platform Mobile
 
-¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con SDK móviles de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Para empezar, vaya a Adobe Experience Platform Launch.
-* Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Para ver el contenido de los repositorios de SDK de Experience Platform, vaya a [Github: SDK de Adobe Experience Platform ](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
@@ -149,7 +149,7 @@ Para Analytics, los datos de contexto que se envían con cada llamada de seguimi
 
 * **Versión del sistema operativo**
 
-   The OS version.
+   Versión del SO.
 
    * Parámetro de Target/dato contextual de Analytics: `a.OSVersion`
    * Audience Manager: `c_a_OSVersion`
@@ -160,7 +160,7 @@ Para Analytics, los datos de contexto que se envían con cada llamada de seguimi
 
    >[!IMPORTANT]
    >
-   >This metric is not automatically stored in an Analytics variable. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
+   >Esta métrica no se almacena automáticamente en una variable de Analytics. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
 
    * Parámetro de Target/dato contextual de Analytics: `a.DaysSinceLastUpgrade`
    * Audience Manager: `c_a_DaysSinceLastUpgrade`
@@ -212,7 +212,7 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
    Populated by `trackTimedAction` methods.
 
    * Parámetro de Target/dato contextual de Analytics: `a.action.time.total`
-   * Audience Manager Trait: `c_a_action_time_total`
+   * Característica de Audience Manager: `c_a_action_time_total`
 
 * **Tiempo de la acción dentro de la aplicación**
 
@@ -234,7 +234,7 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
 
    Populated by `trackLocation` methods.
 
-   * Analytics Context Data/Target Parameters:
+   * Parámetros de Target/datos de contexto de Analytics:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -248,7 +248,7 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
 
    Rellenado con métodos trackLocation.
 
-   * Analytics Context Data/Target Parameters:
+   * Parámetros de Target/datos de contexto de Analytics:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -262,11 +262,11 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
 
    Rellenado con métodos trackLocation.
 
-   * Analytics Context Data/Target Parameters:
+   * Parámetros de Target/datos de contexto de Analytics:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Audience Manager Traits:
+   * Características de Audience Manager:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -277,7 +277,7 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
    Rellenado con métodos trackLocation cuando el dispositivo está dentro de un punto de interés definido.
 
    * Analytics Context Data/Target Parameters: `a.loc.poi`
-   * Audience Manager Trait: `c_a_loc_poi`
+   * Característica de Audience Manager: `c_a_loc_poi`
 
 * **Distancia hasta el centro del punto de interés**
 
@@ -291,28 +291,28 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
    Rellenado con métodos trackLifetimeValue.
 
    * Analytics Context Data/Target Parameters: `a.ltv.amount`
-   * Audience Manager Trait: `c_a_ltv_amount`
+   * Característica de Audience Manager: `c_a_ltv_amount`
 
 * **Código de seguimiento**
 
    Rellenado por la función de adquisición de aplicaciones móviles y generado automáticamente por Adobe Mobile Services.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
-   * Audience Manager Trait: `c_a_referrer_campaign_trackingcode`
+   * Característica de Audience Manager: `c_a_referrer_campaign_trackingcode`
 
-* ** Campaign
+* **Campaign**
 
    Nombre de la campaña, también almacenada en la variable de campaña. Rellenado por Adquisición de aplicación móvil.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.name`
-   * Audience Manager Trait: `c_a_referrer_campaign_name`
+   * Característica de Audience Manager: `c_a_referrer_campaign_name`
 
 * **Contenido de campaña**
 
    El nombre o ID del contenido que se muestra en el vínculo. Rellenado por Adquisición de aplicación móvil.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.content`
-   * Audience Manager Trait: `c_a_referrer_campaign_content`
+   * Característica de Audience Manager: `c_a_referrer_campaign_content`
 
 * **Medio de campaign**
 
@@ -326,11 +326,11 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
    Referente original, como un boletín de noticias o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.source`
-   * Audience Manager Trait: `c_a_referrer_campaign_source`
+   * Característica de Audience Manager: `c_a_referrer_campaign_source`
 
 * **Término de campaña**
 
    Palabras clave de pago u otros términos con los que quiera realizar un seguimiento de esta adquisición. Rellenado por Adquisición de aplicación móvil.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.term`
-   * Audience Manager Trait: `c_a_referrer_campaign_term`
+   * Característica de Audience Manager: `c_a_referrer_campaign_term`
