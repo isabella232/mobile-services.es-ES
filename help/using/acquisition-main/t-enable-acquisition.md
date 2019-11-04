@@ -1,13 +1,13 @@
 ---
-description: El seguimiento de adquisición debe estar activado en la configuración del SDK para poder realizar el seguimiento de los vínculos de marketing e informar al respecto.
+description: El seguimiento de adquisición debe estar activado en la configuración de SDK para que pueda realizar el seguimiento y elaborar informes sobre los vínculos de marketing.
 keywords: móvil
-seo-description: Acquisition tracking must be enabled in the SDK configuration before you can track and report on Marketing Links.
+seo-description: El seguimiento de adquisición debe estar activado en la configuración de SDK para que pueda realizar el seguimiento y elaborar informes sobre los vínculos de marketing.
 seo-title: Configurar la adquisición
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configurar la adquisición
 topic: Métricas
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -15,22 +15,22 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Configurar la adquisición {#configure-acquisition}
 
-El seguimiento de adquisición debe estar activado en la configuración del SDK para poder realizar el seguimiento de los vínculos de marketing e informar al respecto.
+El seguimiento de adquisición debe estar activado en la configuración de SDK para que pueda realizar el seguimiento y elaborar informes sobre los vínculos de marketing.
 
 1. En la página Administrar configuración de aplicación de la aplicación, desplácese hasta la sección **[!UICONTROL Opciones de adquisición de SDK.]**
 1. Complete las siguientes tareas:
 
-   * To enable Acquisition, select the **[!UICONTROL Enable]** check box.
+   * Para activar la adquisición, marque la casilla de verificación **[!UICONTROL Habilitar]**.
 
-      When you select this check box, the **[!UICONTROL Referrer Timeout]** field becomes active, and the value changes from 0 to 5.
+      Al marcar esta casilla de verificación, el campo **[!UICONTROL Tiempo de espera de referente]** se activa y el valor cambia de 0 a 5 segundos.
 
-   * Introduzca un valor en el campo Tiempo de espera de **[!UICONTROL referente (segundos)]**
+   * Introduzca un valor en el campo **[!UICONTROL Tiempo de espera de referente (segundos)]**
 
-      (**Opcional**) Si ha activado la casilla de verificación **[!UICONTROL Habilitar]** , este campo es opcional. Puede cambiar el valor de tiempo de espera, que se indica en segundos. This setting specifies the period to wait for Acquisition information before sending the First Launch hit.
+      (**Opcional**) Si ha activado la casilla de verificación **[!UICONTROL Habilitar]**, este campo es opcional. Puede cambiar el valor de tiempo de espera, que se indica en segundos. Este valor especifica el tiempo de espera para la información de adquisición antes de enviar la visita del primer lanzamiento.
    >[!IMPORTANT]
-   >Debe especificar un valor distinto de cero. Si activa Adquisición pero deja el valor como cero, los vínculos de Adquisición no funcionarán. We recommend that you use the 5-second default value.
+   >Debe especificar un valor distinto de cero. Si activa la adquisición y deja el valor en cero, los vínculos de adquisición no funcionarán. Le recomendamos que utilice el valor predeterminado de 5 segundos.
 
 1. Descargue y use el nuevo archivo de configuración del SDK en su aplicación.
 
-   Ha configurado correctamente la adquisición en **iOS**.
-To enable Acquisition on **Android**, complete the steps in [Tracking Mobile Acquisition](/help/android/acquisition-main/acquisition.md).
+   Ha configurado correctamente la adquisición en **iOS**. 
+Para activar la adquisición en **Android**, realice los pasos que se detallan en [Seguimiento de adquisición móvil](/help/android/acquisition-main/acquisition.md).
