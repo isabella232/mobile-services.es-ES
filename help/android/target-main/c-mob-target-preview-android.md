@@ -4,7 +4,7 @@ seo-description: La vista previa de Target permite realizar un completo QA para 
 seo-title: Vista previa de Target en Android
 title: Vista previa de Target en Android
 uuid: f3c82d64-009c-4929-a5e6-3677b2977889
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
 
-Para obtener más información acerca de cómo configurar y utilizar Vista previa de Target, vaya a [Vista previa de Target Mobile](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+Para obtener más información acerca de cómo configurar y utilizar Vista previa de Target, vaya a [Vista previa de Target Mobile](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >
->Para utilizar Target Preview, necesita la versión 4.14.0 o posterior del SDK.
+>Para utilizar Vista previa de Target, necesitará la versión 4.14.0 o posterior del SDK.
 
 * **setPreviewRestartDeeplink**
 
