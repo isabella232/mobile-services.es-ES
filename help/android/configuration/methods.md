@@ -1,23 +1,23 @@
 ---
 description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
-keywords: android;biblioteca;móvil;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
 seo-title: Métodos de configuración
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de configuración
 topic: Desarrollador e implementación
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Configuration methods{#configuration-methods}
+# Métodos de configuración{#configuration-methods}
 
 A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
 
-## Initial configuration {#section_9169243ECC4744A899A8271F92090ECD}
+## Configuración inicial {#section_9169243ECC4744A899A8271F92090ECD}
 
 Se debe llamar al método siguiente una vez que esté en el método `onCreate` de la actividad principal:
 
@@ -34,15 +34,15 @@ Este es un ejemplo de código para este método:
    ````
 
 
-## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## Configuración del SDK (clase Config) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * Registra un objeto que implementa la interfaz `AdobeDataCallback`. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. Para obtener más información sobre los eventos que activarán esta llamada de retorno, consulte *MobileDataEventEnum* en la parte inferior de este tema.
+   * Registra un objeto que implementa la interfaz `AdobeDataCallback`. El método “llamada” sobrescrito se invocará con un valor `Config.MobileDataEvent` y con los datos asociados en un parámetro `Map<String, Object>` para el evento de activación. Para obtener más información sobre los eventos que activarán esta llamada de retorno, consulte *MobileDataEventEnum*.
 
       >[!TIP]
       >
-      >Este método requiere la versión 4.9.0 o posterior.
+      >Este método requiere la versión 4.9.0 o una posterior.
 
    * Esta es la sintaxis para este método:
 
@@ -87,7 +87,7 @@ Este es un ejemplo de código para este método:
       Estos son los valores de estado de privacidad:
 
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, donde las visitas se envían inmediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan los "its".
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde las visitas se descartan.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan).
 
          Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a incluido. El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
@@ -106,12 +106,12 @@ Este es un ejemplo de código para este método:
 
 * Método **setPrivacyStatus**
 
-   * Sets the privacy status for the current user to `status`.
+   * Establece el estado de privacidad del usuario actual como `status`.
 
       Puede establecer el estado de privacidad en uno de los siguientes valores:
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, donde las visitas se envían inmediatamente. Estas visitas se envían inmediatamente.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde se descartan los "its". Estas visitas se descartan.
-      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan).
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde las visitas se descartan. Estas visitas se descartan.
+      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). 
 Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a incluido.
    * Esta es la sintaxis para este método:
 
@@ -119,7 +119,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
       public static void setPrivacyStatus(MobilePrivacyStatus status); 
       ```
 
-   * Here is a code sample for this method:
+   * Este es un ejemplo de código para este método:
 
       ```java
       Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
@@ -148,7 +148,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
       >[!TIP]
       >
-      >Si la aplicación se actualiza del SDK 3.x a 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para las instalaciones nuevas en el SDK 4.x, hasta que esté establecido, el identificador de usuario será `null`.
+      >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. Esto preserva los datos de visitante al actualizar el SDK. Para las instalaciones nuevas en el SDK 4.x, hasta que esté establecido, el identificador de usuario será `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -156,7 +156,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
       public static String&amp getUserIdentifier();
       ```
 
-   * Here the code sample for this method:
+   * Este es el ejemplo de código para este método:
 
       ```java
       String userId = Config.getUserIdentifier();
@@ -345,7 +345,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
       >[!IMPORTANT]
       > 
-      >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
+      >Si desea utilizar el identificador de publicidad para la adquisición o el ciclo de duración, llámele antes de llamar a `Config.collectLifecycleData`.
 
       * Esta es la sintaxis para este método:
 
