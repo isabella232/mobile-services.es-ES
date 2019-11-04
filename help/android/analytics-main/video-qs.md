@@ -1,48 +1,48 @@
 ---
 description: A continuación encontrará más información sobre la medición de vídeo en Android mediante la solución de medición de vídeo.
-keywords: android;biblioteca;móvil;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: A continuación encontrará más información sobre la medición de vídeo en Android mediante la solución de medición de vídeo.
-seo-title: 'Video Analytics '
-solution: Marketing Cloud,Analytics
-title: 'Video Analytics '
+seo-title: Video Analytics
+solution: Experience Cloud,Analytics
+title: Video Analytics
 topic: Desarrollador e implementación
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Video Analytics  {#video-analytics}
+# Video Analytics {#video-analytics}
 
 A continuación encontrará más información sobre la medición de vídeo en Android mediante la solución de medición de vídeo.
 
 >[!TIP]
 >
->Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. For more information about Adobe's video measurement solution, see [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+>Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información acerca de la solución de medición de vídeo de Adobe, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
-El proceso general de medición de vídeos es muy similar en todas las plataformas. Este contenido ofrece una visión general de las tareas del desarrollador, con ejemplos de código. La siguiente tabla indica los datos multimedia que se envían a Analytics. Processing rules are used to map the context data to an Analytics variable.
+El proceso general de medición de vídeos es muy similar en todas las plataformas. Este contenido ofrece una visión general de las tareas del desarrollador, con ejemplos de código. La siguiente tabla indica los datos multimedia que se envían a Analytics. Las reglas de procesamiento se utilizan para asignar los datos de contexto a una variable de Analytics.
 
-## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## Asignación de eventos del reproductor a las variables de Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
 * **a.media.name**
-   * Variable type: eVar
+   * Tipo de variable: eVar
       * Caducidad predeterminada: visita
       * Insight personalizada (s.prop, se utiliza para rutas de vídeo)
    * (**Obligatorio**) Cuando un visitante visualiza el vídeo de alguna forma, la variable de datos de contenido recopila el nombre del vídeo, según lo especificado en la implementación. Puede añadir clasificaciones para esta variable.
    * (**Opcional**) La variable Insight personalizada proporciona información sobre la ruta del vídeo.
 
 * **a.media.name**
-   * Variable type: Custom Insight (s.prop)
+   * Tipo de variable: Custom Insight (s.prop)
    * (**Opcional**) Proporciona información sobre la ruta del vídeo.
 
       >[!IMPORTANT]
       >
-      >Pathing must be enabled for this variable by ExpCare.
+      >ExpCare debe habilitar las rutas para esta variable.
    * Tipo de evento: Insight personalizada (s.prop)
 
 * **a.media.segment**
-   * Variable type: eVar
+   * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
    * (**Obligatorio**) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en el que aparece el segmento en el vídeo.
 
@@ -57,40 +57,40 @@ El proceso general de medición de vídeos es muy similar en todas las plataform
 
 
 * **a.contentType**
-   * Variable type: eVar
+   * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
    * Recopila datos sobre el tipo de contenido que un visitante ve.
 
-      Hits sent by video measurement are assigned a content type of `video`. Desde la perspectiva de medición de vídeo, **Tipo de contenido** permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
+      Se asigna un tipo de contenido `video` a las visitas enviadas por la medición de vídeo. Desde la perspectiva de medición de vídeo, **Tipo de contenido** permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
 
 * **a.media.timePlayed**
-   * Variable type: Event
+   * Tipo de variable: Event
    * Tipo: contador
    * Cuenta el tiempo, en segundos, transcurrido viendo un vídeo desde el último proceso de recopilación de datos (solicitud de imagen).
 
 * **a.media.view**
-   * Variable type: Event
+   * Tipo de variable: Event
    * Tipo: contador
    * Indica que un visitante ha visto alguna parte de un vídeo.
 
       Sin embargo, no proporciona ninguna información sobre qué parte del vídeo ha visualizado el visitante, ni durante cuánto tiempo.
 
 * **a.media.segmentView**
-   * Variable type: Event
+   * Tipo de variable: Event
    * Tipo: contador
    * Indica que un visitante ha visto alguna parte de un segmento de vídeo.
 
       Sin embargo, no proporciona ninguna información sobre qué parte del vídeo ha visualizado el visitante, ni durante cuánto tiempo.
 
 * **a .media.complete**
-   * Variable type: Event
+   * Tipo de variable: Event
    * Tipo: contador
    * Indica que un usuario ha visto un vídeo completo.
 
       De forma predeterminada, el evento completo se mide 1 segundo antes del final del vídeo. Durante la implementación, puede especificar cuántos segundos desde el final de un vídeo pueden quedar sin ver y, pese a ello, considerarse como una vista completa. Para vídeo en directo y otras transmisiones sin un fin definido, puede especificar un punto personalizado para medir las visualizaciones completas (por ejemplo, después de un tiempo de visualización especificado).
 
 
-## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Configuración de medios {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure un objeto `MediaSettings` con los ajustes que quiera usar para realizar seguimiento de vídeo:
 
@@ -98,9 +98,9 @@ Configure un objeto `MediaSettings` con los ajustes que quiera usar para realiza
 MediaSettings mySettings = Media.settingsWith("name", 10, "playerName", "playerId");
 ```
 
-## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Seguimiento de eventos del reproductor {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
-To measure video playback, the `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. Por ejemplo, cuando el reproductor se pone en pausa, llame a `mediaStop`. `mediaPlay` se utiliza cuando la reproducción comienza o se reanuda.
+Para medir la reproducción de vídeo, es preciso realizar llamadas a los métodos `mediaPlay`, `mediaStop`, y `mediaClose` en los momentos apropiados. Por ejemplo, cuando el reproductor se pone en pausa, llame a `mediaStop`. `mediaPlay` se utiliza cuando la reproducción comienza o se reanuda.
 
 ## Clases {#section_16838332727348F990305C0C6B0D795C}
 
@@ -149,9 +149,9 @@ public boolean ad;
 public boolean eventFirstTime;
 ```
 
-## Media Measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Referencia de clases y métodos de medición de medios {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-Here are the methods in the Media Measurement class:
+Estos son los métodos de la clase de medición de medios:
 
 * **settingsWith**
 
@@ -248,7 +248,7 @@ Here are the methods in the Media Measurement class:
       public static void stop(String name, double offset); 
       ```
 
-   * Este es el ejemplo de código o este método:
+   * Este es un ejemplo de código para este método:
 
       ```java
       Media.stop("name", 0);
