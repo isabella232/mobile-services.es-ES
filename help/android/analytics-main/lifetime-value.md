@@ -2,27 +2,27 @@
 description: El valor de duración le permite medir un valor de duración para cada usuario de Android y tomarlo como destino. El valor puede utilizarse para almacenar compras acumuladas, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etcétera.
 seo-description: El valor de duración le permite medir un valor de duración para cada usuario de Android y tomarlo como destino. El valor puede utilizarse para almacenar compras acumuladas, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etcétera.
 seo-title: Valor de duración de visitantes
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Valor de duración de visitantes
 topic: Desarrollador e implementación
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Visitor lifetime value {#visitor-lifetime-value}
+# Valor de duración de visitantes {#visitor-lifetime-value}
 
 El valor de duración le permite medir un valor de duración para cada usuario de Android y tomarlo como destino. El valor puede utilizarse para almacenar compras acumuladas, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etcétera.
 
 Cada vez que envía un valor con `trackLifetimeValueIncrease`, el valor se agrega al valor existente. El valor de duración se almacena en el dispositivo y se puede recuperar en cualquier momento realizando una llamada a `lifetimeValue`.
 
-## Track the visitor lifetime value {#section_390943A49AF841F2941E65D6DF2B3F5A}
+## Seguimiento del valor de duración de visitantes {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. Agregue la [biblioteca] al proyecto e implemente el ciclo vital.
+1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```java
@@ -35,7 +35,7 @@ Cada vez que envía un valor con `trackLifetimeValueIncrease`, el valor se agreg
    Analytics.trackLifetimeValueIncrease(BigDecimal.valueOf(5.0), null);
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además del valor de duración, puede enviar datos de contexto adicionales con cada llamada de seguimiento de acción:
 
