@@ -2,17 +2,17 @@
 description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la duración de cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 seo-description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la duración de cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 seo-title: Acciones temporizadas
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Acciones temporizadas
 topic: Desarrollador e implementación
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
 ---
 
 
-# Timed actions {#timed-actions}
+# Acciones temporizadas {#timed-actions}
 
 Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la duración de cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 
@@ -27,11 +27,11 @@ Una llamada de retorno opcional le permite realizar acciones adicionales cuando 
 * Agregar datos de contexto antes de pasar las duraciones.
 * Cancelar visitas y duraciones no enviadas todavía.
 
-## Track timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## Seguimiento de acciones temporizadas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifeycle.**[](/help/android/getting-started/dev-qs.md)
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```java
@@ -62,7 +62,7 @@ Una llamada de retorno opcional le permite realizar acciones adicionales cuando 
 
    Las métricas de eventos temporizados se guardan en variables de soluciones móviles para la realización automática de informes.
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además del nombre de la acción temporizada, también puede enviar datos de contexto adicionales con las llamadas de inicio y actualización de acción:
 
