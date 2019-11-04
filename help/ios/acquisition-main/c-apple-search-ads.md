@@ -2,11 +2,11 @@
 description: El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple.
 seo-description: El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple.
 seo-title: Search Ads de Apple
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Search Ads de Apple
 topic: Desarrollador e implementación
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 # Search Ads de Apple {#apple-search-ads}
 
-El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple. Para obtener más información acerca de campañas de Search Ad, consulte [Search Ads de Apple](https://searchads.apple.com).
+El SDK de Adobe aprovecha las API de Atribución de la aplicación Search Ads de Apple para permitir a desarrolladores y especialistas en marketing realizar un seguimiento y atribuir descargas de aplicaciones originadas en campañas de Search Ads en el App Store de Apple. Para obtener más información acerca de campañas de Search Ad, consulte [Search Ads de Apple](https://searchads.apple.com/es/).
 
 ## Ventajas {#section_CEA30C652AC8470784B8054E299B80FA}
 
@@ -33,7 +33,7 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
 1. Implemente la versión 4.13.2 o superior del SDK de Adobe.
 
-   Para obtener más información, consulte [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte [Implementación principal y ciclo vital](/help/ios/getting-started/dev-qs.md).
 
 1. Agregue el marco iAd al archivo del proyecto Xcode de la aplicación.
 
@@ -41,7 +41,7 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
 1. Los datos de atribución de Search Ads de Apple se proporcionan en el nombre de adquisición, la fuente y el valor de los términos.
 
-   If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
+   Si atribución tiene el valor `true`, todos los campos `iad-*` se incluyen en la visita de ciclo vital.
 
    Además, se asignarán los siguientes valores del diccionario `"iad"` a campos habituales de datos de contexto de adquisición:
 
@@ -49,4 +49,4 @@ Para habilitar su aplicación para la atribución de Search Ads:
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
    * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
    * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
-   This mapping ensures that the values are available in our standard reporting.
+   Esta asignación permite realizar informes estándar con los valores.
