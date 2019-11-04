@@ -1,27 +1,27 @@
 ---
 description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
 seo-title: Ejemplo de Postbacks
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Ejemplo de Postbacks
 topic: Desarrollador e implementación
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Postbacks example {#postbacks-example}
+# Ejemplo de Postbacks {#postbacks-example}
 
-Puede utilizar esta información para ayudarle a comprender qué son los postbacks y cómo funcionan.
+Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
 
 >[!CAUTION]
 >
->This example is provided for informational purposes only. El archivo `ADBMobileConfig.json` debe configurarse en la interfaz de usuario de Adobe Mobile y no debería modificarse de forma manual. Un archivo de configuración editado de forma manual puede ser peligroso si tiene habilitada la configuración de mensajes remotos.
+>Este ejemplo tiene propósitos meramente informativos. El archivo `ADBMobileConfig.json` debe configurarse en la interfaz de usuario de Adobe Mobile y no debería modificarse de forma manual. Un archivo de configuración editado de forma manual puede ser peligroso si tiene habilitada la configuración de mensajes remotos.
 
-## `ADBMobileConfig.json` definition {#section_8751E8176F3546C09420341A39758AFF}
+## Definición de `ADBMobileConfig.json` {#section_8751E8176F3546C09420341A39758AFF}
 
 ```js
 "messages": [ 
@@ -52,7 +52,7 @@ Puede utilizar esta información para ayudarle a comprender qué son los postbac
 ] 
 ```
 
-## Code sample {#section_D063DE82976D4EDEA97E804BD1C4718F}
+## Ejemplo de código {#section_D063DE82976D4EDEA97E804BD1C4718F}
 
 ```js
 HashMap<String, Object> contextData = new HashMap<String, Object>(); 
@@ -61,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. La URL reemplazará todas las variables de plantilla con los valores de la visita. Si damos por supuesto que la sesión anterior del usuario duró 132 segundos y que el usuario está en la versión 4.6.0 del SDK para Android, la dirección URL resultante tiene este aspecto:
+Como su estado es `“MainMenu”`, esta llamada de seguimiento activa el mensaje de postback anterior. La URL reemplazará todas las variables de plantilla con los valores de la visita. Suponiendo que la sesión anterior del usuario tuviera una duración de 132 segundos y que el usuario utilice la versión 4.6.0 del SDK para Android, la URL resultante tendría este aspecto:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`
