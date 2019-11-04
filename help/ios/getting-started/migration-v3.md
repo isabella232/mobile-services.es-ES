@@ -1,28 +1,28 @@
 ---
 description: Esta información le ayuda a hacer la migración de las versiones 3.x o 2.x a la versión 4.x de la biblioteca iOS.
 seo-description: Esta información le ayuda a hacer la migración de las versiones 3.x o 2.x a la versión 4.x de la biblioteca iOS.
-seo-title: Migración a la biblioteca 4.x de iOS
-solution: Marketing Cloud,Analytics
-title: Migración a la biblioteca 4.x de iOS
+seo-title: Migración a la biblioteca iOS 4.x
+solution: Experience Cloud,Analytics
+title: Migración a la biblioteca iOS 4.x
 topic: Desarrollador e implementación
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# Migrating to the 4.x iOS library{#migrating-to-the-x-ios-library}
+# Migración a la biblioteca iOS 4.x{#migrating-to-the-x-ios-library}
 
 Esta información le ayuda a hacer la migración de las versiones 3.x o 2.x a la versión 4.x de la biblioteca iOS.
 
 >[!IMPORTANT]
 >
->The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  Si modifica o elimina los valores en `NSUserDefaults` que el SDK espera, el comportamiento inesperado podría provocar incongruencias en los datos.
+>El SDK utiliza `NSUserDefaults` a fin de almacenar los datos necesarios para calcular los usuarios únicos, las métricas del ciclo vital y otros datos relacionados con la función principal del SDK.  Si modifica o elimina los valores en `NSUserDefaults` que el SDK espera, el comportamiento inesperado podría provocar incongruencias en los datos.
 
-In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. Además, ahora se puede acceder a la funcionalidad a través de métodos de nivel de clase, por lo que no es necesario realizar un seguimiento de punteros, instancias o singletones.
+En la biblioteca de la versión 4.x del SDK para iOS, los métodos públicos se consolidan en un encabezado. Además, ahora se puede acceder a la funcionalidad a partir de métodos en el nivel de clase, por lo que no tiene que seguir la pista de punteros, instancias e instancias únicas.
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 En la versión 4 ya no puede asignar directamente en su aplicación variables como events, eVars, props, heirs y lists. En lugar de ello, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
 
@@ -36,9 +36,9 @@ Las reglas de procesamiento ofrecen las siguientes ventajas:
 
 >[!TIP]
 >
->Values that you were assigning directly to variables should now be added to the `data` NSDictionary.
+>Los valores que se han asignado directamente a variables deben agregarse ahora al NSDictionary `data`.
 
-## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## Eliminación de propiedades no utilizadas {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 El nuevo archivo `ADBMobileConfig.json` contiene ajustes globales y específicos de la aplicación, y reemplaza la mayoría de las variables de configuración utilizadas en versiones anteriores. Este es un ejemplo de archivo `ADBMobileConfig.json`:
 
@@ -84,15 +84,15 @@ Las siguientes tablas listan las variables de configuración que debe mover al a
 
 Mueva el valor de la primera columna a la variable en la segunda columna.
 
-| Variable de configuración | Variable in the `ADBMobileConfig.json` file |
+| Variable de configuración | Variable en el archivo `ADBMobileConfig.json` |
 |--- |--- |
-| offlineTrackingEnabled | “offlineEnabled” |
-| offlineHitLimit | “batchLimit” |
+| offlineTrackingEnabled | "offlineEnabled" |
+| offlineHitLimit | "batchLimit" |
 | reportSuiteIDs | "rsids" |
 | trackingServer | "server" |
 | charSet | "charset" |
 | currencyCode | "currency" |
-| ssl | “ssl” |
+| ssl | "ssl" |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
 
@@ -101,16 +101,16 @@ Mueva el valor de la primera columna a la variable en la segunda columna.
 
 Mueva el valor de la primera columna a la variable en la segunda columna.
 
-| Variable de configuración | Variable in the `ADBMobileConfig.json` file |
+| Variable de configuración | Variable en el archivo `ADBMobileConfig.json` |
 |--- |--- |
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server", elimine el `"https://"` prefijo. El prefijo de protocolo se agrega automáticamente en función del ajuste “ssl”. |
+| trackingServer | "server", elimine el prefijo `"https://"`. El prefijo de protocolo se agrega automáticamente en función del ajuste “ssl”. |
 | trackingServerSecure | Eliminar. Para conexiones seguras, defina “server” y después habilite “ssl”. |
 | charSet | "charset" |
 | currencyCode | "currency" |
-| ssl | “ssl” |
+| ssl | "ssl" |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
 | timestamp | Eliminar, ya no es configurable. |
@@ -119,22 +119,22 @@ Mueva el valor de la primera columna a la variable en la segunda columna.
 | dynamicVariablePrefix | Eliminar, ya no se utiliza. |
 | visitorNamespace | Eliminar, ya no se utiliza. |
 | usePlugins | Eliminar, ya no se utiliza. |
-| useBestPractices  todas las llamadas para producir mediciones (getChurnInstance ) | Eliminar, reemplazado por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
+| useBestPractices  todas las llamadas para producir mediciones (getChurnInstance ) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
 
 
-## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 En vez de utilizar las llamadas `track` y `trackLink`, centradas en la web, la versión 4 del SDK emplea los siguientes métodos:
 
-* `trackState:data:` los estados son las vistas disponibles en la aplicación, como `home dashboard`, `app settings`, `cart`, etc.
+* Los estados `trackState:data:` son las vistas que están disponibles en la aplicación, como `home dashboard`, `app settings` o `cart`, entre otros.
 
    Estos estados son similares a las páginas de un sitio web y las llamadas `trackState` incrementan las visualizaciones de página.
 
-* `trackAction:data:` acciones, como `logons``banner taps`, `feed subscriptions`y otras métricas que se producen en la aplicación y que desea medir.
+* Las acciones `trackAction:data:`, como `logons`, `banner taps`, `feed subscriptions` y otras métricas que se producen en la aplicación y que desea medir.
 
 El parámetro `data` para ambos métodos es un `NSDictionary` que contiene pares de nombre-valor que se envían como datos de contexto.
 
-### Events, props, eVars
+### Eventos, props y eVars
 
 En la versión 4 ya no puede asignar directamente en su aplicación variables como events, eVars, props, heirs y lists. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
 
@@ -146,13 +146,13 @@ Las reglas de procesamiento ofrecen las siguientes ventajas:
 
    Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento. Para obtener más información, consulte [Reglas de procesamiento y datos de contexto](/help/ios/getting-started/proc-rules.md).
 
-Los valores que asignaba directamente a variables deberían agregarse al   `data``NSDictionary`. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
+Los valores que asignaba directamente a variables deberían agregarse al `data``NSDictionary`. Esto significa que las llamadas a `setProp` y `setEvar`, así como las asignaciones a datos de contexto persistentes, deberían eliminarse para agregar sus valores al parámetro `data`.
 
-### AppSection/Server, GeoZip, ID de transacción, Campaign y otras variables estándar
+### AppSection/Server, GeoZip, Transaction ID, Campaign y otras variables estándar
 
-Los datos que configuraba en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse al   `data``NSDictionary`. Los únicos datos que se envían con una llamada a `trackState` o `trackAction` son la carga útil del parámetro `data`.
+Los datos que configuraba en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse al `data``NSDictionary`. Los únicos datos que se envían con una llamada a `trackState` o `trackAction` son la carga útil del parámetro `data`.
 
-### Reemplazar llamadas de seguimiento
+### Reemplazo de las llamadas de seguimiento
 
 En su código, sustituya los siguientes métodos con una llamada a `trackState` o `trackAction`:
 
@@ -169,13 +169,13 @@ En su código, sustituya los siguientes métodos con una llamada a `trackState` 
 * `track (trackState)`
 * `trackLink (trackAction)`
 
-## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
+## ID de visitante personalizado {#section_2CF930C13BA64F04959846E578B608F3}
 
-Replace the `visitorID` variable with a call to `setUserIdentifier:`.
+Reemplace la variable `visitorID` con una llamada a `setUserIdentifier:`.
 
-## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+## Seguimiento sin conexión {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
+El seguimiento sin conexión se habilita en el archivo `ADBMobileConfig.json` y el resto de la configuración sin conexión se realiza automáticamente.
 
 En su código, elimine las llamadas a los métodos siguientes:
 
@@ -189,7 +189,7 @@ En su código, elimine las llamadas a los métodos siguientes:
 * `forceOffline`
 * `forceOnline`
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variable Products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Como la variable no está disponible en las reglas de procesamiento, puede utilizar la siguiente sintaxis para establecer `products`products:
 
