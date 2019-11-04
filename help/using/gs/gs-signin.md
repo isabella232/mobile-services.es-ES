@@ -1,13 +1,13 @@
 ---
 description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
-keywords: mobile;change password;log in;log out;login;logout;sign in;signin
+keywords: móvil;cambiar contraseña;iniciar sesión;cerrar sesión;inicio de sesión;cierre de sesión
 seo-description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
 seo-title: Iniciar sesión
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Iniciar sesión
 topic: Métricas
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 ---
@@ -47,7 +47,7 @@ Para iniciar sesión en la interfaz de usuario de Adobe Mobile Services con el E
 
    >[!IMPORTANT]
    >
-   >If you click **[!UICONTROL Facebook]** or **[!UICONTROL Google]** to sign in, your Facebook and Google account email address must match the Adobe ID or Enterprise ID account email address that has access to Adobe Analytics. Si sus credenciales de correo electrónico de Facebook o Google no coinciden con su dirección de correo electrónico de usuario de Adobe ID o Enterprise ID, póngase en contacto con el administrador.
+   >Si hace clic en **[!UICONTROL Facebook]** o **[!UICONTROL Google]** para iniciar sesión, el correo electrónico de la cuenta de Facebook y Google debe coincidir con el de la de Adobe ID o Enterprise ID con la que tenga acceso a Adobe Analytics. Si las credenciales del correo electrónico de Facebook o Google no coinciden con la dirección de correo electrónico del usuario de Adobe ID o Enterprise ID, contacte con su administrador.
 
 ### Analytics ID
 
@@ -64,12 +64,12 @@ Restablezca la contraseña mediante uno de estos métodos:
 
 * **Adobe Experience Cloud** Si utiliza su Adobe ID:
 
-   1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]y luego en el vínculo**¿Ha olvidado la contraseña?****.
+   1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]** y luego en el vínculo **[!UICONTROL ¿Ha olvidado la contraseña?]**.
    1. Escriba la cuenta de correo electrónico asociada a su Adobe ID y haga clic en **[!UICONTROL Enviar]**.
    1. Siga las instrucciones para restablecer la contraseña en el correo electrónico que reciba.
 
 * **Adobe Analytics** Si usa el nombre de su empresa, su nombre de usuario y su contraseña:
 
-   1. Haga clic en el vínculo **¿Ha olvidado la contraseña?**.
+   1. Haga clic en el vínculo **[!UICONTROL ¿Ha olvidado la contraseña?]**.
    1. Escriba el nombre de su empresa, su nombre de usuario y haga clic en **[!UICONTROL Continuar]**.
    1. Siga las instrucciones indicadas en el correo electrónico que reciba.
