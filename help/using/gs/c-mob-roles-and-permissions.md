@@ -4,13 +4,13 @@ seo-description: En Adobe Analytics, puede administrar los roles en la página p
 seo-title: Roles y permisos
 title: Roles y permisos
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
 ---
 
 
-# Roles and permissions{#roles-and-permissions}
+# Roles y permisos{#roles-and-permissions}
 
 En Adobe Analytics, puede administrar los roles en la página principal de las herramientas de administración.
 
@@ -20,17 +20,17 @@ Los roles siguientes administran los permisos en la interfaz de usuario de Mobil
 
 ### Administrador de Analytics
 
-Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador de Experience Cloud vincula su Adobe ID a su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener información sobre el administrador de Experience Cloud, consulte [Administración: Administración de usuarios y preguntas más frecuentes](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador de Experience Cloud vincula su Adobe ID a su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener información sobre el administrador de Experience Cloud, consulte [Administración: Administración de usuarios y preguntas más frecuentes](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
->Un administrador de Analytics existente puede asignar la función de administrador de Analytics a cualquier usuario.
+>Un administrador existente de Analytics tiene la capacidad de asignar el rol de administrador de Analytics a cualquier usuario.
 
 Para obtener más información sobre este rol, consulte los siguientes temas:
 
-* [Información general sobre la administración de usuarios](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
+* [Información general sobre la administración de usuarios](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/users.html)
 
-* [Cambios en los permisos de usuario y grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [Cambios en los permisos de usuarios y grupos](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/permissions-changes.html)
 
 ### Administrador de aplicaciones móviles
 
@@ -38,9 +38,9 @@ Este rol es el administrador de la interfaz de usuario de Mobile Services.
 
 >[!IMPORTANT]
 >
->For some features, such as push messaging, the Analytics Admin must select the **[!UICONTROL Segment Creation]** check box in User Management.
+>En algunas funciones, como la mensajería push, el administrador de Analytics debe seleccionar la casilla de verificación **[!UICONTROL Creación de segmentos]** en Administración de usuarios.
 
-## Managing access {#section_E6939C2695AA4A0DBF432D50B2670920}
+## Administración del acceso {#section_E6939C2695AA4A0DBF432D50B2670920}
 
 A continuación, presentamos información adicional sobre el acceso a las opciones en la interfaz de usuario de Mobile Services:
 
@@ -52,7 +52,7 @@ Todas las aplicaciones de Mobile Service están enlazadas a grupos de informes. 
 
 Si su empresa no tiene un contrato de Analytics para acceder a alguna función de la interfaz de usuario, como la mensajería push, ningún usuario de la empresa tendrá acceso a ella, sea cual sea su nivel de permiso.
 
-## Roles and permissions {#section_20AA029D5B8C413C8659777E79B11620}
+## Roles y permisos {#section_20AA029D5B8C413C8659777E79B11620}
 
 Estos son los roles de la interfaz de usuario de Mobile Services y sus respectivos permisos:
 
@@ -64,7 +64,7 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
    >[!IMPORTANT]
    >
-   >Aunque la aplicación se ha eliminado en la interfaz de usuario de Mobile Services, el grupo de informes aún existe en Analytics.
+   >Aunque la aplicación se haya eliminado en la interfaz de usuario de Mobile Services, el grupo de informes sigue existiendo en Analytics.
 
 * Administrar configuración de aplicación
 
@@ -94,8 +94,8 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
 Para obtener más información sobre los grupos y los usuarios, consulte:
 
-* [Configuración de grupos de usuarios](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
-* [Agregar un usuario a un grupo](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [Configuración de grupos de usuarios](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html)
+* [Agregar un usuario a un grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
 ### Usuario de Mobile Services
 
@@ -106,7 +106,7 @@ Este rol solo tiene permiso de visualización y puede proporcionar comentarios e
 
    >[!IMPORTANT]
    >
-   >Users can only see the report suites for which they have access in Adobe Analytics.
+   >Los usuarios solo pueden ver los grupos de informes a los que tienen acceso en Adobe Analytics.
 
 * Ver la configuración de la aplicación
 
