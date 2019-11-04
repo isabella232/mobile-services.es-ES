@@ -2,39 +2,39 @@
 description: Si su aplicación abre contenido de una web móvil, debe asegurarse de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 seo-description: Si su aplicación abre contenido de una web móvil, debe asegurarse de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 seo-title: Seguimiento de visitantes entre una aplicación y la web móvil
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
 topic: Desarrollador e implementación
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 ---
 
 
-# Visitor tracking between an app and mobile web  {#visitor-tracking-between-an-app-and-mobile-web}
+# Seguimiento de visitantes entre una aplicación y la web móvil {#visitor-tracking-between-an-app-and-mobile-web}
 
 Si su aplicación abre contenido de una web móvil, debe asegurarse de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
 
 ## ID de visitante en aplicaciones
 
-El SDK para iOS genera un ID de visitante exclusivo cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil y se envía con cada visita. Solo se elimina cuando el usuario desinstala la aplicación..
+El SDK para iOS genera un ID de visitante exclusivo cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil y se envía con cada visita. Solo se elimina cuando el usuario desinstala la aplicación.
 
 >[!TIP]
 >
->Los ID de visitante de la aplicación persisten a través de las actualizaciones.
+>Los ID de visitante persisten al actualizar las aplicaciones.
 
 ## ID de visitante en la web móvil
 
 Las implementaciones web móviles típicas utilizan las mismas bibliotecas `s_code.js` o `AppMeasurement.js` estándar de Analytics que se emplean en los sitios de escritorio. Las bibliotecas de JavaScript tienen sus propios métodos para generar ID de visitante exclusivos, lo que causa que se genere un ID de visitante distinto al abrir contenido de la web móvil desde la aplicación.
 
-Para utilizar el mismo ID de visitante en la aplicación y en la web móvil y pasar el ID de visitante de la aplicación a la web móvil en la URL:
+Para utilizar el mismo ID de visitante en la aplicación y en la web móvil, pase el ID de visitante de la aplicación a la web móvil en la dirección URL:
 
-## Implement visitor tracking between an app and mobile web {#section_EDC91D6C67AD43999227707C2769C65D}
+## Implementar Seguimiento de visitantes entre una aplicación y la web móvil {#section_EDC91D6C67AD43999227707C2769C65D}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Para adjuntar información de visitante a la URL que se está utilizando para abrir el visor web, llame a `visitorAppendToURL`:
 
    ```objective-c
@@ -60,9 +60,9 @@ Este código de servicio de ID en el dominio de destino extrae el MID de la URL,
 
 Al producirse visitas en el contenido de la web móvil, compruebe en cada visita si el parámetro `mid` está presente y que su valor coincida con el del parámetro `mid` enviado por el código de la aplicación.
 
-## Solucionar problemas de seguimiento de visitantes {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
+## Solución de problemas de seguimiento de visitantes {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
 
-### I do not see `[ADBMobile visitorAppendToURL:]`.
+### No veo `[ADBMobile visitorAppendToURL:]`.
 
 Compruebe que el SDK de Adobe empaquetado en la aplicación principal es la versión 4.12.0 o superior.
 
@@ -84,7 +84,7 @@ Compruebe lo siguiente:
 
    La cadena URL contiene parámetros de Adobe.
 
-   The string should contain `adobe_mc="SAMPLE_ID_DATA"` where `"SAMPLE_ID_DATA"` contains the IDs that are generated in the Adobe Mobile SDK.
+   La cadena debería contener `adobe_mc="SAMPLE_ID_DATA"`, donde `"SAMPLE_ID_DATA"` contiene los ID generados en el SDK de Adobe Mobile.
 
 * La versión de `VisitorAPI.js` es 1.7.0 o superior.
 
