@@ -1,13 +1,13 @@
 ---
 description: El agrupamiento de visitas permite que las aplicaciones retengan el envío de las visitas hasta que el número de visitas en la cola haya superado el límite configurado.
-keywords: android;biblioteca;móvil;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: El agrupamiento de visitas permite que las aplicaciones retengan el envío de las visitas hasta que el número de visitas en la cola haya superado el límite configurado.
 seo-title: Agrupamiento de visitas
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Agrupamiento de visitas
 topic: Desarrollador e implementación
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
@@ -21,7 +21,7 @@ El agrupamiento de visitas permite que las aplicaciones retengan el envío de la
 >
 >Para utilizar el agrupamiento de visitas, **debe** habilitar el seguimiento sin conexión y tener la versión 4.1 o posterior del SDK
 
-To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
+Para habilitar el agrupamiento de visitas, actualice el archivo `ADBMobileConfig.json` y especifique un valor para `batchLimit`:
 
 ```js
 "analytics": {
@@ -30,7 +30,7 @@ To enable hit batching, update your `ADBMobileConfig.json` file and specify a va
 }
 ```
 
-When the value is set to a number greater than 0, the SDK queues the number of hits equal to the *`batchLimit`* value. Una vez que se supera este umbral, se envían todas las visitas en la cola.
+Si el valor se establece en un número mayor que 0, el SDK pondrá en cola un número de visitas igual al valor *`batchLimit`*. Una vez que se supera este umbral, se envían todas las visitas en la cola.
 
 Con el agrupamiento de visitas se emplean los siguientes métodos:
 
