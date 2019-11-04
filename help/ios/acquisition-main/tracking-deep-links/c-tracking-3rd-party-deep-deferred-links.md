@@ -4,34 +4,34 @@ seo-description: Utilice el SDK para iOS para implementar el seguimiento de vín
 seo-title: Seguimiento de vínculos profundos diferidos de terceros
 title: Seguimiento de vínculos profundos diferidos de terceros
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
 
 ---
 
 
-# Tracking third-party deferred deep links {#tracking-third-party-deferred-deep-links}
+# Seguimiento de vínculos profundos diferidos de terceros {#tracking-third-party-deferred-deep-links}
 
 Utilice el SDK para iOS para implementar el seguimiento de vínculos profundos diferidos de terceros.
 
-## Classic Adobe Mobile SDK deep linking {#section_D114FA1EB9664EAA82E036A990694B26}
+## Vinculación profunda del SDK de Adobe Mobile clásico {#section_D114FA1EB9664EAA82E036A990694B26}
 
-The Adobe Mobile SDK currently supports deep linking where the app developer is expected to call the `trackAdobeDeepLink` API and pass the deep linking URL, which is the fingerprinter URL that is generated in Adobe Mobile Services during configuration. El SDK envía un ping a la plataforma de huellas digitales para obtener datos de adquisición y los adjunta como parte del ciclo vital a los datos de contexto de las llamadas de instalación e inicio de Analytics. Además, el SDK también anexa los datos de vinculación profunda de los parámetros de URL de vinculación profunda. Para obtener más información al respecto, consulte [Seguimiento de vínculos profundos](/help/ios/acquisition-main/tracking-deep-links/tracking-deep-links.md).
+En la actualidad, Adobe Mobile SDK admite la vinculación profunda: se espera que el desarrollador de la aplicación realice una llamada a la API `trackAdobeDeepLink` y pase la URL de vinculación profunda (URL de plataforma de huellas digitales generada en Adobe Mobile Services durante la confirmación). El SDK envía un ping a la plataforma de huellas digitales para obtener datos de adquisición y los adjunta como parte del ciclo vital a los datos de contexto de las llamadas de instalación e inicio de Analytics. Además, el SDK también adjunta los datos de vinculación profunda procedentes de los parámetros de URL de vinculación profunda. Para obtener más información al respecto, consulte [Seguimiento de vínculos profundos](/help/ios/acquisition-main/tracking-deep-links/tracking-deep-links.md).
 
-## Facebook deep linking {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
+## Vinculación profunda con Facebook {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
 Un creador de anuncios puede crear un anuncio en Facebook como vínculo profundo. Cuando los usuarios hacen clic en el anuncio que aparece en Facebook, este lleva directamente a la información que les interesa en la aplicación. El vínculo profundo **no** es una URL de plataforma de huellas digitales. No obstante, durante la configuración del anuncio existe la opción de proporcionar un vínculo profundo (URL) de terceros. Un desarrollador de aplicaciones que utilice los SDK y servicios de Experience Cloud debe introducir en este campo la URL de la plataforma de huellas digitales configurada para Mobile Services. Si todo está configurado correctamente, el SDK de Facebook pasa esta URL a la aplicación cuando esta se instala o inicia.
 
-## Configuración de los SDK  {#section_834CD3109175432B8173ECB6EA7DE315}
+## Configuración de los SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
 1. Configurar el SDK de Facebook.
 
-   Para obtener más información, consulte:
+   Para obtener más información, consulte lo siguiente:
 
    * [Introducción al SDK de Facebook para iOS](https://developers.facebook.com/docs/ios/getting-started)
    * [Configuración de la vinculación profunda](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
-1. To set up the SDK, call  and pass the URL to the SDKs:`trackAdobeDeepLink`
+1. Para configurar el SDK, llame a `trackAdobeDeepLink` y pase la URL a los SDK:
 
    ```objective-c
    - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation 
@@ -43,11 +43,11 @@ Un creador de anuncios puede crear un anuncio en Facebook como vínculo profundo
 
    >[!TIP]
    >
-   >Ensure that the deep link URL has a key with the name `a.deeplink.id`. No se adjuntará ningún parámetro de URL a los datos de contexto si en la URL falta el parámetro `a.deeplink.id`.
+   >Compruebe que la URL de vínculo profundo tenga una clave con el nombre `a.deeplink.id`. No se adjuntará ningún parámetro de URL a los datos de contexto si en la URL falta el parámetro `a.deeplink.id`.
 
 Si la aplicación se configura como se ha indicado arriba, la versión actual del AMSDK funcionará bien y adjuntará correctamente los datos de vinculación profunda a las llamadas de instalación e inicio de Analytics.
 
-## Enable the feature in a sample application {#section_64C15E269E89424B8E3D029F88094620}
+## Habilitar la funcionalidad en una aplicación de ejemplo {#section_64C15E269E89424B8E3D029F88094620}
 
 1. Registre un esquema de dirección URL.
 
@@ -129,7 +129,7 @@ Si la aplicación se configura como se ha indicado arriba, la versión actual de
       }
       ```
 
-   1. Call the `trackAdobeDeepLink` API and pass the deep link URL to the SDK.
+   1. Llame a la API de `trackAdobeDeepLink` y pase la URL del vínculo profundo a los SDK.
 
       ```objective-c
       - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options { 
