@@ -2,18 +2,18 @@
 description: El informe Información general proporciona una instantánea de las métricas clave.
 keywords: móvil
 seo-description: El informe Información general proporciona una instantánea de las métricas clave.
-seo-title: Informe Información general
-solution: Marketing Cloud,Analytics
-title: Informe Información general
+seo-title: Informe de información general
+solution: Experience Cloud,Analytics
+title: Informe de información general
 topic: Informes, métricas
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Informe Información general{#overview}
+# Informe de información general{#overview}
 
 El informe Información general proporciona una instantánea de las métricas clave.
 
@@ -21,7 +21,7 @@ A continuación, puede ver un ejemplo de este informe:
 
 ![](assets/report_usage_overview.png)
 
-Puede cambiar el intervalo de fechas del informe haciendo clic en el icono del calendario en la esquina superior derecha. También puede crear un filtro adhesivo que abarque distintos informes para ver el rendimiento de un segmento en todos los informes móviles. Para obtener más información sobre la creación de un filtro adhesivo, consulte [Agregar filtro](/help/using/usage/reports-customize/t-sticky-filter.md)adhesivo.
+Puede cambiar el intervalo de fechas del informe haciendo clic en el icono del calendario en la esquina superior derecha. También puede crear un filtro adhesivo que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles. Para obtener más información sobre la creación de un filtro adhesivo, consulte [Agregar un filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 >[!TIP]
 >
