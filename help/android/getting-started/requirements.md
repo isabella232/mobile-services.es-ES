@@ -2,21 +2,21 @@
 description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
 seo-description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
 seo-title: Antes de comenzar
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Antes de comenzar
 topic: Desarrollador e implementación
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Before you start {#before-you-start}
+# Antes de comenzar {#before-you-start}
 
 Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias:
 
-## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## Tareas específicas de funciones {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 Los administradores de Analytics y los desarrolladores de aplicaciones deben completar las siguientes tareas:
 
@@ -50,11 +50,11 @@ Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una 
 
 ### Experience Cloud
 
-Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)de Experience Cloud.
+Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
->Si no está seguro de si su empresa ha sido aprovisionada en Experience Cloud, utilice su cuenta de Adobe Analytics existente.
+>Si no está seguro de si su empresa está aprovisionada en Experience Cloud, utilice su cuenta existente de Adobe Analytics.
 
 ### Adobe Analytics
 
@@ -66,15 +66,15 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 1. Haga clic en **[!UICONTROL Crear una aplicación nueva]**.
 
-   If you do not see this button, click **[!UICONTROL Manage Apps]** &gt; **[!UICONTROL Add]**.
+   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** &gt; **[!UICONTROL Agregar]**.
 
 1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
 
 1. Introduzca el nombre de su aplicación y seleccione un tipo de grupo de informes.
 
    Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Es necesario que establezca grupos de informes y aplicaciones separados para las versiones de desarrollo y de producción, de modo que pueda repetir estos pasos cuando esté preparado para configurar la versión de producción.
-1. In **[!UICONTROL Report Suite ID]**, verify that your report suite name is displayed.
-1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción **Plantilla de aplicación móvil]esté seleccionada.[!UICONTROL **
+1. En **[!UICONTROL ID del grupo de informes]**, compruebe que se muestra el nombre del grupo de informes.
+1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción **[!UICONTROL Plantilla de aplicación móvil]** esté seleccionada.
 
    Esta plantilla permite que las marcas de fecha y hora recopilen datos sin conexión y activar las variables de soluciones móviles para capturar métricas del ciclo vital.
 
@@ -86,18 +86,18 @@ Para descargar el SDK de Mobile:
 
 1. Inicie sesión en la interfaz de usuario de Mobile Services y abra su aplicación de una de las formas siguientes:
 
-   * En la lista desplegable **[!UICONTROL Todas las aplicaciones], seleccione su aplicación.**
+   * En la lista desplegable **[!UICONTROL Todas las aplicaciones]**, seleccione su aplicación.
    * En el panel derecho, busque su aplicación y ábrala.
 
 1. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
-1. Desplácese a la sección **[!UICONTROL Descargas del SDK de la aplicación].**
+1. Desplácese a la sección **[!UICONTROL Descargas del SDK de la aplicación**].
 1. Descargue el SDK y la aplicación de ejemplo para su plataforma.
 
 >[!TIP]
 >
->La descarga del SDK incluye automáticamente un archivo de configuración para la aplicación, por lo que no es necesario descargarlo por separado. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
+>La descarga del SDK incluye automáticamente un archivo de configuración para su aplicación, por lo que no es necesario que descargue ese archivo separadamente. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
 
-If you are using Android Studio, you can also add the following to your app's `build.gradle` file:
+Si utiliza Android Studio, también puede añadir lo siguiente al archivo `build.gradle` de su aplicación:
 
 ```java
 compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
