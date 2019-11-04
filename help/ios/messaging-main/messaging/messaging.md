@@ -2,11 +2,11 @@
 description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
 seo-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
 seo-title: Mensajería en la aplicación
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Mensajería en la aplicación
 topic: Desarrollador e implementación
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
@@ -25,13 +25,13 @@ Información que debe recordar:
 
    >[!TIP]
    >
-   >Puede completar estos pasos aunque no tenga ningún mensaje definido. Después de definir los mensajes, se envían de forma dinámica a la aplicación y se muestran sin actualizar la tienda de aplicaciones.
+   >Puede completar estos pasos aunque aún no haya definido ningún mensaje. Tras definir los mensajes, se envian de forma dinámica a su aplicación y se mostrarán sin necesidad de actualizar la aplicación en la tienda de aplicaciones.
 
-## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
+## Activación de la mensajería en la aplicación {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/requirements.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/requirements.md).
 
 1. Importe la biblioteca:
 
@@ -39,7 +39,7 @@ Información que debe recordar:
    #import "ADBMobile.h"
    ```
 
-1. Verify that the `ADBMobileConfig.json` file contains the required settings for In-App messaging.
+1. Compruebe que el archivo `ADBMobileConfig.json` contiene la configuración necesaria para la mensajería en la aplicación.
 1. Para que los mensajes en la aplicación se actualicen de forma dinámica en el inicio, el objeto `remotes` debe estar presente y adecuadamente configurado:
 
    ```js
@@ -69,22 +69,22 @@ Información que debe recordar:
    >
    >`messages` o `remotes` es obligatorio.
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obtener más información, consulte Implementación [principal y ciclo vital](/help/ios/getting-started/requirements.md).
+   Si estos objetos no están configurados, descargue un archivo `ADBMobileConfig.json` actualizado desde Adobe Mobile Services. Para obtener más información, consulte [Implementación principal y ciclo vital](/help/ios/getting-started/requirements.md).
 
-## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
+## Seguimiento de mensajes dentro de la aplicación {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
 El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes métricas para sus mensajes dentro de la aplicación:
 
 * Para los mensajes dentro de la aplicación en pantalla completa y de estilo de alerta:
 
-   * **[!UICONTROL Impresiones]**: cuando el usuario activa un mensaje en la aplicación.
-   * **[!UICONTROL Pulsaciones]**: cuando el usuario pulsa el botón de **[!UICONTROL pulsación]** .
-   * **[!UICONTROL Cancela]**: cuando el usuario pulsa el botón **[!UICONTROL Cancelar]** .
+   * **[!UICONTROL Impresiones]**: cuando el usuario activa un mensaje dentro de la aplicación.
+   * **[!UICONTROL Pulsaciones]**: cuando el usuario presiona el botón **[!UICONTROL Pulsación]**.
+   * **[!UICONTROL Cancelaciones]**: cuando el usuario presiona el botón **[!UICONTROL Cancelar]**.
 
 * Para los mensajes personalizados en pantalla completa, el contenido HTML del mensaje debe incluir el código adecuado para notificar al sistema de seguimiento del SDK el uso de los botones siguientes:
 
    * **[!UICONTROL Seguimiento de ejemplo de pulsaciones]** (redirecciones): `adbinapp://confirm/?url=https://www.yoursite.com`
-   * **[!UICONTROL Cancelar]** (cerrar) seguimiento de ejemplo: `adbinapp://cancel`
+   * **[!UICONTROL Ejemplo de seguimiento de Cancelación]** (cierre): `adbinapp://cancel`
 
 * Para notificaciones locales (remotas):
 
@@ -105,7 +105,7 @@ El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes mét
    }
    ```
 
-## Local fallback image {#section_DEACC1CE549B4573B556A44A52409941}
+## Imagen de reserva local {#section_DEACC1CE549B4573B556A44A52409941}
 
 Al crear un mensaje de pantalla completa en Adobe Mobile Services, tiene la opción de especificar una imagen de reserva. Si su mensaje no es capaz de recuperar su imagen pretendida desde la web, el SDK intenta cargar la imagen con el mismo nombre desde el paquete de la aplicación. Esto le permite mostrar el mensaje en su forma original, aunque el usuario esté sin conexión o la imagen predeterminada no esté disponible.
 
@@ -113,5 +113,5 @@ El nombre de recurso de la imagen de reserva se especifica al configurar el mens
 
 >[!IMPORTANT]
 >
->Debe asegurarse de que el recurso especificado está disponible.
+>Debe comprobar que el recurso especificado está disponible.
 
