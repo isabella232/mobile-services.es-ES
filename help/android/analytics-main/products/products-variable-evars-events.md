@@ -1,21 +1,21 @@
 ---
-description: Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-keywords: android;biblioteca;móvil;sdk
-seo-description: Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-seo-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
-solution: Marketing Cloud,Analytics
-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
+description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+keywords: android, biblioteca, mobile, móvil, sdk
+seo-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+seo-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+solution: Experience Cloud,Analytics
+title: Variable products con eVars de comercialización y events (eventos) específicos de productos
 topic: Desarrollador e implementación
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Products variable with merchandising eVars and product-specific events {#products-variable-with-merchandising-evars-and-product-specific-events}
+# Variable products con eVars de comercialización y events (eventos) específicos de productos {#products-variable-with-merchandising-evars-and-product-specific-events}
 
-Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
+Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
 
 ```java
 //create a context data dictionary 
@@ -37,5 +37,5 @@ Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Si activa un evento específico de producto mediante la *`&&products`* variable, también debe configurar ese evento en la *`&&events`* variable. Si no lo hace, el evento queda fuera del filtro durante el procesamiento.
+>Si activa un evento específico de producto mediante la variable *`&&products`*, también debe configurar ese evento en la variable *`&&events`*. Si no lo hace, el evento queda fuera del filtro durante el procesamiento.
 
