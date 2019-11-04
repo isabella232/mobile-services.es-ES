@@ -1,27 +1,27 @@
 ---
 description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Esta información le ayuda a enviar contenido de destino en aplicaciones Android.
-seo-title: Target overview
-solution: Marketing Cloud,Analytics
-title: Target overview
+seo-title: Información general de Target
+solution: Experience Cloud,Analytics
+title: Información general de Target
 topic: Desarrollador e implementación
 uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Target overview {#target}
+# Información general de Target {#target}
 
-The information in this section helps you deliver targeted content in Android applications.
+La información de esta sección le ayuda a distribuir contenido segmentado en aplicaciones Android.
 
-## New Adobe Experience Platform Mobile SDK Release
+## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
-En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
-* To get started, go to Adobe Experience Platform Launch.
+* Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
