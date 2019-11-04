@@ -4,13 +4,13 @@ seo-description: Puede utilizar el SDK de Adobe para recopilar información de i
 seo-title: Postbacks PII
 title: Postbacks PII
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70ac08c74e11a68d94d3f10ed6d7fc133d34149d
 
 ---
 
 
-# PII postbacks {#pii-postbacks}
+# Postbacks PII {#pii-postbacks}
 
 Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII, por sus siglas en inglés) y enviarla a un punto final de terceros.
 
@@ -18,13 +18,13 @@ Cuando quiera utilizar el SDK de Adobe para recopilar PII, debe enviar una llama
 
 >[!TIP]
 >
->Se requiere un punto final que admita HTTPS para utilizar el tipo de postback PII.
+>Se requiere un punto final compatible con HTTPS para utilizar el tipo PII de postback.
 
-## Tracking PII postbacks {#section_36B967B888CF467EACCDEF61DFA0B12B}
+## Seguimiento de postbacks PII {#section_36B967B888CF467EACCDEF61DFA0B12B}
 
-1. Agregue [la biblioteca al proyecto e implemente el ciclo vital.
+1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
