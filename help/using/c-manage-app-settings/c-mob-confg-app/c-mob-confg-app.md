@@ -4,7 +4,7 @@ seo-description: 'En la página Administrar configuración de aplicación, puede
 seo-title: Configurar su aplicación
 title: Configurar su aplicación
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -59,7 +59,7 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
 
    >[!IMPORTANT]
    >
-   >Antes de descargar los SDK y las herramientas, debe configurar las opciones de SDK Analytics. Para obtener más información, consulte [Configuración de las opciones](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)de SDK Analytics.
+   >Antes de descargar los SDK y las herramientas, debe configurar las opciones de SDK Analytics. Para obtener más información, consulte [Configuración de las opciones de SDK Analytics](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
    Cuando esté listo para actualizar a los SDK 4.x, o si está trabajando en una aplicación nueva, descargue los SDK y las herramientas de desarrollo más recientes desde la parte inferior de la página Administrar configuración de aplicación.
 
