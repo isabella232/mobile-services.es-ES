@@ -2,16 +2,16 @@
 description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 seo-description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 seo-title: Seguimiento de vínculos profundos
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de vínculos profundos
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Tracking deep links{#tracking-deep-links}
+# Seguimiento de vínculos profundos{#tracking-deep-links}
 
 Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 
@@ -21,10 +21,10 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
 
 1. Añada el SDK al proyecto e implemente métricas del ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
-1. Register the application to handle Inter-App Communications or support Universal Links.
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+1. Registre la aplicación para gestionar comunicaciones entre aplicaciones o vínculos universales de soporte.
 
-   Para obtener más información, consulte Comunicaciones [entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o Vínculos universales de [compatibilidad](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+   Para obtener más información, consulte [Comunicaciones entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o [Vínculos universales de compatibilidad](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 1. Realice un seguimiento de vínculos profundos en openURL.
 
@@ -48,9 +48,9 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or Universal Link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo vital y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
+El SDK de Adobe Mobile puede analizar pares de datos (claves y valores) que se adjuntan a cualquier vínculo profundo o universal, siempre que el vínculo contenga una clave con la etiqueta `a.deeplink.id` y un valor correspondiente no nulo y generado por el usuario. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo vital y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
 
-También puede anexar una o varias de las siguientes claves reservadas (con valores generados por el usuario) al vínculo profundo o universal:
+Si lo desea, puede adjuntar al vínculo profundo o universal una o más de las siguientes claves reservadas (con valores generados por el usuario):
 
 * `a.launch.campaign.trackingcode`
 * `a.launch.campaign.source`
@@ -79,7 +79,7 @@ Estas claves son variables preasignadas para la realización de informes en Adob
    }];
    ```
 
-## Deep link public information {#section_44600E9AA68D4A53AA0C14BD86CC5284}
+## Información pública de vinculación profunda {#section_44600E9AA68D4A53AA0C14BD86CC5284}
 
 ### Métodos
 
