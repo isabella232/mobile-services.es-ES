@@ -1,28 +1,28 @@
 ---
 description: Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hitos de vídeo.
 seo-description: Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hitos de vídeo.
-seo-title: 'Video Analytics '
-solution: Marketing Cloud,Analytics
-title: 'Video Analytics '
+seo-title: Video Analytics
+solution: Experience Cloud,Analytics
+title: Video Analytics
 topic: Desarrollador e implementación
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# Video Analytics  {#video-analytics}
+# Video Analytics {#video-analytics}
 
 Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hitos de vídeo.
 
 >[!TIP]
 >
->Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+>Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
 En general, el proceso para medir vídeos es muy similar en todas las plataformas. Este contenido ofrece una visión general básica de las tareas del desarrollador, con ejemplos de código.
 
-## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## Asignación de eventos del reproductor a las variables de Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
 La siguiente tabla indica los datos multimedia que se envían a Analytics. Utilice reglas de procesamiento para asignar los datos de contexto a una variable de Analytics.
 
@@ -38,14 +38,14 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.name**
 
-   (Opcional) Proporciona información de rutas de vídeo. El servicio de atención al cliente debe habilitar las rutas para esta variable.
+   (Opcional) Proporciona información sobre la ruta del vídeo. El servicio de atención al cliente debe habilitar las rutas para esta variable.
 
-   * Tipo de variable: Perspectiva personalizada (s.prop)
+   * Tipo de variable: Custom Insight (s.prop)
    * Tipo de evento: Insight personalizada (s.prop)
 
 * **a.media.segment**
 
-   (Obligatoria) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar.
+   (Obligatoria) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst podría recopilar lo siguiente en la eVar de Segments `1:M:0-25`.
 
    El método personalizado de recopilación de datos de vídeo obtiene datos en los siguientes puntos:
 
@@ -60,7 +60,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.contentType**
 
-   Recopila datos sobre el tipo de contenido que un visitante ve. Hits sent by video measurement are assigned a content type of `video`. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otro tipo de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
+   Recopila datos sobre el tipo de contenido que un visitante ve. Se asigna un tipo de contenido `video` a las visitas enviadas por la medición de vídeo. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otro tipo de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
@@ -69,31 +69,31 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    Cuenta el tiempo, en segundos, transcurrido en ver un vídeo desde el último proceso de recopilación de datos (solicitud de imagen).
 
-   * Tipo de variable: Evento
+   * Tipo de variable: Event
    * Tipo: contador
 
 * **a.media.view**
 
    Indica que un visitante ha visto alguna parte de un vídeo. Sin embargo, no proporciona información sobre qué parte del vídeo ha visualizado el visitante ni sobre cuánto tiempo lo ha visualizado.
 
-   * Tipo de variable: Evento
+   * Tipo de variable: Event
    * Tipo: contador
 
 * **a.media.segmentView**
 
    Indica que un visitante ha visto alguna parte de un segmento de vídeo. Sin embargo, no proporciona información sobre qué parte del vídeo ha visualizado el visitante ni sobre cuánto tiempo lo ha visualizado.
 
-   * Tipo de variable: Evento
+   * Tipo de variable: Event
    * Tipo: contador
 
 * **a.media.complete**
 
    Indica que un usuario ha visto un vídeo completo. De forma predeterminada, el evento completo se mide 1 segundo antes del final del vídeo. Durante la implementación, puede especificar cuántos segundos desde el final de vídeo quisiera considerar como una vista completa. Para vídeo en directo y otras transmisiones sin un fin definido, puede especificar un punto personalizado para medir las visualizaciones completas; por ejemplo, después de un tiempo de visualización especificado.
 
-   * Tipo de variable: Evento
+   * Tipo de variable: Event
    * Tipo: contador
 
-## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## Configuración de medios {#section_929945D4183C428AAF3B983EFD3E2500}
 
 Configure un objeto `ADBMediaSettings` con los ajustes que quiera usar para realizar seguimiento de vídeo:
 
@@ -120,9 +120,9 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 // event handlers described in the next section
 ```
 
-## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## Seguimiento de eventos del reproductor {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
-To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. Por ejemplo, cuando el reproductor se pone en pausa se emplea `mediaStop`. `mediaPlay` se utiliza cuando la reproducción comienza o se reanuda.
+Para medir la reproducción de vídeo, es preciso realizar llamadas a los métodos `mediaPlay`, `mediaStop`, y `mediaClose` en los momentos apropiados. Por ejemplo, cuando el reproductor se pone en pausa se emplea `mediaStop`. `mediaPlay` se utiliza cuando la reproducción comienza o se reanuda.
 
 El siguiente ejemplo demuestra el uso de notificaciones de configuración y llamadas a métodos de medios para medir vídeos:
 
@@ -220,7 +220,7 @@ NSUInteger segmentNum
 NSUInteger eventType
 ```
 
-## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## Referencia de clases y métodos de medición de medios {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **mediaCreateSettings&#x200B;WithName:&#x200B;length:&#x200B;playerName:&#x200B;playerID:**
 
