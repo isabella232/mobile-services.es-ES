@@ -2,21 +2,21 @@
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-title: Configuración JSON de ADBMobile
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Desarrollador e implementación
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config {#adbmobile-json-config}
+# Configuración JSON de ADBMobile {#adbmobile-json-config}
 
 Esta información le ayuda a utilizar el archivo de configuración `ADBMobile.json`.
 
-## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## Referencia del archivo de configuración ADBMobileConfig.json {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 El mismo archivo de configuración puede utilizarse para su aplicación en varias plataformas:
 
@@ -31,12 +31,12 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    Si falta esta sección, habilite la adquisición de aplicación móvil y descargue de nuevo el archivo de configuración del SDK. Para obtener más información, consulte *referrerTimeout*, más adelante.
 
    * `server`: servidor de adquisición que se comprueba durante el primer inicio para buscar un referente de adquisición.
-   * `appid` : ID generado que identifica de forma exclusiva esta aplicación en el servidor de adquisición.
+   * `appid`: ID generado que identifica de forma exclusiva esta aplicación en el servidor de adquisición.
    * Versión mínima del SDK: 4.1
 
 * **analyticsForwardingEnabled**
 
-   La propiedad en el objeto `audienceManager`. If `Audience Manager` is configured and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager. El valor predeterminado es `false`.
+   La propiedad en el objeto `audienceManager`. Si `Audience Manager` está configurado y `analyticsForwardingEnabled` está establecido en `true`, todo el tráfico de Analytics se reenvía también a Audience Manager. El valor predeterminado es `false`.
 
    * Versión mínima del SDK: 4.8.0
 
@@ -57,20 +57,20 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Versión mínima del SDK: 4.6
    >[!IMPORTANT]
    >
-   >La información de visitas de sesión con fecha anterior se envía en una llamada al servidor de información de sesión y se pueden aplicar llamadas al servidor adicionales.
+   >La información antedatada de visitas de sesión se envía en una llamada al servidor de información de sesión; podrían aplicarse llamadas de servidor adicionales.
 
 
 * **batchLimit**
 
    Umbral del número de visitas que se envían en llamadas consecutivas. Por ejemplo, si `batchLimit` se establece en 10, las visitas anteriores a la décima se almacenarán en la cola. Cuando llega la décima, las 10 visitas se envían de forma consecutiva.
 
-   * Default value is `0`, which means that batching is not enabled.
+   * El valor predeterminado es `0`, lo que significa que no se permite el agrupamiento.
    * Requiere `offlineEnabled = true`.
    * Versión mínima del SDK: 4.1
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://marketing.adobe.com/resources/help/es_ES/sc/implement/charset.html).
 
    * Versión mínima del SDK: 4.0
 
@@ -80,7 +80,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    >[!IMPORTANT]
    >
-   >This variable is required by Target.
+   >Target requiere esta variable.
 
    * Versión mínima del SDK: 4.0
 
@@ -90,12 +90,12 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Recuerde la información siguiente:
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
+   * Cuando `coopUnsafe` está establecido en `true`, `coop_unsafe=1` se añadirá siempre a las coincidencias de Audience Manager y Visitor ID.
    * Si activa el reenvío del lado del servidor de Analytics a Audience Manager, también verá `coop_unsafe=1` en las coincidencias de Analytics.
    Alguna información adicional:
 
    * Versión mínima del SDK: 4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
+   * La propiedad booleana del objeto de `marketingCloud` que, cuando se establece en `true`, hará que el dispositivo sea excluido de la Device Co-Op de Experience Cloud.
    * El valor predeterminado es `false`.
    * Este ajuste **solo** se utiliza para clientes proporcionados por Device Co-op.
 
@@ -125,10 +125,10 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Cuando está activado, las visitas se ponen en cola mientras el dispositivo está sin conexión y se envían más tarde, cuando el dispositivo se conecta. El grupo de informes debe tener habilitada la marca de fecha y hora para poder utilizar el seguimiento sin conexión. El valor predeterminado es `false`.
 
-   A continuación se presenta información importante:
+   Información importante:
 
    * Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` *debe* ser verdadera.
-   * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
+   * Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false.
 
       Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, póngase en contacto con el servicio de atención al cliente o descargue el archivo de configuración desde Adobe Mobile Services. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
@@ -136,7 +136,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **org**
 
-   Especifica el ID de organización de Experience Cloud para el servicio de identidad de la plataforma de Adobe Experience Cloud.
+   Especifica el ID de organización de Experience Cloud para el servicio de ID de Adobe Experience Platform.
 
    * Versión mínima del SDK: 4.3
 
@@ -160,7 +160,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de iniciar](/help/ios/getting-started/requirements.md).
+   Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de comenzar](/help/ios/getting-started/requirements.md).
 
 * **postback**
 
@@ -174,7 +174,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
        "timeout": 0 //optional-number of seconds to wait before timingout.Defaultis2.}
    ```
 
-   The `payload` object in the code is an example payload for a message definition that would go in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   El objeto `payload` del código es una carga útil de ejemplo para una definición de mensaje que irían en el archivo `ADBMobileConfig.json`. Para obtener más información, consulte [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
    * Versión mínima del SDK: 4.6
 
@@ -196,7 +196,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    >[!IMPORTANT]
    >
-   >La adquisición requiere esta variable. If the variable is set to `0`, or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.
+   >La adquisición requiere esta variable. Si la variable se establece en `0` o no se incluye, el SDK no espera datos de adquisición y no se realiza un seguimiento de las métricas de adquisición.
 
    * Versión mínima del SDK: 4.1
 
@@ -230,15 +230,15 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **server**
 
-   El servidor de Analytics o Gestión de público, basado en el nodo principal.
+   El servidor de Analytics o Audience Manager, basado en el nodo principal.
 
-   This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. Este prefijo lo gestiona automáticamente la biblioteca y se basa en la variable `ssl`.
+   Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. Este prefijo lo gestiona automáticamente la biblioteca y se basa en la variable `ssl`.
 
    Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
 
    >[!IMPORTANT]
    >
-   >Analytics y/o Gestión de público requieren esta variable.
+   >Analytics o Audience Management requieren esta variable.
 
    * Versión mínima del SDK: 4.0
 
@@ -256,7 +256,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
        "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
    ```
 
-   The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   El objeto `payload` del código es una carga útil de ejemplo para una definición de mensaje que se incluye en el archivo `ADBMobileConfig.json`. Para obtener más información, consulte [Postbacks](/help/ios/analytics-main/postback/postback.md).
 
    * Versión mínima del SDK: 4.0
 
@@ -267,7 +267,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Versión mínima del SDK: 4.0
 
 
-## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Archivo de muestra `ADBMobileConfig.json` {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 
