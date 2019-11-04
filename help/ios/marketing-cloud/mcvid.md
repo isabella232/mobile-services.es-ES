@@ -1,12 +1,12 @@
 ---
-description: The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
-seo-description: The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
+description: El servicio de ID de ID de Adobe Experience Platform proporciona un ID de visitante universal para las distintas soluciones de Experience Cloud. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
+seo-description: El servicio de ID de ID de Adobe Experience Platform proporciona un ID de visitante universal para las distintas soluciones de Experience Cloud. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
 seo-title: Experience Cloud ID
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Experience Cloud ID
 topic: Desarrollador e implementación
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
@@ -14,26 +14,26 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Experience Cloud ID {#experience-cloud-id}
 
-The Adobe Experience Platform Identity Service provides a universal visitor ID across Experience Cloud solutions. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
+El servicio de ID de ID de Adobe Experience Platform proporciona un ID de visitante universal para las distintas soluciones de Experience Cloud. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
 
 >[!TIP]
 >
->You do not need to populate the Experience Cloud ID unless you are using the Adobe Experience Platform Identity Service. For more information, see [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>No es necesario rellenar el Experience Cloud ID, salvo en el caso de que esté utilizando el servicio de ID de Adobe Experience Platform. Para obtener más información, consulte [Servicio de ID de Adobe Experience Platform](https://marketing.adobe.com/resources/help/es_ES/mcvid/).
 
 **Requiere el SDK versión 4.3 o posterior**
 
-## Habilitar el ID de Experience Cloud {#section_79F984271C3B4366B7B04F864F4FF8C2}
+## Habilitar el Experience Cloud ID {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
    #import "ADBMobile.h"
    ```
 
-1. Compruebe que los `ADBMobileConfig.json` archivos contengan la `marketingCloud` variable `org`:
+1. Compruebe que los archivos `ADBMobileConfig.json` contienen el `marketingCloud` `org`:
 
    ```js
    "marketingCloud" : { 
@@ -47,6 +47,6 @@ The Adobe Experience Platform Identity Service provides a universal visitor ID a
    >
    >Debe incluir `@AdobeOrg`.
 
-   If these values are not present, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. Para obtener más información, consulte Configuración [JSON de ADBMobile](/help/ios/getting-started/requirements.md).
+   Si estos valores no están presentes, descargue un archivo `ADBMobileConfig.json` actualizado desde Adobe Mobile Services. Para obtener más información, consulte [Configuración JSON de ADBMobile](/help/ios/getting-started/requirements.md).
 
 Tras completar la configuración, se genera un Experience Cloud ID que se incluye en todas las visitas. Otros ID de visitante, como los ID personalizados y los generados automáticamente, se siguen enviando con cada visita.
