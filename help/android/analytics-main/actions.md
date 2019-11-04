@@ -2,11 +2,11 @@
 description: Las acciones son los eventos que tienen lugar en su aplicación de Android y que desea medir.
 seo-description: Las acciones son los eventos que tienen lugar en su aplicación de Android y que desea medir.
 seo-title: Seguimiento de acciones de aplicaciones
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de acciones de aplicaciones
 topic: Desarrollador e implementación
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -18,11 +18,11 @@ Las acciones son los eventos que tienen lugar en su aplicación de Android y que
 
 Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, podría enviar una llamada a `trackAction` por cada nueva suscripción, cada vez que se vea un artículo o cada vez que se complete un nivel. El seguimiento de acciones no es automático, por lo que debe llamar a `trackAction` cuando tenga lugar un evento cuyo seguimiento desee realizar y, a continuación, asignar la acción a un evento personalizado.
 
-## Tracking actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## Seguimiento de acciones {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
@@ -37,7 +37,7 @@ Cada acción tiene una o más métricas correspondientes que se incrementan cada
    ```
 
 1. En la interfaz de usuario de Adobe Mobile Services, seleccione su aplicación y haga clic en **[!UICONTROL Administrar configuración de la aplicación]**.
-1. Haga clic en **[!UICONTROL Administrar variables y métricas]** y, después, haga clic en la pestaña **Métricas personalizadas[!UICONTROL .]**
+1. Haga clic en **[!UICONTROL Administrar variables y métricas]** y, después, haga clic en la pestaña **[!UICONTROL Métricas personalizadas]**.
 
 1. Asigne el nombre de datos de contexto definido en su código, por ejemplo, `myapp.ActionName`, a un evento personalizado.
 
@@ -47,7 +47,7 @@ También puede establecer una propiedad que contenga todos los valores de acció
 
 ![](assets/map-custom-prop.png)
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además del nombre de acción, puede enviar datos de contexto adicionales con cada llamada de seguimiento de acción:
 
@@ -61,11 +61,10 @@ El valor de los datos de contexto debe asignarse a variables personalizadas de A
 
 ![](assets/map-variable-context-action.png)
 
-## Action reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## Informes de acción {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 | Interfaz | Informe |
 |--- |--- |
-| Adobe Mobile Services  | **** Informe de rutas de acción.  Vea el orden en el que ocurren las acciones en su aplicación. También puede hacer clic en **[!UICONTROL Personalizar]en cualquier informe para ver las acciones clasificadas, organizadas por tendencias o en un informe desglosado. O puede aplicar un filtro para ver acciones de un segmento específico.** |
-| Informes y análisis de marketing | **[!UICONTROL Informe Evento personalizado.]**  Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
-| Análisis específico | **[!UICONTROL Informe Evento personalizado.]**  Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
-
+| Adobe Mobile Services | **** Informe de rutas de acción.  Vea el orden en el que ocurren las acciones en su aplicación. También puede hacer clic en **[!UICONTROL Personalizar]** en cualquier informe para ver las acciones clasificadas, organizadas por tendencias o en un informe desglosado. O puede aplicar un filtro para ver acciones de un segmento específico. |
+| Informes y análisis de marketing | **[!UICONTROL Informe Evento personalizado]**. Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
+| Análisis específico | **[!UICONTROL Informe Evento personalizado]**. Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
