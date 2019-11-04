@@ -2,21 +2,21 @@
 description: Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
 seo-description: Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
 seo-title: Antes de comenzar
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Antes de comenzar
 topic: Desarrollador e implementación
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Before you start {#before-you-start}
+# Antes de comenzar {#before-you-start}
 
 Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
 
-## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## Tareas específicas de funciones {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 Los administradores de Analytics y los desarrolladores de aplicaciones deben completar las siguientes tareas:
 
@@ -35,10 +35,10 @@ Ahora, los desarrolladores de aplicaciones tienen acceso para ver los grupos de 
 
 ### Desarrolladores de aplicaciones
 
-1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* section above.
+1. Compruebe que su administrador de Analytics haya completado los pasos de la sección *Administradores de Analytics* en la sección anterior.
 
-1. Verify that your Analytics administrator has completed one of the sections in the *Log in to the Adobe Mobile Services UI* below.
-1. After the report suite has been configured, complete steps in the *Download the SDK* section below.
+1. Verifique que su administrador de Analytics haya completado una de las secciones de *Inicio de sesión en la interfaz de usuario de Adobe Mobile Services*.
+1. Cuando se haya configurado el grupo de informes, complete los pasos de la sección *Descargar el SDK*.
 
 Para obtener más información sobre los roles y los permisos, consulte [Roles y permisos](/help/using/gs/c-mob-roles-and-permissions.md).
 
@@ -52,11 +52,11 @@ Puede iniciar sesión en Adobe Mobile Services de una de las siguientes formas:
 
    Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID.
 
-   This method assumes that your company has been provisioned and you have linked your Analytics account. Para obtener más información sobre el aprovisionamiento, consulte [Administrar usuarios y productos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)de Experience Cloud. Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones y vinculación](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de cuentas.
+   Este método supone que su empresa ha sido aprovisionada y que ha vinculado su cuenta de Analytics. Para obtener más información sobre el aprovisionamiento, consulte [Administrar usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones y vinculación de cuentas](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html).
 
    >[!TIP]
    >
-   >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
+   >Si no está seguro de si su empresa está aprovisionada en Experience Cloud, utilice su cuenta existente de Adobe Analytics.
 
 * **Adobe Analytics**
 
@@ -68,34 +68,34 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 1. Haga clic en **[!UICONTROL Crear una aplicación nueva]**.
 
-   If you do not see this button, click **[!UICONTROL Manage Apps]** &gt; **[!UICONTROL Add]**.
+   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** &gt; **[!UICONTROL Agregar]**.
 
 1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
 
 1. Introduzca el nombre de su aplicación y seleccione un ID de grupo de informes exclusivo.
 
    Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Debe configurar grupos de informes y aplicaciones independientes para las versiones de desarrollo y producción. Cuando esté listo para configurar la versión de producción, repita estos pasos.
-1. Deje seleccionado **[!UICONTROL Plantilla de aplicación móvil].**
+1. Deje seleccionado **[!UICONTROL Plantilla de aplicación móvil]**.
 
    Esta plantilla permite que las marcas de fecha y hora recopilen datos sin conexión y activar las variables de soluciones móviles para capturar métricas del ciclo vital.
 
-1. Select your **[!UICONTROL Timezone]**, your **[!UICONTROL Currency]**, and click **[!UICONTROL Save]**.
+1. Seleccione su **[!UICONTROL Zona horaria]** y su **[!UICONTROL Moneda]** y haga clic en **[!UICONTROL Guardar]**.
 
 ## Descargar el SDK {#section_044C17DF82BC4FD8A3E409C456CE9A46}
 
 Para descargar el SDK de Mobile:
 
-1. Inicie sesión en Mobile Services y abra la aplicación de una de las siguientes formas:
+1. Inicie sesión en Mobile Services y abra su aplicación de una de las formas siguientes:
 
-   * En la lista desplegable **[!UICONTROL Todas las aplicaciones], seleccione su aplicación.**
+   * En la lista desplegable **[!UICONTROL Todas las aplicaciones]**, seleccione su aplicación.
    * En el panel derecho, busque su aplicación y ábrala.
 
 1. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
-1. En la sección **[!UICONTROL Descargas del SDK de la aplicación]**, desplácese hasta la sección **Descargas del SDK de la aplicación[!UICONTROL .]**
+1. En la sección **[!UICONTROL Descargas del SDK de la aplicación]**, desplácese hasta la sección **[!UICONTROL Descargas del SDK de la aplicación**].
 
 1. Descargue el SDK y la aplicación de ejemplo para su plataforma.
 
 >[!TIP]
 >
->A config file for your app is automatically included in the SDK download, so you do not need to download that file separately. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
+>La descarga del SDK incluye automáticamente un archivo de configuración para su aplicación, por lo que no es necesario que descargue ese archivo separadamente. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
 
