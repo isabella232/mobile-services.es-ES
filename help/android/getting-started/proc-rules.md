@@ -2,19 +2,19 @@
 description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-title: Reglas de procesamiento y datos de contexto
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic: Desarrollador e implementación
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Processing rules and context data {#processing-rules-and-context-data}
+# Reglas de procesamiento y datos de contexto {#processing-rules-and-context-data}
 
-Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes. Para obtener más información, consulte [Reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Al trabajar con reglas de procesamiento, recuerde la información siguiente:
 
@@ -54,5 +54,5 @@ Al trabajar con reglas de procesamiento, recuerde la información siguiente:
 
 >[!TIP]
 >
->Adobe reserves the namespace . `"a."` Para evitar choques, el único requisito adicional es que las variables de los datos de contexto sean exclusivas en su empresa de inicio de sesión.
+>Adobe reserva el espacio de nombres `"a."`. Para evitar choques, el único requisito adicional es que las variables de los datos de contexto sean exclusivas en su empresa de inicio de sesión.
 
