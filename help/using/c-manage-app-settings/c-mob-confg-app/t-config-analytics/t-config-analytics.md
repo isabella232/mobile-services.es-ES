@@ -3,21 +3,21 @@ description: Puede configurar las opciones de SDK Analytics en la página Admini
 keywords: móvil
 seo-description: Puede configurar las opciones de SDK Analytics en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar las opciones de SDK Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configurar las opciones de SDK Analytics
 topic: Métricas
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure SDK Analytics options {#configure-sdk-analytics-options}
+# Configurar las opciones de SDK Analytics {#configure-sdk-analytics-options}
 
 Puede configurar las opciones de SDK Analytics en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 
-Type information in the following fields under **[!UICONTROL SDK Analytics Options]**:
+Rellene los campos siguientes en la sección **[!UICONTROL Opciones de SDK Analytics]**:
 
 * **[!UICONTROL Utilizar HTTPS]**
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Antedatar coincidencias de sesión]**
 
-   Habilite o deshabilite la capacidad del SDK de Adobe para antedatar las visitas de información de sesión. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Al activarse, Adobe SDK antedatará la coincidencia de información de la sesión un segundo después de la última coincidencia de la sesión anterior. Esto significa que los bloqueos y los datos de la sesión estarán correlacionados con la fecha correcta en la que tuvieron lugar. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
+   Activar o desactivar la capacidad de Adobe SDK de antedatar las coincidencias de información de la sesión. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Al activarse, Adobe SDK antedatará la coincidencia de información de la sesión un segundo después de la última coincidencia de la sesión anterior. Esto significa que los bloqueos y los datos de la sesión estarán correlacionados con la fecha correcta en la que tuvieron lugar. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
 
 * **[!UICONTROL Privacidad]**
 
@@ -48,6 +48,6 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL Más detalles]**
 
-   Haga clic en el vínculo **[!UICONTROL Más detalles]para ver el ID del grupo de informes y el servidor de seguimiento, activar o desactivar el seguimiento sin conexión y ver el modelo de codificación de caracteres utilizado (como UTF-8).**
+   Haga clic en el vínculo **[!UICONTROL Más detalles]** para ver el ID del grupo de informes y el servidor de seguimiento, activar o desactivar el seguimiento sin conexión y ver el modelo de codificación de caracteres utilizado (como UTF-8).
 
    Al activar el seguimiento offline, se agrega una marca de hora a los datos que genera el dispositivo offline para enviarlos posteriormente. Si se desactiva esta opción, los datos offline se descartarán.
