@@ -3,29 +3,29 @@ description: Complete los siguientes requisitos previos para poder usar los vín
 keywords: móvil
 seo-description: Complete los siguientes requisitos previos para poder usar los vínculos de adquisición.
 seo-title: Requisitos previos de adquisición
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Requisitos previos de adquisición
 topic: Métricas
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Acquisition prerequisites{#acquisition-prerequisites}
+# Requisitos previos de adquisición{#acquisition-prerequisites}
 
-Complete los siguientes requisitos previos antes de utilizar los vínculos de adquisición.
+Complete los siguientes requisitos previos para usar los vínculos de adquisición.
 
-To track Marketing Links, ensure that you meet the following prerequisites:
+Para realizar el seguimiento de los vínculos de marketing, debe cumplir los siguientes requisitos previos:
 
 1. Asegúrese de tener un grupo de informes de aplicación móvil.
 
-   Debe crear un nuevo grupo de informes de la aplicación móvil o tener un grupo de informes existente que pueda recopilar, rastrear e informar sobre los datos recopilados de los vínculos de marketing. Para obtener más información sobre la creación de un nuevo grupo de informes de aplicaciones móviles, consulte [Agregar una aplicación](/help/using/manage-apps/t-new-app.md)nueva.
+   Debe crear un nuevo grupo de informes de aplicación móvil o disponer de un grupo de informes que pueda recopilar los datos de sus vínculos de marketing, realizar un seguimiento de los mismos e incluirlos en un informe. Para obtener más información sobre la creación de un nuevo grupo de informes de aplicaciones móviles, consulte [Agregar una aplicación nueva](/help/using/manage-apps/t-new-app.md).
 
 1. Compruebe la versión del SDK.
 
-   The latest Marketing Link tracking functionality requires SDK version 4.9 or later.
+   La funcionalidad de seguimiento de vínculos de marketing más reciente necesita la versión 4.9 (o posteriores) del SDK.
 
    **Funcionalidad admitida**
 
@@ -35,10 +35,10 @@ To track Marketing Links, ensure that you meet the following prerequisites:
    | De 4.6 a 4.9 | Sí | Sí | No |
    | 4.9 o posterior | Sí | Sí | Sí |
 
-1. Enable SDK Acquisition options
+1. Activar las opciones de adquisición de SDK
 
-   El seguimiento debe estar habilitado en la configuración del SDK para poder realizar un seguimiento de los vínculos y generar informes al respecto. For more information, see [Configure Acquisition](/help/using/acquisition-main/t-enable-acquisition.md).
+   El seguimiento debe estar habilitado en la configuración del SDK para poder realizar un seguimiento de los vínculos y generar informes al respecto. Para obtener más información, consulte [Configuración de adquisición](/help/using/acquisition-main/t-enable-acquisition.md).
 
-1. Agregar aplicaciones de App Store
+1. Agregar aplicaciones de tiendas de aplicaciones
 
-   Debe agregar la aplicación desde el Apple App Store o Google Play. Para obtener más información, consulte [Add an app from an app store](/help/using/manage-apps/c-app-store/t-app-store-app.md).
+   Debe agregar la aplicación desde el Apple App Store o Google Play. Para obtener más información, consulte [Agregar una aplicación desde una tienda de aplicaciones](/help/using/manage-apps/c-app-store/t-app-store-app.md).
