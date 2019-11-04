@@ -1,18 +1,18 @@
 ---
 description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones Android.
 seo-description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones Android.
-seo-title: Ubicación geográfica y puntos de interés
-solution: Marketing Cloud,Analytics
-title: Geo-Location and points of interest
+seo-title: Geolocalización y puntos de interés
+solution: Experience Cloud,Analytics
+title: Geolocalización y puntos de interés
 topic: Desarrollador e implementación
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Geo-location and points of interest {#geo-location-and-points-of-interest}
+# Geolocalización y puntos de interés {#geo-location-and-points-of-interest}
 
 La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones Android.
 
@@ -24,23 +24,23 @@ Cada llamada a `trackLocation` envía la siguiente información:
 
 * Distancia al centro y precisión, pasados como datos de contexto.
 
-   Estas variables no se capturan de forma automática. You must map these context data variables by using the instructions in the *Sending Additional Data* section below.
+   Estas variables no se capturan de forma automática. Debe asignar estas variables de datos de contexto según las instrucciones que aparecen en la sección *Envío de datos adicionales*.
 
 ## Actualización de puntos de interés dinámicos {#section_3747B310DD5147E2AAE915E762997712}
 
-A partir de la versión 4.2, los puntos de interés se definen en la interfaz de usuario de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere una `analytics.poi` configuración en la configuración [JSON de](/help/android/configuration/json-config/json-config.md)ADBMobile:
+A partir de la versión 4.2, los puntos de interés se definen en la interfaz de usuario de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere un ajuste `analytics.poi` en el [archivo de configuración JSON de ADBMobile](/help/android/configuration/json-config/json-config.md):
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-Si no se ha realizado esta configuración, debe descargar una versión actualizada del archivo `ADBMobile.json` y añadirlo a su aplicación. For more information, see [Download the SDK and Testing Tools](/help/android/getting-started/requirements.md).
+Si no se ha realizado esta configuración, debe descargar una versión actualizada del archivo `ADBMobile.json` y añadirlo a su aplicación. Para obtener más información, consulte [Descargar el SDK y herramientas de prueba](/help/android/getting-started/requirements.md).
 
-## Tracking geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Seguimiento de geolocalización y puntos de interés {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
@@ -57,13 +57,13 @@ Si no se ha realizado esta configuración, debe descargar una versión actualiza
 
    >[!TIP]
    >
-   >Puede llamar `trackLocation` en cualquier momento.
+   >Puede llamar a `trackLocation` en cualquier momento.
 
-   You can use location strategies to determine the location that is passed to the `trackLocation` call. For more information, see Android Location Strategies.[](https://developer.android.com/guide/topics/location/strategies.html)
+   Puede utilizar Estrategias de ubicación para determinar la ubicación que se pasa a la llamada `trackLocation`. Para obtener más información, consulte [Estrategias de ubicación de Android](https://developer.android.com/guide/topics/location/strategies.html).
 
-Además, si se determina que la ubicación está en el radio de un punto de interés definido, se envía una variable de datos de contexto `a.loc.poi` junto a la visita de `trackLocation` y se comunica como punto de interés en los informes **Desglose de ubicación**. También se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
+Además, si se determina que la ubicación está en el radio de un punto de interés definido, se envía una variable de datos de contexto `a.loc.poi` junto a la visita de `trackLocation` y se comunica como punto de interés en los informes **[!UICONTROL Desglose de ubicación]**. También se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además de los datos de ubicación, puede enviar datos de contexto adicionales con cada llamada de seguimiento de ubicación:
 
@@ -79,7 +79,7 @@ El valor de los datos de contexto debe asignarse a variables personalizadas de l
 
 ![](assets/map-location-context-data.png)
 
-## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Datos de contexto de ubicación {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 La latitud y la longitud se envían utilizando tres parámetros de datos de contexto diferentes, representando cada uno un nivel de precisión distinto, por lo que se tiene un total de seis parámetros de datos de contexto.
 
@@ -91,7 +91,7 @@ Por ejemplo, las coordenadas lat = 40.93231, long = -111.93152 representan una u
 
 `a.loc.lat.c` = 31
 
-`a.loc.lon.a` = -111.9
+`a.loc.lon.a` = -111,9
 
 `a.loc.lon.b` = 31
 
@@ -101,7 +101,7 @@ Algunos niveles de precisión podrían aparecer como `00`, en función de la pre
 
 Recuerde la información siguiente:
 
-* A `trackLocation` request sends in the equivalent of a `trackAction` call.
+* Una solicitud de `trackLocation` envía el equivalente de una llamada a `trackAction`.
 
 * Los puntos de interés no se pasan como parte de llamadas típicas a `trackAction` y `trackState`, por lo que debe utilizar una llamada a `trackLocation` para realizar el seguimiento de estos puntos.
 
