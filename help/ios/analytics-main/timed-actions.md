@@ -2,17 +2,17 @@
 description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 seo-description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 seo-title: Acciones temporizadas
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Acciones temporizadas
 topic: Desarrollador e implementación
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Timed actions {#timed-actions}
+# Acciones temporizadas {#timed-actions}
 
 Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 
@@ -27,11 +27,11 @@ Una llamada de retorno opcional le permite realizar acciones adicionales cuando 
 * Agregar datos de contexto antes de pasar las duraciones.
 * Cancelar visitas y duraciones no enviadas todavía.
 
-## Tracking timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## Seguimiento de acciones temporizadas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
@@ -61,7 +61,7 @@ Una llamada de retorno opcional le permite realizar acciones adicionales cuando 
                             logic:nil];
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además del nombre de la acción temporizada, puede enviar datos de contexto adicionales con las llamadas de inicio y de actualización de acción:
 
@@ -70,7 +70,7 @@ Además del nombre de la acción temporizada, puede enviar datos de contexto adi
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Los valores de datos de contexto deben asignarse a variables personalizadas:
+El valor de los datos de contexto debe asignarse a variables personalizadas:
 
 ![](assets/map-variable-context-ltv.png)
 
