@@ -4,7 +4,7 @@ seo-description: La vista previa de Target permite realizar un completo QA para 
 seo-title: Vista previa de Target en iOS
 title: Vista previa de Target en iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
 
-For more information on how to set up and use Target Preview, see [Target Mobile Preview](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+Para obtener más información acerca de cómo configurar y utilizar Vista previa de Target, consulte [Vista previa de Target Mobile](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >
->Para utilizar Target Preview, necesita la versión 4.14.0 o posterior del SDK.
+>Para utilizar Vista previa de Target, necesitará la versión 4.14.0 o posterior del SDK.
 
-## Método de vista previa de Target
+## Método de Vista previa de Target
 
 * **setPreviewRestartDeeplink**
 
