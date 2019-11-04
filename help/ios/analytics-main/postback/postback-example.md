@@ -2,25 +2,25 @@
 description: Definición y ejemplos de código fuente de la función Postback.
 seo-description: Definición y ejemplos de código fuente de la función Postback.
 seo-title: Ejemplo de Postback
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Ejemplo de Postback
 topic: Desarrollador e implementación
 uuid: 809c5646-7a80-40df-984b-0af89d854259
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Postback example {#postback-example}
+# Ejemplo de Postbacks{#postback-example}
 
 Definición y ejemplos de código fuente de la función Postback.
 
 >[!CAUTION]
 >
->Este ejemplo se proporciona únicamente con fines informativos. El archivo `ADBMobileConfig.json` debe configurarse en la interfaz de usuario de Adobe Mobile y no debería modificarse de forma manual. Un archivo de configuración editado de forma manual puede ser peligroso si tiene habilitada la configuración de mensajes remotos.
+>Este ejemplo tiene propósitos meramente informativos. El archivo `ADBMobileConfig.json` debe configurarse en la interfaz de usuario de Adobe Mobile y no debería modificarse de forma manual. Un archivo de configuración editado de forma manual puede ser peligroso si tiene habilitada la configuración de mensajes remotos.
 
-## ADBMobileConfig.json definition {#section_0F6EC001AB6D488E815F50C7F5DA022E}
+## Definición de ADBMobileConfig.json {#section_0F6EC001AB6D488E815F50C7F5DA022E}
 
 ```js
 "messages": [ 
@@ -51,13 +51,13 @@ Definición y ejemplos de código fuente de la función Postback.
 ] 
 ```
 
-## Code sample {#section_8169B88A2C634CB788DA574EE8C4B1DC}
+## Ejemplo de código {#section_8169B88A2C634CB788DA574EE8C4B1DC}
 
 ```objective-c
 NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"}; 
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. Assuming that the user’s previous session was 132 seconds long, and that user is on iOS SDK version 4.6.0, here is an example of the resulting URL:
+Como su estado es `“MainMenu”`, esta llamada de seguimiento activa el mensaje de postback anterior. La URL reemplazará todas las variables de plantilla con los valores de la visita. Suponiendo que la sesión anterior del usuario tuviera una duración de 132 segundos y que el usuario utilice la versión 4.6.0 del SDK para iOS, la URL resultante tendría este aspecto:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`
