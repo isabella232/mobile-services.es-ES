@@ -4,13 +4,13 @@ seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Apple
 seo-title: Recibir notificaciones push enriquecidas
 title: Recibir notificaciones push enriquecidas
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Receive rich push notifications {#receive-rich-push-notifications}
+# Recibir notificaciones push enriquecidas {#receive-rich-push-notifications}
 
 Puede adjuntar archivos de imagen a sus notificaciones de Apple. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
 
@@ -20,7 +20,7 @@ Para recibir notificaciones push enriquecidas en su aplicación iOS:
 1. Compruebe que puede enviar un mensaje push de texto a la aplicación.
 1. Agregue una extensión del servicio de notificaciones completando los siguientes pasos:
 
-   1. In your Xcode project, select  **[!UICONTROL File]** &gt; **[!UICONTROL New]** &gt; **[!UICONTROL Target]**.
+   1. En el proyecto Xcode, seleccione **[!UICONTROL Archivo]** &gt; **[!UICONTROL Nuevo]** &gt; **[!UICONTROL Target]**.
    1. Seleccione **[!UICONTROL Extensión del servicio de notificaciones]**.
    1. Compruebe que el archivo `NotificationService.m` existe.
 
@@ -35,7 +35,7 @@ Para recibir notificaciones push enriquecidas en su aplicación iOS:
       (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
       ```
 
-      En este método, puede obtener la URL de medios desde `userInfo` la `attachment-url` clave. Después de descargar el archivo en un directorio local, agregue la ruta local a `bestAttemptContent.attachments`.
+      Con este método, puede usar la URL de medios desde `userInfo` con la clave `attachment-url`. Después de descargar el archivo en un directorio local, agregue la ruta local a `bestAttemptContent.attachments`.
 
       Este es un ejemplo de código para este método:
 
