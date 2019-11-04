@@ -2,18 +2,18 @@
 description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
-seo-title: Solucionar los problemas de la mensajería en la aplicación
-solution: Marketing Cloud,Analytics
-title: Solucionar los problemas de la mensajería en la aplicación
+seo-title: Resolucion de problemas de la mensajería en la aplicación
+solution: Experience Cloud,Analytics
+title: Resolucion de problemas de la mensajería en la aplicación
 topic: Métricas
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# Resolucion de problemas de la mensajería en la aplicación{#troubleshooting-in-app-messaging}
 
 Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 
@@ -21,7 +21,7 @@ Si ha completado todos los requisitos para la mensajería en la aplicación, per
 
 ## ¿Ha aplicado la nueva configuración y el nuevo SDK a la aplicación?
 
-Compruebe que el SDK sea de la versión 4.2 o superior y que esté correctamente configurado. Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+Compruebe que el SDK sea de la versión 4.2 o superior y que esté correctamente configurado. Asegúrese de tener una sección `Messages` en la configuración (archivo JSON descargado) o un punto final remoto Mensajes para que se pueda recuperar desde la administración dinámica de etiquetas.
 
 ## Mi mensaje de pantalla completa en Android no aparece. Estoy usando el SDK y la configuración correctos y mis activadores se están cumpliendo.
 
@@ -29,19 +29,19 @@ Compruebe que el SDK sea de la versión 4.2 o superior y que esté correctamente
 
 ## Mi mensaje de notificación local en Android no funciona.
 
-Asegúrese de haber declarado en el manifiesto el receptor local de emisiones de notificación. For more information, see step 2 in [Enabling In-App Messages](/help/android/messaging-main/messaging/messaging.md).
+Asegúrese de haber declarado en el manifiesto el receptor local de emisiones de notificación. Para obtener más información, consulte el paso 2 en [Activación de la mensajería en la aplicación](/help/android/messaging-main/messaging/messaging.md).
 
 ## ¿El mensaje está activo?
 
 Vaya a la vista de lista de la página Administrar mensajes en la aplicación y compruebe si está activo en la columna Estado.
 
-## Observe *mostrar una vez*, *mostrar siempre* y *mostrar la configuración sin conexión* en la ficha Audiencia.
+## En la pestaña Audiencia encontrará las opciones de configuración *Mostrar una vez*, *Mostrar siempre* y *Mostrar sin conexión*.
 
-Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **Activador], que le permiten especificar con qué frecuencia se muestran los mensajes.[!UICONTROL **
+Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **[!UICONTROL Activador]**, que le permiten especificar con qué frecuencia se muestran los mensajes.
 
 ## Si se usa el evento de inicio como activador...
 
-El inicio solo se desencadena en una nueva sesión. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. Para obtener más información, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+El inicio solo se desencadena en una nueva sesión. Para obtener más información acerca de cuándo comienza una sesión, consulte la fila `lifecycleTimeout` en el archivo de configuración JSON. Para obtener más información, consulte [Configuración JSON de ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
 ## He actualizado mi mensaje de forma remota, pero en mi aplicación aún aparece el mensaje antiguo.
 
@@ -51,7 +51,7 @@ Complete una de las siguientes tareas:
 
    Espere un poco y vuelva a intentarlo.
 
-* La configuración solo se actualiza con un nuevo inicio.
+* La configuración solo se actualiza con un nuevo inicio. 
 Si la aplicación se reinició durante el tiempo de espera de sesión de ciclo vital, es posible que la nueva configuración no se haya descargado.
 
    Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md).
@@ -62,7 +62,7 @@ La plantilla de pantalla completa de mensaje en la aplicación admite la visuali
 
 Puesto que las pantallas de los dispositivos pueden tener diferentes dimensiones, es probable que la imagen no se ajuste exactamente al espacio proporcionado en la plantilla. La plantilla se centra en mostrar el centro de la imagen y, si esta no encaja, recorta (vertical) o difumina (horizontal) los lados.
 
-Esta es la colocación exacta y las reglas de cambio de dimensión para cada orientación:
+Aquí detallamos la colocación exacta y las reglas de cambio de dimensión para cada orientación:
 
 * **Vertical**:
    * Una altura de 195 píxeles para teléfonos
@@ -80,7 +80,7 @@ Si tiene problemas con la plantilla de pantalla completa, puede descargar y util
 
 Para mostrar los mensajes en aplicación en el modo de pantalla completa en un iPhone X:
 
-1. Add `viewport-fit=cover` in the meta tag.
+1. Agregue `viewport-fit=cover` en la metaetiqueta.
 
    ```html
    <meta name="viewport" content="viewport-fit=cover">
