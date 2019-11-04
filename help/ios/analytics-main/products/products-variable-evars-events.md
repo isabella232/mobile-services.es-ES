@@ -1,20 +1,20 @@
 ---
-description: Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-seo-description: Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-seo-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
-solution: Marketing Cloud,Analytics
-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
+description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+seo-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+seo-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+solution: Experience Cloud,Analytics
+title: Variable products con eVars de comercialización y events (eventos) específicos de productos
 topic: Desarrollador e implementación
 uuid: f913211e-97ad-4237-bfe4-7ded01295caf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Products variable with merchandising eVars and product-specific events {#products-variable-with-merchandising-evars-and-product-specific-events}
+# Variable products con eVars de comercialización y events (eventos) específicos de productos {#products-variable-with-merchandising-evars-and-product-specific-events}
 
-Este es un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
+Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
 
 ```
 //create a context data dictionary 
@@ -36,5 +36,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 >[!TIP]
 >
->If you trigger a product-specific event by using the  variable, you must also set that event in the  variable. *`&&products`**`&&events`* Si no lo hace, el evento queda fuera del filtro durante el procesamiento.
+>Si activa un evento específico de producto mediante la variable *`&&products`*, también debe configurar ese evento en la variable *`&&events`*. Si no lo hace, el evento queda fuera del filtro durante el procesamiento.
 
