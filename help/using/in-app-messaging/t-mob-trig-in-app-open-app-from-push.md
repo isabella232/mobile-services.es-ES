@@ -4,13 +4,13 @@ seo-description: Puede configurar el activador de mensajes en la aplicación par
 seo-title: Activador de mensajes en la aplicación al abrirla mediante un mensaje push
 title: Activador de mensajes en la aplicación al abrirla mediante un mensaje push
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
 ---
 
 
-# Trigger an in-app message when the app is opened from a push message{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
+# Activador de mensajes en la aplicación al abrirla mediante un mensaje push{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
 
 Puede configurar el activador de mensajes en la aplicación para que este sea el ID del mensaje push que se envía cuando un usuario abre la aplicación mediante el mensaje push.
 
@@ -28,9 +28,9 @@ Puede configurar el activador de mensajes en la aplicación para que este sea el
 
    >[!TIP]
    >
-   >El ID del mensaje push es el ID que se encuentra en el paso 1.
+   >El ID del mensaje push corresponde al ID que utilizó en el paso 1.
 
-   El activador debe añadirse manualmente, ya que no está disponible en la lista desplegable **[!UICONTROL Activador].**
+   El activador debe añadirse manualmente, ya que no está disponible en la lista desplegable **[!UICONTROL Activador]**.
 
    ![](assets/brandon_task2.png)
 
