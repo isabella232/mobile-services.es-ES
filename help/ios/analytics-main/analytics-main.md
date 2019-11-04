@@ -2,11 +2,11 @@
 description: Esta información le ayuda a utilizar el SDK para iOS con Adobe Analytics.
 seo-description: Esta información le ayuda a utilizar el SDK para iOS con Adobe Analytics.
 seo-title: Información general de Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Información general de Analytics
 topic: Desarrollador e implementación
 uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
@@ -14,18 +14,18 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 # Información general de Analytics {#analytics}
 
-The information in this section helps you use the iOS SDK with Adobe Analytics.
+La información de esta sección le ayuda a utilizar el SDK para iOS con Adobe Analytics.
 
-## Nueva versión del SDK de Adobe Experience Platform Mobile
+## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK Mobile de la Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
-En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK Mobile de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
 * Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-## Generación de identificadores de seguimiento de Analytics
+## Generar identificadores de seguimiento de Analytics
 
 En los SDK, los identificadores se utilizan para realizar seguimientos de los usuarios. Esta es la jerarquía de identificadores:
 
@@ -35,7 +35,6 @@ En los SDK, los identificadores se utilizan para realizar seguimientos de los us
 
 >[!TIP]
 >
->La sigla correcta para el identificador de Experience Cloud es ECID. Aunque los SDK todavía usan MID, es el acrónimo antiguo.
-El SDK genera el AID, que a veces también se denomina Identificador de seguimiento, cuando la aplicación no está configurada para utilizar una MID. El valor persiste entre inicios y actualizaciones de aplicaciones en `NSUserDefaults`. Si el usuario elimina la aplicación de su dispositivo y luego la reinstala, o si el desarrollador de la aplicación elimina `NSUserDefaults`, el SDK genera un nuevo identificador. Este proceso da como resultado un nuevo usuario en los informes de Analytics.
+>El acrónimo correcto del Identificador de Experience Cloud es ECID. Aunque los SDK todavía usan MID, es el acrónimo antiguo. El SDK genera el AID, que a veces también se denomina Identificador de seguimiento, cuando la aplicación no está configurada para utilizar una MID. El valor persiste entre inicios y actualizaciones de aplicaciones en `NSUserDefaults`. Si el usuario elimina la aplicación de su dispositivo y luego la reinstala, o si el desarrollador de la aplicación elimina `NSUserDefaults`, el SDK genera un nuevo identificador. Este proceso da como resultado un nuevo usuario en los informes de Analytics.
 
-Para los usuarios de una aplicación que introduce un asistente de servicios de identidad (MID), los valores AID existentes se envían con los resultados de Analytics, y el resultado de Analytics contiene un AID y un MID. Para los nuevos usuarios de una aplicación con un asistente de servicios de identidad, las solicitudes de análisis contienen solo una MID. For more information about identifying visitors, see [Identify visitors](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
+Para los usuarios de una aplicación que introduce un asistente de servicios de identidad (MID), los valores AID existentes se envían con los resultados de Analytics, y el resultado de Analytics contiene un AID y un MID. Para los nuevos usuarios de una aplicación con un asistente de servicios de identidad, las solicitudes de análisis contienen solo una MID. Para obtener más información sobre la identificación de visitantes, consulte [Identificar visitantes](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
