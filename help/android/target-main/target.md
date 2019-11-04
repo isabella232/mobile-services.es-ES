@@ -1,25 +1,25 @@
 ---
 description: Puede enviar contenido de destino en aplicaciones Android.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Puede enviar contenido de destino en aplicaciones Android.
-seo-title: Target configuration
-solution: Marketing Cloud,Analytics
+seo-title: Configuración de Target
+solution: Experience Cloud,Analytics
 title: Configuración de Target
 topic: Desarrollador e implementación
 uuid: 09fe2c9c-7b60-49c3-bb9d-36a30ce7c350
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Target configuration {#target-configuration}
+# Configuración de Target {#target-configuration}
 
 Puede enviar contenido de destino en aplicaciones Android.
 
-## Set the application context {#section_37CAE496FF894FCA821F7760605574CA}
+## Establecer el contexto de la aplicación {#section_37CAE496FF894FCA821F7760605574CA}
 
-**(Requerido)** Se debe llamar al `setContext()` método una vez en el `onCreate()` método de la actividad principal.
+**(Requerido)** Se debe llamar al método `setContext()` una vez en el método `onCreate()` de la actividad principal.
 
 Por ejemplo:
 
@@ -32,4 +32,4 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-Si ya agregó esta llamada al método al implementar Analytics o Gestión de público, no es necesario que lo haga de nuevo.
+Si ya agregó esta llamada al método al implementar Analytics o Audience Manager, no es necesario que lo haga de nuevo.
