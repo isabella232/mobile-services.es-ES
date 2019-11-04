@@ -2,11 +2,11 @@
 description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-title: Seguimiento de bloqueos de aplicaciones
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic: Desarrollador e implementación
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,9 +18,9 @@ Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqu
 
 >[!TIP]
 >
->App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the library to your project and implement lifecycle. For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+>Se realiza un seguimiento de los bloqueos de aplicaciones como parte de las métricas del ciclo vital. Para poder realizar el seguimiento de bloqueos, agregue la biblioteca al proyecto e implemente el ciclo vital. Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
-Cuando se implementan las métricas del ciclo vital, se llama a `Config.collectLifecycleData` en el método `OnResume` de cada actividad. In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
+Cuando se implementan las métricas del ciclo vital, se llama a `Config.collectLifecycleData` en el método `OnResume` de cada actividad. En el método `onPause` se llama a `Config.pauseCollectingLifeCycleData`.
 
 En `pauseCollectingLifeCycleData`, se establece un indicador para señalar una salida correcta. Cuando la aplicación se vuelve a iniciar o se reanuda, `collectLifecycleData` comprueba este indicador. Si el indicador señala que la aplicación no se cerró correctamente, se envía un dato de contexto `a.CrashEvent` junto con la siguiente llamada y se comunica un evento de bloqueo.
 
@@ -38,9 +38,9 @@ Para obtener información sobre el ciclo de duración de las actividades de Andr
 
    >[!TIP]
    >
-   >You can avoid this crash by backgrounding the app before launching again from the IDE.
+   >Puede evitar este bloqueo poniendo la aplicación en segundo plano antes de volver a iniciarla desde el IDE.
 
-1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
+1. Si la última actividad en primer plano de la aplicación pasa a segundo plano y no llama a `Config.pauseCollectingLifecycleData();`; en `onPause`, y entonces usted manualmente o el sistema operativo cierran la aplicación, el siguiente inicio resulta en un bloqueo.
 
 ## ¿Cómo se deben gestionar los fragmentos?
 
@@ -48,13 +48,13 @@ Los fragmentos tienen eventos de ciclo vital de aplicación similares a las acti
 
 >[!IMPORTANT]
 >
->Debe confiar en los eventos de ciclo vital con los que las actividades contenedoras pueden ejecutar el código. Esto lo gestionará la vista principal del fragmento.
+>Debe confiar en los eventos de ciclo de duración en los que las actividades contenedoras pueden ejecutar su código. Esto lo gestionará la vista principal del fragmento.
 
-## (Opcional) Implementar llamadas de retorno de ciclo vital de la actividad
+## (Opcional) Implemente llamadas de retorno de ciclo vital de las actividades
 
-Desde el Nivel 14 de la API, Android permite las llamadas de retorno de ciclo vital globales para las actividades. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
+Desde el Nivel 14 de la API, Android permite las llamadas de retorno de ciclo vital globales para las actividades. Para obtener más información, consulte [Aplicación](https://developer.android.com/reference/android/app/Application).
 
-You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. Necesita agregar este código solo en su actividad principal y en cualquier otra actividad en que la aplicación puede iniciarse:
+Puede utilizar estas llamadas de retorno para garantizar que todas sus actividades llamen correctamente a `collectLifecycleData()` y `pauseCollectingLifecycleData()`. Necesita agregar este código solo en su actividad principal y en cualquier otra actividad en que la aplicación puede iniciarse:
 
 ```js
 import com.adobe.mobile.Config; 
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-To send additional context data with your lifecycle call by using `Config.collectLifecycleData(Activity activity`, `Map<String`, `Object> contextData)`, you must override the `onResume` method for that Activity and ensure that you call `super.onResume()` after manually calling `collectLifecycleData`.
+Para enviar datos de contexto adicionales con su llamada al ciclo de duración empleando `Config.collectLifecycleData(Activity activity`, `Map<String`, `Object> contextData)`, debe anular el método `onResume` para esa actividad y asegurarse de llamar a `super.onResume()` después de llamar manualmente a `collectLifecycleData`.
 
 ```js
 @Override 
