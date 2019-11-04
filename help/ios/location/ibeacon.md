@@ -2,11 +2,11 @@
 description: El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-description: El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-title: Seguimiento de iBeacon
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de iBeacon
 topic: Desarrollador e implementación
 uuid: 390883db-027e-4d12-8a16-86d514579db1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,7 +18,7 @@ El seguimiento de iBeacon le permite medir y segmentar microubicaciones empleand
 
 Los siguientes datos de señalización se envían a Analytics y Target cuando se llama a `trackBeacon`:
 
-* `a.beacon.uuid` - ProximityUUID de la señalización
+* `a.beacon.uuid`: ProximityUUID de la señalización
 * `a.beacon.major`: número mayor de la señalización, como un número de almacén
 * `a.beacon.minor`: número menor de la señalización, como un número exclusivo dentro de un almacén
 * `a.beacon.prox`: los siguientes valores representan la proximidad del usuario a la señalización:
@@ -28,11 +28,11 @@ Los siguientes datos de señalización se envían a Analytics y Target cuando se
    * `2` es cerca
    * `3` es lejos
 
-## Track iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Seguimiento de iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
@@ -51,7 +51,7 @@ Los siguientes datos de señalización se envían a Analytics y Target cuando se
    [ADBMobile trackingClearCurrentBeacon];
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además del nombre de acción temporizada, puede enviar datos de contexto adicionales con cada llamada de seguimiento de acción:
 
@@ -59,7 +59,7 @@ Además del nombre de acción temporizada, puede enviar datos de contexto adicio
 [ADBMobile trackBeacon:beacon data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-Los valores de datos de contexto deben asignarse a variables personalizadas:
+El valor de los datos de contexto debe asignarse a variables personalizadas:
 
 ![](assets/map-variable-context-ltv.png)
 
