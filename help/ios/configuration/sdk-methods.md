@@ -2,32 +2,32 @@
 description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-title: Métodos de configuración
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de configuración
 topic: Desarrollador e implementación
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Configuration methods {#configuration-methods}
+# Métodos de configuración {#configuration-methods}
 
 Esta es una lista de métodos que proporciona la biblioteca iOS.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma Adobe Experience.
+Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de ID de Adobe Experience Platform.
 
 * **setAppExtensionType**
 
    Configura el SDK de Adobe Mobile para determinar qué clase de extensión se está ejecutando.
 
    Establezca uno de los siguientes valores:
-   * `ADBMobileAppExtensionTypeRegular` - la extensión se incluye con una aplicación contenedora.
-   * `ADBMobileAppExtensionTypeStandAlone` - extension is not bundled with a containing app.
+   * `ADBMobileAppExtensionTypeRegular`: La extensión está empaquetada con una aplicación contenedora.
+   * `ADBMobileAppExtensionTypeStandAlone`: La extensión no está empaquetada con una aplicación contenedora.
    >[!TIP]
    >
-   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
+   >Este método **solo** debe usarse si la aplicación tiene una extensión o es una extensión independiente. Para obtener más información, consulte *ADBMobileAppExtensionType*, más adelante.
 
    * Esta es la sintaxis para este método:
 
@@ -63,9 +63,9 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual:
 
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
+   * `ADBMobilePrivacyStatusUnknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. 
 El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    * Esta es la sintaxis para este método:
@@ -82,11 +82,11 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
 * Método **setPrivacyStatus**
 
-   Sets the privacy status for the current user to `status`.
+   Establece el estado de privacidad del usuario actual como `status`.
 
    Establezca uno de los siguientes valores:
 
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
    * `ADBMobilePrivacyStatusUnknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
@@ -124,7 +124,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3.x a 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. Para obtener más información, consulte abajo la fila `userIdentifier`. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. Para obtener más información, consulte abajo la fila `userIdentifier`. Esto preserva los datos de visitante al actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario tiene el valor `nil` y se utiliza el identificador de seguimiento.
 
    * Esta es la sintaxis para este método:
 
@@ -144,7 +144,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo, personalizado o generado automáticamente, se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID de visitante previo (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK.
 
    Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `nil` hasta que se establece.
 
@@ -214,7 +214,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Este método está diseñado para utilizarse en aplicaciones que se registran para recibir notificaciones en segundo plano y solo debe invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >El propósito de este método es que se utilice en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano, y solo debería invocarse desde el código que se está ejecutando cuando la aplicación está en segundo plano.
 
    * Esta es la sintaxis para este método:
 
@@ -234,7 +234,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >The preferred location to invoke this method is in `application:didFinishLaunchingWithOptions:`.
+   >La ubicación preferida para invocar este método es `application:didFinishLaunchingWithOptions:`.
 
    * Esta es la sintaxis para este método:
 
@@ -252,11 +252,11 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    Le permite pasar datos adicionales al recopilar métricas del ciclo vital.
 
-   Se debe llamar a este método desde el punto de entrada de la aplicación. Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
+   Se debe llamar a este método desde el punto de entrada de la aplicación. Donde sea aplicable, esto puede incluir en su clase AppDelegate uno de estos dos métodos, o ambos: `application:didFinishLaunchingWithOptions:` o `applicationWillEnterForeground:`.
 
    >[!IMPORTANT]
    >
-   >Data that is passed to the SDK via `collectLifecycleDataWithAdditionalData:` will be persisted by the SDK in `NSUserDefaults`. El SDK elimina cualquier valor del parámetro `NSDictionary` que no sea del tipo `NSString` o `NSNumber`. To use  `collectLifecycleDataWithAdditionalData:`, you must have SDK **version 4.4** or later.
+   >Los datos pasados al SDK mediante `collectLifecycleDataWithAdditionalData:`: serán guardados por el SDK en `NSUserDefaults`. El SDK elimina cualquier valor del parámetro `NSDictionary` que no sea del tipo `NSString` o `NSNumber`. Para utilizar `collectLifecycleDataWithAdditionalData:` necesita la **versión 4.4 o posterior del SDK**.
 
    * Esta es la sintaxis para este método:
 
@@ -276,7 +276,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!IMPORTANT]
    >
-   >To use `overrideConfigPath`, you must have SDK version 4.2 or later.
+   >Para utilizar `overrideConfigPath` necesita la versión 4.2 o posterior del SDK.
 
    * Esta es la sintaxis para este método:
 
@@ -297,7 +297,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!IMPORTANT]
    >
-   >This method should only be used in the  `application:didRegisterForRemoteNotificationsWithDeviceToken:` method.
+   >Este método solo debe utilizarse en el método `application:didRegisterForRemoteNotificationsWithDeviceToken:`.
 
    * Esta es la sintaxis para este método:
 
@@ -319,7 +319,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!TIP]
    >
-   >Retrieve the IDFA from Apple APIs **only** if you are using an ad service. Si recupera el IDFA y no lo utiliza de forma apropiada, podría rechazarse la aplicación.
+   >Recupere el IDFA desde las API de Apple **solo** si está utilizando un servicio publicitario. Si recupera el IDFA y no lo utiliza de forma apropiada, podría rechazarse la aplicación.
 
    * Esta es la sintaxis para este método:
 
