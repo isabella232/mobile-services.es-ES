@@ -3,17 +3,17 @@ description: Puede agregar una aplicación desde el Apple App Store o Google Pla
 keywords: móvil
 seo-description: Puede agregar una aplicación desde el Apple App Store o Google Play.
 seo-title: Agregar una aplicación desde una tienda de aplicaciones
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Agregar una aplicación desde una tienda de aplicaciones
 topic: Métricas
-uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfeed
-translation-type: tm+mt
+uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
 
 
-# Add an app from an app store {#add-an-app-from-an-app-store}
+# Agregar una aplicación desde una tienda de aplicaciones {#add-an-app-from-an-app-store}
 
 Puede agregar una aplicación desde el Apple App Store o Google Play.
 
@@ -21,19 +21,19 @@ Puede agregar una aplicación desde el Apple App Store o Google Play.
 
    * Inicie sesión en Adobe Mobile Services y haga clic en **[!UICONTROL Crear nueva]**.
 
-      For more information about signing in to the Mobile Services UI, see [Sign in](/help/using/gs/gs-signin.md).
+      Para obtener más información sobre cómo iniciar sesión en la interfaz de usuario de Mobile Services, consulte [Iniciar sesión](/help/using/gs/gs-signin.md).
 
-   * To add apps, in the left navigation menu, click Manage Apps and click Add.********
+   * Para agregar aplicaciones, en el menú de navegación de la izquierda, haga clic en **[!UICONTROL Administrar aplicaciones]** y en **[!UICONTROL Agregar]**.
 
-1. Click **[!UICONTROL Add App Store App]**.
+1. Haga clic en **[!UICONTROL Agregar aplicación de la tienda de aplicaciones]**.
 1. Complete las siguientes tareas:
 
    * Seleccione una tienda de aplicaciones:
       * **[!UICONTROL App Store de Apple]**
       * **[!UICONTROL Google Play]**
-   * Busque por nombre de tienda de aplicaciones y seleccione la aplicación.
+   * Busque por nombre en la tienda de aplicaciones y seleccione la aplicación.
 
-      Puede obtener una vista previa de la información sobre la aplicación seleccionada, lo que le ayuda a determinar si ha seleccionado la aplicación correcta.
+      Puede previsualizar información sobre la aplicación seleccionada, lo que le ayuda a determinar si la elección es correcta.
 
    * Escriba el ID de la aplicación.
 
