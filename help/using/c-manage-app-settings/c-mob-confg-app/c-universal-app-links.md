@@ -2,36 +2,36 @@
 description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 keywords: móvil
 seo-description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
-seo-title: Apple Universal Links y Android App Links
-solution: Marketing Cloud,Analytics
-title: Apple Universal Links y Android App Links
+seo-title: Vínculos universales de Apple y de la aplicación de Android
+solution: Experience Cloud,Analytics
+title: Vínculos universales de Apple y de la aplicación de Android
 topic: Métricas
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
 ---
 
 
-# Apple Universal Links and Android App Links{#universal-links-and-app-links}
+# Vínculos universales de Apple y de la aplicación de Android{#universal-links-and-app-links}
 
-Universal Links (iOS) and App Links (Android) allow you to connect to deep links in your iOS or Android apps.
+Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 
 >[!IMPORTANT]
 >
->A partir de iOS 9.2, no se admite la vinculación profunda. Debe utilizar los vínculos universales de Apple para la vinculación profunda a su aplicación o sitio web.
+>A partir de iOS 9.2, la vinculación profunda no es compatible. Debe utilizar los vínculos universales de Apple para la vinculación profunda a su aplicación o sitio web.
 
 ## Vínculos universales {#section_F8147944679A42E59CF4FD8814E5EF12}
 
-Los vínculos universales le permiten conectarse a vínculos profundos en su aplicación de iOS y son compatibles con iOS 9.2 o posterior. Cuando se accede a un vínculo universal, iOS redirige el vínculo directamente al vínculo profundo de la aplicación. Si la aplicación no está instalada, se abre una URL para el sitio web en un navegador. Para obtener más información sobre los vínculos universales, consulte [Compatibilidad con vínculos](https://developer.apple.com/library/content/documentation/General/Conceptual/AppSearch/UniversalLinks.html)universales.
+Los vínculos universales le permiten conectarse a vínculos profundos en su aplicación de iOS y son compatibles con iOS 9.2 y posteriores. Cuando se accede a un vínculo universal, iOS lo redirige directamente al vínculo profundo de la aplicación. Si la aplicación no está instalada, se abre una URL para el sitio web en un navegador. Para obtener más información sobre los vínculos universales, consulte [Compatibilidad con vínculos universales](https://developer.apple.com/library/content/documentation/General/Conceptual/AppSearch/UniversalLinks.html).
 
 ## Vínculos de la aplicación
 
-Los vínculos de aplicación le permiten conectarse a vínculos profundos en su aplicación de Android y se admiten en Android 6.0 o posterior. Cuando se accede a un vínculo de aplicación, Android redirige el vínculo directamente al vínculo profundo de la aplicación. Si la aplicación no está instalada, se abre una URL para el sitio web en un navegador. For more information about App Links, see the [Handling Android App Links](https://developer.android.com/training/app-links/index.html).
+Los vínculos de aplicación le permiten conectarse a vínculos profundos en su aplicación de Android y son compatibles en Android 6.0 y posteriores. Cuando se accede a un vínculo de aplicación, Android lo redirige directamente al vínculo profundo de la aplicación. Si la aplicación no está instalada, se abre una URL para el sitio web en un navegador. Para obtener más información sobre los vínculos de la aplicación, consulte [Gestión de vínculos de la aplicación de Android](https://developer.android.com/training/app-links/index.html).
 
 ## Creación de un vínculo de marketing mediante un vínculo universal o de aplicación {#section_609ADEFFB9B441C4A8C45E936D0DC859}
 
-You can create a Marketing Link that uses a Universal or App Link.
+Puede crear un vínculo de marketing que utilice un vínculo universal o de aplicación.
 
 ### Configurar un vínculo universal
 
@@ -39,114 +39,114 @@ You can create a Marketing Link that uses a Universal or App Link.
 
 2. En Adobe Mobile Services, configure los documentos de asociación de sitios:
 
-   a. En la página de inicio de Mobile Services, seleccione la aplicación para la que desea configurar los vínculos universales.
+   En la página de inicio de Mobile Services, seleccione la aplicación en la que desea configurar vínculos universales.
 
-   b. Click **[!UICONTROL Manage App Settings]**.
+   b. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
 
-   c. Asegúrese de que la aplicación de iOS que gestiona los vínculos universales se agrega a la sección **[!UICONTROL Agregar aplicaciones]** de App Store.
+   c. Compruebe que la aplicación de iOS que gestiona los vínculos universales se agrega a la sección **[!UICONTROL Agregar aplicaciones de App Store]**.
 
    >[!TIP]
    >
-   >If the Add App Store Apps section does not display, click the Add App Store App link.********
+   >Si la sección **[!UICONTROL Agregar aplicaciones de tiendas de aplicaciones]** no se muestra, haga clic en el vínculo **[!UICONTROL Agregar aplicación de la tienda de aplicaciones]**.
 
-   d. En la sección Opciones **[!UICONTROL de vínculos]** universales y de aplicación, seleccione una aplicación de iOS y escriba el ID de la aplicación.
+   d. En la sección **[!UICONTROL Opciones de vínculos universales y de la aplicación]**, seleccione una aplicación de iOS y escriba el ID de la aplicación.
 
-   f.Haga clic en **[!UICONTROL Guardar]**.
+   f. Haga clic en **[!UICONTROL Guardar]**.
 
-   Debe seleccionar al menos una aplicación de iOS y un ID de aplicación, o bien recibirá un error.
+   Debe proporcional al menos una selección de aplicaciones de iOS y un ID de aplicación, de lo contrario obtendrá un error.
 
    >[!IMPORTANT]
    >
-   >Para actualizar los documentos, haga clic en la opción Actualizar de la sección Opciones de los vínculos universales y de la aplicación. However, when you click **[!UICONTROL Update]**, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
+   >Para actualizar los documentos, haga clic en la opción Actualizar de la sección Opciones de los vínculos universales y de la aplicación. No obstante, al hacer clic en **[!UICONTROL Actualizar]**, una advertencia le avisa de que todos los vínculos universales y de aplicación que haya creado anteriormente se verán afectados.
 
-### Uso de un vínculo universal
+### Use un vínculo universal
 
-1. In Adobe Mobile Services, create a Marketing Link that uses Universal Links:
+1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos universales:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Link Builder]**.
+   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]**.
 
-   b. Click Create New.****
+   b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
-   c. Under **[!UICONTROL Marketing Link Options]**, select **[!UICONTROL Use Universal Links or App Links]**.
+   c. En **[!UICONTROL Opciones del vínculo de marketing]**, seleccione **[!UICONTROL Usar los vínculos universales o los de la aplicación]**.
 
-   d. If you configured the site-association documents in the Setting up site-association documents in Adobe Mobile Services section above, this option is selected by default.**
+   d. Si ha configurado los documentos de asociación de sitios en la sección *Configuración de documentos de asociación de sitios en Adobe Mobile Services* que se encuentra arriba, esta opción estará seleccionada de forma predeterminada.
 
-   If you did not configure the documents, the Use Universal Links or App Links option is disabled and Use Interstitials is selected by default.********
+   Si no ha configurado los documentos, la opción **[!UICONTROL Usar los vínculos universales o los vínculos de la aplicación]** estará desactivada y la opción **[!UICONTROL Usar intersticiales]** estará activada de forma predeterminada.
 
-   e. Si la opción **[!UICONTROL Usar vínculos universales o Vínculos]** de aplicación está seleccionada, se muestra el campo Ruta **** personalizada.
+   e. Si la opción **[!UICONTROL Utilizar vínculos universales o de aplicación]** está seleccionada, se muestra el campo **[!UICONTROL Ruta personalizada]**.
 
-   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe , your full Marketing Link URL becomes .`my/universal/link?os=9.2``https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`
+   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe `my/universal/link?os=9.2`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
 
-   f. Haga clic en la ficha **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
+   f. Haga clic en la pestaña **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
 
-   h. If the iOS app is installed, the app handles the deeplink with its logic. The final destination serves only as the fallback when the app is not installed. Since the app is not installed, the final destination can only be a web link or app store.
+   h. Si la aplicación de iOS está instalada, la aplicación gestiona el vínculo profundo con su lógica. El destino final solo sirve como alternativa cuando la aplicación no está instalada. Como la aplicación no está instalada, el destino final solo puede ser un vínculo web o una tienda de aplicaciones.
 
-   i. Click Save.****
+   i. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!TIP]
 >
->Once a Marketing Link is saved, the Marketing Links Options cannot be altered. Esto se debe a que no desea cambiar el comportamiento de los vínculos de marketing que ya se han distribuido.
+>Cuando se guarda un vínculo de marketing, las Opciones del vínculo de marketing no se pueden modificar. Esto se hace para que el comportamiento de los vínculos de marketing que se hayan podido distribuir no cambie.
 
 
-### Configure an App Link
+### Configurar un vínculo de la aplicación
 
-1. To set up App Links in your Android app, go to [Add Android App Links](https://developer.android.com/studio/write/app-link-indexing).
+1. Para configurar los vínculos de la aplicación en la de Android, vaya a [Agregar vínculos de la aplicación de Android](https://developer.android.com/studio/write/app-link-indexing).
 
 1. En Adobe Mobile Services, configure los documentos de asociación de sitios:
 
-   a. En la página de inicio de Mobile Services, seleccione la aplicación para la que desea configurar los vínculos de la aplicación.
+   a. En la página de inicio de Mobile Services, seleccione la aplicación en la que desea configurar vínculos de la aplicación.
 
-   b. Click **[!UICONTROL Manage App Settings]**.
+   b. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
 
-   c. Asegúrese de que la aplicación de Android que gestiona los vínculos universales o los vínculos de la aplicación se agrega a la sección **[!UICONTROL Agregar aplicaciones]** de App Store.
+   c. Compruebe que la aplicación de Android que gestiona los vínculos universales o los de la aplicación se agrega a la sección **[!UICONTROL Agregar aplicaciones de App Store]**.
 
    >[!TIP]
    >
-   >If this section does not display, click the **[!UICONTROL Add App Store App]** link.
+   >Si esta sección no está visible, haga clic en el vínculo **[!UICONTROL Agregar aplicación de la tienda de aplicaciones]**.
 
-   d. Desplácese a la sección Opciones **[!UICONTROL de vínculos]** universales y de aplicación.
+   d. Desplácese a la sección **[!UICONTROL Opciones de vínculos universales y de aplicación]**.
 
-   e. Haga clic en la ficha Vínculos **[!UICONTROL de aplicación (Android)]** .
+   e. Haga clic en la ficha **[!UICONTROL Vínculos de la aplicación (Android)]**.
 
    f. Seleccione una aplicación de Android y escriba una huella de certificado SHA-256.
 
-   g.Haga clic en **[!UICONTROL Guardar]**.
+   g. Haga clic en **[!UICONTROL Guardar]**.
 
-   You must provide at least one Android app selection and one SHA-256 certificate, or you will receive an error.
+   Debe proporcional al menos una selección de aplicaciones de Android y un certificado SHA-256, de lo contrario obtendrá un error.
 
    >[!IMPORTANT]
    >
-   >Para actualizar los documentos, haga clic en la opción **[!UICONTROL Actualizar]** de la sección **Opciones de los vínculos universales y de la aplicación[!UICONTROL .]** However, when you click **[!UICONTROL Update]**, a warning notifies you that all Universal Links or App Links that you created in the past will be affected.
+   >Para actualizar los documentos, haga clic en la opción **[!UICONTROL Actualizar]** de la sección **[!UICONTROL Opciones de los vínculos universales y de la aplicación]**. No obstante, al hacer clic en **[!UICONTROL Actualizar]**, una advertencia le avisa de que todos los vínculos universales y de aplicación que haya creado anteriormente se verán afectados.
 
 ### Uso de un vínculo de aplicación
 
 1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos de aplicación:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Link Builder]**.
+   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]**.
 
    b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
-   c. En la sección Opciones **[!UICONTROL de vínculo]** de marketing, seleccione **[!UICONTROL Utilizar vínculos universales o vínculos]** de aplicación.
+   c. En la sección **[!UICONTROL Opciones de vínculo de marketing,]** seleccione **[!UICONTROL Utilizar vínculos universales o de aplicación]**.
 
-   d. Si ha configurado los documentos de asociación de sitios del paso 2, esta opción está seleccionada de forma predeterminada.
+   d. Si configuró los documentos de asociación de sitios siguiendo el paso 2, esta opción está seleccionada de forma predeterminada.
 
-   If not, the **[!UICONTROL Use Universal Links or App Links]** option is disabled, and **[!UICONTROL Use Interstitials]** is selected by default.
+   En caso contrario, la opción **[!UICONTROL Usar los vínculos universales o los vínculos de la aplicación]** estará desactivada y la opción **[!UICONTROL Usar intersticiales]** estará activada de forma predeterminada.
 
-   e. If Use Universal Links or App Links is selected, the Custom Path field is displayed.********
+   e. Si **[!UICONTROL Utilizar vínculos universales o de aplicación]** está seleccionado, se muestra el campo **[!UICONTROL Ruta personalizada]**.
 
    Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe `my/app/link?os=6.0`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
 
-   f. Haga clic en la ficha **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
+   f. Haga clic en la pestaña **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
 
-   g. If the Android app is installed, the app handles the deeplink with its logic.
+   g. Si la aplicación de Android está instalada, esta gestiona el vínculo profundo con su lógica.
 
    El destino final solo sirve como alternativa cuando la aplicación no está instalada. Como la aplicación no está instalada, el destino final solo puede ser un vínculo web o una tienda de aplicaciones.
 
-   h.Haga clic en **[!UICONTROL Guardar]**.
+   h.  Haga clic en **[!UICONTROL Guardar]**.
 
 >[!TIP]
 >
->After a Marketing Link is saved, the **[!UICONTROL Marketing Links Options]** cannot be altered. Esto se debe a que no desea cambiar el comportamiento de los vínculos de marketing que ya se han distribuido.
+>Tras guardar un vínculo de marketing, las **[!UICONTROL Opciones del vínculo de marketing]** no se pueden modificar. Esto se hace para que el comportamiento de los vínculos de marketing que se hayan podido distribuir no cambie.
 
 ## Uso de vínculos de marketing
 
@@ -154,5 +154,5 @@ Ahora puede utilizar estos vínculos de marketing en mensajes y otras áreas de 
 
 >[!IMPORTANT]
 >
->No verá recuentos de rastreo de clics con vínculos universales o vínculos de aplicación, y tampoco podrá utilizar intersticiales.
+>No verá recuentos de rastreo de clics con vínculos universales o de aplicación, y tampoco podrá utilizar intersticiales.
 
