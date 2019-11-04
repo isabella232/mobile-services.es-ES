@@ -3,11 +3,11 @@ description: Esta información le ayuda a solucionar problemas de la mensajería
 keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería push.
 seo-title: Resolución de problemas de mensajería push
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Resolución de problemas de mensajería push
 topic: Métricas
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
@@ -27,16 +27,16 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
 * Espera del servicio push
 
-   The push service (APNS or FCM) might not immediately send out the message. Aunque no es frecuente, se han visto retrasos de 5-10 minutos. En la página Mensajes puede comprobar que el mensaje push se ha enviado al servicio push al hacer clic en el vínculo **Ver** del mensaje. En el informe, el número de envíos correctos al servicio push se indica en la columna **[!UICONTROL Publicado].**
+   Puede que el servicio push (APNS o FCM) no envíe el mensaje inmediatamente. Aunque no es frecuente, se han visto retrasos de 5-10 minutos. En la página Mensajes puede comprobar que el mensaje push se ha enviado al servicio push al hacer clic en el vínculo **[!UICONTROL Ver]** del mensaje. En el informe, el número de envíos correctos al servicio push se indica en la columna **[!UICONTROL Publicado]**.
 
    >[!TIP]
    >
-   >The push services do not guarantee that a message will be sent.
+   >Los servicios push no garantizan el envío de un mensaje.
 
    Para obtener más información acerca de la fiabilidad de los servicios, consulte la documentación apropiada:
 
    * **APNS**: [calidad de servicio](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
-   * **FCM**: Duración [de un mensaje](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
+   * **FCM**: [Duración de un mensaje](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## ¿Por qué mis mensajes push se cortan o no se expanden?
 
