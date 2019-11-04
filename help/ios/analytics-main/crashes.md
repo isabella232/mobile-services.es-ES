@@ -1,12 +1,12 @@
 ---
 description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
-seo-title: Track App crashes
-solution: Marketing Cloud,Analytics
+seo-title: Seguimiento de bloqueos de aplicaciones
+solution: Experience Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic: Desarrollador e implementación
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -18,7 +18,7 @@ Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqu
 
 >[!IMPORTANT]
 >
->Debe actualizar a la versión 4.8.6 del SDK para iOS, que contiene cambios importantes que evitan que se comuniquen falsos bloqueos.
+>Debería actualizar a la versión 4.8.6 del SDK para iOS, que contiene cambios esenciales que impiden que se comuniquen falsos bloqueos.
 
 ## ¿Cuándo comunica Adobe un bloqueo?
 
@@ -44,13 +44,13 @@ Se sabe que las siguientes situaciones pueden provocar que el SDK comunique equi
 
    >[!TIP]
    >
-   >Puede evitar un bloqueo en este escenario poniendo la aplicación en segundo plano antes de volver a iniciarla desde Xcode.
+   >En esta situación, puede evitar el bloqueo poniendo la aplicación en segundo plano antes de volver a iniciarla desde Xcode.
 
-* If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
+* Si la aplicación está en segundo plano y envía visitas de Analytics mediante una llamada distinta de `trackActionFromBackground`, `trackLocation`, o `trackBeacon`, y después se cierra (de forma manual o por el sistema operativo) mientras está en segundo plano, al volver a iniciarse se producirá un bloqueo.
 
    >[!TIP]
    >
-   >Background activity that occurs beyond the `lifecycleTimeout` threshold might also result in an additional false launch.
+   >La actividad en segundo plano que se produce más allá del umbral de `lifecycleTimeout` también podría resultar en un falso inicio.
 
 * Si la aplicación se inicia en segundo plano (como resultado de una captura en segundo plano, una actualización de ubicación, etcétera) y el sistema operativo la cierra sin pasar al primer plano, el siguiente inicio (ya sea en primer o en segundo plano) resulta en un bloqueo.
 * Si elimina mediante programación la marca de pausa de Adobe de `NSUserDefaults` mientras la aplicación está en segundo plano, el siguiente inicio o reanudación provoca un bloqueo.
@@ -66,5 +66,5 @@ Las siguientes recomendaciones pueden ayudar a prevenir la comunicación de fals
 * Asegúrese de realizar el desarrollo con grupos de informes de no producción. Esto debería evitar que se produzca el caso 1 de falso bloqueo.
 * No elimine o modifique ningún valor que el SDK de Adobe Mobile ponga en `NSUserDefaults`.
 
-   Si estos valores se modifican fuera del SDK, los datos notificados no serán válidos.
+   Si se modifican estos valores desde fuera del SDK, los datos comunicados no serán válidos.
 
