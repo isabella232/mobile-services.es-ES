@@ -3,27 +3,27 @@ description: Aquí encontrará la información de referencia sobre las dimension
 keywords: móvil
 seo-description: Aquí encontrará la información de referencia sobre las dimensiones y las métricas móviles predeterminadas.
 seo-title: Métricas de Mobile y referencia de dimensiones
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métricas de Mobile y referencia de dimensiones
 topic: Métricas
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 ---
 
 
-# Mobile metrics and dimensions reference {#mobile-metrics-and-dimensions-reference}
+# Métricas de Mobile y referencia de dimensiones {#mobile-metrics-and-dimensions-reference}
 
-This information helps you understand more about the default mobile metrics and dimensions.
+Esta información le ayuda a conocer mejor las métricas y dimensiones móviles predeterminadas.
 
 >[!TIP]
 >
->The dimension and metric permissions that are set in Adobe Analytics apply to Mobile Services. When you try to run a report without the proper permissions, an error occurs.
+>Los permisos de dimensiones y métricas que se establecen en Adobe Analytics se aplican a Mobile Services. Cuando intenta ejecutar un informe sin los permisos adecuados, se produce un error.
 
 ## Métricas {#section_6704C815147D44AF96151D626BEB813C}
 
-Here is the list of default mobile metrics:
+Esta es la lista de métricas móviles predeterminadas:
 
 * **Primeros lanzamientos**
 
@@ -38,28 +38,28 @@ Here is the list of default mobile metrics:
    Se activa cuando la aplicación se utiliza en un día concreto.
 
    >[!TIP]
-   >El evento de usuarios comprometidos diariamente no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
+   >El evento Usuarios implicados cada día no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
 
 * **Usuarios comprometidos mensualmente**
 
    Se activa cuando la aplicación se utiliza durante un mes.
 
    >[!TIP]
-   >El evento Usuarios comprometidos mensualmente no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
+   >El evento Usuarios implicados cada mes no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
 
 * **Inicios**
 
-   Se activa en una ejecución que no sea una instalación ni una actualización. También se activa cuando la aplicación se extrae del segundo plano. De forma predeterminada, se activa un inicio nuevo si la aplicación se encuentra en segundo plano durante cinco minutos o más. The amount of background time before triggering a new launch can be configured in **[!UICONTROL SDK Analytics Options]** on the Manage App Settings page. For more information, see the Session Timeout (Seconds) row in Configure SDK Analytics Options.**[](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
+   Se activa en una ejecución que no sea una instalación ni una actualización. También se activa cuando la aplicación se extrae del segundo plano. De forma predeterminada, se activa un inicio nuevo si la aplicación se encuentra en segundo plano durante cinco minutos o más. El período de tiempo de ejecución en segundo plano que transcurre antes de activarse un inicio nuevo se puede configurar en las **[!UICONTROL opciones de SDK Analytics]** en la página Administrar configuración de aplicación. Para obtener más información, consulte la fila *Tiempo de espera de sesión (segundos)* en [Configurar opciones de análisis de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
    >[!IMPORTANT]
-   >Because how visits in [!UICONTROL Adobe Analytics] and mobile app launches in [!UICONTROL Adobe Mobile Services] are calculated, you might see different results in reporting. Para obtener más información, consulte [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) (Comparar visitas e inicios de aplicaciones móviles).
+   >Los resultados obtenidos en los informes pueden diferir debido al modo en que se calculan las visitas en [!UICONTROL Adobe Analytics] y los inicios de las aplicaciones móviles en [!UICONTROL Adobe Mobile Services]. Para obtener más información, consulte [Compare Visits and Mobile App Launches](https://helpx.adobe.com/es/analytics/kb/compare-visits-and-mobile-app-launches.html) (Comparar visitas e inicios de aplicaciones móviles).
 
 * **Bloqueos**
 
    Se activa cuando la aplicación no se cierra correctamente. Este evento se envía cuando la aplicación se inicia después de haberse bloqueado.
 
    >[!TIP]
-   >Se considera que la aplicación se bloquea si no se llama al cierre.
+   >Se considera que la aplicación se bloquea si no se invoca el evento de cierre.
 
 * **Duración total de la sesión**
 
@@ -67,7 +67,7 @@ Here is the list of default mobile metrics:
 
 ## Dimensiones {#section_1784C7E859F64CCEB95C5DD1DCF5C98D}
 
-Here is the list of default mobile dimensions:
+Esta es la lista de dimensiones móviles predeterminadas:
 
 * **Install Date**
 
@@ -119,11 +119,11 @@ Here is the list of default mobile dimensions:
 
    >[!TIP]
    >
-   >Los inicios desde la última actualización no se almacenan automáticamente en una variable de Analytics. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
+   >Inicios desde la última actualización no se almacena automáticamente en una variable de Analytics. Debe crear una regla de procesamiento para copiar este valor en una variable de Analytics para la generación de informes.
 
 * **Nombre del dispositivo**
 
-   Almacena el nombre del dispositivo. In iOS, a comma-separated, two-digit string identifies the iOS device. El primer número representa la generación del dispositivo y el segundo número versiones diferentes miembros de la familia de dispositivos. Puede consultar la lista completa de los nombres comunes de dispositivos en [iOS Device Versions](/help/ios/reference/device-versions.md) (Versiones de dispositivos iOS).
+   Almacena el nombre del dispositivo. En iOS, una cadena de dos dígitos separados por comas identifica el dispositivo iOS. El primer número representa la generación del dispositivo y el segundo representa versiones de miembros diferentes de la familia del dispositivo. Puede consultar la lista completa de los nombres comunes de dispositivos en [iOS Device Versions](/help/ios/reference/device-versions.md) (Versiones de dispositivos iOS).
 
 * **Nombre del operador de telefonía móvil**
 
