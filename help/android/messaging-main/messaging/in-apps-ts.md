@@ -2,12 +2,12 @@
 description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
-seo-title: Resolución de problemas de la mensajería en la aplicación
-solution: Marketing Cloud,Analytics
-title: Resolución de problemas de la mensajería en la aplicación
+seo-title: Resolución de problemas de mensajería en la aplicación
+solution: Experience Cloud,Analytics
+title: Resolución de problemas de mensajería en la aplicación
 topic: Métricas
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
@@ -21,7 +21,7 @@ Si ha completado todos los requisitos para la mensajería en la aplicación, per
 
 ## ¿Ha aplicado la nueva configuración y el nuevo SDK a la aplicación?
 
-Ensure that you have an [In-App Messaging](/help/android/messaging-main/messaging/messaging.md) section in your configuration (downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+Asegúrese de tener una sección [Mensajería en la aplicación](/help/android/messaging-main/messaging/messaging.md) en la configuración (archivo JSON descargado) o un punto final remoto Mensajes para que se pueda recuperar desde la administración dinámica de etiquetas.
 
 ## Mi mensaje de pantalla completa en Android no aparece. Estoy usando el SDK y la configuración correctos y mis activadores se están cumpliendo.
 
@@ -29,17 +29,17 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 ## Mi mensaje de notificación local en Android no funciona.
 
-Asegúrese de haber declarado en el manifiesto el receptor local de emisiones de notificación. For more information, see step 2 in *Enabling In-App Messaging* in [In-App Messaging](/help/android/messaging-main/messaging/messaging.md).
+Asegúrese de haber declarado en el manifiesto el receptor local de emisiones de notificación. Para obtener más información, consulte el paso 2 en *Activación de la mensajería en la aplicación* en [Mensajería en la aplicación](/help/android/messaging-main/messaging/messaging.md).
 
 ## ¿El mensaje está activo?
 
-Para comprobar si su mensaje está activo, vaya a la página Administrar mensaje en la aplicación y, en la columna **Estado**, compruebe la lista de mensajes.
+Para comprobar si su mensaje está activo, vaya a la página Administrar mensaje en la aplicación y, en la columna **[!UICONTROL Estado]**, compruebe la lista de mensajes.
 
-## Observe *mostrar una vez*, *mostrar siempre* y *mostrar la configuración sin conexión* en la ficha Audiencia.
+## En la pestaña Audiencia encontrará las opciones de configuración *Mostrar una vez*, *Mostrar siempre* y *Mostrar sin conexión*.
 
-Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **Activador], que le permiten especificar con qué frecuencia se muestran los mensajes.[!UICONTROL **
+Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **[!UICONTROL Activador]**, que le permiten especificar con qué frecuencia se muestran los mensajes.
 
-## Si se utiliza un evento de inicio como activador...
+## Si se usa el evento de inicio como activador...
 
 El inicio solo se desencadena en una nueva sesión. Para obtener más información acerca de cuándo comienza una sesión, consulte la fila `lifecycleTimeout` en la [configuración JSON](/help/android/configuration/json-config/json-config.md).
 
