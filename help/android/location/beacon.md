@@ -1,13 +1,13 @@
 ---
 description: El seguimiento de señalización le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
-keywords: android;biblioteca;móvil;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: El seguimiento de señalización le permite medir y segmentar microubicaciones empleando iBeacon y Bluetooth de baja energía.
 seo-title: Seguimiento de señalización
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de señalización
 topic: Desarrollador e implementación
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -19,7 +19,7 @@ El seguimiento de señalización le permite medir y segmentar microubicaciones e
 
 Los siguientes datos de señalización se envían a Analytics y Target cuando se llama a `trackBeacon`:
 
-* `a.beacon.uuid` - ProximityUUID de la señalización
+* `a.beacon.uuid`: ProximityUUID de la señalización
 * `a.beacon.major`: número mayor de la señalización (por ejemplo, número de almacén)
 * `a.beacon.minor`: número menor de la señalización (por ejemplo, un número exclusivo dentro de un almacén)
 * `a.beacon.prox`: los valores 0-3 representan la proximidad del usuario a la señalización.
@@ -33,11 +33,11 @@ Este es el significado de estos valores:
 
 Estos datos de señalización se capturan en variables de soluciones móviles.
 
-## Señalizaciones de seguimiento {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Seguimiento de señalizaciones {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* IntelliJ IDEA o Eclipse en la implementación [principal y el ciclo vital](/help/android/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Importe la biblioteca:
 
@@ -67,7 +67,7 @@ Estos datos de señalización se capturan en variables de soluciones móviles.
    Analytics.clearBeacon();
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además de los datos de señalización, puede enviar datos de contexto adicionales con cada llamada a `trackBeacon`:
 
@@ -77,7 +77,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 ```
 
-Los valores de datos de contexto deben asignarse a variables personalizadas en Adobe Mobile Services:
+El valor de los datos de contexto debe asignarse a variables personalizadas de la interfaz de Adobe Mobile Services:
 
 ![](assets/map-variable-context-ltv.png)
 
