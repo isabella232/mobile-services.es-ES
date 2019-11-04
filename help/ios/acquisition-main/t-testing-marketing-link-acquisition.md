@@ -1,24 +1,24 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
-keywords: android;library;mobile;sdk
-seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing basado en la huella de un dispositivo.
+description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
+keywords: android, biblioteca, mobile, móvil, sdk
+seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de vínculos de marketing
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
 topic: Desarrollador e implementación
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# Prueba de adquisición de vínculos de marketing{#testing-marketing-link-acquisition}
 
-Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing basado en la huella de un dispositivo.
+Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 
 1. Complete las tareas previas necesarias en [Adquisición de aplicación móvil](/help/ios/acquisition-main/acquisition.md).
-1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
+1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Generador de vínculos de marketing]** y genere una URL de vínculo de marketing de adquisición que establezca el App Store como destino para dispositivos iOS.
 
    Por ejemplo:
 
@@ -29,7 +29,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
 
-1. Open the generated link on the iOS device and open `https://c00.adobe.com/v3/<appid>/end`.
+1. Abra el vínculo generado en el dispositivo iOS y abra `https://c00.adobe.com/v3/<appid>/end`.
 
    Debería ver contextData en la respuesta JSON:
 
@@ -42,7 +42,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. `appid` should equal the  *`appid`* in your acquisition link. |
+   | adquisición | El servidor debe ser  `c00.adobe.com`. El `appid` debe coincidir con el *`appid`* del vínculo de adquisición. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 1. (Condicional) Si el ajuste SSL en el archivo de configuración de la aplicación está establecido en `false`, actualice el vínculo de adquisición para que utilice el protocolo HTTP en lugar de HTTPS.
@@ -59,9 +59,9 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   If you do not see these logs, verify that you completed steps 4 and 5.
+   Si no ve estos registros, compruebe que ha completado los pasos 4 y 5.
 
-   Here is some information about possible errors:
+   A continuación se ofrece información sobre posibles errores:
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`:
 
@@ -77,7 +77,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` is not included in `contextData`.
+      `a.referrer.campaign.name` no se incluye en `contextData`.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -95,12 +95,12 @@ Recuerde la información siguiente:
 
 * Cualquier variación en el usuario-agente enviado puede provocar el fallo de la atribución.
 
-   Ensure that  and  have the same user-agent values.`https://c00.adobe.com/v3/<appid>/start``https://c00.adobe.com/v3/<appid>/end`
+   Asegúrese de que `https://c00.adobe.com/v3/<appid>/start` y `https://c00.adobe.com/v3/<appid>/end` tengan los mismos valores de usuario-agente.
 
 * El vínculo de adquisición y la visita del SDK deben utilizar el mismo protocolo (HTTP o HTTPS).
 
-   Si el vínculo y la visita están utilizando diferentes protocolos, donde por ejemplo, el vínculo utiliza HTTP y el SDK utiliza HTTPS, la dirección IP puede diferir en algunos operadores para cada solicitud. Esto podría provocar el fallo de la atribución.
+   En caso contrario (por ejemplo, si el vínculo utiliza HTTP y el SDK utiliza HTTPS), las direcciones IP podrían diferir para cada solicitud (en algunos operadores). Esto podría provocar el fallo de la atribución.
 
-* The Marketing Links are cached on the server side with a ten-minutes expiration time.
+* Los vínculos de marketing se guardan en la memoria caché del servidor con una caducidad de 10 minutos.
 
-   When you make changes to Marketing Links, you should wait about 10 minutes before using the links.
+   Cuando realice cambios en los vínculos de marketing, espere unos 10 minutos para que los cambios surtan efecto para volver a utilizarlos.
