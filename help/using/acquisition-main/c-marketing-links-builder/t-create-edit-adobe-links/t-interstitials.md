@@ -3,11 +3,11 @@ description: Puede dirigir a los usuarios a un destino dependiendo de si tienen 
 keywords: móvil
 seo-description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
 seo-title: Intersticiales
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Intersticiales
 topic: Métricas
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -17,11 +17,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor que sean los usuarios quienes elijan las rutas. Los especialistas en marketing pueden proporcionar elecciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
 
-Para configurar un intersticial al creating a Marketing Link:
+Para configurar un intersticial al crear un vínculo de marketing:
 
-1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
+1. Haga clic en **[!UICONTROL Editar intersticial de vínculo profundo]**.
 
-   ![Intersticial de vínculo profundo](assets/interstitial2.png)
+   ![Intersticial de enlace profundo](assets/interstitial2.png)
 
 1. Rellene los campos siguientes:
 
@@ -29,19 +29,19 @@ Para configurar un intersticial al creating a Marketing Link:
 
       Seleccione su página HTML intersticial personalizada.
 
-      Mediante intersticiales personalizados, los especialistas en marketing pueden personalizar las páginas de aterrizaje intersticiales con HTML/CSS/JS personalizado, lo que le permite personalizar las páginas.
+      Mediante intersticiales personalizados, los especialistas en marketing pueden personalizar las páginas de aterrizaje intersticiales con HTML/CSS/JS personalizados, lo que les permite cambiar las páginas según requieran.
 
       Estos son los requisitos de la página HTML:
 
       * Debe ser un archivo HTML.
-      * Must contain the `%%DEST%%` and `%%FALLBACK%%` placeholders.
+      * Tiene que contener los marcadores de posición `%%DEST%%` y `%%FALLBACK%%`.
       * El HTML cargado se suministra en un `<iframe>`.
 
-         Debe asegurarse de que los objetivos del vínculo apunten a una ventana principal. You can include `<base target="_parent" />` in `<head>` or specify a target property for each `<a/>` individually.
+         Debe asegurarse de que los objetivos del vínculo apunten a una ventana principal. Puede incluir `<base target="_parent" />` en `<head>` o especificar una propiedad de destino por cada `<a/>` individualmente.
 
          >[!TIP]
          >
-         >Si carga HTML personalizado, las otras cuatro opciones de esta tabla no se utilizarán a menos que elimine el archivo cargado.
+         >Si carga HTML personalizado, las otras cuatro opciones de esta tabla solo se usan cuando elimina el archivo cargado.
    * **[!UICONTROL Dirección URL de imagen]**
 
       Especifique la URL para un recurso de imagen.
@@ -61,7 +61,7 @@ Para configurar un intersticial al creating a Marketing Link:
       Este campo actualiza el botón de texto si falla algún vínculo profundo. Los usuarios son dirigidos a probar el vínculo profundo antes de permitirles ir a otra opción. Por ejemplo, este texto alternativo podría servir para que una tienda de aplicaciones descargue e instale la aplicación o para llevar a los usuarios al sitio web de una compañía. El texto adicional permite a los usuarios saber que hay otra opción disponible si falla el vínculo profundo.
 
 
-1. (**Optional**) Click the icons above the image to see how the interstitial looks rotated and on different devices.
+1. (**Opcional**) Haga clic en los iconos que aparecen sobre la imagen para ver el aspecto del intersticial rotado y en otros dispositivos.
 
    Puede cambiar o editar la imagen fuera de Mobile Services para asegurarse de que la imagen se muestra correctamente en distintas situaciones.
 1. Haga clic en **[!UICONTROL Guardar]**.
