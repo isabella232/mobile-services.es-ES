@@ -1,31 +1,31 @@
 ---
 description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para Android de Adobe Mobile.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para Android de Adobe Mobile.
 seo-title: Seguimiento de vínculos profundos en Adobe Mobile Services
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Seguimiento de vínculos profundos
 topic: Desarrollador e implementación
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Tracking deep links {#tracking-deep-links}
+# Seguimiento de vínculos profundos {#tracking-deep-links}
 
 Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para Android de Adobe Mobile.
 
-## Tracking deep links
+## Seguimiento de vínculos profundos
 
 1. Añada el SDK al proyecto e implemente métricas del ciclo vital.
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core Implementation and Lifecycle.**[](/help/android/getting-started/dev-qs.md)
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto IntelliJ IDEA o Eclipse* en [Implementación principal y ciclo de vida](/help/android/getting-started/dev-qs.md).
 
 1. Registre la aplicación para gestionar direcciones URL.
 
-   For more information, see [URLs](https://developer.android.com/training/basics/intents/filters.html).
+   Para obtener más información, consulte [Direcciones URL](https://developer.android.com/training/basics/intents/filters.html).
 1. Transfiera la interpretación de las actividades con vínculo profundo al SDK de Adobe mediante `collectLifecycleData`.
 
    Este es un ejemplo de vínculo profundo de seguimiento:
@@ -42,9 +42,9 @@ Puede utilizar esta información para realizar un seguimiento de vínculos profu
    }
    ```
 
-The Adobe Mobile] SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. All key and value pairs of data that are appended to the link will be parsed, attached to a lifecycle hit, and sent to Adobe Analytics] as long as the link contains the `a.deeplink.id` key and value.
+El SDK de Adobe Mobile puede analizar pares de datos (claves y valores) que se adjuntan a cualquier vínculo profundo o universal, siempre que el vínculo contenga una clave con la etiqueta `a.deeplink.id` y un valor correspondiente no nulo y generado por el usuario. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo de duración y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
 
-Además, puede anexar una o más de las siguientes claves reservadas (con valores generados por el usuario) al vínculo profundo o universal:
+Además, puede adjuntar al vínculo profundo o universal una o más de las siguientes claves reservadas (con valores generados por el usuario):
 
 * `a.launch.campaign.trackingcode`
 * `a.launch.campaign.source`
@@ -52,13 +52,13 @@ Además, puede anexar una o más de las siguientes claves reservadas (con valore
 * `a.launch.campaign.term`
 * `a.launch.campaign.content`
 
-Estas claves son variables preasignadas para la realización de informes en Adobe Analytics. Para obtener más información sobre asignación y reglas de procesamiento, consulte [Reglas de procesamiento y datos de contexto](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Estas claves son variables preasignadas para la realización de informes en Adobe Analytics. Para obtener más información sobre asignación y reglas de procesamiento, consulte [Reglas de procesamiento y datos de contexto](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-## Tracking deferred deep links (for use with Marketing Links)
+## Seguimiento de vínculos profundos diferidos (para su uso con vínculos de marketing)
 
 Con un vínculo profundo diferido, el SDK de Adobe abrirá un nuevo objeto Intent con el vínculo profundo como dato de interpretación. Este proceso se gestiona como un vínculo profundo externo empleando el código anterior.
 
-## Deep link public information {#section_1815396353614DA8A63D8D92112217E7}
+## Información pública de vinculación profunda {#section_1815396353614DA8A63D8D92112217E7}
 
 ### Constantes
 
