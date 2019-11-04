@@ -1,28 +1,28 @@
 ---
 description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 seo-description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
-seo-title: Configuración del estado de exclusión del cliente
-solution: Marketing Cloud,Analytics
-title: Configuración del estado de exclusión del cliente
+seo-title: Configuración del estado de exclusión del usuario
+solution: Experience Cloud,Analytics
+title: Configuración del estado de exclusión del usuario
 topic: Desarrollador e implementación
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Setting the user's opt status {#setting-the-user-s-opt-status}
+# Configuración del estado de exclusión del usuario {#setting-the-user-s-opt-status}
 
 Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 
 >[!IMPORTANT]
 >
->Starting with Experience Cloud iOS SDKs 4.15, setting the privacy status to `unknown` holds Audience Manager and Experience Cloud ID hits.
+>A partir de la versión 4.15 de los SDK para iOS de Experience Cloud, establecer el estado de la privacidad en `unknown` resultará en la retención de los resultados de ID de Audience Manager y Experience Cloud.
 
 Puede controlar si la actividad de Analytics, Target y Audience Manager está permitida en un dispositivo mediante la siguiente configuración:
 
-* `privacyDefault` en [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+* `privacyDefault` en [la configuración JSON de ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
    Este ajuste controla la configuración inicial que persiste hasta que se cambia en el código.
 
@@ -39,7 +39,7 @@ Esta es la información sobre cada estado de privacidad:
    * Analytics: se envían las visitas.
    * Target: se envían las solicitudes mbox.
    * Audience Manager: se envían señales y sincronizaciones de ID.
-   * Value in the JSON config file: `optedin`
+   * Valor en el archivo de configuración de JSON: `optedin`
    * Valor en `setPrivacyStatus`: `ADBMobilePrivacyStatusOptIn`
 
 * **Desactivar**
@@ -47,7 +47,7 @@ Esta es la información sobre cada estado de privacidad:
    * Analytics: se descartan las visitas.
    * Target: no se permiten las solicitudes mbox.
    * Audience Manager: no se permiten señales y sincronizaciones de ID.
-   * Value in the JSON config file: `optedout`
+   * Valor en el archivo de configuración de JSON: `optedout`
    * Valor en `setPrivacyStatus`: `ADBMobilePrivacyStatusOptOut`
 
 * **Unknown**
@@ -58,7 +58,7 @@ Esta es la información sobre cada estado de privacidad:
 
    * Target: se envían las solicitudes mbox.
    * Audience Manager: se envían señales y sincronizaciones de ID.
-   * Value in the JSON config file: `optunknown`
+   * Valor en el archivo de configuración de JSON: `optunknown`
    * Valor en `setPrivacyStatus`: `ADBMobilePrivacyStatusUnknown`
 
 ## Ejemplos {#section_128AC455EE024193B5D4E5A565B53D00}
