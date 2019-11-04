@@ -1,13 +1,13 @@
 ---
-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
+description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
 keywords: móvil
-seo-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
+seo-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
 seo-title: Creación manual de vínculos de adquisición
-solution: Marketing Cloud,Analytics
-title: Manually create Acquisition links
+solution: Experience Cloud,Analytics
+title: Creación manual de vínculos de adquisición
 topic: Métricas
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 # Creación manual de vínculos de adquisición {#create-acquisition-link-manually}
 
-Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando manualmente los parámetros de URL.
+Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
 
 >[!IMPORTANT]
 >
->Esta función requiere la versión 4.6 o posterior del SDK. Para obtener más información, consulte Requisitos previos [de adquisición](/help/using/acquisition-main/c-acquisition-prerequisites.md).
+>Esta característica requiere la versión 4.6 o posterior del SDK. Para obtener más información, consulte [Requisitos previos de adquisición](/help/using/acquisition-main/c-acquisition-prerequisites.md).
 
-El diagrama siguiente ilustra los componentes de un vínculo de seguimiento generado manualmente y muestra los diferentes parámetros de URL que debe configurar correctamente al crear vínculos de adquisición manualmente.
+En el siguiente diagrama se ilustran los componentes de un vínculo de seguimiento incorporado manualmente, así como los diferentes parámetros de URL que debe configurar correctamente al crear vínculos de adquisición de forma manual.
 
 ![](assets/acquisition_url.png)
 
@@ -33,18 +33,18 @@ Para crear vínculos manualmente, use el formato URL siguiente:
 
 >[!TIP]
 >
->La versión del SDK de Android que está utilizando no tiene ningún impacto en este proceso.
+>La versión del SDK de Android que utiliza no tiene ningún efecto sobre este proceso.
 
 En el caso de iOS, asegúrese de usar el protocolo correcto:
 
-* Use **HTTP** if you are using the iOS SDKs before version 4.7.0, or if you are using iOS SDK 4.7.0 or later, and if **[!UICONTROL Use HTTPS]** is **not** selected on the Manage App Settings page.
-* Use **HTTPS** if you are using iOS SDK 4.7.0 or later and **[!UICONTROL Use HTTPS]** **is** selected on the Manage App Settings page.
+* Use **HTTP** si utiliza el SDK de iOS anterior a la versión 4.7.0 o el SDK 4.7.0 de iOS o posteriores y, además, **[!UICONTROL Utilizar HTTPS]** **no** está seleccionado en la página Administrar configuración de aplicación.
+* Use **HTTPS** si utiliza el SDK 4.7.0 de iOS o posteriores y, además, **[!UICONTROL Utilizar HTTPS]** **está** seleccionado en la página Administrar configuración de aplicación.
 
 Cuando se hayan cumplido las condiciones siguientes:
 
-* `{mobile-services-app-hash}` coincide con el identificador de la aplicación del `acquisition:appid ` archivo de configuración.
+* `{mobile-services-app-hash}` coincide con el identificador de la aplicación presente en el archivo de configuración `acquisition:appid `.
 
-   You can locate `{mobile-services-app-hash}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
+   Puede situar `{mobile-services-app-hash}` en la página Administrar configuración de aplicación en las opciones de SDK de adquisición del campo ID de seguimiento.
 
    ![](assets/tracking-id.png)
 
@@ -90,7 +90,7 @@ Esta es la lista de parámetros:
 
 * **`ctx*`**
 
-   Keys prefixed with `ctx` will be in the context data of the resulting launch hit.
+   Las claves con el prefijo `ctx` terminarán como datos de contexto de la petición de inicio resultante.
 
    * Valor de muestra: `ctxmy.custom.key=myValue`
 
@@ -114,33 +114,33 @@ Esta es la lista de parámetros:
 
    La fuente.
 
-   * Sample value: Ad Network
+   * Valor de muestra: Red de publicidad
 
 * **`ctxa.referrer.campaign.medium`**
 
    Medio
 
-   * Sample value: Email
+   * Valor de muestra: Correo electrónico
 
 * **`ctxa.referrer.campaign.content`**
 
    Contenido
 
-   * Sample value: Image # 325689
+   * Valor de muestra: Imagen n.º 325689
 
 * **`ctxa.referrer.campaign.term`**
 
    Término
 
-   * Sample value: hiking+boots
+   * Valor de muestra: botas+senderismo
 
 
-When you manually create acquisition links, remember the following information:
+Cuando cree vínculos de adquisición manualmente, recuerde la siguiente información:
 
 * Los parámetros que no coinciden con los de la tabla se transfieren como parte del redireccionamiento de tiendas de aplicaciones.
-* Todos los parámetros son técnicamente opcionales, aunque el vínculo no funcionará, si se especifica al menos un ID de tienda.
+* Todos los parámetros son técnicamente opcionales, aunque el vínculo no funcionará si se especifica, al menos, un ID de tienda.
 
-   An example of a store ID is `a_g_id`/ `a_i_id`.
+   Un ejemplo de ID de tienda sería `a_g_id`/ `a_i_id`.
 
 * Si la tienda de destino no se puede determinar automáticamente y no hay ninguna predeterminada, se devuelve el error 404.
 
