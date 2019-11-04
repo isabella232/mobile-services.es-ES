@@ -2,27 +2,27 @@
 description: Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-description: Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-title: Prueba de adquisición V3
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Prueba de adquisición V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Testing V3 acquisition{#testing-v-acquisition}
+# Prueba de adquisición V3{#testing-v-acquisition}
 
 Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 
 >[!IMPORTANT]
 >
-> Adquisición V3 se refiere a los vínculos de adquisición que crea con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para utilizar esta función, debe actualizar el SDK para iOS a la versión 4.6.0 o posterior.
+>Adquisición V3 se refiere a los vínculos de adquisición que crea con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para utilizar esta función, debe actualizar el SDK para iOS a la versión 4.6.0 o posterior.
 
 Si la aplicación móvil aún no está en el App Store al crearse el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo.
 
 1. Complete las tareas previas necesarias en [Adquisición de aplicación móvil](/help/ios/acquisition-main/acquisition.md).
-1. Vaya al **[!UICONTROL Generador de adquisición]en la interfaz de usuario de Adobe Mobile Services y genere una URL de campaña de adquisición.**
+1. Vaya al **[!UICONTROL Generador de adquisición]** en la interfaz de usuario de Adobe Mobile Services y genere una URL de campaña de adquisición.
 
    Por ejemplo:
 
@@ -40,17 +40,17 @@ Si la aplicación móvil aún no está en el App Store al crearse el vínculo de
    {"fingerprint":"228d7e6058b1d731dc7a8b8bd0c15e1d78242f31","timestamp":1457989293,"appguid":"","contextData":{"a.referrer.campaign.name":"name","a.referrer.campaign.trackingcode":"trackingcode"}}.
    ```
 
-   If you do not see `contextData`, or some of it is missing, ensure that the acquisition URL follows the format that is specified in [Create Acquisition Link Manually](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md).
+   Si no ve `contextData`, o si falta parte de la cadena, asegúrese de que la URL de adquisición sigue el formato indicado en [Crear vínculo de adquisición manualmente](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md).
 1. Compruebe que los siguientes ajustes del archivo de configuración son correctos:
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. *`appid`* should equal the *`appid`* in your acquisition link. |
+   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el *`appid`* del vínculo de adquisición. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 
 1. (Condicional) Si el ajuste `ssl` en el archivo de configuración de la aplicación está establecido en true, actualice el vínculo de adquisición para que utilice el protocolo HTTPS.
-1. Haga clic en el vínculo generado desde el dispositivo móvil en el que va a instalar la aplicación.
+1. Haga clic en el vínculo generado desde el dispositivo móvil en el que quiere a instalar la aplicación.
 
    Los servidores de Adobe (`c00.adobe.com`) almacenan la huella digital y redirigen al App Store. No es necesario descargar la aplicación para realizar pruebas.
 1. Inicie la aplicación por primera vez desde el mismo dispositivo móvil utilizado en el paso 6.
@@ -98,7 +98,7 @@ Se ha producido un error de red.
 
          >[!TIP]
          >
-         >Asegúrese de que `https://c00.adobe.com/v3/<appid>/start` y `https://c00.adobe.com/v3/<appid>/end` tenga los mismos valores de usuario-agente.
+         >Asegúrese de que `https://c00.adobe.com/v3/<appid>/start` y `https://c00.adobe.com/v3/<appid>/end` tengan los mismos valores de usuario-agente.
 
       * El vínculo de adquisición y la visita del SDK deben utilizar el mismo protocolo (HTTP o HTTPS).
 
