@@ -4,7 +4,7 @@ seo-description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS efe
 seo-title: Adobe Target para TVML/TVJS
 title: Adobe Target para TVML/TVJS
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -16,34 +16,34 @@ Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS efectuando reemplazo
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. Para obtener más información, consulte Implementación de [Apple TV con tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
+>Antes de usar el elemento `ADBTarget` en sus páginas TVML, debe configurar la aplicación TVML/TVJS para que utilice el SDK para tvOS. Para obtener más información, consulte [Implementación de Apple TV con tvOS](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
 
 ## Primeros pasos {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
-1. Identify the `.xml` file in which you want to use your Target location.
-1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
-1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
+1. Identifique el archivo `.xml` en el que quiere utilizar su ubicación de Target.
+1. Agregue un elemento `ADBTarget` al archivo como secundario del elemento `<document>`.
+1. Si Target no encuentra su ubicación Mbox o si se excede el tiempo de respuesta, el valor entre las etiquetas `<ADBTarget>`y `</ADBTarget>` se utiliza como contenido predeterminado.
 
-## Configure your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
+## Configuración de Mbox en Target {#section_F2DA140C34B0421D976046F825B23123}
 
-The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
+El contenido devuelto desde Target reemplaza todo el contenido entre `<ADBTarget>` y `</ADBTarget>`, incluidas ambas etiquetas `ADBTarget`.
 
 >[!TIP]
 >
->You should plan what you want to replace accordingly.
+>Debe planificar en consecuencia qué desea reemplazar.
 
 Su caso de uso podría ser tan sencillo como sustituir un valor de cadena en una etiqueta, o tan complejo como reemplazar una página entera.
 
-## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configurar el elemento ADBTarget {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
-En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox`mbox. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
+En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox`mbox. Si lo desea, puede agregar propiedades personalizadas a la solicitud con el formato `customParameterName="customParameterValue"`.
 
 * **`mbox`**
 
    Nombre de su ubicación Mbox.
 
    * Tipo de propiedad: Cadena
-   * Esta propiedad es obligatoria.
+   * Esta es una propiedad obligatoria.
 
 * **`id`**
 
@@ -63,7 +63,7 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
    Una lista separada por comas del ID de los productos adquiridos en este pedido.
 
-   * Este es el ejemplo de código de esta propiedad:
+   * Este es un ejemplo de código para esta propiedad:
 
 
       ```objective-c
@@ -75,9 +75,9 @@ En el elemento `ADBTarget`, debe proporcionar el nombre de en la propiedad `mbox
 
 * **`mboxParameters`**
 
-   Una lista de pares clave-valor para `mboxParameters`. Each entry in this string is separated by a semicolon, and key-values are separated by a colon.
+   Una lista de pares clave-valor para `mboxParameters`. Cada entrada en la cadena se separa con un punto y coma, mientras que los elementos clave-valor se separan con dos puntos.
 
-   * Here is the code sample for this property:
+   * Este es un ejemplo de código para esta propiedad:
 
       ```objective-c
       mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
