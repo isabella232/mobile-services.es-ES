@@ -3,11 +3,11 @@ description: Esta información sirve para comprender y usar Adobe Mobile Service
 keywords: móvil
 seo-description: Esta información sirve para comprender y usar Adobe Mobile Services.
 seo-title: Primeros pasos
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Primeros pasos
 topic: Métricas
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -41,7 +41,7 @@ Adobe Mobile Services ayuda a aumentar la participación en su aplicación móvi
 
 En *Adquirir* se usan medios de pago, en propiedad y obtenidos para fomentar la adquisición de usuarios en las descargas de la aplicación desde las principales tiendas de aplicaciones. Con Adobe Mobile Services, puede acelerar el proceso de adquisición de usuarios de la aplicación.
 
-Adobe Mobile Services ofrece flujos de trabajo de adquisición de usuarios, incluido el seguimiento de las adquisiciones y los vínculos profundos, que miden la eficacia de los canales a la hora de adquirir usuarios de la aplicación. Con los vínculos de marketing que rastrean qué usuarios provienen de qué canal, puede obtener visibilidad sobre qué canales de adquisición son los más eficaces para impulsar a los usuarios rentables y comprometidos.
+Adobe Mobile Services ofrece flujos de trabajo de adquisición de usuarios, incluido el seguimiento de las adquisiciones y los vínculos profundos, que miden la eficacia de los canales a la hora de adquirir usuarios de la aplicación. Gracias a los vínculos de marketing que hacen un seguimiento de los canales de los que proceden los usuarios, podrá ver qué canales de adquisición son los más eficaces para fomentar la captación de usuarios rentables y leales.
 
 Además, con los vínculos profundos, puede llevar a los usuarios directamente al contenido de la aplicación que desea que vean e invitarlos a que la instalen si es necesario.
 
@@ -111,7 +111,7 @@ Para obtener más información sobre cómo crear mensajes en la aplicación, con
 
 En *Optimizar*, puede potenciar las conversiones (suscripciones, comercio, ingresos de anuncios, etc.) y mejorar la retención de clientes. Optimizar la experiencia de usuario en la aplicación sirve para personalizar el contenido a fin de lograr las máximas conversiones y la máxima rentabilidad de la inversión.
 
-Para obtener más información sobre las pruebas y Adobe Target, vaya a [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html).
+Para obtener más información sobre las pruebas y Adobe Target, vaya a [Adobe Target](https://docs.adobe.com/content/help/es-ES/target/using/target-home.html).
 
 ### Segmentación geográfica
 
@@ -121,7 +121,7 @@ Ahora, Adobe Target para aplicaciones móviles aprovecha al máximo las funcione
 
 Para obtener más información sobre la ubicación, consulte los siguientes temas:
 
-* [Location in the Mobile Services user's guide](/help/using/location/c-location-overview.md)
+* [Ubicación en la guía del usuario de Mobile Services](/help/using/location/c-location-overview.md)
 * [Ubicación en la guía de SDK para Android.](/help/android/location/location.md)
 * [Ubicación en la guía de SDK para iOS.](/help/ios/location/location.md)
 
@@ -158,4 +158,4 @@ El SDK de Adobe Mobile ofrece las siguientes funciones:
    * Minimiza la carga de procesamiento del dispositivo para enviar datos a los servidores de Adobe y a sistemas de terceros.
    * Huella reducida que minimiza el tamaño del paquete de aplicación que se envía a las tiendas de aplicaciones.
 
-Para obtener más información sobre los SDK de Adobe Mobile, consulte [SDK de Android para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) y [SDK de iOS para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html).
+Para obtener más información sobre los SDK de Adobe Mobile, consulte [SDK de Android para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html) y [SDK de iOS para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/rel-notes.html).
