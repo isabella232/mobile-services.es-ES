@@ -2,26 +2,26 @@
 description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-description: Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 seo-title: Reglas de procesamiento y datos de contexto
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic: Desarrollador e implementación
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Processing rules and context data{#processing-rules-and-context-data}
+# Reglas de procesamiento y datos de contexto{#processing-rules-and-context-data}
 
 Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 
 Para obtener más información, consulte el contenido siguiente:
 
 * [Formación de reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
-* Obtener autorización para utilizar reglas de procesamiento
+* Obtenga autorización para utilizar reglas de procesamiento
 
-   Para obtener más información sobre las reglas de procesamiento, consulte Introducción a las reglas [de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 Al trabajar con reglas de procesamiento, recuerde la información siguiente:
 
@@ -63,5 +63,5 @@ Al trabajar con reglas de procesamiento, recuerde la información siguiente:
 
 >[!TIP]
 >
->Adobe se reserva el espacio de nombres " `a.`". Aparte de esta restricción, y para evitar conflictos, el único requisito adicional es que las variables de los datos de contexto sean exclusivas en su empresa de inicio de sesión.
+>Adobe reserva el espacio de nombres "`a.`". Aparte de esta restricción, y para evitar conflictos, el único requisito adicional es que las variables de los datos de contexto sean exclusivas en su empresa de inicio de sesión.
 
