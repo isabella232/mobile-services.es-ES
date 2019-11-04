@@ -1,33 +1,33 @@
 ---
 description: Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
-keywords: android;biblioteca;móvil;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
-seo-title: Adobe Experience Platform Identity Service methods
-solution: Marketing Cloud,Analytics
-title: Adobe Experience Platform Identity Service methods
+seo-title: Métodos del servicio de ID de Adobe Experience Platform
+solution: Experience Cloud,Analytics
+title: Métodos del servicio de ID de Adobe Experience Platform
 topic: Desarrollador e implementación
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
 
 
-# Adobe Experience Platform Identity Service methods{#experience-cloud-id-service-methods}
+# Métodos del servicio de ID de Adobe Experience Platform{#experience-cloud-id-service-methods}
 
 Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de identidad de la plataforma Adobe Experience.
+Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de ID de Adobe Experience Platform.
 
-Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
+Los métodos tienen un prefijo de acuerdo con la solución. Por ejemplo, los métodos de Experience Cloud ID llevan el prefijo `visitor`. Para obtener más información, consulte [Configuración de Experience Cloud ID](/help/android/c-marketing-cloud/mcvid.md).
 
 * **public static String appendToURL(final String URL)**
 
-   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Para utilizar este método, debe tener la versión 4.12 del SDK de Mobile o una posterior. Para obtener más información, consulte [Función Asistente de agregación de ID de visitante](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html).
+   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Para utilizar este método, debe tener la versión 4.12 del SDK de Mobile o una posterior. Para obtener más información, consulte [Función Asistente de agregación de ID de visitante](https://marketing.adobe.com/resources/help/es_ES/mcvid/mcvid-appendvisitorid.html).
 
    >[!IMPORTANT]
    >
-   >Este método puede provocar una llamada de red de bloqueo. No realice esta llamada en subprocesos en los que el tiempo sea importante.
+   >Este método puede provocar una llamada que bloquee la red. No realice esta llamada en subprocesos en los que el tiempo sea importante.
 
    * Esta es la sintaxis para este método:
 
@@ -66,11 +66,11 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
       >[!IMPORTANT]
       >
-      >This method can cause a blocking network call and should **not** be called from a UI thread.
+      >Este método puede provocar una llamada que bloquee la red, de modo que **no** debe utilizarse desde un subproceso de interfaz de usuario.
 
 * **syncIdentifiers**
 
-   Con el Experience Cloud ID, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios identificadores de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos identificadores de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
+   Con el Experience Cloud ID, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -149,7 +149,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
 * **getUrlVariablesAsync**
 
-   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see Adobe Experience Platform Identity Service methods.[](/help/android/reference/hybrid-app.md)
+   Este método, introducido en la versión 4.16.0, devuelve una cadena formada correctamente que contiene variables de URL del servicio de ID de visitante. Para obtener más información sobre cómo se utiliza este método, consulte [Métodos del servicio de identidad de Adobe Experience Platform](/help/android/reference/hybrid-app.md).
 
    * Esta es la sintaxis para este método:
 
@@ -170,7 +170,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       });
       ```
 
-## Public methods {#section_8AC744B431A3438C9B45629CA3EA0F51}
+## Métodos públicos {#section_8AC744B431A3438C9B45629CA3EA0F51}
 
 ```java
 public class VisitorID { 
