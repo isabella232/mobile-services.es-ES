@@ -1,26 +1,26 @@
 ---
 description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
-seo-title: iOS Target Methods for Adobe Mobile Services
-solution: Marketing Cloud,Analytics
+seo-title: Métodos de Target de iOS para Adobe Mobile Services
+solution: Experience Cloud,Analytics
 title: Métodos de Target para iOS
 topic: Desarrollador e implementación
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
 
-# Target methods for iOS {#target-methods}
+# Métodos de Target para iOS {#target-methods}
 
 Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
 
-The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Los métodos tienen un prefijo que depende de la solución. Por ejemplo, los métodos de llevan el prefijo `target`target.
+Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de ID de Adobe Experience Platform. Los métodos tienen un prefijo que depende de la solución. Por ejemplo, los métodos de llevan el prefijo `target`target.
 
 >[!TIP]
 >
->Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). If you are sending Target requests inside the  delegate method, add a  or  call before the Target implementation code. `didFinishLaunching``[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` This way, the Target requests will contain the complete lifecycle data.
+>Las métricas del ciclo vital se envían como parámetros a cada carga mbox. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). Si está enviando solicitudes de Target dentro del método `didFinishLaunching` delegado, agregue una llamada `[ADBMobile trackAction:data:]` o `[ADBMobile trackState:data:]` antes del código de implementación de Target. De este modo, las solicitudes de Target contendrán todos los datos del ciclo vital.
 
 ## Referencia de clase: ADBTargetLocationRequest
 
@@ -36,7 +36,7 @@ NSMutableDictionary *parameters;
 
 >[!TIP]
 >
->Las siguientes constantes facilitan el uso al definir claves para parámetros personalizados.
+>Las siguientes constantes facilitan el establecimiento de claves para parámetros personalizados.
 
 ```iOS
 NSString *const ADBTargetParameterOrderId; 
@@ -52,17 +52,17 @@ NSString *const ADBTargetParameterMboxHost;
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [Input Parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations.
+>* Si utiliza algún SDK **anterior** a la versión 4.14.0, consulte [Parámetros de entrada](https://developers.adobetarget.com/api/#input-parameters) para obtener información sobre las limitaciones de parámetros.
    >
    >
-* If you are using SDKs version 4.14.0 **or after**, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations.
+* Si utiliza algún SDK de la versión 4.14.0 **o posterior**, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters) para obtener información sobre las limitaciones de parámetros.
 
 
 ### Métodos
 
 * **targetLoadRequest:&#x200B;callback**
 
-   Sends request to your configured Target server and returns the string value of the offer that is generated in a block `callback`.
+   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una de bloque `callback`.
 
    * Esta es la sintaxis para este método:
 
@@ -99,7 +99,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    * Devuelve: N/A
 
-   * Here are the parameters for this method:
+   * Estos son los parámetros de este método:
 
       * **`name`**
 
@@ -152,7 +152,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obtener más información sobre la API de Target subyacente, consulte Desarrolladores [de](https://docs.adobe.com/dev/products/target/reference/delivery.html)Adobe Target.
+      Para obtener más información sobre la API de Target subyacente, consulte [Desarrolladores de Adobe Target](https://docs.adobe.com/dev/products/target/reference/delivery.html).
 
 
 
@@ -191,7 +191,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 * **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
 
-   Creates an .`ADBTargetLocationRequest`
+   Crea un `ADBTargetLocationRequest`.
 
    * Esta es la sintaxis para este método:
 
@@ -264,7 +264,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    >[!TIP]
    >
-   >Since version 4.10.0 of the SDK, Target no longer uses cookies. Este método restablece thirdPartyID y sessionID.
+   >Desde la versión 4.10.0 del SDK, Target ya no utiliza cookies. Este método restablece thirdPartyID y sessionID.
 
    * Esta es la sintaxis para este método:
 
