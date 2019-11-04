@@ -1,28 +1,28 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
-keywords: android;biblioteca;móvil;sdk
-seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing en un dispositivo Android.
+description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
+keywords: android, biblioteca, mobile, móvil, sdk
+seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de vínculos de marketing
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
 topic: Desarrollador e implementación
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# Prueba de adquisición de vínculos de marketing{#testing-marketing-link-acquisition}
 
-Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta con un vínculo de marketing en un dispositivo Android.
+Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 
-Si la aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear Marketing Link. Esto solo afecta a la aplicación a la que lo redirige el servidor de adquisición, después de hacer clic en el vínculo de adquisición, pero no a la capacidad para probar el vínculo de adquisición. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
+Si su aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de marketing. Esto solo afecta a la aplicación a la que lo redirige el servidor de adquisición, después de hacer clic en el vínculo de adquisición, pero no a la capacidad para probar el vínculo de adquisición. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
 
-The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
+Las pruebas siempre se deben realizar con la aplicación recién instalada, o después de borrar sus datos desde la **[!UICONTROL Configuración]**. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
-1. Complete the prerequisite tasks in [Mobile app acquisition](/help/android/acquisition-main/acquisition.md) and ensure that you have correctly implemented the broadcast receiver for `INSTALL_REFERRER`.
-1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. Complete las tareas previas en [Adquisición de aplicaciones móviles](/help/android/acquisition-main/acquisition.md) y asegúrese de que ha implementado correctamente el receptor de difusión de `INSTALL_REFERRER`.
+1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]** y cree un vínculo URL de marketing de adquisición que establezca Google Play como destino para dispositivos Android.
 
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -36,9 +36,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copy the unique ID after `utm_content%3D`.
+1. Copie el ID exclusivo después de `utm_content%3D`.
 
-   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
+   En el ejemplo anterior, el ID es `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
 
    Si no puede obtener el ID exclusivo en el dispositivo, ejecute el siguiente comando `CURL` en el equipo de escritorio para obtener el ID exclusivo de la cadena de respuesta.
 
@@ -69,7 +69,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | The server should be `c00.adobe.com`, and      *`appid`*  should equal the `appid` in your acquisition link. |
+   | acquisition | El servidor debe ser `c00.adobe.com`, y      *`appid`*  debe coincidir con el `appid` del vínculo de adquisición. |
    | analytics | Para realizar pruebas establezca un tiempo de espera del referente adecuado (60 segundos o más) para poder enviar manualmente la emisión. Tras la prueba, puede restablecer la configuración original del tiempo de espera. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
@@ -79,7 +79,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    adb shell
    ```
 
-1. Envíe una emisión utilizando el siguiente comando `adb`: 
+1. Envíe una emisión utilizando el siguiente comando `adb`:
 
    ```
    am broadcast -a com.android.vending.INSTALL_REFERRER -n com.adobe.android/com.adobe.android.YourBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<unique id get on step 5>"
@@ -127,7 +127,7 @@ Recuerde la información siguiente:
 
 Para instalar la herramienta Java:
 
-1. Download the [`acquistionTester.zip`](../assets/acquisitionTester.zip) file.
+1. Descargue el archivo [`acquistionTester.zip`](../assets/acquisitionTester.zip).
 1. Extraiga el archivo .jar.
 
    Puede ejecutar el archivo .jar en la línea de comandos.
@@ -138,4 +138,4 @@ Por ejemplo:
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
-Los vínculos de marketing se almacenan en la caché en el servidor con una caducidad de diez minutos. Cuando realice cambios en los vínculos de marketing, antes de poder usar los vínculos de nuevo espere unos 10 minutos para que los cambios entren en vigor.
+Los vínculos de marketing se guardan en la memoria caché del servidor con una caducidad de 10 minutos. Cuando realice cambios en los vínculos de marketing, antes de poder usar los vínculos de nuevo espere unos 10 minutos para que los cambios entren en vigor.
