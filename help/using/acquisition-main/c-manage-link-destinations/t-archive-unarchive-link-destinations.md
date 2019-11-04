@@ -3,24 +3,24 @@ description: Puede usar la página Destinos del vínculo para editar, archivar, 
 keywords: móvil
 seo-description: Puede usar la página Destinos del vínculo para editar, archivar, desarchivar o eliminar un destino existente.
 seo-title: Administrar destinos de vínculo
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Administrar destinos de vínculo
 topic: Métricas
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Manage link destinations{#manage-link-destinations}
+# Administrar destinos de vínculo{#manage-link-destinations}
 
 Puede usar la página Destinos del vínculo para editar, archivar, desarchivar o eliminar un destino existente.
 
 Para mostrar la página Administrar destinos de vínculo:
 
-1. In the Mobile Services UI, click **[!UICONTROL Manage Apps]**.
-1. En la página Información de la aplicación, haga clic en **[!UICONTROL Administrar destinos]** de vínculo.
+1. En la interfaz de usuario de Mobile Services, haga clic en **[!UICONTROL Administrar aplicaciones]**.
+1. En la página Información de la aplicación, haga clic en **[!UICONTROL Administrar destinos de vínculo]**.
 
    ![Destinos del enlace](assets/link_destinations_list.png)
 
@@ -28,17 +28,17 @@ Para mostrar la página Administrar destinos de vínculo:
 
    * **Edit**
 
-      Para editar un destino de vínculo existente, haga clic en su nombre en la lista y edite los campos correspondientes. Para obtener más información, consulte [Cree un nuevo destino](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)de vínculo.
+      Para editar un destino de vínculo existente, haga clic en su nombre en la lista y edite los campos correspondientes. Para obtener más información, consulte [Creación de un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
       >[!IMPORTANT]
       >
-      >It might take up to 15 minutes for these changes to take effect.
+      >Estos cambios podrían tardar hasta 15 minutos en surtir efecto.
 
    * **Archivar**
 
-      You can archive link destinations that you want to retain, but you want to remove from the **[!UICONTROL Link Destinations]** list.
+      Puede archivar los destinos de vínculo que quiera conservar pero eliminar de la lista **[!UICONTROL Destinos del vínculo]**.
 
-      To archive link destinations, select one or more check boxes next to the link names and click **[!UICONTROL Archive Selected]**. Dado que el destino del vínculo está archivado y se puede desarchivar en cualquier momento, no es necesario que confirme la acción.
+      Para archivar los destinos de vínculo, seleccione una o varias casillas de verificación junto a los nombres de los vínculos que quiera y haga clic en **[!UICONTROL Archivar seleccionados]**. Como el destino de vínculo se archiva y se puede desarchivar en cualquier momento, no necesita confirmar la acción.
 
    * **Desarchivar**
 
@@ -46,14 +46,14 @@ Para mostrar la página Administrar destinos de vínculo:
 
       Para desarchivar un destino de vínculo:
 
-      1. click **[!UICONTROL View Archive]**.
-      1. Select one or more check boxes next to the link names that you want to unarchive.
+      1. Haga clic en **[!UICONTROL Ver archivo]**.
+      1. Seleccione una o varias casillas de verificación junto a los nombres de los vínculos que desee desarchivar.
       1. Haga clic en **[!UICONTROL Desarchivar seleccionados]**.
-      La opción **[!UICONTROL Ver archivo]solo está visible si anteriormente archivó destinos de vínculo.**
+      La opción **[!UICONTROL Ver archivo]** solo está visible si anteriormente archivó destinos de vínculo.
 
    * **Eliminar**
 
-      To delete a link destination, select one or more check boxes next to the links you want to delete, click **[!UICONTROL Delete Selected]**, and click **[!UICONTROL Delete]** to confirm your action.
+      Para eliminar un destino de vínculo, seleccione una o varias casillas de verificación junto a los vínculos que quiera eliminar y haga clic en **[!UICONTROL Eliminar selección]** y luego en **[!UICONTROL Eliminar]** para confirmar la acción.
 
       >[!IMPORTANT]
       >
