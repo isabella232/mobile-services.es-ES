@@ -1,18 +1,18 @@
 ---
 description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
 seo-description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
-seo-title: Ubicación geográfica y puntos de interés
-solution: Marketing Cloud,Analytics
-title: Ubicación geográfica y puntos de interés
+seo-title: Geolocalización y puntos de interés
+solution: Experience Cloud,Analytics
+title: Geolocalización y puntos de interés
 topic: Desarrollador e implementación
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Geo-location and points of interest {#geo-location-and-points-of-interest}
+# Geolocalización y puntos de interés {#geo-location-and-points-of-interest}
 
 La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
 
@@ -24,25 +24,25 @@ Cada llamada a `trackLocation` envía lo siguiente:
 
 * Distancia al centro y precisión, pasados como datos de contexto.
 
-   Estas variables no se capturan de forma automática. You must map these context data variables by using the instructions in *Sending Additional Data* section below.
+   Estas variables no se capturan de forma automática. Debe asignar estas variables de datos de contexto según las instrucciones que aparecen en la sección *Envío de datos adicionales*.
 
 ## Actualización de puntos de interés dinámicos {#section_3747B310DD5147E2AAE915E762997712}
 
-A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. This synchronization requires an `analytics.poi` setting in the `ADBMobile.json` file:
+A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere una configuración `analytics.poi` en el archivo `ADBMobile.json`:
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-For more information, see ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
+Para obtener más información, consulte [Configuración JSON de ADBMobile](/help/ios/configuration/json-config/json-config.md).
 
-Si no se ha realizado esta configuración, debe descargar y agregar a la aplicación una versión actualizada del archivo `ADBMobile.json`. Para obtener más información e instrucciones, consulte *Descargar el SDK y las herramientas* de prueba en [Antes de iniciar](/help/ios/getting-started/requirements.md).
+Si no se ha realizado esta configuración, debe descargar y agregar a la aplicación una versión actualizada del archivo `ADBMobile.json`. Para obtener más información e instrucciones, consulte *Descargar el SDK y las herramientas de prueba* en [Antes de comenzar](/help/ios/getting-started/requirements.md).
 
-## Rastrear geolocalizaciones y puntos de interés {#section_B1616E400A7548F9A672F97FEC75AE27}
+## Seguimiento de geolocalización y puntos de interés {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. Agregue la biblioteca al proyecto e implemente el ciclo vital.
 
-   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración al proyecto* en Implementación [principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
+   Para obtener más información, consulte *Agregar el SDK y el archivo de configuración a su proyecto* en [Implementación principal y ciclo de vida](/help/ios/getting-started/dev-qs.md).
 1. Importe la biblioteca:
 
    ```objective-c
@@ -58,13 +58,13 @@ Si no se ha realizado esta configuración, debe descargar y agregar a la aplicac
 
    >[!TIP]
    >
-   >Puede llamar `trackLocation` en cualquier momento.
+   >Puede llamar a `trackLocation` en cualquier momento.
 
-   To determine the location that is passed to the  call, use Getting the User’s Location.`trackLocation`[](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)
+   Para determinar la ubicación que se pasa a la llamada a `trackLocation`, utilice [Obtención de ubicación del usuario](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
 
 Además, si se determina que la ubicación está en el radio de un punto de interés definido, se envía una variable de datos de contexto `a.loc.poi` junto a la visita de `trackLocation` y se comunica como punto de interés en los informes de ubicación. También se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## Envío de datos adicionales {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 Además de los datos de ubicación, puede enviar datos de contexto adicionales con cada llamada de seguimiento de ubicación:
 
@@ -74,11 +74,11 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-Los valores de datos de contexto deben asignarse a variables personalizadas:
+El valor de los datos de contexto debe asignarse a variables personalizadas:
 
 ![](assets/map-location-context-data.png)
 
-## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## Datos de contexto de ubicación {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 La latitud y la longitud se envían utilizando tres parámetros de datos de contexto diferentes, representando cada uno un nivel de precisión distinto, por lo que se tiene un total de seis parámetros de datos de contexto.
 
@@ -87,7 +87,7 @@ Por ejemplo, las coordenadas lat = 40.93231, lon = -111.93152 representan una ub
 * `a.loc.lat.a`= 040.9
 * `a.loc.lat.b` = 32
 * `a.loc.lat.c` = 31
-* `a.loc.lon.a` = -111.9
+* `a.loc.lon.a` = -111,9
 * `a.loc.lon.b` = 31
 * `a.loc.lon.c` = 52
 
@@ -97,7 +97,7 @@ Algunos niveles de precisión podrían aparecer como “00”, en función de la
 
 Recuerde la información siguiente:
 
-* A `trackLocation` request sends in the equivalent of a `trackAction` call.
+* Una solicitud de `trackLocation` envía el equivalente de una llamada a `trackAction`.
 
 * Los puntos de interés no se pasan como parte de llamadas normales a `trackAction` y `trackState`, por lo que debe utilizar una llamada a `trackLocation` para realizar el seguimiento de estos puntos.
 
