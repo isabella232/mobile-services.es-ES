@@ -2,12 +2,12 @@
 description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir sus eventos de éxito a las descargas.
 keywords: móvil
 seo-description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir sus eventos de éxito a las descargas.
-seo-title: Crear un vínculo de adquisición
-solution: Marketing Cloud,Analytics
-title: Crear un vínculo de adquisición
+seo-title: Creación un vínculo de adquisición
+solution: Experience Cloud,Analytics
+title: Creación un vínculo de adquisición
 topic: Métricas
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -17,25 +17,20 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir sus eventos de éxito a las descargas.
 
-1. Click **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Manage Acquisition Links]** &gt; **[!UICONTROL Create New]**.
-1. Type the following information in the **[!UICONTROL Link Information]** section:
+1. Haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Administrar vínculos de adquisición]** &gt; **[!UICONTROL Crear nuevo]**.
+1. Escriba la siguiente información en la sección **[!UICONTROL Información de vínculos]**:
 
-   * (**Required**) **[!UICONTROL Name]**
-Specify a descriptive name for the App Link.
-   * **[!UICONTROL Código]** de seguimiento Especifique el código de seguimiento deseado o haga clic en **[!UICONTROL Generar]** para crear un nuevo código de seguimiento.
-   * (**Required**) **[!UICONTROL Source]**
-Specify the original referrer, such as "newsletter" or "homepage."
-   * **[!UICONTROL Medium
-Specify the marketing medium, such as "banner" or "email."]**
-   * **[!UICONTROL Content
-Specify the name or ID of the ad with the link.]**
-   * **[!UICONTROL Term
-Specify paid terms or other search terms for the ad.]**
+   * (**Necesario**) **[!UICONTROL Nombre]** Especifique un nombre descriptivo para el vínculo de aplicación.
+   * **[!UICONTROL Código de seguimiento]** Especifique el código de seguimiento deseado, o bien haga clic en **[!UICONTROL Generar]** para crear un nuevo código de seguimiento.
+   * (**Necesario**) **[!UICONTROL Fuente]** Especifique el referente original, como “boletín” o “página principal”.
+   * **[!UICONTROL Medio]** Especifique el medio de marketing (por ejemplo, “banner” o “correo electrónico”).
+   * **[!UICONTROL Contenido]** Especifique el nombre o el ID de la publicidad con el vínculo.
+   * **[!UICONTROL Término]** Especifique los términos de pago u otros términos de búsqueda de la publicidad.
    >[!IMPORTANT]
    >
-   >Los valores de los campos anteriores no se pueden cambiar una vez creado el vínculo de adquisición.
+   >Los valores de los campos anteriores no se pueden cambiar una vez que se crea el vínculo de adquisición.
 
-1. Type information in the fields in the **[!UICONTROL Add App Store Link]** section.
+1. Rellene los campos de la sección **[!UICONTROL Agregar vínculo de tienda de aplicaciones]**.
 
    * **[!UICONTROL Tienda de aplicaciones]**
 
@@ -44,7 +39,7 @@ Specify paid terms or other search terms for the ad.]**
       * Google Play
       Las opciones de cada almacén de aplicaciones pueden variar, tal y como se describe a continuación.
 
-   * **[!UICONTROL Browser Region (Apple App Store Only)]**
+   * **[!UICONTROL Región del explorador (solo App Store de Apple)]**
 
       Especifique un almacén de aplicaciones regional concreta para los exploradores de escritorio.
 
@@ -58,11 +53,11 @@ Specify paid terms or other search terms for the ad.]**
 
    * **[!UICONTROL Buscar por nombre]**
 
-      * For the Apple App Store, if you do not know the App ID, you can search for the app by its name.
+      * En la App Store de Apple, si no conoce el ID de la aplicación, puede buscar la aplicación por su nombre.
 
-         Puede limitar la búsqueda mediante la selección de una región opcional en la lista desplegable **[!UICONTROL En la región].**
+         Puede limitar la búsqueda mediante la selección de una región opcional en la lista desplegable **[!UICONTROL En la región]**.
 
-      * En Google Play, si no conoce el nombre del paquete, puede buscar el nombre de la aplicación por su nombre.
+      * En el caso de Google Play, si no conoce el nombre del paquete, puede buscar la aplicación por su nombre.
    * **[!UICONTROL ID de la aplicación (solo App Store de Apple)]**
 
       Si ha buscado la aplicación, este campo se rellena automáticamente. Puede escribir el valor del ID de aplicación directamente en lugar de buscar la aplicación.
@@ -73,12 +68,12 @@ Specify paid terms or other search terms for the ad.]**
 
 
 
-1. To save your configuration and to generate the link, click **[!UICONTROL Add]** &gt; **[!UICONTROL Save]**.
+1. Para guardar la configuración y generar el vínculo, haga clic en **[!UICONTROL Agregar]** &gt; **[!UICONTROL Guardar]**.
 
-   El vínculo recién creado aparece en la sección **[!UICONTROL Vínculos a App Store].**
+   El vínculo recién creado aparece en la sección **[!UICONTROL Vínculos a App Store]**.
 
    ![vínculo de tienda](assets/apps_store_links.png)
 
-1. Click ![clipboard icon](assets/icon_clipboard.png) to copy the tracked link to your clipboard.
+1. Haga clic en ![icono de portapapeles](assets/icon_clipboard.png) para copiar el vínculo rastreado en el portapapeles.
 
-1. Pegue el vínculo en las publicaciones de medios sociales, las publicidades, los mensajes de correo electrónico, etc.
+1. Pegue el vínculo en las publicaciones de medios sociales, los anuncios, los mensajes de correo electrónico, etc.
