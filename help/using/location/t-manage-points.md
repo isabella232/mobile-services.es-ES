@@ -3,34 +3,34 @@ description: Puede crear y gestionar puntos de interés, los cuales permiten def
 keywords: móvil
 seo-description: Puede crear y gestionar puntos de interés, los cuales permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita.
 seo-title: Administrar puntos de interés
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Administrar puntos de interés
 topic: Métricas
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Manage points of interest {#manage-points-of-interest}
+# Administrar puntos de interés {#manage-points-of-interest}
 
-Puede crear y administrar puntos de interés, que le permiten definir ubicaciones geográficas que puede utilizar para fines de correlación, dirigir los mensajes en la aplicación, etc. When a hit is sent in a POI, the POI is attached to the hit.
+Puede crear y gestionar puntos de interés, los cuales permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Cuando se envía una visita en un punto de interés, este se adjunta a la visita.
 
 Antes de utilizar Ubicación, compruebe los siguientes requisitos:
 
 * Debe tener Analytics - Aplicaciones móviles o Analytics Premium.
-* Debe activar los **[!UICONTROL informes de ubicación]en la aplicación.**
-* If you are using a version of the iOS SDK or Android SDK older than version 4.2, after adding new **[!UICONTROL Points of Interest]**, you must download a new configuration file and give it to your app developers.
+* Debe activar los **[!UICONTROL informes de ubicación]** en la aplicación.
+* Si utiliza una versión del SDK de iOS o de Android anterior a la 4.2, después de agregar **[!UICONTROL puntos de interés]** nuevos, debe descargar un archivo de configuración nuevo y proporcionárselo a los desarrolladores de la aplicación.
 
-   If you are using the iOS SDK or Android SDK version 4.2 or later, you do not need to submit an app update to the store to update your **[!UICONTROL Points of Interest]**. On the Manage Points of Interest page, when you click Save, the changes are packaged to the Points of Interest list and the configuration file for the live app is updated. ******** Saving also updates the list of points in your app on the user devices, as long as the app uses the updated SDK and configuration with a remote POI URL.
+   Si utiliza la versión 4.2 u otra posterior del SDK de iOS o del SDK de Android, ya no tendrá que enviar una actualización de la aplicación a la tienda para actualizar los **[!UICONTROL puntos de interés]**. En la página Administrar puntos de interés, al hacer clic en **[!UICONTROL Guardar]**, los cambios se empaquetan en la lista de **[!UICONTROL puntos de interés]** y se actualiza el archivo de configuración de la aplicación activa. La acción de guardar también actualiza la lista de puntos de interés de su aplicación en los dispositivos del usuario, siempre que la aplicación utilice la configuración y el SDK actualizado con una URL de puntos de interés remota.
 
-On the user's device, for a hit to be assigned to a **[!UICONTROL Points of Interest]**, location must be enabled for the app.
+En el dispositivo del usuario, para que una visita se asigne a un **[!UICONTROL punto de interés]**, se debe activar la ubicación en la aplicación.
 
-Para utilizar Ubicación, realice las siguientes tareas:
+Para utilizar Ubicación, haga lo siguiente:
 
 1. Haga clic en el nombre de la aplicación para ir a la página Administrar configuración de aplicación correspondiente.
-1. Click **[!UICONTROL Location]** &gt; **[!UICONTROL Manage Points of Interest]**.
+1. Haga clic en **[!UICONTROL Ubicación]** &gt; **[!UICONTROL Administrar puntos de interés]**.
 
    ![Resultado de los pasos](assets/poi.png)
 
@@ -40,7 +40,7 @@ Para utilizar Ubicación, realice las siguientes tareas:
 
       Escriba el nombre del **[!UICONTROL punto de ubicación.]**
 
-      Podría ser el nombre de una ciudad o región. También puede crear un **[!UICONTROL punto de interés]para ubicaciones específicas, como recintos deportivos o empresas.**
+      Podría ser el nombre de una ciudad o región. También puede crear un **[!UICONTROL punto de interés]** para ubicaciones específicas, como recintos deportivos o empresas.
 
    * **[!UICONTROL Latitud]**
 
@@ -52,18 +52,18 @@ Para utilizar Ubicación, realice las siguientes tareas:
 
    * **[!UICONTROL Radio (metros)]**
 
-      Especifique el radio (en metros) alrededor del **[!UICONTROL punto de ubicación]que desea incluir.** For example, if you create a POI for Denver, Colorado, you can specify a radius large enough to include the city of Denver and the surrounding areas, but exclude Colorado Springs.
+      Especifique el radio (en metros) alrededor del **[!UICONTROL punto de ubicación]** que desea incluir. Por ejemplo, si crea un punto de interés para Denver, Colorado, puede especificar un radio lo suficientemente grande como para incluir la ciudad de Denver y las zonas circundantes, pero excluyendo Colorado Springs.
 
    * **[!UICONTROL Icono de mapa]**
 
-      Seleccione un icono que se mostrará en los informes [Información general](/help/using/location/c-location-overview.md) y [Mapa](/help/using/location/c-map-points.md) .
+      Seleccione un icono que se mostrará en los informes [Información general](/help/using/location/c-location-overview.md) y [Mapa](/help/using/location/c-map-points.md).
 
-1. Add additional POIs, as needed.
+1. Agregue más puntos de interés según necesite.
 
-   Le recomendamos que no agregue más de 5.000 puntos de interés. Si agrega más de 5000 puntos de interés, puede guardarlos, pero recibirá un mensaje de advertencia que le avisará de que lo más recomendable es tener menos de 5000.
+   Le recomendamos que no agregue más de 5000 puntos de interés. Si agrega más de 5000 puntos de interés, puede guardarlos, pero recibirá un mensaje de advertencia que le avisará de que lo más recomendable es tener menos de 5000.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-To delete one or more POIs, select the applicable check boxes, and click **[!UICONTROL Remove Selected]**.
+Para eliminar uno o varios puntos de interés, seleccione las casillas de verificación correspondientes y haga clic en **[!UICONTROL Eliminar selección]**.
 
-Click **[!UICONTROL Import]** or **[!UICONTROL Export]** to work with the data by using a `.csv` file instead of using the Adobe Mobile user interface.
+Haga clic en **[!UICONTROL Importar]** o **[!UICONTROL Exportar]** para trabajar con los datos mediante el uso de un archivo `.csv` en lugar de utilizar la interfaz de usuario de Adobe Mobile.
