@@ -2,22 +2,22 @@
 description: La siguiente información le ayuda a realizar una campaña de adquisición de elementos heredados de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-description: La siguiente información le ayuda a realizar una campaña de adquisición de elementos heredados de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de elementos heredados
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Testing legacy acquisition {#testing-legacy-acquisition}
+# Prueba de adquisición de elementos heredados {#testing-legacy-acquisition}
 
 La siguiente información le ayuda a realizar una campaña de adquisición de elementos heredados de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 
 Si la aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de campaña. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo.
 
-1. Vaya a **[!UICONTROL Uso de vínculos de adquisición de elementos heredados]en Adobe Mobile Services y genere una URL de campaña de adquisición.**
+1. Vaya a **[!UICONTROL Uso de vínculos de adquisición de elementos heredados]** en Adobe Mobile Services y genere una URL de campaña de adquisición.
 
    Para obtener más información, consulte [Uso de vínculos de adquisición de elementos heredados](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md).
 
