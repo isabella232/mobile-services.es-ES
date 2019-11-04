@@ -4,7 +4,7 @@ seo-description: La función de recuperación previa de Adobe Target usa los SDK
 seo-title: Recuperación previa del contenido de ofertas en Android
 title: Recuperación previa del contenido de ofertas en Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
 ---
@@ -16,15 +16,15 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para A
 
 >[!IMPORTANT]
 >
->La funcionalidad de recuperación previa en los SDK móviles para Android no es compatible con los tipos de actividad de segmentación automática, asignación automática y personalización automatizada en Adobe Target.
+>La funcionalidad de recuperación previa en los SDK móviles para Android no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
 Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target acerca de qué mbox visitó el usuario de una aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la memoria caché para todas las llamadas futuras que incluyan este contenido para el nombre de mbox especificado.
 
-El contenido de recuperación previa no persiste de un inicio a otro. The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
+El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>Las API de recuperación previa de Target han estado disponibles desde la versión 4.14.0 del SDK. Para obtener más información sobre las limitaciones de parámetros, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters).
 
 En la versión 4.14 o posterior del SDK, si se especifica, el `environmentId``ADBMobileConfig.json` se selecciona del archivo al iniciar una llamada TnT mbox de lote v2. Si no se especifica un `environmentId` en este archivo, no se envía ningún parámetro de entorno en la llamada mbox de lote TNT y se entrega una oferta para el entorno predeterminado.
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Pre-fetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Métodos de recuperación previa {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 A continuación encontrará los métodos que puede utilizar para la recuperación previa en Android:
 
@@ -56,7 +56,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
       final TargetCallback<Boolean> callback)
       ```
 
-   * Here are the parameters for this method:
+   * Estos son los parámetros de este método:
 
       * **targetPrefetchArray**
 
@@ -68,7 +68,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
 
       * **callback**
 
-         Se invoca al completar la recuperación previa. Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
+         Se invoca al completar la recuperación previa. Devuelve `true` si la recuperación previa ha sido satisfactoria y `false` si la recuperación previa ha fallado.
 
 * **loadRequests**
 
@@ -76,7 +76,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
 
    >[!IMPORTANT]
    >
-   >Si el contenido de las ubicaciones solicitadas ya está en la caché, se devolverá inmediatamente en la llamada de retorno proporcionada. En caso contrario, el SDK enviará una solicitud de red a los servidores de Target para recuperar el contenido.
+   >Si el contenido de las ubicaciones solicitadas ya se ha almacenado en la memoria caché, se devolverá inmediatamente en la llamada de retorno proporcionada. En caso contrario, el SDK enviará una solicitud de red a los servidores de Target para recuperar el contenido.
 
    * Esta es la sintaxis para este método:
 
@@ -84,7 +84,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
       public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
       ```
 
-   * Here are the parameters for this method:
+   * Estos son los parámetros de este método:
 
       * **requestArray**
 
@@ -104,7 +104,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
       public static void clearPrefetchCache();
       ```
 
-   * There are no parameters for this method.
+   * No hay parámetros para este método.
 
 * **createTargetRequestObject**
 
@@ -136,7 +136,7 @@ A continuación encontrará los métodos que puede utilizar para la recuperació
       final Map<String, Object> productParams)
       ```
 
-## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## Clases públicas {#section_A273E53F069E4327BBC8CE4910B37888}
 
 Estas son las clases públicas que admiten la recuperación previa en Android:
 
@@ -152,18 +152,18 @@ Encapsula el nombre de mbox y los parámetros que se utilizan para la recuperaci
 * `mboxParameters`
 
    Colección de pares de clave-valor que se adjuntarán como `mboxParameters` para la solicitud de este `TargetPrefetchObject`.
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: Mapa`<String, Object>`
 
 * **`orderParameters`**
 
    Colección de pares de clave-valor que se adjuntarán al mbox actual bajo el nodo order.
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: Mapa `<String, Object>`
 
 * **`productParameters`**
 
    Colección de pares de clave-valor que se adjuntarán al mbox actual bajo el nodo product.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: Mapa `<String, Object>`
 
 
 ### Referencia de clase: TargetRequestObject
@@ -180,19 +180,19 @@ Esta clase encapsula el nombre de mbox, el contenido predeterminado, los paráme
 
    Colección de pares de clave-valor que se adjuntarán como `mboxParameters` para la solicitud de este  `TargetRequestObject`.
 
-   * **Type: Map`<String, Object>`**
+   * **Tipo: Mapa`<String, Object>`**
 
 * **`orderParameters`**
 
    Colección de pares de clave-valor que se adjuntarán al mbox actual bajo el nodo order.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: Mapa `<String, Object>`
 
 * **`productParameters`**
 
    Colección de pares de clave-valor que se adjuntarán al mbox actual bajo el nodo product.
 
-   * **Type: Map**`<String, Object>`
+   * **Tipo**: Mapa `<String, Object>`
 
 * **`defaultContent`**
 
@@ -204,10 +204,10 @@ Esta clase encapsula el nombre de mbox, el contenido predeterminado, los paráme
 
    Puntero de función al que se llamará cuando el contenido del `TargetRequestObject` determinado esté disponible.
 
-   * **Type: Target.TargetCallback**`<String>`
+   * **Tipo**: Target.TargetCallback`<String>`
 
 
-## Code sample {#section_BF7F49763D254371B4656E17953D520C}
+## Ejemplo de código {#section_BF7F49763D254371B4656E17953D520C}
 
 A continuación encontrará un ejemplo de cómo recuperar previamente contenido mediante los SDK para Android:
 
