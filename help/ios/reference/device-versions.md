@@ -2,23 +2,23 @@
 description: La siguiente tabla contiene la cadena de versión iOS que envían muchos de los dispositivos iOS.
 seo-description: La siguiente tabla contiene la cadena de versión iOS que envían muchos de los dispositivos iOS.
 seo-title: Versiones de dispositivo iOS
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Versiones de dispositivo iOS
 topic: Desarrollador e implementación
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# iOS device versions {#ios-device-versions}
+# Versiones de dispositivo iOS {#ios-device-versions}
 
 La siguiente tabla contiene la cadena de versión iOS que envían muchos de los dispositivos iOS.
 
 >[!IMPORTANT]
 >
->Esta lista se basa en pruebas internas e información en línea y puede contener imprecisiones o información incompleta.
+>Esta lista está basada en pruebas internas e información de Internet y podría contener imprecisiones o información incompleta.
 
 Para obtener más información acerca de dispositivos iOS, visite sitios como [The iPhone Wiki](https://theiphonewiki.com/wiki/Models).
 
