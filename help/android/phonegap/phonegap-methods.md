@@ -202,6 +202,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
    Envía una solicitud de recopilación de PII.
 
    * Esta es la sintaxis para este método:
+
    ```javascript
    ADB.collectPII(piiData,success, fail);
    ```

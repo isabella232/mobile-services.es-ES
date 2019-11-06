@@ -120,6 +120,7 @@ Devuelve el identificador de usuario generado de forma automática para Analytic
    >Esta llamada no envía una visita.
 
    * Esta es la sintaxis para este método:
+
    ```java
    publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
    ```

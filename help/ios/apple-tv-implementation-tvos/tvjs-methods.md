@@ -799,6 +799,7 @@ ADBMobileVisitorAuthenticationStateAuthentication. Entre los posibles valores es
          * Tipo: `String`
          * ID de tercero para usar en solicitudes de destino.
    * Este es un ejemplo de código para este método:
+
    ```objective-c
    ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
    ```

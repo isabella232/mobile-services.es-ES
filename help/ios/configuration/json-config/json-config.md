@@ -145,6 +145,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    Cada matriz de punto de interés (POI) guarda su nombre, latitud, longitud y radio del área (en metros). El nombre del punto puede ser cualquier cadena. Cuando se envía una llamada a `trackLocation`, si las coordinadas actuales se encuentran dentro de un punto de interés definido, se rellena una variable de datos de contexto que se envía junto con la llamada a `trackLocation`.
 
    * Versión mínima del SDK: 4.0
+
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]
