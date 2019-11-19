@@ -2,12 +2,12 @@
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-title: Configuración JSON de ADBMobile
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+translation-type: tm+mt
+source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 ---
 
@@ -70,7 +70,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://marketing.adobe.com/resources/help/es_ES/sc/implement/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
    * Versión mínima del SDK: 4.0
 
@@ -245,7 +245,11 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **ssl**
 
-   El valor predeterminado es `false`. Habilita (`true`) o deshabilita (`false`) la capacidad para enviar datos de medición mediante SSL (HTTPS).
+   >[!IMPORTANT]
+   >
+   > A partir de la versión 4.10.0, SSL tiene el valor predeterminado true si no se establece el indicador.
+
+   Habilita (`true`) o deshabilita (`false`) la capacidad para enviar datos de medición mediante SSL (HTTPS).
 
    Abajo se muestra la definición de la plantilla de mensaje "llamada de retorno":
 
