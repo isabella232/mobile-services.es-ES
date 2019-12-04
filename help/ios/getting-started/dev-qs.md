@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Implementación principal y ciclo vital
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
@@ -65,7 +65,7 @@ Para descargar el SDK:
 
 1. Haga clic en **[!UICONTROL Finalizar]**.
 1. En el **[!UICONTROL Navegador de proyectos]**, seleccione **`ADBMobileConfig.json`**.
-1. En el **[!UICONTROL Inspector de archivos],** agregue el archivo JSON a cualquier destino de su proyecto que vaya a utilizar el SDK de Adobe.
+1. En el **[!UICONTROL Inspector de archivos]**, agregue el archivo JSON a cualquier destino de su proyecto que vaya a utilizar el SDK de Adobe.
 
    ![](assets/step_4.png)
 
