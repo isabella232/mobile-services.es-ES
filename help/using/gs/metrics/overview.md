@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Mostrar las métricas móviles
 topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
@@ -53,7 +53,7 @@ Puede realizar las siguientes tareas en la página Información general:
 
 * **Mostrar los indicadores clave de rendimiento (KPI)**
 
-   Haga clic en el nombre de la aplicación para mostrar detalles sobre los indicadores clave de rendimiento. Las líneas del gráfico están codificadas por color. Puede pasar el ratón sobre el punto de datos para ver las estadísticas de una fecha determinada. To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. Las líneas del gráfico están codificadas por colores. Puede pasar el ratón sobre un punto de datos para ver estadísticas de una fecha determinada. Haga clic en un encabezado de columna para ordenar los datos de forma ascendente o descendente.
+   Haga clic en el nombre de la aplicación para mostrar detalles sobre los indicadores clave de rendimiento. Las líneas del gráfico están codificadas por color. Puede pasar el ratón sobre el punto de datos para ver las estadísticas de una fecha determinada. Para explorar en profundidad, haga clic en el icono situado junto a **[!UICONTROL Indicadores clave de rendimiento]**. Las líneas del gráfico están codificadas por colores. Puede pasar el ratón sobre un punto de datos para ver estadísticas de una fecha determinada. Haga clic en un encabezado de columna para ordenar los datos de forma ascendente o descendente.
 
 ## Edición de la configuración de una aplicación {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
