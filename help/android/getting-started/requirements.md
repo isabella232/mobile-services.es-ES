@@ -57,7 +57,7 @@ Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe I
 
 ### Adobe Analytics
 
-Haga clic en **[!UICONTROL Iniciar sesión en Analytics]**e introduzca su nombre de empresa de Analytics, el nombre de usuario y la contraseña.
+Haga clic en **[!UICONTROL Iniciar sesión en Analytics]** e introduzca su nombre de empresa de Analytics, el nombre de usuario y la contraseña.
 
 ## Crear un grupo de informes {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -66,15 +66,15 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 1. Inicie sesión en la interfaz de usuario de Mobile Services escribiendo [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) en un navegador.
 1. Click **[!UICONTROL Create an App]**.
 
-   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]**>**[!UICONTROL  Agregar]**.
+   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL  Agregar]**.
 
-1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione**[!UICONTROL  Nuevo grupo de informes]**.
+1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL  Nuevo grupo de informes]**.
 
 1. Introduzca el nombre de su aplicación y seleccione un tipo de grupo de informes.
 
    Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Es necesario que establezca grupos de informes y aplicaciones separados para las versiones de desarrollo y de producción, de modo que pueda repetir estos pasos cuando esté preparado para configurar la versión de producción.
 1. En **[!UICONTROL ID del grupo de informes]**, compruebe que se muestra el nombre del grupo de informes.
-1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción**[!UICONTROL  Plantilla de aplicación móvil]** esté seleccionada.
+1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción **[!UICONTROL  Plantilla de aplicación móvil]** esté seleccionada.
 
    Esta plantilla permite que las marcas de fecha y hora recopilen datos sin conexión y activar las variables de soluciones móviles para capturar métricas del ciclo vital.
 
@@ -85,20 +85,20 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 Para descargar el SDK de Mobile:
 
 1. inicie sesión en la interfaz de usuario de Mobile Services escribiendo [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) en un navegador.
-1. En el panel izquierdo, haga clic en la lista desplegable **[!UICONTROL Todas las aplicaciones]**y seleccione la aplicación.
+1. En el panel izquierdo, haga clic en la lista desplegable **[!UICONTROL Todas las aplicaciones]** y seleccione la aplicación.
 También puede seleccionar la aplicación en el panel derecho.
 
    >[!IMPORTANT]
    >
    >Para ver la aplicación en el panel derecho, primero debe crear una aplicación. Para obtener información sobre la creación de una aplicación, consulte [Agregar una aplicación nueva.](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)
 
-1. En la aplicación, en el panel izquierdo, haga clic en **[!UICONTROL Administrar configuración]**de aplicación.
+1. En la aplicación, en el panel izquierdo, haga clic en **[!UICONTROL Administrar configuración]** de aplicación.
 
    >[!IMPORTANT]
    >
-   >Si no ve la opción **[!UICONTROL Administrar configuración]**de aplicación, asegúrese de haber iniciado sesión en Adobe Mobile Services. Para verificarlo, haga clic en el icono del conmutador![de](assets/solution-switcher.png)soluciones en la parte superior derecha de la página y asegúrese de que**[!UICONTROL  Adobe Mobile Services]** se muestra en la parte superior izquierda.
+   >Si no ve la opción **[!UICONTROL Administrar configuración]** de aplicación, asegúrese de haber iniciado sesión en Adobe Mobile Services. Para verificarlo, haga clic en el icono del conmutador ![de](assets/solution-switcher.png)soluciones en la parte superior derecha de la página y asegúrese de que **[!UICONTROL  Adobe Mobile Services]** se muestra en la parte superior izquierda.
 
-1. En la parte inferior de la página Administrar configuración de aplicación, en la sección Descargas **[!UICONTROL del SDK de la]**aplicación, descargue el SDK y la aplicación de ejemplo para su plataforma.
+1. En la parte inferior de la página Administrar configuración de aplicación, en la sección Descargas **[!UICONTROL del SDK de la]** aplicación, descargue el SDK y la aplicación de ejemplo para su plataforma.
 
 >[!TIP]
 >
