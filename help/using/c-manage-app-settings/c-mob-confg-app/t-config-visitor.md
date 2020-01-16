@@ -8,14 +8,14 @@ title: Configuración de las opciones del SDK de servicio de ID
 topic: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 translation-type: tm+mt
-source-git-commit: 27b9b262876271ba8bdec27e5d27b802082a43f4
+source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 ---
 
 
 # Configuración de las opciones del SDK de servicio de ID {#configure-sdk-id-service-options}
 
-Puede configurar las opciones del servicio de identidad de Adobe Experience Platform en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
+Puede configurar las opciones del servicio de identidad de Adobe Experience Cloud en la página Administrar configuración de aplicación al crear una aplicación nueva o editar una existente.
 
 1. Type information in the following fields under **[!UICONTROL Visitor ID Service]**:
 
