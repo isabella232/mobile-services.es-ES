@@ -1,14 +1,14 @@
 ---
 description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición Versión 3
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Prueba de adquisición Versión 3
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -23,10 +23,15 @@ Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelt
 
 Si la aplicación móvil aún no está en Google Play al crearse el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
 
+>[!IMPORTANT]
+>
+>Si va a realizar la implementación mediante las API de Google Play Install Referrer, no podrá probar la adquisición antes de que la aplicación esté en Google Play Store.
+
 Las pruebas siempre se deben realizar con la aplicación recién instalada, o después de borrar sus datos desde la **[!UICONTROL Configuración]**. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
 1. Complete las tareas previas en [Adquisición de aplicaciones móviles](/help/android/acquisition-main/acquisition.md) y asegúrese de que ha implementado correctamente el receptor de difusión de `INSTALL_REFERRER`.
-1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]** y cree un vínculo URL de marketing de adquisición que establezca Google Play como destino para dispositivos Android.
+
+1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -63,7 +68,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    | Configuración | Valor |
    |--- |--- |
-   | adquisición | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el `appid` del vínculo de adquisición. |
+   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`*debe coincidir con el`appid`del vínculo de adquisición. |
    | analytics | Para realizar pruebas establezca un tiempo de espera del referente adecuado (60 segundos o más) para poder enviar manualmente la emisión. Tras la prueba, puede restablecer la configuración original del tiempo de espera. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
@@ -78,8 +83,8 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    1. Reemplace los valores asociados con `utm_content`.
    Si la emisión se realiza correctamente, recibirá una respuesta similar al siguiente ejemplo:
 
-   `Broadcasting: Intent 
-{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) } 
+   `Broadcasting: Intent
+{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) }
 Broadcast completed: result=0`
 
 1. (Opcional) Puede habilitar el registro de la depuración del SDK para obtener información adicional.
