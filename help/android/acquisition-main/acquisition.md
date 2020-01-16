@@ -1,14 +1,14 @@
 ---
 description: Los vínculos de adquisición con códigos de seguimiento únicos se pueden generar en Adobe Mobile Services. Cuando un usuario descarga y ejecuta una aplicación desde la tienda de aplicaciones después de hacer clic en el vínculo generado, el SDK recopila y envía automáticamente los datos de adquisición a Adobe Mobile Services.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Los vínculos de adquisición con códigos de seguimiento únicos se pueden generar en Adobe Mobile Services. Cuando un usuario descarga y ejecuta una aplicación desde la tienda de aplicaciones después de hacer clic en el vínculo generado, el SDK recopila y envía automáticamente los datos de adquisición a Adobe Mobile Services.
 seo-title: Adquisición de aplicación móvil
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Adquisición de aplicación móvil
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 ---
 
@@ -21,7 +21,7 @@ Los vínculos de adquisición con códigos de seguimiento únicos se pueden gene
 
 ¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
 
-En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Para empezar, vaya a Adobe Experience Platform Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
@@ -31,6 +31,91 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 >Para utilizar Acquisition **necesita** la versión 4.1 o posterior del SDK.
 
 Los vínculos de Acquisition se deben crear en Adobe Mobile Services. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
+
+**En las versiones 4.18.0 y posteriores del SDK**:
+
+A partir del 1 de marzo de 2020, Google dejará de utilizar el mecanismo de difusión por intención install_referrer. Para obtener más información, consulte [¿Todavía utiliza InstallBroadcast? Cambie a la API de Play Referrer para el 1 de marzo de 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). Para seguir recopilando información del referente de instalación de Google Play Store, actualice la aplicación para que utilice la versión 4.18.0 o posterior del SDK.
+
+Con la desaprobación, en lugar de crear un `BroadcastReceiver`, debe recopilar la URL del referente de instalación de una nueva API de Google y pasar la URL resultante al SDK.
+
+1. Agregue el paquete Google Play Install Referrer a las dependencias del archivo de gradle:
+
+   `implementation 'com.android.installreferrer:installreferrer:1.1'`
+
+1. Para recuperar la dirección URL del referente desde la API de instalación del referente, complete los pasos en [Obtención del referente](https://developer.android.com/google/play/installreferrer/library#install-referrer)de instalación.
+
+1. Pase la dirección URL del referente al SDK:
+
+   `Analytics.processGooglePlayInstallReferrerUrl(referrerUrl);`
+
+>[!IMPORTANT]
+>
+>Para evitar llamadas de API innecesarias en la aplicación, Google recomienda que solo invoque la API una vez inmediatamente después de la instalación.
+
+Para decidir la mejor manera de utilizar las API de Google Play Install Referrer en la aplicación, consulte la documentación de Google. A continuación se muestra un ejemplo de cómo utilizar el SDK de Adobe con las API de referencia de instalación de Google Play:
+
+```java
+void handleGooglePlayReferrer() {
+    // Google recommends only calling this API the first time you need it:
+    // https://developer.android.com/google/play/installreferrer/library#install-referrer
+
+    // Store a boolean in SharedPreferences to ensure we only call it once.
+    final SharedPreferences prefs = getSharedPreferences("acquisition", 0);
+    if (prefs != null) {
+        if (prefs.getBoolean("referrerHasBeenProcessed", false)) {
+            return;
+        }
+    }
+
+    final InstallReferrerClient referrerClient = InstallReferrerClient.newBuilder(getApplicationContext()).build();
+    referrerClient.startConnection(new InstallReferrerStateListener() {
+        private boolean complete = false;
+
+        @Override
+        public void onInstallReferrerSetupFinished(int responseCode) {
+            switch (responseCode) {
+                case InstallReferrerClient.InstallReferrerResponse.OK:
+                    // connection is established
+                    complete();
+                    try {
+                        final ReferrerDetails details = referrerClient.getInstallReferrer();                        
+
+                        // pass the install referrer url to the SDK
+                        Analytics.processGooglePlayInstallReferrerUrl(details.getInstallReferrer());
+
+                    } catch (final RemoteException ex) {
+                        Log.w("Acquisition - RemoteException while retrieving referrer information (%s)", ex.getLocalizedMessage() == null ? "unknown" : ex.getLocalizedMessage());
+                    } finally {
+                        referrerClient.endConnection();
+                    }
+                    break;
+                case InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
+                case InstallReferrerClient.InstallReferrerResponse.SERVICE_UNAVAILABLE:
+                default:
+                    // API not available in the Play Store app - nothing to do here
+                    complete();
+                    referrerClient.endConnection();
+                    break;
+            }
+        }
+
+        @Override
+        public void onInstallReferrerServiceDisconnected() {
+            if (!complete) {
+                // something went wrong trying to get a connection, try again
+                referrerClient.startConnection(this);
+            }
+        }
+
+        void complete() {
+            complete = true;
+            SharedPreferences.Editor editor = getSharedPreferences("acquisition", 0).edit();
+            editor.putBoolean("referrerHasBeenProcessed", true);
+            editor.apply();
+        }
+    });
+}
+```
 
 **En las versiones 4.13.1 y posteriores del SDK**:
 
@@ -50,13 +135,13 @@ Para recopilar datos de adquisición de una campaña estándar de Google Play Ac
 
    * Se utilizan los tipos de evento `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` o `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH`.
 
-   * A las claves personalizadas que eran parte de los datos de adquisición de Google Play se les agregará " `a.acquisition.custom.`"
+   * A las claves personalizadas que eran parte de los datos de adquisición de Google Play se les agregará &quot; `a.acquisition.custom.`&quot;
 
 Si está utilizando los vínculos de adquisición creados en Adobe Mobile Services, agregue datos personalizados al vínculo de adquisición realizando las siguientes tareas:
 
-1. Agregue a una variable de adquisición el prefijo " `adb`".
+1. Agregue a una variable de adquisición el prefijo &quot; `adb`&quot;.
 
-   Cuando el SDK reciba los datos de adquisición de Adobe Mobile Services (al iniciarse por primera vez), estos se almacenarán y estarán también disponibles en la instancia `AdobeDataCallback` registrada anteriormente en el SDK, como se mencionó en.[Métodos de configuración](/help/android/configuration/methods.md).
+   Cuando el SDK recibe los datos de adquisición de Adobe Mobile Services en el primer inicio, los datos se almacenan y están disponibles en la `AdobeDataCallback` instancia registrada anteriormente con el SDK. Para obtener más información, consulte [Métodos de configuración](/help/android/configuration/methods.md).
 
 1. Se utilizan los tipos de evento `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` o `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH`.
 
@@ -83,39 +168,39 @@ Las actualizaciones en esta sección permiten al SDK enviar datos de adquisició
 1. Implemente `BroadcastReceiver` para el referente:
 
    ```java
-   package com.your.package.name;  // replace with your app package name 
+   package com.your.package.name;  // replace with your app package name
    
-   import android.content.BroadcastReceiver; 
-   import android.content.Context; 
-   import android.content.Intent; 
+   import android.content.BroadcastReceiver;
+   import android.content.Context;
+   import android.content.Intent;
    
-   public class GPBroadcastReceiver extends BroadcastReceiver { 
-     @Override 
-     public void onReceive(Context c, Intent i) { 
-      com.adobe.mobile.Analytics.processReferrer(c, i); 
-     } 
+   public class GPBroadcastReceiver extends BroadcastReceiver {
+     @Override
+     public void onReceive(Context c, Intent i) {
+      com.adobe.mobile.Analytics.processReferrer(c, i);
+     }
    }
    ```
 
 1. Actualice `AndroidManifest.xml` para habilitar el `BroadcastReceiver` que se creó en el paso anterior:
 
    ```xml
-   <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-    <intent-filter> 
-     <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-    </intent-filter> 
+   <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
+    <intent-filter>
+     <action android:name="com.android.vending.INSTALL_REFERRER" />
+    </intent-filter>
    </receiver>
    ```
 
 1. Compruebe que el archivo `ADBMobileConfig.json` contiene la configuración de adquisición necesaria:
 
    ```xml
-   "acquisition": { 
-      "server": "c00.adobe.com", 
-      "appid": "0652024f-adcd-49f9-9bd7-2552a4565d2f" 
-   }, 
-   "analytics": { 
-     "referrerTimeout": 5, 
+   "acquisition": {
+      "server": "c00.adobe.com",
+      "appid": "0652024f-adcd-49f9-9bd7-2552a4565d2f"
+   },
+   "analytics": {
+     "referrerTimeout": 5,
      ...
    ```
 
