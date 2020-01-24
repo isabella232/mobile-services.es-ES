@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: Prueba de adquisición Versión 3
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
 
-# Prueba de adquisición V3{#testing-version-acquisition}
+# Prueba de adquisición V3 {#testing-version-acquisition}
 
 Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 
@@ -25,13 +25,13 @@ Si la aplicación móvil aún no está en Google Play al crearse el vínculo de 
 
 >[!IMPORTANT]
 >
->Si va a realizar la implementación mediante las API de Google Play Install Referrer, no podrá probar la adquisición antes de que la aplicación esté en Google Play Store.
+>Si va a realizar la implementación mediante las API del referente de instalación de Google Play, no podrá probar la adquisición antes de que la aplicación esté en la tienda Google Play.
 
 Las pruebas siempre se deben realizar con la aplicación recién instalada, o después de borrar sus datos desde la **[!UICONTROL Configuración]**. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
 1. Complete las tareas previas en [Adquisición de aplicaciones móviles](/help/android/acquisition-main/acquisition.md) y asegúrese de que ha implementado correctamente el receptor de difusión de `INSTALL_REFERRER`.
 
-1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Adquisición]**>**[!UICONTROL  Generador de vínculos de marketing]** y cree un vínculo URL de marketing de adquisición que establezca Google Play como destino para dispositivos Android.
 
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
