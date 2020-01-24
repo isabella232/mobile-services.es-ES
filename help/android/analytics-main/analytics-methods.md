@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Métodos de Analytics
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -237,7 +237,7 @@ Devuelve el identificador de usuario generado de forma automática para Analytic
 
 * **processReferrer**
 
-   Procesa los datos de campaña del referente desde la tienda Google Play para su uso posterior.
+   Procesa los datos de campaña del referente desde la tienda Google Play para utilizarlo posteriormente.
 
    * Esta es la sintaxis para este método:
 
@@ -261,7 +261,7 @@ Devuelve el identificador de usuario generado de forma automática para Analytic
 
    Los datos recopilados de esta API se enviarán en las visitas de instalación enviadas a Analytics y estarán disponibles en la llamada de retorno de datos de Adobe.
 
-   Si el SDK ya ha recopilado los datos del referente, llamar a este método resultará en una operación sin conexión.
+   Si el SDK ya ha recopilado los datos del referente, invocar este método dará como resultado una «no-operation».
 
    Para obtener información sobre cómo recuperar la dirección URL del referente, consulte la documentación de Google: https://developer.android.com/google/play/installreferrer/library.
 
