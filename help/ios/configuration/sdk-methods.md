@@ -2,12 +2,12 @@
 description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos que proporciona la biblioteca iOS.
 seo-title: Métodos de configuración
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuración
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
 
@@ -269,6 +269,40 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
       ```objective-c
       [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
       ```
+
+* **pauseCollectingLifecycleData**
+
+   Utilice esta API para pausar la recopilación de datos del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md).
+
+   >[!IMPORTANT]
+   >
+   >En el método `applicationDidEnterBackground` delegate, primero debe llamar al `pauseCollectingLifecycleData` método .
+   >
+   >La API se proporciona para mitigar el problema en dispositivos iPhone 7/7 o anteriores con iOS 13, donde la métrica de duración de la sesión se volvió anormal. Esto se debe a algunos cambios desconocidos que se han producido en iOS 13, en los que iOS no deja tiempo suficiente para que la tarea en segundo plano finalice al crear la aplicación como fondo.
+
+   * Esta es la sintaxis para este método:
+
+      ```objective-c
+      + (void) pauseCollectingLifecycleData;
+      ```
+
+   * Este es un ejemplo de código para este método:
+
+      ```objective-c
+      - (void)applicationDidEnterBackground:(UIApplication *)application{
+          // manually stop the lifecycle of SDK
+          // important: do NOT call any track state or track action after this line
+          [ADBMobile pauseCollectingLifecycleData];   
+      
+      
+          // the following code is optional, may help to mitigate the issue a bit more. If you have other logic to run here that probably takes more than 10ms, then there is no need to add this line of code.
+          [NSThread sleepForTimeInterval:0.01];
+      
+      
+          // app's code to handle applicationDidEnterBackground
+      }
+      ```
+
 
 * **overrideConfigPath**
 
