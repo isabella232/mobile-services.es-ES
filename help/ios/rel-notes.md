@@ -2,12 +2,12 @@
 description: Notas de la versión y problemas conocidos de los SDK para iOS 4.x para soluciones de Experience Cloud.
 seo-description: Notas de la versión y problemas conocidos de los SDK para iOS 4.x para soluciones de Experience Cloud.
 seo-title: Notas de la versión
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Notas de la versión
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
+translation-type: tm+mt
+source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: 7fe7c78262a6d35dd27787554bb4f9ee92faa952
 # Notas de la versión {#release-notes}
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
+
+**4 de febrero de 2020: Versión 4.19.0**
+
+* Ciclo de vida: se ha agregado una nueva API, pauseCollectingLifecycleData, para mitigar los datos anormales de la duración de la sesión que se notificaron desde algunos dispositivos iOS antiguos.
+
+**8 de noviembre de 2019: Versión 4.18.9**
+
+* En la mensajería de la aplicación: se ha corregido un error que impedía cargar imágenes en caché o agrupadas en los mensajes de pantalla completa.
 
 **20 de septiembre de 2019: Versión 4.18.8**
 
@@ -52,4 +60,4 @@ Estas son las notas de la versión, los problemas conocidos y la información so
 
 * Servicio de ID de visitante: La llamada de API `setPushIdentifier` ahora envía una llamada de sincronización al servicio de ID de visitante cada vez que se realiza la llamada.
 
-Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
+Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
