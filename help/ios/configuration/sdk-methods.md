@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
@@ -64,8 +64,8 @@ Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
    Devuelve la representación de enumeración del estado de privacidad del usuario actual:
 
    * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. 
+   * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatusUnknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    * Esta es la sintaxis para este método:
@@ -87,8 +87,8 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
    Establezca uno de los siguientes valores:
 
    * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
+   * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatusUnknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
    * Esta es la sintaxis para este método:
 
@@ -276,9 +276,9 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
    >[!IMPORTANT]
    >
-   >En el método `applicationDidEnterBackground` delegate, primero debe llamar al `pauseCollectingLifecycleData` método .
+   >En el método delegado `applicationDidEnterBackground` primero debe invocar el método `pauseCollectingLifecycleData`.
    >
-   >La API se proporciona para mitigar el problema en dispositivos iPhone 7/7 o anteriores con iOS 13, donde la métrica de duración de la sesión se volvió anormal. Esto se debe a algunos cambios desconocidos que se han producido en iOS 13, en los que iOS no deja tiempo suficiente para que la tarea en segundo plano finalice al crear la aplicación como fondo.
+   >La API se proporciona para mitigar el problema en dispositivos iPhone 7/7s o anteriores con iOS 13, donde la métrica de duración de la sesión se volvió anormal. Esto se debe a algunos cambios desconocidos que se han producido en iOS 13, en los que iOS no deja tiempo suficiente para que la tarea en segundo plano finalice cuando no se utiliza la aplicación en primer plano.
 
    * Esta es la sintaxis para este método:
 
