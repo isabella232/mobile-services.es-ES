@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Notas de la versión
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
 
 ---
@@ -18,13 +18,13 @@ Estas son las notas de la versión, los problemas conocidos y la información so
 
 **4 de febrero de 2020: Versión 4.19.0**
 
-* Ciclo de vida: se ha agregado una nueva API, pauseCollectingLifecycleData, para mitigar los datos de duración anormal de la sesión que se registraron en algunos dispositivos iOS antiguos.
+* Ciclo de vida: se ha agregado una nueva API, pauseCollectingLifecycleData, para mitigar los datos anormales de la duración de la sesión notificados desde algunos dispositivos iOS antiguos.
 
 **8 de noviembre de 2019: Versión 4.18.9**
 
 * En la mensajería de la aplicación: se ha corregido un error que impedía cargar imágenes en caché o agrupadas en los mensajes de pantalla completa.
 
-**viernes, 20 de septiembre de 2019: Versión 4.18.8**
+**20 de septiembre de 2019: Versión 4.18.8**
 
 * Mensajería en la aplicación:
 
@@ -35,13 +35,13 @@ Estas son las notas de la versión, los problemas conocidos y la información so
 
 * General: Se ha corregido un error por el que los datos del SDK se sincronizaban con la aplicación watchOS emparejada en cada llamada de Analytics.
 
-**viernes, 2 de agosto de 2019: Versión 4.18.7**
+**2 de agosto de 2019: Versión 4.18.7**
 
 * Se ha revertido un cambio introducido en la versión 4.18.6 que, en algunos entornos, causaba un bloqueo en dispositivos que ejecutaban una versión de iOS anterior a la 11.0.
 
 * Adobe Target: Se ha agregado la propiedad `requestLocationParameters` en `ADBTargetRequestObject`, que permite enviar la variable impressionId con solicitudes de Target.
 
-**jueves, 18 de julio de 2019: Versión 4.18.6**
+**18 de julio de 2019: Versión 4.18.6**
 
 * Adobe Target: Todas las solicitudes ahora incluyen al cliente y `sessionId` en los parámetros de consulta de URL.
 * Adobe Target: Se ha corregido una fuga de memoria.
@@ -49,15 +49,15 @@ Estas son las notas de la versión, los problemas conocidos y la información so
 
    La doble codificación provocaba que los valores devueltos de esas API se marcaran con indicadores de ciertas revisiones de seguridad.
 
-**miércoles, 5 de junio de 2019: Versión 4.18.5**
+**5 de junio de 2019: Versión 4.18.5**
 
 * Analytics: Anexe el estado de la opción de inclusión push a los datos del ciclo vital cuando las notificaciones push estén habilitadas.
 
-**viernes, 24 de mayo de 2019: Versión 4.18.4**
+**24 de mayo de 2019: Versión 4.18.4**
 
 * Servicio de ID de visitante: se ha aumentado el tiempo de espera de retorno para la API
    `visitorGetUrlVariablesAsync` a 30 segundos.
 
 * Servicio de ID de visitante: La llamada de API `setPushIdentifier` ahora envía una llamada de sincronización al servicio de ID de visitante cada vez que se realiza la llamada.
 
-Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
