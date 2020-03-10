@@ -3,11 +3,11 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: Creación de un proyecto
-solution: Marketing Cloud,Desarrollador
+solution: Marketing Cloud,Developer
 title: Creación de un proyecto
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ---
 
@@ -45,7 +45,7 @@ Agregar permisos para:
 * `ACCESS_NETWORK_STATE`
 
 ```java
-<uses-permission android:name="android.permission.INTERNET" /> 
+<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
@@ -53,16 +53,6 @@ Si utiliza la mensajería en la aplicación, agregue la actividad y el receptor 
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
-android:theme="@android:style/Theme.Translucent.NoTitleBar" /> 
-<receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
-```
-
-Si utiliza adquisición, agregue el siguiente receptor:
-
-```java
-<receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-   <intent-filter> 
-      <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-   </intent-filter> 
-</receiver>
+android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
 ```
