@@ -5,8 +5,8 @@ seo-title: Adobe Mobile Services
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: ht
-source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
+translation-type: tm+mt
+source-git-commit: 6cb8c0a12c39287209e9f0060ace179ab563cd61
 
 ---
 
@@ -21,9 +21,9 @@ Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Se
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
 
-En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
+En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Para empezar, vaya a Launch.
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
@@ -36,7 +36,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 >
 >Aunque puede configurar funciones en la interfaz de usuario, estas no funcionarán hasta que descargue el archivo de configuración generado y lo agregue al SDK. Para obtener información sobre cómo descargar y configurar los SDK, consulte la sección *Documentación sobre los SDK* en esta página.
 
-Para ver las últimas notas de la versión, consulte [Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Para ver las últimas notas de la versión, consulte [Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ## Temas populares {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
 
@@ -56,39 +56,34 @@ Estos son algunos de los temas populares de esta guía:
 A continuación se muestran algunos vínculos para ayudar a los desarrolladores:
 
 * [Descargar las herramientas y los SDK de Mobile](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [Desarrollador](https://marketing.adobe.com/resources/help/es_ES/reference/developer.html)
+* [Desarrollador](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
 
 ## Recursos de la comunidad
 
 Estos son algunos recursos adicionales:
 
 * [Foro de Experience Cloud](https://forums.adobe.com/community/experience-cloud)
-* [Comunidad de Adobe Experience Cloud](https://helpx.adobe.com/es/support/marketing-cloud.html?promoid=KAWSE)
+* [Comunidad de Adobe Marketing Cloud](https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE)
 * [Intercambio de ideas](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formación y tutoriales de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK)
-* [Centro de soluciones destacadas](https://www.adobe.com/es/marketing-cloud.html)
+* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Centro de soluciones destacadas](https://www.adobe.com/marketing-cloud.html)
 
 ## Documentación del SDK {#section_3A500233347C4305AB545E298A827CEA}
 
-Además de la guía de usuario, se puede descargar los kits de desarrollo de software (SDK), que incluyen paquetes personalizados con una versión previamente rellenada del archivo de configuración que necesita para configurar su aplicación en Adobe Mobile.
+Además de la guía del usuario, puede descargar los kits de desarrollo de software (SDK), que incluyen un paquete personalizado que incluye una versión prerrellenada del archivo de configuración que necesita para configurar la aplicación en Adobe Mobile.
 
-Se suministran bibliotecas nativas para las plataformas siguientes:
+Se proporcionan bibliotecas nativas para las plataformas siguientes:
 
-* [SDK para Android 4.x para soluciones de Experience Cloud](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html)
+* [SDK para Android 4.x para soluciones de Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [SDK para iOS 4.x para soluciones de Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Complemento Unity para el SDK de iOS y Android 4.x](https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)
+* [SDK de Componentes Xamarin para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)
+* [SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)
+* [Universal App Store de Windows 8.1](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)
 
-* [SDK para iOS 4.x para soluciones de Experience Cloud](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/overview.html)
+   * [Extensiones de Windows Visual Studio para el SDK 4.x de soluciones de Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/win-vse-4x.html)
 
-* [Complemento Unity para los SDK de iOS y Android 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/unity/get-started.html)
-
-* [SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.](https://docs.adobe.com/content/help/es-ES/mobile-services/xamarin/get-started.html)
-
-* [SDK de Plataforma universal de Windows para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/universal-windows/overview.html)
-
-* [Universal App Store de Windows 8.1](https://docs.adobe.com/content/help/es-ES/mobile-services/windows-universal-appstore/overview.html)
-
-   * [Extensiones de Visual Studio de Windows para SDK 4.x para soluciones de Experience Cloud](https://docs.adobe.com/content/help/es-ES/mobile-services/windows-universal-appstore/win-vse-4x.html)
-
-* [SDK de BlackBerry 10 para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/blackberry/overview.html)
+* [SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)
 
 ## Seminario web de introducción a Adobe Mobile {#section_420EA66F39FE44B9B531ADF5F5465543}
 
