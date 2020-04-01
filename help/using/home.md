@@ -6,7 +6,7 @@ solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
-source-git-commit: 322fdab0ff5eeb54fdbb04502508849e86d05a50
+source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 
 ---
 
@@ -18,6 +18,14 @@ Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Se
 >[!IMPORTANT]
 >
 >El SKU del complemento de marketing móvil de Adobe Analytics es necesario para habilitar el acceso de Mobile Services a las funciones de adquisición móvil, vinculación profunda, geolocalización y mensajería móvil. Para obtener más información, contacte con el administrador de éxito de Adobe.
+
+## Anuncio del fin de la compatibilidad con los SDK 4x
+
+Después del 30 de septiembre de 2020, los clientes pueden seguir descargando y utilizando los SDK de la versión 4, pero no habrá asistencia técnica del Servicio de atención al cliente ni acceso a los foros. El SDK de Adobe Experience Platform Mobile (anteriormente conocido como v5) solo admitirá las funciones y funciones de Adobe Experience Cloud que se avecinan próximamente.
+
+Consulte las [preguntas más frecuentes](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) sobre el final de la asistencia para obtener más información.
+
+Se recomienda migrar al nuevo SDK de Experience Platform Mobile cuando sea posible.
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
