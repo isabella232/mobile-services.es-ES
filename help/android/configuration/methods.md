@@ -1,14 +1,14 @@
 ---
 description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
 seo-title: Métodos de configuración
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos de configuración
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -31,8 +31,7 @@ Este es un ejemplo de código para este método:
       setContentView(R.layout.main);
       Config.setContext(this.getApplicationContext());
     }
-   ````
-
+   ```
 
 ## Configuración del SDK (clase Config) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -274,7 +273,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**Versión 4.2 o posterior**) Establece el icono pequeño que se utiliza para las notificaciones creadas por el SDK. Este icono aparece en la barra de estado y es la imagen secundaria que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
+   * (**Versión 4.2 o posterior**) Establece el icono pequeño que se utilizará para las notificaciones creadas por el SDK. Este icono aparecerá en la barra de estado y será la imagen secundaria que se mostrará cuando el usuario vea la notificación completa en el centro de notificaciones.
    * Esta es la sintaxis para este método:
 
       ```java
@@ -289,7 +288,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * (**Versión 4.2 o posterior**) Establece el icono grande que se utiliza para las notificaciones creadas por el SDK. Este icono es la imagen principal que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
+   * (**Versión 4.2 o posterior**) Establece el icono grande que se utilizará para las notificaciones creadas por el SDK. Este icono es la imagen principal que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
    * Esta es la sintaxis para este método:
 
       ```java
@@ -304,7 +303,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**Versión 4.2 o posterior**) Le permite cargar un archivo de configuración JSON de ADBMobile diferente al iniciarse la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   * (**Versión 4.2 o posterior**) Le permite cargar un archivo de configuración JSON ADBMobile diferente cuando la aplicación inicio. Se utiliza la configuración distinta hasta que se cierre la aplicación.
    * Esta es la sintaxis para este método:
 
       ```java
