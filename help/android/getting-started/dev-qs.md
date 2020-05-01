@@ -1,14 +1,14 @@
 ---
 description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
 seo-title: Implementación principal y ciclo vital
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Implementación principal y ciclo vital
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: ht
-source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -48,7 +48,7 @@ Para añadir el SDK y el archivo de configuración a su proyecto:
 1. En el panel Navegación del proyecto, haga clic en el proyecto con el botón secundario.
 1. Seleccione **[!UICONTROL Abrir configuración del módulo]**.
 1. En **[!UICONTROL Configuración del proyecto]**, seleccione **[!UICONTROL Bibliotecas]**.
-1. Haga clic en el icono **[!UICONTROL +]** para agregar una biblioteca nueva.
+1. Click the **[!UICONTROL +]** icon to add a new library.
 1. Seleccione **[!UICONTROL Java]** y busque el archivo `adobeMobileLibrary.jar`.
 1. Seleccione los módulos donde quiere usar la biblioteca móvil.
 1. Haga clic en **[!UICONTROL Aplicar]** y en **[!UICONTROL Aceptar]** para cerrar la ventana Configuración del módulo.
@@ -59,10 +59,10 @@ Para añadir el SDK y el archivo de configuración a su proyecto:
 
 1. Añada el archivo `ADBMobileConfig.json` a la carpeta `assets` de su proyecto.
 1. En **[!UICONTROL Eclipse IDE]**, haga clic con el botón secundario en el nombre del proyecto.
-1. Haga clic en **[!UICONTROL Ruta de compilación]** &gt; **[!UICONTROL Agregar archivos externos]**.
+1. Haga clic en **[!UICONTROL Ruta de compilación]** > **[!UICONTROL Agregar archivos externos]**.
 1. Select `adobeMobileLibrary.jar`.
 1. Haga clic en **[!UICONTROL Abrir]**.
-1. Vuelva a hacer clic con el botón secundario en el proyecto y seleccione **[!UICONTROL Ruta de compilación]** &gt; **[!UICONTROL Configurar ruta de compilación]**.
+1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**.
 1. En la ficha **[!UICONTROL Ordenar y exportar]**, asegúrese de que **`adobeMobileLibrary.jar`** está seleccionado.
 
 ## Añadir permisos de aplicaciones {#section_2EAF73ABF6424647B219A63B33B02CD5}
@@ -90,13 +90,13 @@ Se debe agregar el siguiente código en el método `onCreate` de la actividad pr
      setContentView(R.layout.main);
      Config.setContext(this.getApplicationContext());
    }
-````
+```
 
 ## Implementar métricas del ciclo vital {#section_BA686C09021F474AADDE8690BBB910F7}
 
 Después de habilitar el ciclo vital, cada vez que inicie la aplicación se enviará una visita para medir inicios, actualizaciones, sesiones, usuarios comprometidos y muchas otras métricas. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
-**Complete los siguiente pasos en cada actividad de su aplicación**:
+**Complete los siguientes pasos en cada actividad de la aplicación:**
 
 1. Importe la biblioteca:
 
