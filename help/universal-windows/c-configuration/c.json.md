@@ -1,26 +1,26 @@
 ---
-description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
-seo-description: Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
+description: Información útil para utilizar el archivo de configuración JSON de ADBMobile.
+seo-description: Información útil para utilizar el archivo de configuración JSON de ADBMobile.
 seo-title: Configuración de ADBMobileConfig.json
 solution: Marketing Cloud,Analytics
-title: ADBMobileConfig.json config
-topic: Desarrollador e implementación
+title: Configuración de ADBMobileConfig.json
+topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
 
-# Archivo de configuración ADBMobileConfig.json {#adbmobileconfig-json-config}
+# ADBMobileConfig.json config file {#adbmobileconfig-json-config}
 
-Información para ayudarle a utilizar el archivo de configuración ADBMobile JSON.
+Información útil para utilizar el archivo de configuración JSON de ADBMobile.
 
-Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. El prefijo de los métodos de configuración es “Config”.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Destinatario y Administrador de Audiencias. Los métodos tienen un prefijo que depende de la solución. Los métodos de configuración llevan el prefijo &quot;Config&quot;.
 
 * **rsids**
 
-   (**Required by Analytics**) One or more report suites to receive Analytics data. Los ID de grupos de informes deben separarse con comas, sin espacios intermedios.
+   (**Necesario para Analytics**) Uno o más grupos de informes para recibir datos de Analytics. Las ID de varios grupos de informes deben separarse con comas sin espacios entre ellos.
 
    * Esta es la sintaxis para este método:
 
@@ -34,17 +34,17 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
 * **server**
 
-   (**Necesario para Analytics y Gestión de público**). Servidor de Analytics o Gestión de público, basado en el nodo principal. This variable should be populated with the server domain, without an `"https://"` or `"https://"` protocol prefix. El prefijo de protocolo lo gestiona automáticamente la biblioteca basándose en la variable `ssl`.
+   (**Necesario para Analytics y Administración** de Audiencias). Analytics o el servidor de administración de Audiencias, según el nodo principal. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `"https://"` o `"https://"`. El prefijo de protocolo lo gestiona automáticamente la biblioteca en función de la `ssl` variable.
 
    Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El charset se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos enviados a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 * **ssl**
 
-   Enables (`true`) or disables (`false`) sending measurement data via SSL (`HTTPS`). El valor predeterminado es `false`.
+   Habilita (`true`) o deshabilita (`false`) el envío de datos de medición a través de SSL (`HTTPS`). El valor predeterminado es `false`.
 
 * **offlineEnabled**
 
@@ -52,31 +52,31 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
    If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor `false`.
 
-   Si esta configuración no se realiza correctamente, se perderán datos. If you are unsure whether a report suite is timestamp enabled, contact Customer Care. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes tiene habilitada la marca de fecha y hora, póngase en contacto con el Servicio de atención al cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
    El valor predeterminado es `false`.
 
 * **lifecycleTimeout**
 
-   Especifica la duración, en segundos, que debe transcurrir entre cada inicio de aplicación antes de que el inicio se considere como una nueva sesión. Este tiempo de espera también se aplica cuando su aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación permanece en segundo plano no se incluye en la duración de la sesión.
+   Especifica el tiempo, en segundos, que debe transcurrir entre cada inicio de la aplicación antes de que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
 
    El valor predeterminado es 300 segundos.
 
 * **batchLimit**
 
-   Envía las visitas en lotes.
+   Enviar visitas por lotes.
 
-   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. Requiere `offlineEnabled=true`y el valor predeterminado es `0` (sin lotes).
+   Por ejemplo, si se establece en `50`, las visitas se ponen en cola hasta que se almacenan 50, entonces se envían todas las visitas en cola. Requiere `offlineEnabled=true`y el valor predeterminado es `0` (sin lotes).
 
 * **privacyDefault**
 
-   The options are:
+   Las opciones son:
 
-   * `optedin` - las visitas se envían inmediatamente.
-   * `optedout` - las visitas se descartarán.
-   * `optunknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
+   * `optedin`: las visitas se envían inmediatamente.
+   * `optedout`: las visitas se descartarán.
+   * `optunknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-      Esto sólo establece el valor predeterminado. Si este valor se llega a establecer o cambiar en el código, se guarda en el almacenamiento local y se utiliza en adelante hasta que se cambia de nuevo, o hasta que la aplicación se desinstale y se vuelva a instalar.
+      Esto sólo establece el valor predeterminado. Si este valor se establece o se cambia en el código, el valor definido por el código se guarda en el almacenamiento local y se utiliza a partir de ahora hasta que se cambie o hasta que la aplicación se desinstale y vuelva a instalarse.
 
       El valor predeterminado es `optedin`.
 
@@ -95,13 +95,13 @@ Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experie
 
 * **clientCode**
 
-   (**Required by Target**) Your assigned client code.
+   (**Requerido por Destinatario**) Su código de cliente asignado.
 
 * **timeout**
 
-   Determina cuánto tiempo espera Target una respuesta.
+   Determina cuánto tiempo espera el destinatario una respuesta.
 
-Esto es un ejemplo de archivo `ADBMobileConfig.json`:
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
