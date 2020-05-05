@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -28,7 +28,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Habilita la adquisición de aplicación móvil.
 
-   Si falta esta sección, habilite la adquisición de aplicación móvil y descargue de nuevo el archivo de configuración del SDK. Para obtener más información, consulte *referrerTimeout*, más adelante.
+   Si falta esta sección, habilite la adquisición de aplicación móvil y descargue de nuevo el archivo de configuración del SDK. For more information, see *referrerTimeout* below.
 
    * `server`: servidor de adquisición que se comprueba durante el primer inicio para buscar un referente de adquisición.
    * `appid`: ID generado que identifica de forma exclusiva esta aplicación en el servidor de adquisición.
@@ -44,15 +44,15 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Activa/desactiva la capacidad de antedatar coincidencias de información de sesión del SDK de Adobe.
 
-   Actualmente, las coincidencias de información de la sesión se componen de errores y de la duración de sesión, y se pueden habilitar o deshabilitar.
+   Actualmente, las visitas de información de sesión consisten en bloqueos y duración de la sesión y pueden habilitarse o deshabilitarse.
 
    * Si establece el valor en `false`, las coincidencias quedarán **deshabilitadas**.
 
-      El SDK vuelve al comportamiento previo a la versión 4.1, que consiste en agrupar la información de la sesión anterior con la primera coincidencia de la sesión subsiguiente. El SDK de Adobe también adjunta la información de la sesión al ciclo de vida actual, lo que evita que se cree una visita inflada. Dado que dejan de crearse visitas infladas, se produce un descenso inmediato en el recuento de visitas.
+      El SDK vuelve a su comportamiento anterior a la versión 4.1 de agrupar la información de sesión de la sesión anterior con la primera visita de la sesión siguiente. El SDK de Adobe también adjunta la información de la sesión al ciclo vital actual, lo que evita la creación de una visita inflada. Dado que ya no se crean visitas infladas, se produce un descenso inmediato en el recuento de visitas.
 
    * Si no proporciona ningún valor, el predeterminado será `true`, y las coincidencias quedarán **habilitadas**.
 
-      Cuando las visitas están activadas, el SDK de Adobe antedata la visita de información de sesión a 1 segundo después de la visita final en la sesión anterior. Esto significa que los datos de bloqueos y de sesión estarán correlacionados con la fecha correcta en la que se produjeron. Un efecto secundario es que el SDK podría crear una visita para la visita antedatada. En cada nuevo uso de la aplicación, se antedatará una coincidencia.
+      Cuando las visitas están activadas, el SDK de Adobe antepone la visita de información de sesión a 1 segundo después de la visita final de la sesión anterior. Esto significa que los datos de bloqueo y sesión se correlacionarán con la fecha correcta en la que se produjeron. Un efecto secundario es que el SDK puede crear una visita para la visita con fecha anterior. En cada nuevo uso de la aplicación, se antedatará una coincidencia.
 
    * Versión mínima del SDK: 4.6
    >[!IMPORTANT]
@@ -70,7 +70,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://marketing.adobe.com/resources/help/es_ES/sc/implement/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
    * Versión mínima del SDK: 4.0
 
@@ -111,13 +111,13 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    El valor predeterminado es 300 segundos.
 
-   Especifica el tiempo en segundos que debe transcurrir entre inicios de la aplicación para que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando su aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación permanece en segundo plano no se incluye en la duración de la sesión.
+   Especifica el tiempo, en segundos, que debe transcurrir entre el momento en que se inicia la aplicación, pero antes de que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
 
    * Versión mínima del SDK: 4.0
 
 * **messages**
 
-   Lo genera automáticamente Adobe Mobile Services y define la configuración para la mensajería en la aplicación. Para obtener más información, consulte la sección *Descripción de mensajes*, más adelante.
+   Generado automáticamente por Adobe Mobile Services, define la configuración de la mensajería en la aplicación. Para obtener más información, consulte la sección Descripción *de los* mensajes que aparece a continuación.
 
    * Versión mínima del SDK: 4.2
 
@@ -165,7 +165,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **postback**
 
-   Abajo se muestra la definición de la plantilla de mensaje "llamada de retorno":
+   Abajo se muestra la definición de la plantilla de mensaje &quot;llamada de retorno&quot;:
 
    ```js
    "payload":{
@@ -187,13 +187,13 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
       Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-      Esto solo establece el valor inicial. Si este valor se establece o se cambia en el código, el nuevo valor se utiliza hasta que se cambia de nuevo, o hasta que la aplicación se desinstala y reinstala. El valor predeterminado es `optedin`.
+      Esto sólo establece el valor inicial. Si este valor se establece o se cambia en el código, el nuevo valor se utiliza hasta que se cambia de nuevo, o hasta que la aplicación se desinstala y reinstala. El valor predeterminado es `optedin`.
 
    * Versión mínima del SDK: 4.0
 
 * **referrerTimeout**
 
-   Tiempo máximo en segundos que el SDK espera los datos de referente de adquisición durante el primer inicio. Si utiliza adquisición, recomendamos un tiempo de espera de 5 segundos.
+   Número de segundos que el SDK espera los datos del remitente del reenvío de adquisición durante el primer inicio antes de que se agote el tiempo de espera. Si utiliza adquisición, le recomendamos un tiempo de espera de 5 segundos.
 
    >[!IMPORTANT]
    >
@@ -213,7 +213,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **rsids**
 
-   Uno o más grupos de informes para recibir datos de Analytics. Los ID de grupos de informes deben separarse con comas, sin espacios intermedios.
+   Uno o más grupos de informes para recibir datos de Analytics. Las ID de varios grupos de informes deben separarse con comas sin espacios entre ellos.
 
    ```js
    "rsids": "rsid"
@@ -251,7 +251,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    Habilita (`true`) o deshabilita (`false`) la capacidad para enviar datos de medición mediante SSL (HTTPS).
 
-   Abajo se muestra la definición de la plantilla de mensaje "llamada de retorno":
+   Abajo se muestra la definición de la plantilla de mensaje &quot;llamada de retorno&quot;:
 
    ```js
    "payload":{
@@ -343,56 +343,56 @@ Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 
 ## Descripción de mensajes {#section_B97D654BA92149CE91F525268D7AD71F}
 
-Adobe Mobile Services genera automáticamente el nodo de mensajes y no suele ser necesario cambiarlo de forma manual. Se proporciona la siguiente descripción con propósitos de solución de problemas:
+Adobe Mobile Services genera automáticamente el nodo de mensajes y, por lo general, no es necesario cambiarlo manualmente. Se proporciona la siguiente descripción para la resolución de problemas:
 
-* "messageId"
+* &quot;messageId&quot;
 
    * ID generado, requerido
 
-* "template"
+* &quot;plantilla&quot;
 
-   * "alert", "fullscreen" o "local"
+   * &quot;alert&quot;, &quot;full screen&quot; o &quot;local&quot;
    * requerido
 
-* "payload"
+* &quot;payload&quot;
 
-   * "html"
+   * &quot;html&quot;
 
       * solo plantilla de pantalla completa, requerido
       * html que define el mensaje
-   * "image"
+   * &quot;imagen&quot;
 
       * solo pantalla completa, opcional
-      * url de la imagen a utilizar para una imagen de pantalla completa
-   * "altImage"
+      * url de la imagen que se va a utilizar para una imagen de pantalla completa
+   * &quot;altImage&quot;
 
       * solo pantalla completa, opcional
-      * nombre de la imagen agrupada a usar si la url especificada en
+      * nombre de la imagen agrupada que se utilizará si la dirección URL especificada en
          `image` no está disponible
-   * "title"
+   * &quot;título&quot;
 
       * pantalla completa y alerta, requerido
-      * texto del título de un mensaje de pantalla completa o alerta
-   * "content"
+      * texto de título para un mensaje de pantalla completa o alerta
+   * &quot;content&quot;
 
       * alerta y notificación local, requerido
-      * subtexto para un mensaje de alerta, o texto de notificación para un mensaje de notificación local
-   * "confirm"
+      * subtexto para un mensaje de alerta o texto de notificación para un mensaje de notificación local
+   * &quot;confirm&quot;
 
       * alerta, opcional
-      * texto usado en el botón de confirmar
-   * "cancel"
+      * texto utilizado en el botón de confirmación
+   * &quot;cancel&quot;
 
       * alerta, requerido
-      * texto usado en el botón de cancelar
-   * "url"
+      * texto utilizado en el botón Cancelar
+   * &quot;url&quot;
 
       * alerta, opcional
-      * acción url a cargar si se hace clic en el botón de confirmar
-   * "wait"
+      * acción url que se cargará si se hace clic en el botón de confirmación
+   * &quot;wait&quot;
 
       * notificación local, requerido
-      * tiempo a esperar (en segundos) para publicar la notificación local después de cumplir sus criterios
+      * tiempo de espera (en segundos) para publicar la notificación local después de cumplir los criterios
 
 
 
@@ -402,35 +402,35 @@ Adobe Mobile Services genera automáticamente el nodo de mensajes y no suele ser
 
 
 
-* "showOffline"
+* &quot;showOffline&quot;
 
    * true o false
    * el valor predeterminado es false
 
-* "showRule"
+* &quot;showRule&quot;
 
-   * "always", "once" o "untilClick"
+   * &quot;siempre&quot;, &quot;una vez&quot; o &quot;hastaClick&quot;
    * requerido
 
-* "endDate"
+* &quot;endDate&quot;
 
    * número de segundos desde el 1 de enero de 1970
    * el valor predeterminado es 2524730400
 
-* "startDate"
+* &quot;startDate&quot;
 
    * número de segundos desde el 1 de enero de 1970
    * el valor predeterminado es 0
 
-* "audiences"
+* &quot;audiences&quot;
 
    Conjunto de objetos que define cómo debería mostrarse el mensaje:
 
-   * "key"
+   * &quot;key&quot;
 
       Nombre de la variable que se busca en la visita y que es obligatorio.
 
-   * "matches"
+   * &quot;matches&quot;
 
       Tipo de emparejador utilizado al hacer la comparación:
 
@@ -438,27 +438,27 @@ Adobe Mobile Services genera automáticamente el nodo de mensajes y no suele ser
       * ne = no es igual a
       * co = contiene
       * nc = no contiene
-      * sw = comienza con
+      * sw = inicios con
       * ew = termina con
       * ex = existe
       * nx = no existe
       * lt = menor que
       * le = menor o igual que
-      * gt = mayor que
-      * ge = mayor o igual que
-   * "values"
+      * gt = bueno que
+      * ge = bueno o igual que
+   * &quot;values&quot;
 
       Conjunto de valores que se utiliza para comparar el valor de la variable nombrada en el siguiente:
 
       * key
-      * utilizando el tipo de operador de coincidencia de
+      * con el tipo de coincidencia en
       * matches
 
 
-* "triggers"
+* &quot;triggers&quot;
 
    Igual que las audiencias, pero estas son las acciones en lugar de la audiencia:
 
-   * "key"
-   * "matches"
-   * "values"
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
