@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: Antes de comenzar
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 0720b2004097eb288bd8f59723eeb09a79dd81e7
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -24,10 +24,10 @@ Los administradores de Analytics y los desarrolladores de aplicaciones deben com
 
 Para configurar un grupo de informes y recopilar datos de aplicaciones móviles:
 
-1. Se ha completado una de las secciones de [Inicio de sesión en la interfaz de usuario de Adobe Mobile Services](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
+1. Complete una de las secciones de [Inicio de sesión en la interfaz de usuario](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)de Adobe Mobile Services.
 1. Cree una cuenta de Analytics para cada desarrollador de aplicaciones.
 
-Ahora, los desarrolladores de aplicaciones tienen acceso para ver los grupos de informes que usted crea.
+Los desarrolladores de aplicaciones ahora tienen acceso a la vista de los grupos de informes que ha creado.
 
 >[!IMPORTANT]
 >
@@ -43,13 +43,13 @@ Para obtener más información sobre los roles y los permisos, consulte [Roles y
 
 ## Inicio de sesión en la interfaz de usuario de Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services es la principal interfaz de realización de informes para análisis y segmentación de aplicaciones móviles. Cuando complete estos pasos, podrá descargar un archivo de configuración preconfigurado con su servidor de recopilación de datos, su grupo de informes y muchos otros ajustes.
+Adobe Mobile Services es la interfaz de sistema de informes principal para el análisis y la segmentación de aplicaciones móviles. Después de completar estos pasos, puede descargar un archivo de configuración preconfigurado con el servidor de recopilación de datos, el grupo de informes y muchas otras opciones.
 
 Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una de las siguientes formas:
 
 ### Experience Cloud
 
-Inicie sesión en [Experience Cloud](https://marketing.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Inicie sesión en [Experience Cloud](https://experiencecloud.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -66,15 +66,15 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 1. Para iniciar sesión en la interfaz de usuario de Mobile Services, ingrese [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) en un navegador.
 1. Haga clic en **[!UICONTROL Crear una aplicación]**.
 
-   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL  Agregar]**.
+   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL Agregar]**.
 
-1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL  Nuevo grupo de informes]**.
+1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
 
 1. Introduzca el nombre de su aplicación y seleccione un tipo de grupo de informes.
 
    Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Es necesario que establezca grupos de informes y aplicaciones separados para las versiones de desarrollo y de producción, de modo que pueda repetir estos pasos cuando esté preparado para configurar la versión de producción.
 1. En **[!UICONTROL ID del grupo de informes]**, compruebe que se muestra el nombre del grupo de informes.
-1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción **[!UICONTROL  Plantilla de aplicación móvil]** esté seleccionada.
+1. En **[!UICONTROL Copiar la configuración de]**, verifique que la opción **[!UICONTROL Plantilla de aplicación móvil]** esté seleccionada.
 
    Esta plantilla permite que las marcas de fecha y hora recopilen datos sin conexión y activar las variables de soluciones móviles para capturar métricas del ciclo vital.
 
@@ -96,7 +96,7 @@ También puede seleccionarla en el panel derecho.
 
    >[!IMPORTANT]
    >
-   >Si no ve la opción **[!UICONTROL Administrar configuración de la aplicación]**, asegúrese de haber iniciado sesión en Adobe Mobile Services. Para verificarlo, haga clic en el icono del ![conmutador de soluciones](assets/solution-switcher.png) en la parte superior derecha de la página y asegúrese de que **[!UICONTROL  Adobe Mobile Services]** se visualice en la parte superior izquierda.
+   >Si no ve la opción **[!UICONTROL Administrar configuración de la aplicación]**, asegúrese de haber iniciado sesión en Adobe Mobile Services. Para verificarlo, haga clic en el icono del ![conmutador de soluciones](assets/solution-switcher.png) en la parte superior derecha de la página y asegúrese de que **[!UICONTROL Adobe Mobile Services]** se visualice en la parte superior izquierda.
 
 1. En la parte inferior de la página Administrar configuración de la aplicación, en la sección **[!UICONTROL Descargas del SDK de la aplicación]**, descargue el SDK y la aplicación de ejemplo para su plataforma.
 
@@ -112,5 +112,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 Recuerde la información siguiente:
 
-* Sustituya el número de versión en el ejemplo de código por la versión adecuada de los SDK para Android.
+* Reemplace el número de versión del ejemplo de código con la versión adecuada de los SDK para Android.
 * Descargue el archivo de configuración e inclúyalo en su proyecto.
