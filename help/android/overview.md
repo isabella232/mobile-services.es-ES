@@ -1,14 +1,14 @@
 ---
 description: El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar mediciones de aplicaciones Android nativas, enviar contenido de destino en una aplicación, y aprovechar y recopilar datos de audiencias mediante la Gestión de público.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar mediciones de aplicaciones Android nativas, enviar contenido de destino en una aplicación, y aprovechar y recopilar datos de audiencias mediante la Gestión de público.
 seo-title: SDK para Android 4.x para soluciones de Experience Cloud
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: SDK para Android 4.x para soluciones de Experience Cloud
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -19,7 +19,7 @@ El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar 
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -36,12 +36,12 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 Los SDK admiten las siguientes versiones de Android:
 
-* Versión 4.6.0 y versiones anteriores admiten Android 2.2 (API 8) - Android 5.1.1 (API 22)
-* Versión 4.6.1 y versiones posteriores admiten Android 2.3 (API 9) o posterior
+* La versión 4.6.0 o anterior es compatible con Android 2.2 (API 8) - Android 5.1.1 (API 22)
+* La versión 4.6.1 o posterior es compatible con Android 2.3 (API 9) o posterior
 
 Información que debe recordar:
 
-* En la versión 4.2 o posterior, todas las visitas se envían ahora mediante HTTP POST.
+* En la versión 4.2 y posteriores, todas las visitas se envían ahora mediante HTTP POST.
 
    Esto no afecta a los datos recopilados o comunicados, pero para ver las visitas debe utilizar un analizador de paquetes que admita la inspección de datos POST.
 
@@ -49,11 +49,11 @@ Información que debe recordar:
 
 ## Documentación del usuario de Adobe Mobile {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services proporciona una interfaz de usuario que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud. Para obtener más información acerca de la interfaz de usuario de y leer la documentación del usuario, consulte [Adobe Mobile Services](https://marketing.adobe.com/resources/help/es_ES/mobile/).
+Adobe Mobile Services proporciona una interfaz de usuario que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud. Para obtener más información acerca de la interfaz de usuario de y leer la documentación del usuario, consulte [Adobe Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html).
 
 ## Notas de la versión {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-Para obtener la información más reciente sobre las versiones de Experience Cloud, consulte [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
+Para obtener la información más reciente sobre las versiones de Experience Cloud, consulte [Notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
 
 ## Uso de Bloodhound
 
