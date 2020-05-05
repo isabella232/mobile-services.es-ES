@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: Notas de la versión
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -47,4 +47,4 @@ Estas son las notas de la versión, los problemas conocidos y la información de
 * Servicio de ID de visitante: se ha aumentado el tiempo de espera de conexión y lectura de 2 a 5 segundos.
 
 
-Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
+Para obtener más información sobre las notas de la versión actuales y anteriores de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
