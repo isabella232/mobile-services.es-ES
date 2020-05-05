@@ -1,14 +1,14 @@
 ---
 description: La integración del conector de datos appFigures combina la potencia de los análisis integrados del almacén de aplicaciones móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
-keywords: móvil
+keywords: mobile
 seo-description: La integración del conector de datos appFigures combina la potencia de los análisis integrados del almacén de aplicaciones móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
 seo-title: Tienda de aplicaciones
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Tienda de aplicaciones
-topic: Métricas
+topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -21,19 +21,18 @@ La integración del conector de datos `appFigures` combina la potencia de los an
 >
 >En la interfaz de usuario de Mobile Services, tras configurar la integración, el elemento de menú **[!UICONTROL App Store]** y los informes asociados se muestran en el panel de navegación izquierdo.
 
-[Conector de datos appFigures para Adobe Analytics](https://marketing.adobe.com/resources/help/es_ES/connectors/appfigures/) incluye la siguiente información:
-<!--REKHA: no idea where this guide lives-->
+[El conector de datos appFigures para Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/appfigures/appfigures-overview.html) contiene la siguiente información:
 
 * Principales ventajas y características de la integración
 * Implementación de la integración, incluyendo:
 
    * Requisitos de Adobe Analytics
    * Requisitos de appFigures
-   * Precio
+   * Precio 
    * Variables de integración de Analytics
 
 * Configuración de la integración
 * Métricas y dimensiones incluidas en la integración
-* Datos de aplicaciones de segmentos
+* Datos de la aplicación de segmentos
 
 Si desea conocer mejor el informe de la tienda de aplicaciones, consulte [Informe de información general de la tienda de aplicaciones](/help/using/usage/c-app-store-store-performance.md).
