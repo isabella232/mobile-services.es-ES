@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
 
-# Métodos de configuración{#configuration-methods}
+# Métodos de configuración {#configuration-methods}
 
 A continuación encontrará una lista de los métodos que proporciona la biblioteca de Android.
 
@@ -103,14 +103,14 @@ Este es un ejemplo de código para este método:
       ```
 
 
-* Método **setPrivacyStatus**
+* **setPrivacyStatus**
 
    * Establece el estado de privacidad del usuario actual como `status`.
 
       Puede establecer el estado de privacidad en uno de los siguientes valores:
       * `MOBILE_PRIVACY_STATUS_OPT_IN`, donde las visitas se envían inmediatamente. Estas visitas se envían inmediatamente.
       * `MOBILE_PRIVACY_STATUS_OPT_OUT`, donde las visitas se descartan. Estas visitas se descartan.
-      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). 
+      * `MOBILE_PRIVACY_STATUS_UNKNOWN`, donde si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan).
 Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a incluido.
    * Esta es la sintaxis para este método:
 
@@ -273,7 +273,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**Versión 4.2 o posterior**) Establece el icono pequeño que se utilizará para las notificaciones creadas por el SDK. Este icono aparecerá en la barra de estado y será la imagen secundaria que se mostrará cuando el usuario vea la notificación completa en el centro de notificaciones.
+   * (**Versión 4.2 o posterior**) Se configura el icono pequeño que se utilizará para las notificaciones creadas por el SDK. Este icono aparecerá en la barra de estado y es la imagen secundaria que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
    * Esta es la sintaxis para este método:
 
       ```java
@@ -288,7 +288,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * (**Versión 4.2 o posterior**) Establece el icono grande que se utilizará para las notificaciones creadas por el SDK. Este icono es la imagen principal que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
+   * (**Versión 4.2 o posterior**) Se configura el icono grande que se utilizará para las notificaciones creadas por el SDK. Este icono es la imagen principal que se muestra cuando el usuario ve la notificación completa en el centro de notificaciones.
    * Esta es la sintaxis para este método:
 
       ```java
@@ -303,7 +303,7 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**Versión 4.2 o posterior**) Le permite cargar un archivo de configuración JSON ADBMobile diferente cuando la aplicación inicio. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   * (**Versión 4.2 o posterior**) Le permite cargar un archivo de configuración JSON ADBMobile diferente cuando se inicia la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
    * Esta es la sintaxis para este método:
 
       ```java
