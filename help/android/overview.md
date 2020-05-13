@@ -7,13 +7,16 @@ solution: Marketing Cloud,Analytics
 title: SDK para Android 4.x para soluciones de Experience Cloud
 topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '447'
+ht-degree: 100%
 
 ---
 
 
-# SDK para Android 4.x para soluciones de Experience Cloud{#android-sdk-x-for-experience-cloud-solutions}
+# SDK para Android 4.x para soluciones de Experience Cloud {#android-sdk-x-for-experience-cloud-solutions}
 
 El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar mediciones de aplicaciones Android nativas, enviar contenido de destino en una aplicación, y aprovechar y recopilar datos de audiencias mediante la Gestión de público.
 
@@ -36,12 +39,12 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 Los SDK admiten las siguientes versiones de Android:
 
-* La versión 4.6.0 o anterior es compatible con Android 2.2 (API 8) - Android 5.1.1 (API 22)
-* La versión 4.6.1 o posterior es compatible con Android 2.3 (API 9) o posterior
+* La versión 4.6.0 o anteriores admiten Android 2.2 (API 8)-Android 5.1.1 (API 22)
+* La versión 4.6.1 o posteriores admiten Android 2.3 (API 9) o posterior
 
 Información que debe recordar:
 
-* En la versión 4.2 y posteriores, todas las visitas se envían ahora mediante HTTP POST.
+* En la versión 4.2 y posterior, todas las visitas se envían ahora mediante HTTP POST.
 
    Esto no afecta a los datos recopilados o comunicados, pero para ver las visitas debe utilizar un analizador de paquetes que admita la inspección de datos POST.
 
