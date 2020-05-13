@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Requisitos previos para activar la mensajería push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '646'
+ht-degree: 100%
 
 ---
 
@@ -39,9 +42,9 @@ Para obtener más información, consulte el contenido siguiente:
 
 >[!IMPORTANT]
 >
->Para utilizar la función de servicios push, los usuarios deben iniciar sesión en los servicios principales de Mobile mediante el Adobe ID y la cuenta de Analytics debe estar vinculada a los Adobe ID. La funcionalidad de los servicios push no está disponible si los usuarios inician sesión con sus cuentas de Adobe Analytics existentes.
+>Para utilizar la función de servicios push, los usuarios deben iniciar sesión en los servicios principales de Mobile mediante el Adobe ID y la cuenta de Analytics debe estar vinculada a los Adobe ID. La funcionalidad de los servicios Push no está disponible si los usuarios inician sesión con sus cuentas de Adobe Analytics existentes.
 
-Si los usuarios no tienen un Adobe ID, complete los siguientes pasos:
+Si los usuarios no tienen un ID de Adobe, siga estos pasos:
 
 1. (**Administrador de Experience Cloud**) Invitar a los usuarios a Experience Cloud.
 
@@ -69,26 +72,26 @@ Para obtener más información, consulte [Solución de problemas con la vinculac
 
 ## Configuración de servicios push y el SDK de servicio de ID en la interfaz de usuario de Mobile
 
-Antes de activar el servicio de ID en la aplicación, se desactiva la sección **[!UICONTROL Servicios push]**, Sin embargo, después de habilitar el servicio de ID, se activa la sección Servicios push. Para obtener más información sobre la activación de Servicios push, consulte [Configuración de opciones de servicio de ID de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
+Antes de activar el servicio de ID en la aplicación, se desactiva la sección **[!UICONTROL Servicios push]**. Sin embargo, después de habilitar el servicio de ID, se activa la sección Servicios push. Para obtener más información sobre la activación de Servicios push, consulte [Configuración de opciones de servicio de ID de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
 >[!IMPORTANT]: Debe hacer clic en **[!UICONTROL Guardar]** para guardar los cambios y actualizar los servicios push.
 >
 >Puede configurar una aplicación de tienda de aplicaciones para Apple y otra para Google en cada grupo de informes. Si necesita aplicaciones adicionales, por ejemplo, una para un entorno de producción y otra para un entorno de desarrollo, configure una nueva aplicación de tienda de aplicaciones y un nuevo grupo de informes para cada entorno.
 
-* Para **Apple**, arrastre y suelte la clave privada o el certificado. Si la clave privada está cifrada con contraseña, escriba la contraseña.
+* Para **Apple**, arrastre y suelte la clave privada o el certificado. Si la clave privada está cifrada con contraseña, ingrese la contraseña.
 
    * En **Clave privada**, arrastre y suelte el archivo de clave privada en el cuadro.
 
       También puede hacer clic en **[!UICONTROL Explorar]** para seleccionar el archivo. Este archivo contiene la clave privada. Puede que el certificado esté incluido en este archivo (`.p12`, `pkcs12`, `.pfx`, `.key`, `.pem`).
 
-   * En Contraseña **de clave** privada, si el archivo de clave privada está cifrado, escriba la contraseña.
+   * En **Contraseña privada**, si el archivo de clave privada está cifrado, escriba la contraseña.
 
-      (Condicional) Para el **certificado**, arrastre y suelte el archivo de certificado en el cuadro. También puede hacer clic en **[!UICONTROL Explorar]** para seleccionar el archivo. Este campo no es necesario en caso de que la clave privada también contenga el certificado ( `.cert`, `.cer`, `.crt`, `.pem`).
+      (Condicional) Para el **Certificado**, arrastre y suelte el archivo de certificado en el cuadro. También puede hacer clic en **[!UICONTROL Explorar]** para seleccionar el archivo. Este campo no es necesario en caso de que la clave privada también contenga el certificado ( `.cert`, `.cer`, `.crt`, `.pem`).
 
 * En **Google**, especifique la clave de API para la aplicación.
 
    Haga clic en **[!UICONTROL Probar]** para validar que la aplicación y Mobile Services estén correctamente configurados. Esta opción resulta útil para la depuración y la solución de problemas.
 
-   Escriba los tokens push del dispositivo que desea enviar el mensaje. Para enviar el mensaje a varios dispositivos, puede especificar los tokens en una lista separada por comas.
+   Escriba los tokens de Push del dispositivo al cual desea enviar el mensaje. Para enviar el mensaje a varios dispositivos, puede especificar los tokens en una lista separada por comas.
 
    ![mensaje push de prueba](assets/push_test_list.png)
