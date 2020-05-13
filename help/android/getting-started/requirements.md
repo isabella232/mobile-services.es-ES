@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Antes de comenzar
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Los administradores de Analytics y los desarrolladores de aplicaciones deben com
 
 Para configurar un grupo de informes y recopilar datos de aplicaciones móviles:
 
-1. Complete una de las secciones de [Inicio de sesión en la interfaz de usuario](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)de Adobe Mobile Services.
+1. Complete una de las secciones de [Inicio de sesión en la interfaz de usuario de Adobe Mobile Services](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
 1. Cree una cuenta de Analytics para cada desarrollador de aplicaciones.
 
 Los desarrolladores de aplicaciones ahora tienen acceso a la vista de los grupos de informes que ha creado.
@@ -41,11 +44,11 @@ Los desarrolladores de aplicaciones ahora tienen acceso a la vista de los grupos
 
 Para obtener más información sobre los roles y los permisos, consulte [Roles y permisos](/help/using/gs/c-mob-roles-and-permissions.md).
 
-## Inicio de sesión en la interfaz de usuario de Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
+## Inicio de sesión en la interfaz de usuario de Adobe Mobile Services  {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services es la interfaz de sistema de informes principal para el análisis y la segmentación de aplicaciones móviles. Después de completar estos pasos, puede descargar un archivo de configuración preconfigurado con el servidor de recopilación de datos, el grupo de informes y muchas otras opciones.
+Adobe Mobile Services es la interfaz de sistema de informes principal para el análisis y la segmentación de aplicaciones móviles. Después de completar estos pasos, puede descargar un archivo de configuración preconfigurado con el servidor de recopilación de datos, el grupo de informes y muchos otros ajustes.
 
-Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una de las siguientes formas:
+Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una de las siguientes maneras:
 
 ### Experience Cloud
 
@@ -112,5 +115,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 Recuerde la información siguiente:
 
-* Reemplace el número de versión del ejemplo de código con la versión adecuada de los SDK para Android.
+* Reemplace el número de versión del ejemplo de código con la versión adecuada de los SDK de Android.
 * Descargue el archivo de configuración e inclúyalo en su proyecto.
