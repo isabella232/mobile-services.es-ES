@@ -7,13 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Métodos del servicio de ID de Adobe Experience Platform
 topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '449'
+ht-degree: 100%
 
 ---
 
 
-# Métodos del servicio de ID de Adobe Experience Platform{#experience-cloud-id-service-methods}
+# Métodos del servicio de ID de Adobe Experience Platform {#experience-cloud-id-service-methods}
 
 Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
 
@@ -23,7 +26,7 @@ Los métodos tienen un prefijo de acuerdo con la solución. Por ejemplo, los mé
 
 * **public static String appendToURL(final String URL)**
 
-   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Debe tener el SDK de Mobile 4.12 o posterior para utilizar este método. Para obtener más información, consulte [Función Asistente de agregación de ID de visitante](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/appendvisitorid.html).
+   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Debe tener el SDK de Mobile 4.12 o posterior para usar este método. Para obtener más información, consulte [Función Asistente de agregación de ID de visitante](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/appendvisitorid.html).
 
    >[!IMPORTANT]
    >
