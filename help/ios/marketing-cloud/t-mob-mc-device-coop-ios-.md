@@ -5,10 +5,10 @@ seo-title: Cooperación entre dispositivos de Experience Cloud
 title: Cooperación entre dispositivos de Experience Cloud
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 89%
+source-wordcount: '292'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ Aquí puede encontrar más información sobre el marcador `coopUnsafe`:
 * El valor predeterminado es `false`.
 * Este ajuste **solo** se utiliza para clientes proporcionados por Device Co-op.
 
-For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
+For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
 Recuerde la información siguiente:
 
