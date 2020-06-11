@@ -1,14 +1,17 @@
 ---
 description: Puede ver informes de los mensajes push y los mensajes en la aplicación.
-keywords: móvil
+keywords: mobile
 seo-description: Puede ver informes de los mensajes push y los mensajes en la aplicación.
 seo-title: Ver informes de mensajes
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Ver informes de mensajes
-topic: Métricas
+topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: ht
-source-git-commit: 44f531ad140827d563255fad197811185c5337c9
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 78%
 
 ---
 
@@ -69,7 +72,7 @@ Esta es una lista de las métricas disponibles para los mensajes push:
    * **[!UICONTROL En ejecución]**
    * **[!UICONTROL Ejecutado]**
 
-* **[!UICONTROL Publicado]**
+* **[!UICONTROL Publicadas]**
 
    El número de tokens de dispositivo enviados correctamente al servicio de notificaciones push de Apple/la mensajería de Firebase Cloud (APNS/FCM) por mandar el mensaje a los dispositivos de los usuarios.
 
@@ -79,13 +82,13 @@ Esta es una lista de las métricas disponibles para los mensajes push:
 
    * El pushID no es válido
 
-   * La plataforma push (APNS, FCM, etc.) elegida para insertar el mensaje no existe en la aplicación del trabajo. Por ejemplo, la plataforma podría recopilar tokens push de iOS, pero no tiene el servicio APNS configurado.
+   * La plataforma push (APNS, FCM, etc.) elegida para insertar el mensaje no existe en la aplicación del trabajo. Por ejemplo, la plataforma puede recopilar tokens push de iOS pero no tiene configurado el servicio APNS.
 
-   * El mensaje puede haber fallado porque el servicio push no estaba correctamente configurado o el sistema Mobile Services está fuera de servicio.
+   * Es posible que el mensaje haya fallado porque el servicio push no se configuró correctamente o porque el sistema de Mobile Services está inactivo.
    >[!IMPORTANT]
    >
-   >Si tiene un número inusualmente alto de errores, compruebe la configuración de los servicios push. Si los servicios push parecen estar configurados correctamente, póngase en contacto con el servicio de atención al cliente de Adobe.
+   >Si tiene un número inusualmente alto de errores, compruebe la configuración de los servicios push. Si los servicios push parecen estar correctamente configurados, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 * **[!UICONTROL Bloqueado]**
 
-   El número de tokens de dispositivo que ya no son válidos para su envío a APNS o FCM. Esto suele significar que la aplicación se ha desinstalado del dispositivo o que el usuario ha cambiado la configuración relacionada con la recepción de mensajes. Android e iOS difieren en la forma de considerar un token bloqueado. Los tokens de Android aparecen inmediatamente en el recuento de bloqueados. Los tokens de iOS aparecen inicialmente como publicados, pero, basándose en la información de APNS, aparecen como bloqueados en los siguientes mensajes.
+   El número de tokens de dispositivo que ya no son válidos para su envío a APNS o FCM. Esto suele significar que la aplicación se ha desinstalado del dispositivo o que el usuario ha cambiado la configuración relacionada con la recepción de mensajes. Android e iOS difieren en cuanto a cuándo se cuentan los tokens como denegados. Los tokens de Android se muestran inmediatamente en el recuento de listas denegadas. Los tokens de iOS se muestran inicialmente como publicados, pero en función de los comentarios de APNS, se muestran como denegados en los mensajes posteriores.
