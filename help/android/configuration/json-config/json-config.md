@@ -2,12 +2,15 @@
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-title: Configuración JSON de ADBMobile
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: ht
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1679'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +34,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
    * Habilita la adquisición de aplicación móvil.
       * `server`, que es el servidor de adquisición que se comprueba durante el primer inicio para buscar un referente de adquisición.
       * `appid`, que es el ID generado que identifica de forma exclusiva esta aplicación en el servidor de adquisición.
+
    Si falta esta sección, habilite la adquisición de aplicación móvil y descargue de nuevo el archivo de configuración del SDK. Para obtener más información, consulte *referrerTimeout* en esta lista de variables.
 
 * **analyticsForwardingEnabled**
@@ -43,13 +47,13 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
    * Versión mínima del SDK: 4.6.
    * Activa/desactiva la capacidad de antedatar coincidencias de información de sesión del SDK de Adobe.
 
-      Actualmente, las coincidencias de información de la sesión se componen de errores y de la duración de sesión, y se pueden habilitar o deshabilitar.
+      En este momento, las visitas a la información de sesión se realizan sobre bloqueos y duración de la sesión, y pueden habilitarse o deshabilitarse.
 
-      **Habilitar o deshabilitar coincidencias**
+      **Activación o desactivación de visitas individuales**
 
-      * Si establece el valor en `false`, las coincidencias quedarán **deshabilitadas**. El SDK vuelve al comportamiento previo a la versión 4.1, que consiste en agrupar la información de la sesión anterior con la primera coincidencia de la sesión subsiguiente. El SDK de Adobe también adjunta la información de la sesión al ciclo de vida actual, lo que evita que se cree una visita inflada. Dado que dejan de crearse visitas infladas, se produce un descenso inmediato en el recuento de visitas.
+      * Si establece el valor en `false`, las coincidencias quedarán **deshabilitadas**. El SDK vuelve a su comportamiento anterior a la versión 4.1 de agrupar la información de sesión de la sesión anterior con la primera visita de la sesión siguiente. El SDK de Adobe también adjunta la información de la sesión al ciclo vital actual, lo que evita la creación de una visita inflada. Dado que ya no se crean visitas infladas, disminuye de inmediato la cantidad de visitas.
 
-      * Si no proporciona ningún valor, el predeterminado será `true`, y las coincidencias quedarán **habilitadas**. Cuando las visitas están activadas, el SDK de Adobe antedata la visita de información de sesión a 1 segundo después de la visita final en la sesión anterior. Esto significa que los datos de bloqueos y de sesión estarán correlacionados con la fecha correcta en la que se produjeron. Un efecto secundario es que el SDK podría crear una visita para la visita antedatada. En cada nuevo uso de la aplicación, se antedatará una coincidencia.
+      * Si no proporciona ningún valor, el predeterminado será `true`, y las coincidencias quedarán **habilitadas**. Cuando las visitas están activadas, el SDK de Adobe antepone la visita de información de sesión a 1 segundo después de la última visita de la sesión anterior. Esto significa que los datos de bloqueo y sesión se correlacionarán con la fecha correcta cuando se produjeron. Un efecto secundario es que el SDK puede crear una visita para la visita con fecha anterior. En cada nuevo uso de la aplicación, se antedatará una coincidencia.
 
          >[!IMPORTANT]
          >
@@ -85,7 +89,8 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
    * La propiedad booleana del objeto de `marketingCloud` que, cuando se establece en `true`, hará que el dispositivo sea excluido de la Device Co-Op de Experience Cloud.
    * El valor predeterminado es `false`.
    * Este ajuste **solo** se utiliza para clientes proporcionados por Device Co-op.
-   Para los miembros de Device Co-op que necesitan que este valor se establezca en `true`, necesitará colaborar con el equipo de Co-op para solicitar un marcador de lista negra en su cuenta de Device Co-op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
+
+   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
    Recuerde la información siguiente:
 
@@ -101,16 +106,16 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
 * **lifecycleTimeout**
    * Versión mínima del SDK: 4.0
-   * El valor predeterminado es 300 segundos.
+   * El valor predeterminado es 300 segundos.
 
-      Especifica el tiempo en segundos que debe transcurrir entre inicios de la aplicación para que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva.
+      Especifica la duración en segundos que debe transcurrir entre el momento en que se inicia la aplicación, pero antes de que el inicio se considere una sesión nueva. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva.
 
-      El tiempo que la aplicación permanece en segundo plano no se incluye en la duración de la sesión.
+      El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
 
 * **messages**
 
    * Versión mínima del SDK: 4.2
-   * Lo genera automáticamente Adobe Mobile Services y define la configuración para la mensajería en la aplicación. Para obtener más información, consulte la sección *Descripción de mensajes*, más adelante.
+   * Generado automáticamente por Adobe Mobile Services, define la configuración de la mensajería en la aplicación. Para obtener más información, consulte la sección *Descripción de los mensajes* a continuación.
 
 * **offlineEnabled**
 
@@ -158,7 +163,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
 * **postback**
    * Versión mínima del SDK: 4.6
-   * Esta es la definición de la plantilla de mensaje "llamada de retorno":
+   * Esta es la definición de la plantilla de mensaje &quot;llamada de retorno&quot;:
 
       ```javascript
       "payload":{
@@ -176,12 +181,13 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
       * Con `optedin`, las visitas se envían inmediatamente.
       * Con `optedout`, las visitas se descartan.
       * Con `optunknown`, si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
+
       Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a `optedin`.  Esto solo establece el valor inicial. Si este valor se establece o se cambia en el código, el nuevo valor se utiliza hasta que se cambia de nuevo, o hasta que la aplicación se desinstala y reinstala.
 
 
 * **referrerTimeout**
    * Versión mínima del SDK: 4.1
-   * Tiempo máximo en segundos que el SDK espera los datos de referente de adquisición durante el primer inicio. Si utiliza adquisición, recomendamos un tiempo de espera de 5 segundos.
+   * Cantidad de segundos que el SDK espera los datos del remitente del reenvío de adquisición durante el primer inicio antes de que se agote el tiempo de espera. Si utiliza adquisición, le recomendamos un tiempo de espera de 5 segundos.
 
       >[!IMPORTANT]
       >
@@ -197,7 +203,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
 * **rsids**
    * Versión mínima del SDK: 4.0
-   * Uno o más grupos de informes para recibir datos de Analytics. Los ID de grupos de informes deben separarse con comas, sin espacios intermedios.
+   * Uno o más grupos de informes para recibir datos de Analytics. Las ID de varios grupos de informes deben separarse con comas sin espacios entre ellos.
 
       ```javascript
         "rsids" "rsid"
@@ -221,7 +227,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
       Habilita (`true`) o deshabilita (`false`) la capacidad para enviar datos de medición mediante SSL (HTTPS).
 
-      Abajo se muestra la definición de la plantilla de mensaje "llamada de retorno":
+      Abajo se muestra la definición de la plantilla de mensaje &quot;llamada de retorno&quot;:
 
       ```javascript
       "payload": {
@@ -307,74 +313,74 @@ Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 
 ## Descripción de mensajes {#section_B97D654BA92149CE91F525268D7AD71F}
 
-Adobe Mobile Services genera automáticamente el nodo de mensajes y no suele ser necesario cambiarlo de forma manual. Se proporciona la siguiente descripción con propósitos de solución de problemas:
+Adobe Mobile Services genera automáticamente el nodo de mensajes y, por lo general, no es necesario cambiarlo en forma manual. Se proporciona la siguiente descripción para la resolución de problemas:
 
-* "messageId"
-* ID generado, requerido
-* "template"
-   * "alert", "fullscreen" o "local"
-   * requerido
+* &quot;messageId&quot;
+* ID generado, obligatorio
+* &quot;plantilla&quot;
+   * &quot;alert&quot;, &quot;full screen&quot; o &quot;local&quot;
+   * obligatorio
 
-* "showOffline"
+* &quot;showOffline&quot;
    * true o false
    * el valor predeterminado es false
 
-* "showRule"
-   * "always", "once" o "untilClick"
-   * requerido
+* &quot;showRule&quot;
+   * &quot;always&quot;, &quot;once&quot; o &quot;untilClick&quot;
+   * obligatorio
 
-* "endDate"
-   * número de segundos desde el 1 de enero de 1970
+* &quot;endDate&quot;
+   * cantidad de segundos desde el 1 de enero de 1970
    * el valor predeterminado es 2524730400
 
-* "startDate"
-   * número de segundos desde el 1 de enero de 1970
+* &quot;startDate&quot;
+   * cantidad de segundos desde el 1 de enero de 1970
    * el valor predeterminado es 0
 
-* "payload"
-   * "html"
-      * solo plantilla de pantalla completa, requerido
+* &quot;payload&quot;
+   * &quot;html&quot;
+      * solo la plantilla de pantalla completa, obligatorio
       * html que define el mensaje
-   * "image"
+   * &quot;imagen&quot;
       * solo pantalla completa, opcional
-      * url de la imagen a utilizar para una imagen de pantalla completa
-   * "altImage"
+      * url de la imagen que se utilizará para una imagen de pantalla completa
+   * &quot;altImage&quot;
       * solo pantalla completa, opcional
-      * nombre de la imagen agrupada a usar si la url especificada en
-         * image
+      * nombre de la imagen agrupada que se utilizará si la dirección URL especificada en
+         * imagen
          * no está disponible
-   * "title"
-      * pantalla completa y alerta, requerido
-      * texto del título de un mensaje de pantalla completa o alerta
-   * "content"
-      * alerta y notificación local, requerido
-      * subtexto para un mensaje de alerta, o texto de notificación para un mensaje de notificación local
-   * "confirm"
+   * &quot;título&quot;
+      * pantalla completa y alerta, obligatorio
+      * texto del título para mensaje de pantalla completa o alerta
+   * &quot;content&quot;
+      * alerta y notificación local, obligatorio
+      * subtexto para mensaje de alerta o texto de notificación para mensaje de notificación local
+   * &quot;confirm&quot;
       * alerta, opcional
-      * texto usado en el botón de confirmar
-   * "cancel"
-      * alerta, requerido
-      * texto usado en el botón de cancelar
-   * "url"
+      * texto utilizado en el botón de confirmación
+   * &quot;cancel&quot;
+      * alerta, obligatorio
+      * texto utilizado en el botón Cancelar
+   * &quot;url&quot;
       * alerta, opcional
-      * acción url a cargar si se hace clic en el botón de confirmar
-   * "wait"
-      * notificación local, requerido
-      * tiempo a esperar (en segundos) para publicar la notificación local después de cumplir sus criterios
+      * acción url que se cargará si se hace clic en el botón de confirmación
+   * &quot;wait&quot;
+      * notificación local, obligatorio
+      * tiempo de espera (en segundos) para publicar la notificación local después de cumplir los criterios
 
 
 
-* "audiences"
-   * matriz de objetos que define cómo se debería mostrar el mensaje
-   * "key"
-      * nombre de variable a buscar en la visita, requerido
-* "matches"
-   * tipo de operador de coincidencia utilizado al hacer la comparación
-   * eq = es igual a
-   * ne = no es igual a
+* &quot;audiences&quot;
+   * matriz de objetos que define cómo se debe mostrar el mensaje
+   * &quot;key&quot;
+      * nombre de variable que se debe buscar en la visita, requerido
+* &quot;matches&quot;
+   * tipo de coincidencia utilizado al realizar la comparación
+   * eq = es igual que
+   * ne = no es igual que
    * co = contiene
    * nc = no contiene
-   * sw = comienza con
+   * sw = empieza con
    * ew = termina con
    * ex = existe
    * nx = no existe
@@ -382,13 +388,13 @@ Adobe Mobile Services genera automáticamente el nodo de mensajes y no suele ser
    * le = menor o igual que
    * gt = mayor que
    * ge = mayor o igual que
-* "values"
+* &quot;values&quot;
    * una matriz de valores que se utiliza para comparar el valor de la variable nombrada en
       * key
-      * utilizando el tipo de operador de coincidencia de
+      * con el tipo de coincidencia en
       * matches
-* "triggers"
-   * como las audiencias, aunque esta es la acción, no la audiencia
-   * "key"
-   * "matches"
-   * "values"
+* &quot;triggers&quot;
+   * igual que audiencias, pero esta es la acción en lugar de la audiencia
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
