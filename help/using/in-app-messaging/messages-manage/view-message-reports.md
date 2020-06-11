@@ -8,9 +8,9 @@ title: Ver informes de mensajes
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '490'
 ht-degree: 78%
 
 ---
@@ -91,4 +91,4 @@ Esta es una lista de las métricas disponibles para los mensajes push:
 
 * **[!UICONTROL Bloqueado]**
 
-   El número de tokens de dispositivo que ya no son válidos para su envío a APNS o FCM. Esto suele significar que la aplicación se ha desinstalado del dispositivo o que el usuario ha cambiado la configuración relacionada con la recepción de mensajes. Android e iOS difieren en cuanto a cuándo se cuentan los tokens como denegados. Los tokens de Android se muestran inmediatamente en el recuento de listas denegadas. Los tokens de iOS se muestran inicialmente como publicados, pero en función de los comentarios de APNS, se muestran como denegados en los mensajes posteriores.
+   El número de tokens de dispositivo que ya no son válidos para su envío a APNS o FCM. Esto suele significar que la aplicación se ha desinstalado del dispositivo o que el usuario ha cambiado la configuración relacionada con la recepción de mensajes. Android e iOS difieren en cuanto a cuándo se cuentan los tokens como bloqueados. Los tokens de Android se muestran inmediatamente en el recuento de la lista de bloqueo. Los tokens de iOS se muestran inicialmente como publicados, pero en función de los comentarios de APNS, se muestran como bloqueados en mensajes posteriores.
