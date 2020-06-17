@@ -4,19 +4,19 @@ keywords: mobile
 seo-description: Esta información resulta útil para solucionar problemas con la mensajería push.
 seo-title: Solucionar los problemas de la mensajería push
 solution: Marketing Cloud,Analytics
-title: Resolución de problemas de mensajería push
+title: Solucionar los problemas de la mensajería push
 topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 59%
+ht-degree: 91%
 
 ---
 
 
-# Solucionar los problemas de la mensajería push{#troubleshooting-push-messaging}
+# Solucionar los problemas de la mensajería push {#troubleshooting-push-messaging}
 
 Esta información resulta útil para solucionar problemas con la mensajería push.
 
@@ -30,9 +30,9 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
    El procesamiento de las visitas de Analytics tarda como máximo 30 minutos, aunque suele completarse en 15-20 minutos. Por ejemplo: un grupo de informes procesa las visitas cada hora. Cuando se tiene en cuenta el tiempo de procesamiento necesario de 30 minutos como máximo, una visita entrante puede tardar hasta 90 minutos en estar disponible para un mensaje push. Si un usuario iniciara la aplicación a las 9:01, la visita se mostraría en la interfaz de usuario de Mobile Services como un nuevo usuario único entre las 10:15 y las 10:30.
 
-* **Esperando el servicio push**
+* **Espera del servicio push**
 
-   Es posible que el servicio push (APNS o GCM) no envíe el mensaje inmediatamente. Aunque no es habitual, en ocasiones el tiempo de espera ha sido de 5-10 minutos. Puede verificar si el mensaje push se ha enviado al servicio push consultando la vista **[!UICONTROL Informe]** del mensaje push, buscando el mensaje en la tabla **[!UICONTROL Historial de mensajes]** y fijándose en el número de **[!UICONTROL Publicados]**.
+   Puede que el servicio push (APNS o GCM) no envíe el mensaje inmediatamente. Aunque no es habitual, en ocasiones el tiempo de espera ha sido de 5-10 minutos. Puede verificar si el mensaje push se ha enviado al servicio push consultando la vista **[!UICONTROL Informe]** del mensaje push, buscando el mensaje en la tabla **[!UICONTROL Historial de mensajes]** y fijándose en el número de **[!UICONTROL Publicados]**.
 
    >[!TIP]
    >
@@ -49,7 +49,7 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
    La clave de API puede no ser válida por los siguientes motivos:
 
-   * La clave de API proporcionada no es una clave de servidor con el valor de clave de GCM API correcto.
+   * La clave de API proporcionada no es una clave de servidor con el valor de clave de API GCM correcto.
    * La clave de servidor ha permitido las IP y está impidiendo que los servidores de Adobe envíen un mensaje push.
 
 * **Determinar la validez de la clave de API**
@@ -66,7 +66,7 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
        -d"{\"registration_ids\":[\"ABC\"]}"
    ```
 
-   Un código de estado HTTP 401 devuelto significa que la clave de API no es válida. De lo contrario, verá algo similar a esto:
+   Si se devuelve un código de estado HTTP 401 la clave de API no es válida. De lo contrario, verá algo similar a esto:
 
    ```java
    {"multicast_id":6782339717028231855,"success":0,"failure":1,
@@ -77,10 +77,10 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
 ## ¿Por qué no funciona el certificado de APNS?
 
-El certificado APNS puede no ser válido por los siguientes motivos:
+El certificado de APNS puede no ser válido por los siguientes motivos:
 
-* Es posible que esté utilizando un certificado de simulación de pruebas en lugar del certificado de producción.
-* Está utilizando un nuevo certificado de producción/simulación de pruebas que no es compatible.
+* Es posible que esté utilizando un certificado de Sandbox en lugar del certificado de producción.
+* Está utilizando un nuevo certificado de producción/Sandbox que no es compatible.
 * Está usando un archivo `.p8` en lugar de un archivo `.p12`.
 
 ## Resolver errores de mensajes push
@@ -100,7 +100,7 @@ El cliente siguiente tiene dos aplicaciones de iOS:
    * RSID: PhotoShop_iOS_app_LA
    * Segmento de definición de VRSID: `a.os contains “iOS”`
 
-En este ejemplo, si un empleado de Photoshop envía un mensaje push a la aplicación *PhotoShop_iOS_app_SF*, todos los usuarios de la aplicación *PhotoShop_iOS_app_SF* lo recibirán según lo esperado. En cambio, si un empleado envía un mensaje a la aplicación *PhotoShop_app_LA* porque su segmento de definición de VRSID es incorrecto (`iOS`iOS en lugar de `a.os contains "PhotoShop_iOS_app_LA"`), el mensaje se envía a **todos** los usuarios de iOS en *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. Si el segmento se hubiera definido como `a.os contains “PhotoShop_iOS_app_LA”`, el mensaje push solo se habría enviado a los usuarios de *PhotoShop_iOS_app_LA*.
+En este ejemplo, si un empleado de Photoshop envía un mensaje push a la aplicación *PhotoShop_iOS_app_SF*, todos los usuarios de la aplicación *PhotoShop_iOS_app_SF* lo recibirán según lo esperado. En cambio, si un empleado envía un mensaje a la aplicación *PhotoShop_iOS_app_LA* porque su segmento de definición de VRSID es incorrecto (`iOS`iOS en lugar de `a.os contains "PhotoShop_iOS_app_LA"`), el mensaje se envía a **todos** los usuarios de iOS en *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. Si el segmento se hubiera definido como `a.os contains “PhotoShop_iOS_app_LA”`, el mensaje push solo se habría enviado a los usuarios de *PhotoShop_iOS_app_LA*.
 
 Si se transmiten con el certificado push *PhotoShop_IOS_app_LA*, los identificadores push de *PhotoShop_iOS_app_SF* regresarán con un estado no válido `invalid`.
 
