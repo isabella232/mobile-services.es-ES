@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 76%
+ht-degree: 90%
 
 ---
 
 
-# Audience: mensajes push{#audience-define-and-configure-audience-segments-for-push-messages}
+# Audience: mensajes push {#audience-define-and-configure-audience-segments-for-push-messages}
 
 Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
 
@@ -24,7 +24,7 @@ Puede definir y configurar las opciones de audiencia para los mensajes push, inc
 
 Cuando se crea un segmento de audiencia para mensajería push, este podría incluir a usuarios de una o varias aplicaciones porque los grupos de informes o los grupos de informes virtuales pueden contener datos de una aplicación o más. Para obtener información sobre los grupos de informes virtuales, consulte [Grupos de informes virtuales](/help/using/manage-apps/c-mob-vrs.md).
 
-En Adobe Mobile Services, los especialistas en marketing solo pueden insertar en una aplicación por plataforma. Si los especialistas en marketing intentan insertar en segmentos que contienen usuarios de varias aplicaciones, se muestra una advertencia que indica que continuar puede provocar errores de inserción graves y el posible bloqueo de usuarios. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+En Adobe Mobile Services, los especialistas en marketing solo pueden insertar una aplicación por plataforma. Si los especialistas en marketing intentan insertar en segmentos que contienen usuarios de varias aplicaciones, se muestra una advertencia que indica que continuar puede provocar errores de inserción graves y el posible bloqueo de usuarios. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar datos de Audience Manager en su definición de segmento, consulte [Audience Analytics](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
@@ -58,16 +58,16 @@ Para enviar el mensaje push a las aplicaciones de la lista, seleccione la casill
 Tenga presentes estas recomendaciones:
 
 * Para reducir las confusiones, **evite** definir grupos de informes virtuales de aplicación móvil que contengan datos de varias aplicaciones.
-* Use un identificador de aplicación único como parte de un segmento de audiencia **siempre** que quiera enviar un mensaje push. 
+* Use un identificador de aplicación único como parte de un segmento de audiencia **siempre** que quiera enviar un mensaje push.
 Esto garantiza que las notificaciones push se envíen a un segmento de audiencia que **solo** pertenezca a una aplicación.
 
 ### Ejemplos
 
 A continuación se proporcionan algunos ejemplos para ayudarle a definir correctamente los segmentos:
 
-**Hacer**: Marketer proporciona certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. El especialista en marketing puede enviar una notificación push a un segmento de usuario que abarque ambas plataformas.
+**Sí**: El especialista en marketing proporciona certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. El especialista en marketing puede enviar una notificación push a un segmento de usuario que abarque ambas plataformas.
 
-**No**: Los especialistas en marketing proporcionan certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. Si el especialista en marketing crea y coloca en un segmento de *todos los usuarios activos en los últimos 30 días*, solo los usuarios de la aplicación Adobe Photoshop iOS y Android reciben la notificación push y todos los usuarios de la aplicación Adobe Illustrator iOS y Android se bloquearán. Si desea ver un ejemplo más detallado, consulte *Resolver errores de mensajes push* en [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**No**: Los especialistas en marketing proporcionan certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. Si desea ver un ejemplo más detallado, consulte *Resolver errores de mensajes push* en [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de audiencia {#section_A92C60885A30421B8150820EC1CCBF13}
 
@@ -79,7 +79,7 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
 
    * La **[!UICONTROL Audiencia participante estimada]** es el número de dispositivos que se ajustan al segmento de Adobe Analytics **y** el número de dispositivos participantes.
 
-      Puede realizar una vista del número de usuarios de los segmentos seleccionados que han adhesión para recibir mensajes y que recibirán el mensaje push. El número total de usuarios de la aplicación se muestra por debajo de la estimación, independientemente del estado de activación.
+      Puede realizar una vista del número de usuarios de los segmentos seleccionados que han habilitado la recepción de mensajes y que recibirán el mensaje push. El número total de usuarios de la aplicación se muestra por debajo de la estimación, independientemente del estado de inclusión.
 
    * El **[!UICONTROL Total]** es el número de dispositivos que se ajustan al segmento de Adobe Analytics.
 
