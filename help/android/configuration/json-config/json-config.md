@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1678'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
       En este momento, las visitas a la información de sesión se realizan sobre bloqueos y duración de la sesión, y pueden habilitarse o deshabilitarse.
 
-      **Activación o desactivación de visitas individuales**
+      **Activación o desactivación de visitas**
 
       * Si establece el valor en `false`, las coincidencias quedarán **deshabilitadas**. El SDK vuelve a su comportamiento anterior a la versión 4.1 de agrupar la información de sesión de la sesión anterior con la primera visita de la sesión siguiente. El SDK de Adobe también adjunta la información de la sesión al ciclo vital actual, lo que evita la creación de una visita inflada. Dado que ya no se crean visitas infladas, disminuye de inmediato la cantidad de visitas.
 
@@ -219,7 +219,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
 
 * **server**
    * Versión mínima del SDK: 4.0
-   * El servidor de Analytics o Audience Manager, basado en el nodo principal. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. Este prefijo lo gestiona automáticamente la biblioteca y se basa en la variable `ssl`. Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
+   * El servidor de Analytics o Gestión de público, basado en el nodo principal. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. Este prefijo lo gestiona automáticamente la biblioteca y se basa en la variable `ssl`. Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
 
 * **ssl**
    * Versión mínima del SDK: 4.0
@@ -371,11 +371,11 @@ Adobe Mobile Services genera automáticamente el nodo de mensajes y, por lo gene
 
 
 * &quot;audiences&quot;
-   * matriz de objetos que define cómo se debe mostrar el mensaje
+   * conjunto de objetos que define cómo debería mostrarse el mensaje
    * &quot;key&quot;
-      * nombre de variable que se debe buscar en la visita, requerido
+      * nombre de la variable que se busca en la visita y que es obligatorio
 * &quot;matches&quot;
-   * tipo de coincidencia utilizado al realizar la comparación
+   * tipo de emparejador utilizado al hacer la comparación
    * eq = es igual que
    * ne = no es igual que
    * co = contiene
@@ -389,12 +389,12 @@ Adobe Mobile Services genera automáticamente el nodo de mensajes y, por lo gene
    * gt = mayor que
    * ge = mayor o igual que
 * &quot;values&quot;
-   * una matriz de valores que se utiliza para comparar el valor de la variable nombrada en
+   * un conjunto de valores que se utiliza para comparar el valor de la variable nombrada en
       * key
       * con el tipo de coincidencia en
       * matches
 * &quot;triggers&quot;
-   * igual que audiencias, pero esta es la acción en lugar de la audiencia
+   * igual que las audiencias, pero esta es la acción en lugar de la audiencia
    * &quot;key&quot;
    * &quot;matches&quot;
    * &quot;values&quot;
