@@ -134,7 +134,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` *debe* ser verdadera.
    * Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false.
 
-      Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,  póngase en contacto  con el servicio de atención al cliente o descargue el archivo de configuración desde Adobe Mobile Services. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
+      Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, póngase en contacto con el servicio de atención al cliente o descargue el archivo de configuración desde Adobe Mobile Services. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
    * Versión mínima del SDK: 4.0
 
