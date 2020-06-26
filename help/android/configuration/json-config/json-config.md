@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 Esta información le ayuda a comprender las variables del archivo de configuración ADBMobile.json.
 
-## Referencia del archivo de configuración `ADBMobileConfig.json` {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` Referencia del archivo de configuración {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 El mismo archivo de configuración puede utilizarse para su aplicación en varias plataformas:
 
@@ -90,7 +90,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
    * El valor predeterminado es `false`.
    * Este ajuste **solo** se utiliza para clientes proporcionados por Device Co-op.
 
-   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
+   Para los miembros de Device Co-op que necesitan que este valor se establezca en `true`, necesitará colaborar con el equipo de Co-op para solicitar un marcador de lista negra en su cuenta de Device Co-op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
    Recuerde la información siguiente:
 
@@ -130,7 +130,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
       >
       >Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` **debe** ser verdadera. Si no están habilitadas, la propiedad `offlineEnabled` **debe** tener el valor false.
       >
-      >Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se han habilitado las marcas de fecha y hora, póngase en contacto con Customer Care o descargue el archivo de configuración desde Adobe Mobile Services.
+      >Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se han habilitado las marcas de fecha y hora,  póngase en contacto con Customer Care o descargue el archivo de configuración desde Adobe Mobile Services.
 
       Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
