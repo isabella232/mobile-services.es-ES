@@ -4,11 +4,11 @@ seo-description: Para empezar a usar la cooperación entre dispositivos de Exper
 seo-title: Cooperación entre dispositivos de Experience Cloud
 title: Cooperación entre dispositivos de Experience Cloud
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Aquí puede encontrar más información sobre el marcador `coopUnsafe`:
 * El valor predeterminado es `false`.
 * Este ajuste **solo** se utiliza para clientes proporcionados por Device Co-op.
 
-For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
+Para los miembros de Device Co-op que necesitan que este valor se establezca en `true`, necesitará colaborar con el equipo de Co-op para solicitar un marcador de lista negra en su cuenta de Device Co-op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
 Recuerde la información siguiente:
 
