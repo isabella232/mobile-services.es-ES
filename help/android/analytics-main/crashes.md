@@ -2,12 +2,15 @@
 description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
 seo-title: Seguimiento de bloqueos de aplicaciones
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +31,7 @@ Para garantizar un informe de bloqueo preciso, debe llamar a `pauseCollectingLif
 
 ![](assets/android-lifecycle.png)
 
-Para obtener información sobre el ciclo de duración de las actividades de Android, consulte [Actividades](https://developer.android.com/guide/components/activities.html).
+For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
 
 *Esta ilustración del ciclo vital de Android la creó y[compartió el grupo Android Open Source Project](https://source.android.com/), y se utiliza de acuerdo con los términos de la[Licencia de atribución de Creative Commons 2.5](https://creativecommons.org/licenses/by/2.5/).*
 
@@ -44,7 +47,7 @@ Para obtener información sobre el ciclo de duración de las actividades de Andr
 
 ## ¿Cómo se deben gestionar los fragmentos?
 
-Los fragmentos tienen eventos de ciclo vital de aplicación similares a las actividades. Sin embargo, un fragmento no puede estar activo sin estar asociado a una actividad.
+Los fragmentos tienen eventos de ciclo vital de aplicación similares a las actividades. Sin embargo, un fragmento no puede estar activo sin estar asociado a una Actividad.
 
 >[!IMPORTANT]
 >
