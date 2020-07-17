@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Notas de la versión
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 48c3addeb929f3356990ef55b44f93dd4bb2f728
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # Notas de la versión {#release-notes}
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
+
+**16 de julio de 2020: Versión 4.19.3**
+
+* General: se ha corregido un error que impedía que las direcciones URL de vinculación profunda con varios signos de igual en el parámetro de consulta se gestionaran correctamente.
 
 **24 de marzo de 2020: Versión 4.19.2**
 
