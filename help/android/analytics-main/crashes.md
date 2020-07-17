@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Para garantizar un informe de bloqueo preciso, debe llamar a `pauseCollectingLif
 
 ![](assets/android-lifecycle.png)
 
-For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
+Para obtener más información acerca del ciclo vital de la actividad de Android, consulte [Actividades](https://developer.android.com/guide/components/activities.html).
 
-*Esta ilustración del ciclo vital de Android la creó y[compartió el grupo Android Open Source Project](https://source.android.com/), y se utiliza de acuerdo con los términos de la[Licencia de atribución de Creative Commons 2.5](https://creativecommons.org/licenses/by/2.5/).*
+*Esta ilustración del ciclo vital de Android la creó y [compartió el grupo Android Open Source Project](https://source.android.com/), y se utiliza de acuerdo con los términos de la [Licencia de atribución de Creative Commons 2.5](https://creativecommons.org/licenses/by/2.5/).*
 
 ## ¿Qué puede provocar que se comunique un falso bloqueo?
 
