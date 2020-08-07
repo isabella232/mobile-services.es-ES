@@ -6,9 +6,9 @@ solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: ht
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -155,7 +155,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
       A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere el ajuste `analytics.poi`:
 
       ```javascript
-      “analytics.poi“: `https://assets.adobedtm.com/`
+        “analytics.poi“: `https://assets.adobedtm.com/`
       …/yourfile.json”`,
       ```
 
