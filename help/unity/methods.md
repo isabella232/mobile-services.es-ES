@@ -7,12 +7,15 @@ solution: Marketing Cloud,Developer
 title: Métodos ADBMobile.cs
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
-source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 68%
 
 ---
 
 
-# ADBMobile.cs methods {#adbmobile-cs-methods}
+# Métodos ADBMobile.cs {#adbmobile-cs-methods}
 
 ## Métodos de configuración
 
@@ -34,7 +37,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **EnableLocalNotifications (solo iOS)**
 
-   Activa las notificaciones locales en la aplicación.
+   Habilite las notificaciones locales en la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -87,7 +90,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Se descartan las visitas.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas).
 
-      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
 
    * Esta es la sintaxis para este método:
 
@@ -103,7 +106,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **GetUserIdentifier**
 
-   Devuelve el identificador del usuario si se ha establecido un identificador personalizado. Devuelve vacío si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -155,7 +158,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **PauseCollectingLifecycleData (solo Android)**
 
-   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -187,7 +190,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **SetDebugLogging**
 
-   Establece la preferencia de registro de depuración como activado.
+   Establece la preferencia de registro de depuración en enabled.
 
    * Esta es la sintaxis para este método:
 
@@ -203,7 +206,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **SetPrivacyStatus**
 
-   Establece el estado de privacidad del usuario actual como estado. Establezca uno de los siguientes valores:
+   Establece el estado de privacidad del usuario actual en estado. Establezca uno de los siguientes valores:
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: Las visitas se envían inmediatamente.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Se descartan las visitas.
@@ -223,7 +226,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **SetUserIdentifier**
 
-   Establece el identificador de usuario como userId.
+   Establece el identificador de usuario en userId.
 
    * Esta es la sintaxis para este método:
 
@@ -257,9 +260,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como “pantalla de título”, “nivel 1” o “pausa”, entre otros. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
 
-   If state is empty, it displays as *`app name app version (build)`* in reports. Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
+   Si el estado está vacío, se muestra como *`app name app version (build)`* en los informes. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
@@ -281,7 +284,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackAction**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son lo que sucede en la aplicación que desea medir, como “muertes”, “subida de nivel”, “suscripciones a la fuente”, entre otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
 
    >[!TIP]
    >
@@ -301,7 +304,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackActionFromBackground (solo iOS)**
 
-   Realiza un seguimiento de una acción que ocurre en segundo plano. Esto impide que los eventos del ciclo vital se activen en ciertos escenarios.
+   Rastrea una acción que se produjo en segundo plano. Esto evita que los eventos del ciclo vital se activen en determinados escenarios.
 
    >[!TIP]
    >
@@ -321,7 +324,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLocation**
 
-   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada TrackLocation.
+   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordenadas actuales están dentro de un punto de interés definido, se rellena una variable de datos de contexto y se envía con la llamada TrackLocation.
 
    * Esta es la sintaxis para este método:
 
@@ -363,7 +366,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLifetimeValueIncrease**
 
-   Incrementa el valor del ciclo de vida del usuario.
+   Añade la cantidad al valor de duración del usuario.
 
    * Esta es la sintaxis para este método:
 
@@ -399,7 +402,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados a la acción determinada. Los datos que se pasan se añaden a los datos existentes de esa acción determinada y se sobrescriben si ya se ha definido esa clave para una acción.
+   Pasa datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
 
    >[!TIP]
    >
@@ -519,7 +522,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **VisitorSyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, además de un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
+   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de Visitante acepta varios ID de cliente para el mismo visitante, junto con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -539,7 +542,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **ProcessGooglePlayInstallReferrerUrl** *(solo Android)*
 
-   Pase la dirección URL del referente devuelta por una llamada a la API de referencia de instalación de Google Play a este método.
+   Pase la URL de remitente del reenvío devuelta desde una llamada a la API de Remitente del reenvío de instalación de Google Play a este método.
 
    * Esta es la sintaxis para este método:
 
