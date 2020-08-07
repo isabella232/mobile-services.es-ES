@@ -1,24 +1,27 @@
 ---
-description: Clases y métodos provistos por la biblioteca de la Plataforma universal de Windows.
-seo-description: Clases y métodos provistos por la biblioteca de la Plataforma universal de Windows.
-seo-title: SDK methods
+description: Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
+seo-description: Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
+seo-title: Métodos SDK
 solution: Marketing Cloud,Analytics
 title: Métodos SDK
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 66%
 
 ---
 
 
 # SDK methods {#sdk-methods}
 
-Clases y métodos provistos por la biblioteca de la Plataforma universal de Windows.
+Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -41,8 +44,8 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
 
    * `ADBMobilePrivacyStatusOptIn` - Las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - Hits are discarded.
-   * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
+   * `ADBMobilePrivacyStatusOptOut` - Se descartan las visitas.
+   * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
       The default value is set in the `ADBMobileConfig.json` config file. Para obtener más información, consulte [Archivo](/help/universal-windows/c-configuration/c.json.md)de configuración ADBMobileConfig.json.
 
@@ -53,9 +56,9 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
       ^getPrivacyStatusAsync();
       ```
 
-   * Estos son los ejemplos de código para este método:
+   * Estos son ejemplos de código para este método:
 
-      **C**
+      **C Sharp**
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int { ADBMobilePrivacyStatusOptIn = 1, 
@@ -75,10 +78,10 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
 
 * **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
-   Sets the privacy status for the current user to `status`. Establezca uno de los siguientes valores:
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `DBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan. Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
+   Establece el estado de privacidad del usuario actual como `status`. Establezca uno de los siguientes valores:
+   * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
+   * `DBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan. Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
       * Esta es la sintaxis para este método:
 
@@ -86,7 +89,7 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
          static void SetPrivacyStatus(ADBMobilePrivacyStatus status);
          ```
 
-      * Estos son los ejemplos de código para este método:
+      * Estos son ejemplos de código para este método:
 
          **Engranaje en C**
 
@@ -125,7 +128,7 @@ Clases y métodos provistos por la biblioteca de la Plataforma universal de Wind
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Devuelve el identificador de usuario personalizado si se ha establecido alguno. Returns `null` if a custom identifier is not set.
+   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Returns `null` if a custom identifier is not set.
 El valor predeterminado es `null`.
 
    >[!IMPORTANT]
@@ -181,7 +184,7 @@ El valor predeterminado es `null`.
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento ignora esta configuración.
+   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento omite esta configuración.
 
    * Esta es la sintaxis para este método:
 
@@ -198,7 +201,7 @@ El valor predeterminado es `null`.
 
 * **CollectLifecycleData (winJS: collectLifecycleData)**
 
-   Indica al SDK que los datos del ciclo vital deben ser recopilados para su uso en todas las soluciones en el SDK. For more information, see  [Lifecycle metrics](/help/universal-windows/metrics.md).
+   Indica al SDK que los datos del ciclo vital deben ser recopilados para su uso en todas las soluciones en el SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -213,9 +216,9 @@ El valor predeterminado es `null`.
       ADB.Config.collectLifecycleData();
       ```
 
-* **PauseCollecting&#x200B;LifecycleData (winJS: pauseCollecting&#x200B;LifecycleData)**
+* **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica al SDK que la aplicación está en pausa para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
 
    * Esta es la sintaxis para este método:
 
