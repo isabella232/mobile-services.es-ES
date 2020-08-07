@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: Requisitos previos para activar la mensajería push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -74,7 +74,9 @@ Para obtener más información, consulte [Solución de problemas con la vinculac
 
 Antes de activar el servicio de ID en la aplicación, se desactiva la sección **[!UICONTROL Servicios push]**. Sin embargo, después de habilitar el servicio de ID, se activa la sección Servicios push. Para obtener más información sobre la activación de Servicios push, consulte [Configuración de opciones de servicio de ID de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
->[!IMPORTANT]: Debe hacer clic en **[!UICONTROL Guardar]** para guardar los cambios y actualizar los servicios push.
+>[!IMPORTANT]
+>
+>Debe hacer clic en **[!UICONTROL Guardar]** para guardar los cambios y actualizar los servicios push.
 >
 >Puede configurar una aplicación de tienda de aplicaciones para Apple y otra para Google en cada grupo de informes. Si necesita aplicaciones adicionales, por ejemplo, una para un entorno de producción y otra para un entorno de desarrollo, configure una nueva aplicación de tienda de aplicaciones y un nuevo grupo de informes para cada entorno.
 
