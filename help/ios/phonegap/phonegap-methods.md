@@ -3,12 +3,15 @@ description: Puede utilizar métodos del complemento PhoneGap de iOS para comple
 keywords: phonegap
 seo-description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
 seo-title: Métodos del complemento PhoneGap
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos del complemento PhoneGap
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +90,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackingIdentifier**
 
-   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el lanzamiento inicial y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera cuando la aplicación se inicia por primera vez y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    >[!TIP]
    >
@@ -322,7 +325,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackActionFromBackground**
 
-   Realiza un seguimiento de una acción que ocurre en segundo plano. Esto impide que los eventos del ciclo vital se activen en ciertos escenarios.
+   Rastrea una acción que se produjo en segundo plano. Esto evita que los eventos del ciclo vital se activen en determinados escenarios.
 
    * Esta es la sintaxis para este método:
 
