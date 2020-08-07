@@ -1,14 +1,17 @@
 ---
 description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
 seo-title: Métodos del complemento PhoneGap
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métodos del complemento PhoneGap
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +96,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
    Devuelve el identificador de visitante generado automáticamente.
 
-   Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el lanzamiento inicial y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    >[!TIP]
    >
@@ -334,7 +337,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackTimed&#x200B;ActionUpdate**
 
-   Pasa `cData` para actualizar los datos de contexto asociados con `action`&gt;.
+   Pasa `cData` para actualizar los datos de contexto asociados con `action`>.
 
    Los datos `cData` que se pasan se anexan a los ya existentes para la acción. Si la misma clave ya está definida para `action`, los datos se sobrescriben.
 
