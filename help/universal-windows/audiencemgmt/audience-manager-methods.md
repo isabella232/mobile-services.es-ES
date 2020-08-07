@@ -1,32 +1,35 @@
 ---
-description: Lista de métodos de Audience Manager provistos por la biblioteca de la Plataforma universal de Windows.
-seo-description: Lista de métodos de Audience Manager provistos por la biblioteca de la Plataforma universal de Windows.
-seo-title: Audience Manager methods
+description: Lista de los métodos de Audience Manager proporcionados por la biblioteca de la Plataforma universal de Windows.
+seo-description: Lista de los métodos de Audience Manager proporcionados por la biblioteca de la Plataforma universal de Windows.
+seo-title: Métodos de Audience Manager
 solution: Marketing Cloud,Analytics
 title: Métodos de Audience Manager
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 43%
 
 ---
 
 
-# Audience Manager methods{#audience-manager-methods}
+# Métodos de Audience Manager{#audience-manager-methods}
 
-Lista de métodos de Audience Manager provistos por la biblioteca de la Plataforma universal de Windows.
+Lista de los métodos de Audience Manager proporcionados por la biblioteca de la Plataforma universal de Windows.
 
-Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Audience Manager methods are prefixed with `AudienceManager`.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Destinatario y Audience Manager. Methods are prefixed according to the solution. Audience Manager methods are prefixed with `AudienceManager`.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
 
-Si Audience Manager está configurado en el archivo JSON, se envía una señal que contiene métricas del ciclo vital junto con la visita del ciclo vital.
+Si el administrador de audiencias está configurado en el archivo JSON, se envía una señal que contiene métricas del ciclo vital junto con la visita del ciclo vital.
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve `null` si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `SharedPreferences` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Returns `null` if no signal has been submitted yet. Visitor profile is saved in `SharedPreferences` for easy access across multiple launches of your app.
 
    * Esta es la sintaxis para este método:
 
@@ -77,7 +80,7 @@ Si Audience Manager está configurado en el archivo JSON, se envía una señal q
 
 * **SetDpidAndDpuuid (winJS: setDpidAndDpuuid)**
 
-   Establece el DPID y el DPUUID. Si DPID y DPUUID se han establecido, se envían con cada señal.
+   Establece el DPID y el DPUUID. Si se establecen DPID y DPUUID, se enviarán con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -94,7 +97,7 @@ Si Audience Manager está configurado en el archivo JSON, se envía una señal q
 
 * **SignalWithData (winJS: signalWithData)**
 
-   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno a block.
+   Envía a la administración de audiencias una señal con características y obtiene la devolución de los segmentos coincidentes en una llamada de retorno de bloque.
 
    * Esta es la sintaxis para este método:
 
@@ -111,5 +114,5 @@ Si Audience Manager está configurado en el archivo JSON, se envía una señal q
       traits["trait"] = "b";
       ADB.AudienceManager.signalWithData(traits).then(function (visitorProfile) { 
         // segments come back here in "visitorProfile", normally found in the "segs" object of your json 
-      }); 
-      
+      });
+      ```
