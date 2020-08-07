@@ -1,14 +1,17 @@
 ---
 description: Aquí encontrará la información de referencia sobre las dimensiones y las métricas móviles predeterminadas.
-keywords: móvil
+keywords: mobile
 seo-description: Aquí encontrará la información de referencia sobre las dimensiones y las métricas móviles predeterminadas.
 seo-title: Métricas de Mobile y referencia de dimensiones
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Métricas de Mobile y referencia de dimensiones
-topic: Métricas
+topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: ht
-source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +41,7 @@ Esta es la lista de métricas móviles predeterminadas:
    Se activa cuando la aplicación se utiliza en un día concreto.
 
    >[!TIP]
+   >
    >El evento Usuarios implicados cada día no se almacena automáticamente en una métrica de Analytics. Debe crear una regla de procesamiento que configure un evento personalizado para capturar esta métrica.
 
 * **Usuarios comprometidos mensualmente**
@@ -56,7 +60,7 @@ Esta es la lista de métricas móviles predeterminadas:
 
 * **Bloqueos**
 
-   Se activa cuando la aplicación no se cierra correctamente. Este evento se envía cuando la aplicación se inicia después de haberse bloqueado.
+   Se activa cuando la aplicación no se cierra correctamente. Este evento se envía cuando la aplicación inicio tras un bloqueo.
 
    >[!TIP]
    >Se considera que la aplicación se bloquea si no se invoca el evento de cierre.
@@ -71,7 +75,7 @@ Esta es la lista de dimensiones móviles predeterminadas:
 
 * **Install Date**
 
-   Fecha del primer inicio después de la instalación. El formato de la fecha es *MM/DD/AAAA*.
+   Fecha del primer inicio después de la instalación. La fecha tiene el formato *MM/DD/AAAA* .
 
 * **ID de aplicación**
 
