@@ -4,8 +4,11 @@ seo-description: La vista previa de Target permite realizar un completo QA para 
 seo-title: Vista previa de Target en iOS
 title: Vista previa de Target en iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ Para obtener más información acerca de cómo configurar y utilizar Vista previ
 
 * **setPreviewRestartDeeplink**
 
-   Establece un enlace profundo de aplicación que se activará cuando las selecciones de vista de previa se apliquen en el modo Vista previa.
+   Establece un vínculo profundo de la aplicación que se activará cuando se apliquen las selecciones de previsualización en el modo de Previsualización.
 
    * Esta es la sintaxis para este método:
 
