@@ -1,26 +1,29 @@
 ---
-description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+description: Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
-seo-description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+seo-description: Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
 seo-title: Métodos de Android
 solution: Marketing Cloud,Developer
-title: Android methods
+title: Métodos de Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1767'
+ht-degree: 66%
 
 ---
 
 
-# Android methods{#android-methods}
+# Métodos de Android{#android-methods}
 
-Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
 
-## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Métodos de configuración {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **DebugLogging**
 
-   Returns the current debug logging preference, and the default is false.
+   Devuelve la preferencia de registro de depuración actual y el valor predeterminado es false.
 
    * Esta es la sintaxis para este método:
 
@@ -54,10 +57,11 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 * **PrivacyStatus**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
-   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
-   * `ADBMobilePrivacyStatus.OptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatus.Unknown` - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
-   El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
+   * `ADBMobilePrivacyStatus.OptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatus.Unknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
+
+   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
 
    * Esta es la sintaxis para este método:
 
@@ -108,7 +112,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **PauseCollectingLifecycleData**
 
-   Indica al SDK que la aplicación está en pausa para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -122,9 +126,9 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
       Config.PauseCollectingLifecycleData();
       ```
 
-* **CollectLifecycleData (Activity actividad)**
+* **CollectLifecycleData (actividad de Actividad)**
 
-   (4.2 o posterior) Indica al SDK que se deben recopilar los datos del ciclo de vida para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   (4.2 o posterior) Indica al SDK que los datos del ciclo vital deben recopilarse para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -138,9 +142,9 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
       Config.CollectLifecycleData (this);
       ```
 
-* **CollectLifecycleData (Activity actividad)**
+* **CollectLifecycleData (actividad de Actividad)**
 
-   (4.2 o posterior) Indica al SDK que se deben recopilar los datos del ciclo de vida para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   (4.2 o posterior) Indica al SDK que los datos del ciclo vital deben recopilarse para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -159,7 +163,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **OverrideConfigStream**
 
-   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   (4.2 o posterior) Le permite cargar un archivo de `ADBMobile JSON` configuración diferente cuando la aplicación inicio. Se utiliza la configuración distinta hasta que se cierre la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -206,11 +210,11 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
        Config.SetSmallIconResourceId(R.drawable.appIcon);
       ```
 
-## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Métodos de Analytics {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
-   Devuelve el ID generado de forma automática para Analytics. Se trata de un ID exclusivo y específico para la aplicación que se genera durante el primer inicio y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Devuelve el ID generado automáticamente para Analytics. Se trata de un ID exclusivo y específico para la aplicación que se genera durante el primer inicio y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    * Esta es la sintaxis para este método:
 
@@ -226,11 +230,11 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States`son las vistas que están disponibles en la aplicación, como "pantalla de título", "nivel 1" o "pausa", entre otros. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, se muestra como "nombre_aplicación versión_aplicación (compilación)" en los informes. Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States` son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, se muestra como &quot;nombre de aplicación versión de la aplicación (compilación)&quot; en los informes. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
-   >Esta es la única llamada de seguimiento que incrementa las vistas de página.
+   >Esta es la única llamada de seguimiento que incrementa las visualizaciones de página.
 
    * Esta es la sintaxis para este método:
 
@@ -249,12 +253,12 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackAction**
 
-   Realiza un seguimiento de una acción en la aplicación. Las acciones son lo que sucede en la aplicación que desea medir, como “muertes”, “subida de nivel”, “suscripciones a la fuente”, entre otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
 
    >[!TIP]
    >
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >Si cuenta con un código que podría estar ejecutándose mientras la aplicación se encuentra en segundo plano (por ejemplo, recuperación de datos en segundo plano), utilice `trackActionFromBackground` en su lugar.
 
    * Esta es la sintaxis para este método:
 
@@ -362,7 +366,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados a la acción determinada. Los datos que se pasan se añaden a los datos existentes de esa acción determinada y se sobrescriben si ya se ha definido esa clave para una acción.
+   Pasa datos para actualizar los datos de contexto asociados a una acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
 
    >[!TIP]
    >
@@ -490,7 +494,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **SyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios identificadores de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos identificadores de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
+   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -533,7 +537,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **CreateRequest**
 
-   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros determinados.
+   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
 
    * Esta es la sintaxis para este método:
 
@@ -551,7 +555,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **CreateOrderConfirmRequest**
 
-   Creates an `ADBTargetLocationRequest`.
+   Crea un `ADBTargetLocationRequest`.
 
    * Esta es la sintaxis para este método:
 
@@ -567,7 +571,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **ClearCookies**
 
-   Borra las cookies de Target de la aplicación.
+   Borra las cookies de Destinatario de la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -585,7 +589,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **VisitorProfile**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve cero si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve nil si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -633,7 +637,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **AudienceSetDpidAndDpuuid**
 
-   Establece el `dpid` y `dpuuid`. If `dpid` and `dpuuid` are set, they are sent with each signal.
+   Establece el `dpid` y `dpuuid`. Si `dpid` y `dpuuid` están configurados, se envían con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -673,9 +677,9 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
       AudienceManager.SignalWithData (traits, new AudienceManagerCallback());
       ```
 
-* **Restaurar**
+* **Restablecer**
 
-   Restaura el administrador de audiencia `UUID` y elimina el perfil del visitante actual.
+   Resets audience manager `UUID` and purges current visitor profile.
 
    * Esta es la sintaxis para este método:
 
@@ -749,9 +753,9 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       }
       ```
 
-* **Cierre**
+* **Cerrar**
 
-   Cierra el elemento de medios denominado.
+   Cierra el elemento de medios llamado nombre.
 
    * Esta es la sintaxis para este método:
 
@@ -765,9 +769,9 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Close (settings.Name); 
       ```
 
-* **Reproducir**
+* **Play**
 
-   Reproduce el elemento de medios denominado en el desplazamiento determinado (en segundos).
+   Reproduce el elemento de medios llamado name con un desplazamiento offset dado (en segundos).
 
    * Esta es la sintaxis para este método:
 
@@ -781,9 +785,9 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Play (settings.Name, 0); 
       ```
 
-* **Completado**
+* **Completar**
 
-   Marca de forma manual como completo el elemento de medios en el desplazamiento proporcionado (en segundos).
+   Marca de forma manual como completado el elemento de medios en el offset indicado (en segundos).
 
    * Esta es la sintaxis para este método:
 
@@ -799,7 +803,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
 
 * **Stop**
 
-   Notifica al módulo de medios que el vídeo se ha detenido o pausado en el desplazamiento determinado.
+   Notifica al módulo de medios que el vídeo se ha detenido o pausado en el offset indicado.
 
    * Esta es la sintaxis para este método:
 
@@ -813,7 +817,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Stop (settings.Name, 3);
       ```
 
-* **Haga clic**
+* **Haga clic en**
 
    Notifica al módulo de medios que se ha hecho clic en el elemento de medios.
 
@@ -829,7 +833,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Click (settings.Name, 3); 
       ```
 
-* **Rastrear**
+* **Seguimiento**
 
    Envía una llamada de acción de seguimiento (sin visualización de página) al estado de medios actual.
 
