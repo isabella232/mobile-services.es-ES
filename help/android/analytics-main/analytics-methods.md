@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos de Analytics
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +66,7 @@ Realiza el seguimiento de una acción en la aplicación.
 * **getTrackingIdentifier**
 Devuelve el identificador de usuario generado de forma automática para Analytics.
 
-   Se trata de un ID exclusivo y específico para la aplicación que se genera durante el primer inicio, que después se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el primer inicio y que se almacena y utiliza a partir de ese momento. El ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    * Esta es la sintaxis para este método:
 
