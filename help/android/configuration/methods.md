@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 100%
 
 ---
 
@@ -249,8 +252,8 @@ Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visita
         super.onResume()
         // assume being called in an Activity class Config.collectLifecycleData(this);
         } 
-        ```
-      
+      ```
+
 * **pauseCollecting&#x200B;LifecycleData**
 
    * Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, `onPause` recopila una marca de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de duración sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
