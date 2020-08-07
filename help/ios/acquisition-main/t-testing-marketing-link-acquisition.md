@@ -1,14 +1,17 @@
 ---
 description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de vínculos de marketing
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,8 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    Debería ver contextData en la respuesta JSON:
 
-   ```js{"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
+   ```js
+   {"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
    {"a.launch.campaign.trackingcode":"twdf4546","a.referrer.campaign.name":"iOS Demo","a.referrer.campaign.trackingcode":"twdf4546"}
    ,"adobeData":{"unique_id":"8c14098d7c79e8a180c15e4b2403549d3cc21ea8","deeplinkid":"57477650072932ec6d3a470f"}}
    ```
@@ -42,7 +46,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    | Configuración | Valor |
    |--- |--- |
-   | adquisición | El servidor debe ser  `c00.adobe.com`. El `appid` debe coincidir con el *`appid`* del vínculo de adquisición. |
+   | acquisition | El servidor debe ser `c00.adobe.com`. El `appid` debe coincidir con el *`appid`* del vínculo de adquisición. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 1. (Condicional) Si el ajuste SSL en el archivo de configuración de la aplicación está establecido en `false`, actualice el vínculo de adquisición para que utilice el protocolo HTTP en lugar de HTTPS.
@@ -81,7 +85,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    * `Analytics - Acquisition referrer timed out`
 
-      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación, y de que utiliza la misma red al hacer clic en la URL y al abrir la aplicación.
+      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación y de que está utilizando la misma red al hacer clic en la URL y abrir la aplicación.
 
 Recuerde la información siguiente:
 
