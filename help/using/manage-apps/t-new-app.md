@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Agregar nueva aplicación
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Agregar nueva aplicación{#add-a-new-app}
+# Agregar nueva aplicación {#add-a-new-app}
 
 Puede usar esta información para crear una nueva aplicación y configurar sus métricas clave; configurar las opciones del SDK para Adobe Analytics y Adobe Audience Manager; configurar las opciones de adquisición y servicio de ID; así como descargar el archivo de configuración, los SDK y las herramientas para el desarrollador y el evaluador.
 
@@ -72,13 +72,13 @@ Para poder configurar la aplicación, primero debe agregarla en la interfaz de u
 
    * **[!UICONTROL Tipo]**
 
-      Seleccione un tipo en la lista desplegable. Los informes disponibles que se muestran en el menú de navegación de la izquierda varían según el tipo de aplicación que seleccione.
+      Seleccione un idioma de la lista desplegable. Los informes disponibles en el menú de navegación de la izquierda varían según el tipo de aplicación que seleccione.
 
-      Estos son los tipos disponibles:
+      A continuación verá los tipos disponibles:
 
       * **[!UICONTROL Standard]**
 
-         Puede dejar seleccionada la opción **[!UICONTROL Standard}** para la mayoría de las aplicaciones.
+         Puede dejar seleccionada la opción **[!UICONTROL Standard]** para la mayoría de las aplicaciones.
 
       * **[!UICONTROL Publicación]**
 
