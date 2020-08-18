@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métricas de Mobile y referencia de dimensiones
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Esta es la lista de métricas móviles predeterminadas:
 
 * **Bloqueos**
 
-   Se activa cuando la aplicación no se cierra correctamente. Este evento se envía cuando la aplicación inicio tras un bloqueo.
+   Se activa cuando la aplicación no se cierra correctamente. Este evento se envía cuando la aplicación se inicia después de un bloqueo.
 
    >[!TIP]
    >Se considera que la aplicación se bloquea si no se invoca el evento de cierre.
@@ -73,9 +73,9 @@ Esta es la lista de métricas móviles predeterminadas:
 
 Esta es la lista de dimensiones móviles predeterminadas:
 
-* **Install Date**
+* **Fecha de instalación**
 
-   Fecha del primer inicio después de la instalación. La fecha tiene el formato *MM/DD/AAAA* .
+   Fecha del primer lanzamiento después de la instalación. La fecha tiene el formato *MM/DD/AAAA*.
 
 * **ID de aplicación**
 
@@ -127,7 +127,7 @@ Esta es la lista de dimensiones móviles predeterminadas:
 
 * **Nombre del dispositivo**
 
-   Almacena el nombre del dispositivo. En iOS, una cadena de dos dígitos separados por comas identifica el dispositivo iOS. El primer número representa la generación del dispositivo y el segundo representa versiones de miembros diferentes de la familia del dispositivo. Puede consultar la lista completa de los nombres comunes de dispositivos en [iOS Device Versions](/help/ios/reference/device-versions.md) (Versiones de dispositivos iOS).
+   Almacena el nombre del dispositivo. En iOS, una cadena de dos dígitos separados por comas identifica el dispositivo iOS. El primer número representa la generación del dispositivo y el segundo representa versiones de miembros diferentes de la familia del dispositivo. Puede consultar la lista completa de los nombres comunes de dispositivos en [Versiones de dispositivos iOS](/help/ios/reference/device-versions.md).
 
 * **Nombre del operador de telefonía móvil**
 
