@@ -4,16 +4,16 @@ seo-description: La vista previa de Target permite realizar un completo QA para 
 seo-title: Vista previa de Target en iOS
 title: Vista previa de Target en iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Vista previa de Target en iOS{#target-preview-on-ios}
+# Vista previa de Target en iOS {#target-preview-on-ios}
 
 La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
 
