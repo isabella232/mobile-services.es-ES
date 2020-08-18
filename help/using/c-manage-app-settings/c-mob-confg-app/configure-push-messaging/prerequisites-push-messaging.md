@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: Requisitos previos para activar la mensajería push
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ La empresa de Adobe Analytics debe estar habilitada para Experience Cloud. Puede
 
 * **Configure los servicios push**
 
-   Debe configurar los servicios push en el SDK de Mobile. 
+   Debe configurar los servicios push en el SDK de Mobile.
 Para obtener más información, consulte el contenido siguiente:
 
    * [Mensajería push en Android](/help/android/messaging-main/push-messaging/push-messaging.md)
@@ -44,7 +44,7 @@ Para obtener más información, consulte el contenido siguiente:
 >
 >Para utilizar la función de servicios push, los usuarios deben iniciar sesión en los servicios principales de Mobile mediante el Adobe ID y la cuenta de Analytics debe estar vinculada a los Adobe ID. La funcionalidad de los servicios Push no está disponible si los usuarios inician sesión con sus cuentas de Adobe Analytics existentes.
 
-Si los usuarios no tienen un ID de Adobe, siga estos pasos:
+Si los usuarios no tienen un Adobe ID, siga estos pasos:
 
 1. (**Administrador de Experience Cloud**) Invitar a los usuarios a Experience Cloud.
 
