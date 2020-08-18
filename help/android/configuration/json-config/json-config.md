@@ -6,9 +6,9 @@ solution: Marketing Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
       >
       >Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` **debe** ser verdadera. Si no están habilitadas, la propiedad `offlineEnabled` **debe** tener el valor false.
       >
-      >Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se han habilitado las marcas de fecha y hora,  póngase en contacto con Customer Care o descargue el archivo de configuración desde Adobe Mobile Services.
+      >Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se han habilitado las marcas de fecha y hora, póngase en contacto con Customer Care o descargue el archivo de configuración desde Adobe Mobile Services.
 
       Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
