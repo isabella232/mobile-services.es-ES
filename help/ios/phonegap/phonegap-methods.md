@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos del complemento PhoneGap
 topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
          getPrivacyStatus(function (value){myTempVal = value;},function(){myTempVal = null;});
          ```
 
-* Método **setPrivacyStatus**
+* **setPrivacyStatus**
 
    Establece el estado de privacidad del usuario actual como `status`. Puede establecer uno de los siguientes estados:
    * `ADB.optedIn`, donde las visitas se envían inmediatamente.
@@ -90,7 +90,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackingIdentifier**
 
-   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera cuando la aplicación se inicia por primera vez y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    >[!TIP]
    >
@@ -325,7 +325,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackActionFromBackground**
 
-   Rastrea una acción que se produjo en segundo plano. Esto evita que los eventos del ciclo vital se activen en determinados escenarios.
+   Rastrea una acción que se produjo en el fondo. Esto evita que los eventos del ciclo vital se activen en determinados escenarios.
 
    * Esta es la sintaxis para este método:
 
