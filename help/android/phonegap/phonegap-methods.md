@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Métodos del complemento PhoneGap
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Métodos del complemento PhoneGap{#phonegap-plug-in-methods}
+# Métodos del complemento PhoneGap {#phonegap-plug-in-methods}
 
 Puede utilizar métodos del complemento PhoneGap de Android para completar diversas tareas.
 
@@ -46,7 +46,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
       getPrivacyStatus(function (value) { myTempVal = value; }, function () {myTempVal = null;}); 
       ```
 
-* Método **setPrivacyStatus**
+* **setPrivacyStatus**
 
    Establece el estado de privacidad del usuario actual como `status`.
 
@@ -682,7 +682,7 @@ En la actividad principal que genera Cordova, llame a `Config.submitAdvertisingI
 
 * **audienceReset**
 
-   Restaura el UUID de Audience Manager y purga el perfil del visitante actual.
+   UUID de Audience Manager y purga del perfil del visitante actual.
 
    * Este es un ejemplo de código para este método:
 
