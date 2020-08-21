@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Adquisición de aplicación móvil
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +22,7 @@ Los vínculos de adquisición con códigos de seguimiento únicos se pueden gene
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -28,9 +31,9 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 >[!IMPORTANT]
 >
->Para utilizar Acquisition **necesita** la versión 4.1 o posterior del SDK.
+>To use Acquisition, you **must** have SDK version 4.1 or later.
 
-Los vínculos de Acquisition se deben crear en Adobe Mobile Services. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
+Los vínculos de adquisición deben crearse en Adobe Mobile Services. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
 
 **En las versiones 4.18.0 y posteriores del SDK**:
 
