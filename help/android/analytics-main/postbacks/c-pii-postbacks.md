@@ -1,20 +1,23 @@
 ---
-description: Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII, por sus siglas en inglés) y enviarla a un punto final de terceros.
-seo-description: Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII, por sus siglas en inglés) y enviarla a un punto final de terceros.
+description: Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII) y enviarla a un punto final de terceros.
+seo-description: Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII) y enviarla a un punto final de terceros.
 seo-title: Postbacks PII
 title: Postbacks PII
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
-translation-type: ht
-source-git-commit: 70ac08c74e11a68d94d3f10ed6d7fc133d34149d
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 47%
 
 ---
 
 
 # Postbacks PII {#pii-postbacks}
 
-Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII, por sus siglas en inglés) y enviarla a un punto final de terceros.
+Puede utilizar el SDK de Adobe para recopilar información de identificación personal (PII) y enviarla a un punto final de terceros.
 
-Cuando quiera utilizar el SDK de Adobe para recopilar PII, debe enviar una llamada de seguimiento PII. Aunque el uso de esta llamada habilita la recopilación de datos PII, el SDK no envía automáticamente los datos a un punto de conexión de Adobe. Se debe configurar un postback de tipo PII con el punto final apropiado.
+Si desea utilizar el SDK de Adobe para recopilar PII, debe enviar una llamada de seguimiento PII. Aunque el uso de esta llamada habilita la recopilación de datos PII, el SDK no envía automáticamente los datos a un extremo de Adobe. Se debe configurar un postback de tipo PII con el punto final apropiado.
 
 >[!TIP]
 >
