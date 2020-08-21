@@ -1,32 +1,35 @@
 ---
-description: Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidas las opciones de nombre, texto del mensaje y destino. También puede configurar opciones avanzadas, incluidas las de carga útil y las opciones personalizadas de los dispositivos iOS.
-keywords: móvil
-seo-description: Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidas las opciones de nombre, texto del mensaje y destino. También puede configurar opciones avanzadas, incluidas las de carga útil y las opciones personalizadas de los dispositivos iOS.
+description: Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidos el nombre, el texto del mensaje y las opciones de destino. También puede configurar opciones avanzadas, incluidas las opciones de carga útil y las opciones personalizadas para dispositivos iOS.
+keywords: mobile
+seo-description: Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidos el nombre, el texto del mensaje y las opciones de destino. También puede configurar opciones avanzadas, incluidas las opciones de carga útil y las opciones personalizadas para dispositivos iOS.
 seo-title: Experience Mensaje push
-solution: Experience Cloud,Analytics
+solution: Marketing Cloud,Analytics
 title: Experience Mensaje push
-topic: Métricas
+topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 74%
 
 ---
 
 
 # Experience: Mensaje push {#experience-push-message}
 
-Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidas las opciones de nombre, texto del mensaje y destino. También puede configurar opciones avanzadas, incluidas las de carga útil y las opciones personalizadas de los dispositivos iOS.
+Puede configurar opciones de experiencia para mensajes push y mensajes push enriquecidos, incluidos el nombre, el texto del mensaje y las opciones de destino. También puede configurar opciones avanzadas, incluidas las opciones de carga útil y las opciones personalizadas para dispositivos iOS.
 
 1. En la página Audience para un nuevo mensaje push, haga clic en **[!UICONTROL Experience]**.
 
    ![pantalla de mensaje push de experience](assets/experience-push-message.png)
 
 1. Escriba el nombre del mensaje.
-1. Rellene los campos siguientes de la sección **[!UICONTROL Mensaje]:**
+1. Rellene los campos siguientes de la sección **[!UICONTROL Mensaje]**:
 
    * **[!UICONTROL Contenido]**
 
-      Especifique el texto del mensaje. Puede escribir 140 caracteres como máximo.
+      Especifique el texto del mensaje. Puede especificar hasta un máximo de 140 caracteres.
 
    * **[!UICONTROL URL de recursos multimedia]**
 
@@ -54,14 +57,14 @@ Estos son los requisitos para enviar notificaciones push enriquecidas:
 * **Versiones admitidas**
 
    Las notificaciones push enriquecidas son compatibles con las siguientes versiones:
-   * Android 4.1.0 o una versión posterior
-   * iOS 10 o una versión posterior
+   * Android 4.1.0 o posterior
+   * iOS 10 o posterior
 
       >[!IMPORTANT]
       >
       >Recuerde la información siguiente:
       >* Los mensajes push enriquecidos enviados a versiones anteriores se entregarán, pero solo se verá el texto.
-      >* En este momento no se ofrece compatibilidad de visualización.
+      >* En este momento no hay soporte de vigilancia.
 
 
 * **Formatos de archivo**
@@ -104,7 +107,7 @@ Para configurar un mensaje push en la página Experience:
 
 1. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
 
-   * **[!UICONTROL x Summary}**
+   * **[!UICONTROL Resumen x]**
 
       Oculta el panel de vista previa. Haga clic en ![Vista previa](assets/icon_preview.png) para mostrar de nuevo el panel de vista previa.
 
@@ -126,10 +129,10 @@ Para configurar un mensaje push en la página Experience:
    En la parte inferior del panel de vista previa, puede ver una descripción de la audiencia que seleccionó en el paso anterior.
 
 1. (**Opcional**) Haga clic en **[!UICONTROL Probar]** con el fin de insertar el mensaje en los dispositivos especificados para la realización de pruebas.
-1. Seleccione el servicio y escriba los tokens push de por lo menos un dispositivo en el que desee insertar el mensaje.
+1. Seleccione el servicio y escriba los tokens push de al menos un dispositivo en el que desee insertar el mensaje.
 
    Especifique los tokens en una lista separada por comas para insertar el mensaje en más de un dispositivo.
 
-1. Configurar las opciones de programación del mensaje.
+1. Configure las opciones de programación del mensaje.
 
    Para obtener más información, consulte [Programación: mensaje push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
