@@ -1,40 +1,43 @@
 ---
-description: Después de agregar la biblioteca al proyecto, puede realizar cualquier llamada a un método de Analytics desde cualquier punto de su aplicación (asegúrese de importar ADBMobile.h en su clase).
-seo-description: Después de agregar la biblioteca al proyecto, puede realizar cualquier llamada a un método de Analytics desde cualquier punto de su aplicación (asegúrese de importar ADBMobile.h en su clase).
+description: Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación (asegúrese de importar ADBMobile.h a la clase).
+seo-description: Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación (asegúrese de importar ADBMobile.h a la clase).
 seo-title: Analytics
 title: Analytics
 uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 5%
 
 ---
 
 
 # Analytics {#analytics}
 
-Después de agregar la biblioteca al proyecto, puede realizar cualquier llamada a un método de Analytics desde cualquier punto de su aplicación (asegúrese de importar ADBMobile.h en su clase).
+Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación (asegúrese de importar ADBMobile.h a la clase).
 
-## Enable mobile application reports in Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
+## Habilitar informes de aplicaciones móviles en Analytics {#task_3DA1354942CF4BF4B11B9CC97588A9ED}
 
-Antes de añadir código, pida a su administrador de Analytics que complete los siguientes pasos para habilitar el seguimiento de ciclo vital de aplicaciones móviles. Esto garantiza que su grupo de informes esté listo para capturar métricas cuando comience el desarrollo.
+Antes de agregar código, pida al administrador de Analytics que complete lo siguiente para habilitar el seguimiento del ciclo vital de las aplicaciones móviles. Esto garantiza que el grupo de informes esté listo para capturar métricas a medida que comienza el desarrollo.
 
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. Abra Herramientas **[!UICONTROL de administración]** > Grupos **[!UICONTROL de informes]** y seleccione los grupos de informes móviles.
+1. Haga clic en **[!UICONTROL Editar configuración]** > Administración **** móvil > Sistema de informes **[!UICONTROL de aplicaciones]** móviles.
 
    ![](assets/mobile-settings.png)
 
-1. Haga clic en **[!UICONTROL Habilitar los informes de aplicaciones más recientes]**.
+1. Haga clic en **[!UICONTROL Habilitar los informes]** de aplicación más recientes.
 
-   Opcionalmente, también puede hacer clic en **[!UICONTROL Activar el seguimiento de ubicación móvil]** y en **[!UICONTROL Habilitar el uso de informes anteriores y la atribución de resultados en segundo plano]**.
+   También puede hacer clic en **[!UICONTROL Activar el seguimiento]** de ubicación móvil y **[!UICONTROL Activar el Sistema de informes y la atribución heredados para las visitas]** en segundo plano.
 
    ![](assets/enable-lifecycle.png)
 
-Lifecycle metrics are now ready to be captured, and Mobile Application Reports] appear in the **[!UICONTROL Reports]** menu in the marketing reports interface.
+Las métricas del ciclo vital ya están listas para capturarse y los informes de aplicaciones móviles aparecen en el menú **[!UICONTROL Informes]** de la interfaz de informes de marketing.
 
 ## Recopilar métricas del ciclo vital {#task_25D469C62DF84573AEB5E8E950B96205}
 
-1. To collect lifecycle metrics in your app, call `collectLifecycleData()` in the `ApplicationUI` constructor.
+1. Para recopilar métricas del ciclo vital en la aplicación, llame `collectLifecycleData()` al `ApplicationUI` constructor.
 
    Por ejemplo:
 
@@ -45,32 +48,32 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
    } 
    ```
 
-   If `collectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. Cuando la aplicación se cierra, el SDK establece un indicador que especifica una salida correcta. If this flag is not set, `collectLifecyleData()` reports a crash.
+   Si `collectLifecycleData()` se llama dos veces en la misma sesión, la aplicación informará de un bloqueo en cada llamada después de la primera. El SDK establece un indicador cuando se cierra la aplicación que indica una salida correcta. Si no se establece este indicador, `collectLifecyleData()` informa de un bloqueo.
 
-## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
+## Eventos, props y eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Si ha consultado la Referencia [de métodos y clases](/help/blackberry/methods.md)ADBMobile, probablemente se pregunte dónde configurar eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+Si ha observado la Referencia [de métodos y clases](/help/blackberry/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es ínfimo. Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento.
+* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto. Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
-Los valores que asignaba directamente a variables deberán añadirse al HashMap `data`.
+Any values that you were assigning directly to variables should be added to the `data` HashMap instead.
 
 ## Reglas de procesamiento {#concept_3EA4CD602AF4488A896B0EDD3BA2D969}
 
-Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a eVars, props y otras variables con el fin de realizar informes.
+Las reglas de procesamiento se utilizan para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables para sistema de informes.
 
-[Formación de reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
+[Formación](https://tv.adobe.com/embed/1181/16506/) sobre reglas de procesamiento en Summit 2013
 
-[Reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Obtener autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Obtenga autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-Se recomienda agrupar las variables de datos de contexto mediante “espacios de nombres”, ya que esto ayuda a mantener una ordenación lógica. Por ejemplo, si quiere recopilar información acerca de un producto, podría definir las siguientes variables:
+Recomendamos agrupar las variables de datos de contexto mediante &quot;Áreas de nombres&quot;, ya que esto le ayuda a mantener un orden lógico. Por ejemplo, si desea recopilar información sobre un producto, puede definir las siguientes variables:
 
 ```js
 "product.type":"hat" 
@@ -78,27 +81,27 @@ Se recomienda agrupar las variables de datos de contexto mediante “espacios de
 "product.color":"blue"
 ```
 
-Las variables de datos de contexto se ordenan alfabéticamente en la interfaz de reglas de procesamiento, de modo que los espacios de nombres le permiten ver rápidamente qué variables hay en el mismo espacio de nombres.
+Las variables de datos de contexto se ordenan alfabéticamente en la interfaz de reglas de procesamiento, por lo que las Áreas de nombres permiten ver rápidamente las variables que están en la misma Área de nombres.
 
-Además, hay quien asigna nombres a las claves de datos de contexto empleando el número de eVar o prop:
+Además, hemos oído que algunos de ustedes están nombrando claves de datos de contexto usando el número de eVar o prop:
 
 ```js
 "eVar1":"jimbo"
 ```
 
-Esto podría ayudarle *un poco* a la hora de llevar a cabo la asignación que hay que realizar una única vez en las reglas de procesamiento, a costa de perder legibilidad durante la depuración y las futuras actualizaciones de código, que pueden resultarle más difíciles. En su lugar, lo que se recomienda encarecidamente es utilizar nombres descriptivos para las claves y los valores:
+Esto puede hacer que sea *ligeramente* más fácil cuando se realiza la asignación de una sola vez en las reglas de procesamiento, pero la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
 "username":"jimbo"
 ```
 
-Las variables de contexto que definen eventos de contador pueden tener el mismo valor y clave:
+Las variables de contexto que definen eventos de contador pueden tener la misma clave y el mismo valor:
 
 ```js
 "logon":"logon"
 ```
 
-Las variables de contexto que definen eventos de aumento pueden tener el evento como clave y la cantidad que se debe incrementar como valor:
+Las variables de datos de contexto que definen eventos de aumento pueden tener el evento como clave y la cantidad que se incrementará como valor:
 
 ```js
 "levels completed":"6"
@@ -106,14 +109,14 @@ Las variables de contexto que definen eventos de aumento pueden tener el evento 
 
 >[!TIP]
 >
->Adobe se reserva el espacio de nombres `a.`. Aparte de esta pequeña restricción, las variables de datos de contexto solo tienen que ser exclusivas en su empresa de inicio de sesión para evitar conflictos.
+>Adobe reserva el espacio de nombres `a.`. Aparte de esta pequeña restricción, las variables de datos de contexto solo deben ser únicas en la compañía de inicio de sesión para evitar conflictos.
 
 ## Habilitar seguimiento sin conexión {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
-To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file.
+Para almacenar visitas cuando el dispositivo está sin conexión, puede activar el seguimiento sin conexión en el `ADBMobileConfig.json` archivo.
 
-Preste mucha atención a los requisitos de marca de fecha y hora que se describen en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
+Preste mucha atención a los requisitos de marca de hora descritos en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
 
 ## Métodos de Analytics
 
-For a list of the Analytics methods that are available for BlackBerry, see Analytics methods in Adobe Mobile Class and Method Reference.**[](/help/blackberry/methods.md)
+Para obtener una lista de los métodos de Analytics disponibles para BlackBerry, consulte Métodos *de* Analytics en Referencia [de métodos y clases móviles de](/help/blackberry/methods.md)Adobe.
