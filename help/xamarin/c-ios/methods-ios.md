@@ -1,22 +1,25 @@
 ---
-description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+description: Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
 keywords: Xamarin
-seo-description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
-seo-title: iOS methods
+seo-description: Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
+seo-title: Métodos de iOS
 solution: Marketing Cloud,Developer
 title: Métodos de iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
+source-git-commit: 70c79d404c29a8a35b5eadbb3ad99f953a5166e0
+workflow-type: tm+mt
+source-wordcount: '1749'
+ht-degree: 70%
 
 ---
 
 
-# iOS methods{#ios-methods}
+# Métodos de iOS{#ios-methods}
 
-Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
 
-## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## Métodos de configuración {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **CollectLifecycleData**
 
@@ -52,7 +55,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **SetDebugLogging**
 
-   Establece la preferencia de registro de depuración como activado.
+   Establece la preferencia de registro de depuración en enabled.
 
    * Esta es la sintaxis para este método:
 
@@ -85,9 +88,10 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 * **PrivacyStatus**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
-   * `ADBMobilePrivacyStatus.OptIn` - las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatus.OptOut` - las visitas se descartarán.
-   * ADBMobilePrivacyStatus.Unknown - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) o opt-out (entonces se descartan las visitas). Si el seguimiento sin conexión está desactivado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
+   * `ADBMobilePrivacyStatus.OptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
+   * ADBMobilePrivacyStatus.Unknown: si el seguimiento sin conexión está activado, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento sin conexión está deshabilitado, las visitas se descartan hasta que el estado de privacidad cambie para adhesión.
+
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
@@ -105,10 +109,10 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **SetPrivacyStatus**
 
-   Establece el estado de privacidad del usuario actual como estado. Establezca uno de los siguientes valores:
-   * `ADBMobilePrivacyStatus.OptIn` - las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatus.OptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatus.Unknown`  - si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
+   Establece el estado de privacidad del usuario actual en estado. Establezca uno de los siguientes valores:
+   * `ADBMobilePrivacyStatus.OptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatus.Unknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
    * Esta es la sintaxis para este método:
 
@@ -124,7 +128,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **UserIdentifier**
 
-   Devuelve el identificador del usuario si se ha establecido un identificador personalizado. Devuelve vacío si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -140,7 +144,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **SetUserIdentifier**
 
-   Devuelve el identificador del usuario si se ha establecido un identificador personalizado. Devuelve vacío si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -190,7 +194,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
       ADBMobile.KeepLifecycleSessionAlive();
       ```
 
-## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Métodos de Analytics {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
@@ -210,11 +214,12 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackState**
 
-   Realiza un seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como “pantalla de título”, “nivel 1” o “pausa”, entre otros. Estos estados son similares a las páginas de un sitio web y las llamadas incrementan las vistas de página.Si el estado está vacío, se muestra como "nombre de aplicación versión de la aplicación (compilación)" en los informes. `TrackState` Si observa este valor en los informes, asegúrese de que está estableciendo state en todas las llamadas a `TrackState`.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas incrementan las vistas de página.Si el estado está vacío, se muestra como &quot;nombre de aplicación versión de la aplicación (compilación)&quot; en los informes. `TrackState` If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
-   [!TIP]
-   >This is the only tracking call that increments page views.
+   >[!TIP]
    >
+   >Esta es la única llamada de seguimiento que incrementa las visualizaciones de página.
+
    * Esta es la sintaxis para este método:
 
       ```objective-c
@@ -231,10 +236,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackAction**
 
-   Realiza un seguimiento de una acción en la aplicación. Las acciones son lo que sucede en la aplicación que desea medir, como “muertes”, “subida de nivel”, “suscripciones a la fuente”, entre otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
 
    >[!TIP]
-   If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >
+   >Si cuenta con un código que podría estar ejecutándose mientras la aplicación se encuentra en segundo plano (por ejemplo, recuperación de datos en segundo plano), utilice `trackActionFromBackground` en su lugar.
 
    * Esta es la sintaxis para este método:
 
@@ -250,10 +256,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackActionFromBackground (solo iOS)**
 
-   Realiza un seguimiento de una acción que ocurre en segundo plano. Esto impide que los eventos del ciclo vital se activen en ciertos escenarios.
+   Rastrea una acción que se produjo en el fondo. Esto evita que los eventos del ciclo vital se activen en determinados escenarios.
 
    >[!TIP]
-   Este método solo debe invocarse en el código que se ejecuta mientras la aplicación está en segundo plano.
+   >
+   > Este método solo debería invocarse en el código que se ejecuta mientras la aplicación se encuentra en segundo plano.
 
    * Esta es la sintaxis para este método:
 
@@ -319,11 +326,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackLifetimeValueIncrease**
 
-   Incrementa el valor del ciclo de vida del usuario.
+   Añade la cantidad al valor de duración del usuario.
 
    * Esta es la sintaxis para este método:
 
-      public nbsp;static void TrackLifetimeValueIncrease(doble amount, NSDictionary data);
+      public nbsp;static void TrackLifetimeValueIncrease(cantidad de doble, datos NSDictionary);
 
    * Este es un ejemplo de código para este método:
 
@@ -336,7 +343,8 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    Inicia una acción temporizada con acción de nombre. Si invoca este método para una acción que ya se ha iniciado, se sobrescribe la acción temporizada anterior.
 
    >[!TIP]
-   Esta llamada no envía una visita.
+   >
+   >Esta llamada no envía una visita.
 
    * Esta es la sintaxis para este método:
 
@@ -352,10 +360,11 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados a la acción determinada. Los datos que se pasan se añaden a los datos existentes de esa acción determinada y se sobrescriben si ya se ha definido esa clave para una acción.
+   Pasa datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
 
    >[!TIP]
-   Esta llamada no envía una visita.
+   >
+   >Esta llamada no envía una visita.
 
    * Esta es la sintaxis para este método:
 
@@ -475,7 +484,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **VisitorSyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, además de un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
+   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de Visitante acepta varios ID de cliente para el mismo visitante, junto con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -514,7 +523,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TargetCreateRequest**
 
-   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros determinados.
+   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
 
    * Esta es la sintaxis para este método:
 
@@ -565,7 +574,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **AudienceVisitorProfile**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve cero si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve nil si todavía no se ha enviado ninguna señal. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
 
    * Esta es la sintaxis para este método:
 
@@ -613,7 +622,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **AudienceSetDpidAndDpuuid**
 
-   Establece el dpid y el dpuuid. Si el dpid y el dpuuid se han establecido, se enviarán con cada señal.
+   Establece el dpid y el dpuuid. Si dpid y dpuuid están establecidos, se enviarán con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -664,7 +673,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting-started/dev-qs.md).
+Para obtener más información, consulte Análisis [de vídeo](/help/ios/getting-started/dev-qs.md).
 
 * **MediaCreateSettings**
 
@@ -719,7 +728,7 @@ Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting
 
 * **MediaClose**
 
-   Cierra el elemento de medios denominado.
+   Cierra el elemento de medios llamado nombre.
 
    * Esta es la sintaxis para este método:
 
@@ -735,7 +744,7 @@ Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting
 
 * **MediaPlay**
 
-   Reproduce el elemento de medios denominado en el desplazamiento determinado (en segundos).
+   Reproduce el elemento de medios llamado name con un desplazamiento offset dado (en segundos).
 
    * Esta es la sintaxis para este método:
 
@@ -751,7 +760,7 @@ Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting
 
 * **MediaComplete**
 
-   Marca de forma manual como completo el elemento de medios en el desplazamiento proporcionado (en segundos).
+   Marca de forma manual como completado el elemento de medios en el offset indicado (en segundos).
 
    * Esta es la sintaxis para este método:
 
@@ -767,7 +776,7 @@ Para obtener más información, consulte [Análisis de vídeo](/help/ios/getting
 
 * **MediaStop**
 
-   Notifica al módulo de medios que el vídeo se ha detenido o pausado en el desplazamiento determinado.
+   Notifica al módulo de medios que el vídeo se ha detenido o pausado en el offset indicado.
 
    * Esta es la sintaxis para este método:
 
