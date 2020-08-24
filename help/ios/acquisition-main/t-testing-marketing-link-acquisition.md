@@ -7,16 +7,16 @@ solution: Marketing Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Prueba de adquisición de vínculos de marketing{#testing-marketing-link-acquisition}
+# Prueba de adquisición de vínculos de marketing {#testing-marketing-link-acquisition}
 
 Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 
@@ -67,7 +67,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    A continuación se ofrece información sobre posibles errores:
 
-   * `Analytics - Unable to retrieve acquisition service response (<error message>)`:
+   * `Analytics - Unable to retrieve acquisition service response (<error message>)`
 
       Se ha producido un error de red.
 
@@ -85,7 +85,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    * `Analytics - Acquisition referrer timed out`
 
-      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación y de que está utilizando la misma red al hacer clic en la URL y abrir la aplicación.
+      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación y de que está utilizando la misma red al hacer clic en la URL y al abrir la aplicación.
 
 Recuerde la información siguiente:
 
