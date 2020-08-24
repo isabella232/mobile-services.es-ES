@@ -1,40 +1,43 @@
 ---
-description: Estas extensiones le proporcionan un modo mucho más sencillo de añadir a su proyecto la referencia del SDK 4.x de Windows para Soluciones de Experience Cloud.
-seo-description: Estas extensiones le proporcionan un modo mucho más sencillo de añadir a su proyecto la referencia del SDK 4.x de Windows para Soluciones de Experience Cloud.
-seo-title: Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK
+description: Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK de Windows para Soluciones Experience Cloud 4.x en su proyecto.
+seo-description: Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK de Windows para Soluciones Experience Cloud 4.x en su proyecto.
+seo-title: Extensiones de Windows Visual Studio para SDK de soluciones Experience Cloud 4.x
 solution: Marketing Cloud,Analytics
-title: Extensiones de Windows Visual Studio para el SDK de soluciones de Experience Cloud 4.x
-topic: Desarrollador e implementación
+title: Extensiones de Windows Visual Studio para SDK de soluciones Experience Cloud 4.x
+topic: Developer and implementation
 uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 38e63d6f4f85c2ced6364baa47646241ac783c12
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 2%
 
 ---
 
 
 # Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
-Estas extensiones le proporcionan un modo mucho más sencillo de añadir a su proyecto la referencia del SDK 4.x de Windows para Soluciones de Experience Cloud.
+Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK de Windows para Soluciones Experience Cloud 4.x en su proyecto.
 
-## Install the library from GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
+## Instalación de la biblioteca desde GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
 
-1. Descargue el SDK Windows Universal desde [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
-1. Descomprima de forma local el archivo descargado.
-1. Haga doble clic en el archivo ADBMobileWindowsStoreVSIX.vsix o ADBMobileWindowsPhoneVSIX.vsix para abrir el instalador.
+1. Descargue el SDK universal de Windows desde [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
+1. Descomprima el archivo descargado localmente.
+1. Haga clic con el doble en el archivo ADBMobileWindowsStoreVSIX.vsix o ADBMobileWindowsPhoneVSIX.vsix para abrir el instalador.
 
-1. Select Global Location and install the library.****
+1. Seleccione Ubicación **** global e instale la biblioteca.
 
-## Add references to your project {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
+## Añadir referencias al proyecto {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
-1. Abra su proyecto de Windows 8.1 o Windows Phone 8.1.
+1. Abra el proyecto de Windows 8.1 o Windows Phone 8.1.
 1. Abra el cuadro de diálogo Administrador de referencias.
 
    ![](assets/ref_manager.png)
 
-1. On the **[!UICONTROL Extensions]** tab of Windows 8.1 or Windows Phone 8.1, locate and select **[UICONTROL Adobe Mobile SDK]**.
-1. Haga clic en **[!UICONTROL Aceptar]para guardarlo.**
+1. En la ficha **[!UICONTROL Extensiones]** de Windows 8.1 o Windows Phone 8.1, busque y seleccione **[!UICONTROL Adobe Mobile SDK]**.
+1. Click **[!UICONTROL OK]** to save it.
 
-   The Adobe Mobile SDK will be added to your project, and if it has not already been added, the UICONTROL Microsoft Visual C++ Runtime package is also added.**[]**
+   El SDK de Adobe Mobile se agregará al proyecto y, si aún no se ha agregado, también se agregará el paquete Tiempo de ejecución **[!UICONTROL de]** Microsoft Visual C++.
 
-1. In the Configuration Manager, select a Platform type, and begin testing your app.
+1. En el Administrador de configuración, seleccione un tipo de plataforma y comience a probar la aplicación.
 
