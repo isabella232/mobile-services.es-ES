@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hit
 >
 >Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
-El proceso general de medición de vídeo es muy similar en todas las plataformas. Este contenido proporciona una visión general básica de las tareas del desarrollador con ejemplos de código.
+El proceso general de medición de vídeos es similar en todas las plataformas. Este contenido ofrece información general básica sobre las tareas del desarrollador, con ejemplos de código.
 
 ## Asignación de eventos del reproductor a las variables de Analytics {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
@@ -31,9 +31,9 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.name**
 
-   (Requerido) Recopila el nombre del vídeo, tal como se especifica en la implementación, cuando un visitante vista el vídeo de alguna manera. Puede agregar clasificaciones para esta variable.
+   (Obligatorio) Recopila el nombre del vídeo, tal como se especifica en la implementación, cuando un visitante ve el vídeo de alguna manera. Puede agregar clasificaciones para esta variable.
 
-   (Opcional) La variable Custom Insight proporciona información de rutas de vídeo.
+   (Opcional) La variable de Custom Insight proporciona información de las rutas de vídeo.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: visita
@@ -41,7 +41,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.name**
 
-   (Opcional) Proporciona información sobre la ruta del vídeo. El Servicio de atención al cliente debe habilitar las rutas para esta variable.
+   (Opcional) Proporciona información sobre la ruta del vídeo. El servicio de atención al cliente debe habilitar las rutas para esta variable.
 
    * Tipo de variable: Custom Insight (s.prop)
    * Tipo de evento: Insight personalizada (s.prop)
@@ -52,11 +52,11 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    El método de recopilación de datos de vídeo predeterminado recopila datos en los puntos siguientes:
 
-   * inicio de vídeo (reproducir)
-   * inicio del segmento
+   * inicio de vídeo (reproducción)
+   * inicio de segmento
    * final de vídeo (parada)
 
-   Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante inicio de observar. Vistas de segmentos posteriores a medida que comienza el segmento.
+   Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante empieza a ver. Vistas de segmentos posteriores desde el inicio del segmento.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
@@ -64,7 +64,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.contentType**
 
-   Recopila datos sobre el tipo de contenido que un visitante ve. Hits sent by video measurement are assigned a content type of `video`. This variable does not need to be reserved exclusively for video tracking. Tener otro tipo de contenido de informe de contenido usando esta misma variable permite analizar la distribución de visitantes en los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
+   Recopila datos sobre el tipo de contenido que un visitante ve. Las visitas enviadas por la medición de vídeo tienen asignado un tipo de contenido de `video`. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otros tipos de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
@@ -92,7 +92,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.complete**
 
-   Indica que un usuario ha visto un vídeo completo. De forma predeterminada, el evento completo se mide 1 segundo antes del final del vídeo. Durante la implementación, puede especificar cuántos segundos desde el final de vídeo quisiera considerar como una vista completa. Para vídeo en directo y otros flujos que no tienen un final definido, puede especificar un punto personalizado para medir las finalizaciones, por ejemplo, después de un tiempo de visualización específico.
+   Indica que un usuario ha visto un vídeo completo. De forma predeterminada, el evento completo se mide 1 segundo antes del final del vídeo. Durante la implementación, puede especificar cuántos segundos desde el final de vídeo quisiera considerar como una vista completa. Para el vídeo en directo y otros flujos que no tienen un final definido, puede especificar un punto personalizado para medir las finalizaciones, por ejemplo, después de un tiempo de visualización específico.
 
    * Tipo de variable: Event
    * Tipo: contador
