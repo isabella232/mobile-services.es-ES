@@ -7,7 +7,7 @@ title: Inicio rápido para desarrolladores
 topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+source-git-commit: 97e6d24b75e770685d440d31aa5ee8924a079501
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Además, al utilizar el SDK en un proyecto WinJS, utilice una cadena vacía ( `"
 ## Añadir la biblioteca y el archivo de configuración al proyecto: C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Inicie Visual Studio y abra la solución.
-1. En el Explorador **de** soluciones, haga clic con el botón derecho en **[!UICONTROL Referencias]** y seleccione **[!UIUCONTROL Añadir referencia]**.
+1. En el Explorador **de** soluciones, haga clic con el botón derecho en **[!UICONTROL Referencias]** y seleccione **[!UICONTROL Añadir referencia]**.
 
 1. Seleccione la versión correcta de la biblioteca y busque el `ADBMobile.winmd` archivo asociado.
 
@@ -52,7 +52,7 @@ Además, al utilizar el SDK en un proyecto WinJS, utilice una cadena vacía ( `"
 
 1. Haga clic en **[!UICONTROL Agregar]**.
 
-1. Compruebe que `ADBMobile.winmd` esté seleccionada en la ventana Administrador **[!UICONTROL de]** referencias y haga clic en **[!UICONTROL Aceptar]**.
+1. Compruebe que `ADBMobile.winmd` esté seleccionado en la ventana Administrador **[!UICONTROL de]** referencias y haga clic en **[!UICONTROL Aceptar]**.
 
    >[!NOTE]
    >
