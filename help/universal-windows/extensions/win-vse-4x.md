@@ -7,7 +7,7 @@ title: Extensiones de Windows Visual Studio para SDK de soluciones Experience Cl
 topic: Developer and implementation
 uuid: e48faf54-8b08-4224-9d80-e553a983129e
 translation-type: tm+mt
-source-git-commit: 38e63d6f4f85c2ced6364baa47646241ac783c12
+source-git-commit: 97e6d24b75e770685d440d31aa5ee8924a079501
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Esta extensión proporciona una manera mucho más fácil de agregar la referenci
 
 1. Descargue el SDK universal de Windows desde [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 1. Descomprima el archivo descargado localmente.
-1. Haga clic con el botón doble en el archivo **[!UICONTRTOL ADBMobileUniversalWindowsVSIX.vsix]** para abrir el instalador.
+1. Haga clic con el botón doble en el archivo **[!UICONTROL ADBMobileUniversalWindowsVSIX.vsix]** para abrir el instalador.
 1. Seleccione Ubicación **** global e instale la biblioteca.
 
 ## Añadir referencias al proyecto {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
