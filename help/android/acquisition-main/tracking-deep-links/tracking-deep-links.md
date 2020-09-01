@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Seguimiento de vínculos profundos
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Puede utilizar esta información para realizar un seguimiento de vínculos profu
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo de duración y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
+El SDK de Adobe Mobile puede analizar pares de datos (claves y valores) que se adjuntan a cualquier vínculo profundo o universal, siempre que el vínculo contenga una clave con la etiqueta `a.deeplink.id` y un valor correspondiente no nulo y generado por el usuario. Todos los pares de datos (clave y valor) adjuntos al vínculo se analizan, se adjuntan a una visita del ciclo de duración y se envían a Adobe Analytics, siempre que el vínculo contenga la clave y valor `a.deeplink.id`.
 
 Además, puede adjuntar al vínculo profundo o universal una o más de las siguientes claves reservadas (con valores generados por el usuario):
 
