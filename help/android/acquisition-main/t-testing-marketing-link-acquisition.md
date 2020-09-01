@@ -7,20 +7,20 @@ solution: Marketing Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Prueba de adquisición de vínculos de marketing{#testing-marketing-link-acquisition}
+# Prueba de adquisición de vínculos de marketing {#testing-marketing-link-acquisition}
 
 Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 
-Si su aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de marketing. Esto solo afecta a la aplicación a la que el servidor de adquisición le redirige, después de hacer clic en el vínculo de adquisición, y no a la capacidad de probar el vínculo de adquisición. Los parámetros de cadena de consulta se pasan a la tienda Google Play, que se pasan a la aplicación durante la instalación como parte de una retransmisión de campaña. La prueba de adquisición de aplicaciones móviles de ida y vuelta requiere la simulación de este tipo de difusión.
+Si su aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de marketing. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta la capacidad para probar el vínculo. Los parámetros de cadena de consulta se pasan a la tienda Google Play que pasan a la aplicación durante la instalación como parte de una difusión de campaña. La prueba de adquisición de aplicaciones móviles de ida y vuelta requiere la simulación de este tipo de difusión.
 
 Las pruebas siempre se deben realizar con la aplicación recién instalada, o después de borrar sus datos desde la **[!UICONTROL Configuración]**. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
@@ -72,8 +72,8 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | El servidor debe ser `c00.adobe.com`, y      *`appid`*  debe coincidir con el `appid` del vínculo de adquisición. |
-   | analytics | Para realizar pruebas, establezca el tiempo de espera de remitente del reenvío para permitir que el tiempo (60 segundos o más) de envío manual de la retransmisión sea el adecuado. Puede restaurar la configuración de tiempo de espera original después de realizar la prueba. |
+   | acquisition | El servidor debe ser `c00.adobe.com`, y *`appid`*  debe coincidir con el `appid` del vínculo de adquisición. |
+   | analytics | Para hacer pruebas, establezca el tiempo de espera de remitente del reenvío para permitir que el tiempo de envío manual (60 segundos o más) de la difusión sea el adecuado. Puede restaurar la configuración de tiempo de espera original después de hacer la prueba. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
 1. Inicie ADB Shell e inicie la aplicación en el dispositivo.
@@ -108,7 +108,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    "Analytics - Received Referrer Data(<A JSON Response>)"
    ```
 
-   Si no ve estos registros, verifique que haya completado los pasos 6 a 10.
+   Si no ve estos registros, compruebe si ha completado los pasos del 6 al 10.
 
    La siguiente tabla contiene información adicional sobre los posibles errores:
 
