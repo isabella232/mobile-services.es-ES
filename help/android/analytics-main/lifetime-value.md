@@ -1,23 +1,23 @@
 ---
-description: El valor de duración le permite medir y realizar destinatarios en un valor de duración para cada usuario de Android. El valor se puede utilizar para almacenar compras acumuladas, vistas de anuncios, vídeos completos, compartidos en redes sociales, cargas de fotografías, etc.
-seo-description: El valor de duración le permite medir y realizar destinatarios en un valor de duración para cada usuario de Android. El valor se puede utilizar para almacenar compras acumuladas, vistas de anuncios, vídeos completos, compartidos en redes sociales, cargas de fotografías, etc.
+description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario de Android. El valor puede utilizarse para almacenar compras acumuladas en el tiempo, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etc.
+seo-description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario de Android. El valor puede utilizarse para almacenar compras acumuladas en el tiempo, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etc.
 seo-title: Valor de duración de visitantes
 solution: Marketing Cloud,Analytics
 title: Valor de duración de visitantes
 topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # Valor de duración de visitantes {#visitor-lifetime-value}
 
-El valor de duración le permite medir y realizar destinatarios en un valor de duración para cada usuario de Android. El valor se puede utilizar para almacenar compras acumuladas, vistas de anuncios, vídeos completos, compartidos en redes sociales, cargas de fotografías, etc.
+El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario de Android. El valor puede utilizarse para almacenar compras acumuladas en el tiempo, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etc.
 
 Cada vez que envía un valor con `trackLifetimeValueIncrease`, el valor se agrega al valor existente. El valor de duración se almacena en el dispositivo y se puede recuperar en cualquier momento realizando una llamada a `lifetimeValue`.
 
