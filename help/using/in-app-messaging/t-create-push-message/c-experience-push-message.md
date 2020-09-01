@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Experience Mensaje push
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Estos son los requisitos para enviar notificaciones push enriquecidas:
       >
       >Recuerde la información siguiente:
       >* Los mensajes push enriquecidos enviados a versiones anteriores se entregarán, pero solo se verá el texto.
-      >* En este momento no hay soporte de vigilancia.
+      >* En este momento no se ofrece compatibilidad de visualización.
 
 
 * **Formatos de archivo**
@@ -87,7 +87,7 @@ Para obtener más información sobre cómo configurar notificaciones push enriqu
 
 Para configurar un mensaje push en la página Experience:
 
-1. **(Opcional**) Haga clic en el vínculo **[!UICONTROL Mostrar opciones avanzadas]** para configurar las opciones adicionales:
+1. (**Opcional**) Haga clic en el vínculo **[!UICONTROL Mostrar opciones avanzadas]** para configurar las opciones adicionales:
 
    * **[!UICONTROL Carga útil: datos]**
 
@@ -129,7 +129,7 @@ Para configurar un mensaje push en la página Experience:
    En la parte inferior del panel de vista previa, puede ver una descripción de la audiencia que seleccionó en el paso anterior.
 
 1. (**Opcional**) Haga clic en **[!UICONTROL Probar]** con el fin de insertar el mensaje en los dispositivos especificados para la realización de pruebas.
-1. Seleccione el servicio y escriba los tokens push de al menos un dispositivo en el que desee insertar el mensaje.
+1. Seleccione el servicio y escriba los tokens push de al menos un dispositivo donde desee insertar el mensaje.
 
    Especifique los tokens en una lista separada por comas para insertar el mensaje en más de un dispositivo.
 
