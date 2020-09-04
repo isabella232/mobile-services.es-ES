@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Métodos de configuración
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 * **setAppExtensionType**
 
-   Configura la configuración del SDK de Adobe Mobile para determinar qué tipo de extensión se está ejecutando.
+   Configura los ajustes del SDK de Adobe Mobile para determinar qué tipo de extensión se está ejecutando.
 
    Establezca uno de los siguientes valores:
    * `ADBMobileAppExtensionTypeRegular`: La extensión está empaquetada con una aplicación contenedora.
@@ -124,7 +124,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
 * **trackingIdentifier**
 
-   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalarla.
+   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante la CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalar.
 
    >[!TIP]
    >
@@ -310,7 +310,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
 * **overrideConfigPath**
 
-   Permite cargar un archivo de configuración ADBMobile JSON diferente cuando la aplicación inicio. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   Le permite cargar un archivo de configuración ADBMobile JSON diferente al iniciar la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
 
    >[!IMPORTANT]
    >
@@ -353,15 +353,15 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
 * **setAdvertisingIdentifier**
 
-   Establece el IDFA en el SDK. Si el IDFA se ha establecido en el SDK, el IDFA se enviará en el ciclo vital. También se puede acceder a ella en Señales (Postbacks).
+   Establece el IDFA en el SDK. Si el IDFA se ha establecido en el SDK, el IDFA se enviará en el ciclo vital. También se puede acceder en Señales (Postbacks).
 
    >[!TIP]
    >
    >Recupere el IDFA desde las API de Apple **solo** si está utilizando un servicio publicitario. Si recupera el IDFA y no lo utiliza de forma apropiada, podría rechazarse la aplicación.
    >
-   >Si la aplicación requiere IDFA, consulte la documentación [de](https://developer.apple.com/documentation/adsupport) Apple para averiguar las preferencias del usuario en el seguimiento de anuncios y recuperar el valor IDFA.
+   >Si la aplicación requiere IDFA, consulte la [documentación de Apple](https://developer.apple.com/documentation/adsupport) para averiguar las preferencias del usuario sobre el seguimiento de anuncios y recuperar el valor IDFA.
    >
-   >Para iOS 14+, es necesario implementar el nuevo marco [de transparencia de seguimiento de](https://developer.apple.com/documentation/apptrackingtransparency) aplicaciones para recuperar correctamente el valor IDFA.
+   >Para iOS 14+, es necesario implementar el nuevo [marco de transparencia de seguimiento de aplicaciones](https://developer.apple.com/documentation/apptrackingtransparency) para recuperar correctamente el valor IDFA.
    * Esta es la sintaxis para este método:
 
       ```objective-c
