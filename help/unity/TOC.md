@@ -1,18 +1,22 @@
 ---
 product: mobile-services
-audience: usuario final
-user-guide-title: Mobile Services Unity Plug-in Help
+audience: end-user
+user-guide-title: Guía del complemento Mobile Services Unity
+breadcrumb-title: Unity Plug-in Guide
 translation-type: tm+mt
-source-git-commit: 9d1d3a2fa65c6627c748c417aa18f04f8fdc255e
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 31%
 
 ---
 
 
-# Mobile Services Unity Plug-in Help {#unity}
+# Guía del complemento Mobile Services Unity {#unity}
 
 + [Complemento Unity para los SDK de iOS y Android 4.x](get-started.md)
 + [Creación de un proyecto](project.md)
 + [Realización de llamadas a la biblioteca](library-calls.md)
-+ [Implementar el ciclo de vida](lifecycle.md)
++ [Implementar el ciclo vital](lifecycle.md)
 + [Métodos ADBMobile.cs](methods.md)
 + [Enumeraciones](enumerations.md)
