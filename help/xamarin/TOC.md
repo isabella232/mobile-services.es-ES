@@ -1,17 +1,21 @@
 ---
 product: mobile-services
-audience: usuario final
-user-guide-title: Ayuda Xamarin de Mobile Services
+audience: end-user
+user-guide-title: Guía Xamarin de Mobile Services
+breadcrumb-title: Xamarin Guide
 translation-type: tm+mt
-source-git-commit: 9d1d3a2fa65c6627c748c417aa18f04f8fdc255e
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 27%
 
 ---
 
 
-# Mobile Services Xamarin Help {#xamarin}
+# Guía Xamarin de Mobile Services {#xamarin}
 
-+ [Componentes Xamarin para el SDK de soluciones de Experience Cloud 4.x](get-started.md)
-+ [Making calls to the library](library-calls.md)
++ [Componentes Xamarin para soluciones de SDK de Experience Cloud 4.x](get-started.md)
++ [Realización de llamadas a la biblioteca](library-calls.md)
 + [Implementar el ciclo vital](lifecycle.md)
 + Android {#android-xamarin}
    + [Métodos de Android](c-android/methods-android.md)
