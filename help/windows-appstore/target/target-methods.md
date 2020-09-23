@@ -1,28 +1,31 @@
 ---
-description: List of Target methods provided by the Windows 8.1 Universal App Store library.
-seo-description: List of Target methods provided by the Windows 8.1 Universal App Store library.
+description: Lista de los métodos de Destinatario proporcionados por la biblioteca Universal App Store para Windows 8.1.
+seo-description: Lista de los métodos de Destinatario proporcionados por la biblioteca Universal App Store para Windows 8.1.
 seo-title: Métodos de Target
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de Target
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 42%
 
 ---
 
 
 # Métodos de Target {#target-methods}
 
-List of Target methods provided by the Windows 8.1 Universal App Store library.
+Lista de los métodos de Destinatario proporcionados por la biblioteca Universal App Store para Windows 8.1.
 
-Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. El prefijo de los métodos de Analytics es “Target”.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Destinatario y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Los métodos de Analytics llevan el prefijo &quot;Destinatario&quot;.
 
 [Las métricas del ciclo vital](/help/windows-appstore/metrics.md) se envían como parámetros a cada carga mbox.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
 
 ## Referencia de clase: TargetLocationRequest
 
@@ -89,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest (winJS: createRequest)**
 
-   Crea un objeto `TargetLocationRequest` con los parámetros dados.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * Esta es la sintaxis para este método:
 
@@ -106,7 +109,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateOrder &#x200B; ConfirmRequest (winJS: createOrder &#x200B; ConfirmRequest)**
 
-   Crea un objeto `TargetLocationRequest` con los parámetros dados.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * Esta es la sintaxis para este método:
 
@@ -123,7 +126,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **ClearCookies (winJS: clearCookies)**
 
-   Borra las cookies de Target para la aplicación en el dispositivo actual.
+   Borra las cookies de Destinatario para la aplicación en el dispositivo actual.
 
    * Esta es la sintaxis para este método:
 
@@ -139,7 +142,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetPcId (winJS: getPcId)**
 
-   Devuelve la cookie PC ID para el dispositivo actual.
+   Devuelve la cookie de ID de PC del dispositivo actual.
 
    * Esta es la sintaxis para este método:
 
@@ -155,7 +158,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetSessionId (winJS: getSessionId)**
 
-   Devuelve la cookie Session ID para el dispositivo actual.
+   Devuelve la cookie de ID de sesión del dispositivo actual.
 
    * Esta es la sintaxis para este método:
 
