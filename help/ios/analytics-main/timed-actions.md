@@ -1,31 +1,34 @@
 ---
-description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
-seo-description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
+description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo de cada sesión y el tiempo total entre sesiones que tardará la acción en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
+seo-description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo de cada sesión y el tiempo total entre sesiones que tardará la acción en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 seo-title: Acciones temporizadas
 solution: Experience Cloud,Analytics
 title: Acciones temporizadas
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 64%
 
 ---
 
 
 # Acciones temporizadas {#timed-actions}
 
-Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo en cada sesión y el tiempo total entre sesiones que la acción tarda en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
+Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo de cada sesión y el tiempo total entre sesiones que tardará la acción en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
 
-Para las acciones temporizadas se comunican las siguientes métricas:
+Las siguientes métricas se incluyen en los informes para acciones temporizadas:
 
-* Total de segundos en la aplicación entre inicio y final (entre sesiones)
-* Total de segundos entre inicio y final (tiempo de reloj)
+* Total de segundos en la aplicación entre inicio y final: entre sesiones
+* Total de segundos entre el inicio y el final (hora del reloj)
 
 Una llamada de retorno opcional le permite realizar acciones adicionales cuando se completa la acción temporizada:
 
-* Ejecutar código y agregar cualquier lógica: lógica personalizada opcional basada en los resultados de duración.
-* Agregar datos de contexto antes de pasar las duraciones.
-* Cancelar visitas y duraciones no enviadas todavía.
+* Ejecute código y agregue cualquier lógica: lógica personalizada opcional basada en los resultados de duración.
+* Añadir datos de contexto antes de pasar duraciones.
+* Cancelar visitas y duraciones aún no enviadas.
 
 ## Seguimiento de acciones temporizadas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
