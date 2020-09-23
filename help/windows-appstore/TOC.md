@@ -3,18 +3,18 @@ product: mobile-services
 audience: end-user
 user-guide-title: SDK de Mobile Services Universal App Store para Windows 8.1
 breadcrumb-title: Windows 8.1 Universal App Store SDK
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
 # SDK de Mobile Services Universal App Store para Windows 8.1 {#windows-universal-appstore}
 
-+ [SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud](overview.md)
++ [SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud](overview.md)
 + [Notas de la versión](release-notes.md)
 + Introducción {#getting-started-win-appstore}
    + [Introducción](c-getting-started/c-getting-started.md)
@@ -34,5 +34,5 @@ ht-degree: 47%
 + [Métodos de Target](target/target-methods.md)
 + [Métodos de Audience Manager](audiencemgmt/audience-manager-methods.md)
 + [Métricas del ciclo vital](metrics.md)
-+ [Extensiones de Windows Visual Studio para SDK de soluciones Experience Cloud 4.x](extensions/win-vse-4x.md)
++ [Extensiones de Windows Visual Studio para soluciones de SDK de Experience Cloud 4.x](extensions/win-vse-4x.md)
 + [Migración](migration-v3.md)
