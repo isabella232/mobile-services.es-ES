@@ -1,20 +1,23 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
-seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
+description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
+seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: ht
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 44%
 
 ---
 
 
 # Variable Products {#products-variable}
 
-La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
+La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
 
 Para establecer la variable *`products`*, establezca una clave de datos de contexto en `"&&products"` y el valor empleando la sintaxis definida para la variable *`products`*:
 
