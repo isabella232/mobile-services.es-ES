@@ -1,14 +1,17 @@
 ---
 description: Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
-keywords: móvil
+keywords: mobile
 seo-description: Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
 seo-title: Agregar series (métricas) a informes
 solution: Experience Cloud,Analytics
 title: Agregar series (métricas) a informes
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -23,11 +26,11 @@ Esta información sirve para personalizar los informes integrados mediante la ad
 
 En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]**, pero las instrucciones se pueden aplicar para cualquier informe.
 
-1. Abra la aplicación y haga clic en **[!UICONTROL Uso]** &gt; **[!UICONTROL Usuarios y sesiones]**.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![Resultado de los pasos](assets/customize1.png)
 
-   En este informe se proporciona una vista de tiempo extra completa de nuestros usuarios de la aplicación. Sin embargo, deseamos agregar una serie para generar un informe de errores de la aplicación.
+   Este informe proporciona una vista completa de las horas extra de los usuarios de la aplicación. Sin embargo, queremos agregar una serie para informar sobre bloqueos de aplicaciones.
 
 1. Haga clic en **[!UICONTROL Personalizar]**.
 
