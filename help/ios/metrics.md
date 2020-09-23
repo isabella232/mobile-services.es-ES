@@ -1,13 +1,16 @@
 ---
-description: Las siguientes tablas listan las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
-seo-description: Las siguientes tablas listan las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
+description: Las siguientes tablas lista las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
+seo-description: Las siguientes tablas lista las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
 seo-title: Métricas del ciclo vital
 solution: Experience Cloud,Analytics
 title: Métricas del ciclo vital
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: ht
-source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +21,7 @@ Estas son las métricas y dimensiones que la biblioteca móvil puede medir autom
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -68,7 +71,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Inicios**
 
-   Se activa con cada ejecución, incluidos los bloqueos y las instalaciones. Se activa también cuando la aplicación se inicia de nuevo desde segundo plano cuando se ha superado el tiempo de espera de la sesión del ciclo vital.
+   Se activa en cada ejecución, incluidos los bloqueos y las instalaciones. También se activa cuando la aplicación se reanuda desde segundo plano después de superar el tiempo de espera de sesión del ciclo vital.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.LaunchEvent`
    * Señal de Audience Manager: `c_a_LaunchEvent`
@@ -165,7 +168,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Nombre del dispositivo**
 
-   Almacena el nombre del dispositivo.  cadena de dos dígitos separados por comas que identifica el dispositivo iOS. El primer número representa generalmente la generación del dispositivo y el segundo número representa generalmente versiones de miembros diferentes de la familia del dispositivo. Para ver una lista de nombres de dispositivos comunes, consulte  Versiones de dispositivo iOS.
+   Almacena el nombre del dispositivo.  Cadena de dos dígitos separados por comas que identifica el dispositivo iOS. El primer número representa generalmente la generación del dispositivo y el segundo número representa generalmente versiones de miembros diferentes de la familia del dispositivo. Para ver una lista de nombres de dispositivos comunes, consulte  Versiones de dispositivo iOS.
 
    * Target/dato contextual de Analytics: `a.DeviceName`
    * Audience Manager: `c_a_DeviceName`
@@ -283,7 +286,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Código de seguimiento**
 
-   Rellenado por Adquisición de aplicación móvil. Generado automáticamente por Adobe Mobile Services.
+   Rellenado por Adquisición de aplicación móvil. Generado automáticamente por Adobe mobile services.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.trackingcode`
    * Característica de Audience Manager: `c_a_referrer_campaign_trackingcode`
@@ -297,28 +300,28 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Contenido de campaña**
 
-   El nombre o ID del contenido que se muestra en el vínculo. Rellenado por Adquisición de aplicación móvil.
+   Nombre o ID del contenido que muestra el vínculo. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.content`
    * Característica de Audience Manager: `c_a_referrer_campaign_content`
 
 * **Medio de campaign**
 
-   El medio de marketing, como banners o correo electrónico. Rellenado por Adquisición de aplicación móvil.
+   Medio de marketing, como banner o correo electrónico. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.medium`
    * Característica de Audience Manager: `c_a_referrer_campaign_medium`
 
 * **Fuente de campaña**
 
-   Referente original, como un boletín de noticias o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
+   Remitente del reenvío original, como newsletter o red de medios sociales. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.source`
    * Característica de Audience Manager: `c_a_referrer_campaign_source`
 
 * **Término de campaña**
 
-   Palabras clave de pago u otros términos con los que quiera realizar un seguimiento de esta adquisición. Rellenado por Adquisición de aplicación móvil.
+   Palabras clave pagas u otros términos que desee rastrear con esta adquisición. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.term`
    * Característica de Audience Manager: `c_a_referrer_campaign_term`
