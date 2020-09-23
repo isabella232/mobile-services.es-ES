@@ -2,12 +2,15 @@
 description: Esta información le ayuda a implementar la biblioteca iOS y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
 seo-description: Esta información le ayuda a implementar la biblioteca iOS y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
 seo-title: Implementación principal y ciclo vital
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Implementación principal y ciclo vital
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -61,6 +64,7 @@ Para descargar el SDK:
    * La casilla de verificación **[!UICONTROL Copiar elementos si es necesario]** está seleccionada.
    * **[!UICONTROL Crear grupos]** está seleccionado.
    * Ninguna de las casillas de verificación en la sección **[!UICONTROL Agregar a destinos]** está seleccionada.
+
    ![](assets/step_3.png)
 
 1. Haga clic en **[!UICONTROL Finalizar]**.
@@ -69,7 +73,7 @@ Para descargar el SDK:
 
    ![](assets/step_4.png)
 
-1. En el **[!UICONTROL Navegador de proyectos],** complete los pasos siguientes:
+1. En el **[!UICONTROL Navegador de proyectos]**, complete los pasos siguientes:
 
    1. Haga clic en su aplicación.
    1. En la ficha **[!UICONTROL General]**, seleccione sus destinos y vincule los marcos y bibliotecas necesarios en las secciones **[!UICONTROL Marcos vinculados]** y **[!UICONTROL bibliotecas]**.
@@ -93,6 +97,7 @@ Para descargar el SDK:
       * `SystemConfiguration.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary\_TV.a`
+
    >[!CAUTION]
    >
    > Vincular más de un archivo `AdobeMobileLibrary*.a` en el mismo destino resultará en un comportamiento inesperado o en la imposibilidad de compilar.
