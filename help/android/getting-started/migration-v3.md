@@ -1,14 +1,17 @@
 ---
 description: Esta información le ayuda a migrar de las versiones 3.x o 2.x a la versión 4.x de la biblioteca Android.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Esta información le ayuda a migrar de las versiones 3.x o 2.x a la versión 4.x de la biblioteca Android.
 seo-title: Migración a la biblioteca Android 4.x
 solution: Experience Cloud,Analytics
 title: Migración a la biblioteca Android 4.x
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
-translation-type: ht
-source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 59%
 
 ---
 
@@ -21,19 +24,19 @@ Esta información le ayuda a migrar de las versiones 3.x o 2.x a la versión 4.x
 >
 >El SDK utiliza `SharedPreferences` a fin de almacenar los datos necesarios para calcular los usuarios únicos, las métricas del ciclo vital y otros datos relacionados con la función principal del SDK.  Si modifica o elimina los valores en `SharedPreferences` que el SDK espera, el comportamiento inesperado podría provocar incongruencias en los datos.
 
-En la biblioteca de la versión 4.x, los métodos públicos se consolidan en un encabezado. Además, ahora se puede acceder a toda la funcionalidad a partir de métodos en el nivel de clase, por lo que no tiene que seguir la pista de punteros, instancias e instancias únicas.
+En la biblioteca de la versión 4.x, los métodos públicos se consolidan en un encabezado. Además, ahora se puede acceder a toda la funcionalidad a través de métodos de nivel de clase, por lo que no es necesario realizar un seguimiento de punteros, instancias o singletones.
 
 ## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-En la versión 4 ya no puede asignar en su aplicación variables como events, eVars, props, heirs y lists. En lugar de ello, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es muy pequeño.
+* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto.
 
-   Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento.
+   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
 >[!TIP]
 >
@@ -75,8 +78,8 @@ Las siguientes tablas listan las variables de configuración que debe mover al a
 
 ### Mover el archivo de configuración
 
-1. Mueva el valor establecido para la variable de la primera columna a la variable de la segunda columna.
-1. Elimine la antigua variable de configuración de su código.
+1. Mueva el valor establecido para la variable en la primera columna a la variable en la segunda columna.
+1. Elimine la variable de configuración antigua del código.
 
 ### Migración desde la versión 3.x
 
@@ -84,13 +87,13 @@ Para migrar de la versión 3.x a la 4, mueva el valor de método/variable de con
 
 | Variable de configuración o método | Variable en el archivo `ADBMobileConfig.json` |
 |--- |--- |
-| setOfflineTrackingEnabled | "offlineEnabled" |
-| setOfflineHitLimit | "batchLimit" |
-| reportSuiteIDs | "rsids" |
-| trackingServer | "server" |
-| charSet | "charset" |
-| currencyCode | "currency" |
-| ssl | "ssl" |
+| setOfflineTrackingEnabled | &quot;offlineEnabled&quot; |
+| setOfflineHitLimit | &quot;batchLimit&quot; |
+| reportSuiteIDs | &quot;rsids&quot; |
+| trackingServer | &quot;server&quot; |
+| charSet | &quot;charset&quot; |
+| currencyCode | &quot;currency&quot; |
+| ssl | &quot;ssl&quot; |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
 
@@ -100,23 +103,23 @@ Para migrar de la versión 2.x a la versión 4, mueva el valor de la primera col
 
 | Variable de configuración | Variable en el archivo `ADBMobileConfig.json` |
 | --- |--- |
-| trackOffline | "offlineEnabled" |
-| offlineLimit | "batchLimit" |
-| account | "rsids" |
-| trackingServer | "server", elimine el prefijo `"https://"`. El prefijo de protocolo se agrega automáticamente en función del ajuste “ssl”. |
-| trackingServerSecure | Eliminar. Para conexiones seguras, defina “server” y después habilite “ssl”. |
-| charSet | "charset" |
-| currencyCode | "currency" |
-| ssl | "ssl" |
+| trackOffline | &quot;offlineEnabled&quot; |
+| offlineLimit | &quot;batchLimit&quot; |
+| account | &quot;rsids&quot; |
+| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. El prefijo de protocolo se agrega automáticamente según la configuración &quot;ssl&quot;. |
+| trackingServerSecure | Eliminar. Para conexiones seguras, defina &quot;server&quot; y luego habilite &quot;ssl&quot;. |
+| charSet | &quot;charset&quot; |
+| currencyCode | &quot;currency&quot; |
+| ssl | &quot;ssl&quot; |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
-| timestamp | Eliminar, ya no es configurable. |
+| timestamp | Eliminar, ya no se puede configurar. |
 | dc | Eliminar, ya no se utiliza. |
-| userAgent | Eliminar, ya no es configurable. |
+| userAgent | Eliminar, ya no se puede configurar. |
 | dynamicVariablePrefix | Eliminar, ya no se utiliza. |
 | visitorNamespace | Eliminar, ya no se utiliza. |
 | usePlugins | Eliminar, ya no se utiliza. |
-| useBestPractices todas las llamadas para producir mediciones (getChurnInstance) | Eliminar, sustituido por métricas del ciclo vital. |
+| useBestPractices todas las llamadas para producir mediciones ( getChurnInstance) | Eliminar, sustituido por métricas del ciclo vital. |
 
 ## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
@@ -132,15 +135,15 @@ El parámetro `contextData` para ambos métodos es un `HashMap<String, Object>`,
 
 ## Eventos, props y eVars
 
-En la versión 4 ya no puede asignar directamente en su aplicación variables como events, eVars, props, heirs y lists. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas directamente en la aplicación. El SDK ahora utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es muy pequeño.
+* Puede cambiar la asignación de datos sin enviar una actualización al almacén de aplicaciones.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto.
 
-   Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento. Para obtener más información, consulte [Reglas de procesamiento y datos de contexto](/help/android/getting-started/proc-rules.md).
+   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento. Para obtener más información, consulte Reglas [de procesamiento y Datos](/help/android/getting-started/proc-rules.md)de contexto.
 
 Los valores que asignaba directamente a variables deberían agregarse al HashMap `data`. Esto significa que las llamadas a `setEvar` y `setProp`, así como las asignaciones a datos de contexto persistentes, deberían eliminarse para agregar sus valores al parámetro `data`.
 
