@@ -1,14 +1,17 @@
 ---
 description: La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de elementos heredados
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 
-Si la aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de campaña. Esto solo afecta a la aplicación a la que lo redirige el servidor de adquisición, después de hacer clic en el vínculo de adquisición, pero no a la capacidad para probar el vínculo de adquisición. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
+Si la aplicación móvil aún no está en Google Play, puede seleccionar cualquier aplicación móvil como destino al crear el vínculo de campaña. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta la capacidad para probar el vínculo. Los parámetros de cadena de consulta se pasan a la tienda Google Play que pasan a la aplicación durante la instalación como parte de una difusión de campaña. La prueba de adquisición de aplicaciones móviles de ida y vuelta requiere la simulación de este tipo de difusión.
 
 Las pruebas siempre se deben realizar con la aplicación recién instalada, o después de borrar sus datos desde la **[!UICONTROL Configuración]**. Así se garantiza el envío durante el primer inicio de las métricas del ciclo vital iniciales asociadas a los parámetros de la cadena de consulta de la campaña.
 
@@ -36,10 +39,10 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    1. Actualice en la aplicación la referencia del receptor con la referencia de la ubicación del receptor de seguimiento de la campaña.
    1. Reemplace por valores apropiados los que estén asociados a `utm_content`, `utm_source`, `utm_campaign`, `utm_medium`, `utm_term`, etc.
 
-Si la emisión se realiza correctamente, se muestra una respuesta similar a la de abajo:
+Si la retransmisión se realiza correctamente, se muestra una respuesta similar a la siguiente:
 
 ```
 Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0
 ```
 
-También verá que se ha enviado una solicitud de imagen a los servidores de recopilación de datos de Adobe. Si el SDK consume todo el tiempo de espera del referente (establecido en el paso 1) con una solicitud de imagen que no incluye parámetros de campaña, la emisión falla.
+También verá una solicitud de imagen enviada a los servidores de recopilación de datos de Adobe. Si el SDK espera toda la duración del tiempo de espera del remitente del reenvío, que se establece en el paso 1, con una solicitud de imagen que no incluye parámetros de campaña, se produce un error en la retransmisión.
