@@ -5,8 +5,11 @@ seo-title: Prueba de adquisición V3
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +20,9 @@ Esta información le ayuda a realizar una campaña de adquisición Versión 3 de
 
 >[!IMPORTANT]
 >
->Adquisición V3 se refiere a los vínculos de adquisición que crea con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para utilizar esta función, debe actualizar el SDK para iOS a la versión 4.6.0 o posterior.
+>Adquisición V3 se refiere a los vínculos de adquisición que crea con el Generador de adquisición en la interfaz de usuario de Adobe Mobile Services. Para utilizar esta función, debe actualizar al iOS de SDK versión 4.6.0 o posterior.
 
-Si la aplicación móvil aún no está en el App Store al crearse el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo.
+Si la aplicación móvil aún no está en la App Store, al crear el vínculo de campaña, seleccione cualquier aplicación móvil como destino. Esto solo afecta a la aplicación a la que el servidor de adquisición le redirige después de hacer clic en el vínculo de adquisición, pero no afecta a la capacidad de probar el vínculo.
 
 1. Complete las tareas previas necesarias en [Adquisición de aplicación móvil](/help/ios/acquisition-main/acquisition.md).
 1. Vaya al **[!UICONTROL Generador de adquisición]** en la interfaz de usuario de Adobe Mobile Services y genere una URL de campaña de adquisición.
@@ -31,7 +34,7 @@ Si la aplicación móvil aún no está en el App Store al crearse el vínculo de
    ```
 
 
-   Si en el vínculo de adquisición hace referencia a aplicaciones tanto Android como iOS, utilice el App Store de Apple como tienda predeterminada.
+   Si en el vínculo de adquisición hace referencia a aplicaciones de iOS y Android, utilice la Apple Store como tienda predeterminada.
 1. Abra el vínculo generado en un explorador de escritorio y vaya a `https://c00.adobe.com/v3/<appid>/end`.
 
    Debería ver los datos `contextData` en la respuesta JSON:
@@ -63,7 +66,7 @@ Si la aplicación móvil aún no está en el App Store al crearse el vínculo de
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   Si no ve los registros anteriores, asegúrese de que ha completado los pasos 4 y 5.
+   Si no ve los registros anteriores, asegúrese de haber completado los pasos 4 y 5.
 
    A continuación se ofrece información sobre posibles errores:
 
@@ -84,7 +87,7 @@ Se ha producido un error de red.
 
    * `Analytics - Acquisition referrer timed out`
 
-      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación, y de que utiliza la misma red al hacer clic en la URL y al abrir la aplicación.
+      No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo. También debe asegurarse de que ha abierto el vínculo de adquisición antes de instalar la aplicación y de que está utilizando la misma red al hacer clic en la URL y al abrir la aplicación.
 
       Recuerde la información siguiente:
 
