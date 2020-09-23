@@ -1,20 +1,23 @@
 ---
-description: Las acciones son los eventos que tienen lugar en su aplicación de Android y que desea medir.
-seo-description: Las acciones son los eventos que tienen lugar en su aplicación de Android y que desea medir.
+description: Las acciones son los eventos que se producen en la aplicación de Android que desea medir.
+seo-description: Las acciones son los eventos que se producen en la aplicación de Android que desea medir.
 seo-title: Seguimiento de acciones de aplicaciones
 solution: Experience Cloud,Analytics
 title: Seguimiento de acciones de aplicaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 88%
 
 ---
 
 
 # Seguimiento de acciones de aplicaciones {#track-app-actions}
 
-Las acciones son los eventos que tienen lugar en su aplicación de Android y que desea medir.
+Las acciones son los eventos que se producen en la aplicación de Android que desea medir.
 
 Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, podría enviar una llamada a `trackAction` por cada nueva suscripción, cada vez que se vea un artículo o cada vez que se complete un nivel. El seguimiento de acciones no es automático, por lo que debe llamar a `trackAction` cuando tenga lugar un evento cuyo seguimiento desee realizar y, a continuación, asignar la acción a un evento personalizado.
 
@@ -63,8 +66,9 @@ El valor de los datos de contexto debe asignarse a variables personalizadas de A
 
 ## Informes de acción {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-| Interfaz | Informe |
+| Interfaz | Información general de la tienda de aplicaciones |
 |--- |--- |
 | Adobe Mobile Services | **** Informe de rutas de acción.  Vea el orden en el que ocurren las acciones en su aplicación. También puede hacer clic en **[!UICONTROL Personalizar]** en cualquier informe para ver las acciones clasificadas, organizadas por tendencias o en un informe desglosado. O puede aplicar un filtro para ver acciones de un segmento específico. |
 | Informes y análisis de marketing | **[!UICONTROL Informe Evento personalizado]**. Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
 | Análisis específico | **[!UICONTROL Informe Evento personalizado]**. Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
+
