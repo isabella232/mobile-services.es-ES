@@ -3,11 +3,11 @@ product: mobile-services
 audience: end-user
 user-guide-title: Guía de la plataforma universal de Windows de Mobile Services
 breadcrumb-title: Universal Windows Platform Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -32,5 +32,5 @@ ht-degree: 52%
 + [Métodos de Target](target/target-methods.md)
 + [Métodos de Audience Manager](audiencemgmt/audience-manager-methods.md)
 + [Métricas del ciclo vital](metrics.md)
-+ [Extensiones de Windows Visual Studio para SDK de soluciones Experience Cloud 4.x](extensions/win-vse-4x.md)
++ [Extensiones de Windows Visual Studio para soluciones de SDK de Experience Cloud 4.x](extensions/win-vse-4x.md)
 + [Migrar a 4.x](migration-v3.md)
