@@ -1,14 +1,17 @@
 ---
 description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
-keywords: móvil
+keywords: mobile
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 seo-title: Resolución de problemas de mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Resolución de problemas de mensajería en la aplicación
-topic: Métricas
+topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: ht
-source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +26,7 @@ Si ha completado todos los requisitos para la mensajería en la aplicación, per
 
 Asegúrese de tener una sección [Mensajería en la aplicación](/help/android/messaging-main/messaging/messaging.md) en la configuración (archivo JSON descargado) o un punto final remoto Mensajes para que se pueda recuperar desde la administración dinámica de etiquetas.
 
-## Mi mensaje de pantalla completa en Android no aparece. Estoy usando el SDK y la configuración correctos y mis activadores se están cumpliendo.
+## Mi mensaje de pantalla completa en Android no aparece. Estoy utilizando el SDK, la configuración y los activadores correctos.
 
 ¿Ha actualizado el archivo de manifiesto para definir la actividad de pantalla completa?
 
@@ -37,7 +40,7 @@ Para comprobar si su mensaje está activo, vaya a la página Administrar mensaje
 
 ## En la pestaña Audiencia encontrará las opciones de configuración *Mostrar una vez*, *Mostrar siempre* y *Mostrar sin conexión*.
 
-Compruebe que estos ajustes están definidos de la forma que desea. En la ficha **[!UICONTROL Audiencia]**, revise las opciones de **[!UICONTROL Activador]**, que le permiten especificar con qué frecuencia se muestran los mensajes.
+Compruebe que estos ajustes están definidos de la forma que desea. En la pestaña **[!UICONTROL Audiencia]**, revise las opciones de **[!UICONTROL Activador]**, que le permiten especificar con qué frecuencia se muestran los mensajes.
 
 ## Si se usa el evento de inicio como activador...
 
@@ -52,20 +55,21 @@ Recuerde la información siguiente:
 
 Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
-## Mi imagen no se adapta exactamente al espacio proporcionado en la plantilla.
+## La imagen no se ajusta exactamente al espacio proporcionado por la plantilla.
 
-La plantilla de pantalla completa de mensaje en la aplicación admite la visualización de una imagen desde un servidor remoto (URL de imagen) o desde el paquete de aplicaciones (imagen agrupada). La imagen debe tener un formato de imagen estándar como JPG, GIF o PNG. Puesto que las pantallas de los dispositivos pueden tener diferentes dimensiones, es probable que la imagen no se ajuste exactamente al espacio proporcionado en la plantilla. La plantilla se centra en mostrar el centro de la imagen y, si esta no encaja, recorta (vertical) o difumina (horizontal) los lados.
+La plantilla de pantalla completa Mensaje en la aplicación admite la visualización de una imagen desde un servidor remoto (URL de imagen) o desde el paquete de aplicaciones (imagen agrupada). La imagen debe tener un formato de imagen estándar como JPG, GIF o PNG. Puesto que las pantallas de los dispositivos pueden tener diferentes dimensiones, es probable que la imagen no se ajuste exactamente al espacio proporcionado en la plantilla. La plantilla se centra en mostrar el centro de la imagen y, si esta no encaja, recorta (vertical) o difumina (horizontal) los lados.
 
 Aquí detallamos la colocación exacta y las reglas de cambio de dimensión para cada orientación:
 
 * **Vertical**
    * Una altura de 195 píxeles para teléfonos.
    * Una altura de 529 píxeles para tabletas.
-   * Centrada si la anchura de la imagen es menor que la del dispositivo.
-   * Recortada si la anchura de la imagen es mayor que la del dispositivo.
+   * Centrado si el ancho de la imagen es menor que el ancho del dispositivo.
+   * Se recorta si el ancho de la imagen es mayor que el ancho del dispositivo.
 
 * **Horizontal**
-   * La imagen se escala al 100 % de la altura del dispositivo.
-   * La anchura es el 75 % de la del dispositivo, con difuminado en la derecha.
-   Si tiene problemas con la plantilla de pantalla completa, puede descargar y utilizar la plantilla HTML personalizada. Esta plantilla proporciona más flexibilidad para las imágenes y ofrece un control total de la plantilla.
+   * La imagen se amplió al 100% de la altura del dispositivo.
+   * El ancho es del 75% del dispositivo, con una atenuación a la derecha.
+
+   Si tiene problemas con la plantilla de pantalla completa, puede descargar y usar la plantilla HTML personalizada. Esta plantilla proporciona más flexibilidad para las imágenes y permite un control total de la plantilla.
 
