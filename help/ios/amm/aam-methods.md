@@ -4,10 +4,13 @@ seo-description: Esta es una lista de métodos de Audience Manager que proporcio
 seo-title: Métodos de Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos de Audience Manager
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 80%
 
 ---
 
@@ -70,14 +73,14 @@ Si Audience Manager está configurado en su archivo JSON, junto a `application:d
 
 * **audienceSetDpid:&#x200B;dpuuid:**
 
-   Establece el DPID y el DPUUID. Cuando se establece, ambos se adjuntan a cada señal.
+   Establece el DPID y el DPUUID. Cuando se establece, ambos se anexan a cada señal.
 
-   * El **ID del proveedor de datos (DPID)** es el ID del asociado de datos asignado por Audience Manager.
-   * El **ID de usuario exclusivo del proveedor de datos (DPUUID)** es el ID exclusivo del proveedor de datos para el usuario.
+   * El ID del proveedor **de datos (DPID)** es el ID del socio de datos asignado por el Audience Manager.
+   * El ID de usuario único del proveedor **de datos (DPUUID)** es el ID exclusivo del proveedor de datos para el usuario.
 
       >[!IMPORTANT]
       >
-      >Antes de la versión 4.13.x, el DPUUID no estaba codificado automáticamente. Desde la versión 4.13.x, el SDK primero descodifica el valor pasado y posteriormente vuelve a codificarlo. Este proceso garantiza que el SDK no anule la compatibilidad con versiones anteriores.
+      >Antes de la versión 4.13.x, el DPUUID no estaba codificado automáticamente. A partir de la versión 4.13.x, el SDK primero descodifica el valor que se pasó y, a continuación, vuelve a codificar este valor. Este proceso garantiza que el SDK no interrumpa la compatibilidad con versiones anteriores.
 
    * Esta es la sintaxis para este método:
 
