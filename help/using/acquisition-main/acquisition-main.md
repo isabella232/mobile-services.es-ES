@@ -1,29 +1,32 @@
 ---
-description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en marketing puede crear un vínculo que dirija a los usuarios a las plataformas iOS, Android u otras según corresponda.
-keywords: móvil
-seo-description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en marketing puede crear un vínculo que dirija a los usuarios a las plataformas iOS, Android u otras según corresponda.
+description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en mercadotecnia puede crear un vínculo para dirigir a los usuarios a iOS, Android u otras plataformas según corresponda.
+keywords: mobile
+seo-description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en mercadotecnia puede crear un vínculo para dirigir a los usuarios a iOS, Android u otras plataformas según corresponda.
 seo-title: Adquisición
 solution: Experience Cloud,Analytics
 title: Adquisición
-topic: Métricas
+topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 84%
 
 ---
 
 
 # Adquisición {#acquisition}
 
-Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en marketing puede crear un vínculo que dirija a los usuarios a las plataformas iOS, Android u otras según corresponda.
+Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en mercadotecnia puede crear un vínculo para dirigir a los usuarios a iOS, Android u otras plataformas según corresponda.
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
-* Para empezar, vaya a [Launch](https://launch.adobe.com/).
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
@@ -54,6 +57,6 @@ Los siguientes informes de adquisición contienen datos sobre la eficacia de los
 
    Recuerde la información siguiente:
 
-   * Puede hacer clic en los iconos de las flechas que hay en los encabezados de columna para disponer los datos en orden ascendente o descendente.
+   * Puede hacer clic en los iconos de flecha de los encabezados de columna para ordenar los datos en orden ascendente o descendente.
    * Para exportar los datos a un documento PDF; puede hacer clic en **[!UICONTROL Descargar]**.
    ![](assets/acquisition_name.png)
