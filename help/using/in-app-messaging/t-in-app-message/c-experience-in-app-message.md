@@ -1,14 +1,17 @@
 ---
 description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
-keywords: móvil
+keywords: mobile
 seo-description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 seo-title: Experience  Mensaje en la aplicación
 solution: Experience Cloud,Analytics
 title: Experience  Mensaje en la aplicación
-topic: Métricas
+topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 92%
 
 ---
 
@@ -17,9 +20,9 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 
-1. En la aplicación, haga clic en **[!UICONTROL Mensajería]** &gt; **[!UICONTROL Gestionar mensajes]** &gt; **[!UICONTROL Crear mensaje]** &gt; **[!UICONTROL Crear en la aplicación]**.
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. En la página Experiencia, escriba el nombre del mensaje.
-1. Rellene los campos de la sección **[!UICONTROL Tipo]:**
+1. Rellene los campos de la sección **[!UICONTROL Tipo]**:
 
    * **[!UICONTROL Tipo]** Seleccione el tipo de mensaje para su campaña de mensajes en la aplicación:
 
@@ -36,19 +39,21 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 
    * **[!UICONTROL Personalizado]**
 
-      Cargue el contenido HTML personalizado (solo pantalla completa). Tiene que proporcionar un vínculo de pulsación y otro de cancelación.
+      Cargue el contenido HTML personalizado (solo pantalla completa). Debe proporcionar un vínculo de pulsación y un vínculo de cancelación.
 
       1. Haga clic en **[!UICONTROL Examinar]** y descargue un archivo HTML o arrastre un documento HTML a la ventana.
       1. Haga clic en **[!UICONTROL Descargar ejemplo]** para ver contenido HTML personalizado de ejemplo.
+
       >[!TIP]
       >
       >Esta opción solo se muestra al seleccionar el tipo de mensaje **[!FPantalla completa]**.
 
 
 
-1. Rellene los campos de la sección **[!UICONTROL Visualización]:**
+1. Rellene los campos de la sección **[!UICONTROL Visualización]**:
 
    * **[!UICONTROL Tema]**
+
    Seleccione el tema del mensaje.
 
    * **[!UICONTROL Diseño]**
@@ -61,12 +66,12 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 
    * **[!UICONTROL Imagen agrupada]**
 
-      Ruta a una imagen presente en el paquete de código de la aplicación. Esta opción se usa cuando no hay ninguna imagen o la que hay no está disponible. Puede no estar disponible si, por ejemplo, el dispositivo no tiene conexión. Si tiene problemas con el tamaño al utilizar la plantilla de pantalla completa, consulte *Mi imagen no se adapta exactamente al espacio proporcionado en la plantilla* en [Solucionar los problemas de la mensajería en la aplicación](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      Ruta a una imagen en el paquete de código de la aplicación. Esta opción se utiliza cuando no hay ninguna imagen. o la imagen no está disponible. Puede no estar disponible si, por ejemplo, el dispositivo no tiene conexión. Si tiene problemas con el tamaño al utilizar la plantilla de pantalla completa, consulte *Mi imagen no se adapta exactamente al espacio proporcionado en la plantilla* en [Solucionar los problemas de la mensajería en la aplicación](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 
-1. Rellene los campos de la sección **[!UICONTROL Texto]:**
+1. Rellene los campos de la sección **[!UICONTROL Texto]**:
 
-   * **[!UICONTROL Encabezado]**
+   * **[!UICONTROL Header]**
 
       Escriba el texto del encabezado del mensaje.
 
@@ -74,7 +79,7 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 
       Escriba el texto del contenido del mensaje.
 
-1. Rellene los campos de la sección **[!UICONTROL Botones]:**
+1. Rellene los campos de la sección **[!UICONTROL Botones]**:
 
    * **[!UICONTROL Botón Pulsación]**
 
@@ -90,13 +95,14 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
       * `{trackingId}`, que se sustituye por la ayuda (se correlaciona con la cookie *s_vi*).
       * `{messageId}`, que se sustituye por el identificador único del mensaje en la aplicación.
       * `{lifetimeValue}`, que se sustituye por el valor de duración o por 0 si este no existe.
+
       Este es un ejemplo de seguimiento del identificador de usuario: `https://www.mysite.com?uid={userId}`.
 
       Si la URL de pulsación utiliza `https://` o `https://`, se abrirá en el explorador del dispositivo fuera de la aplicación. De lo contrario, cada plataforma admite esquemas que le permiten abrir la aplicación o hacer referencia a ella si esta se ha desarrollado para admitir el esquema personalizado.
 
       >[!TIP]
       >
-      >Cuando se usan los tipos de destino **[!UICONTROL Vínculo web]** o **[!UICONTROL Vínculo personalizado]**, no se realiza un seguimiento del tipo de destino. Solo se hace un seguimiento de los **[!UICONTROL vínculos profundos]**. Para obtener más información, consulte [Destinos](/help/using/acquisition-main/c-create-destinations.md).
+      >Cuando se usan los tipos de destino **[!UICONTROL Vínculo web]** o **[!UICONTROL Vínculo personalizado]**, no se realiza un seguimiento del tipo de destino. Solo se hace un seguimiento de los **[!UICONTROL vínculos profundos.]** Para obtener más información, consulte [Destinos](/help/using/acquisition-main/c-create-destinations.md).
 
 
 1. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
