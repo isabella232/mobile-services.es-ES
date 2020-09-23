@@ -1,14 +1,17 @@
 ---
 description: A continuación encontrará las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: A continuación encontrará las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo.
 seo-title: Métricas del ciclo vital
 solution: Experience Cloud,Analytics
 title: Métricas del ciclo vital
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +22,7 @@ Esta sección contiene información sobre las métricas y dimensiones que la bib
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -28,7 +31,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 ## Métricas y dimensiones del ciclo vital {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos contextuales a Analytics, en parámetros a Target con cada llamada de mbox y como señal para la gestión de público. Analytics y Target usan el mismo formato, mientras que la gestión de público emplea un prefijo distinto para cada métrica.
+Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros para el Destinatario con cada llamada de mbox y como señal para la administración de audiencias. Analytics y Destinatario utilizan el mismo formato, mientras que la administración de audiencias utiliza un prefijo diferente para cada métrica.
 
 En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se comunican usando la métrica o la dimensión y se registran las excepciones.
 
@@ -72,7 +75,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Inicios**
 
-   Se activa en cada ejecución, incluido en caso de bloqueo o al realizar la instalación. También se activa al reanudar desde segundo plano, cuando se supera el tiempo de espera de la sesión de ciclo de duración.
+   Se activa en cada ejecución, incluidos los bloqueos y las instalaciones. También se activa al reanudar desde segundo plano cuando se ha superado el tiempo de espera de la sesión de ciclo vital.
 
    >[!IMPORTANT]
    >
@@ -309,28 +312,28 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
 
 * **Contenido de campaña**
 
-   El nombre o ID del contenido que se muestra en el vínculo. Rellenado por Adquisición de aplicación móvil.
+   Nombre o ID del contenido que muestra el vínculo. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetros de Target/datos contextuales de Analytics: `a.referrer.campaign.content`
    * Característica de Audience Manager: `c_a_referrer_campaign_content`
 
 * **Medio de campaign**
 
-   El canal de marketing, como un banner o correo electrónico. Rellenado por Adquisición de aplicación móvil.
+   Medio de marketing, como un banner o un correo electrónico. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetros de Target/datos contextuales de Analytics: `a.referrer.campaign.medium`
    * Característica de Audience Manager: `c_a_referrer_campaign_medium`
 
 * **Fuente de campaña**
 
-   Referente original, como un boletín de noticias o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
+   Remitente del reenvío original, como un boletín informativo o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetros de Target/datos contextuales de Analytics: `a.referrer.campaign.source`
    * Característica de Audience Manager: `c_a_referrer_campaign_source`
 
 * **Término de campaña**
 
-   Palabras clave de pago u otros términos con los que quiera realizar un seguimiento de esta adquisición. Rellenado por Adquisición de aplicación móvil.
+   Palabras clave pagas u otros términos que desee rastrear con esta adquisición. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetros de Target/datos contextuales de Analytics: `a.referrer.campaign.term`
    * Característica de Audience Manager: `c_a_referrer_campaign_term`
