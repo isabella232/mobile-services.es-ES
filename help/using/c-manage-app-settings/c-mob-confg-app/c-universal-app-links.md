@@ -1,14 +1,17 @@
 ---
 description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
-keywords: móvil
+keywords: mobile
 seo-description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 seo-title: Vínculos universales de Apple y de la aplicación de Android
 solution: Experience Cloud,Analytics
 title: Vínculos universales de Apple y de la aplicación de Android
-topic: Métricas
+topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: ht
-source-git-commit: e65add089499f728827321e96e439f04ebb19a73
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +66,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
 1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos universales:
 
-   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]**.
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
@@ -122,7 +125,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
 1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos de aplicación:
 
-   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]**.
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
