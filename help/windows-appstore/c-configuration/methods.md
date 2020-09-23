@@ -2,23 +2,26 @@
 description: Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
 seo-description: Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
 seo-title: Métodos SDK
-solution: Marketing Cloud,Analytics
-title: SDK methods
-topic: Desarrollador e implementación
+solution: Experience Cloud,Analytics
+title: Métodos SDK
+topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 50%
 
 ---
 
 
-# SDK methods {#sdk-methods}
+# Métodos SDK {#sdk-methods}
 
 Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -40,9 +43,9 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
 
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
+   * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
       The default value is set in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) file.
 
@@ -52,7 +55,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       static Windows::Foundation::IAsyncOperation<ADBMobilePrivacyStatus> ^getPrivacyStatusAsync(); 
       ```
 
-   * Estos son los ejemplos de código para este método:
+   * Estos son ejemplos de código para este método:
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int  {
@@ -72,11 +75,11 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
 * **SetPrivacyStatus (winJS: setPrivacyStatus)**
 
-   Sets the privacy status for the current user to `status`. Establezca uno de los siguientes valores:
+   Establece el estado de privacidad del usuario actual como `status`. Establezca uno de los siguientes valores:
 
-   * `ADBMobilePrivacyStatusOptIn` - las visitas se envían inmediatamente.
-   * `ADBMobilePrivacyStatusOptOut` - las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown`: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a inclusión (entonces se envían las visitas) o exclusión (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a inclusión.
+   * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
+   * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
+   * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
    * Esta es la sintaxis para este método:
 
@@ -118,11 +121,11 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Devuelve el identificador del usuario si se ha establecido un identificador personalizado. Devuelve vacío si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. For new installations on the 4.x SDK, user identifier is `null` until set.
 
    * Esta es la sintaxis para este método:
 
@@ -173,7 +176,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento ignora esta configuración.
+   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento omite esta configuración.
 
    * Esta es la sintaxis para este método:
 
@@ -194,7 +197,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
    >[!TIP]
    >
-   >Invoke this method in the `onResume()` method in each Activity inside of your application, as shown in the following example. También recomendamos pasar la actividad o servicio como el objeto de contexto en lugar de como el contexto de la aplicación.
+   >Invoque este método en el `onResume()` método de cada Actividad dentro de la aplicación, como se muestra en el siguiente ejemplo. También se recomienda pasar la Actividad o el servicio como objeto de contexto en lugar del contexto de aplicación global.
 
    * Esta es la sintaxis para este método:
 
@@ -209,13 +212,13 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
       ADB.Config.collectLifecycleData(); 
       ```
 
-* **PauseCollecting&#x200B;LifecycleData (winJS: pauseCollecting&#x200B;LifecycleData)**
+* **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica al SDK que la aplicación está en pausa para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, cuando está en pausa, recopila un registro de fecha y hora para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo de vida sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/windows-appstore/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/windows-appstore/metrics.md).
 
    >[!TIP]
    >
-   >Invoke this method in the `onPause()` methods in each Activity inside Your application, as shown in the example. También recomendamos pasar la actividad o servicio como el objeto de contexto en lugar de como el contexto de la aplicación.
+   >Invoque este método en los `onPause()` métodos de cada Actividad dentro de la aplicación, como se muestra en el ejemplo. También se recomienda pasar la Actividad o el servicio como objeto de contexto en lugar del contexto de aplicación global.
 
    * Esta es la sintaxis para este método:
 
