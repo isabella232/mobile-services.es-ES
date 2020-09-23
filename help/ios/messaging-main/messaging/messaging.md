@@ -1,27 +1,30 @@
 ---
-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
-seo-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
+description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
+seo-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
 seo-title: Mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Mensajería en la aplicación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 55%
 
 ---
 
 
 # Mensajería en la aplicación {#in-app-messaging}
 
-Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones iOS.
+Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
 
-Para utilizar la mensajería en la aplicación **necesita** la versión 4.2 o posterior del SDK.
+To use in-app messaging, you **must** have SDK version 4.2 or later.
 
 Información que debe recordar:
 
-* Los mensajes y las reglas que definen el momento en que se muestran se crean en Adobe Mobile Services. Para obtener más información, consulte [Crear un mensaje en la aplicación](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
-* Para que se muestren los mensajes en la aplicación, se deben realizar las actualizaciones del SDK que se indican en esta sección.
+* Los mensajes y las reglas que definen cuándo se muestran se crean en Adobe Mobile Services. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* Las actualizaciones descritas en esta sección deben realizarse en el SDK para que se muestren los mensajes en la aplicación.
 
    >[!TIP]
    >
@@ -73,9 +76,9 @@ Información que debe recordar:
 
 ## Seguimiento de mensajes dentro de la aplicación {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes métricas para sus mensajes dentro de la aplicación:
+Los SDK de iOS Mobile Services realizan un seguimiento de las siguientes métricas para los mensajes en la aplicación:
 
-* Para los mensajes dentro de la aplicación en pantalla completa y de estilo de alerta:
+* Para mensajes en la aplicación de estilo de alerta y pantalla completa:
 
    * **[!UICONTROL Impresiones]**: cuando el usuario activa un mensaje dentro de la aplicación.
    * **[!UICONTROL Pulsaciones]**: cuando el usuario presiona el botón **[!UICONTROL Pulsación]**.
@@ -90,6 +93,7 @@ El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes mét
 
    * **[!UICONTROL Impresiones]**: cuando el usuario activa la notificación.
    * **[!UICONTROL Aperturas]**: cuando el usuario abre la aplicación desde la notificación.
+
    Aquí tiene un ejemplo de cómo puede incluirse el seguimiento de aperturas:
 
    ```objective-c
@@ -107,9 +111,9 @@ El SDK de Mobile Services para iOS realiza un seguimiento de las siguientes mét
 
 ## Imagen de reserva local {#section_DEACC1CE549B4573B556A44A52409941}
 
-Al crear un mensaje de pantalla completa en Adobe Mobile Services, tiene la opción de especificar una imagen de reserva. Si su mensaje no es capaz de recuperar su imagen pretendida desde la web, el SDK intenta cargar la imagen con el mismo nombre desde el paquete de la aplicación. Esto le permite mostrar el mensaje en su forma original, aunque el usuario esté sin conexión o la imagen predeterminada no esté disponible.
+Al crear un mensaje de pantalla completa en Adobe Mobile Services, puede especificar de forma opcional una imagen de reserva. Si el mensaje no puede recuperar la imagen deseada de la web, el SDK intenta cargar la imagen con el mismo nombre del paquete de aplicaciones. Esto le permite mostrar el mensaje en su forma original aunque el usuario esté sin conexión o la imagen predeterminada esté inaccesible.
 
-El nombre de recurso de la imagen de reserva se especifica al configurar el mensaje en Adobe Mobile Services.
+El nombre del recurso de imagen de reserva se especifica al configurar el mensaje en Adobe Mobile Services.
 
 >[!IMPORTANT]
 >
