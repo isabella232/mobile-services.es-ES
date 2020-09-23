@@ -2,13 +2,13 @@
 description: Notas de la versión y problemas conocidos de SDK 4.x para iOS en soluciones de Experience Cloud.
 seo-description: Notas de la versión y problemas conocidos de SDK 4.x para iOS en soluciones de Experience Cloud.
 seo-title: Notas de la versión
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Notas de la versión
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 48c3addeb929f3356990ef55b44f93dd4bb2f728
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
