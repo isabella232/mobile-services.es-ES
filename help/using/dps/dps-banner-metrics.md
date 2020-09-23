@@ -1,14 +1,17 @@
 ---
 description: El informe Métricas de banner proporciona una visualización de destello solar de los datos existentes. Este informe está disponible solo para los clientes de Digital Publishing Suite (DPS).
-keywords: móvil
+keywords: mobile
 seo-description: El informe Métricas de banner proporciona una visualización de destello solar de los datos existentes. Este informe está disponible solo para los clientes de Digital Publishing Suite (DPS).
 seo-title: Métricas de banner
 solution: Experience Cloud,Analytics
 title: Métricas de banner
-topic: Métricas
+topic: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
-translation-type: ht
-source-git-commit: 7f53ece867144236f170533d8474dada4c29ad39
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -27,4 +30,4 @@ De forma predeterminada, este informe muestra las métricas siguientes:
 * **[!UICONTROL Clic en el banner]**, que es el número de veces que los usuarios han hecho clic en el banner.
 * **[!UICONTROL Banner Impression]**, que es el número de veces que se ha visto el banner (o que era visible) en una página del explorador.
 
-Este informe es similar al informe **[!UICONTROL Tecnología]**. Para obtener información sobre cómo navegar y utilizar los informes radiales; agregar desgloses y métricas; crear actividades de Target; crear filtros adhesivos y compartir informes, consulte [Tecnología](/help/using/usage/reports-technology.md). La información incluida en este tema se puede utilizar para personalizar el informe **[!UICONTROL Métricas de banner].**
+Este informe es similar al informe **[!UICONTROL Tecnología]**. Para obtener información sobre cómo navegar y utilizar los informes radiales; agregar desgloses y métricas; crear actividades de Target; crear filtros adhesivos y compartir informes, consulte [Tecnología](/help/using/usage/reports-technology.md). La información incluida en este tema se puede utilizar para personalizar el informe **[!UICONTROL Métricas de banner]**.
