@@ -1,14 +1,17 @@
 ---
 description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
 seo-title: Ejemplo de Postbacks
 solution: Experience Cloud,Analytics
 title: Ejemplo de Postbacks
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
 
