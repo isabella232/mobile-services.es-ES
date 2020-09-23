@@ -2,20 +2,20 @@
 description: Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
 seo-description: Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
 seo-title: Métodos SDK
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos SDK
 topic: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
 
-# SDK methods {#sdk-methods}
+# Métodos SDK {#sdk-methods}
 
 Clases y métodos proporcionados por la biblioteca de la Plataforma universal de Windows.
 
@@ -91,7 +91,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
 
       * Estos son ejemplos de código para este método:
 
-         **Engranaje en C**
+         **Afilado en C**
 
          ```csharp
          public enum class ADBMobilePrivacyStatus : int { 
