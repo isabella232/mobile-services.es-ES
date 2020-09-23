@@ -1,14 +1,17 @@
 ---
 description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
-keywords: móvil;cambiar contraseña;iniciar sesión;cerrar sesión;inicio de sesión;cierre de sesión
+keywords: mobile;change password;log in;log out;login;logout;sign in;signin
 seo-description: Puede iniciar sesión en Adobe Mobile Services usando un explorador web.
 seo-title: Iniciar sesión
 solution: Experience Cloud,Analytics
 title: Iniciar sesión
-topic: Métricas
+topic: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: ht
-source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -66,9 +69,9 @@ Restablezca la contraseña mediante uno de estos métodos:
 
    1. Haga clic en **[!UICONTROL Iniciar sesión con Adobe ID]** y luego en el vínculo **[!UICONTROL ¿Ha olvidado la contraseña?]**.
    1. Escriba la cuenta de correo electrónico asociada a su Adobe ID y haga clic en **[!UICONTROL Enviar]**.
-   1. Siga las instrucciones para restablecer la contraseña en el correo electrónico que reciba.
+   1. Siga las instrucciones para restablecer su contraseña en el correo electrónico que reciba.
 
-* **Adobe Analytics** Si usa el nombre de su empresa, su nombre de usuario y su contraseña:
+* **Adobe Analytics** Si utiliza su compañía, nombre de usuario y contraseña:
 
    1. Haga clic en el vínculo **[!UICONTROL ¿Ha olvidado la contraseña?]**.
    1. Escriba el nombre de su empresa, su nombre de usuario y haga clic en **[!UICONTROL Continuar]**.
