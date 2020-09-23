@@ -1,25 +1,28 @@
 ---
-description: En la interfaz de usuario de Adobe Mobile Services, puede programar un mensaje push para que se entregue inmediatamente, más tarde o como evento recurrente. Estos eventos se pueden programar con periodicidad diaria, semanal o mensual.
-keywords: móvil
-seo-description: En la interfaz de usuario de Adobe Mobile Services, puede programar un mensaje push para que se entregue inmediatamente, más tarde o como evento recurrente. Estos eventos se pueden programar con periodicidad diaria, semanal o mensual.
+description: En la interfaz de usuario de Adobe Mobile Services, puede programar la entrega inmediata de un mensaje push, que se entregará más tarde y como evento recurrente. Estos eventos se pueden programar diariamente, semanalmente o mensualmente.
+keywords: mobile
+seo-description: En la interfaz de usuario de Adobe Mobile Services, puede programar la entrega inmediata de un mensaje push, que se entregará más tarde y como evento recurrente. Estos eventos se pueden programar diariamente, semanalmente o mensualmente.
 seo-title: Programación  Mensaje push
 solution: Experience Cloud,Analytics
 title: Programación  Mensaje push
-topic: Métricas
+topic: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 47%
 
 ---
 
 
 # Programación: mensajes push{#schedule-push-message}
 
-En la interfaz de usuario de Adobe Mobile Services, puede programar un mensaje push para que se entregue inmediatamente, más tarde o como evento recurrente. Estos eventos se pueden programar con periodicidad diaria, semanal o mensual.
+En la interfaz de usuario de Adobe Mobile Services, puede programar la entrega inmediata de un mensaje push, que se entregará más tarde y como evento recurrente. Estos eventos se pueden programar diariamente, semanalmente o mensualmente.
 
 >[!TIP]
 >
->Los usuarios pueden modificar la configuración de programación en un trabajo de mensaje push en cualquier momento. Si la fecha para enviar un mensaje con programación recurrente no existe, por ejemplo, un trabajo con recurrencia mensual todos los días 31, el día 31 de febrero (o quinto martes del mes) no se envía ningún mensaje.
+>Los usuarios pueden modificar la configuración de programación en un trabajo de mensaje push en cualquier momento. Si no hay una fecha aplicable para enviar un mensaje programado recurrente, por ejemplo, un trabajo recurrente mensual cada 31 días, el 31 de febrero o el 5 de martes del mes, no se envía ningún mensaje.
 
 Recuerde la información siguiente:
 
@@ -28,9 +31,9 @@ Recuerde la información siguiente:
 * Un mensaje programado se puede editar del modo siguiente:
 
    * Cambiar la fecha por otra posterior.
-   * Se puede cambiar el intervalo de repetición por otro intervalo.
+   * Cambie el intervalo de repetición a otro intervalo.
 
-      Por ejemplo, si originalmente tenía un mensaje que se enviaba todos los días, puede modificar la recurrencia para que sea mensual.
+      Por ejemplo, si originalmente tenía un mensaje que se enviaba todos los días, puede cambiar la periodicidad a semanal.
 
 ## Antes de programar mensajes push recurrentes
 
@@ -48,14 +51,14 @@ Antes de programar mensajes push recurrentes, **debe** saber lo siguiente:
 
 * Los mensajes push se programan y envían según la hora del meridiano de Greenwich (GMT).
 
-   Por ejemplo, si programa un mensaje recurrente para que se envíe todos los sábados a las 12:00 (mediodía) **PST**, a partir del 7 de octubre el mensaje se enviará los sábados a las 19:00 **GMT**.
-* Los mensajes se envían de forma distinta dependiendo de si se encuentra en EE. UU., Europa o Asia.
+   Por ejemplo, si programó un mensaje recurrente para enviarse todos los sábados a las 12:00 (mediodía) **PST**, a partir del 7 de octubre, el mensaje se enviará el sábado a las 19:00 **GMT**.
+* Los mensajes se envían de forma diferente en función de si se encuentra en Estados Unidos, Europa o Asia.
 
-   Por ejemplo, si está en San José (California), y programa un mensaje para que se envíe el ***31 de octubre*** a las 17:30 **PST**, este se enviará el ***1 de noviembre*** a las 00:30 **GMT**. Si se halla en Tokio y programa un mensaje para que se envíe el ***1 de enero*** a las 5:30, se enviará el ***31 de diciembre*** a las 20:30 **GMT**.
-* Los mensajes push se envían una hora antes o después, según el horario de ahorro energético.
-* Al consultar el informe de los mensajes push, estos se muestran en la zona horaria local configurada en su sistema.
+   Por ejemplo, si se encuentra en San José, California, y programa un mensaje para que se envíe el 31 ***de octubre*** a las 17:30 **PST**, el mensaje se enviará el 1 ****** de noviembre a las 12:30 a.m. **GMT**. Si se encuentra en Tokio y programa que se envíe un mensaje el 1 ***de enero a las 5:30 a.m., se enviará el 31*** de diciembre ***a las 8:30 p.m.*** GMT ****.
+* Los mensajes push se envían una hora antes o más tarde, dependiendo de cuándo se produzca un ahorro de luz.
+* Al consultar el informe de mensajes push, el mensaje se muestra en el huso horario local del sistema.
 
-   Por ejemplo, si la hora de inicio son las 12:00 **PST**, aunque el mensaje se envíe a las 19:00 **GMT**, en el informe se indicará que la hora de envío fue las 12:00 **PST**.
+   Por ejemplo: si la hora de inicio es 12:00 pm **PST**, aunque el mensaje se enviará a las 19: **00 GMT**, el informe del mensaje mostrará la hora de envío a las 12:00 pm **PST**.
 
 ## Programar un mensaje push recurrente {#section_675BD754E5A04423A1751193698A978F}
 
@@ -92,9 +95,9 @@ Antes de programar mensajes push recurrentes, **debe** saber lo siguiente:
 
    * **[!UICONTROL Guardar y programar]**
 
-      Esta opción envía el mensaje en el día y la hora programados.
+      Esta opción envía el mensaje el día y la hora programados.
 
-Para insertar el borrador del mensaje más tarde, realice una de estas tareas:
+Para insertar el borrador del mensaje más tarde, complete una de las siguientes tareas:
 
 * Haga clic en **[!UICONTROL Gestionar mensajes]**, seleccione la casilla de verificación que hay junto al mensaje y haga clic en **[!UICONTROL Activar seleccionados]**.
 * Haga clic en **[!UICONTROL Guardar y enviar]** para guardar el mensaje y enviarlo.
