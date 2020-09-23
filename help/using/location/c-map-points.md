@@ -1,14 +1,17 @@
 ---
 description: Puede ver un mapa interactivo que muestra sus puntos de interés y otros marcadores de datos.
-keywords: móvil
+keywords: mobile
 seo-description: Puede ver un mapa interactivo que muestra sus puntos de interés y otros marcadores de datos.
 seo-title: Mapa
 solution: Experience Cloud,Analytics
 title: Mapa
-topic: Métricas
+topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 74%
 
 ---
 
@@ -23,10 +26,10 @@ Información importante que debe recordar:
 
 * Puede aumentar o disminuir el tamaño del mapa.
 
-   Esta función resulta útil, por ejemplo, si tiene dos puntos de interés que estén próximos entre sí. Al aumentar el mapa, podrá verlo con mayor detalle.
+   Esta función resulta útil, por ejemplo, si tiene dos puntos de interés que están muy juntos. Ampliar el mapa le permite vista con buenos detalles.
 * Los puntos de interés se muestran en azul.
 
-   Otros marcadores de datos, como los inicios, se muestran en negro. Haga clic en un marcador para ver más información.
+   Otros marcadores de datos, como Lanzamientos, se muestran en negro. Haga clic en un marcador para vista de más información.
 
 Haga clic en ![capas](assets/map_layers.png) para seleccionar las siguientes opciones:
 
@@ -42,11 +45,11 @@ Haga clic en ![capas](assets/map_layers.png) para seleccionar las siguientes opc
 
 * **[!UICONTROL Mapa de calor]**
 
-   Elija si desea mostrar los marcadores del mapa de calor. Cuanto mayor sea la intensidad del color, con más frecuencia se cumple la condición (usos, por ejemplo).
+   Elija si desea mostrar los marcadores de mapa de calor. Cuanto buena sea la intensidad del color, más frecuentemente se cumple la condición (por ejemplo, usos).
 
 * **[!UICONTROL Puntos de interés]**
 
-   Elija si desea mostrar sus puntos de interés.
+   Elija si desea mostrar los puntos de interés.
 
 Para este informe, puede configurar las siguientes opciones:
 
