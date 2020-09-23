@@ -4,10 +4,13 @@ seo-description: Esta información le ayuda a comprender cómo se realiza el seg
 seo-title: Seguimiento de bloqueos de aplicaciones
 solution: Experience Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +31,7 @@ Si la aplicación termina sin haber sido antes puesta en segundo plano, el SDK c
 
 iOS utiliza notificaciones del sistema que permiten a los desarrolladores realizar un seguimiento y responder a distintos estados y eventos en el ciclo vital de la aplicación.
 
-El SDK para iOS de Adobe Mobile tiene un controlador de notificación que responde a la notificación `UIApplicationDidEnterBackgroundNotification`. En este código se establece un valor que indica que el usuario ha puesto la aplicación en segundo plano. Si en el siguiente inicio no se encuentra dicho valor, se informa de un bloqueo.
+El SDK para iOS de Adobe Mobile tiene un controlador de notificación que responde a la notificación `UIApplicationDidEnterBackgroundNotification`. En este código, se establece un valor que indica que el usuario ha puesto la aplicación en segundo plano. En un lanzamiento posterior, si no se encuentra ese valor, se informa de un bloqueo.
 
 ## ¿Por qué mide Adobe los bloqueos de este modo?
 
@@ -38,7 +41,7 @@ Las bibliotecas de informes de bloqueos que proporcionan empresas como Apteligen
 
 ## ¿Qué puede provocar que se comunique un falso bloqueo?
 
-Se sabe que las siguientes situaciones pueden provocar que el SDK comunique equivocadamente un bloqueo:
+Se sabe que los siguientes escenarios causan incorrectamente que el SDK informe de un bloqueo:
 
 * Si está depurando con Xcode, volver a iniciar la aplicación mientras está en primer plano provoca un bloqueo.
 
@@ -59,11 +62,11 @@ Se sabe que las siguientes situaciones pueden provocar que el SDK comunique equi
 
 Las siguientes recomendaciones pueden ayudar a prevenir la comunicación de falsos bloqueos:
 
-* En el SDK para iOS 4.8.6, se agregó un código que determina con más precisión si una nueva sesión de ciclo vital es deseada o no.
+* En el SDK para iOS 4.8.6, se agregó código para determinar mejor si se desea una nueva sesión de ciclo vital.
 
-   Este código resuelve los falsos bloqueos 2 y 3 indicados en la sección anterior.
+   Este código corrige los falsos bloqueos 2 y 3 en la sección anterior.
 
-* Asegúrese de realizar el desarrollo con grupos de informes de no producción. Esto debería evitar que se produzca el caso 1 de falso bloqueo.
+* Asegúrese de realizar el desarrollo con los grupos de informes que no sean de producción, lo que debería evitar que se produzca el falso bloqueo 1.
 * No elimine o modifique ningún valor que el SDK de Adobe Mobile ponga en `NSUserDefaults`.
 
    Si se modifican estos valores desde fuera del SDK, los datos comunicados no serán válidos.
