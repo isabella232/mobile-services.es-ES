@@ -1,20 +1,23 @@
 ---
-description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede realizar un seguimiento de cuándo se realiza una nueva suscripción, cuándo se ve un artículo o cuándo se completa un nivel. Las métricas correspondientes a estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
-seo-description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede realizar un seguimiento de cuándo se realiza una nueva suscripción, cuándo se ve un artículo o cuándo se completa un nivel. Las métricas correspondientes a estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
+description: Las acciones son los eventos que se producen en la aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede rastrear una nueva suscripción, cada vez que se vea un artículo o cada vez que se complete un nivel. Las métricas correspondientes para estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
+seo-description: Las acciones son los eventos que se producen en la aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede rastrear una nueva suscripción, cada vez que se vea un artículo o cada vez que se complete un nivel. Las métricas correspondientes para estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
 seo-title: Seguimiento de acciones de aplicaciones
 solution: Experience Cloud,Analytics
 title: Seguimiento de acciones de aplicaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 72%
 
 ---
 
 
 # Seguimiento de acciones de aplicaciones {#track-app-actions}
 
-Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede realizar un seguimiento de cuándo se realiza una nueva suscripción, cuándo se ve un artículo o cuándo se completa un nivel. Las métricas correspondientes a estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
+Las acciones son los eventos que se producen en la aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, puede rastrear una nueva suscripción, cada vez que se vea un artículo o cada vez que se complete un nivel. Las métricas correspondientes para estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
 
 No se realiza un seguimiento automático de las acciones y, por lo tanto, para realizar un seguimiento de un evento, debe llamar a `trackAction`.
 
@@ -72,7 +75,7 @@ Si realiza el seguimiento de una acción cuyo código podría estar ejecutándos
 
 ## Informes de acción {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-| Interfaz | Informe |
+| Interfaz | Información general de la tienda de aplicaciones |
 |--- |--- |
 | Adobe Mobile Services | **** Informe de rutas de acción. Vea el orden en el que ocurren las acciones en su aplicación. También puede hacer clic en **[!UICONTROL Personalizar]** en cualquier informe para ver las acciones clasificadas, organizadas por tendencias o en un informe desglosado. O puede aplicar un filtro para ver acciones de un segmento específico. |
 | Informes y análisis de marketing | **[!UICONTROL Informe Evento personalizado]**. Una vez que una acción está asignada a un evento personalizado, puede ver eventos móviles similares a todos los demás eventos de Analytics. |
