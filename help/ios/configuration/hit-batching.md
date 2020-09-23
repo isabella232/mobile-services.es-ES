@@ -4,10 +4,13 @@ seo-description: El agrupamiento de visitas permite a las aplicaciones que tiene
 seo-title: Agrupamiento de visitas
 solution: Experience Cloud,Analytics
 title: Agrupamiento de visitas
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 89%
 
 ---
 
@@ -29,9 +32,9 @@ Para habilitar el agrupamiento de visitas, actualice el archivo `ADBMobileConfig
 }
 ```
 
-Cuando establece un número mayor que 0, el SDK va poniendo en cola un número de visitas igual a *`batchLimit`*. Una vez que se supera este umbral, se envían todas las visitas en la cola.
+Cuando establece un número mayor que 0, el SDK va poniendo en cola un número de visitas igual a *`batchLimit`*. Después de superar este umbral, se envían todas las visitas en la cola.
 
-Con el agrupamiento de visitas se emplean los siguientes métodos:
+Con el agrupamiento de visitas se utilizan los siguientes métodos:
 
 * `trackingGetQueueSize()` devuelve un valor `NSUInteger` con el número de visitas que hay actualmente en la cola de agrupamiento de visitas.
 * `trackingSendQueuedHits()` fuerza a la biblioteca a que envíe todas las visitas en la cola, sin importar cuántas haya.
