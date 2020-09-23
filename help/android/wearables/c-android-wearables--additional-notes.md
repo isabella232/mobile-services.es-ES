@@ -1,22 +1,25 @@
 ---
-description: A continuación encontrará información de ayuda para configurar la extensión de Android, lo cual le permitirá recopilar datos de su aplicación Android Wearable.
-seo-description: A continuación encontrará información de ayuda para configurar la extensión de Android, lo cual le permitirá recopilar datos de su aplicación Android Wearable.
+description: A continuación se proporciona información para ayudarle a configurar la extensión de Android, que le permite recopilar datos de su aplicación Android Wearable.
+seo-description: A continuación se proporciona información para ayudarle a configurar la extensión de Android, que le permite recopilar datos de su aplicación Android Wearable.
 seo-title: 'Android Wearables: Notas adicionales'
 solution: Experience Cloud,Analytics
 title: 'Android Wearables: Notas adicionales'
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 51%
 
 ---
 
 
 # Android Wearables: Notas adicionales{#android-wearables-additional-notes}
 
-A continuación encontrará información de ayuda para configurar la extensión de Android, lo cual le permitirá recopilar datos de su aplicación Android Wearable.
+A continuación se proporciona información para ayudarle a configurar la extensión de Android, que le permite recopilar datos de su aplicación Android Wearable.
 
-* La extensión Android Wearables de Adobe Mobile requiere la versión 4.4 (KitKat) o posterior de Android.
+* La extensión Android Wearables para móviles Adobe requiere Android versión 4.4 (KitKat) o superior.
 * Hay un valor de contexto adicional, `A.RunMode`, que se ha añadido para indicar si los datos proceden de la aplicación contenedora o de la extensión.
 
    * `RunMode` = `Application`
