@@ -4,10 +4,13 @@ seo-description: Esta información le será de ayuda para la solicitud de elimin
 seo-title: Configuración del estado de exclusión del usuario
 solution: Experience Cloud,Analytics
 title: Configuración del estado de exclusión del usuario
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
