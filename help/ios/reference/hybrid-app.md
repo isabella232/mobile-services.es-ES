@@ -4,10 +4,13 @@ seo-description: Si su aplicación abre contenido de una web móvil, debe asegur
 seo-title: Seguimiento de visitantes entre una aplicación y la web móvil
 solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: ht
-source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +21,7 @@ Si su aplicación abre contenido de una web móvil, debe asegurarse de que los v
 
 ## ID de visitante en aplicaciones
 
-El SDK para iOS genera un ID de visitante exclusivo cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil y se envía con cada visita. Solo se elimina cuando el usuario desinstala la aplicación.
+El SDK de iOS genera un ID de visitante único cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil y se envía con cada visita. Solo se elimina cuando el usuario desinstala la aplicación.
 
 >[!TIP]
 >
@@ -56,7 +59,7 @@ Para utilizar el mismo ID de visitante en la aplicación y en la web móvil, pas
    }];
    ```
 
-Este código de servicio de ID en el dominio de destino extrae el MID de la URL, en lugar de enviar una solicitud a Adobe para obtener un nuevo ID. El código de servicio de ID en la página de destino emplea el MID obtenido para hacer un seguimiento del visitante.
+El código de servicio de ID del dominio de destino extrae el MID de la dirección URL en lugar de enviar una solicitud al Adobe para obtener un nuevo ID. El código de servicio de ID en la página de destino emplea el MID transferido para hacer un seguimiento del visitante.
 
 Al producirse visitas en el contenido de la web móvil, compruebe en cada visita si el parámetro `mid` está presente y que su valor coincida con el del parámetro `mid` enviado por el código de la aplicación.
 
