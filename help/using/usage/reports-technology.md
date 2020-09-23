@@ -1,14 +1,17 @@
 ---
 description: El informe Tecnología sirve para ver los diferentes tipos de dispositivos, sistemas operativos, versiones de sistemas operativos y operadores de telefonía móvil en los que se utiliza la aplicación.
-keywords: móvil
+keywords: mobile
 seo-description: El informe Tecnología sirve para ver los diferentes tipos de dispositivos, sistemas operativos, versiones de sistemas operativos y operadores de telefonía móvil en los que se utiliza la aplicación.
 seo-title: Informe tecnológico
 solution: Experience Cloud,Analytics
 title: Informe tecnológico
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +24,7 @@ Este informe ofrece una visualización de destello solar de los datos existentes
 
 ## Navegación y uso {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
-Esta visualización ofrece, por ejemplo, el informe básico y los desgloses, usa la altura para mostrar la métrica resaltada y señala las diferencias de rendimiento entre las métricas. Cada anillo representa un segmento de audiencia en la categoría del anillo. Puede realizar acciones en una audiencia, como aplicar un filtro adhesivo y ocultar o ver métricas.
+Esta visualización proporciona, por ejemplo, el informe base y los desgloses, utiliza la altura para mostrar la métrica enfocada y las diferencias de rendimiento entre las métricas. Cada anillo representa un segmento de audiencia en la categoría del anillo. Puede realizar acciones en una audiencia, como aplicar un filtro adhesivo, ocultar una métrica y ver métricas.
 
 >[!TIP]
 >
@@ -29,25 +32,25 @@ Esta visualización ofrece, por ejemplo, el informe básico y los desgloses, usa
 
 ![](assets/report_technology.png)
 
-En el informe de destello solar, interactivo, se pueden realizar las tareas siguientes:
+El gráfico radial es interactivo y puede completar las siguientes tareas:
 
-* Sitúe el ratón encima de cualquier parte del gráfico para ver más información.
+* Pase el ratón sobre cualquier parte del gráfico para ver más información.
 * Para cambiar el período de tiempo, haga clic en el icono del **[!UICONTROL calendario]**.
 * Haga clic en un trozo del anillo para seleccionar la audiencia en la que puede realizar acciones, como ampliar, ocultar audiencias y crear un mensaje en la aplicación o un filtro adhesivo.
 * En la esquina superior derecha, seleccione **[!UICONTROL Tipo de dispositivo]** y **[!UICONTROL Dispositivo]** para ver información sobre los dispositivos y tipos de dispositivos.
 
-* Haga clic en una métrica secundaria de la derecha para agregarla a la visualización.
+* Haga clic en una métrica secundaria en el lado derecho para agregarla a la visualización.
 
    Puede mostrar la métrica secundaria mediante el uso del color, la altura o ambos valores.
 
 En la siguiente tabla se describen los informes estándar y cómo se rellenan en Mobile Services:
 
-| Informe | Método de obtención de datos | Descripción |
+| Información general de la tienda de aplicaciones | Método de población | Descripción |
 |--- |--- |--- |
 | Device | Métricas del ciclo vital | Métricas comunes desglosadas por tipo de dispositivo. |
 | Sistema operativo | Automático | Métricas comunes desglosadas por sistema operativo. |
-| Versión del sistema operativo | Métricas del ciclo vital | Métricas comunes desglosadas por versión de sistema operativo. |
-| Operadores de telefonía móvil | Automático | Métricas comunes desglosadas por operadores de telefonía móvil. |
+| Versión del sistema operativo | Métricas del ciclo vital | Métricas comunes desglosadas por versión del sistema operativo. |
+| Portadoras | Automático | Métricas comunes desglosadas por portadores. |
 
 >[!TIP]
 >
