@@ -1,14 +1,17 @@
 ---
 description: Puede crear o editar vínculos de marketing para proporcionar vínculos profundos a su aplicación móvil o sitio web.
-keywords: móvil
+keywords: mobile
 seo-description: Puede crear o editar vínculos de marketing para proporcionar vínculos profundos a su aplicación móvil o sitio web.
 seo-title: Crear o editar vínculos de marketing
 solution: Experience Cloud,Analytics
 title: Crear o editar vínculos de marketing
-topic: Métricas
+topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +24,7 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 1. Complete una de las siguientes tareas:
 
    * Para crear un nuevo vínculo de marketing, haga clic en **[!UICONTROL Crear nuevo]**.
-   * Para editar un vínculo, haga clic en el nombre del vínculo en la columna **[!UICONTROL Título].**
+   * Para editar un vínculo, haga clic en el nombre del vínculo en la columna **[!UICONTROL Título]**.
 
 1. Rellene los campos siguientes:
 
@@ -35,7 +38,7 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
    * **[!UICONTROL Agregar datos de contexto de seguimiento]**:
 
-      (**Opcional**) Haga clic en el icono **[!UICONTROL +]** y escriba los datos relevantes para hacer un seguimiento de la campaña usando datos de contexto. En la lista desplegable **[!UICONTROL Personalizar datos de contexto]**, seleccione una etiqueta preestablecida o una de las suyas. Los datos de contexto se utilizan para realizar un informe cuando se implementa el vínculo de marketing.
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. En la lista desplegable **[!UICONTROL Personalizar datos de contexto]**, seleccione una etiqueta preestablecida o una de las suyas. Los datos de contexto se utilizan para realizar un informe cuando se implementa el vínculo de marketing.
 
       Las siguientes etiquetas preestablecidas están disponibles:
 
@@ -60,9 +63,9 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
 1. Haga clic en **[!UICONTROL Editar intersticial de vínculo profundo]** y configure el vínculo.
 
-   (**Opcional**) Cuando hay varios destinos, los usuarios pueden ser redirigidos en función de si tienen una aplicación móvil instalada. Si la aplicación está instalada, se abre una página de inicio intersticial.
+   (**Opcional**) Cuando hay varios destinos, los usuarios pueden ser redirigidos en función de si tienen una aplicación móvil instalada. Si la aplicación está instalada, se muestra una página de aterrizaje intersticial.
 
-   Para obtener más información, consulte [Intersticiales](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. Haga clic en **[!UICONTROL Guardar]** y en **[!UICONTROL Siguiente]**.
 1. En la página Destino, configure el vínculo.
@@ -77,7 +80,7 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
          Los sistemas operativos admitidos son iOS, Android, AMX, etc.
 
-      * **[!UICONTROL Tipo de dispositivo]**
+      * **[!UICONTROL Device Type]**
 
          Los tipos de dispositivos incluyen equipos de escritorio, lectores electrónicos, consolas de juego, teléfonos móviles, descodificadores de Internet, etc.
    1. Haga clic en el icono **[!UICONTROL Destino]** ( ![icono cuadrado](assets/icon_square.png) ) y seleccione uno de los siguientes tipos de destino:
@@ -86,9 +89,10 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
       * **[!UICONTROL Vínculo web]**
       * **[!UICONTROL Vínculo profundo de la aplicación]**
       * **[!UICONTROL Vínculo híbrido]**
+
       >[!TIP]
       >
-      >Al usar el tipo de destino **[!UICONTROL Vínculo web]** con un vínculo a la tienda de aplicaciones, no se realiza un seguimiento de la adquisición. Para hacer un seguimiento de las adquisiciones, use el tipo de destino **[!UICONTROL Tienda de aplicaciones].**
+      >Al usar el tipo de destino **[!UICONTROL Vínculo web]** con un vínculo a la tienda de aplicaciones, no se realiza un seguimiento de la adquisición. Para hacer un seguimiento de las adquisiciones, use el tipo de destino **[!UICONTROL Tienda de aplicaciones]**.
 
       Para obtener más información, consulte [Creación de un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
