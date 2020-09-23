@@ -1,14 +1,17 @@
 ---
 description: El informe Información general de la App Store le proporciona una instantánea de las métricas del almacén de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio del almacén de aplicaciones, los ingresos de descargas, los ingresos en la aplicación, las descargas por país, las descargas por almacén de aplicaciones y las compras en la aplicación por nombre.
-keywords: móvil
+keywords: mobile
 seo-description: El informe Información general de la App Store le proporciona una instantánea de las métricas del almacén de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio del almacén de aplicaciones, los ingresos de descargas, los ingresos en la aplicación, las descargas por país, las descargas por almacén de aplicaciones y las compras en la aplicación por nombre.
 seo-title: Informe de información general de la tienda de aplicaciones
 solution: Experience Cloud,Analytics
 title: Informe de información general de la tienda de aplicaciones
-topic: Métricas
+topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 97%
 
 ---
 
