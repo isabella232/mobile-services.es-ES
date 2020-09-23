@@ -1,21 +1,24 @@
 ---
 description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
-keywords: móvil
+keywords: mobile
 seo-description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
 seo-title: Intersticiales
 solution: Experience Cloud,Analytics
 title: Intersticiales
-topic: Métricas
+topic: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 75%
 
 ---
 
 
 # Intersticiales{#interstitials}
 
-Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor que sean los usuarios quienes elijan las rutas. Los especialistas en marketing pueden proporcionar elecciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
+Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor dejar la opción de enrutamiento a los usuarios. Los especialistas en marketing pueden proporcionar opciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
 
 Para configurar un intersticial al crear un vínculo de marketing:
 
@@ -31,7 +34,7 @@ Para configurar un intersticial al crear un vínculo de marketing:
 
       Mediante intersticiales personalizados, los especialistas en marketing pueden personalizar las páginas de aterrizaje intersticiales con HTML/CSS/JS personalizados, lo que les permite cambiar las páginas según requieran.
 
-      Estos son los requisitos de la página HTML:
+      Estos son los requisitos para la página HTML:
 
       * Debe ser un archivo HTML.
       * Tiene que contener los marcadores de posición `%%DEST%%` y `%%FALLBACK%%`.
@@ -56,9 +59,9 @@ Para configurar un intersticial al crear un vínculo de marketing:
 
    * **[!UICONTROL Texto adicional]**
 
-      Especifique el texto alternativo que deba mostrarse.
+      Especifique el texto de reserva que se va a mostrar.
 
-      Este campo actualiza el botón de texto si falla algún vínculo profundo. Los usuarios son dirigidos a probar el vínculo profundo antes de permitirles ir a otra opción. Por ejemplo, este texto alternativo podría servir para que una tienda de aplicaciones descargue e instale la aplicación o para llevar a los usuarios al sitio web de una compañía. El texto adicional permite a los usuarios saber que hay otra opción disponible si falla el vínculo profundo.
+      Este campo actualiza el botón de texto si falla un vínculo profundo. Los usuarios son dirigidos a probar el vínculo profundo antes de permitirles ir a otra opción. Por ejemplo, una alternativa podría ser una tienda de aplicaciones para descargar e instalar la aplicación o llevar a los usuarios al sitio web de la compañía. El texto de reserva permite a los usuarios saber que hay otra opción disponible si falla el vínculo profundo.
 
 
 1. (**Opcional**) Haga clic en los iconos que aparecen sobre la imagen para ver el aspecto del intersticial rotado y en otros dispositivos.
