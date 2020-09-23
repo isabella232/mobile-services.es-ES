@@ -5,8 +5,11 @@ seo-title: Prueba de adquisición de elementos heredados
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +30,7 @@ Si la aplicación móvil aún no está en Google Play, puede seleccionar cualqui
 
 1. En el mismo dispositivo móvil utilizado en el paso 2, inicie la aplicación por primera vez.
 
-   El modo más sencillo de asegurar que esto suceda es eliminar e instalar de nuevo la aplicación.
+   La forma más sencilla de asegurarse de que esto suceda es eliminar e instalar la aplicación de nuevo.
 
 Recuerde la información siguiente:
 
