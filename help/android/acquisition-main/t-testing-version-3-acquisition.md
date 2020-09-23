@@ -3,12 +3,15 @@ description: Esta información le ayuda a realizar una adquisición Versión 3 d
 keywords: android;library;mobile;sdk
 seo-description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición Versión 3
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Prueba de adquisición Versión 3
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: ht
-source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 85%
 
 ---
 
@@ -19,9 +22,9 @@ Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelt
 
 >[!IMPORTANT]
 >
->La función de adquisición en la versión 3 se refiere a los vínculos de adquisición que crea con el Generador de adquisiciones en la interfaz de usuario de Adobe Mobile Services. Para usar esta función, debe efectuar la actualización al SDK para Android 4.x para soluciones de Experience Cloud 4.6.0 o versiones posteriores.
+>La función de adquisición en la versión 3 se refiere a los vínculos de adquisición que crea con el Generador de adquisiciones en la interfaz de usuario de Adobe Mobile Services. Para utilizar esta función, debe actualizar al SDK para Android 4.x para soluciones Experience Cloud 4.6.0 o posterior.
 
-Si la aplicación móvil aún no está en Google Play al crearse el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo determina a qué aplicación lo redirige el servidor de adquisición después de hacer clic en el vínculo de adquisición, y no afecta a la capacidad para probar el vínculo. Los parámetros de cadena de la consulta se pasan a la tienda Google Play y luego a la aplicación durante la instalación, como parte de una emisión de campaña. La prueba de adquisición de aplicación móvil de ida y vuelta requiere simular este tipo de emisión.
+Si la aplicación móvil aún no está en Google Play, al crear el vínculo de campaña, puede seleccionar cualquier aplicación móvil como destino. Esto solo afecta a la aplicación a la que el servidor de adquisición le redirige después de hacer clic en el vínculo de adquisición, pero no afecta a la capacidad de probar el vínculo. Los parámetros de cadena de consulta se pasan a la tienda Google Play que pasan a la aplicación durante la instalación como parte de una difusión de campaña. La prueba de adquisición de aplicaciones móviles de ida y vuelta requiere la simulación de este tipo de difusión.
 
 >[!IMPORTANT]
 >
@@ -31,7 +34,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
 1. Complete las tareas previas en [Adquisición de aplicaciones móviles](/help/android/acquisition-main/acquisition.md) y asegúrese de que ha implementado correctamente el receptor de difusión de `INSTALL_REFERRER`.
 
-1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Adquisición]**>**[!UICONTROL  Generador de vínculos de marketing]** y cree un vínculo URL de marketing de adquisición que establezca Google Play como destino para dispositivos Android.
+1. En la interfaz de usuario de Adobe Mobile Services, haga clic en **[!UICONTROL Adquisición]** > **[!UICONTROL Generador de vínculos de marketing]** y cree un vínculo URL de marketing de adquisición que establezca Google Play como destino para dispositivos Android.
 
    Para obtener más información, consulte [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md).
 
@@ -68,8 +71,8 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`*debe coincidir con el`appid`del vínculo de adquisición. |
-   | analytics | Para realizar pruebas establezca un tiempo de espera del referente adecuado (60 segundos o más) para poder enviar manualmente la emisión. Tras la prueba, puede restablecer la configuración original del tiempo de espera. |
+   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el `appid` del vínculo de adquisición. |
+   | analytics | Para hacer pruebas, establezca el tiempo de espera de remitente del reenvío para permitir que el tiempo de envío manual (60 segundos o más) de la difusión sea el adecuado. Puede restaurar la configuración de tiempo de espera original después de hacer la prueba. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
 1. Inicie ADB Shell e inicie la aplicación en el dispositivo.
@@ -81,6 +84,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    1. Reemplace `com.adobe.android` con el nombre del paquete de su aplicación.
    1. Actualice en la aplicación la referencia del receptor con la ubicación del receptor de seguimiento de la campaña
    1. Reemplace los valores asociados con `utm_content`.
+
    Si la emisión se realiza correctamente, recibirá una respuesta similar al siguiente ejemplo:
 
    `Broadcasting: Intent
@@ -93,9 +97,9 @@ Broadcast completed: result=0`
 
 `"Analytics - Received referrer information(<referrer content>)"   "Analytics - Trying to fetch referrer data from (acquisition end url)"; "Analytics - Received Referrer Data(<A JSON Response>)"`
 
-Si no ve los registros anteriores, asegúrese de haber completado los pasos 6 al 12.
+Si no ve los registros anteriores, compruebe que ha completado los pasos 6 a 12.
 
-La siguiente tabla contiene información adicional acerca de los posibles errores:
+La siguiente tabla contiene información adicional sobre los posibles errores:
 
 | Error | Descripción |
 |--- |--- |
@@ -103,16 +107,16 @@ La siguiente tabla contiene información adicional acerca de los posibles errore
 | Analytics - Unable to parse response (*a JSON Response*). | El formato de la cadena JSON no es correcto. |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | No hay parámetro contextData en la respuesta. |
 | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`  no se incluye en contextData. |
-| Analytics - Acquisition referrer timed out. | No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo.  Además, debe asegurarse de abrir el vínculo de adquisición antes de instalar la aplicación. |
+| Analytics - Acquisition referrer timed out. | No se obtuvo la respuesta en el tiempo definido por `referrerTimeout`. Aumente el valor e inténtelo de nuevo.  También debe asegurarse de haber abierto el vínculo de adquisición antes de instalar la aplicación. |
 
 Recuerde la información siguiente:
 
-* Las visitas enviadas desde la aplicación pueden monitorearse mediante herramientas de monitoreado HTTP para verificar la atribución de adquisición.
+* Las visitas enviadas desde la aplicación se pueden supervisar mediante herramientas de supervisión HTTP para verificar la atribución de adquisición.
 * Para obtener más información acerca de cómo emitir `INSTALL_REFERRER`, consulte [Testing Google Play Campaign Measurement (Prueba de medición de campaña de Google Play)](https://developers.google.com/analytics/solutions/testing-play-campaigns) en la Guía para desarrolladores de Google.
 
-* Se ha publicado una versión que corrige errores de adquisición en Android 4.8.2.
+* Se ha publicado una corrección de errores para la adquisición en Android 4.8.2.
 
-   Antes de realizar pruebas, actualice el SDK a la versión más reciente.
+   Antes de realizar la prueba, actualice el SDK a la versión más reciente.
 
 * Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el identificador exclusivo y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 12.
 
