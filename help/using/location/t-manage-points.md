@@ -1,14 +1,17 @@
 ---
-description: Puede crear y gestionar puntos de interés, los cuales permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita.
-keywords: móvil
-seo-description: Puede crear y gestionar puntos de interés, los cuales permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita.
+description: Puede crear y administrar puntos de interés, lo que le permite definir ubicaciones geográficas que puede utilizar para fines de correlación, destinatario con mensajes en la aplicación, etc. Al enviar una visita en un punto de interés, este se adjunta a la visita.
+keywords: mobile
+seo-description: Puede crear y administrar puntos de interés, lo que le permite definir ubicaciones geográficas que puede utilizar para fines de correlación, destinatario con mensajes en la aplicación, etc. Al enviar una visita en un punto de interés, este se adjunta a la visita.
 seo-title: Administrar puntos de interés
 solution: Experience Cloud,Analytics
 title: Administrar puntos de interés
-topic: Métricas
+topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +33,7 @@ En el dispositivo del usuario, para que una visita se asigne a un **[!UICONTROL 
 Para utilizar Ubicación, haga lo siguiente:
 
 1. Haga clic en el nombre de la aplicación para ir a la página Administrar configuración de aplicación correspondiente.
-1. Haga clic en **[!UICONTROL Ubicación]** &gt; **[!UICONTROL Administrar puntos de interés]**.
+1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
 
    ![Resultado de los pasos](assets/poi.png)
 
