@@ -1,12 +1,15 @@
 ---
 description: La siguiente información le ayuda a solucionar los problemas de las pruebas de adquisición.
-keywords: android;Adquisición;prueba
+keywords: android;Acquisition;testing
 seo-description: La siguiente información le ayuda a solucionar los problemas de las pruebas de adquisición.
 seo-title: Resolución de problemas de pruebas de adquisición
 solution: Experience Cloud,Analytics
 title: Resolución de problemas de pruebas de adquisición
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
 
