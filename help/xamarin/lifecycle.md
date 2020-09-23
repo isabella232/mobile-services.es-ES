@@ -1,30 +1,33 @@
 ---
-description: Información para ayudarle a implementar las métricas del ciclo vital para Android. En el caso de iOS, las métricas del ciclo vital se recopilan automáticamente.
+description: Información para ayudarle a implementar métricas del ciclo vital para Android. Las métricas del ciclo vital se recopilan automáticamente para iOS.
 keywords: Xamarin
-seo-description: Información para ayudarle a implementar las métricas del ciclo vital para Android. En el caso de iOS, las métricas del ciclo vital se recopilan automáticamente.
-seo-title: Implement lifecycle
-solution: Marketing Cloud,Desarrollador
-title: Implementar el ciclo vital
+seo-description: Información para ayudarle a implementar métricas del ciclo vital para Android. Las métricas del ciclo vital se recopilan automáticamente para iOS.
+seo-title: Implementación del ciclo vital
+solution: Experience Cloud
+title: Implementación del ciclo vital
 uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 7%
 
 ---
 
 
-# Implement lifecycle {#implement-lifecycle}
+# Implementación del ciclo vital {#implement-lifecycle}
 
 Esta información le ayuda a implementar métricas del ciclo vital para Android.
 
 >[!TIP]
 >
->En el caso de iOS, las métricas del ciclo vital se recopilan automáticamente.
+>Las métricas del ciclo vital se recopilan automáticamente para iOS.
 
-For the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics](/help/ios/metrics.md).
+Para ver las métricas y dimensiones que la biblioteca móvil puede medir automáticamente después de implementar el ciclo vital, consulte Métricas [del ciclo vital](/help/ios/metrics.md).
 
 ## iOS
 
-In iOS, lifecycle metrics are automatically collected.
+En iOS, las métricas del ciclo vital se recopilan automáticamente.
 
 ## Android
 
@@ -39,7 +42,7 @@ protected override void OnCreate (Bundle bundle)
 }
 ```
 
-En cada actividad, implemente llamadas al ciclo vital.
+En todas las actividades, implemente llamadas al ciclo vital.
 
 ```java
 protected override void OnResume()
