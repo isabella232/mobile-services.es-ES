@@ -4,10 +4,13 @@ seo-description: Complete estos pasos para configurar un grupo de informes con l
 seo-title: Antes de comenzar
 solution: Experience Cloud,Analytics
 title: Antes de comenzar
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 93%
 
 ---
 
@@ -24,10 +27,10 @@ Los administradores de Analytics y los desarrolladores de aplicaciones deben com
 
 Para configurar un grupo de informes y recopilar datos de aplicaciones móviles:
 
-1. Se ha completado una de las secciones de [Inicio de sesión en la interfaz de usuario de Adobe Mobile Services](/help/ios/getting-started/getting-started.md).
+1. Complete una de las secciones de [Inicio de sesión en la interfaz de usuario de Adobe Mobile Services](/help/ios/getting-started/getting-started.md).
 1. Cree una cuenta de Analytics para cada desarrollador de aplicaciones.
 
-Ahora, los desarrolladores de aplicaciones tienen acceso para ver los grupos de informes que usted crea.
+Los desarrolladores de aplicaciones ahora tienen acceso a la vista de los grupos de informes que ha creado.
 
 >[!IMPORTANT]
 >
@@ -42,9 +45,9 @@ Ahora, los desarrolladores de aplicaciones tienen acceso para ver los grupos de 
 
 Para obtener más información sobre los roles y los permisos, consulte [Roles y permisos](/help/using/gs/c-mob-roles-and-permissions.md).
 
-## Inicio de sesión en la interfaz de usuario de Adobe Mobile Services {#section_690A2EC4572E47869F183974E932A6A8}
+## Inicio de sesión en la interfaz de usuario de Adobe Mobile Services  {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services es la principal interfaz de realización de informes para análisis y segmentación de aplicaciones móviles. Cuando complete estos pasos podrá descargar un archivo de configuración preconfigurado con su servidor de recopilación de datos, su grupo de informes y muchos otros ajustes.
+Adobe Mobile Services es la interfaz de sistema de informes principal para el análisis y la segmentación de aplicaciones móviles. Después de completar estos pasos, puede descargar un archivo de configuración preconfigurado con el servidor de recopilación de datos, el grupo de informes y muchas otras opciones.
 
 Puede iniciar sesión en Adobe Mobile Services de una de las siguientes formas:
 
@@ -60,7 +63,7 @@ Puede iniciar sesión en Adobe Mobile Services de una de las siguientes formas:
 
 * **Adobe Analytics**
 
-   Haga clic en **[!UICONTROL Iniciar sesión en Analytics]** e introduzca su nombre de empresa de Analytics, el nombre de usuario y la contraseña.
+   Haga clic en **[!UICONTROL Iniciar sesión en Analytics]** e introduzca su nombre de empresa de Analytics, el nombre de usuario y la contraseña.
 
 ## Crear un grupo de informes {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -68,9 +71,9 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 1. Haga clic en **[!UICONTROL Crear una aplicación nueva]**.
 
-   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** &gt; **[!UICONTROL Agregar]**.
+   Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL Agregar]**.
 
-1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
+1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
 
 1. Introduzca el nombre de su aplicación y seleccione un ID de grupo de informes exclusivo.
 
@@ -91,7 +94,7 @@ Para descargar el SDK de Mobile:
    * En el panel derecho, busque su aplicación y ábrala.
 
 1. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
-1. En la sección **[!UICONTROL Descargas del SDK de la aplicación]**, desplácese hasta la sección **[!UICONTROL Descargas del SDK de la aplicación**].
+1. En la sección **[!UICONTROL Descargas del SDK de la aplicación]**, desplácese hasta la sección **[!UICONTROL Descargas del SDK de la aplicación]**.
 
 1. Descargue el SDK y la aplicación de ejemplo para su plataforma.
 
