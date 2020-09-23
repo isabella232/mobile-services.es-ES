@@ -1,14 +1,17 @@
 ---
 description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
-keywords: móvil
+keywords: mobile
 seo-description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
 seo-title: Ver informe de rutas
 solution: Experience Cloud,Analytics
 title: Ver informe de rutas
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 73%
 
 ---
 
@@ -23,24 +26,24 @@ El informe **[!UICONTROL Ver rutas]**, que se basa en el análisis de estas, mue
 
 ![ver rutas](assets/view_paths.png)
 
-Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en la ilustración anterior, el nodo principal representa el número de usuarios que han iniciado la aplicación y han navegado a la vista principal.
+Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en la ilustración anterior, el nodo principal representa el número de usuarios que iniciaron la aplicación y navegaron a la vista principal.
 
 Cuando haga clic en un nodo para proporcionar las opciones adicionales que permiten modificar el gráfico, aparecerán iconos como **[!UICONTROL Enfocar]** o **[!UICONTROL Expandir]**. Por ejemplo, si hace clic en el estado **[!UICONTROL MainView]** del nodo principal, aparecen los iconos **[!UICONTROL Enfoque]** y **[!UICONTROL Expandir]**.
 
-Para expandir la vista, haga clic en el icono **[!UICONTROL +]** para mostrar las rutas adicionales que llegan a un nodo o salen de él. En la ilustración siguiente, el estado 1 inicia la aplicación, el estado 2 está viendo la página principal de la aplicación y el estado 3 incluye las siguientes rutas que tomaron los usuarios:
+To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. En la siguiente ilustración, el estado 1 inicia la aplicación, el estado 2 está viendo la página principal de la aplicación y el estado 3 incluye las siguientes rutas que tomaron los usuarios:
 
-* Navegar al carrete
-* Navegar al selector de elementos
-* Navegar a la cámara
-* Navegar a la página de información del elemento
+* Navegación al carrete de la cámara
+* navegación al selector de elementos
+* desplazarse a la cámara
+* navegar a la página de información del elemento
 
 ![](assets/view_paths_expand.png)
 
-Haga clic en ![icono de enfoque](assets/icon_focus.png) para aislar el nodo y mostrar las rutas que entran y salen del nodo seleccionado. En la ilustración de abajo, las rutas siguientes anteceden a los usuarios que estaban viendo la vista principal de la aplicación:
+Haga clic en ![icono de enfoque](assets/icon_focus.png) para aislar el nodo y mostrar las rutas que entran y salen del nodo seleccionado. En la ilustración siguiente, las rutas siguientes precedieron a los usuarios que estaban viendo la vista principal de la aplicación:
 
-* Información del elemento
-* Selector de elementos
-* Carrete
+* información del elemento
+* selector de elementos
+* Carrete de cámara
 * Cámara
 
 ![ver el enfoque de la ruta](assets/view_paths_focus.png)
