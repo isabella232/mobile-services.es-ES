@@ -1,14 +1,17 @@
 ---
 description: Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
-keywords: móvil
+keywords: mobile
 seo-description: Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
 seo-title: Gestionar su aplicación
 solution: Experience Cloud,Analytics
 title: Gestionar su aplicación
-topic: Métricas
+topic: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 70%
 
 ---
 
@@ -21,7 +24,7 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
 * **Variables y métricas estándar**
 
-   Cada aplicación incluye variables y métricas para hacer un seguimiento del carro de la compra y de las actividades de compra. Parte de la información de las compras no se puede controlar con las reglas de procesamiento, por lo que el SDK expone los datos de contexto especiales de `"&&products"` Por ejemplo, puede tener las variables de adiciones al carro de la compra, eliminaciones de este, cierres de compras, pedidos, etc. Los datos de contexto se deben asignar a los datos de Adobe Analytics. Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Déjela vacía si unas reglas más complejas rellenan la variable en las Herramientas de administración de Analytics.
+   Cada aplicación incluye variables y métricas para rastrear el carro de compras y las actividades de compra. Parte de la información de las compras no se puede controlar con las reglas de procesamiento, por lo que el SDK expone los datos de contexto especiales de `"&&products"` Por ejemplo: puede tener variables como adiciones al carro de compras, eliminaciones del carro de compras, cierres de compras, pedidos, etc. Los datos de contexto deben asignarse a los datos de Adobe Analytics. Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Déjela vacía si unas reglas más complejas rellenan la variable en las Herramientas de administración de Analytics.
 
    Para obtener más información sobre estas variables y métricas, consulte los siguientes temas:
 
@@ -34,7 +37,7 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
 ### Asignar datos de contexto a las variables de Analytics
 
-Haga clic en **[!UICONTROL Administrar configuración de aplicación]** &gt; **[!UICONTROL Administrar variables y métricas]** &gt; **[!UICONTROL Variables personalizadas]**.
+Click **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables &amp; Metrics]** > **[!UICONTROL Custom Variables]**.
 
 Estas asignaciones llaman a la misma API que se usa en las [reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
@@ -42,9 +45,9 @@ Estas asignaciones llaman a la misma API que se usa en las [reglas de procesamie
 
 Esta lista recoge las variables personalizadas que se pueden configurar:
 
-* Las **[!UICONTROL Propiedades personalizadas]** (o props) responden a la pregunta “¿cuál?”. Las propiedades se pueden definir en un valor de texto que se vaya a asociar con otras variables y métricas enviadas en el mismo resultado. Los valores se pueden usar para filtrar informes o para enumerarse en orden en función de una métrica asociada.
+* Las **[!UICONTROL Propiedades personalizadas]** (o props) responden a la pregunta “¿cuál?”. Las props se pueden establecer en un valor de texto que se asociará con otras variables y métricas enviadas en la misma visita. Los valores pueden utilizarse para filtrar informes o pueden enumerarse en orden de clasificación por una métrica asociada.
 
-   Cuando un valor se establece para una propiedad en una llamada (o visita) de seguimiento, dicho valor solo se aplica a esta llamada.
+   Cuando se establece un valor para una propiedad en una llamada de seguimiento (o visita), solo se aplica a esa llamada.
 
 * Las **[!UICONTROL Variables personalizadas]** (o evars) también responden a la pregunta “¿cuál?”. Sin embargo, un valor de una variable no solo se puede aplicar a la visita en la que se envía, sino también a las variables y a las métricas enviadas en los resultados subsiguientes hasta que el valor caduque o hasta que se defina un nuevo valor.
 * Las **[!UICONTROL Variables de lista personalizadas (o variables de valores múltiples)]** se comportan de la misma forma que las variables a excepción de que le permiten capturar varios valores en una visita. Para obtener más información, consulte [Variables de lista](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html).
@@ -59,15 +62,15 @@ Las asignaciones se muestran en Analytics como si se hubieran creado en Mobile S
 
    Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Deje este campo vacío si más reglas complejas rellenan la variable en las Herramientas de administración de Analytics.
 
-   Haga clic en la columna de datos de contexto y seleccione la variable de datos de contexto que desea asignar. La lista desplegable contiene las variables recibidas durante los últimos 30 días, por lo que si los datos de contexto que desea asignar no están en la lista, los puede escribir.
+   Haga clic en la columna de datos de contexto y seleccione la variable de datos de contexto que desee asignar. La lista desplegable contiene variables recibidas en los últimos 30 días, por lo que si los datos de contexto que desea asignar no están en la lista, puede escribirlos.
 
 * **[!UICONTROL Persistencia (variables personalizadas y variables de lista personalizadas)]**
 
-   La persistencia determina el punto en el que el valor de una variable personalizada (eVar) caducará o dejará de estar asociado a visitas adicionales. Si una eVar ha caducado cuando se activa una visita, se asociará el valor Ninguno a esa visita para esa eVar. Esto significa que no había ningún valor de eVar activo cuando se activó la visita.
+   La persistencia determina el punto en el que el valor de una variable personalizada (eVar) caducará o dejará de estar asociado a visitas adicionales. Si una eVar ha caducado cuando se activa una visita, se asociará el valor Ninguno a esa visita para esa eVar. Esto significa que ningún valor de eVar estaba activo cuando se activó la visita.
 
-   Puede seleccionar cualquiera de estas opciones:
+   Puede seleccionar una de las siguientes opciones:
 
-   * **[!UICONTROL Sesión]**
+   * **[!UICONTROL Session]**
 
       El valor de eVar persiste durante toda la visita de Analytics.
 
@@ -82,7 +85,7 @@ Las asignaciones se muestran en Analytics como si se hubieran creado en Mobile S
 
       Adobe Analytics tiene una interfaz de usuario más avanzada para establecer la persistencia de las eVars. Si para la eVar se establece un valor de persistencia que no se admite en Mobile Services, este valor se muestra en la interfaz de usuario de Mobile Services.
 
-      Para gestionar las eVars, haga clic en **[!UICONTROL Administrador del grupo de informes de Adobe Analytics**] &gt; **[!UICONTROL Interfaz de usuario de variables de conversión]**.
+      To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > **[!UICONTROL Conversion Variables UI]**.
 
    * **[!UICONTROL Compatibilidad de lista]**
 
@@ -98,11 +101,11 @@ Puede activar variables adicionales en la lista desplegable que hay en la parte 
 
 ![agregar una variable](assets/add_variable.png)
 
-Seleccione un número de variable que no esté en uso y escriba un nombre. También puede proporcionar la variable de datos de contexto que desea almacenar, así como cualquier información adicional.
+Seleccione un número de variable no utilizado y escriba un nombre. Opcionalmente, puede proporcionar la variable de datos de contexto que desee almacenar y cualquier información adicional.
 
 * **Métricas personalizadas**
 
-   Las métricas (o los eventos) responden a las preguntas *¿cuánto?* o *¿cuántos?*. Los eventos pueden, bien aumentar cada vez que un usuario realiza una acción, o bien retener valores numéricos, como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación de un archivo PDF o CSV, el guardado de una campaña, la descarga de un SDK, la ejecución de un informe, la adición de un vínculo a la tienda de aplicaciones, la activación de un mensaje en la aplicación, etc.
+   Las métricas (o los eventos) responden a las preguntas *¿cuánto?* o *¿cuántos?*. Los eventos pueden aumentar cada vez que el usuario realiza una acción o mantener valores numéricos como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación del archivo PDF o CSV, la guardado de una campaña, la descarga del SDK, la ejecución de un informe, la adición de un vínculo a la App Store, la activación de un mensaje en la aplicación, etc.
 
    Seleccione uno de los siguientes tipos de métricas personalizadas:
 
@@ -120,4 +123,4 @@ Puede crear, editar, archivar/desarchivar y eliminar destinos de vínculos. Esto
 
 ## Administrar postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
-Los postbacks permiten enviar datos recopilados por Adobe Mobile a un servidor independiente de terceros. Con los mismos activadores y las mismas características que se emplean para mostrar un mensaje en la aplicación, es posible configurar Mobile para que envíe datos personalizados a un destino de terceros. Para obtener más información sobre los postbacks, consulte [Configurar los postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md).
+Los postback permiten enviar datos recopilados por Adobe Mobile a un servidor independiente de terceros. Al aprovechar los mismos activadores y características que utiliza para mostrar un mensaje en la aplicación, puede configurar Mobile para que envíe datos personalizados a un destino de terceros. Para obtener más información sobre los postbacks, consulte [Configurar los postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md).
