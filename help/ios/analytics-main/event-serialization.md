@@ -1,20 +1,23 @@
 ---
-description: Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada del servidor.
-seo-description: Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada del servidor.
+description: Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada al servidor.
+seo-description: Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada al servidor.
 seo-title: Serialización de eventos
 solution: Experience Cloud,Analytics
 title: Serialización de eventos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 19a27df4-0998-403d-800c-26ff61149208
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 7%
 
 ---
 
 
 # Serialización de eventos {#event-serialization}
 
-Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada del servidor.
+Las reglas de procesamiento no admiten la serialización de eventos. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer eventos serializados directamente en la llamada al servidor.
 
 ```objective-c
 [contextData setObject:@"eventN:serial number" forKey:@"&&events"];
