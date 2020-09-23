@@ -4,10 +4,13 @@ seo-description: El SDK para iOS 4.x para soluciones de Experience Cloud le perm
 seo-title: SDK para iOS 4.x para soluciones de Experience Cloud
 solution: Experience Cloud,Analytics
 title: SDK para iOS 4.x para soluciones de Experience Cloud
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: ht
-source-git-commit: cb4a549d889d169bdf8ab0bb997d5c95f44f073e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +29,7 @@ El SDK para iOS 4.x para soluciones de Experience Cloud le permite realizar medi
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -37,7 +40,7 @@ Información que debe recordar:
 
 * Compatible con iOS 8 o posteriores.
 
-   Para las versiones iOS 11 o posteriores, **debe** tener la versión del SDK 4.13.8 o posterior.
+   Para iOS 11 o posterior, **debe** tener la versión 4.13.8 o posterior del SDK.
 
 * En la versión 4.2 o posterior del SDK, todas las visitas se envían ahora mediante HTTP POST.
 
