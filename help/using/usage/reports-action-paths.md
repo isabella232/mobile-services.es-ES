@@ -1,14 +1,17 @@
 ---
 description: El informe Rutas de acción se basa en el análisis de las rutas y muestra un gráfico que representa las rutas que han pasado de un estado a otro en la aplicación.
-keywords: móvil
+keywords: mobile
 seo-description: El informe Rutas de acción se basa en el análisis de las rutas y muestra un gráfico que representa las rutas que han pasado de un estado a otro en la aplicación.
 seo-title: Informe de rutas de acción
 solution: Experience Cloud,Analytics
 title: Informe de rutas de acción
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 69%
 
 ---
 
@@ -25,40 +28,40 @@ Los informes **[!UICONTROL Ver rutas]** y **[!UICONTROL Rutas de acción]** son 
 
 ![](assets/action_paths.png)
 
-Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en el gráfico anterior, el nodo principal representa el número de usuarios que han iniciado la aplicación y luego han seleccionado una fotografía de la galería.
+Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en el gráfico anterior, el nodo principal representa el número de usuarios que iniciaron la aplicación y luego seleccionaron una fotografía de la galería.
 
 Si desea ver las opciones para modificar el gráfico, haga clic en un nodo y luego en **[!UICONTROL Enfocar]** o **[!UICONTROL Expandir]**. Por ejemplo, si hace clic en el estado **[!UICONTROL PhotoPicked]** del nodo principal, aparecen los iconos **[!UICONTROL Enfocar]** y **[!UICONTROL Expandir]**.
 
 ![](assets/action_paths_icons.png)
 
-Para expandir, haga clic en el icono **[!UICONTROL +]**. Esta opción muestra las rutas adicionales que llegan al nodo o salen de él. En el gráfico siguiente, el estado 1 inicia la aplicación, el estado 2 elige una fotografía (el elemento que expandió anteriormente) y el estado 3 incluye las distintas rutas que tomaron los usuarios:
+To expand, click the **[!UICONTROL +]** icon. Esta opción muestra las rutas adicionales que entran o salen del nodo. En el gráfico de abajo, el estado 1 inicia la aplicación, el estado 2 elige una foto (el elemento que expandió anteriormente) y el estado 3 incluye las diferentes rutas que tomaron los usuarios:
 
-* Seleccionar un elemento
-* Agregar un elemento
+* Selección de un elemento
+* Añadir un elemento
 * Arrastrar un elemento
-* Escalar un elemento
+* Escalado de un elemento
 
-La expansión de un estado es similar a un canal.
+Expandir un estado es similar a un canal.
 
 ![expansión de ruta de acción](assets/action_paths_expand.png)
 
-Para aislar el nodo y mostrar las rutas que llegan al nodo seleccionado y salen de él, haga clic en el icono ![icono de enfoque](assets/icon_focus.png). En el gráfico de abajo, las rutas siguientes se completaron **antes** de que los usuarios seleccionaran una foto:
+Para aislar el nodo y mostrar las rutas que llegan al nodo seleccionado y salen de él, haga clic en el icono ![icono de enfoque](assets/icon_focus.png). En el gráfico de abajo, las siguientes rutas se completaron **antes** de que los usuarios seleccionaran una fotografía:
 
-* Girar un elemento
-* Escalar un elemento
+* Rotación de un elemento
+* Escalado de un elemento
 * Arrastrar un elemento
-* Eliminar un elemento
+* Eliminación de un elemento
 
-De los usuarios que seleccionaron una foto, las rutas siguientes se completaron **después** de que se realizara esta acción:
+De los usuarios que seleccionaron una foto, las siguientes rutas se completaron **después** de seleccionarla:
 
-* Seleccionar un elemento
-* Agregar un elemento
+* Selección de un elemento
+* Añadir un elemento
 * Arrastrar un elemento
-* Escalar un elemento
+* Escalado de un elemento
 
 ![enfoque de ruta de acción](assets/action_paths_focus.png)
 
-Puede enfocar o expandir varios nodos para obtener una vista detallada de las rutas que siguen los usuarios en la aplicación. Por ejemplo:
+Puede enfocar o expandir varios nodos para obtener una vista detallada de las rutas que toman los usuarios en la aplicación. Por ejemplo:
 
 ![ruta de acción múltiple](assets/action_paths_mult.png)
 
