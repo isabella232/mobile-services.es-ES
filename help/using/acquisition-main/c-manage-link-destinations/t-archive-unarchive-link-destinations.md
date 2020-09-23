@@ -1,14 +1,17 @@
 ---
 description: Puede usar la página Destinos del vínculo para editar, archivar, desarchivar o eliminar un destino existente.
-keywords: móvil
+keywords: mobile
 seo-description: Puede usar la página Destinos del vínculo para editar, archivar, desarchivar o eliminar un destino existente.
 seo-title: Administrar destinos de vínculo
 solution: Experience Cloud,Analytics
 title: Administrar destinos de vínculo
-topic: Métricas
+topic: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +31,7 @@ Para mostrar la página Administrar destinos de vínculo:
 
    * **Edit**
 
-      Para editar un destino de vínculo existente, haga clic en su nombre en la lista y edite los campos correspondientes. Para obtener más información, consulte [Creación de un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+      Para editar un destino de vínculo existente, haga clic en su nombre en la lista y edite los campos relevantes. Para obtener más información, consulte [Creación de un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
 
       >[!IMPORTANT]
       >
@@ -49,6 +52,7 @@ Para mostrar la página Administrar destinos de vínculo:
       1. Haga clic en **[!UICONTROL Ver archivo]**.
       1. Seleccione una o varias casillas de verificación junto a los nombres de los vínculos que desee desarchivar.
       1. Haga clic en **[!UICONTROL Desarchivar seleccionados]**.
+
       La opción **[!UICONTROL Ver archivo]** solo está visible si anteriormente archivó destinos de vínculo.
 
    * **Eliminar**
