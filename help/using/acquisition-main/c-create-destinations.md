@@ -1,14 +1,17 @@
 ---
 description: Los especialistas en marketing pueden crear, guardar y editar destinos de vínculo, como vínculos web, profundos, etc., que se pueden utilizar mientras se generan vínculos de marketing a los que se pueda realizar un seguimiento.
-keywords: móvil
+keywords: mobile
 seo-description: Los especialistas en marketing pueden crear, guardar y editar destinos de vínculo, como vínculos web, profundos, etc., que se pueden utilizar mientras se generan vínculos de marketing a los que se pueda realizar un seguimiento.
 seo-title: Destinos
 solution: Experience Cloud,Analytics
 title: Destinos
-topic: Métricas
+topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +30,7 @@ Puede crear los siguientes tipos de destinos de vínculo:
 
 * **[!UICONTROL Vínculo web]**
 
-   Los destinos de vínculo web dirigen a los usuarios a una URL específica. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un comerciante en línea.
+   Los destinos de vínculo web dirigen a los usuarios a una dirección URL específica. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un minorista en línea.
 
    >[!IMPORTANT]
    >
