@@ -1,14 +1,17 @@
 ---
 description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
-keywords: móvil
+keywords: mobile
 seo-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
 seo-title: Creación manual de vínculos de adquisición
 solution: Experience Cloud,Analytics
 title: Creación manual de vínculos de adquisición
-topic: Métricas
+topic: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-translation-type: ht
-source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +28,7 @@ En el siguiente diagrama se ilustran los componentes de un vínculo de seguimien
 
 ![](assets/acquisition_url.png)
 
-Este vínculo está configurado para redireccionar desde una plataforma específica al Google Play Store o al Apple App Store en una aplicación móvil. En caso de que no se pueda determinar un destino, la tienda predeterminada será el Apple App Store. Una vez que la aplicación se haya instalado, la clave de contexto personalizada `my.custom.key:test` se adjunta a la petición de instalación de Analytics.
+Este vínculo está configurado para realizar una redirección específica de la plataforma a Google Play Store o a Apple App Store para una aplicación móvil. Si no se puede determinar el destino, la tienda predeterminada se ha establecido en Apple App Store. Una vez que la aplicación se haya instalado, la clave de contexto personalizada `my.custom.key:test` se adjunta a la petición de instalación de Analytics.
 
 Para crear vínculos manualmente, use el formato URL siguiente:
 
@@ -38,7 +41,7 @@ Para crear vínculos manualmente, use el formato URL siguiente:
 En el caso de iOS, asegúrese de usar el protocolo correcto:
 
 * Use **HTTP** si utiliza el SDK de iOS anterior a la versión 4.7.0 o el SDK 4.7.0 de iOS o posteriores y, además, **[!UICONTROL Utilizar HTTPS]** **no** está seleccionado en la página Administrar configuración de aplicación.
-* Use **HTTPS** si utiliza el SDK 4.7.0 de iOS o posteriores y, además, **[!UICONTROL Utilizar HTTPS]** **está** seleccionado en la página Administrar configuración de aplicación.
+* Use **HTTPS** si utiliza el SDK 4.7.0 de iOS o posteriores y, además, **[!UICONTROL Utilizar HTTPS]****está** seleccionado en la página Administrar configuración de aplicación.
 
 Cuando se hayan cumplido las condiciones siguientes:
 
