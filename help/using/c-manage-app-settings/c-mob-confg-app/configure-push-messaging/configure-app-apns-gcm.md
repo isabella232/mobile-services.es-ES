@@ -1,14 +1,17 @@
 ---
 description: Puede configurar su aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud (FCM).
-keywords: móvil
+keywords: mobile
 seo-description: Puede configurar su aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud (FCM).
 seo-title: Configurar las aplicaciones para utilizar APNS o FCM
 solution: Experience Cloud,Analytics
 title: Configurar las aplicaciones para utilizar APNS o FCM
-topic: Métricas
+topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: ht
-source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 90%
 
 ---
 
@@ -83,12 +86,12 @@ Para configurar la aplicación de Android para que utilice FCM en este escenario
 
 Si desea configurar la aplicación de iOS para el uso de APNS:
 
-1. Vaya a [https://developer.apple.com/account](https://developer.apple.com/account) e inicie sesión en su [cuenta para desarrolladores de Apple](https://developer.apple.com/account).
+1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
 1. En **[!UICONTROL Aplicaciones de iOS]**, seleccione **[!UICONTROL Identificadores]**.
 1. Si dispone de un ID de aplicación configurado para la funcionalidad push, vaya al paso 11.
-1. Pulse el botón **[!UICONTROL +]** para crear un nuevo ID de aplicación.
-1. Escriba la descripción del ID de aplicación.
-1. Escriba el sufijo del ID de aplicación.
+1. Press the **[!UICONTROL +]** button to create a new App ID.
+1. Escriba una descripción del ID de la aplicación.
+1. Escriba un sufijo de ID de aplicación.
 
    >[!IMPORTANT]
    >
@@ -114,10 +117,10 @@ Para obtener el certificado SSL y la clave privada (APNS):
 1. Abra **[!UICONTROL Acceso a Llaveros]**.
 1. Haga clic en **[!UICONTROL Mis certificados]** y busque el **[!UICONTROL Certificado de servicios de iOS]** apropiado para su aplicación y su entorno.
 
-   Puede identificar el certificado apropiado fijándose en el ID de paquete y en si es de desarrollo o de producción.
+   Puede identificar el certificado correcto haciendo coincidir el ID del paquete y si se trata de desarrollo o producción.
 
-1. Expanda el certificado y verifique que contiene una clave privada.
-1. Haga clic con el botón derecho en la clave privada y seleccione **[!UICONTROL Exportar "*`<name of key>`*]**.
+1. Expanda el certificado y compruebe que contiene una clave privada.
+1. Haga clic con el botón derecho en la clave privada y seleccione **[!UICONTROL Exportar &quot;*`<name of key>`*]**.
 1. Escriba la información necesaria en el cuadro de diálogo y guarde el nuevo archivo `.p12`.
 
    No tiene que escribir ninguna contraseña.
