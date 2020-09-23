@@ -4,10 +4,13 @@ seo-description: La extensión iOS le ayuda a recopilar datos de uso de las apli
 seo-title: Implementación de extensiones iOS
 solution: Experience Cloud,Analytics
 title: Implementación de extensiones iOS
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +21,7 @@ La extensión iOS le ayuda a recopilar datos de uso de las aplicaciones del Appl
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -31,7 +34,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 >
 >Se recomienda encarecidamente que utilice el SDK para iOS en vez de su propio envoltorio o “wrapper”.
 
-Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora enviándole solicitudes y recibiendo respuestas. Aunque se pueden enviar datos de seguimiento como un diccionario desde la aplicación Watch hasta la aplicación contenedora y, a continuación, llamar a cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene algunas limitaciones.
+Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora enviando solicitudes a la aplicación contenedora y recibiendo las respuestas. Aunque puede enviar datos de seguimiento como un diccionario desde la aplicación Watch a la aplicación contenedora y llamar a cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene limitaciones.
 
 En la mayoría de los casos, cuando un usuario utiliza la aplicación Watch, la aplicación contenedora se ejecuta en segundo plano y solo es seguro llamar a `TrackLocation`, `TrackActionInBackground` y `TrackBeacon`. El hecho de llamar a otros métodos de seguimiento interfiere con los datos del ciclo vital, por lo que solo debería utilizar estos tres métodos para enviar datos desde la aplicación Watch.
 
@@ -43,13 +46,14 @@ Utilice el SDK para iOS aunque estos tres métodos de seguimiento cumplan con su
 >
 >Asegúrese de que tiene un proyecto con al menos los siguientes destinatarios:
 >
->* Un destino para contener la aplicación.
->* Un destino para la extensión.
+>* Un destinatario para contener la aplicación.
+>* Un destinatario para la extensión.
+
 >
 
 
 
-Si trabaja en una aplicación WatchKit, debería tener un tercer destino. Para obtener más información sobre el desarrollo de Apple Watch, consulte [Desarrollo de Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
+Si está trabajando en una aplicación WatchKit, debería tener un tercer destinatario. Para obtener más información sobre el desarrollo de Apple Watch, consulte [Desarrollo de Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).
 
 ## Configurar la aplicación contenedora {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -107,8 +111,8 @@ Información que debe recordar:
 
       Este valor significa que la visita procede de la extensión.
 
-* Si actualiza desde una versión anterior del SDK, al iniciar la aplicación contenedora, Adobe migra automáticamente todos los valores predeterminados y los archivos en caché del usuario desde la carpeta de la aplicación contenedora hasta la carpeta compartida del grupo de aplicaciones.
-* Si la aplicación contenedora no se llega a abrir, las visitas procedentes de la extensión se descartan.
-* El número de versión y el de compilación deben ser los mismos en la aplicación contenedora y en la aplicación de extensión.
-* En las aplicaciones de extensión iOS no se activa ninguna llamada de ciclo vital.
+* Si actualiza desde una versión anterior del SDK, cuando se inicia la aplicación contenedora, Adobe migra automáticamente todos los valores predeterminados de usuario y los archivos en caché de la carpeta de la aplicación contenedora a la carpeta compartida del grupo de aplicaciones.
+* Si la aplicación contenedora nunca se inicia, las visitas de la extensión se descartan.
+* El número de versión y el número de compilación deben ser los mismos entre la aplicación contenedora y la aplicación de extensión.
+* No se activa ninguna llamada de ciclo vital en las aplicaciones de extensión de iOS.
 
