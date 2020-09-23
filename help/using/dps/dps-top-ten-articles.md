@@ -1,14 +1,17 @@
 ---
 description: El informe Principales 10 artículos muestra un gráfico de proyección solar de los datos. Este informe solo está disponible para los clientes de Digital Publishing Suites (DPS).
-keywords: móvil
+keywords: mobile
 seo-description: El informe Principales 10 artículos muestra un gráfico de proyección solar de los datos. Este informe solo está disponible para los clientes de Digital Publishing Suites (DPS).
 seo-title: Principales 10 artículos
 solution: Experience Cloud,Analytics
 title: Principales 10 artículos
-topic: Métricas
+topic: Metrics
 uuid: cf53cc0b-7c84-41c8-97d5-d9ee833a916b
-translation-type: ht
-source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
