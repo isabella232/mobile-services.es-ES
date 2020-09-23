@@ -1,14 +1,17 @@
 ---
 description: Puede configurar las opciones de adquisición de SDK en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
-keywords: móvil
+keywords: mobile
 seo-description: Puede configurar las opciones de adquisición de SDK en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar las opciones de adquisición de SDK
 solution: Experience Cloud,Analytics
 title: Configurar las opciones de adquisición de SDK
-topic: Métricas
+topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
-translation-type: ht
-source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
