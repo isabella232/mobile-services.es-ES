@@ -1,13 +1,16 @@
 ---
 description: En este tema se proporciona información sobre cómo solucionar problemas que podrían ocurrir durante las pruebas de adquisición.
-keywords: android, biblioteca, mobile, móvil, sdk
+keywords: android;library;mobile;sdk
 seo-description: En este tema se proporciona información sobre cómo solucionar problemas que podrían ocurrir durante las pruebas de adquisición.
 seo-title: Resolución de problemas de pruebas de adquisición
 solution: Experience Cloud,Analytics
 title: Resolución de problemas de pruebas de adquisición
-topic: Desarrollador e implementación
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+topic: Developer and implementation
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
