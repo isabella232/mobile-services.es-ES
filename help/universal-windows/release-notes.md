@@ -1,28 +1,31 @@
 ---
-description: Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows y las soluciones de Experience Cloud.
-seo-description: Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows y las soluciones de Experience Cloud.
+description: Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows para soluciones Experience Cloud.
+seo-description: Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows para soluciones Experience Cloud.
 seo-title: Notas de la versión
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Notas de la versión
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 9c164e5c-ce2c-4eda-bba6-71324e4954fa
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 28%
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows y las soluciones de Experience Cloud.
+Notas de la versión y problemas conocidos del SDK 4.x de la Plataforma universal de Windows para soluciones Experience Cloud.
 
 ## Notas de la versión actual {#section_DC697A291F0A4CB7B669B24488E07DC1}
 
-Además de importantes mejoras en el rendimiento, la versión 4.x agrega estas nuevas funciones:
+Además de importantes incrementos de rendimiento, la versión 4.x agrega las siguientes nuevas funciones:
 
 | Función | Descripción |
 |--- |--- |
-| SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud | Versión inicial. |
+| SDK 4.x de la Plataforma universal de Windows para soluciones de Experience Cloud | Versión inicial. |
 
 
-For more information about the release notes for all solutions, see the [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+For more information about the release notes for all solutions, see the [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
