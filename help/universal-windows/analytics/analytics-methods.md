@@ -1,37 +1,40 @@
 ---
-description: Información útil para usar el SDK de la Plataforma universal de Windows con Adobe Analytics.
-seo-description: Información útil para usar el SDK de la Plataforma universal de Windows con Adobe Analytics.
+description: Información útil para utilizar el SDK de la Plataforma universal de Windows con Adobe Analytics.
+seo-description: Información útil para utilizar el SDK de la Plataforma universal de Windows con Adobe Analytics.
 seo-title: Métodos de Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos de Analytics
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 57%
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Métodos de Analytics {#analytics-methods}
 
-Información útil para usar el SDK de la Plataforma universal de Windows con Adobe Analytics.
+Información útil para utilizar el SDK de la Plataforma universal de Windows con Adobe Analytics.
 
-Actualmente, el SDK ofrece compatibilidad con varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. El prefijo de los métodos de Analytics es “Analytics”.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Destinatario y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Los métodos de Analytics llevan el prefijo &quot;Analytics&quot;.
 
 Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Analytics.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
 
 * **TrackState (winJS: trackState)**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como “tablero de inicio”, “configuración de la aplicación”, “carrito”, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
-Si `state` está vacío, en los informes se muestra “app name app version (build)”. Si observa este valor en los informes, asegúrese de que está estableciendo `state` en todas las llamadas a `TrackState`.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;panel principal&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
+If `state` is empty, it displays as &quot;app name app version (build)&quot; in reports. If you see this value in reports, make sure you are setting `state` in each `TrackState` call.
 
    >[!TIP]
    >
-   >This is the only tracking call that increments page views.
+   >Esta es la única llamada de seguimiento que incrementa las visualizaciones de página.
 
    * Esta es la sintaxis para este método:
 
@@ -48,7 +51,7 @@ Si `state` está vacío, en los informes se muestra “app name app version (bui
 
 * **TrackAction (winJS: trackAction)**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, “inicios de sesión”, “toques en banners”, “suscripciones a fuentes” y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;inicios de sesión&quot;, &quot;toques en banners&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
 
    * Esta es la sintaxis para este método:
 
@@ -65,7 +68,7 @@ Si `state` está vacío, en los informes se muestra “app name app version (bui
 
 * **GetTrackingIdentifierAsync (winJS: getTrackingIdentifierAsync)**
 
-   Devuelve el ID de visitante generado de forma automática para Analytics. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el primer inicio y que después se almacena y utiliza a partir de ese momento. Esta ID se conserva entre las actualizaciones de la aplicación y se elimina al desinstalarla.
+   Devuelve el ID de visitante generado automáticamente para Analytics. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el primer inicio y que luego se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    * Esta es la sintaxis para este método:
 
@@ -139,7 +142,7 @@ Si `state` está vacío, en los informes se muestra “app name app version (bui
 
 * **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
-   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. The `data` passed in is appended to the existing data for the given action, and overwrites the data if the same key is already defined for `action`.
+   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. Los `data` que se pasan se agregan a los datos existentes de esa acción y los sobrescriben si ya se ha definido la misma clave para `action`.
 
    >[!TIP]
    >
@@ -213,7 +216,7 @@ Si `state` está vacío, en los informes se muestra “app name app version (bui
 
 * **GetQueueSizeAsync (winJS: getQueueSizeAsync)**
 
-   Devuelve el número de visitas almacenadas en la cola de Analytics.
+   Devuelve el número de visitas almacenadas actualmente en la cola de Analytics.
 
    * Esta es la sintaxis para este método:
 
