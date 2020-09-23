@@ -2,13 +2,13 @@
 description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario de Android. El valor puede utilizarse para almacenar compras acumuladas en el tiempo, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etc.
 seo-description: El valor de duración le permite medir y tomar como destino un valor de duración para cada usuario de Android. El valor puede utilizarse para almacenar compras acumuladas en el tiempo, visualizaciones de anuncios, visualizaciones de vídeo completas, usos compartidos en medios sociales, cargas de fotografías, etc.
 seo-title: Valor de duración de visitantes
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Valor de duración de visitantes
 topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
