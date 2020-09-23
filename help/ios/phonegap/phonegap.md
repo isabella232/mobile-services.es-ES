@@ -5,10 +5,13 @@ seo-description: Este complemento le permite enviar llamadas iOS AppMeasurement 
 seo-title: Complemento PhoneGap
 solution: Experience Cloud,Analytics
 title: Complemento PhoneGap
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: ht
-source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +22,7 @@ Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto
 
 ## Nueva versión del SDK móvil de Adobe Experience Platform
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
@@ -70,7 +73,8 @@ La biblioteca AppMeasurement requiere lo siguiente:
    1. Seleccione **[!UICONTROL Copiar elementos a la carpeta del grupo de destino (si es necesario)]**.
    1. Seleccione **[!UICONTROL Crear grupos para todas las carpetas agregadas]**.
    1. Seleccione los destinos en los que quiere usar el código AppMeasurement y haga clic en **[!UICONTROL Finalizar]**.
-   ![](assets/xcode-settings.png){width="672"}
+
+   ![](assets/xcode-settings.png){width=&quot;672&quot;}
 
 1. En la ficha **[!UICONTROL Fases de compilación]** del destino del proyecto, expanda la sección **[!UICONTROL Vincular binario con bibliotecas]** y agregue las bibliotecas siguientes:
 
