@@ -3,14 +3,14 @@ description: Métodos de Android para el SDK de componentes Xamarin para solucio
 keywords: Xamarin
 seo-description: Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
 seo-title: Métodos de Android
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: Métodos de Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -163,7 +163,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **OverrideConfigStream**
 
-   (4.2 o posterior) Le permite cargar un archivo de `ADBMobile JSON` configuración diferente cuando la aplicación inicio. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. Se utiliza la configuración distinta hasta que se cierre la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -366,7 +366,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados a una acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
+   Se transfieren datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
 
    >[!TIP]
    >
