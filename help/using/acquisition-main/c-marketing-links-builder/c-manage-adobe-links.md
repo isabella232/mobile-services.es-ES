@@ -1,14 +1,17 @@
 ---
 description: Puede usar la página Vínculos de marketing para crear, utilizar y archivar vínculos de marketing.
-keywords: móvil
+keywords: mobile
 seo-description: Puede usar la página Vínculos de marketing para crear, utilizar y archivar vínculos de marketing.
 seo-title: Administrar vínculos de marketing
 solution: Experience Cloud,Analytics
 title: Administrar vínculos de marketing
-topic: Métricas
+topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +28,7 @@ En la página Vínculos de marketing, complete las tareas siguientes:
 
 * **Mostrar vínculos de marketing**
 
-   Para mostrar la lista de vínculos de marketing, en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** &gt; **[!UICONTROL Generador de vínculos de marketing]**.
+   To display the list of Marketing Links, in the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
 
    La columna **[!UICONTROL Clics]** muestra el número de usuarios que han hecho clic en el vínculo de marketing. La columna **[!UICONTROL Primeros lanzamientos]** muestra el número de primeros lanzamientos de la aplicación. Este valor refleja el número de usuarios que instalaron la aplicación y la abrieron después de hacer clic en el vínculo de marketing.
 
