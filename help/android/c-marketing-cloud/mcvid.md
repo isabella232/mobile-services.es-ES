@@ -2,13 +2,13 @@
 description: El servicio de ID de ID de Adobe Experience Platform proporciona un ID de visitante universal para las distintas soluciones de Experience Cloud. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
 seo-description: El servicio de ID de ID de Adobe Experience Platform proporciona un ID de visitante universal para las distintas soluciones de Experience Cloud. Analytics requiere el servicio de ID para Target, Video Heartbeat y futuras integraciones de Experience Cloud.
 seo-title: Configuración de Experience Cloud ID
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configuración de Experience Cloud ID
 topic: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
