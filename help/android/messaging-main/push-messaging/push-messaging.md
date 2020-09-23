@@ -1,26 +1,29 @@
 ---
-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite realizar fácilmente un informe de los usuarios que han abierto la aplicación haciendo clic en un mensaje push.
-seo-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite realizar fácilmente un informe de los usuarios que han abierto la aplicación haciendo clic en un mensaje push.
+description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
+seo-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
 seo-title: Mensajería push
 solution: Experience Cloud,Analytics
 title: Mensajería push
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: ht
-source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 61%
 
 ---
 
 
 # Mensajería push {#push-messaging}
 
-Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite realizar fácilmente un informe de los usuarios que han abierto la aplicación haciendo clic en un mensaje push.
+Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
 
 Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del SDK.
 
 >[!IMPORTANT]
 >
->No establezca de forma manual el Experience Cloud ID dentro de la aplicación. Con esto se crea un nuevo usuario exclusivo que no recibirá mensajes push debido a su estado Opt-in. Por ejemplo, suponga que un usuario que ha solicitado recibir mensajes push inicia sesión en la aplicación. A continuación, si establece de forma manual el identificador dentro de la aplicación, se crea un nuevo usuario exclusivo que no ha solicitado recibir estos mensajes. Este nuevo usuario no recibirá ningún mensaje push.
+>No establezca de forma manual el Experience Cloud ID dentro de la aplicación. Esto provoca la creación de un nuevo usuario único que no recibirá mensajes push debido a su estado de inclusión. Por ejemplo, un usuario ha elegido recibir mensajes push para iniciar sesión en la aplicación. Después de iniciar sesión, si establece manualmente el ID dentro de la aplicación, se crea un nuevo usuario único que no ha elegido recibir mensajes push. Este nuevo usuario no recibirá ningún mensaje push.
 >
 >No está permitido migrar la aplicación a un nuevo grupo de informes. En caso de hacerlo, podría desajustarse la configuración de push y los mensajes no se enviarían.
 
@@ -58,7 +61,7 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
 
    Estos son los requisitos para habilitar los informes de clics en mensajes push:
 
-   * En su implementación de `FireBaseMessageService`, el objeto Bundle que contiene los datos de mensajes, que se pasan al método `onMessageReceived` con el objeto RemoteMessage, se debe añadir al objeto Intent que se utiliza para abrir la actividad de destino mediante un clic. Esto se puede hacer con el método `putExtras`. Para obtener más información, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle)).
+   * En su implementación de `FireBaseMessageService`, el objeto Bundle que contiene los datos de mensajes, que se pasan al método `onMessageReceived` con el objeto RemoteMessage, se debe añadir al objeto Intent que se utiliza para abrir la actividad de destino mediante un clic. Esto se puede hacer con el método `putExtras`. Para obtener más información, consulte [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle)))
 
    ```java
    Intent intent = new Intent(this, MainActivity.class);
