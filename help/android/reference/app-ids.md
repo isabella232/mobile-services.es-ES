@@ -1,20 +1,23 @@
 ---
-description: La siguiente tabla describe los distintos ID de aplicación que emplean el SDK para Android y Adobe Mobile Services.
-seo-description: La siguiente tabla describe los distintos ID de aplicación que emplean el SDK para Android y Adobe Mobile Services.
+description: En la tabla siguiente se describen los distintos identificadores de aplicación que utilizan el SDK para Android y Adobe Mobile Services.
+seo-description: En la tabla siguiente se describen los distintos identificadores de aplicación que utilizan el SDK para Android y Adobe Mobile Services.
 seo-title: ID de la aplicación
 solution: Experience Cloud,Analytics
 title: ID de la aplicación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 72%
 
 ---
 
 
 # ID de la aplicación{#app-ids}
 
-La siguiente tabla describe los distintos ID de aplicación que emplean el SDK para Android y Adobe Mobile Services.
+En la tabla siguiente se describen los distintos identificadores de aplicación que utilizan el SDK para Android y Adobe Mobile Services.
 
 | ID | Descripción |
 |--- |--- |
