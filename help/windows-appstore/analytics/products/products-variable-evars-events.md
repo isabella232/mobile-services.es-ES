@@ -1,20 +1,23 @@
 ---
-description: Un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-seo-description: Un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
-seo-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
-solution: Marketing Cloud,Analytics
-title: Variable products con eVars de merchandising y events (eventos) específicos de productos
-topic: Desarrollador e implementación
+description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
+seo-description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
+seo-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+solution: Experience Cloud,Analytics
+title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+topic: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 translation-type: tm+mt
-source-git-commit: b630c5cf09be7fbe31018cbf50564001eb6e2a5a
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 27%
 
 ---
 
 
-# Products variable with merchandising eVars and product-specific events{#products-variable-with-merchandising-evars-and-product-specific-events}
+# Variable products con eVars de comercialización y events (eventos) específicos de productos{#products-variable-with-merchandising-evars-and-product-specific-events}
 
-Un ejemplo de la variable products con eVars de merchandising y events (eventos) específicos de productos.
+Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
 
 ```
 //create a context data dictionary 
@@ -37,5 +40,5 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->If you trigger a product-specific event using the  variable, you must also set that event in the  variable, otherwise the event is filtered out during processing.*`&&products`**`&&events`*
+>Si se activa un evento específico del producto mediante la *`&&products`* variable, también se debe establecer ese evento en la *`&&events`* variable; de lo contrario, el evento se filtrará durante el procesamiento.
 
