@@ -1,21 +1,24 @@
 ---
-description: Cree un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
-keywords: móvil
-seo-description: Cree un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
+description: Cree un filtro que abarque distintos informes para ver el rendimiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
+keywords: mobile
+seo-description: Cree un filtro que abarque distintos informes para ver el rendimiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
 seo-title: Agregar un filtro adhesivo
 solution: Experience Cloud,Analytics
 title: Agregar un filtro adhesivo
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 72%
 
 ---
 
 
 # Agregar un filtro adhesivo{#add-sticky-filter}
 
-Cree un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
+Cree un filtro que abarque distintos informes para ver el rendimiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
 
 En el siguiente ejemplo se agregan filtros adhesivos para los sistemas operativos iOS y Android al informe **[!UICONTROL Usuarios y sesiones]**, pero las instrucciones se aplican a cualquier informe o métrica.
 
