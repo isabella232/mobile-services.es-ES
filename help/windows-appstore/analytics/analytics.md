@@ -2,53 +2,56 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 11%
 
 ---
 
 
 # Analytics {#analytics}
 
-After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
+Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación.
 
 >[!TIP]
 >
->Ensure that you import  to your class.`ADBMobile.h`
+>Asegúrese de importar `ADBMobile.h` a la clase.
 
-## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
+## Habilitar informes de aplicaciones móviles en Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
-Antes de añadir código, pida a su administrador de Analytics que complete los siguientes pasos para habilitar el seguimiento de ciclo vital de aplicaciones móviles. Esto garantiza que su grupo de informes esté listo para capturar métricas cuando comience el desarrollo.
+Antes de agregar código, pida al administrador de Analytics que complete lo siguiente para habilitar el seguimiento del ciclo vital de las aplicaciones móviles. Esto garantiza que el grupo de informes esté listo para capturar métricas a medida que comienza el desarrollo.
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. Abra Herramientas **[!UICONTROL de administración]** > Grupos **[!UICONTROL de informes]** y seleccione los grupos de informes móviles.
+1. Haga clic en **[!UICONTROL Editar configuración]** > Administración **** móvil > Sistema de informes **[!UICONTROL de aplicaciones]** móviles.
 
    ![](assets/mobile-settings.png)
 
-1. Haga clic en **[!UICONTROL Habilitar los informes de aplicaciones más recientes]**.
+1. Haga clic en **[!UICONTROL Habilitar los informes]** de aplicación más recientes.
 
-   Opcionalmente, también puede hacer clic en **[!UICONTROL Activar el seguimiento de ubicación móvil]** y en **[!UICONTROL Habilitar el uso de informes anteriores y la atribución de resultados en segundo plano]**.
+   También puede hacer clic en **[!UICONTROL Activar el seguimiento]** de ubicación móvil y **[!UICONTROL Activar el Sistema de informes y la atribución heredados para las visitas]** en segundo plano.
 
    ![](assets/enable-lifecycle.png)
 
-Ya se pueden capturar las métricas del ciclo vital, e Informes de aplicaciones móviles aparece en el menú **Informes** de la interfaz de informes de marketing.
+Las métricas del ciclo vital ya están listas para capturarse y los informes de aplicaciones móviles aparecen en el menú **[!UICONTROL Informes]** de la interfaz de informes de marketing.
 
 
 ### Nuevas versiones
 
-Se lanzan nuevas versiones de los informes de aplicaciones móviles de forma periódica. Estas versiones no se aplican automáticamente a su grupo de informes, debe repetir estos pasos para realizar la actualización. Recomendamos repetir estos pasos cada vez que añada nuevas funciones de Experience Cloud a la aplicación para garantizar que dispone de la configuración más reciente.
+Periódicamente, se lanzan nuevas versiones del sistema de informes de aplicaciones móviles. Las nuevas versiones no se aplican al grupo de informes automáticamente, debe repetir estos pasos para realizar la actualización. Cada vez que agregue una nueva funcionalidad de Experience Cloud a su aplicación, le recomendamos que repita estos pasos para asegurarse de que dispone de la configuración más reciente.
 
 
-## Lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## Métricas del ciclo vital {#section_532702562A7A43809407C9A2CBA80E1E}
 
-Para recopilar métricas del ciclo vital en la aplicación, añada llamadas que se activen cuando lo haga la aplicación, como se muestra en los ejemplos siguientes.
+Para recopilar métricas del ciclo vital en la aplicación, agregue llamadas al momento en que la aplicación se activa, como se muestra en los ejemplos siguientes.
 
 
-### WinJS in default.js
+### WinJS en default.js
 
 
 ```js
@@ -122,34 +125,34 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-If `CollectLifecycleData()` is called twice in the same session, then your application will report a crash on every call after the first. Cuando la aplicación se cierra, el SDK establece un indicador que especifica una salida correcta. If this flag is not set, `CollectLifecyleData()` reports a crash.
+Si `CollectLifecycleData()` se llama dos veces en la misma sesión, la aplicación informará de un bloqueo en cada llamada después de la primera. El SDK establece un indicador cuando se cierra la aplicación que indica una salida correcta. Si no se establece este indicador, `CollectLifecyleData()` informa de un bloqueo.
 
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-Si ha consultado la Referencia [de métodos y clases](/help/windows-appstore/c-configuration/methods.md)ADBMobile, probablemente se pregunte dónde configurar eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics de cara a la realización de informes.
+Si ha observado la Referencia [de métodos y clases](/help/windows-appstore/c-configuration/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es ínfimo. Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento.
+* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto. Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
-Cualquier valor que asignara directamente a variables debe agregarse a los datos de contexto.
+Los valores que asignaba directamente a variables deberían agregarse a los datos de contexto.
 
 
 ## Reglas de procesamiento {#section_66EE762EEA5E4728864166201617DEBF}
 
-Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a eVars, props y otras variables con el fin de realizar informes.
+Las reglas de procesamiento se utilizan para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables para sistema de informes.
 
-[Formación de reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
+[Formación](https://tv.adobe.com/embed/1181/16506/) sobre reglas de procesamiento en Summit 2013
 
-[Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Resumen de las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Obtener autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Obtenga autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-Se recomienda agrupar las variables de datos de contexto mediante “espacios de nombres”, ya que esto ayuda a mantener una ordenación lógica. Por ejemplo, si quiere recopilar información acerca de un producto, podría definir las siguientes variables:
+Recomendamos agrupar las variables de datos de contexto mediante &quot;Áreas de nombres&quot;, ya que esto le ayuda a mantener un orden lógico. Por ejemplo, si desea recopilar información sobre un producto, puede definir las siguientes variables:
 
 ```js
 "product.type":"hat" 
@@ -157,27 +160,27 @@ Se recomienda agrupar las variables de datos de contexto mediante “espacios de
 "product.color":"blue"
 ```
 
-Las variables de datos de contexto se ordenan alfabéticamente en la interfaz de reglas de procesamiento, de modo que los espacios de nombres le permiten ver rápidamente qué variables hay en el mismo espacio de nombres.
+Las variables de datos de contexto se ordenan alfabéticamente en la interfaz de reglas de procesamiento, por lo que las Áreas de nombres permiten ver rápidamente las variables que están en la misma Área de nombres.
 
-Además, hay quien asigna nombres a las claves de datos de contexto empleando el número de eVar o prop:
+Además, hemos oído que algunos de ustedes están nombrando claves de datos de contexto usando el número de eVar o prop:
 
 ```js
 "eVar1":"jimbo"
 ```
 
-Esto podría ayudarle *un poco* a la hora de llevar a cabo la asignación que hay que realizar una única vez en las reglas de procesamiento, a costa de perder legibilidad durante la depuración y las futuras actualizaciones de código, que pueden resultarle más difíciles. Lo que se recomienda encarecidamente es utilizar nombres descriptivos para las claves y valores:
+Esto puede hacer que sea *ligeramente* más fácil cuando se realiza la asignación de una sola vez en las reglas de procesamiento, pero la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
 "username":"jimbo"
 ```
 
-Establezca variables de contexto que definan para los eventos de contador un valor de “1”:
+Configure variables de contexto que definan eventos de contador con un valor de &quot;1&quot;:
 
 ```js
 "logon":"1"
 ```
 
-Las variables de datos de contexto que definen eventos incrementadores pueden tener el valor a incrementar:
+Las variables de datos de contexto que definen eventos de aumento pueden tener el valor que incrementar:
 
 ```js
 "levels completed":"6"
@@ -185,31 +188,31 @@ Las variables de datos de contexto que definen eventos incrementadores pueden te
 
 >[!NOTE]
 >
->Adobe se reserva el espacio de nombres `a.`. Aparte de esta pequeña restricción, las variables de datos de contexto solo tienen que ser exclusivas en su empresa de inicio de sesión para evitar conflictos.
+>Adobe reserva el espacio de nombres `a.`. Aparte de esta pequeña restricción, las variables de datos de contexto solo deben ser únicas en la compañía de inicio de sesión para evitar conflictos.
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variable Products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Consulte Variable [Productos](/help/windows-appstore/analytics/products/products.md).
 
-## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
+## (Opcional) Habilitar el seguimiento sin conexión {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Antes de habilitar el seguimiento sin conexión, preste atención a los requisitos de marca de tiempo descritos en la referencia del archivo de configuración.
+Para almacenar visitas cuando el dispositivo está sin conexión, puede habilitar el seguimiento sin conexión en la configuración [ADBMobileConfig.json](/help/windows-appstore/c-configuration/methods.md). Antes de habilitar el seguimiento sin conexión, preste atención a los requisitos de marca de tiempo descritos en la referencia del archivo de configuración.
 
-## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
+## Geolocalización y puntos de interés {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-La geolocalización le permite medir datos de ubicación (latitud/longitud) y puntos de interés predefinidos. Each `TrackLocation` call sends:
+La geolocalización permite medir datos de ubicación (latitud/longitud) y puntos de interés predefinidos. Cada `TrackLocation` llamada envía:
 
-* Latitud/Longitud y puntos de interés (o POI, si es que se encuentra en un POI definido en el archivo de configuración `ADBMobileConfig.json`). Estos valores se pasan a variables de soluciones móviles para la realización automática de informes.
-* Distancia al centro y precisión, pasados como datos de contexto. Captura mediante una regla de procesamiento.
+* Latitud/Longitud y puntos de interés (si se encuentra dentro de un punto de interés definido en el archivo `ADBMobileConfig.json` de configuración). Se pasan a variables de soluciones móviles para sistema de informes automático.
+* Distancia desde el centro y precisión pasados como datos de contexto. Capturar mediante una regla de procesamiento.
 
-Para realizar el seguimiento de una ubicación:
+Para rastrear una ubicación:
 
 ```js
 var ADB = ADBMobile; 
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-Si el siguiente POI está definido en el archivo de configuración `ADBMobileConfig.json`:
+Si el siguiente punto de interés está definido en el archivo `ADBMobileConfig.json` de configuración:
 
 ```js
 "poi" : [ 
@@ -217,7 +220,7 @@ Si el siguiente POI está definido en el archivo de configuración `ADBMobileCon
         ]
 ```
 
-Cuando se determina que el dispositivo se encuentra dentro de un radio de 7000 metros del punto definido, se envía una variable de datos de contexto `a.loc.poi` con el valor “San Francisco” junto a la visita `TrackLocation`. Se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
+Cuando se determina que la ubicación del dispositivo está dentro de un radio de 7000 metros del punto definido, se envía una variable de datos de `a.loc.poi` contexto con el valor &quot;San Francisco&quot; junto con la `TrackLocation` visita. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
 ## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
@@ -234,12 +237,12 @@ cdata["PurchasePrice"] = purchasePrice;
 ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 ```
 
-## Timed actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
+## Acciones temporizadas {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
-Las acciones temporizadas le permiten medir el tiempo dentro de la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo de sesión y el tiempo total (entre sesiones) que la acción tarda en completarse. Esto sirve para definir segmentos donde comparar tiempo de compra, nivel de paso, flujo de verificación, etc.
+Las acciones temporizadas le permiten medir el tiempo dentro de la aplicación y el tiempo total entre el inicio y el final de una acción. El SDK calcula la cantidad de tiempo en la sesión y el tiempo total (entre sesiones) que tarda la acción en completarse. Esto se puede usar para definir segmentos que comparar en el tiempo de compra, nivel de paso, flujo de cierre de compra, etc.
 
-* Total de segundos en la aplicación entre inicio y final (entre sesiones)
-* Total de segundos entre inicio y final (tiempo de reloj)
+* Total de segundos en la aplicación entre inicio y final: entre sesiones
+* Total de segundos entre el inicio y el final (hora del reloj)
 
 ```js
 // Timed Action Start Example 
