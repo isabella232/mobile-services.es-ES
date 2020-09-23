@@ -2,13 +2,13 @@
 description: Esta es una lista de métodos del servicio de ID de Adobe Experience Platform que proporciona la biblioteca iOS.
 seo-description: Esta es una lista de métodos del servicio de ID de Adobe Experience Platform que proporciona la biblioteca iOS.
 seo-title: Métodos del servicio de ID de Adobe Experience Platform
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Métodos del servicio de ID de Adobe Experience Platform
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 
