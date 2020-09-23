@@ -1,21 +1,24 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada del servidor.
-keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada del servidor.
+description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
+keywords: android;library;mobile;sdk
+seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: ht
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 48%
 
 ---
 
 
 # Variable Products {#products-variable}
 
-La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada del servidor.
+La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
 
 Para establecer la variable *products*, establezca una clave de datos de contexto en `"&&products"` y el valor empleando la sintaxis definida para la variable *products*:
 
