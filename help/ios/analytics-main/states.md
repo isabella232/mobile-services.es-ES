@@ -1,20 +1,23 @@
 ---
-description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se envía una llamada de estado de seguimiento. En iOS, el seguimiento de los estados suele realizarse en el método viewDidLoad de cada vista.
-seo-description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se envía una llamada de estado de seguimiento. En iOS, el seguimiento de los estados suele realizarse en el método viewDidLoad de cada vista.
+description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en la aplicación, por ejemplo, cuando un usuario navega de la página de inicio a la fuente de noticias, se debe enviar una llamada de estado de seguimiento. En iOS, el seguimiento de un estado suele realizarse en el método viewDidLoad de cada vista.
+seo-description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en la aplicación, por ejemplo, cuando un usuario navega de la página de inicio a la fuente de noticias, se debe enviar una llamada de estado de seguimiento. En iOS, el seguimiento de un estado suele realizarse en el método viewDidLoad de cada vista.
 seo-title: Seguimiento de estados de aplicaciones
 solution: Experience Cloud,Analytics
 title: Seguimiento de estados de aplicaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 58%
 
 ---
 
 
 # Seguimiento de estados de aplicaciones {#track-app-states}
 
-Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se envía una llamada de estado de seguimiento. En iOS, el seguimiento de los estados suele realizarse en el método viewDidLoad de cada vista.
+Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en la aplicación, por ejemplo, cuando un usuario navega de la página de inicio a la fuente de noticias, se debe enviar una llamada de estado de seguimiento. En iOS, el seguimiento de un estado suele realizarse en el método viewDidLoad de cada vista.
 
 >[!TIP]
 >
@@ -56,10 +59,10 @@ El valor de los datos de contexto debe asignarse a variables personalizadas:
 
 ## Realización de informes de estado de la aplicación {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-Los estados suelen verse mediante un informe de ruta, por lo que puede ver cuántos usuarios navegan por su aplicación y qué estados se ven más.
+Los estados generalmente se ven mediante un informe de rutas para que pueda ver cómo navegan los usuarios en la aplicación y qué estados se ven más.
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | El informe **[!UICONTROL Ver estados]**. Este informe se basa en las rutas que los usuarios tomaron a través de su aplicación. Una ruta de ejemplo es **[!UICONTROL Inicio]**  &gt;  **[!UICONTROL Configuración]**  &gt; **[!UICONTROL Fuente]**. |
+| Adobe Mobile Services | El informe **[!UICONTROL Ver estados]**. Este informe se basa en las rutas que los usuarios tomaron a través de su aplicación. A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
 | Adobe Analytics | Los estados pueden verse desde cualquier parte donde puedan verse las Páginas, como los informes **[!UICONTROL Páginas]**, **[!UICONTROL Vistas de la página]** y **[!UICONTROL Ruta]**. |
 | Análisis específico | Los estados pueden verse desde cualquier parte donde puedan verse las Páginas empleando la dimensión **[!UICONTROL Página]**, la métrica **[!UICONTROL Vistas de la página]** y los informes **[!UICONTROL Ruta]**. |
