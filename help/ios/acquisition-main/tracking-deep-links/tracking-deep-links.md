@@ -5,8 +5,11 @@ seo-title: Seguimiento de vínculos profundos
 solution: Experience Cloud,Analytics
 title: Seguimiento de vínculos profundos
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,7 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
 
    Para obtener más información, consulte [Comunicaciones entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o [Vínculos universales de compatibilidad](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
-1. Realice un seguimiento de vínculos profundos en openURL.
+1. Rastree el vínculo profundo en openURL.
 
    Este es un ejemplo de vínculo profundo de seguimiento:
 
