@@ -1,14 +1,17 @@
 ---
 description: Puede usar esta información para configurar las opciones de los servicios push en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
-keywords: móvil
+keywords: mobile
 seo-description: Puede usar esta información para configurar las opciones de los servicios push en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 seo-title: Configurar la mensajería push
 solution: Experience Cloud,Analytics
 title: Configurar la mensajería push
-topic: Métricas
+topic: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
-translation-type: ht
-source-git-commit: 2c85c31d2fa54de26771553a6d349d3101e0048c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +24,7 @@ Antes de configurar la mensajería push, complete las tareas previas en [Requisi
 
 * **Consideraciones sobre los grupos de informes**
 
-   Puede configurar una aplicación de tienda de aplicaciones para Apple y otra para Google en cada grupo de informes. Si necesita más aplicaciones, por ejemplo, una para un entorno de producción y otra para uno de desarrollo, configure una aplicación de tienda de aplicaciones y un grupo de informes para cada entorno.
+   Puede configurar una aplicación de tienda de aplicaciones para Apple y otra para Google en cada grupo de informes. Si necesita aplicaciones adicionales, por ejemplo, una para un entorno de producción y otra para un entorno de desarrollo, configure una nueva aplicación de tienda de aplicaciones y un nuevo grupo de informes para cada entorno.
 
 >[!IMPORTANT]
 >
