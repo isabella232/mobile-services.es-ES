@@ -2,12 +2,12 @@
 description: Puede enviar mensajes en la aplicación que se activen a partir de cualquier evento o dato de análisis. Después de la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
 seo-description: Puede enviar mensajes en la aplicación que se activen a partir de cualquier evento o dato de análisis. Después de la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
 seo-title: Mensajería en la aplicación
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Mensajería en la aplicación
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 61%
