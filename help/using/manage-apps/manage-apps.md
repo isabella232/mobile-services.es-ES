@@ -1,14 +1,17 @@
 ---
 description: En la página Administrar aplicaciones, puede crear, administrar y eliminar aplicaciones.
-keywords: móvil
+keywords: mobile
 seo-description: En la página Administrar aplicaciones, puede crear, administrar y eliminar aplicaciones.
 seo-title: Información general sobre la gestión de aplicaciones
 solution: Experience Cloud,Analytics
 title: Información general sobre la gestión de aplicaciones
-topic: Métricas
+topic: Metrics
 uuid: 5949f549-172e-417e-b668-71fec628586a
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 100%
 
 ---
 
