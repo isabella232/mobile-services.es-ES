@@ -4,10 +4,13 @@ seo-description: Esta información le ayuda a hacer la migración de las version
 seo-title: Migración a la biblioteca iOS 4.x
 solution: Experience Cloud,Analytics
 title: Migración a la biblioteca iOS 4.x
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: ht
-source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 61%
 
 ---
 
@@ -24,15 +27,15 @@ En la biblioteca de la versión 4.x del SDK para iOS, los métodos públicos se 
 
 ## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-En la versión 4 ya no puede asignar directamente en su aplicación variables como events, eVars, props, heirs y lists. En lugar de ello, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es muy pequeño.
+* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto.
 
-   Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento.
+   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
 >[!TIP]
 >
@@ -73,8 +76,8 @@ El nuevo archivo `ADBMobileConfig.json` contiene ajustes globales y específicos
 
 Para mover el archivo de configuración:
 
-1. Mueva el valor establecido para la variable de la primera columna a la variable de la segunda columna.
-1. Elimine la antigua variable de configuración de su código.
+1. Mueva el valor establecido para la variable en la primera columna a la variable en la segunda columna.
+1. Elimine la variable de configuración antigua del código.
 
 ### Información de migración
 
@@ -82,44 +85,44 @@ Las siguientes tablas listan las variables de configuración que debe mover al a
 
 #### Migración desde la versión 3.x
 
-Mueva el valor de la primera columna a la variable en la segunda columna.
+Mueva el valor de la primera columna a la variable de la segunda columna.
 
 | Variable de configuración | Variable en el archivo `ADBMobileConfig.json` |
 |--- |--- |
-| offlineTrackingEnabled | "offlineEnabled" |
-| offlineHitLimit | "batchLimit" |
-| reportSuiteIDs | "rsids" |
-| trackingServer | "server" |
-| charSet | "charset" |
-| currencyCode | "currency" |
-| ssl | "ssl" |
+| offlineTrackingEnabled | &quot;offlineEnabled&quot; |
+| offlineHitLimit | &quot;batchLimit&quot; |
+| reportSuiteIDs | &quot;rsids&quot; |
+| trackingServer | &quot;server&quot; |
+| charSet | &quot;charset&quot; |
+| currencyCode | &quot;currency&quot; |
+| ssl | &quot;ssl&quot; |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
 
 
 #### Migración desde la versión 2.x
 
-Mueva el valor de la primera columna a la variable en la segunda columna.
+Mueva el valor de la primera columna a la variable de la segunda columna.
 
 | Variable de configuración | Variable en el archivo `ADBMobileConfig.json` |
 |--- |--- |
-| trackOffline | "offlineEnabled" |
-| offlineLimit | "batchLimit" |
-| account | "rsids" |
-| trackingServer | "server", elimine el prefijo `"https://"`. El prefijo de protocolo se agrega automáticamente en función del ajuste “ssl”. |
-| trackingServerSecure | Eliminar. Para conexiones seguras, defina “server” y después habilite “ssl”. |
-| charSet | "charset" |
-| currencyCode | "currency" |
-| ssl | "ssl" |
+| trackOffline | &quot;offlineEnabled&quot; |
+| offlineLimit | &quot;batchLimit&quot; |
+| account | &quot;rsids&quot; |
+| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. El prefijo de protocolo se agrega automáticamente según la configuración &quot;ssl&quot;. |
+| trackingServerSecure | Eliminar. Para conexiones seguras, defina &quot;server&quot; y luego habilite &quot;ssl&quot;. |
+| charSet | &quot;charset&quot; |
+| currencyCode | &quot;currency&quot; |
+| ssl | &quot;ssl&quot; |
 | linkTrackVars | Eliminar, ya no se utiliza. |
 | linkTrackEvents | Eliminar, ya no se utiliza. |
-| timestamp | Eliminar, ya no es configurable. |
+| timestamp | Eliminar, ya no se puede configurar. |
 | dc | Eliminar, ya no se utiliza. |
-| userAgent | Eliminar, ya no es configurable. |
+| userAgent | Eliminar, ya no se puede configurar. |
 | dynamicVariablePrefix | Eliminar, ya no se utiliza. |
 | visitorNamespace | Eliminar, ya no se utiliza. |
 | usePlugins | Eliminar, ya no se utiliza. |
-| useBestPractices  todas las llamadas para producir mediciones (getChurnInstance ) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
+| useBestPractices todas las llamadas para producir mediciones ( getChurnInstance ) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
 
 
 ## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
@@ -136,15 +139,15 @@ El parámetro `data` para ambos métodos es un `NSDictionary` que contiene pares
 
 ### Eventos, props y eVars
 
-En la versión 4 ya no puede asignar directamente en su aplicación variables como events, eVars, props, heirs y lists. Ahora el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de su aplicación a variables de Analytics para la realización de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas directamente en la aplicación. El SDK ahora utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin tener que enviar una actualización al App Store.
-* Puede utilizar nombres significativos para los datos, en vez de establecer variables específicas para un grupo de informes.
-* El impacto de enviar los datos extra es muy pequeño.
+* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
+* El envío de datos adicionales tiene poco impacto.
 
-   Estos valores no aparecen en los informes hasta que se los asigna mediante reglas de procesamiento. Para obtener más información, consulte [Reglas de procesamiento y datos de contexto](/help/ios/getting-started/proc-rules.md).
+   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento. Para obtener más información, consulte Reglas [de procesamiento y Datos](/help/ios/getting-started/proc-rules.md)de contexto.
 
 Los valores que asignaba directamente a variables deberían agregarse al `data``NSDictionary`. Esto significa que las llamadas a `setProp` y `setEvar`, así como las asignaciones a datos de contexto persistentes, deberían eliminarse para agregar sus valores al parámetro `data`.
 
