@@ -1,14 +1,17 @@
 ---
 description: Esta información sirve para personalizar los informes integrados mediante la adición de filtros (segmentos) adicionales.
-keywords: móvil
+keywords: mobile
 seo-description: Esta información sirve para personalizar los informes integrados mediante la adición de filtros (segmentos) adicionales.
 seo-title: Añadir filtros a informes
 solution: Experience Cloud,Analytics
 title: Añadir filtros a informes
-topic: Informes, métricas
+topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 70%
 
 ---
 
@@ -23,11 +26,11 @@ Esta información sirve para personalizar los informes integrados mediante la ad
 
 En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]**, pero las instrucciones sirven para cualquier informe.
 
-1. Abra la aplicación y haga clic en **[!UICONTROL Uso]** &gt; **[!UICONTROL Usuarios y sesiones]**.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![](assets/customize1.png)
 
-   En este informe se proporciona una vista de tiempo extra completa de nuestros usuarios de la aplicación. Sin embargo, las métricas para las dos versiones de iOS y Android de esta aplicación se recopilan en el mismo grupo de informes. Podemos segmentar a los usuarios por sistema operativo móvil agregando un filtro personalizado a la métrica Usuarios.
+   Este informe proporciona una vista completa de las horas extra de los usuarios de la aplicación. Sin embargo, las métricas de las versiones iOS y Android de esta aplicación se recopilan en el mismo grupo de informes. Podemos segmentar usuarios por sistema operativo móvil agregando un filtro personalizado a la métrica Usuarios.
 
 1. Haga clic en **[!UICONTROL Personalizar]**.
 
@@ -50,7 +53,7 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]*
 1. Haga clic en **[!UICONTROL Actualizar]**.
 1. Para regenerar el informe, haga clic en **[!UICONTROL Ejecutar]**.
 
-   Ahora, este informe muestra los usuarios desglosados por sistema operativo. El título del informe se ha modificado para que coincida con los filtros que se le han aplicado.
+   Este informe ahora muestra los usuarios desglosados por sistema operativo. El título del informe se cambió para coincidir con los filtros aplicados al informe.
 
    ![](assets/customize5.png)
 
@@ -64,8 +67,8 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]*
 
 1. Haga clic en **[!UICONTROL Actualizar]** y **[!UICONTROL Ejecutar]**.
 
-   Ahora, en este informe se muestran los usuarios con iOS 8.3 que han utilizado la aplicación por primera vez.
+   Este informe ahora muestra los usuarios con iOS 8.3 que han iniciado la aplicación por primera vez.
 
    ![](assets/customize7.png)
 
-   Pruebe las diferentes opciones del menú de personalización del informe y no olvide agregar sus favoritos. Las direcciones URL de informes de Adobe Mobile son completamente funcionales y pueden enviarse por correo electrónico o agregarse a los favoritos.
+   Tómese algún tiempo para probar las diferentes opciones del menú de personalización de informes y asegúrese de marcar sus favoritos. Las direcciones URL de informes de Adobe Mobile son completamente funcionales y pueden enviarse por correo electrónico o agregarse a los favoritos.
