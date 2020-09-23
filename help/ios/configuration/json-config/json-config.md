@@ -2,15 +2,15 @@
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
 seo-title: Configuración JSON de ADBMobile
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **coopUnsafe**
 
-   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. No existe una ruta de autoservicio que permita habilitar estos indicadores.
+   Para los miembros de Device Co-op que necesitan que este valor se establezca en `true`, necesitará colaborar con el equipo de Co-op para solicitar un marcador de lista negra en su cuenta de Device Co-op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
    Recuerde la información siguiente:
 
@@ -134,7 +134,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    * Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` *debe* ser verdadera.
    * Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false.
 
-      Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, póngase en contacto con el servicio de atención al cliente o descargue el archivo de configuración desde Adobe Mobile Services. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
+      Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,  póngase en contacto  con el servicio de atención al cliente o descargue el archivo de configuración desde Adobe Mobile Services. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite establecer un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp`.
 
    * Versión mínima del SDK: 4.0
 
