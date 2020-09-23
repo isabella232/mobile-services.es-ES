@@ -1,17 +1,20 @@
 ---
-description: Información útil para configurar el SDK de la Plataforma universal de Windows, incluyendo la configuración JSON, la creación de lotes de visitas y los métodos de SDK.
-seo-description: Información útil para configurar el SDK de la Plataforma universal de Windows, incluyendo la configuración JSON, la creación de lotes de visitas y los métodos de SDK.
+description: Información útil para configurar el SDK de la Plataforma universal de Windows, incluida la configuración JSON, el agrupamiento de visitas y los métodos SDK.
+seo-description: Información útil para configurar el SDK de la Plataforma universal de Windows, incluida la configuración JSON, el agrupamiento de visitas y los métodos SDK.
 seo-title: Configuración
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Configuración
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: f49667b9-b87b-42bd-b7a6-4c6154d1b137
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 5%
 
 ---
 
 
 # Configuración{#configuration}
 
-Información útil para configurar el SDK de la Plataforma universal de Windows, incluyendo la configuración JSON, la creación de lotes de visitas y los métodos de SDK.
+Información útil para configurar el SDK de la Plataforma universal de Windows, incluida la configuración JSON, el agrupamiento de visitas y los métodos SDK.
