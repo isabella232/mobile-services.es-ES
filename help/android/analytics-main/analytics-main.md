@@ -8,7 +8,7 @@ title: Información general de Analytics
 topic: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 73%
@@ -34,8 +34,8 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 En los SDK, los identificadores se utilizan para rastrear usuarios y aquí está la jerarquía de identificadores:
 
 1. Identificador de Visitante personalizado (VID)
-2. Identificador de seguimiento de Analytics (AID)
-3. Identificador de Experience Cloud (MID)
+1. Identificador de seguimiento de Analytics (AID)
+1. Identificador de Experience Cloud (MID)
 
 >[!TIP]
 >
