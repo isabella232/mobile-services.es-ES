@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Métricas del ciclo vital
 topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Métricas del ciclo vital{#lifecycle-metrics}
+# Métricas del ciclo vital {#lifecycle-metrics}
 
 Esta sección contiene información sobre las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo. Para obtener más información sobre la solución de problemas, vaya a [Solucionar problemas con los datos del ciclo vital](https://helpx.adobe.com/es/analytics/kb/troubleshoot-lifecycle-data.html).
 
@@ -31,7 +31,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 ## Métricas y dimensiones del ciclo vital {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros para el Destinatario con cada llamada de mbox y como señal para la administración de audiencias. Analytics y Destinatario utilizan el mismo formato, mientras que la administración de audiencias utiliza un prefijo diferente para cada métrica.
+Cuando están configuradas, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros a Target con cada llamada de mbox y como señal a Audience Manager. Analytics y Target usan el mismo formato, mientras que Audience Manager usa un prefijo distinto para cada métrica.
 
 En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se comunican usando la métrica o la dimensión y se registran las excepciones.
 
@@ -326,7 +326,7 @@ Las siguientes métricas y dimensiones las captura en variables de soluciones m�
 
 * **Fuente de campaña**
 
-   Remitente del reenvío original, como un boletín informativo o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
+   Referente original, como un boletín informativo o una red de medios sociales. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetros de Target/datos contextuales de Analytics: `a.referrer.campaign.source`
    * Característica de Audience Manager: `c_a_referrer_campaign_source`
