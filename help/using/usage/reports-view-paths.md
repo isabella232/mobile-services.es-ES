@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Ver informe de rutas
 topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ El informe **[!UICONTROL Ver rutas]**, que se basa en el análisis de estas, mue
 
 ![ver rutas](assets/view_paths.png)
 
-Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en la ilustración anterior, el nodo principal representa el número de usuarios que iniciaron la aplicación y navegaron a la vista principal.
+Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en la ilustración anterior, el nodo principal representa la cantidad de usuarios que iniciaron la aplicación y navegaron a la vista principal.
 
 Cuando haga clic en un nodo para proporcionar las opciones adicionales que permiten modificar el gráfico, aparecerán iconos como **[!UICONTROL Enfocar]** o **[!UICONTROL Expandir]**. Por ejemplo, si hace clic en el estado **[!UICONTROL MainView]** del nodo principal, aparecen los iconos **[!UICONTROL Enfoque]** y **[!UICONTROL Expandir]**.
 
-To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. En la siguiente ilustración, el estado 1 inicia la aplicación, el estado 2 está viendo la página principal de la aplicación y el estado 3 incluye las siguientes rutas que tomaron los usuarios:
+Para expandir la vista, haga clic en el icono **[!UICONTROL +]** para mostrar las rutas adicionales que llegan a un nodo o salen de él. En la siguiente ilustración, el estado 1 inicia la aplicación, el estado 2 está viendo la página principal de la aplicación y el estado 3 incluye las siguientes rutas que tomaron los usuarios:
 
 * Navegación al carrete de la cámara
 * navegación al selector de elementos
-* desplazarse a la cámara
-* navegar a la página de información del elemento
+* navegación a la cámara
+* navegación a la página de información del elemento
 
 ![](assets/view_paths_expand.png)
 
@@ -54,7 +54,7 @@ Puede enfocar o expandir varios nodos para obtener una vista detallada de las ru
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]** Haga clic en el icono de **[!UICONTROL Calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+* **[!UICONTROL Periodo]** Haga clic en el icono de **[!UICONTROL Calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 * **[!UICONTROL Personalizar]** Personalice los informes cambiando las opciones **[!UICONTROL Mostrar por]**, agregando métricas, filtros, series (métricas) adicionales y mucho más. Para obtener más información, consulte [Personalización de informes](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL Filtrar]** Haga clic en **[!UICONTROL Filtro]** para crear un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento en todos los informes móviles. Un filtro adhesivo permite definir un filtro que se aplica a todos los informes sin rutas. Para obtener más información, consulte [Agregar filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md).
 * **[!UICONTROL Descargar]** Haga clic en **[!UICONTROL PDF]** o **[!UICONTROL CSV]** para descargar o abrir documentos, compartirlos con otros usuarios que no tengan acceso a Mobile Services o usarlos en presentaciones.
