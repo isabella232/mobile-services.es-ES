@@ -7,20 +7,20 @@ solution: Experience Cloud,Analytics
 title: Administrar mensajes
 topic: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# Administrar mensajes{#manage-messages}
+# Administrar mensajes {#manage-messages}
 
 Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y si los mensajes se han activado o desactivado.
 
-Puede duplicado, activación/desactivación y archivado/desarchivado de mensajes. También puede crear una vista de un informe que muestre el número de usuarios que vieron el mensaje y el número de usuarios que hicieron clic en él.
+Puede duplicar, activar/desactivar y archivar/quitar los mensajes del archivo. También puede crear una vista de un informe que muestre la cantidad de usuarios que vieron el mensaje y la cantidad de usuarios que hicieron clic en él.
 
 Para administrar mensajes, haga clic en ***su nombre_aplicación*** > **[!UICONTROL Mensajería]** > **[!UICONTROL Administrar mensajes]**.
 
@@ -30,7 +30,7 @@ A continuación se proporciona información adicional sobre las tareas que puede
 
 * **Buscar y filtrar mensajes**
 
-   Utilice el cuadro de búsqueda que aparece en la parte superior de la lista para buscar y filtrar mensajes. Cualquier cosa que escriba en el cuadro de búsqueda mostrará los mensajes coincidentes de la lista. La búsqueda funciona en todas las columnas de la tabla. Por ejemplo, puede escribir `Draft` para mostrar solo los mensajes que tengan este estado. También puede escribir el nombre de un usuario para que solo se muestren mensajes que haya actualizado ese usuario.
+   Utilice el cuadro de búsqueda que aparece en la parte superior de la lista para buscar y filtrar mensajes. Cualquier cosa que escriba en el cuadro de búsqueda mostrará los mensajes coincidentes de la lista. La búsqueda funciona en todas las columnas de la tabla. Por ejemplo, puede escribir  `Draft` para mostrar solo los mensajes que tengan este estado. También puede escribir el nombre de un usuario para que solo se muestren mensajes que haya actualizado ese usuario.
 
    Además del cuadro de búsqueda, también puede hacer clic en el encabezado de cualquier columna para clasificar en orden ascendente o descendente el contenido de esa columna.
 
@@ -40,9 +40,9 @@ A continuación se proporciona información adicional sobre las tareas que puede
 
    1. Seleccione la casilla de verificación situada junto a uno o varios mensajes y haga clic en **[!UICONTROL Duplicar seleccionados]**.
    1. Seleccione la aplicación para la que desea crear un mensaje de duplicado.
-   1. Escriba un nombre para el mensaje.
+   1. Introduzca un nombre para el mensaje.
 
-      Para duplicado de un mensaje para la misma aplicación, escriba un nombre nuevo para el mensaje. Si mantiene el mismo nombre para sobrescribir el mensaje original. Si va a duplicar un mensaje para una aplicación diferente, puede mantener el mismo nombre sin que se sobrescriba el mensaje original.
+      Para duplicar un mensaje para la misma aplicación, escriba un nombre nuevo para el mensaje. Si mantiene el mismo nombre para sobrescribir el mensaje original. Si va a duplicar un mensaje para una aplicación diferente, puede mantener el mismo nombre sin que se sobrescriba el mensaje original.
 
    1. Haga clic en **[!UICONTROL Duplicar]** o **[!UICONTROL Sobrescribir]** según sea necesario.
 
