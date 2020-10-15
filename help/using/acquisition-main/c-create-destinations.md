@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Destinos
 topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Destinos{#destinations}
+# Destinos {#destinations}
 
 Los especialistas en marketing pueden crear, guardar y editar destinos de vínculo, como vínculos web, profundos, etc., que se pueden utilizar mientras se generan vínculos de marketing a los que se pueda realizar un seguimiento.
 
@@ -30,7 +30,7 @@ Puede crear los siguientes tipos de destinos de vínculo:
 
 * **[!UICONTROL Vínculo web]**
 
-   Los destinos de vínculo web dirigen a los usuarios a una dirección URL específica. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un minorista en línea.
+   Los destinos de vínculo web dirigen a los usuarios a una dirección URL específica. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un comerciante en línea.
 
    >[!IMPORTANT]
    >
@@ -40,4 +40,4 @@ Puede crear los siguientes tipos de destinos de vínculo:
 
    Los vínculos híbridos admiten vínculos universales iOS o vínculos para aplicaciones Android.
 
-Para obtener más información sobre cómo crear cada tipo de vínculo, consulte [Crear un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+Para obtener más información sobre cómo crear cada tipo de vínculo, consulte  [Crear un nuevo destino de vínculo](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
