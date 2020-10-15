@@ -1,16 +1,16 @@
 ---
-description: Esta información le ayuda a utilizar los vínculos de seguimiento de adquisición en sus aplicaciones de iOS.
-seo-description: Esta información le ayuda a utilizar los vínculos de seguimiento de adquisición en sus aplicaciones de iOS.
+description: Esta información le ayuda a utilizar vínculos de seguimiento de adquisición en sus aplicaciones iOS.
+seo-description: Esta información le ayuda a utilizar vínculos de seguimiento de adquisición en sus aplicaciones iOS.
 seo-title: Adquisición
 solution: Experience Cloud,Analytics
 title: Adquisición
 topic: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
