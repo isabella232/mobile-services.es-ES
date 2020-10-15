@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Si la aplicación termina sin haber sido antes puesta en segundo plano, el SDK c
 
 iOS utiliza notificaciones del sistema que permiten a los desarrolladores realizar un seguimiento y responder a distintos estados y eventos en el ciclo vital de la aplicación.
 
-El SDK para iOS de Adobe Mobile tiene un controlador de notificación que responde a la notificación `UIApplicationDidEnterBackgroundNotification`. En este código, se establece un valor que indica que el usuario ha puesto la aplicación en segundo plano. En un lanzamiento posterior, si no se encuentra ese valor, se informa de un bloqueo.
+El SDK para iOS de Adobe Mobile tiene un controlador de notificación que responde a la notificación `UIApplicationDidEnterBackgroundNotification`. En este código, se establece un valor que indica que el usuario ha puesto la aplicación en segundo plano. En un lanzamiento posterior, si no se encuentra ese valor, se informa un bloqueo.
 
 ## ¿Por qué mide Adobe los bloqueos de este modo?
 
@@ -41,7 +41,7 @@ Las bibliotecas de informes de bloqueos que proporcionan empresas como Apteligen
 
 ## ¿Qué puede provocar que se comunique un falso bloqueo?
 
-Se sabe que los siguientes escenarios causan incorrectamente que el SDK informe de un bloqueo:
+Se sabe que los siguientes escenarios causan incorrectamente que el SDK informe un bloqueo:
 
 * Si está depurando con Xcode, volver a iniciar la aplicación mientras está en primer plano provoca un bloqueo.
 
