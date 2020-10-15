@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Configuración del estado de exclusión del usuario
 topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Puede controlar si la actividad de Analytics, Target y Audience Manager está pe
 
    Una vez que haya cambiado la configuración de privacidad empleando este método, el cambio será permanente hasta que vuelva a cambiarse mediante este método, o hasta que desinstale y vuelva a instalar la aplicación.
 
-   Para obtener más información sobre los métodos, consulte [Métodos de configuración](/help/ios/configuration/json-config/json-config.md).
+   Para obtener más información sobre los métodos, consulte  [Métodos de configuración](/help/ios/configuration/json-config/json-config.md).
 
 Esta es la información sobre cada estado de privacidad:
 
