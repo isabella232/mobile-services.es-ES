@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | El servidor debe ser `c00.adobe.com`. El `appid` debe coincidir con el *`appid`* del vínculo de adquisición. |
+   | adquisición | El servidor debe ser `c00.adobe.com`. El `appid` debe coincidir con el *`appid`* del vínculo de adquisición. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 1. (Condicional) Si el ajuste SSL en el archivo de configuración de la aplicación está establecido en `false`, actualice el vínculo de adquisición para que utilice el protocolo HTTP en lugar de HTTPS.
@@ -67,7 +67,7 @@ Las siguientes instrucciones le ayudan a realizar una campaña de adquisición d
 
    A continuación se ofrece información sobre posibles errores:
 
-   * `Analytics - Unable to retrieve acquisition service response (<error message>)`::
+   * `Analytics - Unable to retrieve acquisition service response (<error message>)`
 
       Se ha producido un error de red.
 
