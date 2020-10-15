@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Métodos de Target para iOS
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,8 +56,9 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* Si utiliza algún SDK **anterior** a la versión 4.14.0, consulte [Parámetros de entrada](https://developers.adobetarget.com/api/#input-parameters) para obtener información sobre las limitaciones de parámetros.
->
->* Si utiliza algún SDK de la versión 4.14.0 **o posterior**, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters) para obtener información sobre las limitaciones de parámetros.
+   >
+   >
+* Si utiliza algún SDK de la versión 4.14.0 **o posterior**, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters) para obtener información sobre las limitaciones de parámetros.
 
 
 ### Métodos
