@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Agrupamiento de visitas
 topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Para habilitar el agrupamiento de visitas, actualice el archivo `ADBMobileConfig
 
 Cuando establece un número mayor que 0, el SDK va poniendo en cola un número de visitas igual a *`batchLimit`*. Después de superar este umbral, se envían todas las visitas en la cola.
 
-Con el agrupamiento de visitas se utilizan los siguientes métodos:
+Con el agrupamiento de visitas, se utilizan los siguientes métodos:
 
 * `trackingGetQueueSize()` devuelve un valor `NSUInteger` con el número de visitas que hay actualmente en la cola de agrupamiento de visitas.
 * `trackingSendQueuedHits()` fuerza a la biblioteca a que envíe todas las visitas en la cola, sin importar cuántas haya.
