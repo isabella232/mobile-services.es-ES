@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Vínculos universales de Apple y de la aplicación de Android
 topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Vínculos universales de Apple y de la aplicación de Android{#universal-links-and-app-links}
+# Vínculos universales de Apple y de la aplicación de Android {#universal-links-and-app-links}
 
 Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 
@@ -66,7 +66,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
 1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos universales:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** > **[!UICONTROL Generador de vínculos de marketing]**.
 
    b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
@@ -78,7 +78,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
    e. Si la opción **[!UICONTROL Utilizar vínculos universales o de aplicación]** está seleccionada, se muestra el campo **[!UICONTROL Ruta personalizada]**.
 
-   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe `my/universal/link?os=9.2`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
+   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe  `my/universal/link?os=9.2`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`.
 
    f. Haga clic en la pestaña **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
 
@@ -125,7 +125,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
 1. En Adobe Mobile Services, cree un vínculo de marketing que utilice vínculos de aplicación:
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   Seleccione la aplicación en la página de inicio de Mobile Services, haga clic en **[!UICONTROL Adquisición]** > **[!UICONTROL Generador de vínculos de marketing]**.
 
    b. Haga clic en **[!UICONTROL Crear nuevo]**.
 
@@ -137,7 +137,7 @@ Puede crear un vínculo de marketing que utilice un vínculo universal o de apli
 
    e. Si **[!UICONTROL Utilizar vínculos universales o de aplicación]** está seleccionado, se muestra el campo **[!UICONTROL Ruta personalizada]**.
 
-   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe `my/app/link?os=6.0`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
+   Aquí los usuarios pueden definir la ruta de URL después del dominio, así como parámetros de consulta. Por ejemplo, si escribe  `my/app/link?os=6.0`, la dirección URL completa del vínculo de marketing se convierte en `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`.
 
    f. Haga clic en la pestaña **[!UICONTROL Decisiones]** y configure el árbol de decisiones.
 
