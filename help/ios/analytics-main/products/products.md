@@ -1,23 +1,23 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
-seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
+description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos directamente en la llamada al servidor.
+seo-description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos directamente en la llamada al servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
 topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
 # Variable Products {#products-variable}
 
-La variable products no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
+La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK para iOS 4.x, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos directamente en la llamada al servidor.
 
 Para establecer la variable *`products`*, establezca una clave de datos de contexto en `"&&products"` y el valor empleando la sintaxis definida para la variable *`products`*:
 
@@ -48,4 +48,4 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ![](assets/map-products.png)
 
-No es necesario que asigne la variable *`products`* empleando reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
+No es necesario que asigne la variable  *`products`* empleando reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
