@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Experience  Mensaje en la aplicación
 topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. En la aplicación, haga clic en **[!UICONTROL Mensajería]** > **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]** > **[!UICONTROL Crear en la aplicación]**.
 1. En la página Experiencia, escriba el nombre del mensaje.
 1. Rellene los campos de la sección **[!UICONTROL Tipo]**:
 
@@ -66,7 +66,7 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 
    * **[!UICONTROL Imagen agrupada]**
 
-      Ruta a una imagen en el paquete de código de la aplicación. Esta opción se utiliza cuando no hay ninguna imagen. o la imagen no está disponible. Puede no estar disponible si, por ejemplo, el dispositivo no tiene conexión. Si tiene problemas con el tamaño al utilizar la plantilla de pantalla completa, consulte *Mi imagen no se adapta exactamente al espacio proporcionado en la plantilla* en [Solucionar los problemas de la mensajería en la aplicación](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      Ruta a una imagen en el paquete de código de la aplicación. Esta opción se utiliza cuando no hay ninguna imagen. O la imagen no está disponible. Puede no estar disponible si, por ejemplo, el dispositivo no tiene conexión. Si tiene problemas con el tamaño al utilizar la plantilla de pantalla completa, consulte *Mi imagen no se adapta exactamente al espacio proporcionado en la plantilla* en [Solucionar los problemas de la mensajería en la aplicación](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
 
 
 1. Rellene los campos de la sección **[!UICONTROL Texto]**:
