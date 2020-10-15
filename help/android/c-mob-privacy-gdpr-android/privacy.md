@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: Configuración del estado de exclusión del usuario
 topic: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Configuración del estado de exclusión del usuario{#setting-the-user-s-opt-status}
+# Configuración del estado de exclusión del usuario {#setting-the-user-s-opt-status}
 
 Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 
@@ -31,33 +31,33 @@ Puede controlar si la actividad de Analytics, Target y Audience Manager está pe
 
 * El método `Config.setPrivacyStatus`.
 
-   Una vez que haya cambiado la configuración de privacidad empleando este método, el cambio será permanente hasta que vuelva a cambiarse o hasta que se desinstale y vuelva a instalarse la aplicación. Para obtener más información sobre los métodos, consulte [Métodos de configuración](/help/android/configuration/methods.md).
+   Una vez que haya cambiado la configuración de privacidad empleando este método, el cambio será permanente hasta que vuelva a cambiarse o hasta que se desinstale y vuelva a instalarse la aplicación. Para obtener más información sobre los métodos, consulte  [Métodos de configuración](/help/android/configuration/methods.md).
 
 La siguiente tabla describe todos los estados de privacidad:
 
 * **Opt-in**
 
-   * **Analytics**: Se envían las visitas.
-   * **Destinatario**: Se envían solicitudes de mbox.
-   * **Audience Manager**: Se envían señales y sincronizaciones de ID.
+   * **Analytics**: se envían las visitas.
+   * **Target**: se envían las solicitudes mBox.
+   * **Audience Manager**: se envían señales y sincronizaciones de ID.
    * Valor en el archivo de configuración de JSON: `optedin`
    * Valor en `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_OPT_IN`
 
 * **Desactivar**
 
-   * **Analytics**: Las visitas se descartan.
-   * **Destinatario**: No se permiten solicitudes de mbox.
-   * **Audience Manager**: No se permiten señales ni sincronizaciones de ID.
+   * **Analytics**: se descartan las visitas.
+   * **Target**: no se permiten las solicitudes mBox.
+   * **Audience Manager**: no se permiten señales y sincronizaciones de ID.
    * Valor en el archivo de configuración de JSON: `optedout`
    * Valor en `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_OPT_OUT`
 
 * **Unknown**
 
-   * **Analytics**: si el seguimiento sin conexión **** está activado, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
+   * **Analytics**: si el seguimiento sin conexión **está** activado, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
 
       Si el seguimiento en línea <b>no está activado</b>, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
-   * **Destinatario**: Se envían solicitudes de mbox.
-   * **Audience Manager**: Se envían señales y sincronizaciones de ID.
+   * **Target**: se envían las solicitudes mBox.
+   * **Audience Manager**: se envían señales y sincronizaciones de ID.
    * Valor en el archivo de configuración de JSON: `optunknown`
    * Valor en `setPrivacyStatus`: `MOBILE_PRIVACY_STATUS_UNKNOWN`
 
