@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Implementación de extensiones iOS
 topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 >
 >Se recomienda encarecidamente que utilice el SDK para iOS en vez de su propio envoltorio o “wrapper”.
 
-Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora enviando solicitudes a la aplicación contenedora y recibiendo las respuestas. Aunque puede enviar datos de seguimiento como un diccionario desde la aplicación Watch a la aplicación contenedora y llamar a cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene limitaciones.
+Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora enviando solicitudes a la aplicación contenedora y recibiendo las respuestas. Aunque puede enviar datos de seguimiento como un diccionario desde la aplicación Watch a la aplicación contenedora y llamar cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene limitaciones.
 
 En la mayoría de los casos, cuando un usuario utiliza la aplicación Watch, la aplicación contenedora se ejecuta en segundo plano y solo es seguro llamar a `TrackLocation`, `TrackActionInBackground` y `TrackBeacon`. El hecho de llamar a otros métodos de seguimiento interfiere con los datos del ciclo vital, por lo que solo debería utilizar estos tres métodos para enviar datos desde la aplicación Watch.
 
@@ -114,5 +114,5 @@ Información que debe recordar:
 * Si actualiza desde una versión anterior del SDK, cuando se inicia la aplicación contenedora, Adobe migra automáticamente todos los valores predeterminados de usuario y los archivos en caché de la carpeta de la aplicación contenedora a la carpeta compartida del grupo de aplicaciones.
 * Si la aplicación contenedora nunca se inicia, las visitas de la extensión se descartan.
 * El número de versión y el número de compilación deben ser los mismos entre la aplicación contenedora y la aplicación de extensión.
-* No se activa ninguna llamada de ciclo vital en las aplicaciones de extensión de iOS.
+* En las aplicaciones de extensión de iOS no se activa ninguna llamada de ciclo vital.
 
