@@ -1,24 +1,24 @@
 ---
-description: Los informes de uso muestran la duración media de la sesión, los usuarios que participan diariamente y mensualmente, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del inicio inicial.
+description: Los informes de uso muestran la longitud promedio de la sesión, los usuarios que participan con frecuencia diaria y mensual, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del primer inicio.
 keywords: mobile
-seo-description: Los informes de uso muestran la duración media de la sesión, los usuarios que participan diariamente y mensualmente, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del inicio inicial.
+seo-description: Los informes de uso muestran la longitud promedio de la sesión, los usuarios que participan con frecuencia diaria y mensual, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del primer inicio.
 seo-title: Informes
 solution: Experience Cloud,Analytics
 title: Informes
 topic: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 
-# Informes{#reports}
+# Informes {#reports}
 
-Los informes de uso muestran la duración media de la sesión, los usuarios que participan diariamente y mensualmente, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del inicio inicial.
+Los informes de uso muestran la longitud promedio de la sesión, los usuarios que participan con frecuencia diaria y mensual, las actualizaciones y otras perspectivas que le ayudan a comprender cómo se utiliza la aplicación y con qué frecuencia. Los informes de retención muestran rápidamente los niveles de retención del usuario 1 día, 7 días y 28 días después del primer inicio.
 
 Puede generar los siguientes informes en la interfaz de usuario de Mobile:
 
