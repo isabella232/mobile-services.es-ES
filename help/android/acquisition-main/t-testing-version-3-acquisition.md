@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Prueba de adquisición Versión 3
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el `appid` del vínculo de adquisición. |
+   | adquisición | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el `appid` del vínculo de adquisición. |
    | analytics | Para hacer pruebas, establezca el tiempo de espera de remitente del reenvío para permitir que el tiempo de envío manual (60 segundos o más) de la difusión sea el adecuado. Puede restaurar la configuración de tiempo de espera original después de hacer la prueba. |
 
 1. Conecte el dispositivo a un equipo, desinstale e instale de nuevo la aplicación.
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 
 `"Analytics - Received referrer information(<referrer content>)"   "Analytics - Trying to fetch referrer data from (acquisition end url)"; "Analytics - Received Referrer Data(<A JSON Response>)"`
 
-Si no ve los registros anteriores, compruebe que ha completado los pasos 6 a 12.
+Si no ve los registros anteriores, asegúrese de haber completado los pasos del 6 al 12.
 
 La siguiente tabla contiene información adicional sobre los posibles errores:
 
@@ -111,12 +111,12 @@ La siguiente tabla contiene información adicional sobre los posibles errores:
 
 Recuerde la información siguiente:
 
-* Las visitas enviadas desde la aplicación se pueden supervisar mediante herramientas de supervisión HTTP para verificar la atribución de adquisición.
-* Para obtener más información acerca de cómo emitir `INSTALL_REFERRER`, consulte [Testing Google Play Campaign Measurement (Prueba de medición de campaña de Google Play)](https://developers.google.com/analytics/solutions/testing-play-campaigns) en la Guía para desarrolladores de Google.
+* Las visitas que se envían desde la aplicación se pueden supervisar mediante herramientas de supervisión HTTP para verificar la atribución de adquisición.
+* Para obtener más información acerca de cómo emitir `INSTALL_REFERRER`, consulte [Prueba de medición de campaña de Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) en la Guía para desarrolladores de Google.
 
 * Se ha publicado una corrección de errores para la adquisición en Android 4.8.2.
 
-   Antes de realizar la prueba, actualice el SDK a la versión más reciente.
+   Antes de hacer la prueba, actualice el SDK a la versión más reciente.
 
 * Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el identificador exclusivo y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 12.
 
