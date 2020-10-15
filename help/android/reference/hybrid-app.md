@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
 topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Si su aplicación abre contenido de una web móvil, asegúrese de que los visita
 
 ## ID de visitante en aplicaciones
 
-El SDK para Android genera un ID de visitante único cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil, se envía con cada visita y se elimina solo cuando el usuario desinstala la aplicación.
+El SDK de Android genera un ID de visitante único cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil, se envía con cada visita y se elimina solo cuando el usuario desinstala la aplicación.
 
 >[!TIP]
 >
@@ -62,7 +62,7 @@ Para utilizar el mismo identificador de visitante en la aplicación y la web mó
    });
    ```
 
-El código de servicio de ID del dominio de destino extrae el MID de la dirección URL en lugar de enviar una solicitud al Adobe para obtener un nuevo ID. El código utiliza el MID pasado para rastrear el visitante.
+Este código de servicio de ID en el dominio de destino extrae el MID de la URL, en lugar de enviar una solicitud a Adobe para obtener el nuevo ID del visitante en cuestión. El código utiliza el MID pasado para rastrear el visitante.
 
 Al producirse visitas en el contenido de la web móvil, compruebe en cada visita si existe el parámetro `mid` y que su valor coincide con el del parámetro `mid` enviado por el código de la aplicación.
 
