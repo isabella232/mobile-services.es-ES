@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Tienda de aplicaciones
 topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -38,4 +38,4 @@ La integración del conector de datos `appFigures` combina la potencia de los an
 * Métricas y dimensiones incluidas en la integración
 * Datos de la aplicación de segmentos
 
-Si desea conocer mejor el informe de la tienda de aplicaciones, consulte  [Informe de información general de la tienda de aplicaciones](/help/using/usage/c-app-store-store-performance.md).
+Si desea conocer mejor el informe de la tienda de aplicaciones, consulte   [Informe de información general de la tienda de aplicaciones](/help/using/usage/c-app-store-store-performance.md).
