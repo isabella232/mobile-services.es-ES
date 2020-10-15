@@ -6,22 +6,22 @@ solution: Experience Cloud,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
-# Reglas de procesamiento y datos de contexto{#processing-rules-and-context-data}
+# Reglas de procesamiento y datos de contexto {#processing-rules-and-context-data}
 
 Se utilizan reglas de procesamiento para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables con el fin de realizar informes.
 
 Para obtener más información, consulte el contenido siguiente:
 
-* [Formación](https://tv.adobe.com/embed/1181/16506/) sobre reglas de procesamiento en Summit 2013
+* [Formación sobre reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 * Obtenga autorización para utilizar reglas de procesamiento
 
    Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
@@ -46,7 +46,7 @@ Al trabajar con reglas de procesamiento, recuerde la información siguiente:
    "eVar1":"jimbo"
    ```
 
-   Esto puede facilitar *ligeramente* la asignación de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y futuras actualizaciones de código, lo que puede resultar más difícil. En su lugar, utilice nombres descriptivos para las claves y los valores:
+   Esto puede facilitar *ligeramente* la tarea de asignar de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y las futuras actualizaciones de código, lo que puede resultar más difícil. En su lugar, utilice nombres descriptivos para las claves y los valores:
 
    ```js
    "username":"jimbo"
