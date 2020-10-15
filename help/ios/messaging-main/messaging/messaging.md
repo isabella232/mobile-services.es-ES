@@ -1,29 +1,29 @@
 ---
-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
-seo-description: Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
+description: Esta información le ayuda a usar la mensajería en sus aplicaciones iOS.
+seo-description: Esta información le ayuda a usar la mensajería en sus aplicaciones iOS.
 seo-title: Mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Mensajería en la aplicación
 topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
 # Mensajería en la aplicación {#in-app-messaging}
 
-Esta información le ayuda a utilizar la mensajería en la aplicación en sus aplicaciones de iOS.
+Esta información le ayuda a usar la mensajería en sus aplicaciones iOS.
 
-To use in-app messaging, you **must** have SDK version 4.2 or later.
+Para utilizar la mensajería en la aplicación **necesita** la versión 4.2 o posterior del SDK.
 
 Información que debe recordar:
 
-* Los mensajes y las reglas que definen cuándo se muestran se crean en Adobe Mobile Services. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* Los mensajes y las reglas que definen cuándo estos se muestran se crean en Adobe Mobile Services. Para obtener más información, consulte [Crear un mensaje en la aplicación](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
 * Las actualizaciones descritas en esta sección deben realizarse en el SDK para que se muestren los mensajes en la aplicación.
 
    >[!TIP]
@@ -76,7 +76,7 @@ Información que debe recordar:
 
 ## Seguimiento de mensajes dentro de la aplicación {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-Los SDK de iOS Mobile Services realizan un seguimiento de las siguientes métricas para los mensajes en la aplicación:
+Los SDK de iOS Mobile Services hacen un seguimiento de las siguientes métricas para sus mensajes en la aplicación:
 
 * Para mensajes en la aplicación de estilo de alerta y pantalla completa:
 
@@ -86,7 +86,7 @@ Los SDK de iOS Mobile Services realizan un seguimiento de las siguientes métric
 
 * Para los mensajes personalizados en pantalla completa, el contenido HTML del mensaje debe incluir el código adecuado para notificar al sistema de seguimiento del SDK el uso de los botones siguientes:
 
-   * **[!UICONTROL Seguimiento de ejemplo de pulsaciones]** (redirecciones): `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL Seguimiento de ejemplo de pulsaciones]** (redirecciones):  `adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL Ejemplo de seguimiento de Cancelación]** (cierre): `adbinapp://cancel`
 
 * Para notificaciones locales (remotas):
@@ -111,7 +111,7 @@ Los SDK de iOS Mobile Services realizan un seguimiento de las siguientes métric
 
 ## Imagen de reserva local {#section_DEACC1CE549B4573B556A44A52409941}
 
-Al crear un mensaje de pantalla completa en Adobe Mobile Services, puede especificar de forma opcional una imagen de reserva. Si el mensaje no puede recuperar la imagen deseada de la web, el SDK intenta cargar la imagen con el mismo nombre del paquete de aplicaciones. Esto le permite mostrar el mensaje en su forma original aunque el usuario esté sin conexión o la imagen predeterminada esté inaccesible.
+Al crear un mensaje de pantalla completa en Adobe Mobile Services, puede especificar de forma opcional una imagen de reserva. Si el mensaje no puede recuperar la imagen deseada de la web, el SDK intenta cargar la imagen con el mismo nombre del paquete de aplicaciones. Esto le permite ver el mensaje en su forma original aunque el usuario esté sin conexión o la imagen predeterminada esté inaccesible.
 
 El nombre del recurso de imagen de reserva se especifica al configurar el mensaje en Adobe Mobile Services.
 
