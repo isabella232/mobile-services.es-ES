@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Solucionar los problemas de la mensajería push
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,16 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
 * **Espera del servicio push**
 
-   Es posible que el servicio push (APNS o GCM) no envíe el mensaje inmediatamente. Aunque no es frecuente, se han visto retrasos de 5-10 minutos. En la página Mensajes puede comprobar que el mensaje push se ha enviado al servicio push al hacer clic en el vínculo Ver del mensaje. En el informe, el número de envíos correctos al servicio push se indica en la columna Publicado.
+   Puede que el servicio push (APNS o GCM) no envíe el mensaje inmediatamente. Aunque no es frecuente, se han visto retrasos de 5-10 minutos. En la página Mensajes puede comprobar que el mensaje push se ha enviado al servicio push al hacer clic en el vínculo Ver del mensaje. En el informe, el número de envíos correctos al servicio push se indica en la columna Publicado.
 
    >[!TIP]
    >
    >Los servicios push no garantizan el envío de un mensaje. Para obtener más información acerca de la fiabilidad de los servicios, consulte la documentación apropiada:
    >
    >* **APNS**: [Calidad del servicio](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**: [Duración de un mensaje](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**: [Vida útil de un mensaje](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## ¿Cómo renuevo mi certificado de servicio push de Apple?
@@ -49,9 +50,9 @@ El envío de mensajes push requiere un certificado de servicio push válido. Mob
 
 1. Haga clic en **[!UICONTROL Administrar configuración de aplicación]**.
 2. Para eliminar el certificado actual, desplácese hasta **[!UICONTROL Servicios push]** y haga clic en **[!UICONTROL Eliminar]**.
-3. Configure y pruebe un nuevo certificado.
+3. Configure y pruebe un certificado nuevo.
 
-   Para obtener más información, consulte Requisitos [previos para activar la mensajería push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
+   Para obtener más información, consulte [Requisitos previos para activar la mensajería push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
 
 4. Haga clic en **[!UICONTROL Guardar]**.
 
