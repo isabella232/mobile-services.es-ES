@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Iniciar sesión
 topic: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Para iniciar sesión en la interfaz de usuario de Adobe Mobile Services con el A
 
 Para iniciar sesión en la interfaz de usuario de Adobe Mobile Services con el Enterprise ID:
 
-1. En un explorador, escriba [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com)
+1. En un explorador, escriba [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com).
 1. Haga clic en **[!UICONTROL Inicie sesión con su Adobe ID]**.
 1. Escriba su dirección de correo electrónico.
 1. En **[!UICONTROL Elegir una cuenta para]**, haga clic en **[!UICONTROL Enterprise ID]**.
@@ -71,7 +71,7 @@ Restablezca la contraseña mediante uno de estos métodos:
    1. Escriba la cuenta de correo electrónico asociada a su Adobe ID y haga clic en **[!UICONTROL Enviar]**.
    1. Siga las instrucciones para restablecer su contraseña en el correo electrónico que reciba.
 
-* **Adobe Analytics** Si utiliza su compañía, nombre de usuario y contraseña:
+* **Adobe Analytics** Si usa el nombre de su empresa, su nombre de usuario y su contraseña:
 
    1. Haga clic en el vínculo **[!UICONTROL ¿Ha olvidado la contraseña?]**.
    1. Escriba el nombre de su empresa, su nombre de usuario y haga clic en **[!UICONTROL Continuar]**.
