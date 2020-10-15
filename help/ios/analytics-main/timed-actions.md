@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Acciones temporizadas
 topic: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Las siguientes métricas se incluyen en los informes para acciones temporizadas:
 * Total de segundos en la aplicación entre inicio y final: entre sesiones
 * Total de segundos entre el inicio y el final (hora del reloj)
 
-Una llamada de retorno opcional le permite realizar acciones adicionales cuando se completa la acción temporizada:
+Una llamada de retorno opcional le permite realizar acciones adicionales cuando finaliza la acción temporizada:
 
-* Ejecute código y agregue cualquier lógica: lógica personalizada opcional basada en los resultados de duración.
-* Añadir datos de contexto antes de pasar duraciones.
-* Cancelar visitas y duraciones aún no enviadas.
+* Ejecute el código y agregue cualquier lógica: lógica personalizada opcional basada en los resultados de duración.
+* Añada datos de contexto antes de pasar duraciones.
+* Cancele visitas y duraciones aún no enviadas.
 
 ## Seguimiento de acciones temporizadas {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
