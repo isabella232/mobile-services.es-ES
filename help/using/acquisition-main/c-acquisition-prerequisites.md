@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Requisitos previos de adquisición
 topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Requisitos previos de adquisición{#acquisition-prerequisites}
+# Requisitos previos de adquisición {#acquisition-prerequisites}
 
 Complete los siguientes requisitos previos para usar los vínculos de adquisición.
 
@@ -34,8 +34,8 @@ Para realizar el seguimiento de los vínculos de marketing, debe cumplir los sig
 
    | Versión de SDK | [Generador de adquisición de elementos heredados](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md) | [Generación manual de vínculos](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md) | [Generador de vínculos de marketing](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md) |
    |--- |--- |--- |--- |
-   | 4.1 a 4.5 | Sí | No | No |
-   | 4.6 a 4.9 | Sí | Sí | No |
+   | De 4.1 a 4.5 | Sí | No | No |
+   | De 4.6 a 4.9 | Sí | Sí | No |
    | 4.9 o posterior | Sí | Sí | Sí |
 
 1. Activar las opciones de adquisición de SDK
@@ -44,4 +44,4 @@ Para realizar el seguimiento de los vínculos de marketing, debe cumplir los sig
 
 1. Agregar aplicaciones de tiendas de aplicaciones
 
-   Debe agregar la aplicación desde Apple App Store o Google Play. Para obtener más información, consulte [Añadir una aplicación de una tienda](/help/using/manage-apps/c-app-store/t-app-store-app.md)de aplicaciones.
+   Debe agregar la aplicación desde el Apple App Store o Google Play. Para obtener más información, consulte [Añadir una aplicación de una tienda](/help/using/manage-apps/c-app-store/t-app-store-app.md) de aplicaciones.
