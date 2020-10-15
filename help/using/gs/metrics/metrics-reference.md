@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Métricas de Mobile y referencia de dimensiones
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -53,10 +53,10 @@ Esta es la lista de métricas móviles predeterminadas:
 
 * **Inicios**
 
-   Se activa en una ejecución que no sea una instalación ni una actualización. También se activa cuando la aplicación se extrae del segundo plano. De forma predeterminada, se activa un inicio nuevo si la aplicación se encuentra en segundo plano durante cinco minutos o más. El período de tiempo de ejecución en segundo plano que transcurre antes de activarse un inicio nuevo se puede configurar en las **[!UICONTROL opciones de SDK Analytics]** en la página Administrar configuración de aplicación. Para obtener más información, consulte la fila *Tiempo de espera de sesión (segundos)* en [Configurar opciones de análisis de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
+   Se activa en una ejecución que no sea una instalación ni una actualización. También se activa cuando la aplicación se extrae del segundo plano. De forma predeterminada, se activa un inicio nuevo si la aplicación se encuentra en segundo plano durante cinco minutos o más. El periodo de ejecución en segundo plano que transcurre antes de activarse un inicio nuevo se puede configurar en las **[!UICONTROL opciones de SDK Analytics]** en la página Administrar configuración de aplicación. Para obtener más información, consulte la fila *Tiempo de espera de sesión (segundos)* en [Configurar opciones de análisis de SDK](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
    >[!IMPORTANT]
-   >Los resultados obtenidos en los informes pueden diferir debido al modo en que se calculan las visitas en [!UICONTROL Adobe Analytics] y los inicios de las aplicaciones móviles en [!UICONTROL Adobe Mobile Services]. Para obtener más información, consulte [Compare Visits and Mobile App Launches](https://helpx.adobe.com/es/analytics/kb/compare-visits-and-mobile-app-launches.html) (Comparar visitas e inicios de aplicaciones móviles).
+   >Los resultados obtenidos en los informes pueden diferir debido al modo en que se calculan las visitas en [!UICONTROL Adobe Analytics] y los inicios de las aplicaciones móviles en [!UICONTROL Adobe Mobile Services]. Para obtener más información, consulte [Comparar visitas e inicios de aplicaciones móviles](https://helpx.adobe.com/es/analytics/kb/compare-visits-and-mobile-app-launches.html).
 
 * **Bloqueos**
 
