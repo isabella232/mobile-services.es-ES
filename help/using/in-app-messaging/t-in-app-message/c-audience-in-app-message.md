@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Audience  Mensaje en la aplicación
 topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. En la aplicación, haga clic en **[!UICONTROL Mensajería]** > **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]** > **[!UICONTROL Crear en la aplicación]**.
 1. En la página Audiencia, rellene los campos siguientes:
 
    * **[!UICONTROL Ver]**
@@ -46,7 +46,7 @@ Puede configurar las opciones de audiencia para los mensajes en la aplicación, 
       >
       >Si selecciona varios activadores, todos deben producirse en la misma visita para que el mensaje se muestre.
 
-   * **[!UICONTROL Características]** Puede determinar quién debe ver el mensaje en la aplicación cuando se activa y filtrar (segmentar) la audiencia según las visitas que contengan datos concretos. Por ejemplo, puede definir una regla en la que Puntos de interés contengan Denver. Este filtro le permite mostrar el mensaje a los clientes que estén en uno de sus puntos de interés con Denver en el nombre, en el momento de activar el mensaje.
+   * **[!UICONTROL Características]** Puede determinar quién debe ver el mensaje en la aplicación cuando se activa y filtrar (segmentar) la audiencia según las visitas que contengan datos concretos. Por ejemplo, puede definir una regla en la que los puntos de interés contienen Denver. Este filtro le permite mostrar el mensaje a los clientes que estén en uno de sus puntos de interés con Denver en el nombre, en el momento de activar el mensaje.
 
 
 
@@ -56,7 +56,7 @@ Puede configurar las opciones de audiencia para los mensajes en la aplicación, 
 >
 >Los activadores y las características usan datos que se pasan a Analytics desde su aplicación. Estos valores se pasan como datos de contexto, variables asignadas y métricas. Una variable es un valor basado en texto y una métrica es un valor numérico.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** >  **[!UICONTROL Manage Variables &amp; Metrics]** >, which displays the following tabs:
+Para ver la asignación de estos pares de valores clave en la interfaz de usuario de Mobile Services y validar el valor para el activador, haga clic en **[!UICONTROL Gestionar configuración de la aplicación]** > **[!UICONTROL Gestionar variables y métricas]**, que muestra las siguientes pestañas:
 
 * **[!UICONTROL Variables y métricas estándar]**
 * **[!UICONTROL Variables personalizadas]**
@@ -74,7 +74,7 @@ Los siguientes escenarios le ayudan a determinar si desea seleccionar una métri
 
 Una métrica es un número y un ejemplo es el número de compras.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. Haga clic en **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]**.
 1. Complete los siguientes pasos en la sección **[!UICONTROL Activador]** en la pestaña **[!UICONTROL Audiencia]**:
 
    1. Seleccione un evento estándar como **[!UICONTROL Iniciado]** y seleccione **[!UICONTROL Existe]**.
@@ -85,7 +85,7 @@ Una métrica es un número y un ejemplo es el número de compras.
 
 Una variable es una cadena de texto que es un identificador único, por ejemplo, país, aeropuerto, etc.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. Haga clic en **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]**.
 1. Complete los siguientes pasos en la sección **[!UICONTROL Activador]** en la pestaña **[!UICONTROL Audiencia]**:
 
    1. Seleccione un evento estándar como **[!UICONTROL Iniciado]** y seleccione **[!UICONTROL Existe]**.
