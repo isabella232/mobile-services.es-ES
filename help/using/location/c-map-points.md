@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Mapa
 topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Información importante que debe recordar:
 
 * Puede aumentar o disminuir el tamaño del mapa.
 
-   Esta función resulta útil, por ejemplo, si tiene dos puntos de interés que están muy juntos. Ampliar el mapa le permite vista con buenos detalles.
+   Esta función resulta útil, por ejemplo, si tiene dos puntos de interés que están muy juntos. Ampliar el mapa le permite ver muchos detalles.
 * Los puntos de interés se muestran en azul.
 
-   Otros marcadores de datos, como Lanzamientos, se muestran en negro. Haga clic en un marcador para vista de más información.
+   Otros marcadores de datos, como los Lanzamientos, se muestran en negro. Haga clic en un marcador para ver más información.
 
 Haga clic en ![capas](assets/map_layers.png) para seleccionar las siguientes opciones:
 
@@ -45,7 +45,7 @@ Haga clic en ![capas](assets/map_layers.png) para seleccionar las siguientes opc
 
 * **[!UICONTROL Mapa de calor]**
 
-   Elija si desea mostrar los marcadores de mapa de calor. Cuanto buena sea la intensidad del color, más frecuentemente se cumple la condición (por ejemplo, usos).
+   Elija si desea mostrar los marcadores de mapa de calor. Cuanto mayor sea la intensidad del color, con mayor frecuencia se cumplirá la condición (por ejemplo, los lanzamientos).
 
 * **[!UICONTROL Puntos de interés]**
 
@@ -53,9 +53,9 @@ Haga clic en ![capas](assets/map_layers.png) para seleccionar las siguientes opc
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]**
+* **[!UICONTROL Periodo]**
 
-   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 
 * **[!UICONTROL Personalizar]**
 
