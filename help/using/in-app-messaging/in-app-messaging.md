@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Mensajería
 topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Puede crear y administrar mensajes push y en la aplicación, y elaborar informes
 
 En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nuevos SDK móviles de la Adobe Experience Platform se pueden configurar a través de [Experience Platform Launch](https://www.adobe.com/es/experience-platform/launch.html).
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* Para empezar, vaya a [Launch](https://launch.adobe.com/).
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 >[!IMPORTANT]
@@ -50,7 +50,7 @@ Aquí tiene información adicional para ayudarle a comprender el funcionamiento 
 * Debe especificar quién tiene derechos de administrador de aplicaciones móviles.
 
    Estos derechos permiten acceder a los vínculos de adquisición y a los mensajes en la aplicación. Para obtener más información, consulte [Funciones y permisos](/help/using/gs/c-mob-roles-and-permissions.md).
-* Después de aprobar un mensaje, éste se publica automáticamente en la aplicación.
+* Después de aprobar un mensaje, este se publica automáticamente en la aplicación.
 * El SDK presenta el mensaje a los usuarios cuando se cumplen los parámetros del mensaje, como características, activador y programación.
 * Los mensajes pueden contener HTML personalizado o una imagen mediante una URL en línea.
 
@@ -62,4 +62,4 @@ Aquí tiene información adicional para ayudarle a comprender el funcionamiento 
 
 Los mensajes push se envían a los usuarios que han elegido recibir notificaciones. Puede dirigir dichos mensajes a los usuarios incluidos en segmentos de Analytics o en segmentos personalizados. Se pueden usar para lograr la participación de usuarios pasivos o transmitir información específica sobre la ubicación y la zona horaria, ya que los mensajes aparecen fuera de la aplicación.
 
-Antes de configurar la mensajería push, consulte [Requisitos previos para habilitar la mensajería push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md). Después de realizar estas tareas, debe configurar la mensajería push en la configuración de la aplicación. For more information, see [Configure push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
+Antes de configurar la mensajería push, consulte [Requisitos previos para habilitar la mensajería push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md). Después de realizar estas tareas, debe configurar la mensajería push en la configuración de la aplicación. Para obtener más información, consulte [Configuración de mensaje push](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
