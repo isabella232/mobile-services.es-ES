@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Programación  Mensaje en la aplicación
 topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Puede configurar las opciones de programación para los mensajes en la aplicaci�
 >
 >La zona horaria define los intervalos de fecha. Los días concretos y los intervalos de hora son relativos al dispositivo del usuario.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. En la aplicación, haga clic en **[!UICONTROL Mensajería]** > **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]** > **[!UICONTROL Crear en la aplicación]**.
 1. Haga clic en **[!UICONTROL Programación]**.
 1. Rellene los campos siguientes de la sección **[!UICONTROL Duración]**:
 
