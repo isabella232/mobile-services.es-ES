@@ -1,21 +1,21 @@
 ---
-description: A partir de WatchOS 2, las extensiones WatchKit se ejecutarán en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el módulo WatchConnectivity comparta datos con su aplicación iOS contenedora.
-seo-description: A partir de WatchOS 2, las extensiones WatchKit se ejecutarán en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el módulo WatchConnectivity comparta datos con su aplicación iOS contenedora.
+description: A partir de WatchOS 2, las extensiones WatchKit se ejecutarán en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el marco WatchConnectivity comparta datos con la aplicación iOS contenedora.
+seo-description: A partir de WatchOS 2, las extensiones WatchKit se ejecutarán en un dispositivo Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el marco WatchConnectivity comparta datos con la aplicación iOS contenedora.
 seo-title: Implementación de Apple Watch con WatchOS 2
 solution: Experience Cloud,Analytics
 title: Implementación de Apple Watch con WatchOS 2
 topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Implementación de Apple Watch con WatchOS 2{#apple-watch-implementation-with-watchos}
+# Implementación de Apple Watch con WatchOS 2 {#apple-watch-implementation-with-watchos}
 
 A partir de WatchOS 2, las extensiones WatchKit se pueden ejecutar en un Apple Watch. Las aplicaciones que se ejecutan en este entorno requieren que el marco `WatchConnectivity` comparta datos con la aplicación iOS contenedora.
 
@@ -40,13 +40,13 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 >
 >* La aplicación contenedora
 >* La aplicación WatchKit
->* La extensión WatchKit
+>* La extensión de WatchKit
 
 >
 
 
 
-Para obtener más información sobre el desarrollo de aplicaciones WatchKit, consulte [The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)(La arquitectura de aplicaciones Watch).
+Para obtener más información sobre el desarrollo de aplicaciones WatchKit, consulte [La arquitectura de las aplicaciones Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1).
 
 ## Configurar la aplicación contenedora {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
