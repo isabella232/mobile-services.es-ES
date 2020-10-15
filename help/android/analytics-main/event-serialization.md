@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Serialización de eventos
 topic: Developer and implementation
 uuid: acdeda16-ab83-4cfc-907d-33448b801b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
