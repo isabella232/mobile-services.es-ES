@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Resolución de problemas de mensajería push
 topic: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
