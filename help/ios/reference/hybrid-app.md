@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
 topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Para utilizar el mismo ID de visitante en la aplicación y en la web móvil, pas
    }];
    ```
 
-El código de servicio de ID del dominio de destino extrae el MID de la dirección URL en lugar de enviar una solicitud al Adobe para obtener un nuevo ID. El código de servicio de ID en la página de destino emplea el MID transferido para hacer un seguimiento del visitante.
+Este código de servicio de ID en el dominio de destino extrae el MID de la URL, en lugar de enviar una solicitud a Adobe para obtener el nuevo ID del visitante en cuestión. El código de servicio de ID en la página de destino emplea el MID transferido para hacer un seguimiento del visitante.
 
 Al producirse visitas en el contenido de la web móvil, compruebe en cada visita si el parámetro `mid` está presente y que su valor coincida con el del parámetro `mid` enviado por el código de la aplicación.
 
