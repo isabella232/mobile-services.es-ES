@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Al trabajar con reglas de procesamiento, recuerde la información siguiente:
    "eVar1":"jimbo"
    ```
 
-   Esto puede hacer que sea *ligeramente* más fácil cuando se completa la asignación de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y futuras actualizaciones de código, lo que puede resultar más difícil. En su lugar, recomendamos encarecidamente que utilice nombres descriptivos para las claves y los valores:
+   Esto puede facilitar *ligeramente* la tarea de completar la asignación de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y las futuras actualizaciones de código, lo que puede resultar más difícil. En su lugar, recomendamos encarecidamente que use nombres descriptivos para claves y valores:
 
    ```js
    "username":"jimbo"
