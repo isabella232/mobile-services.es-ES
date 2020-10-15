@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Configurar las aplicaciones para utilizar APNS o FCM
 topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Configure la aplicación para que utilice APNS o FCM{#configure-app-to-use-apns-or-fcm}
+# Configure la aplicación para que utilice APNS o FCM {#configure-app-to-use-apns-or-fcm}
 
 Puede configurar su aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud (FCM).
 
@@ -86,10 +86,10 @@ Para configurar la aplicación de Android para que utilice FCM en este escenario
 
 Si desea configurar la aplicación de iOS para el uso de APNS:
 
-1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
+1. Vaya a [https://developer.apple.com/account](https://developer.apple.com/account) e inicie sesión en su [cuenta de desarrollador de Apple](https://developer.apple.com/account).
 1. En **[!UICONTROL Aplicaciones de iOS]**, seleccione **[!UICONTROL Identificadores]**.
 1. Si dispone de un ID de aplicación configurado para la funcionalidad push, vaya al paso 11.
-1. Press the **[!UICONTROL +]** button to create a new App ID.
+1. Pulse el botón **[!UICONTROL +]** para crear un nuevo ID de aplicación.
 1. Escriba una descripción del ID de la aplicación.
 1. Escriba un sufijo de ID de aplicación.
 
