@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Geolocalización y puntos de interés
 topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Cada llamada a `trackLocation` envía lo siguiente:
 
 * Latitud, longitud y ubicación en un punto de interés (POI) definido en Adobe Mobile Services.
 
-   Esta información se pasa a variables de soluciones móviles para sistema de informes automático.
+   Esta información se pasa a variables de soluciones móviles para el sistema de informes automático.
 
-* Distancia desde el centro y precisión pasados como datos de contexto.
+* Distancia desde el centro y precisión que pasan como datos de contexto.
 
    Estas variables no se capturan de forma automática. Debe asignar estas variables de datos de contexto según las instrucciones que aparecen en la sección *Envío de datos adicionales*.
 
@@ -85,7 +85,7 @@ El valor de los datos de contexto debe asignarse a variables personalizadas:
 
 La latitud y la longitud se envían utilizando tres parámetros de datos de contexto diferentes, cada uno de los cuales representa un nivel de precisión diferente, con un total de seis parámetros de datos de contexto.
 
-Por ejemplo, las coordenadas lat = 40.93231, lon = -111.93152 representan una ubicación con una precisión de 1 m. Esta ubicación se divide según el nivel de precisión en las siguientes variables:
+Por ejemplo, las coordenadas lat = 40.93231, lon = -111.93152 representan una ubicación con una precisión de 1 m. Esta ubicación se divide según el nivel de precisión en las siguientes variables:
 
 * `a.loc.lat.a`= 040.9
 * `a.loc.lat.b` = 32
@@ -115,5 +115,5 @@ Recuerde la información siguiente:
 
 * Cuando el diámetro de dos puntos de interés se superpone, se utiliza el primer punto de interés que contenga la ubicación actual.
 
-   Si los puntos de interés se superponen, debe lista los puntos de interés en orden de más granular a menos granular para garantizar que se informa del punto de interés más granular.
+   Si los puntos de interés se superponen, debe detallar los puntos de interés en orden del más granular al menos granular para garantizar que se informa del punto de interés más granular.
 
