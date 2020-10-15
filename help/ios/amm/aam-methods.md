@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Métodos de Audience Manager
 topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta es una lista de métodos de Audience Manager que proporciona la biblioteca 
 
 Ahora mismo, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target, Audience Manager y el servicio de ID de Adobe Experience Platform. Los métodos tienen un prefijo que depende de la solución y los de Audience Manager llevan el prefijo “`audience`”.
 
-Si Audience Manager está configurado en su archivo JSON, junto a `application:didFinishLaunchingWithOptions:`: se envía una señal que contiene métricas del ciclo vital.
+Si Audience Manager está configurado en su archivo JSON, junto a `application:didFinishLaunchingWithOptions:` : se envía una señal que contiene métricas del ciclo vital.
 
 * **audienceVisitorProfile**
 
@@ -76,7 +76,7 @@ Si Audience Manager está configurado en su archivo JSON, junto a `application:d
    Establece el DPID y el DPUUID. Cuando se establece, ambos se anexan a cada señal.
 
    * El ID del proveedor **de datos (DPID)** es el ID del socio de datos asignado por el Audience Manager.
-   * El ID de usuario único del proveedor **de datos (DPUUID)** es el ID exclusivo del proveedor de datos para el usuario.
+   * El ID único de usuario del **proveedor de datos (DPUUID)** es el ID exclusivo del proveedor de datos para el usuario.
 
       >[!IMPORTANT]
       >
