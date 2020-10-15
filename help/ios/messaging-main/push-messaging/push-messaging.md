@@ -1,23 +1,23 @@
 ---
-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente de los usuarios que han abierto la aplicación como resultado de hacer clic a través de un mensaje push.
-seo-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente de los usuarios que han abierto la aplicación como resultado de hacer clic a través de un mensaje push.
+description: El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación como resultado de hacer clic en un mensaje push.
+seo-description: El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación como resultado de hacer clic en un mensaje push.
 seo-title: Mensajería push
 solution: Experience Cloud,Analytics
 title: Mensajería push
 topic: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # Mensajería push {#push-messaging}
 
-Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente de los usuarios que han abierto la aplicación como resultado de hacer clic a través de un mensaje push.
+El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación como resultado de hacer clic en un mensaje push.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
 >
 >No establezca de forma manual el Experience Cloud ID dentro de la aplicación. Esto provoca la creación de un nuevo usuario único que no recibirá mensajes push debido a su estado de inclusión. Por ejemplo, supongamos que un usuario que ha elegido recibir mensajes push inicia sesión en la aplicación. Después de iniciar sesión, si establece manualmente el ID dentro de la aplicación, se crea un nuevo usuario único que no ha elegido recibir mensajes push. Este nuevo usuario no recibirá ningún mensaje push.
 
-## Requisitos previos {#section_06655ABE973743DC965897B229A2118D}
+## Requisitos previos  {#section_06655ABE973743DC965897B229A2118D}
 
 * Agregue la biblioteca al proyecto e implemente las métricas del ciclo vital.
 
