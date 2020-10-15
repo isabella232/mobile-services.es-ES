@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Crear un nuevo destino de vínculo
 topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo
 
       * **[!UICONTROL Vínculo profundo de la aplicación]**
 
-         Proporcione un vínculo profundo de esquema de URI (por ejemplo, `yourapp://section`). Los destinos de vínculo profundo de la aplicación son vínculos profundos de esquema URI que dirigen a los usuarios a un vínculo profundo de la aplicación. Por ejemplo, puede dirigir a los usuarios a una línea de productos específica en la aplicación móvil de un minorista en línea.
+         Proporcione un vínculo profundo de esquema de URI (por ejemplo, `yourapp://section`). Los destinos de vínculo profundo de la aplicación son vínculos profundos de esquema de URI que dirigen a los usuarios a un vínculo profundo de su aplicación. Por ejemplo, puede dirigir a los usuarios a una línea de productos específica en la aplicación móvil de un comerciante en línea.
 
       * **[!UICONTROL Vínculo web]**
 
-         Escriba una URL web HTTP o HTTPS, por ejemplo,`https://adobe.com`. Los destinos de vínculo web dirigen a los usuarios a una dirección URL. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un minorista en línea.
+         Escriba una URL web HTTP o HTTPS, por ejemplo,`https://adobe.com`. Los destinos de vínculo web dirigen a los usuarios a una dirección URL. Por ejemplo, puede dirigir a los usuarios a una línea de productos en el sitio web de un comerciante en línea.
 
       * **[!UICONTROL Vínculo híbrido]**
 
