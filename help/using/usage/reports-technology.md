@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Informe tecnológico
 topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Esta visualización proporciona, por ejemplo, el informe base y los desgloses, u
 El gráfico radial es interactivo y puede completar las siguientes tareas:
 
 * Pase el ratón sobre cualquier parte del gráfico para ver más información.
-* Para cambiar el período de tiempo, haga clic en el icono del **[!UICONTROL calendario]**.
+* Para cambiar el periodo, haga clic en el icono del **[!UICONTROL Calendario]**.
 * Haga clic en un trozo del anillo para seleccionar la audiencia en la que puede realizar acciones, como ampliar, ocultar audiencias y crear un mensaje en la aplicación o un filtro adhesivo.
 * En la esquina superior derecha, seleccione **[!UICONTROL Tipo de dispositivo]** y **[!UICONTROL Dispositivo]** para ver información sobre los dispositivos y tipos de dispositivos.
 
@@ -73,6 +73,6 @@ Al hacer clic en **[!UICONTROL Agregar desglose]** o **[!UICONTROL Agregar métr
 
 Haga clic en un trozo del anillo a fin de seleccionar la audiencia para la que desea crear un filtro adhesivo y, a continuación, haga clic en **[!UICONTROL Filtro adhesivo]**. Este filtro permite aplicar los filtros actuales y ejecutar un informe nuevo basado en los filtros.
 
-## Uso compartido de informes {#section_560DD5CED5144249B7E49461E2422100}
+## Uso compartido de informes  {#section_560DD5CED5144249B7E49461E2422100}
 
 Después de crear un informe, se usa su configuración para crear una dirección URL personalizada, que puede copiar y compartir.
