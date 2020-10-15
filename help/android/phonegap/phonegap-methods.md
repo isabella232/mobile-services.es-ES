@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Métodos del complemento PhoneGap
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
 ht-degree: 100%
 
@@ -337,7 +337,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackTimed&#x200B;ActionUpdate**
 
-   Pasa `cData` para actualizar los datos de contexto asociados con `action`>.
+   Pasa `cData` para actualizar los datos de contexto asociados con `action`.
 
    Los datos `cData` que se pasan se anexan a los ya existentes para la acción. Si la misma clave ya está definida para `action`, los datos se sobrescriben.
 
