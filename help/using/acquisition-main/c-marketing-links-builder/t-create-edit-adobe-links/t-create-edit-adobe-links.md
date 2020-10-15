@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Crear o editar vínculos de marketing
 topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Crear o editar vínculos de marketing{#create-or-edit-marketing-links}
+# Crear o editar vínculos de marketing {#create-or-edit-marketing-links}
 
 Puede crear o editar vínculos de marketing para proporcionar vínculos profundos a su aplicación móvil o sitio web. Para obtener más información, consulte [Vínculos universales de Apple y de la aplicación de Android](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md).
 
@@ -34,11 +34,11 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
    * **[!UICONTROL Código de seguimiento único]**:
 
-      (**Necesario**) Especifique el código de seguimiento deseado o haga clic en (![generar icono](assets/icon_generate.png)) para crear un nuevo código de seguimiento. Puede ver informes que detallen el uso del código de seguimiento.
+      (**Necesario**) Especifique el código de seguimiento deseado o haga clic en ( ![generar icono](assets/icon_generate.png) ) para crear un nuevo código de seguimiento. Puede ver informes que detallen el uso del código de seguimiento.
 
    * **[!UICONTROL Agregar datos de contexto de seguimiento]**:
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. En la lista desplegable **[!UICONTROL Personalizar datos de contexto]**, seleccione una etiqueta preestablecida o una de las suyas. Los datos de contexto se utilizan para realizar un informe cuando se implementa el vínculo de marketing.
+      (**Opcional**) Haga clic en el icono **[!UICONTROL +]** y escriba los datos relevantes para hacer un seguimiento de la campaña usando datos de contexto. En la lista desplegable **[!UICONTROL Personalizar datos de contexto]**, seleccione una etiqueta preestablecida o una de las suyas. Los datos de contexto se utilizan para realizar un informe cuando se implementa el vínculo de marketing.
 
       Las siguientes etiquetas preestablecidas están disponibles:
 
@@ -63,14 +63,14 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
 1. Haga clic en **[!UICONTROL Editar intersticial de vínculo profundo]** y configure el vínculo.
 
-   (**Opcional**) Cuando hay varios destinos, los usuarios pueden ser redirigidos en función de si tienen una aplicación móvil instalada. Si la aplicación está instalada, se muestra una página de aterrizaje intersticial.
+   (**Opcional**) Cuando hay varios destinos, los usuarios pueden ser redirigidos en función de si tienen una aplicación móvil instalada. Si la aplicación está instalada, se visualiza una página de aterrizaje intersticial.
 
-   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   Para obtener más información, consulte la [Elementos intersticiales](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. Haga clic en **[!UICONTROL Guardar]** y en **[!UICONTROL Siguiente]**.
 1. En la página Destino, configure el vínculo.
 
-   1. Haga clic en el icono **[!UICONTROL Decisión]** (![icono de decisión](assets/icon_decision.png)) seleccione una de las siguientes ubicaciones de decisión:
+   1. Haga clic en el icono **[!UICONTROL Decisión]** ( ![icono de decisión](assets/icon_decision.png) ) seleccione una de las siguientes ubicaciones de decisión:
 
       * **[!UICONTROL Agregar decisión]**
       * **[!UICONTROL Agregar ruta]**
