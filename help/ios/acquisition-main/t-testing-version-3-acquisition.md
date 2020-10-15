@@ -5,16 +5,16 @@ seo-title: Prueba de adquisición V3
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Prueba de adquisición V3{#testing-v-acquisition}
+# Prueba de adquisición V3 {#testing-v-acquisition}
 
 Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
 
@@ -48,7 +48,7 @@ Si la aplicación móvil aún no está en la App Store, al crear el vínculo de 
 
    | Configuración | Valor |
    |--- |--- |
-   | acquisition | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el *`appid`* del vínculo de adquisición. |
+   | adquisición | El servidor debe ser `c00.adobe.com`. El *`appid`* debe coincidir con el *`appid`* del vínculo de adquisición. |
    | analytics | `referrerTimeout` debería tener un valor mayor que 0. |
 
 
