@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Agregar series (métricas) a informes
 topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Agregar series (métricas) a informes{#add-series-metrics-to-reports}
+# Agregar series (métricas) a informes {#add-series-metrics-to-reports}
 
 Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
 
@@ -26,7 +26,7 @@ Esta información sirve para personalizar los informes integrados mediante la ad
 
 En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]**, pero las instrucciones se pueden aplicar para cualquier informe.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. Abra la aplicación y haga clic en **[!UICONTROL Uso]** > **[!UICONTROL Usuarios y sesiones]**.
 
    ![Resultado de los pasos](assets/customize1.png)
 
