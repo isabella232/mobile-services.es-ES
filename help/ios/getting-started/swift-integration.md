@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Integración con Swift
 topic: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
