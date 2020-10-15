@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Informe de rutas de acción
 topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
-# Informe de rutas de acción{#action-paths}
+# Informe de rutas de acción {#action-paths}
 
 El informe Rutas de acción se basa en el análisis de las rutas y muestra un gráfico que representa las rutas que han pasado de un estado a otro en la aplicación.
 
@@ -34,30 +34,30 @@ Si desea ver las opciones para modificar el gráfico, haga clic en un nodo y lue
 
 ![](assets/action_paths_icons.png)
 
-To expand, click the **[!UICONTROL +]** icon. Esta opción muestra las rutas adicionales que entran o salen del nodo. En el gráfico de abajo, el estado 1 inicia la aplicación, el estado 2 elige una foto (el elemento que expandió anteriormente) y el estado 3 incluye las diferentes rutas que tomaron los usuarios:
+Para expandir, haga clic en el icono **[!UICONTROL +]**. Esta opción muestra las rutas adicionales que entran o salen del nodo. En el gráfico de abajo, el estado 1 inicia la aplicación, el estado 2 elige una foto (el elemento que expandió anteriormente) y el estado 3 incluye las diferentes rutas que tomaron los usuarios:
 
-* Selección de un elemento
+* Seleccionar un elemento
 * Añadir un elemento
 * Arrastrar un elemento
-* Escalado de un elemento
+* Escalar un elemento
 
-Expandir un estado es similar a un canal.
+La expansión de un estado es similar a un canal.
 
 ![expansión de ruta de acción](assets/action_paths_expand.png)
 
-Para aislar el nodo y mostrar las rutas que llegan al nodo seleccionado y salen de él, haga clic en el icono ![icono de enfoque](assets/icon_focus.png). En el gráfico de abajo, las siguientes rutas se completaron **antes** de que los usuarios seleccionaran una fotografía:
+Para aislar el nodo y mostrar las rutas que llegan al nodo seleccionado y salen de él, haga clic en el icono ![icono de enfoque](assets/icon_focus.png). En el gráfico a continuación, las siguientes rutas se completaron **antes** de que los usuarios seleccionaran una fotografía:
 
-* Rotación de un elemento
-* Escalado de un elemento
+* Rotar un elemento
+* Escalar un elemento
 * Arrastrar un elemento
-* Eliminación de un elemento
+* Eliminar un elemento
 
 De los usuarios que seleccionaron una foto, las siguientes rutas se completaron **después** de seleccionarla:
 
-* Selección de un elemento
+* Seleccionar un elemento
 * Añadir un elemento
 * Arrastrar un elemento
-* Escalado de un elemento
+* Escalar un elemento
 
 ![enfoque de ruta de acción](assets/action_paths_focus.png)
 
@@ -67,9 +67,9 @@ Puede enfocar o expandir varios nodos para obtener una vista detallada de las ru
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]**
+* **[!UICONTROL Periodo]**
 
-   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 
 * **[!UICONTROL Personalizar]**
 
