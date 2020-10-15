@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Configurar las opciones de SDK Analytics
 topic: Metrics
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Rellene los campos siguientes en la sección **[!UICONTROL Opciones de SDK Analy
 
 * **[!UICONTROL Antedatar coincidencias de sesión]**
 
-   Activar o desactivar la capacidad de Adobe SDK de antedatar las coincidencias de información de la sesión. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Cuando se habilita, el SDK de Adobe antedatará la visita de información de sesión a 1 segundo después de la última visita individual de la sesión anterior. Esto significa que los bloqueos y los datos de la sesión se correlacionarán con la fecha correcta en que se produjeron. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
+   Activar o desactivar la capacidad de Adobe SDK de antedatar las coincidencias de información de la sesión. Actualmente, las coincidencias de información de sesión incluyen los bloqueos y la longitud de la sesión. Cuando se habilita, el SDK de Adobe antedatará la visita de información de sesión a 1 segundo después de la última visita individual de la sesión anterior. Esto significa que los datos de bloqueo y sesión se correlacionarán con la fecha exacta cuando se produjeron. Se antedatará una visita en cada uso nuevo de la aplicación. Al desactivarse, el SDK de Adobe adjuntará la información de la sesión al ciclo de vida actual.
 
 * **[!UICONTROL Privacidad]**
 
@@ -41,13 +41,13 @@ Rellene los campos siguientes en la sección **[!UICONTROL Opciones de SDK Analy
 
    Especifique el valor de tiempo de espera de la sesión.
 
-   El valor predeterminado es de 300 segundos. Especifica el tiempo, en segundos, que debe transcurrir entre cada inicio de la aplicación antes de que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
+   El valor predeterminado es de 300 segundos. Especifica la duración en segundos que debe transcurrir entre el momento en que se inicia la aplicación, antes de que el inicio se considere una sesión nueva. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
 
 * **[!UICONTROL Límite de lotes]**
 
    Especifique el número de coincidencias que desea poner en cola antes de enviar los datos.
 
-   Si se establece en 0, las coincidencias se envían inmediatamente. El límite de lotes representa el umbral del número de visitas que se enviarán en llamadas consecutivas. Por ejemplo, si esta opción está configurada en 10, cada visita anterior a la décima se almacenará en la cola. Cuando llega la décima, las 10 visitas se envían de forma consecutiva.
+   Si se establece en 0, las coincidencias se envían inmediatamente. El límite de lotes representa el umbral del número de visitas que se enviarán en llamadas consecutivas. Por ejemplo, si esta opción se establece en 10, las visitas anteriores a la décima se almacenarán en la cola. Cuando llega la décima, las 10 visitas se envían de forma consecutiva.
 
 * **[!UICONTROL Más detalles]**
 
