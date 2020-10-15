@@ -7,20 +7,20 @@ solution: Experience Cloud,Analytics
 title: Intersticiales
 topic: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Intersticiales{#interstitials}
+# Intersticiales {#interstitials}
 
 Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor dejar la opción de enrutamiento a los usuarios. Los especialistas en marketing pueden proporcionar opciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
 
-Para configurar un intersticial al crear un vínculo de marketing:
+Para configurar un intersticial al  crear un vínculo de marketing:
 
 1. Haga clic en **[!UICONTROL Editar intersticial de vínculo profundo]**.
 
