@@ -7,20 +7,20 @@ solution: Experience Cloud,Analytics
 title: Eliminar vínculos de adquisición
 topic: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Eliminar vínculos de adquisición{#delete-acquisition-links}
+# Eliminar vínculos de adquisición {#delete-acquisition-links}
 
 Cuando ya no necesite vínculos de adquisición, puede eliminarlos.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. Haga clic en **[!UICONTROL Adquisición]** > **[!UICONTROL Administrar vínculos de adquisición]**.
 1. Complete una de las siguientes tareas:
 
    * Seleccione la casilla de verificación situada junto a uno o varios vínculos de adquisición.
