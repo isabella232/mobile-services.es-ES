@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Seguimiento de señalización
 topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Los siguientes datos de señalización se envían a Analytics y Target cuando se
 * `a.beacon.minor`: número menor de la señalización (por ejemplo, un número exclusivo dentro de un almacén)
 * `a.beacon.prox`: los valores 0-3 representan la proximidad del usuario a la señalización.
 
-Esto es lo que estos valores significan:
+Significados de estos valores:
 
 * 0 = desconocido
 * 1 = inmediato
@@ -48,10 +48,10 @@ Estos datos de señalización se capturan en variables de soluciones móviles.
    import com.adobe.mobile.*;
    ```
 
-1. Recopile la ubicación de la señalización.
+1. Recopile la ubicación de señalizaciones.
 
-   Hay varias bibliotecas de terceros disponibles para escanear señalizaciones LE Bluetooth, según el fabricante de la señalización.
-1. Una vez obtenida la información de la señalización, utilice la siguiente llamada para realizar el seguimiento de la ubicación:
+   Hay varias bibliotecas de terceros disponibles para explorar señalizaciones LE Bluetooth, según el fabricante de la señalización.
+1. Una vez obtenida la información de la señalización, use la siguiente llamada para hacer el seguimiento de la ubicación:
 
    ```java
    // assumed that the following variables will have been retrieved by the 3rd party beacon library 
