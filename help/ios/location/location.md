@@ -1,16 +1,16 @@
 ---
-description: Esta información le ayuda a utilizar las funciones de ubicación en sus aplicaciones de iOS.
-seo-description: Esta información le ayuda a utilizar las funciones de ubicación en sus aplicaciones de iOS.
+description: Esta información le ayuda a utilizar la función de ubicación de sus aplicaciones iOS.
+seo-description: Esta información le ayuda a utilizar la función de ubicación de sus aplicaciones iOS.
 seo-title: Ubicación
 solution: Experience Cloud,Analytics
 title: Ubicación
 topic: Developer and implementation
 uuid: a4e5650a-f5d3-4fb1-bd11-a27a3918d763
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
