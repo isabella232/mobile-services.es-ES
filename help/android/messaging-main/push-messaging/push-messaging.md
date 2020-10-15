@@ -1,23 +1,23 @@
 ---
-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
-seo-description: Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
+description: El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
+seo-description: El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
 seo-title: Mensajería push
 solution: Experience Cloud,Analytics
 title: Mensajería push
 topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # Mensajería push {#push-messaging}
 
-Adobe Mobile y el SDK de Adobe Mobile le permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
+El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes push a sus usuarios. El SDK también le permite informar fácilmente sobre los usuarios que han abierto la aplicación después de hacer clic en un mensaje push.
 
 Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del SDK.
 
@@ -45,7 +45,7 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
 
 1. Obtenga el ID/token de registro mediante la API de Firebase Cloud Messaging (FCM).
 
-   * Para obtener más información acerca de la configuración de FCM, consulte [Set Up a Firebase Cloud Messaging Client App on Android (Configurar una aplicación cliente de Firebase Cloud Messaging en Android)](https://firebase.google.com/docs/cloud-messaging/android/client).
+   * Para obtener más información acerca de la configuración de FCM, consulte [Configurar una aplicación cliente de Firebase Cloud Messaging en Android](https://firebase.google.com/docs/cloud-messaging/android/client).
 
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
