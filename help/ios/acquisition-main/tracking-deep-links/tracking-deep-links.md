@@ -5,16 +5,16 @@ seo-title: Seguimiento de vínculos profundos
 solution: Experience Cloud,Analytics
 title: Seguimiento de vínculos profundos
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Seguimiento de vínculos profundos{#tracking-deep-links}
+# Seguimiento de vínculos profundos {#tracking-deep-links}
 
 Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
 
@@ -29,7 +29,7 @@ Para obtener más información acerca de cómo los especialistas en marketing ut
 
    Para obtener más información, consulte [Comunicaciones entre aplicaciones](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) o [Vínculos universales de compatibilidad](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
-1. Rastree el vínculo profundo en openURL.
+1. Haga un seguimiento de vínculos profundos en openURL.
 
    Este es un ejemplo de vínculo profundo de seguimiento:
 
