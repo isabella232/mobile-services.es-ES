@@ -1,21 +1,21 @@
 ---
-description: Esta información le ayuda a distribuir contenido de destino en aplicaciones de iOS.
-seo-description: Esta información le ayuda a distribuir contenido de destino en aplicaciones de iOS.
+description: Esta información le ayuda a enviar contenido de destino en aplicaciones iOS.
+seo-description: Esta información le ayuda a enviar contenido de destino en aplicaciones iOS.
 seo-title: Target
 solution: Experience Cloud,Analytics
 title: Target
 topic: Developer and implementation
 uuid: c2b134bb-1c29-4617-bd9e-fa3940483361
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Target{#target}
+# Target {#target}
 
 La información de esta sección le ayuda a distribuir contenido segmentado en aplicaciones de iOS.
 
