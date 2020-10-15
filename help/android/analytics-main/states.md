@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Seguimiento de estados de aplicaciones
 topic: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ El valor de los datos de contexto debe asignarse a variables personalizadas de A
 
 ## Realización de informes de estado de la aplicación {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-Los estados generalmente se ven mediante un informe de rutas, que permite ver cómo navegan los usuarios en la aplicación y qué estados se ven con más frecuencia.
+Los estados suelen verse mediante un informe de rutas, y así se puede ver cuántos usuarios navegan por la aplicación y qué estados se ven con mayor frecuencia.
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | El informe **[!UICONTROL Ver estados]**. Este informe se basa en las rutas que los usuarios tomaron a través de su aplicación. A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
+| Adobe Mobile Services | El informe **[!UICONTROL Ver estados]**. Este informe se basa en las rutas que los usuarios tomaron a través de su aplicación. Un ejemplo de ruta es **[!UICONTROL Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Fuente]**. |
 | Adobe Analytics | Los estados pueden verse desde cualquier parte donde puedan verse las Páginas, como los informes **[!UICONTROL Páginas]**, **[!UICONTROL Vistas de la página]** y **[!UICONTROL Ruta]**. |
 | Análisis específico | Los estados pueden verse desde cualquier parte donde puedan verse las Páginas empleando la dimensión **[!UICONTROL Página]**, la métrica **[!UICONTROL Vistas de la página]** y los informes **[!UICONTROL Ruta]**. |
 
