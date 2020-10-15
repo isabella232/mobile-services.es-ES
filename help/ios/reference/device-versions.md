@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Versiones de dispositivo iOS
 topic: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La siguiente tabla contiene la cadena de versión iOS que envían muchos de los 
 >
 >Esta lista está basada en pruebas internas e información de Internet y podría contener imprecisiones o información incompleta.
 
-For more information about iOS devices, go to sites such as [The iPhone Wiki](https://theiphonewiki.com/wiki/Models).
+Para obtener más información acerca de dispositivos iOS, visite sitios como [The iPhone Wiki](https://theiphonewiki.com/wiki/Models).
 
 | **iPhone** | **Versión** |
 |---|---|
@@ -52,11 +52,11 @@ For more information about iOS devices, go to sites such as [The iPhone Wiki](ht
 | **iPod Touch** | **Versión** |
 |---|---|
 | Primera generación | iPod1,1 |
-| 2.ª generación | iPod2,1 |
-| 3ª generación | iPod3,1 |
-| 4.ª generación | iPod4,1 |
-| 5ª generación | iPod5,1 |
-| 6.ª generación | iPod7,1 |
+| Segunda generación | iPod2,1 |
+| Tercera generación | iPod3,1 |
+| Cuarta generación | iPod4,1 |
+| Quinta generación | iPod5,1 |
+| Sexta generación | iPod7,1 |
 
 | **iPad** | **Versión** |
 |---|---|
@@ -64,10 +64,10 @@ For more information about iOS devices, go to sites such as [The iPhone Wiki](ht
 | iPad 2 | iPad2,1 |
 | iPad 2 (GSM) | iPad2,2 |
 | iPad 2 (CDMA) | iPad2,3 |
-| iPad 2 (Nuevo 16 GB) | iPad2,4 |
+| iPad 2 (Nuevo de 16 GB) | iPad2,4 |
 | iPad Mini (Wi-Fi) | iPad2,5 |
 | iPad Mini (GSM) | iPad2,6 |
-| iPad Mini, versión Global (igual que el iPad Mini de GSM), pero incluye una radio móvil adicional: CDMA EV-DO Rev. A y Rev. B (3.5G) | iPad2,7 |
+| iPad Mini, versión global (igual que el iPad Mini de GSM), pero con una radio móvil adicional: CDMA EV-DO Rev. A y Rev. B (3.5G) | iPad2,7 |
 | iPad 3 (Wi-Fi) | iPad3,1 |
 | iPad 3 (CDMA) | iPad3,2 |
 | iPad 3 (GSM) | iPad3,3 |
