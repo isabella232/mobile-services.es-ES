@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Gestionar su aplicación
 topic: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
 
-## Gestionar variables y métricas {#section_EC2D58AC334F4ED49E764B81C2423A62}
+## Gestionar variables y métricas  {#section_EC2D58AC334F4ED49E764B81C2423A62}
 
 * **Variables y métricas estándar**
 
@@ -37,7 +37,7 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
 ### Asignar datos de contexto a las variables de Analytics
 
-Click **[!UICONTROL Manage App Settings]** > **[!UICONTROL Manage Variables &amp; Metrics]** > **[!UICONTROL Custom Variables]**.
+Haga clic en **[!UICONTROL Administrar configuración de aplicación]** > **[!UICONTROL Administrar variables y métricas]** > **[!UICONTROL Variables personalizadas]**.
 
 Estas asignaciones llaman a la misma API que se usa en las [reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
@@ -45,7 +45,7 @@ Estas asignaciones llaman a la misma API que se usa en las [reglas de procesamie
 
 Esta lista recoge las variables personalizadas que se pueden configurar:
 
-* Las **[!UICONTROL Propiedades personalizadas]** (o props) responden a la pregunta “¿cuál?”. Las props se pueden establecer en un valor de texto que se asociará con otras variables y métricas enviadas en la misma visita. Los valores pueden utilizarse para filtrar informes o pueden enumerarse en orden de clasificación por una métrica asociada.
+* Las **[!UICONTROL Propiedades personalizadas]** (o props) responden a la pregunta “¿cuál?”. Las props se pueden establecer en un valor de texto que se asociará a otras variables y métricas enviadas en la misma visita. Los valores pueden utilizarse para filtrar informes o pueden enumerarse en orden por métrica asociada.
 
    Cuando se establece un valor para una propiedad en una llamada de seguimiento (o visita), solo se aplica a esa llamada.
 
@@ -68,7 +68,7 @@ Las asignaciones se muestran en Analytics como si se hubieran creado en Mobile S
 
    La persistencia determina el punto en el que el valor de una variable personalizada (eVar) caducará o dejará de estar asociado a visitas adicionales. Si una eVar ha caducado cuando se activa una visita, se asociará el valor Ninguno a esa visita para esa eVar. Esto significa que ningún valor de eVar estaba activo cuando se activó la visita.
 
-   Puede seleccionar una de las siguientes opciones:
+   Puede seleccionar cualquiera de estas opciones:
 
    * **[!UICONTROL Session]**
 
@@ -85,7 +85,7 @@ Las asignaciones se muestran en Analytics como si se hubieran creado en Mobile S
 
       Adobe Analytics tiene una interfaz de usuario más avanzada para establecer la persistencia de las eVars. Si para la eVar se establece un valor de persistencia que no se admite en Mobile Services, este valor se muestra en la interfaz de usuario de Mobile Services.
 
-      To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** > **[!UICONTROL Conversion Variables UI]**.
+      Para gestionar las eVars, haga clic en **[!UICONTROL Administrador del grupo de informes de Adobe Analytics]** > **[!UICONTROL Interfaz de usuario de variables de conversión]**.
 
    * **[!UICONTROL Compatibilidad de lista]**
 
@@ -105,7 +105,7 @@ Seleccione un número de variable no utilizado y escriba un nombre. Opcionalment
 
 * **Métricas personalizadas**
 
-   Las métricas (o los eventos) responden a las preguntas *¿cuánto?* o *¿cuántos?*. Los eventos pueden aumentar cada vez que el usuario realiza una acción o mantener valores numéricos como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación del archivo PDF o CSV, la guardado de una campaña, la descarga del SDK, la ejecución de un informe, la adición de un vínculo a la App Store, la activación de un mensaje en la aplicación, etc.
+   Las métricas (o los eventos) responden a las preguntas *¿cuánto?* o *¿cuántos?*. Los eventos pueden aumentar cada vez que el usuario realiza una acción o mantener valores numéricos como un precio. Las métricas personalizadas incluyen eventos como la creación de una aplicación, la descarga o exportación del archivo PDF o CSV, el almacenamiento de una campaña, la descarga del SDK, la ejecución de un informe, la adición de un vínculo a la App Store, la activación de un mensaje en la aplicación, etc.
 
    Seleccione uno de los siguientes tipos de métricas personalizadas:
 
@@ -115,7 +115,7 @@ Seleccione un número de variable no utilizado y escriba un nombre. Opcionalment
 
 ## Administrar puntos de interés {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
-Los puntos de interés permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita. Para obtener más información sobre los puntos de interés, consulte [Administrar puntos de interés](/help/using/location/t-manage-points.md).
+Los puntos de interés permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita. Para obtener más información sobre los puntos de interés, consulte  [Administrar puntos de interés](/help/using/location/t-manage-points.md).
 
 ## Administrar destinos de vínculo {#section_F722A387E22A430187B063D358A87711}
 
@@ -123,4 +123,4 @@ Puede crear, editar, archivar/desarchivar y eliminar destinos de vínculos. Esto
 
 ## Administrar postbacks {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
-Los postback permiten enviar datos recopilados por Adobe Mobile a un servidor independiente de terceros. Al aprovechar los mismos activadores y características que utiliza para mostrar un mensaje en la aplicación, puede configurar Mobile para que envíe datos personalizados a un destino de terceros. Para obtener más información sobre los postbacks, consulte [Configurar los postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md).
+Los postback permiten enviar datos recopilados por Adobe Mobile a un servidor independiente de terceros. Con los mismos desencadenadores y las mismas características que se emplean para mostrar un mensaje en la aplicación, es posible configurar Mobile para que envíe datos personalizados a un destino de terceros. Para obtener más información sobre los postbacks, consulte  [Configurar los postbacks](/help/using/c-manage-app-settings/c-mob-confg-app/signals.md).
