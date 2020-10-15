@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
 topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    1. Actualice en la aplicación la referencia del receptor con la referencia de la ubicación del receptor de seguimiento de la campaña.
    1. Reemplace por valores apropiados los que estén asociados a `utm_content`, `utm_source`, `utm_campaign`, `utm_medium`, `utm_term`, etc.
 
-Si la retransmisión se realiza correctamente, se muestra una respuesta similar a la siguiente:
+Si la retransmisión se realiza correctamente, aparece una respuesta similar a la siguiente:
 
 ```
 Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0
 ```
 
-También verá una solicitud de imagen enviada a los servidores de recopilación de datos de Adobe. Si el SDK espera toda la duración del tiempo de espera del remitente del reenvío, que se establece en el paso 1, con una solicitud de imagen que no incluye parámetros de campaña, se produce un error en la retransmisión.
+También verá una solicitud de imagen enviada a los servidores de recopilación de datos de Adobe. Si el SDK espera durante todo el tiempo de espera del remitente del reenvío, que se establece en el paso 1, con una solicitud de imagen que no incluye parámetros de campaña, se produce un error en la retransmisión.
