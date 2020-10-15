@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Personalización de informes
 topic: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Personalización de informes{#customize-reports}
+# Personalización de informes {#customize-reports}
 
 Esta información sirve para comprender y personalizar los informes integrados.
 
@@ -38,7 +38,7 @@ La siguiente información describe las áreas del informe y el carril **[!UICONT
 | Número | Descripción |
 |--- |--- |
 | 1 | En **[!UICONTROL Intervalos de fechas]**, la lista desplegable permite seleccionar varios intervalos de fechas para el informe. Los datos del gráfico (9) y la tabla correspondiente (10) respetan el intervalo de fechas seleccionado. |
-| 2 | En **[!UICONTROL Mostrar por]**, la lista desplegable permite seleccionar una visualización basada en el tiempo o en dimensiones para el informe.  Por ejemplo, en la ilustración, se ve que Días está seleccionado. Si observa las fechas que aparecen debajo del gráfico (7) y las filas de la tabla (8), los datos se clasifican por fecha en un informe de horas extras. Se pueden incluir seis métricas como máximo en estos tipos de informes mediante la adición de series adicionales al informe.  Si selecciona una dimensión de ciclo vital, puede vista los 50 valores principales en una lista clasificada, los 5 valores principales de tendencias por día o semana o un desglose de los 5 o 10 valores principales. |
+| 2 | En **[!UICONTROL Mostrar por]**, la lista desplegable permite seleccionar una visualización basada en el tiempo o en dimensiones para el informe.  Por ejemplo, en la ilustración, se ve que Días está seleccionado. Si observa las fechas que aparecen debajo del gráfico (7) y las filas de la tabla (8), los datos se clasifican por fecha en un informe de horas extras. Se pueden incluir seis métricas como máximo en estos tipos de informes mediante la adición de series adicionales al informe.  Si selecciona una dimensión de ciclo vital, puede ver los 50 valores principales en una lista clasificada, los 5 valores principales de tendencias por día o semana, o un desglose de los 5 o 10 valores principales. |
 | 3 | **[!UICONTROL Serie]** representa métricas individuales, como Usuarios, Inicios, Primeros lanzamientos y Descargas de App Store en el ejemplo anterior. Cada serie tiene un color según los datos que aparecen en el gráfico (7) y la tabla (8).  Puede agregar series (métricas) adicionales e incluso diferentes aplicaciones en distintos grupos de informes para comparar los datos.  Para obtener más información, consulte [Agregar series (métricas) a informes](/help/using/usage/reports-customize/t-reports-series.md). |
 | 4 | Con **[!UICONTROL Añadir filtro]**, puede personalizar los informes integrados añadiendo filtros (segmentos) adicionales.  Para obtener más información, consulte [Agregar filtros a informes](/help/using/usage/reports-customize/t-reports-customize.md). |
 | 5 | Con **[!UICONTROL Agregar serie]**, puede personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en diferentes grupos de informes para comparar datos.  Para obtener más información, consulte [Agregar series (métricas) a informes](/help/using/usage/reports-customize/t-reports-series.md). |
