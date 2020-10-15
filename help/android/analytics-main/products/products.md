@@ -1,24 +1,24 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
+description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos en la llamada al servidor.
 keywords: android;library;mobile;sdk
-seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
+seo-description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos en la llamada al servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
 topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
 # Variable Products {#products-variable}
 
-La variable products no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer products en la llamada al servidor.
+La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos en la llamada al servidor.
 
 Para establecer la variable *products*, establezca una clave de datos de contexto en `"&&products"` y el valor empleando la sintaxis definida para la variable *products*:
 
@@ -49,4 +49,4 @@ La variable *products* se establece en la solicitud de imagen y las demás varia
 
 ![](assets/map-products.png)
 
-No es necesario que asigne la variable *products* mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
+No es necesario que asigne la variable  *products* mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
