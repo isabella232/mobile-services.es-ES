@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Añadir filtros a informes
 topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
-# Añadir filtros a informes{#add-filters-to-reports}
+# Añadir filtros a informes {#add-filters-to-reports}
 
 Esta información sirve para personalizar los informes integrados mediante la adición de filtros (segmentos) adicionales.
 
@@ -26,7 +26,7 @@ Esta información sirve para personalizar los informes integrados mediante la ad
 
 En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]**, pero las instrucciones sirven para cualquier informe.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. Abra la aplicación y haga clic en **[!UICONTROL Uso]** > **[!UICONTROL Usuarios y sesiones]**.
 
    ![](assets/customize1.png)
 
@@ -53,7 +53,7 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]*
 1. Haga clic en **[!UICONTROL Actualizar]**.
 1. Para regenerar el informe, haga clic en **[!UICONTROL Ejecutar]**.
 
-   Este informe ahora muestra los usuarios desglosados por sistema operativo. El título del informe se cambió para coincidir con los filtros aplicados al informe.
+   Este informe ahora muestra los usuarios desglosados por sistema operativo. El título del informe se cambió para que coincida con los filtros aplicados al informe.
 
    ![](assets/customize5.png)
 
@@ -71,4 +71,4 @@ En este ejemplo, personalizaremos el informe **[!UICONTROL Usuarios y sesiones]*
 
    ![](assets/customize7.png)
 
-   Tómese algún tiempo para probar las diferentes opciones del menú de personalización de informes y asegúrese de marcar sus favoritos. Las direcciones URL de informes de Adobe Mobile son completamente funcionales y pueden enviarse por correo electrónico o agregarse a los favoritos.
+   Tómese un tiempo para probar las diferentes opciones del menú de personalización de informes y asegúrese de marcar sus favoritos. Las direcciones URL de informes de Adobe Mobile son completamente funcionales y pueden enviarse por correo electrónico o agregarse a los favoritos.
