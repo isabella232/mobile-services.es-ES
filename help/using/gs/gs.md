@@ -7,27 +7,27 @@ solution: Experience Cloud,Analytics
 title: Primeros pasos
 topic: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
-# Primeros pasos{#getting-started}
+# Primeros pasos {#getting-started}
 
 Esta información sirve para comprender y usar Adobe Mobile Services.
 
-Adobe Mobile Services se compone de las siguientes partes:
+Adobe Mobile Services está compuesto por las siguientes partes:
 
 * Interfaz de usuario de Adobe Mobile Services
 * SDK de Adobe Mobile
 
-Para las compañías empresariales que buscan la manera más eficaz de aumentar la participación del usuario y demostrar el retorno en la inversión (ROI) de su inversión en aplicaciones móviles, Adobe proporciona una solución integral, Adobe Mobile Services, para adquirir y captar usuarios de aplicaciones y analizar y optimizar sus experiencias.
+Para las compañías empresariales que buscan la manera más eficaz de aumentar la participación del usuario y demostrar el retorno de la inversión (ROI) de su inversión en aplicaciones móviles, Adobe proporciona una solución integral llamada Adobe Mobile Services que adquiere y capta usuarios de aplicaciones, y analiza y optimiza sus experiencias.
 
-En la actualidad, el panorama de las aplicaciones móviles es muy diferente del momento en que se lanzó el smartphone por primera vez. Ya no basta con tener una aplicación móvil para conectar a los clientes con su marca; ahora, debe ofrecer una experiencia de cliente coherente y convincente en todos los canales y utilizar su aplicación móvil como punto de contacto estratégico para atraer a los clientes más leales y de alto valor. Sin embargo, para que estos usuarios interactúen con su aplicación, se requiere contenido atractivo, notificaciones contextuales, personalización inteligente y análisis de aplicaciones integrados, entre otros.
+En la actualidad, el panorama de las aplicaciones móviles es muy diferente de aquel momento en que se lanzó el smartphone por primera vez. Ya no basta con tener una aplicación móvil para conectar a los clientes con su marca; ahora debe ofrecer una experiencia de cliente coherente y convincente en todos los canales y utilizar su aplicación móvil como punto de contacto estratégico para atraer a los clientes más leales y de alto valor. Sin embargo, para que estos usuarios interactúen con su aplicación, se requiere contenido atractivo, notificaciones contextuales, personalización inteligente y análisis de aplicaciones integrados, entre otros.
 
 ## Interfaz de usuario de Adobe Mobile Services {#mobile-services-ui}
 
@@ -48,24 +48,24 @@ Adobe Mobile Services proporciona flujos de trabajo de adquisición de usuarios,
 
 Además, con los vínculos profundos, puede llevar a los usuarios directamente al contenido de la aplicación que desea que vean y animarlos a que instalen la aplicación si es necesario.
 
-La adquisición oferta las siguientes funciones clave:
+La adquisición ofrece las siguientes funciones clave:
 
 * Análisis de adquisición para aplicaciones
 * Seguimiento de vínculos en tiendas de aplicaciones
-* Vinculación profunda a aplicaciones
-* Integración posterior con redes de publicidad
+* Vinculación profunda en las aplicaciones
+* Integración posterior con redes de anunciantes
 
-Para obtener más información sobre esta fase, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
+Para obtener más información sobre esta fase, consulte  [Adquisición](/help/using/acquisition-main/acquisition-main.md).
 
 ### Analizar
 
-En *Análisis*, puede comprender cómo utilizan la aplicación móvil los consumidores y qué los hace convertir o volver.
+En *Analizar*, puede comprender cómo utilizan la aplicación móvil los consumidores y qué los hace convertirse o volver.
 
-Con Adobe Analytics, puede obtener información clave sobre el canal de descarga, instalación y apertura de la aplicación por parte de los usuarios. También puede medir y analizar el contenido de la aplicación y la interfaz de usuario, realizar análisis de cohorte, rutas y visitas en el orden previsto. Con Adobe Analytics, puede utilizar un almacén de datos central para informar sus decisiones de marketing y reducir los silos de datos de marketing de su organización.
+Con Adobe Analytics, puede obtener información clave sobre el canal de descarga, instalación y apertura de la aplicación por parte de los usuarios. También puede medir y analizar el contenido de la aplicación y la interfaz de usuario, hacer análisis de cohorte, rutas y visitas en el orden previsto. Con Adobe Analytics, puede utilizar un almacén de datos central para informar sus decisiones de marketing y reducir los silos de datos de marketing de su organización.
 
 Puede utilizar Adobe Audience Manager para enriquecer los segmentos de audiencia con datos enriquecidos y así ofrecer experiencias más contextuales y personales.
 
-*Analizar* ofertas con las siguientes funciones clave:
+*Analizar* ofrece las siguientes funciones clave:
 
 * Análisis de participación en la aplicación
 * Análisis de rutas y canales
@@ -73,42 +73,42 @@ Puede utilizar Adobe Audience Manager para enriquecer los segmentos de audiencia
 * Análisis de ubicación
 * Amplia compatibilidad con dispositivos y plataformas
 
-Para obtener más información sobre los informes que puede ejecutar para analizar a los clientes, consulte [Informes](/help/using/usage/usage.md).
+Para obtener más información sobre los informes que puede ejecutar para analizar a los clientes, consulte  [Informes](/help/using/usage/usage.md).
 
 ### Participación
 
-En *Participación*, puede utilizar notificaciones push y mensajes en la aplicación relevantes para comunicarse con los usuarios. Con las notificaciones push de destino y la mensajería en la aplicación, puede asegurarse de que los usuarios siguen regresando a su aplicación. Con la compatibilidad con segmentos de Analytics, puede destinatario las notificaciones push a segmentos de usuarios que responderán y aumentarán su tendencia a la conversión.
+En *Participación*, puede utilizar notificaciones push y mensajes en la aplicación relevantes para comunicarse con los usuarios. Con las notificaciones push de destino y la mensajería en la aplicación, puede asegurarse de que los usuarios sigan regresando a su aplicación. Con la compatibilidad con segmentos de Analytics, puede dirigir las notificaciones push a segmentos de usuarios que responderán y aumentarán su tendencia a la conversión.
 
-*Ofertas de participación* :
+*Participación* ofrece las siguientes características clave:
 
 * Los segmentos de análisis activan las notificaciones push.
 * Los mensajes en la aplicación se activan mediante análisis en tiempo real, alertas y nuevas ofertas/contenido.
-* Comprender las vistas, las tasas de pulsaciones y el comportamiento descendente
+* Comprenda las vistas, las tasas de pulsaciones y el comportamiento descendente
 
 ### Mensajería de Adobe Mobile
 
-Puede utilizar las notificaciones push y en la aplicación para comunicarse con los usuarios. Las notificaciones push se envían a través del sistema operativo en el dispositivo, mientras que los mensajes en la aplicación se envían en la aplicación cuando un usuario interactúa activamente con la aplicación. Los mensajes en la aplicación suelen incluir una variedad de formatos adicionales, como ventanas emergentes e intersticiales.
+Puede utilizar las notificaciones push y en la aplicación para comunicarse con los usuarios. Las notificaciones push se envían a través del sistema operativo en el dispositivo, mientras que los mensajes en la aplicación se envían en la aplicación cuando un usuario interactúa de manera activa con la aplicación. Los mensajes en la aplicación suelen incluir una variedad de formatos adicionales, como ventanas emergentes e intersticiales.
 
 En Adobe Mobile, puede configurar los siguientes tipos de mensajes:
 
-**Las notificaciones** push, que aparecen fuera de la aplicación, oferta las siguientes funciones:
+**Las notificaciones push** que aparecen fuera de la aplicación ofrece las siguientes funciones:
 
 * Impulse la reparticipación mediante notificaciones push relevantes.
-* Cree, segmente y envíe mensajes a los clientes que han descargado la aplicación de una marca y han aceptado recibir notificaciones push mediante la opción de inclusión.
-* Las tiendas de aplicaciones envían el servidor en lugar de hacerlo desde la aplicación móvil.
+* Cree, segmente y envíe mensajes a los clientes que han descargado la aplicación de una marca y que han aceptado recibir notificaciones push mediante la opción de inclusión.
+* Las tiendas de aplicaciones envían del lado del servidor en lugar de hacerlo desde la aplicación móvil.
 
-Para obtener más información sobre cómo crear notificaciones push, consulte [Crear un mensaje push](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
+Para obtener más información sobre cómo crear notificaciones push, consulte  [Crear un mensaje push](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
-**Las notificaciones** en la aplicación oferta las siguientes funciones:
+**Las notificaciones** en la aplicación ofrecen las siguientes funciones:
 
-* Llevar a los usuarios a una acción específica mientras están en la sesión de la aplicación.
+* Lleve a los usuarios a una acción específica mientras están en la sesión de la aplicación.
 * Formatos adicionales (alerta, pantalla completa) porque los mensajes son entregados por la aplicación en lugar de por una red de envío push.
 * Se activan mediante análisis en tiempo real.
-* Permitir promociones cruzadas de aplicaciones y productos.
-* Animar a los usuarios a que dejen una clasificación de la tienda de aplicaciones.
-* Entregar mensajes en tiempo real y basados en la ubicación
+* Habilite las promociones cruzadas de aplicaciones y productos.
+* Recomiende a los usuarios dejar una clasificación de la tienda de aplicaciones.
+* Entregue mensajes en tiempo real y basados en la ubicación
 
-Para obtener más información sobre cómo crear mensajes en la aplicación, consulte [Crear un mensaje en la aplicación](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+Para obtener más información sobre cómo crear mensajes en la aplicación, consulte  [Crear un mensaje en la aplicación](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
 
 ### Optimizar
 
@@ -118,9 +118,9 @@ Para obtener más información sobre las pruebas y Adobe Target, vaya a [Adobe T
 
 ### Segmentación geográfica
 
-Un dispositivo móvil permite saber de forma inherente dónde se encuentra un cliente cuando interactúa con su aplicación o cuando se ejecuta en segundo plano a través de la ubicación GPS. Con el targeting geográfico, Adobe Target le permite entregar contenido, ofertas o mensajes relevantes y personalizados en un momento en el que la proximidad es importante. Puede realizar el destinatario de usuarios que se encuentren dentro de un radio definido de un punto de interés o cuando se encuentren cerca de iBeacons y con las notificaciones push pertinentes.
+Un dispositivo móvil permite saber de forma inherente dónde se encuentra un cliente cuando interactúa con su aplicación o cuando se ejecuta en segundo plano a través de la ubicación GPS. Con el targeting geográfico, Adobe Target le permite entregar contenido, ofertas o mensajes relevantes y personalizados en un momento en el que la proximidad es importante. Puede dirigirse a usuarios que se encuentren dentro de un radio definido de un punto de interés o cuando se encuentren cerca de iBeacons y con las notificaciones push pertinentes.
 
-Adobe Target para aplicaciones móviles ahora aprovecha al máximo la segmentación mejorada y el sistema de informes disponible a través de Adobe Analytics. Esto significa que Adobe Target puede aprovechar todas las métricas clave de aplicaciones en Analytics mediante su uso para realizar destinatarios y personalizaciones; también ofrece un nivel de sistema de informes más profundo en el éxito de las pruebas, lo que permite a los especialistas en marketing comprender mejor esas preguntas de &quot;qué tal si&quot;, cuyas respuestas podrían eludir la presión del comerciante de la aplicación para mostrar un rendimiento de las inversiones en la aplicación. La integración de Analytics/Destinatario para aplicaciones ofrece una oferta combinada, que representa la solución de participación de aplicaciones más sólida que está disponible en el mercado.
+Adobe Target para aplicaciones móviles ahora aprovecha al máximo la segmentación mejorada y el sistema de informes disponible a través de Adobe Analytics. Esto significa que Adobe Target puede aprovechar todas las métricas clave de aplicaciones en Analytics mediante su uso para crear  destinatarios y personalizaciones; también ofrece un nivel de sistema de informes más profundo en el éxito de las pruebas, lo que permite a los especialistas en marketing comprender mejor esas preguntas de &quot;qué tal si&quot;, cuyas respuestas podrían eludir la presión del comerciante de la aplicación para mostrar un rendimiento de las inversiones en la aplicación. La integración de Analytics/Target para aplicaciones ofrece una oferta combinada, que representa la solución de participación de aplicaciones más sólida disponible en el mercado.
 
 Para obtener más información sobre la ubicación, consulte los siguientes temas:
 
@@ -132,33 +132,33 @@ Para obtener más información sobre la ubicación, consulte los siguientes tema
 
 Adobe proporciona una completa solución de marketing móvil que acelera la participación de los clientes en todas estas áreas. Con un SDK, puede acceder a las funciones de Adobe Analytics, Adobe Campaign y Adobe Audience Manager, lo que reduce el coste técnico de gestionar varios SDK diferentes.
 
-El SDK de Adobe Mobile oferta las siguientes funciones:
+El SDK de Adobe Mobile ofrece las siguientes funciones:
 
 * Participación móvil completa
 
-   Puede medir y optimizar las aplicaciones en todas las plataformas con un SDK móvil de Adobe ligero e integrado.
-* Adquirir nuevos clientes y ofrecer atractivos micromomentos
+   Puede medir y optimizar las aplicaciones en todas las plataformas con un SDK de Adobe Mobile liviano e integrado.
+* Capte nuevos clientes con micromomentos atractivos
 
    * Vuelva a llevar a los usuarios a la aplicación una y otra vez mediante notificaciones push dirigidas, incluida la compatibilidad con medios enriquecidos y la mensajería en la aplicación.
    * Utilice la vinculación profunda para dirigir a los usuarios de la aplicación directamente al contenido que desee.
 
 * Mida y optimice las experiencias para impulsar el retorno de la inversión
 
-   Puede obtener información sobre las métricas del ciclo vital de la aplicación, incluida la análisis de canales (descargas, instalaciones, aperturas), acciones que incluyen duración de la sesión, bloqueos, señalizaciones e interacciones de mensajería.
+   Puede obtener información sobre las métricas del ciclo vital de la aplicación, incluido el análisis de canales (descargas, instalaciones, aperturas), acciones que incluyen duración de la sesión, bloqueos, señalizaciones e interacciones de mensajería.
 * Completo
 
    * Amplia compatibilidad con los principales sistemas operativos móviles y herramientas de desarrollo entre plataformas.
-   * Amplia compatibilidad con dispositivos en smartphones, tabletas, dispositivos portátiles y consolas OTT (sobrepuestas).
+   * Amplia compatibilidad con dispositivos en smartphones, tabletas, dispositivos portátiles y consolas OTT (de libre transmisión).
 
 * Integrado
 
-   * Un SDK para varias soluciones (Analytics, Campaña y Audience Manager), que reduce el tiempo y esfuerzo de implementación para los desarrolladores.
-   * Solo se requiere una línea de código para recopilar las métricas &quot;básicas&quot; del ciclo vital de la aplicación.
+   * Un SDK para varias soluciones (Analytics, Campaign y Audience Manager) que reduce el tiempo y esfuerzo de implementación para los desarrolladores.
+   * Solo se requiere una línea de código para recopilar las métricas “básicas” del ciclo vital de la aplicación.
    * A medida que evoluciona su estrategia móvil, puede activar fácilmente las capacidades de Adobe Experience Cloud para adquirir, analizar y captar usuarios.
 
-* Rápido y ligero
+* Rápido y liviano
 
-   * Minimiza la carga de procesamiento del dispositivo para enviar datos a servidores Adobe y sistemas de terceros.
+   * Minimice la carga de procesamiento del dispositivo para enviar datos a servidores Adobe y sistemas de terceros.
    * Un espacio reducido minimiza el tamaño del paquete de la aplicación que se envía a las tiendas de aplicaciones.
 
-For more information about the Adobe Mobile SDKs, see [Android SDK 4.x for Experience Solutions](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html) and [iOS SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/rel-notes.html).
+Para obtener más información sobre los SDK de Adobe Mobile, consulte [SDK de Android para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html) y [SDK de iOS para soluciones de Experience Cloud 4.x](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/rel-notes.html).
