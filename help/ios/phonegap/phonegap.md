@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Complemento PhoneGap
 topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Complemento PhoneGap{#phonegap-plug-in}
+# Complemento PhoneGap {#phonegap-plug-in}
 
 Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto PhoneGap.
 
@@ -42,7 +42,7 @@ Para crear un proyecto de PhoneGap, consulte [PhoneGap](https://helpx.adobe.com/
    cordova plugin add adobe-mobile-services
    ```
 
-## Instalación manual del complemento {#section_D53BA60D488C4DB8AD2BDF90439C180A}
+## Instalación manual del complemento  {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
 ### Incluir la biblioteca de AppMeasurement
 
