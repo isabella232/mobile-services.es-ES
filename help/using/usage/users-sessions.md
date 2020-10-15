@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Informe Usuarios y sesiones
 topic: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
 
 
-# Informe Usuarios y sesiones{#users-and-sessions}
+# Informe Usuarios y sesiones {#users-and-sessions}
 
 El informe Usuarios y sesiones muestra las métricas de visitantes únicos durante el lapso de tiempo seleccionado.
 
@@ -24,9 +24,9 @@ El informe Usuarios y sesiones muestra las métricas de visitantes únicos duran
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]**
+* **[!UICONTROL Periodo]**
 
-   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 
 * **[!UICONTROL Personalizar]**
 
