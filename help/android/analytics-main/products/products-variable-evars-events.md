@@ -1,24 +1,24 @@
 ---
-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+description: Este es un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
 keywords: android;library;mobile;sdk
-seo-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
-seo-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+seo-description: Este es un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
+seo-title: Variable products con eVars de comercialización y eventos específicos de productos
 solution: Experience Cloud,Analytics
-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+title: Variable products con eVars de comercialización y eventos específicos de productos
 topic: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
 
 
-# Variable products con eVars de comercialización y events (eventos) específicos de productos {#products-variable-with-merchandising-evars-and-product-specific-events}
+# Variable products con eVars de comercialización y eventos específicos de productos {#products-variable-with-merchandising-evars-and-product-specific-events}
 
-Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+Este es un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
 
 ```java
 //create a context data dictionary 
