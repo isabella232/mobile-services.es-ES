@@ -7,20 +7,20 @@ solution: Experience Cloud,Analytics
 title: Resolución de problemas de mensajería en la aplicación
 topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Resolución de problemas de mensajería en la aplicación{#troubleshooting-in-app-messaging}
+# Resolución de problemas de mensajería en la aplicación {#troubleshooting-in-app-messaging}
 
 Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 
-Si ha completado todos los requisitos para la mensajería en la aplicación, pero no se muestran mensajes, compruebe los siguientes elementos:
+Si ha completado todos los requisitos para la mensajería en la aplicación, pero no aparecen los mensajes, verifique los siguientes elementos:
 
 ## ¿Ha aplicado la nueva configuración y el nuevo SDK a la aplicación?
 
