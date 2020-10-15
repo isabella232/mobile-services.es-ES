@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Informe de información general de la tienda de aplicaciones
 topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Informe de información general de la tienda de aplicaciones{#app-store-overview-report}
+# Informe de información general de la tienda de aplicaciones {#app-store-overview-report}
 
 El informe **[!UICONTROL Información general de la tienda de aplicaciones]** proporciona una instantánea de las métricas de la tienda de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio de la tienda de aplicaciones, los ingresos procedentes de descargas, los ingresos en la aplicación, las descargas por país, las descargas por tienda de aplicaciones y las compras en la aplicación por nombre.
 
@@ -52,11 +52,11 @@ Puede hacer clic en cualquier lugar del widget **[!UICONTROL Puntuación media d
 
 Este informe muestra la cantidad de ingresos que generan las descargas de su aplicación.
 
-## Ingresos en la aplicación {#section_58792ED9C4B54B7D836E30CF09E8E204}
+## Ingresos en la aplicación  {#section_58792ED9C4B54B7D836E30CF09E8E204}
 
 Este informe muestra la cantidad de ingresos procedentes de las ventas en la aplicación que se realizaron con su aplicación.
 
-## Descargas por País {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## Descargas por País  {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 Este informe muestra el número de descargas de su aplicación agrupadas por país.
 
@@ -66,7 +66,7 @@ Para mostrar un gráfico con el número de descargas por país y fecha, haga cli
 
 ![](assets/downloads_by_country.png)
 
-## Descargas por App Store {#section_F1CD1A3F0105469D879E4F280CE32484}
+## Descargas por App Store  {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 Este informe muestra el número de descargas de su aplicación agrupadas por tienda de aplicaciones.
 
@@ -76,6 +76,6 @@ Para mostrar un gráfico con el número de descargas por tienda de aplicaciones 
 
 ![](assets/app_store_downloads_detail.png)
 
-## Compras en la aplicación por Nombre {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## Compras en la aplicación por Nombre  {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 Este informe muestra todas las compras en la aplicación por nombre.
