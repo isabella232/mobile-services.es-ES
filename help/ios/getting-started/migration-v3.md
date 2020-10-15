@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: Migración a la biblioteca iOS 4.x
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
-# Migración a la biblioteca iOS 4.x{#migrating-to-the-x-ios-library}
+# Migración a la biblioteca iOS 4.x {#migrating-to-the-x-ios-library}
 
 Esta información le ayuda a hacer la migración de las versiones 3.x o 2.x a la versión 4.x de la biblioteca iOS.
 
@@ -27,11 +27,11 @@ En la biblioteca de la versión 4.x del SDK para iOS, los métodos públicos se 
 
 ## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede cambiar la asignación de datos sin enviar una actualización a la tienda de aplicaciones.
 * Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
 * El envío de datos adicionales tiene poco impacto.
 
@@ -76,7 +76,7 @@ El nuevo archivo `ADBMobileConfig.json` contiene ajustes globales y específicos
 
 Para mover el archivo de configuración:
 
-1. Mueva el valor establecido para la variable en la primera columna a la variable en la segunda columna.
+1. Mueva el valor establecido para la variable de la primera columna a la variable de la segunda columna.
 1. Elimine la variable de configuración antigua del código.
 
 ### Información de migración
@@ -109,7 +109,7 @@ Mueva el valor de la primera columna a la variable de la segunda columna.
 | trackOffline | &quot;offlineEnabled&quot; |
 | offlineLimit | &quot;batchLimit&quot; |
 | account | &quot;rsids&quot; |
-| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. El prefijo de protocolo se agrega automáticamente según la configuración &quot;ssl&quot;. |
+| trackingServer | &quot;server&quot;, quite el prefijo `"https://"`. El prefijo de protocolo se agrega automáticamente según la configuración &quot;ssl&quot;. |
 | trackingServerSecure | Eliminar. Para conexiones seguras, defina &quot;server&quot; y luego habilite &quot;ssl&quot;. |
 | charSet | &quot;charset&quot; |
 | currencyCode | &quot;currency&quot; |
@@ -122,7 +122,7 @@ Mueva el valor de la primera columna a la variable de la segunda columna.
 | dynamicVariablePrefix | Eliminar, ya no se utiliza. |
 | visitorNamespace | Eliminar, ya no se utiliza. |
 | usePlugins | Eliminar, ya no se utiliza. |
-| useBestPractices todas las llamadas para producir mediciones ( getChurnInstance ) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
+| useBestPractices todas las llamadas para producir mediciones (getChurnInstance) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
 
 
 ## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
@@ -139,21 +139,21 @@ El parámetro `data` para ambos métodos es un `NSDictionary` que contiene pares
 
 ### Eventos, props y eVars
 
-En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas directamente en la aplicación. El SDK ahora utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
+En la versión 4, ya no puede asignar variables como eventos, eVars, props, herederos y listas en la aplicación. El SDK ahora utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
-* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede cambiar la asignación de datos sin enviar una actualización a la tienda de aplicaciones.
 * Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
 * El envío de datos adicionales tiene poco impacto.
 
-   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento. Para obtener más información, consulte Reglas [de procesamiento y Datos](/help/ios/getting-started/proc-rules.md)de contexto.
+   Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento. Para obtener más información, consulte [Reglas de procesamiento y Datos de contexto](/help/ios/getting-started/proc-rules.md).
 
-Los valores que asignaba directamente a variables deberían agregarse al `data``NSDictionary`. Esto significa que las llamadas a `setProp` y `setEvar`, así como las asignaciones a datos de contexto persistentes, deberían eliminarse para agregar sus valores al parámetro `data`.
+Los valores que asignaba directamente a variables deberían agregarse al `data` `NSDictionary`. Esto significa que las llamadas a `setProp` y `setEvar`, así como las asignaciones a datos de contexto persistentes, deberían eliminarse para agregar sus valores al parámetro `data`.
 
 ### AppSection/Server, GeoZip, Transaction ID, Campaign y otras variables estándar
 
-Los datos que configuraba en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse al `data``NSDictionary`. Los únicos datos que se envían con una llamada a `trackState` o `trackAction` son la carga útil del parámetro `data`.
+Los datos que configuraba en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse al `data` `NSDictionary`. Los únicos datos que se envían con una llamada a `trackState` o `trackAction` son la carga útil del parámetro `data`.
 
 ### Reemplazo de las llamadas de seguimiento
 
