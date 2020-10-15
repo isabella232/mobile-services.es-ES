@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Informe Embudo
 topic: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
-# Informe Embudo{#funnel}
+# Informe Embudo {#funnel}
 
 El informe **[!UICONTROL Embudo]** identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe **[!UICONTROL Embudo]** para comparar las acciones de diferentes segmentos.
 
@@ -34,23 +34,23 @@ A continuación, puede ver un ejemplo de este informe:
 
 Para mostrar un canal simple, aquí están los ajustes de una configuración que utiliza tres pasos de canal y dos comparaciones de canal. Suponemos que una aplicación de demostración permite a los usuarios agregar un elemento, como una fotografía, y luego compartirlo.
 
-En la ventana Personalizar, hay secciones que indican que el usuario ha iniciado la aplicación, ha añadido una fotografía de una galería en la aplicación, ha compartido una o varias fotos de la aplicación en medios sociales, ha enviado un mensaje de texto, ha enviado un correo electrónico, etc. Las comparaciones de canal le permiten comparar los niveles de adición y uso compartido de fotografías entre los usuarios de la aplicación de iOS y la de Android.
+En la ventana Personalizar, hay secciones que indican que el usuario ha iniciado la aplicación, ha añadido una fotografía de una galería en la aplicación, ha compartido una o varias fotos de la aplicación en medios sociales, ha enviado un mensaje de texto, ha enviado un correo electrónico, etc. Las comparaciones de canal le permiten comparar los niveles de adición y uso compartido de fotografías entre los usuarios de la aplicación de iOS y de Android.
 
 Para generar el informe, haga clic en **[!UICONTROL Ejecutar]**.
 
-Este es un ejemplo de un informe generado:
+A continuación, puede ver un ejemplo de un informe generado:
 
 ![](assets/funnel.png)
 
-La primera serie muestra que el 100 % de los usuarios inició la aplicación. La segunda serie muestra que un porcentaje mayor de usuarios de Android agregó una foto de la galería. La tercera serie muestra que casi la mitad de los usuarios de iOS compartieron la foto, pero ninguno de los usuarios de Android la compartió. Esto podría indicar un problema con la aplicación que debe investigarse.
+La primera serie muestra que el 100% de los usuarios iniciaron la aplicación. La segunda serie muestra que un porcentaje mayor de usuarios de Android agregó una foto desde la galería. La tercera serie muestra que casi la mitad de los usuarios de iOS compartieron la foto, pero ninguno de los usuarios de Android la compartió. Esto podría indicar un problema con la aplicación que debe investigarse.
 
 Para mostrar información adicional, pase el ratón sobre cualquier barra del gráfico.
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]**
+* **[!UICONTROL Periodo]**
 
-   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 * **[!UICONTROL Personalizar]**
 
    Personalice los informes cambiando las opciones **[!UICONTROL Mostrar por]**, agregando métricas, filtros, series (métricas) adicionales y mucho más. Para obtener más información, consulte [Personalización de informes](/help/using/usage/reports-customize/reports-customize.md).
