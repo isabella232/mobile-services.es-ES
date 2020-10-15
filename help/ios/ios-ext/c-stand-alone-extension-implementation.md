@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Implementación de extensiones independientes
 topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -55,5 +55,5 @@ Alguna información adicional:
 
       Este valor significa que la visita procede de la extensión.
 
-* No se activa ninguna llamada de ciclo vital en las aplicaciones de extensión de iOS.
+* En las aplicaciones de extensión de iOS no se activa ninguna llamada de ciclo vital.
 
