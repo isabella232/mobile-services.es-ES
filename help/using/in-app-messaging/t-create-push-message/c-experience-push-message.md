@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Experience Mensaje push
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -95,15 +95,15 @@ Para configurar un mensaje push en la página Experience:
 
    * **[!UICONTROL Opciones de Apple: categoría]**
 
-      Proporcione una categoría para las notificaciones push o locales. Para obtener más información, consulte [Managing Your App’s Notification Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW9) (Gestión del soporte para notificaciones de su aplicación) en la *biblioteca para desarrolladores de iOS*.
+      Proporcione una categoría para las notificaciones push o locales. Para obtener más información, consulte [Gestión del soporte para notificaciones de su aplicación](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW9) en la *biblioteca para desarrolladores de iOS*.
 
    * **[!UICONTROL Opciones de Apple: sonido]**
 
-      Proporcione el nombre del archivo de sonido en el paquete de aplicaciones que se debe reproducir. Se establece si no se reproduce un sonido de alerta predeterminado. Para obtener más información, consulte [Managing Your App’s Notification Support](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW10) (Gestión del soporte para notificaciones de su aplicación) en la *biblioteca para desarrolladores de iOS*.
+      Proporcione el nombre del archivo de sonido en el paquete de aplicaciones que se debe reproducir. Se establece si no se reproduce un sonido de alerta predeterminado. Para obtener más información, consulte [Gestión del soporte para notificaciones de su aplicación](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html#//apple_ref/doc/uid/TP40008194-CH4-SW10) en la *biblioteca para desarrolladores de iOS*.
 
    * **[!UICONTROL Opciones de Apple: contenido disponible]**
 
-      Seleccione esta opción para que, cuando el mensaje llegue, iOS active la aplicación en segundo plano y le permita ejecutar código basado en la carga útil del mensaje. Para obtener más información, consulte la sección [Apple Push Notification Service](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1) (Servicio de producción de notificaciones push de Apple) en la *biblioteca para desarrolladores de iOS*.
+      Seleccione esta opción para que, cuando el mensaje llegue, iOS active la aplicación en segundo plano y le permita ejecutar código basado en la carga útil del mensaje. Para obtener más información, consulte la sección [Servicio de producción de notificaciones push de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1) en la *biblioteca para desarrolladores de iOS*.
 
 1. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
 
