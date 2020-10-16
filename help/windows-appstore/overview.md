@@ -1,6 +1,6 @@
 ---
-description: El SDK 4.x Universal App Store para Windows 8.1 para Soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
-seo-description: El SDK 4.x Universal App Store para Windows 8.1 para Soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
+description: El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
+seo-description: El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
 seo-title: SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud
 solution: Experience Cloud,Analytics
 title: SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud
@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 
-# SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud{#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
+# SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud {#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
 
-El SDK 4.x Universal App Store para Windows 8.1 para Soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, distribuir contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
+El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
 
 **Última actualización: 21 de agosto de 2015**
 
-## Supported Platforms {#section_45978BF5C62E4986AAB7FFD96402BF2D}
+## Plataformas compatibles {#section_45978BF5C62E4986AAB7FFD96402BF2D}
 
 Se admiten las siguientes plataformas:
 
@@ -29,15 +29,15 @@ Se admiten las siguientes plataformas:
 
 * Windows Phone 8.1 o posterior.
 
-## IDE admitido {#section_03905798D74940C9A9F77285DA3F27D0}
+## IDE compatible {#section_03905798D74940C9A9F77285DA3F27D0}
 
 Visual Studio 2013 o posterior.
 
 ## Adobe Mobile Services {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services proporciona una nueva interfaz de usuario que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud. Inicialmente, el servicio Mobile ofrece una integración perfecta de las funciones de orientación y análisis de aplicaciones de Adobe Analytics y Adobe Target.
+Adobe Mobile Services proporciona una nueva interfaz de usuario que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud. Inicialmente, el servicio Mobile ofrece una integración perfecta de las prestaciones de orientación y análisis de aplicaciones de Adobe Analytics y Adobe Target.
 
-Learn more at [Adobe Mobile services documentation](/help/using/home.md).
+Para obtener más información, consulte la [documentación de Adobe Mobile Services](/help/using/home.md).
 
 ## Uso de Bloodhound
 
