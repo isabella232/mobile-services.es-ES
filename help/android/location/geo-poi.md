@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Geolocalización y puntos de interés
 topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Cada llamada a `trackLocation` envía la siguiente información:
 
 * Latitud, longitud y ubicación en un punto de interés (POI) definido en la interfaz de usuario de Adobe Mobile Services.
 
-   Esta información se pasa a variables de soluciones móviles para sistema de informes automático.
+   Esta información se pasa a variables de soluciones móviles para el sistema de informes automático.
 
-* Distancia desde el centro y precisión pasados como datos de contexto.
+* Distancia desde el centro y precisión que pasan como datos de contexto.
 
    Estas variables no se capturan de forma automática. Debe asignar estas variables de datos de contexto según las instrucciones que aparecen en la sección *Envío de datos adicionales*.
 
@@ -84,9 +84,9 @@ El valor de los datos de contexto debe asignarse a variables personalizadas de l
 
 ## Datos de contexto de ubicación {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-La latitud y la longitud se envían utilizando tres parámetros de datos de contexto diferentes, cada uno de los cuales representa un nivel de precisión diferente, para un total de seis parámetros de datos de contexto.
+La latitud y la longitud se envían utilizando tres parámetros de datos de contexto diferentes, cada uno de los cuales representa un nivel de precisión diferente, con un total de seis parámetros de datos de contexto.
 
-Por ejemplo, las coordenadas lat = 40.93231, long = -111.93152 representan una ubicación con una precisión de 1 m. Esta ubicación se divide según el nivel de precisión en las siguientes variables:
+Por ejemplo, las coordenadas de latitud = 40.93231, longitud = -111.93152 representan una ubicación con una precisión de 1 m. Esta ubicación se divide según el nivel de precisión en las siguientes variables:
 
 `a.loc.lat.a`= 040.9
 
@@ -119,5 +119,5 @@ Recuerde la información siguiente:
 
 * Cuando el diámetro de dos puntos de interés se superpone, se utiliza el primer punto de interés que contenga la ubicación actual.
 
-   Si los puntos de interés se superponen, debe lista los puntos de interés en orden de mayor a menor granularidad para garantizar que se informa del punto de interés más granular.
+   Si los puntos de interés se superponen, debe detallar los puntos de interés en orden del más granular al menos granular para garantizar que se informa del punto de interés más granular.
 
