@@ -1,16 +1,16 @@
 ---
-description: Esta información le ayuda a utilizar el SDK para iOS con el Adobe Experience Cloud.
-seo-description: Esta información le ayuda a utilizar el SDK para iOS con el Adobe Experience Cloud.
+description: Esta información le ayuda a utilizar el SDK para iOS con Adobe Experience Cloud.
+seo-description: Esta información le ayuda a utilizar el SDK para iOS con Adobe Experience Cloud.
 seo-title: Experience Cloud
 solution: Experience Cloud,Analytics
 title: 'Experience Cloud  '
 topic: Developer and implementation
 uuid: fb498937-b263-4cff-adde-8d709f51b950
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
