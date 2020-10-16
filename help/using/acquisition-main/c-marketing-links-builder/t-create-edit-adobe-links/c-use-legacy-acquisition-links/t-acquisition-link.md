@@ -1,26 +1,26 @@
 ---
-description: Puede crear vínculos al almacén de aplicaciones que le permitan descargar aplicaciones directamente desde Apple App Store y Google Play. Los vínculos que cree le permiten atribuir sus eventos de éxito a las descargas.
+description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea permiten atribuir los eventos de éxito a las descargas.
 keywords: mobile
-seo-description: Puede crear vínculos al almacén de aplicaciones que le permitan descargar aplicaciones directamente desde Apple App Store y Google Play. Los vínculos que cree le permiten atribuir sus eventos de éxito a las descargas.
+seo-description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea permiten atribuir los eventos de éxito a las descargas.
 seo-title: Creación un vínculo de adquisición
 solution: Experience Cloud,Analytics
 title: Creación un vínculo de adquisición
 topic: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# Creación de un vínculo de adquisición{#create-an-acquisition-link}
+# Creación de un vínculo de adquisición {#create-an-acquisition-link}
 
-Puede crear vínculos al almacén de aplicaciones que le permitan descargar aplicaciones directamente desde Apple App Store y Google Play. Los vínculos que cree le permiten atribuir sus eventos de éxito a las descargas.
+Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea permiten atribuir los eventos de éxito a las descargas.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]** > **[!UICONTROL Create New]**.
+1. Haga clic en **[!UICONTROL Adquisición]** > **[!UICONTROL Administrar vínculos de adquisición]** > **[!UICONTROL Crear nuevo]**.
 1. Escriba la siguiente información en la sección **[!UICONTROL Información de vínculos]**:
 
    * (**Necesario**) **[!UICONTROL Nombre]** Especifique un nombre descriptivo para el vínculo de aplicación.
@@ -41,7 +41,7 @@ Puede crear vínculos al almacén de aplicaciones que le permitan descargar apli
       * App Store de Apple
       * Google Play
 
-      Las opciones para cada tienda de aplicaciones varían, como se describe a continuación.
+      Las opciones de cada tienda de aplicaciones varían, como se describe a continuación.
 
    * **[!UICONTROL Región del explorador (solo App Store de Apple)]**
 
@@ -72,7 +72,7 @@ Puede crear vínculos al almacén de aplicaciones que le permitan descargar apli
 
 
 
-1. To save your configuration and to generate the link, click **[!UICONTROL Add]** > **[!UICONTROL Save]**.
+1. Para guardar la configuración y generar el vínculo, haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Guardar]**.
 
    El vínculo recién creado aparece en la sección **[!UICONTROL Vínculos a App Store]**.
 
