@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Principales 50 artículos
 topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Informe Principales 50 artículos{#top-articles}
+# Informe Principales 50 artículos {#top-articles}
 
 El informe **[!UICONTROL Principales 50 artículos]** muestra un gráfico de barras y un informe de clasificación que indica los artículos más leídos y mostrados mediante el uso de la aplicación. Este informe solo está disponible para los clientes de DPS.
 
@@ -24,11 +24,11 @@ Aunque el informe predeterminado muestra los datos de los últimos 30 días por 
 
 ![](assets/dps_top_50.png)
 
-De forma predeterminada, este informe muestra el título del artículo y el número de lectores.
+De forma predeterminada, este informe muestra el título del artículo y la cantidad de lectores.
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]** Haga clic en el icono de **[!UICONTROL Calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+* **[!UICONTROL Periodo]** Haga clic en el icono de **[!UICONTROL Calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 
 * **[!UICONTROL Personalizar]**
 
