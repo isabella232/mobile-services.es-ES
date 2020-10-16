@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
 ht-degree: 100%
 
@@ -22,9 +22,9 @@ Puede definir y configurar las opciones de audiencia para los mensajes push, inc
 
 ## Definir segmentos de audiencia {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-Cuando se crea un segmento de audiencia para mensajería push, este podría incluir a usuarios de una o varias aplicaciones porque los grupos de informes o los grupos de informes virtuales pueden contener datos de una aplicación o más. Para obtener información sobre los grupos de informes virtuales, consulte  [Grupos de informes virtuales](/help/using/manage-apps/c-mob-vrs.md).
+Cuando se crea un segmento de audiencia para mensajería push, este podría incluir a usuarios de una o varias aplicaciones porque los grupos de informes o los grupos de informes virtuales pueden contener datos de una aplicación o más. Para obtener información sobre los grupos de informes virtuales, consulte   [Grupos de informes virtuales](/help/using/manage-apps/c-mob-vrs.md).
 
-En Adobe Mobile Services, los especialistas en marketing solo pueden insertar una aplicación por plataforma. Si los especialistas en marketing intentan insertar segmentos que contienen usuarios de varias aplicaciones, se muestra una advertencia que indica que continuar puede provocar errores de inserción graves y la posible lista de usuarios bloqueados. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en  [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+En Adobe Mobile Services, los especialistas en marketing solo pueden insertar una aplicación por plataforma. Si los especialistas en marketing intentan insertar segmentos que contienen usuarios de varias aplicaciones, se muestra una advertencia que indica que continuar puede provocar errores de inserción graves y la posible lista de usuarios bloqueados. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en   [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 Para usar datos de Audience Manager en su definición de segmento, consulte [Audience Analytics](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
@@ -67,7 +67,7 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
 
 **Sí**: El especialista en marketing proporciona certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. El especialista en marketing puede enviar una notificación push a un segmento de usuario que abarque ambas plataformas.
 
-**No**: Los especialistas en marketing proporcionan certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. Si el especialista en marketing crea y usa un segmento de *todos los usuarios activos en los últimos 30 días*, solo los usuarios de la aplicación Adobe Photoshop de iOS y Android reciben la notificación push y todos los usuarios de la aplicación Adobe Illustrator de iOS y Android pasarán a estar en la lista de bloqueados. Si desea ver un ejemplo más detallado, consulte *Resolver errores de mensajes push* en  [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
+**No**: Los especialistas en marketing proporcionan certificados push para las versiones de iOS y Android de una aplicación, por ejemplo, para Adobe Photoshop. Si el especialista en marketing crea y usa un segmento de *todos los usuarios activos en los últimos 30 días*, solo los usuarios de la aplicación Adobe Photoshop de iOS y Android reciben la notificación push y todos los usuarios de la aplicación Adobe Illustrator de iOS y Android pasarán a estar en la lista de bloqueados. Si desea ver un ejemplo más detallado, consulte *Resolver errores de mensajes push* en   [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md).
 
 ## Configurar segmentos de audiencia {#section_A92C60885A30421B8150820EC1CCBF13}
 
