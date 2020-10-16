@@ -1,16 +1,16 @@
 ---
-description: Las siguientes tablas lista las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
-seo-description: Las siguientes tablas lista las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
+description: Estas tablas detallan las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
+seo-description: Estas tablas detallan las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
 seo-title: Métricas del ciclo vital
 solution: Experience Cloud,Analytics
 title: Métricas del ciclo vital
 topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1108'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 * **Nombre del dispositivo**
 
-   Almacena el nombre del dispositivo.  Cadena de dos dígitos separados por comas que identifica el dispositivo iOS. El primer número representa generalmente la generación del dispositivo y el segundo número representa generalmente versiones de miembros diferentes de la familia del dispositivo. Para ver una lista de nombres de dispositivos comunes, consulte  Versiones de dispositivo iOS.
+   Almacena el nombre del dispositivo.  Cadena de dos dígitos separados por comas que identifica el dispositivo iOS. El primer número representa generalmente la generación del dispositivo y el segundo número representa generalmente versiones de miembros diferentes de la familia del dispositivo. Para ver una lista de nombres de dispositivos comunes, consulte    Versiones de dispositivo iOS.
 
    * Target/dato contextual de Analytics: `a.DeviceName`
    * Audience Manager: `c_a_DeviceName`
@@ -286,7 +286,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Código de seguimiento**
 
-   Rellenado por Adquisición de aplicación móvil. Generado automáticamente por Adobe mobile services.
+   Rellenado por Adquisición de aplicación móvil. Generado automáticamente por Adobe Mobile Services.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.trackingcode`
    * Característica de Audience Manager: `c_a_referrer_campaign_trackingcode`
@@ -314,7 +314,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Fuente de campaña**
 
-   Remitente del reenvío original, como newsletter o red de medios sociales. Rellenado por Adquisición de aplicación móvil.
+   Referente original, como newsletter o red de medios sociales. Rellenado por Adquisición de aplicación móvil.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.referrer.campaign.source`
    * Característica de Audience Manager: `c_a_referrer_campaign_source`
