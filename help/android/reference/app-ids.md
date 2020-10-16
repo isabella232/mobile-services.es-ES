@@ -6,16 +6,16 @@ solution: Experience Cloud,Analytics
 title: ID de la aplicación
 topic: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# ID de la aplicación{#app-ids}
+# ID de la aplicación {#app-ids}
 
 En la tabla siguiente se describen los distintos identificadores de aplicación que utilizan el SDK para Android y Adobe Mobile Services.
 
