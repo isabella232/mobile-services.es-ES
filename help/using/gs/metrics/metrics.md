@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Métricas móviles
 topic: Metrics
 uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 
-# Métricas móviles{#mobile-metrics}
+# Métricas móviles {#mobile-metrics}
 
 Puede medir distintas métricas usando Adobe Mobile y recabar las métricas de las que quiera realizar un seguimiento para su aplicación.
 
@@ -24,11 +24,11 @@ Se miden los siguientes tipos de métricas:
 
 * **Inicios, actualizaciones y bloqueos de la aplicación**
 
-   Estas métricas proporcionan una vista sobre el estado general y el uso de la aplicación. Puede realizar un seguimiento del número de inicios, el número de usuarios en cada versión de la aplicación, los bloqueos, etc. Estas métricas, junto con los ingresos generales (si proporciona una aplicación de pago), son generalmente el punto de partida para la medición de aplicaciones móviles.
+   Estas métricas proporcionan una vista sobre el estado general y el uso de la aplicación. Puede hacer un seguimiento de la cantidad de inicios, la cantidad de usuarios en cada versión de la aplicación, los bloqueos, etc. Estas métricas, junto con los ingresos generales (si proporciona una aplicación de pago), son generalmente el punto de partida para la medición de aplicaciones móviles.
 
 * **Uso y retención**
 
-   Las métricas de uso le ayudan a comprender la duración media de la sesión, los usuarios que participan diariamente y mensualmente, las actualizaciones y otras perspectivas que le permiten saber cómo y con qué frecuencia se utiliza su aplicación. Los informes de retención muestran rápidamente los niveles de retención del usuario el día siguiente al inicio inicial, después de 7 días y después de 28 días.
+   Las métricas de uso le ayudan a comprender la longitud promedio de la sesión, los usuarios que participan con frecuencia diaria y mensual, las actualizaciones y otras perspectivas que le permiten saber cómo y con qué frecuencia se utiliza su aplicación. Los informes de retención muestran rápidamente los niveles de retención del usuario el día siguiente al primer inicio, después de 7 días y después de 28 días.
 
    En dispositivos Android, puede utilizar el seguimiento de remitente del reenvío de Google Play para medir cómo los usuarios acceden al almacén de aplicaciones antes de descargar la aplicación.
 
@@ -38,17 +38,17 @@ Se miden los siguientes tipos de métricas:
 
 * **Eventos de aplicaciones**
 
-   Los eventos de aplicaciones son indicadores de rendimiento clave (KPI) que el usuario define para medir el éxito de su aplicación. Según el tipo de aplicación proporcionada, los KPI variarán de artículos leídos y niveles completados a ingresos por duración.
+   Los eventos de aplicaciones son indicadores de rendimiento clave (KPI) que el usuario define para medir el éxito de su aplicación. Según el tipo de aplicación proporcionada, los KPI variarán de  artículos leídos y niveles completados a ingresos por duración.
 
 * **Estados de aplicaciones**
 
-   Los estados son las diferentes vistas que proporciona la aplicación. Los estados se visualizan en un informe de rutas, por lo que una buena manera de definir estados es pensar en las rutas a través de la aplicación que desee medir. Por ejemplo, ¿dónde navegan los usuarios con mayor frecuencia desde la vista inicial?
+   Los estados son las diferentes vistas que proporciona la aplicación. Los estados se visualizan en un informe de rutas, por lo que una buena manera de definir estados es pensar en las rutas a través de la aplicación que desee medir. Por ejemplo, ¿hacia dónde navegan los usuarios con mayor frecuencia desde la vista inicial?
 
 * **Ubicación y puntos de interés**
 
    Si la generación de informes geográficos está habilitada en su grupo de informes de Analytics, hay varios informes basados en ubicación disponibles. Con Wi-Fi, la exactitud de la generación de informes geográficos es similar a la de un explorador web de escritorio. En una conexión de datos, la precisión varía en función del proveedor y de cómo se dirigen las solicitudes.
 
-   Para aumentar la precisión, también puede agregar el seguimiento de ubicación y puntos de interés a la aplicación. Estas opciones le permiten informar datos detallados sobre la ubicación de latitud y longitud y usar vallas geográficas para determinar cuándo un usuario se encuentra en un radio de un punto de interés predefinido.
+   Para aumentar la precisión, también puede agregar el seguimiento de ubicación y los puntos de interés a la aplicación. Estas opciones le permiten informar datos detallados sobre la ubicación de latitud y longitud, y usar vallas geográficas para determinar cuándo un usuario se encuentra en un radio de un punto de interés predefinido.
 
 * **Valor de duración**
 
