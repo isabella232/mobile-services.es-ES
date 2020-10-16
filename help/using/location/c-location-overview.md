@@ -7,16 +7,16 @@ solution: Experience Cloud,Analytics
 title: Información general (ubicación)
 topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Información general (ubicación){#overview-location}
+# Información general (ubicación) {#overview-location}
 
 El informe **[!UICONTROL Información general de la ubicación]** le permite ver los diferentes países, regiones y puntos de interés en los que se utiliza la aplicación.
 
@@ -34,7 +34,7 @@ Esta visualización proporciona, por ejemplo, el informe base con desgloses. La 
 
 ![](assets/location.png)
 
-El gráfico de destello solar es interactivo. Para cambiar el período de tiempo, haga clic en el icono del **[!UICONTROL calendario]** en la parte superior derecha. Pase el ratón sobre cualquier parte del gráfico para ver más información. Por ejemplo, en la siguiente ilustración, puede ver el número total y el porcentaje de usuarios que utilizan su aplicación en Estados Unidos.
+El gráfico de destello solar es interactivo. Para cambiar el periodo, haga clic en el icono del **[!UICONTROL Calendario]** en la parte superior derecha. Pase el ratón sobre cualquier parte del gráfico para ver más información. Por ejemplo, en la siguiente ilustración, puede ver la cantidad total y el porcentaje de usuarios que utilizan su aplicación en Estados Unidos.
 
 ![](assets/location_mouse.png)
 
@@ -48,7 +48,7 @@ Esta es la visualización cuando selecciona **[!UICONTROL Puntos de interés]**:
 
 ![](assets/location_poi.png)
 
-Puede hacer clic en un trozo del anillo para seleccionar la audiencia en la que puede realizar acciones, como ampliar, ocultar audiencias, crear un mensaje en la aplicación o un filtro adhesivo.
+Puede hacer clic en un trozo del anillo para seleccionar la audiencia en la que puede realizar acciones, como ampliar, ocultar audiencias y crear un mensaje en la aplicación o un filtro adhesivo.
 
 ![](assets/location_aud.png)
 
@@ -74,7 +74,7 @@ Al hacer clic en **[!UICONTROL Agregar desglose]** o **[!UICONTROL Agregar métr
 
 Haga clic en un trozo del anillo a fin de seleccionar la audiencia para la que desea crear un filtro adhesivo y, a continuación, haga clic en **[!UICONTROL Filtro adhesivo]**. El filtro adhesivo le permite aplicar los filtros actuales y ejecutar un informe nuevo basado en los filtros.
 
-## Uso compartido de informes {#section_F8AF2AA73D4C4C008976D45847F82D0B}
+## Uso compartido de informes  {#section_F8AF2AA73D4C4C008976D45847F82D0B}
 
 Después de crear un informe, sus ajustes se usan para crear una dirección URL personalizada, que puede copiar y compartir.
 
