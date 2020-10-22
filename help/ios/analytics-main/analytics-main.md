@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Información general de Analytics
 topic: Developer and implementation
 uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -42,4 +42,4 @@ En los SDK, los identificadores se utilizan para rastrear usuarios y aquí está
 
 El SDK genera el AID, que a veces también se denomina Identificador de seguimiento, cuando la aplicación no está configurada para utilizar una MID. El valor persiste entre inicios y actualizaciones de aplicaciones en `NSUserDefaults`. Si el usuario elimina la aplicación de su dispositivo y luego la reinstala, o si el desarrollador de la aplicación elimina `NSUserDefaults`, el SDK genera un nuevo identificador. Este proceso genera un nuevo usuario en el sistema de informes de Analytics.
 
-Para los usuarios de una aplicación que introduce la compatibilidad con el servicio de identidad (MID), los valores de AID existentes se envían con las visitas de Analytics, y la visita de Analytics contiene un AID y un MID. Para los usuarios nuevos de una aplicación con compatibilidad con el servicio de identidad, las solicitudes de Analytics solo contienen un MID. Para obtener más información sobre la identificación de visitantes, consulte [Identificar visitantes](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
+Para los usuarios de una aplicación que introduce la compatibilidad con el servicio de identidad (MID), los valores de AID existentes se envían con las visitas de Analytics, y la visita de Analytics contiene un AID y un MID. Para los usuarios nuevos de una aplicación con compatibilidad con el servicio de identidad, las solicitudes de Analytics solo contienen un MID. Para obtener más información sobre la identificación de visitantes, consulte [Identificar visitantes](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-calculate.html).
