@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: SDK 4.x de la Plataforma universal de Windows para soluciones de Experience Cloud
 topic: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
