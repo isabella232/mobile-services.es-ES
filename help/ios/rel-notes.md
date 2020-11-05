@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Notas de la versión
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 89%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 100%
 # Notas de la versión {#release-notes}
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
+
+**4 de noviembre de 2020: Versión 4.20.0**
+
+* Servicio de ID de visitante: parámetro de estado device_permission Añadido cuando se llama a setAdvertisingIdentifier después de habilitar o deshabilitar el seguimiento de anuncios.
+* Analytics: se ha corregido un error que retrasaba el envío de visitas de Analytics en una instalación cuando iAd.framework está vinculado y el dispositivo tiene habilitado el seguimiento de anuncios limitado.
 
 **16 de julio de 2020: Versión 4.19.3**
 
