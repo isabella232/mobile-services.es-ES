@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -53,11 +53,11 @@ Las métricas del ciclo vital ya están listas para capturarse y los informes de
 ## Eventos, props y eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-Si ha observado la Referencia [de métodos y clases](/help/blackberry/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
+Si ha observado la Referencia [de métodos y clases](/help/blackberry/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
-* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede cambiar la asignación de datos sin enviar una actualización a la tienda de aplicaciones.
 * Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
 * El envío de datos adicionales tiene poco impacto. Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
@@ -67,7 +67,7 @@ Any values that you were assigning directly to variables should be added to the 
 
 Las reglas de procesamiento se utilizan para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables para sistema de informes.
 
-[Formación](https://tv.adobe.com/embed/1181/16506/) sobre reglas de procesamiento en Summit 2013
+[Formación sobre reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 
 [Reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -89,7 +89,7 @@ Además, hemos oído que algunos de ustedes están nombrando claves de datos de 
 "eVar1":"jimbo"
 ```
 
-Esto puede hacer que sea *ligeramente* más fácil cuando se realiza la asignación de una sola vez en las reglas de procesamiento, pero la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
 "username":"jimbo"
@@ -113,7 +113,7 @@ Las variables de datos de contexto que definen eventos de aumento pueden tener e
 
 ## Habilitar seguimiento sin conexión {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
-Para almacenar visitas cuando el dispositivo está sin conexión, puede activar el seguimiento sin conexión en el `ADBMobileConfig.json` archivo.
+Para almacenar las visitas cuando el dispositivo está sin conexión, puede habilitar el seguimiento sin conexión en el `ADBMobileConfig.json` archivo.
 
 Preste mucha atención a los requisitos de marca de hora descritos en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
 
