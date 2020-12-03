@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
 
-# Video Analytics {#video-analytics}
+# Video Analytics  {#video-analytics}
 
 El proceso general para medir vídeos es muy similar en todas las plataformas de AppMeasurement. En esta sección se proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
 
@@ -40,11 +40,11 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.media.segment**
 
-   (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente.
+   (**Obligatoria**) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente.
 
    For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. El método de recopilación de datos de vídeo predeterminado recopila datos en los puntos de inicio de vídeo (reproducción), inicio de segmento y fin de vídeo (parada).
 
-   Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante inicio de observar. Vistas de segmentos posteriores a medida que comienza el segmento.
+   Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante empieza a ver. Vistas de segmentos posteriores desde el inicio del segmento.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
