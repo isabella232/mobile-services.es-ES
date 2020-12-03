@@ -1,9 +1,9 @@
 ---
 description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
 seo-description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
-seo-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+seo-title: Variable products con eVars de comercialización y eventos específicos de productos
 solution: Experience Cloud,Analytics
-title: Variable products con eVars de comercialización y events (eventos) específicos de productos
+title: Variable products con eVars de comercialización y eventos específicos de productos
 topic: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 27%
 ---
 
 
-# Variable products con eVars de comercialización y events (eventos) específicos de productos{#products-variable-with-merchandising-evars-and-product-specific-events}
+# Variable products con eVars de comercialización y eventos específicos de productos{#products-variable-with-merchandising-evars-and-product-specific-events}
 
 Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
 
