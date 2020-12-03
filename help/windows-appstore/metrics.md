@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
 
-# Métricas del ciclo vital{#lifecycle-metrics}
+# Métricas del ciclo vital {#lifecycle-metrics}
 
 Lista las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
 
