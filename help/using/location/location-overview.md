@@ -1,11 +1,14 @@
 ---
 description: Información general sobre la sección Ubicación.
-keywords: móvil
+keywords: mobile
 seo-description: Información general sobre la sección Ubicación.
 seo-title: Información general de Ubicación
 title: Información general de Ubicación
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
 
 ## Nueva versión del SDK de Adobe Experience Cloud
 
-¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para consultar los documentos más recientes.
+¿Busca información y documentación relacionada con el SDK móvil de Adobe Experience Platform? Haga clic [aquí](https://aep-sdks.gitbook.io/docs/) para obtener la documentación más reciente.
 
 >[!IMPORTANT]
 >
