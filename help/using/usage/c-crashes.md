@@ -4,8 +4,11 @@ seo-description: El informe de bloqueos ofrece una instantánea de los bloqueos 
 seo-title: Informe de bloqueos
 title: Informe de bloqueos
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -22,13 +25,13 @@ El informe de **[!UICONTROL bloqueos]** ofrece una instantánea de los bloqueos 
 
 El gráfico **[!UICONTROL Frecuencia media de bloqueo]** muestra la frecuencia de bloqueo por fecha. Puede pasar el ratón sobre cualquier fecha para ver la frecuencia de bloqueo de ese día.
 
-El gráfico **[!UICONTROL Historial de bloqueos]** muestra información sobre cada bloqueo de la aplicación, incluido el ID de bloqueo, el tipo, el número de bloqueos y la fecha del mismo. Para iniciar sesión en Apteligent y ver más detalles sobre un bloqueo, haga clic en el vínculo en la columna **[!UICONTROL ID de bloqueo].**
+El gráfico **[!UICONTROL Historial de bloqueos]** muestra información sobre cada bloqueo de la aplicación, incluido el ID de bloqueo, el tipo, el número de bloqueos y la fecha del mismo. Para iniciar sesión en Apteligent y ver más detalles sobre un bloqueo, haga clic en el vínculo en la columna **[!UICONTROL ID de bloqueo]**.
 
 Para este informe, puede configurar las siguientes opciones:
 
-* **[!UICONTROL Período de tiempo]**
+* **[!UICONTROL Periodo]**
 
-   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un período de tiempo personalizado o elegir un período de tiempo preestablecido en la lista desplegable.
+   Haga clic en el icono de **[!UICONTROL calendario]** para seleccionar un periodo personalizado o elegir un periodo preestablecido en la lista desplegable.
 
 * **[!UICONTROL Filtro]**
 
