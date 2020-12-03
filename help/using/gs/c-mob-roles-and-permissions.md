@@ -4,8 +4,11 @@ seo-description: En Adobe Analytics, puede administrar los roles en la página p
 seo-title: Roles y permisos
 title: Roles y permisos
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +23,7 @@ Los roles siguientes administran los permisos en la interfaz de usuario de Mobil
 
 ### Administrador de Analytics
 
-Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador de Experience Cloud vincula su Adobe ID a su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener información sobre el administrador de Experience Cloud, consulte [Administración: Administración de usuarios y preguntas más frecuentes](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador de Experience Cloud vincula su Adobe ID con su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener información sobre el administrador de Experience Cloud, consulte [Administración: Administración de usuarios y preguntas más frecuentes](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!TIP]
 >
@@ -46,7 +49,7 @@ A continuación, presentamos información adicional sobre el acceso a las opcion
 
 ### Aplicaciones y grupos de informes
 
-Todas las aplicaciones de Mobile Service están enlazadas a grupos de informes. Si los usuarios no tienen acceso a un grupo de informes, tampoco tendrán acceso a la aplicación asociada a dicho grupo de informes.
+Todas las aplicaciones de Mobile Service están vinculadas a grupos de informes. Si los usuarios no tienen acceso a un grupo de informes, no tendrán acceso a la aplicación asociada de ese grupo de informes.
 
 ### Funciones de Mobile Services y Analytics
 
@@ -59,8 +62,8 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 ### Administrador de Analytics
 
 * Todos los permisos de administración de usuarios y aplicaciones móviles
-* Crear una aplicación con un grupo de informes nuevo
-* Eliminar una aplicación de Mobile Services
+* Crear aplicación con nuevo grupo de informes
+* Eliminar aplicación de Mobile Services
 
    >[!IMPORTANT]
    >
@@ -68,57 +71,57 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
 * Administrar configuración de aplicación
 
-   * Activar la creación de informes de ciclo de vida
-   * Activar la creación de informes de ubicación
-   * Crear/Actualizar/Eliminar variables y métricas
+   * Habilitar Sistema de informes del ciclo vital
+   * Habilitar Sistema de informes de ubicación
+   * Crear/actualizar/eliminar variables y métricas
 
 ### Administrador de aplicaciones móviles
 
 * Todos los permisos de usuario
-* Crear una aplicación con un grupo de informes existente
+* Crear aplicación con grupo de informes existente
 * Administrar configuración de aplicación
 
-   * Configurar las opciones del SDK de Mobile de la aplicación
-   * Configurar los ajustes de la interfaz de usuario de la aplicación
-   * Configurar las aplicaciones vinculadas de las tiendas de aplicaciones
-   * Configurar las opciones de vínculos universales de la aplicación
-   * Configurar los certificados y las claves de API de los servicios push
-   * Crear/actualizar/activar/desactivar/duplicar/archivar/eliminar postbacks
+   * Configuración de las opciones del SDK para móviles de la aplicación
+   * Configurar la configuración de la interfaz de usuario de la aplicación
+   * Configuración de aplicaciones de App Store vinculadas
+   * Configurar las opciones de vínculo universal de la aplicación
+   * Configuración de certificados y claves de API de servicios push
+   * Crear/actualizar/activar/desactivar/Duplicado/archivar/eliminar postbacks
    * Crear/actualizar/archivar/eliminar destinos de vínculo
 
 * Crear/actualizar/archivar vínculos de marketing
-* Crear/importar/actualizar/eliminar vínculos de adquisiciones preexistentes
+* Crear/importar/actualizar/eliminar vínculos de adquisición preexistentes
 * Crear/importar/actualizar/eliminar configuraciones de lugares (puntos de interés)
-* Crear/actualizar/enviar/programar/cancelar/duplicar/archivar/eliminar mensajes push
-* Crear/actualizar/activar/desactivar/duplicar/archivar/eliminar mensajes en la aplicación
+* Crear/actualizar/enviar/programar/cancelar/Duplicado/archivar/eliminar mensajes push
+* Crear/actualizar/activar/desactivar/Duplicado/archivar/eliminar mensajes en la aplicación
 
-Para obtener más información sobre los grupos y los usuarios, consulte:
+Para obtener más información sobre grupos y usuarios, consulte:
 
 * [Configuración de grupos de usuarios](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html)
 * [Agregar un usuario a un grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
 ### Usuario de Mobile Services
 
-Este rol solo tiene permiso de visualización y puede proporcionar comentarios en la interfaz de usuario de Mobile Services.
+Esta función solo tiene permisos de vista y puede proporcionar comentarios en la interfaz de usuario de Mobile Services.
 
 * Proporcionar comentarios en la interfaz de usuario de Mobile Services
-* Ver aplicaciones
+* Aplicaciones de vista
 
    >[!IMPORTANT]
    >
    >Los usuarios solo pueden ver los grupos de informes a los que tienen acceso en Adobe Analytics.
 
-* Ver la configuración de la aplicación
+* Configuración de la aplicación de vista
 
-   * Descargar la configuración del SDK de la aplicación
-   * Ver toda la configuración de la interfaz de usuario y el SDK
-   * Ver la configuración de las variables y métricas
-   * Ver los postbacks
-   * Ver los destinos de los vínculos
+   * Descargar configuración del SDK de la aplicación
+   * Vista de toda la configuración de la interfaz de usuario y del SDK
+   * Configuración de variables y métricas de vista
+   * Postbacks de vista
+   * Destinos del vínculo de vista
 
 * Ver y ejecutar informes
 * Ver vínculos de marketing
-* Ver y exportar vínculos de adquisiciones preexistentes
-* Ver y exportar configuraciones de lugares (puntos de interés)
-* Ver mensajes push
-* Ver mensajes en la aplicación
+* Vista y exportación de vínculos de adquisición heredados
+* Vista y configuración de lugares de exportación (puntos de interés)
+* Mensajes push de vista
+* Vista de mensajes en la aplicación
