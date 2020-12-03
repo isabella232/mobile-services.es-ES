@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -55,11 +55,11 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
    >[!IMPORTANT]
    >
-   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,  póngase en contacto  Servicio de atención al cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   >IIf time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be true. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   Servicio de atención al cliente. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
 * **lifecycleTimeout**
 
-   Especifica el tiempo, en segundos, que debe transcurrir entre cada inicio de la aplicación antes de que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión. El valor predeterminado es 300 segundos.
+   Especifica la duración en segundos que debe transcurrir entre el momento en que se inicia la aplicación, antes de que el inicio se considere una sesión nueva. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión. El valor predeterminado es 300 segundos.
 
 * **batchLimit**
 
