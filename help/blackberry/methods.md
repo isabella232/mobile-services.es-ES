@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -43,7 +43,7 @@ Actualmente, el SDK admite Adobe Analytics y los métodos están en clases indep
       ADBMobilePrivacyStatus privacyStatus = ADBMobile::getPrivacyStatus();
       ```
 
-* Método **setPrivacyStatus**
+* **setPrivacyStatus**
 
    Establece el estado de privacidad del usuario actual como `status`. Establezca uno de los siguientes valores:
 
@@ -238,7 +238,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,  póngase en contacto  [Asistencia](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)empresarial.
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   [Asistencia](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)empresarial.
 
    If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
@@ -246,7 +246,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **lifecycleTimeout**
 
-   Especifica el tiempo, en segundos, que debe transcurrir entre cada inicio de la aplicación antes de que el inicio se considere una nueva sesión. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
+   Especifica la duración en segundos que debe transcurrir entre el momento en que se inicia la aplicación, antes de que el inicio se considere una sesión nueva. Este tiempo de espera también se aplica cuando la aplicación se envía al segundo plano y se reactiva. El tiempo que la aplicación emplea en segundo plano no se incluye en la duración de la sesión.
 
    El valor predeterminado es 300 segundos.
 
