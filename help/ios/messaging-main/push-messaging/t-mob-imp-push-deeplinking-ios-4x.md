@@ -4,8 +4,11 @@ seo-description: Después de configurar la URL de vinculación profunda en la in
 seo-title: Implementar la mensajería push con vinculación profunda
 title: Implementar la mensajería push con vinculación profunda
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 93%
 
 ---
 
