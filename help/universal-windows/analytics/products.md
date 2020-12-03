@@ -51,7 +51,7 @@ The *`products`* is set directly on the image request, and the other variables a
 
 No es necesario asignar la *`products`* variable mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
 
-## Variable products con eVars de comercialización y events (eventos) específicos de productos {#section_685D53AD3D064F9A8E225F995A9BA545}
+## Variable products con eVars de comercialización y eventos específicos de productos {#section_685D53AD3D064F9A8E225F995A9BA545}
 
 An example of the *`products`* variable with Merchandising eVars and product-specific events.
 
