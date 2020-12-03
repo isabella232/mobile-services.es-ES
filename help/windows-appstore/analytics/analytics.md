@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -131,11 +131,11 @@ Si `CollectLifecycleData()` se llama dos veces en la misma sesión, la aplicaci�
 ## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-Si ha observado la Referencia [de métodos y clases](/help/windows-appstore/c-configuration/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para sistema de informes.
+Si ha observado la Referencia [de métodos y clases](/help/windows-appstore/c-configuration/methods.md)ADBMobile, probablemente se pregunte dónde establecer eventos, eVars, propiedades, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
-* Puede cambiar la asignación de datos sin enviar una actualización al App Store.
+* Puede cambiar la asignación de datos sin enviar una actualización a la tienda de aplicaciones.
 * Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
 * El envío de datos adicionales tiene poco impacto. Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
@@ -146,7 +146,7 @@ Los valores que asignaba directamente a variables deberían agregarse a los dato
 
 Las reglas de procesamiento se utilizan para copiar los datos que envía en variables de datos de contexto a evars, props y otras variables para sistema de informes.
 
-[Formación](https://tv.adobe.com/embed/1181/16506/) sobre reglas de procesamiento en Summit 2013
+[Formación sobre reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 
 [Resumen de las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -168,7 +168,7 @@ Además, hemos oído que algunos de ustedes están nombrando claves de datos de 
 "eVar1":"jimbo"
 ```
 
-Esto puede hacer que sea *ligeramente* más fácil cuando se realiza la asignación de una sola vez en las reglas de procesamiento, pero la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. En su lugar, recomendamos encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
 "username":"jimbo"
