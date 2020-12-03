@@ -1,11 +1,14 @@
 ---
-description: Esta información describe el uso de la funcionalidad de los vínculos de adquisición.
-seo-description: Esta información describe el uso de la funcionalidad de los vínculos de adquisición.
+description: Esta información le ayuda a utilizar la funcionalidad de vínculos de adquisición heredados.
+seo-description: Esta información le ayuda a utilizar la funcionalidad de vínculos de adquisición heredados.
 seo-title: Usar vínculos de adquisición de elementos heredados
 title: Usar vínculos de adquisición de elementos heredados
 uuid: cee84d33-e7f9-428e-89a1-83554e7f4c5e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 83%
 
 ---
 
