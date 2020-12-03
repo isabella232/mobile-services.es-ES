@@ -4,8 +4,11 @@ seo-description: Después de configurar la URL de vinculación profunda en la in
 seo-title: Implementar la mensajería push con vinculación profunda
 title: Implementar la mensajería push con vinculación profunda
 uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 75%
 
 ---
 
@@ -26,7 +29,7 @@ Puede obtener la dirección URL llamando a `remoteMessage.getData().get("adb_dee
 
       Cuando el usuario hace clic en el mensaje push, se activa un vínculo profundo.
 
-   * Si la URL de vinculación profunda **no está** en la carga útil push, cree un objeto Intent que abra una de las actividades.
+   * Si la URL de vinculación profunda no **está** en la carga útil push, cree una intención que abra una de sus actividades.
 
 ## Ejemplo
 
