@@ -4,8 +4,11 @@ seo-description: La vista previa de Target permite realizar un completo QA para 
 seo-title: Vista previa de Target en Android
 title: Vista previa de Target en Android
 uuid: f3c82d64-009c-4929-a5e6-3677b2977889
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 87%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
 
-Para obtener más información acerca de cómo configurar y utilizar Vista previa de Target, vaya a [Vista previa de Target Mobile](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+For more information on how to set up and use Target Preview, go to [Target Mobile Preview](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/mobile-apps/target-mobile-preview.html).
 
 >[!IMPORTANT]
 >
@@ -22,7 +25,7 @@ Para obtener más información acerca de cómo configurar y utilizar Vista previ
 
 * **setPreviewRestartDeeplink**
 
-   Establece un enlace profundo de aplicación que se activará cuando las selecciones de vista de previa se apliquen en el modo Vista previa.
+   Establece un vínculo profundo de la aplicación que se activará cuando se apliquen las selecciones de previsualización en el modo de Previsualización.
 
    * Esta es la sintaxis para este método:
 
