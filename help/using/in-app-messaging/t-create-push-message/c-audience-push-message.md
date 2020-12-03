@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 100%
 
