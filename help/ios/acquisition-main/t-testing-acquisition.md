@@ -5,9 +5,9 @@ seo-title: Prueba de adquisición de elementos heredados
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición de elementos heredados
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
