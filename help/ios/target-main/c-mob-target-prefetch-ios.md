@@ -4,8 +4,11 @@ seo-description: La función de recuperación previa de Adobe Target usa los SDK
 seo-title: Recuperar previamente contenido de ofertas en iOS
 title: Recuperar previamente contenido de ofertas en iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +21,7 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para i
 >
 >La funcionalidad de recuperación previa en los SDK móviles para iOS no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
-Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target acerca de qué mbox visitó el usuario de una aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la memoria caché para todas las llamadas futuras que incluyan este contenido para el nombre de mbox especificado.
+Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y este contenido se recuperará de la caché para todas las llamadas futuras que contengan contenido en caché para el nombre de mbox especificado.
 
 El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
 
@@ -154,13 +157,13 @@ Encapsula el nombre de mbox y los parámetros que se utilizan para la recuperaci
 
 * **`orderParameters`**
 
-   El diccionario que contiene los pares de clave-valor de los parámetros de order.
+   Diccionario que contiene los pares clave-valor de los parámetros de pedido.
 
    * **Tipo:** NSDictionary*
 
 * **`productParameters`**
 
-   El diccionario que contiene los pares de clave-valor de los parámetros de product.
+   Diccionario que contiene los pares de clave-valor de los parámetros de producto.
 
    * **Tipo:** NSDictionary*
 
@@ -176,13 +179,13 @@ Esta clase encapsula el nombre de mbox, el contenido predeterminado, los paráme
 
 * **`mboxParameters`**
 
-   El valor NSString que representa el nombre de la ubicación o el mbox que desea recuperar.
+   El valor NSString que representa el nombre de la ubicación o mbox que desea recuperar.
 
    * **Tipo:** NSString*
 
 * **`defaultContent`**
 
-   El contenido predeterminado que se devolverá si no se puede acceder a los servidores de Target.
+   El contenido predeterminado que se devolverá si los servidores de Destinatario están inaccesibles.
 
    * **Tipo:** NSString*
 
