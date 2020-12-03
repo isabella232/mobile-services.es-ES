@@ -1,18 +1,21 @@
 ---
-description: Lista de las clases y enumeraciones para su uso en las aplicaciones Xamarin.
-seo-description: Lista de las clases y enumeraciones para su uso en las aplicaciones Xamarin.
+description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
+seo-description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
 seo-title: Clases y enumeraciones
-title: Classes and enums
+title: Clases y enumeraciones
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 24%
 
 ---
 
 
-# Classes and enums{#classes-and-enums}
+# Clases y enumeraciones{#classes-and-enums}
 
-Lista de las clases y enumeraciones para su uso en las aplicaciones Xamarin.
+Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
 
 ## Clases {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 
@@ -227,7 +230,7 @@ public class ADBMediaSettings : NSObject
 }
 ```
 
-### Constants
+### Constantes
 
 ```objective-c
 public static class Constants 
