@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 75%
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener más información, consulte [Solución de problemas con los datos](
 
 ## Métricas y dimensiones del ciclo vital {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-Cuando se configuran, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros para el Destinatario con cada llamada de mbox y como señal para la administración de audiencias. Analytics y Destinatario utilizan el mismo formato, mientras que la administración de audiencias utiliza un prefijo diferente para cada métrica.
+Cuando están configuradas, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros a Target con cada llamada de mbox y como señal a Audience Manager. Analytics y Target usan el mismo formato, mientras que Audience Manager usa un prefijo distinto para cada métrica.
 
 Para Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se registran mediante la métrica o la dimensión. Las excepciones se indican en el contenido.
 
