@@ -27,7 +27,7 @@ A continuación encontrará información sobre cómo implementar la biblioteca d
 
 Después de descomprimir el archivo de descarga [del](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) SDK, dispondrá de una carpeta independiente para cada combinación de arquitectura y plataforma admitida. También tendrá un `ADBMobileConfig.json` archivo. Para obtener más información sobre este archivo, consulte [Archivo](/help/universal-windows/c-configuration/c.json.md)de configuración ADBMobileConfig.json.
 
-## Seleccione la versión correcta {#section_E53C5AA7D5474824A89BB32C003865A1}
+## Select the correct version {#section_E53C5AA7D5474824A89BB32C003865A1}
 
 Se proporcionan diferentes `.dll/.winmd` archivos para cada arquitectura admitida (x86, x64, ARM).
 
