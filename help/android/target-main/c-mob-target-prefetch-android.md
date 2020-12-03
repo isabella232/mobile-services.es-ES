@@ -4,8 +4,11 @@ seo-description: La función de recuperación previa de Adobe Target usa los SDK
 seo-title: Recuperación previa del contenido de ofertas en Android
 title: Recuperación previa del contenido de ofertas en Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +21,7 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para A
 >
 >La funcionalidad de recuperación previa en los SDK móviles para Android no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
-Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target acerca de qué mbox visitó el usuario de una aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la memoria caché para todas las llamadas futuras que incluyan este contenido para el nombre de mbox especificado.
+Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y este contenido se recuperará de la caché para todas las llamadas futuras que contengan contenido en caché para el nombre de mbox especificado.
 
 El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
 
