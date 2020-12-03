@@ -15,6 +15,6 @@ ht-degree: 5%
 ---
 
 
-# Configuración{#configuration}
+# Configuración {#configuration}
 
 Información útil para configurar el SDK de la Plataforma universal de Windows, incluida la configuración JSON, el agrupamiento de visitas y los métodos SDK.
