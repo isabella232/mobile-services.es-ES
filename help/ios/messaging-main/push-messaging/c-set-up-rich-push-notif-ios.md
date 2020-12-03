@@ -1,33 +1,36 @@
 ---
-description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
-seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
+description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Añadir componentes visuales puede aumentar significativamente la participación de los usuarios con las notificaciones push.
+seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Apple. Añadir componentes visuales puede aumentar significativamente la participación de los usuarios con las notificaciones push.
 seo-title: Recibir notificaciones push enriquecidas
 title: Recibir notificaciones push enriquecidas
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 35%
 
 ---
 
 
 # Recibir notificaciones push enriquecidas {#receive-rich-push-notifications}
 
-Puede adjuntar archivos de imagen a sus notificaciones de Apple. Agregar componentes visuales puede aumentar de forma significativa la interacción del usuario con las notificaciones push.
+Puede adjuntar archivos de imagen a sus notificaciones de Apple. Añadir componentes visuales puede aumentar significativamente la participación de los usuarios con las notificaciones push.
 
-Para recibir notificaciones push enriquecidas en su aplicación iOS:
+Para recibir notificaciones push enriquecidas en la aplicación de iOS:
 
 1. Implemente la mensajería push para la aplicación completando los pasos indicados en [Mensajería push](/help/ios/messaging-main/push-messaging/push-messaging.md).
 1. Compruebe que puede enviar un mensaje push de texto a la aplicación.
-1. Agregue una extensión del servicio de notificaciones completando los siguientes pasos:
+1. Añada una extensión del servicio de notificaciones siguiendo estos pasos:
 
-   1. En el proyecto Xcode, seleccione **[!UICONTROL Archivo]** &gt; **[!UICONTROL Nuevo]** &gt; **[!UICONTROL Target]**.
+   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
    1. Seleccione **[!UICONTROL Extensión del servicio de notificaciones]**.
    1. Compruebe que el archivo `NotificationService.m` existe.
 
 1. Abra el archivo `NotificationService.m` y compruebe que existen los siguientes métodos delegados:
 
    * Un método para recibir una solicitud de notificación.
-   * Un método para gestionar la caducidad de la extensión del servicio.
+   * Un método para gestionar la caducidad de la extensión de servicio.
 
       Para recibir notificaciones push enriquecidas, se utiliza el primer método:
 
@@ -72,4 +75,4 @@ Para recibir notificaciones push enriquecidas en su aplicación iOS:
       ```
 
 
-Para obtener más información acerca de notificaciones push enriquecidas en iOS, consulte [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
+For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
