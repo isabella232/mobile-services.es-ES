@@ -48,7 +48,6 @@ Utilice el SDK para iOS aunque estos tres métodos de seguimiento cumplan con su
 >
 >* Un destinatario para contener la aplicación.
 >* Un destinatario para la extensión.
-
 >
 
 
