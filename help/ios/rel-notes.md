@@ -7,10 +7,10 @@ title: Notas de la versión
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 translation-type: tm+mt
-source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
+source-git-commit: b6c9154e925ce0a0530d4c8f0871a97198ecd840
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 90%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 100%
 # Notas de la versión {#release-notes}
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
+
+**15 de diciembre de 2020: Versión 4.21.0**
+
+* General: El SDK ahora se distribuye mediante XCFrameworks para admitir hardware con la nueva arquitectura Apple M1 y, al mismo tiempo, mantener la compatibilidad con la arquitectura Intel existente.
+   * IMPORTANTE: La actualización a AdobeMobile XCFrameworks requiere Xcode 12.0 o posterior
+   * IMPORTANTE: Si se utilizan cookies, la actualización a AdobeMobile XCFrameworks requiere Cocoapods 1.10.0 o posterior
 
 **4 de noviembre de 2020: Versión 4.20.0**
 
