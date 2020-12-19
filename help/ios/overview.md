@@ -7,10 +7,10 @@ title: SDK para iOS 4.x para soluciones de Experience Cloud
 topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: 1b888d0184e20d2134edbc488d36c09d0492a334
+source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 84%
+source-wordcount: '530'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,6 @@ Si utiliza 4.21.0 o posterior, lea la documentación teniendo en cuenta los sigu
    * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
    * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
    * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
-* El archivo de encabezado `ADBMobile.h` está incrustado en cada XCFrframework.
 * Si agrega manualmente los XCFrameworks de Adobe a su proyecto, asegúrese de que no están integrados.
 
 >[!IMPORTANT]
