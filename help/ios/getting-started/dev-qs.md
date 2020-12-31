@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 75%
+ht-degree: 99%
 
 ---
 
@@ -37,25 +37,25 @@ Para descargar el SDK:
 >
 >La versión 4.21.0 del SDK requiere Xcode 12.0 o posterior y, si procede, Cocoapods 1.10.0 o posterior.
 
-1. Descargue, descomprima el archivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` y verifique que tiene los siguientes componentes de software en el directorio `AdobeMobileLibrary`:
+1. Descargue y descomprima el archivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` y compruebe que dispone de los siguientes componentes de software en el directorio `AdobeMobileLibrary`:
 
    * `ADBMobile.h` - el archivo de encabezado Objective-C utilizado para el SDK de iOS.
-   * `ADBMobileConfig.json` - el archivo de configuración del SDK personalizado para su aplicación.
-   * `AdobeMobile.xcframework` - contiene dos binarios grasos, uno para dispositivos iOS (armv7, armv7s, arm64) y simuladores (i386, x86_64, arm64).
+   * `ADBMobileConfig.json`: el archivo de configuración del SDK personalizado para su aplicación.
+   * `AdobeMobile.xcframework`: contiene dos binarios multiarquitectura, uno para dispositivos iOS (armv7, armv7s, arm64) y simuladores (i386, x86_64, arm64).
 
-      Este marco XCF debe vincularse al segmentar por una aplicación de iOS.
+      Este XCFramework debe vincularse al realizar el direccionamiento de una aplicación de iOS.
 
-   * `AdobeMobileExtension.xcframework` - contiene dos binarios grasos, uno para dispositivos iOS (armv7, armv7s, arm64) y simuladores (i386, x86_64, arm64).
+   * `AdobeMobileExtension.xcframework`: contiene dos binarios multiarquitectura, uno para dispositivos iOS (armv7, armv7s, arm64) y simuladores (i386, x86_64, arm64).
 
-      Este XCFrframework debe vincularse al destinar una extensión iOS.
+      Este XCFramework debe vincularse al realizar al direccionamiento de una extensión iOS.
 
-   * `AdobeMobileWatch.xcframework` - contiene dos binarios grasos, uno para dispositivos WatchOS (arm64_32, armv7k) y simuladores (i386, x86_64, arm64).
+   * `AdobeMobileWatch.xcframework`: contiene dos binarios multiarquitectura, uno para dispositivos watchOS (arm64_32, armv7k) y simuladores (i386, x86_64, arm64).
 
-      Este marco XCF debe vincularse al segmentar por una aplicación Apple Watch (watchOS).
+      Este XCFramework debe vincularse al realizar el direccionamiento de una aplicación de Apple Watch (watchOS).
 
-   * `AdobeMobileTV.xcframework` - contiene dos binarios grasos, uno para dispositivos tvOS (arm64) y simuladores (x86_64, arm64).
+   * `AdobeMobileTV.xcframework`: contiene dos binarios multiarquitectura, uno para dispositivos tvOS (arm64) y simuladores (x86_64, arm64).
 
-      Este XCFrframework debe vincularse al segmentar por una aplicación de Apple TV (tvOS).
+      Este XCFramework debe vincularse al realizar el direccionamiento de una aplicación de Apple TV (tvOS).
 
 >[!IMPORTANT]
 >
@@ -134,7 +134,7 @@ Para descargar el SDK:
 
    >[!IMPORTANT]
    >
-   > Si utiliza la versión 4.21.0 o posterior, asegúrese de que los XCFrameworks de Adobe no están incrustados.
+   > Si utiliza la versión 4.21.0 o posterior, asegúrese de que los XCFrameworks de Adobe no estén incrustados.
 
    ![](assets/no-embed.png)
 
