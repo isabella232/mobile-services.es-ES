@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: SDK para iOS 4.x para soluciones de Experience Cloud
 topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ Si utiliza 4.21.0 o posterior, lea la documentación teniendo en cuenta los sigu
 
 * Cada vez que se mencione un archivo de biblioteca binario, deberá utilizarse su reemplazo de XCFramework:
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
-   * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
-   * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
-   * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
+   * `AdobeMobileLibrary_Extension.a` > `AdobeMobileExtension.xcframework`
+   * `AdobeMobileLibrary_Watch.a` > `AdobeMobileWatch.xcframework`
+   * `AdobeMobileLibrary_TV.a` > `AdobeMobileTV.xcframework`
 * Si agrega manualmente los XCFrameworks de Adobe a su proyecto, asegúrese de que no estén integrados.
 
 >[!IMPORTANT]
