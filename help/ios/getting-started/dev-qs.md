@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Implementación principal y ciclo vital
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para descargar el SDK:
 
 1. Descargue y descomprima el archivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` y compruebe que dispone de los siguientes componentes de software en el directorio `AdobeMobileLibrary`:
 
-   * `ADBMobile.h` - el archivo de encabezado Objective-C utilizado para el SDK de iOS.
+   * `ADBMobile.h`: el archivo de encabezado Objective-C utilizado para el SDK de iOS.
    * `ADBMobileConfig.json`: el archivo de configuración del SDK personalizado para su aplicación.
    * `AdobeMobile.xcframework`: contiene dos binarios multiarquitectura, uno para dispositivos iOS (armv7, armv7s, arm64) y simuladores (i386, x86_64, arm64).
 
@@ -63,21 +63,21 @@ Para descargar el SDK:
 
 1. Descargue y descomprima el archivo `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` y compruebe que dispone de los siguientes componentes de software:
 
-   * `ADBMobile.h`, el archivo de encabezado Objective-C empleado para llamadas iOS AppMeasurement.
-   * `ADBMobileConfig.json`, que es el archivo de configuración del SDK personalizado para su aplicación.
-   * `AdobeMobileLibrary.a`, un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos iOS (armv7, armv7s, arm64).
+   * `ADBMobile.h`: el archivo de encabezado Objective-C empleado para llamadas iOS AppMeasurement.
+   * `ADBMobileConfig.json`: que es el archivo de configuración del SDK personalizado para su aplicación.
+   * `AdobeMobileLibrary.a`: un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos iOS (armv7, armv7s, arm64).
 
       Este binario multiarquitectura se debe vincular cuando el destino se dirija a una aplicación iOS.
 
-   * `AdobeMobileLibrary_Extension.a`, un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos iOS (armv7, armv7s, arm64).
+   * `AdobeMobileLibrary_Extension.a`: un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos iOS (armv7, armv7s, arm64).
 
       Este binario multiarquitectura se debe vincular cuando el destino se dirija a una extensión iOS.
 
-   * `AdobeMobileLibrary_Watch.a`, un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos Apple Watch (armv7k).
+   * `AdobeMobileLibrary_Watch.a`: un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para los simuladores (i386, x86_64) y dispositivos Apple Watch (armv7k).
 
       Este binario multiarquitectura se debe vincular cuando el destino se dirija a una aplicación de extensión Apple Watch (watchOS 2).
 
-   * `AdobeMobileLibrary_TV.a`, un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para el simulador (x86_64) y los dispositivos Apple TV (arm64) nuevos.
+   * `AdobeMobileLibrary_TV.a`: un binario multiarquitectura habilitado para código de bits que contiene las compilaciones de biblioteca para el simulador (x86_64) y los dispositivos Apple TV (arm64) nuevos.
 
       Este binario multiarquitectura se debe vincular cuando el destino se dirija a una aplicación Apple TV (tvOS).
 
