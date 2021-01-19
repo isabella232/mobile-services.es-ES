@@ -7,7 +7,7 @@ title: Migración a la biblioteca iOS 4.x
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
@@ -122,7 +122,7 @@ Mueva el valor de la primera columna a la variable de la segunda columna.
 | dynamicVariablePrefix | Eliminar, ya no se utiliza. |
 | visitorNamespace | Eliminar, ya no se utiliza. |
 | usePlugins | Eliminar, ya no se utiliza. |
-| useBestPractices todas las llamadas para producir mediciones (getChurnInstance) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](//help/ios/metrics.md). |
+| useBestPractices todas las llamadas para producir mediciones (getChurnInstance) | Eliminar, sustituido por métricas del ciclo vital. Para obtener más información, consulte [Métricas del ciclo vital](/help/ios/metrics.md). |
 
 
 ## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
