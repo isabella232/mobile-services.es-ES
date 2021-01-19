@@ -8,7 +8,7 @@ title: Configurar las opciones de adquisición de SDK
 topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Puede configurar las opciones de adquisición de SDK en la página Administrar c
 
    * **[!UICONTROL Activar]**
 
-      Cree vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir los eventos de éxito a las descargas. Para obtener más información, consulte [Adquisición](//help/using/acquisition-main/acquisition-main.md).
+      Cree vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea le permiten atribuir los eventos de éxito a las descargas. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
 
    * **[!UICONTROL Tiempo de espera de referente (en segundos)]**
 
