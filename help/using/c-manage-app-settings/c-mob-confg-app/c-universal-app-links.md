@@ -1,22 +1,21 @@
 ---
-description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
-keywords: mobile
+description: La vinculación dentro de las aplicaciones y los sitios web es importante para mantener la experiencia del usuario. Descubra cómo funcionan los vínculos universales y de aplicación y las diferencias entre ellos.
 seo-description: Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 seo-title: Vínculos universales de Apple y de la aplicación de Android
 solution: Experience Cloud,Analytics
-title: Vínculos universales de Apple y de la aplicación de Android
-topic: Metrics
+title: Guía de vínculos universales y de aplicación
+topic: Métricas
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
 
-# Vínculos universales de Apple y de la aplicación de Android {#universal-links-and-app-links}
+# Vínculos universales vs. vínculos de aplicación: ¿Cómo funcionan? {#universal-links-and-app-links}
 
 Los vínculos universales (iOS) y los vínculos de aplicación (Android) le permiten conectarse a vínculos profundos en sus aplicaciones de iOS o Android.
 
