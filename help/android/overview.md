@@ -1,20 +1,20 @@
 ---
 description: El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar mediciones de aplicaciones Android nativas, enviar contenido de destino en una aplicación, y aprovechar y recopilar datos de audiencias mediante la Gestión de público.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: El SDK para Android 4.x para soluciones de Experience Cloud le permite realizar mediciones de aplicaciones Android nativas, enviar contenido de destino en una aplicación, y aprovechar y recopilar datos de audiencias mediante la Gestión de público.
 seo-title: SDK para Android 4.x para soluciones de Experience Cloud
 solution: Experience Cloud,Analytics
 title: SDK para Android 4.x para soluciones de Experience Cloud
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
+exl-id: c2454e94-a9af-42f3-ab45-14f68531faab
 translation-type: tm+mt
-source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
-
 
 # SDK para Android 4.x para soluciones de Experience Cloud {#android-sdk-x-for-experience-cloud-solutions}
 
