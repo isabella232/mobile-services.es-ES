@@ -1,20 +1,20 @@
 ---
 description: Al personalizar informes, la gran flexibilidad puede suscitar algunas preguntas referentes a cuál es el mejor tipo de informe para obtener los datos que necesita.
-keywords: mobile
+keywords: móvil
 seo-description: Al personalizar informes, la gran flexibilidad puede suscitar algunas preguntas referentes a cuál es el mejor tipo de informe para obtener los datos que necesita.
 seo-title: Tipos de informes
 solution: Experience Cloud,Analytics
 title: Tipos de informes
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
+exl-id: ba7af2f5-8c84-4c49-a793-5fbaa8947566
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '772'
 ht-degree: 100%
 
 ---
-
 
 # Tipos de informes {#report-types}
 
@@ -62,7 +62,7 @@ Los informes de clasificación muestran la frecuencia con la que las 50 dimensio
 
 ![](assets/ranked.png)
 
-## Informe radial  {#section_17A9842039174DE094A6B1E9837E35BB}
+## Informe radial   {#section_17A9842039174DE094A6B1E9837E35BB}
 
 Los informes radiales proporcionan, por ejemplo, el informe base junto con desgloses. La visualización utiliza la altura para mostrar la métrica y las diferencias de rendimiento entre las métricas. Cada círculo concéntrico representa un segmento de audiencia en la categoría de ese círculo. Puede realizar acciones en una audiencia, como aplicar un filtro adhesivo, ocultar una métrica y ver métricas.
 
@@ -85,7 +85,7 @@ Un informe de rutas se basa en el análisis de rutas y muestra un gráfico que r
 
 Cada nodo, que es similar a una caja, representa un estado en las rutas de los usuarios a través de una aplicación. Por ejemplo, en la ilustración anterior, el nodo principal representa la cantidad de usuarios que iniciaron la aplicación y seleccionaron una fotografía de la galería.
 
-### Informe Embudo  {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### Informe Embudo   {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
 Los informes de canal le permiten identificar dónde abandonan los clientes una campaña de marketing o dónde se desvían de una ruta de conversión definida mientras interactúan con la aplicación móvil. Asimismo, puede utilizar el informe Embudo para comparar las acciones de diferentes segmentos.
 
