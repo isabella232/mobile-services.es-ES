@@ -1,25 +1,25 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
-seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
+description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
+seo-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
+exl-id: 0575236c-9858-4bf9-a2ce-6e2667d58ddd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 7%
 
 ---
 
-
 # Variable Products {#products-variable}
 
-La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada al servidor.
+La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products` variable:
+Para establecer la variable *`products`* , establezca una clave de datos de contexto en `"&&products"` y el valor utilizando la sintaxis definida para la variable *`products`:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -45,15 +45,15 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *`products`* is set directly on the image request, and the other variables are set as context data. Todas las variables de datos de contexto deben asignarse mediante reglas de procesamiento:
+El *`products`* se establece directamente en la solicitud de imagen y las demás variables se establecen como datos de contexto. Todas las variables de datos de contexto deben asignarse mediante reglas de procesamiento:
 
 ![](assets/products-procrules.png)
 
-No es necesario asignar la *`products`* variable mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
+No es necesario asignar la variable *`products`* mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
 
 ## Variable products con eVars de comercialización y eventos específicos de productos {#section_685D53AD3D064F9A8E225F995A9BA545}
 
-An example of the *`products`* variable with Merchandising eVars and product-specific events.
+Un ejemplo de la variable *`products`* con eVars de comercialización y eventos específicos de productos.
 
 ```
 //create a context data dictionary 
@@ -76,5 +76,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Si se activa un evento específico del producto mediante la *`&&products`* variable, también se debe establecer ese evento en la *`&&events`* variable; de lo contrario, el evento se filtrará durante el procesamiento.
-
+>Si se déclencheur un evento específico de producto mediante la variable *`&&products`* , también se debe configurar ese evento en la variable *`&&events`* ; de lo contrario, el evento se filtrará durante el procesamiento.
