@@ -1,19 +1,19 @@
 ---
 description: En este tema se proporciona información sobre cómo solucionar problemas que podrían ocurrir durante las pruebas de adquisición.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: En este tema se proporciona información sobre cómo solucionar problemas que podrían ocurrir durante las pruebas de adquisición.
 seo-title: Resolución de problemas de pruebas de adquisición
 solution: Experience Cloud,Analytics
 title: Resolución de problemas de pruebas de adquisición
-topic: Developer and implementation
+topic-fix: Developer and implementation
+exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # Resolución de problemas de pruebas de adquisición {#troubleshoot-acquisition-testing}
 
@@ -50,4 +50,3 @@ En este tema se proporciona información sobre cómo solucionar problemas que po
 >[!IMPORTANT]
 >
 >Para procesar correctamente la intención del remitente, debe ejecutar estos dos comandos de forma independiente. De lo contrario, `adb` omitirá dos veces la información del remitente y los datos recibidos por el receptor de la emisión estarán incompletos.
-
