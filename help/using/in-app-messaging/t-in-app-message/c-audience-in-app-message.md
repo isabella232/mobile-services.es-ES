@@ -1,20 +1,20 @@
 ---
 description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
-keywords: mobile
+keywords: móvil
 seo-description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
 seo-title: Audience  Mensaje en la aplicación
 solution: Experience Cloud,Analytics
 title: Audience  Mensaje en la aplicación
-topic: Metrics
+topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
+exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
-
 
 # Audience: Mensaje en la aplicación {#audience-in-app-message}
 
@@ -83,7 +83,7 @@ Una métrica es un número y un ejemplo es el número de compras.
 
 ### Variables
 
-Una variable es una cadena de texto que es un identificador único, por ejemplo, país, aeropuerto, etc.
+Una variable es una cadena de texto que es un ID único, por ejemplo, país, aeropuerto, etc.
 
 1. Haga clic en **[!UICONTROL Gestionar mensajes]** > **[!UICONTROL Crear mensaje]**.
 1. Complete los siguientes pasos en la sección **[!UICONTROL Activador]** en la pestaña **[!UICONTROL Audiencia]**:
