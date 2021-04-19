@@ -1,20 +1,20 @@
 ---
 description: Esta información le ayuda a migrar de las versiones 3.x o 2.x a la versión 4.x de la biblioteca Android.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Esta información le ayuda a migrar de las versiones 3.x o 2.x a la versión 4.x de la biblioteca Android.
 seo-title: Migración a la biblioteca Android 4.x
 solution: Experience Cloud,Analytics
 title: Migración a la biblioteca Android 4.x
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
+exl-id: 8061c1ab-aaaf-4d4c-9bd5-b2f80b6b06a3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
-
 
 # Migración a la biblioteca Android 4.x {#migrating-to-the-android-x-library}
 
@@ -190,4 +190,3 @@ Elimine las llamadas a los siguientes métodos:
 ## Variable Products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para obtener más información acerca de la variable products, consulte [Variable Products](/help/android/analytics-main/products/products.md).
-
