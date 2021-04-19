@@ -1,20 +1,20 @@
 ---
 description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
-keywords: mobile
+keywords: móvil
 seo-description: El informe Ver rutas, que se basa en el análisis de estas, muestra un gráfico que representa las rutas que pasaron de un estado a otro en la aplicación.
 seo-title: Ver informe de rutas
 solution: Experience Cloud,Analytics
 title: Ver informe de rutas
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
+exl-id: 475dbe01-fa4d-433c-ac77-68f2a6972c0c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
-
 
 # Ver informe de rutas {#view-paths}
 
