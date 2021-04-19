@@ -4,16 +4,16 @@ seo-description: A partir de iOS 10, Apple le permite crear una extensión denom
 seo-title: Implementación de extensiones independientes
 solution: Experience Cloud,Analytics
 title: Implementación de extensiones independientes
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
+exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # Implementación de extensiones independientes {#stand-alone-extension-implementation}
 
@@ -56,4 +56,3 @@ Alguna información adicional:
       Este valor significa que la visita procede de la extensión.
 
 * En las aplicaciones de extensión de iOS no se activa ninguna llamada de ciclo vital.
-
