@@ -4,16 +4,16 @@ seo-description: Clases y métodos proporcionados por la biblioteca de la Plataf
 seo-title: Métodos SDK
 solution: Experience Cloud,Analytics
 title: Métodos SDK
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
+exl-id: 0aac477c-074d-457c-b117-bb205119c475
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 67%
 
 ---
-
 
 # Métodos SDK {#sdk-methods}
 
@@ -21,7 +21,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
 
 >[!TIP]
 >
->Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
+>Cuando consume métodos `winmd` de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -47,7 +47,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
    * `ADBMobilePrivacyStatusOptOut` - Se descartan las visitas.
    * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (las visitas se envían) o excluido (las visitas se descartan). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-      The default value is set in the `ADBMobileConfig.json` config file. Para obtener más información, consulte [Archivo](/help/universal-windows/c-configuration/c.json.md)de configuración ADBMobileConfig.json.
+      El valor predeterminado se establece en el archivo de configuración `ADBMobileConfig.json`. Para obtener más información, consulte el [archivo de configuración ADBMobileConfig.json](/help/universal-windows/c-configuration/c.json.md).
 
    * Esta es la sintaxis para este método:
 
@@ -58,7 +58,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
 
    * Estos son ejemplos de código para este método:
 
-      **C Sharp**
+      **C**
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int { ADBMobilePrivacyStatusOptIn = 1, 
@@ -91,7 +91,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
 
       * Estos son ejemplos de código para este método:
 
-         **Afilado en C**
+         **Correa C**
 
          ```csharp
          public enum class ADBMobilePrivacyStatus : int { 
@@ -128,7 +128,7 @@ Clases y métodos proporcionados por la biblioteca de la Plataforma universal de
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Returns `null` if a custom identifier is not set.
+   Devuelve el identificador de usuario personalizado si se ha establecido. Devuelve `null` si no se ha establecido un identificador personalizado.
 El valor predeterminado es `null`.
 
    >[!IMPORTANT]
@@ -184,7 +184,7 @@ El valor predeterminado es `null`.
 
 * **SetDebugLogging (winJS: setDebugLogging)**
 
-   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de lanzamiento omite esta configuración.
+   Establece la preferencia de registro de depuración en `debugLogging`. El registro de depuración solo funciona cuando se utiliza la versión de depuración de la biblioteca, la versión de la versión ignora esta configuración.
 
    * Esta es la sintaxis para este método:
 
@@ -218,7 +218,7 @@ El valor predeterminado es `null`.
 
 * **PauseCollecting &#x200B; LifecycleData (winJS: pauseCollecting &#x200B; LifecycleData)**
 
-   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, en pausa recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/universal-windows/metrics.md).
 
    * Esta es la sintaxis para este método:
 
