@@ -1,20 +1,20 @@
 ---
 description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Esta información le ayuda a realizar una adquisición Versión 3 de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición Versión 3
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición Versión 3
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
+exl-id: 2ce78e2e-da51-4af8-a461-ec6c642a7854
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
-
 
 # Prueba de adquisición V3 {#testing-version-acquisition}
 
@@ -49,11 +49,11 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    Se le debería redirigir a una página con una dirección URL similar a la del siguiente ejemplo:
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copie el ID exclusivo después de `utm_content%3D`.
+1. Copie el ID único después de `utm_content%3D`.
 
    En el ejemplo anterior, el ID es `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
 
-1. Construya el vínculo de fin de adquisición utilizando el ID exclusivo del paso 3, empleando el siguiente formato:
+1. Construya el vínculo de fin de adquisición utilizando el ID único del paso 3, empleando el siguiente formato:
 
    `https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>`.
 
@@ -66,7 +66,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    `{"fingerprint":"228d7e6058b1d731dc7a8b8bd0c15e1d78242f31","timestamp":1457989293,"appguid":"","contextData":{"a.referrer.campaign.name":"name","a.referrer.campaign.trackingcode":"trackingcode"}}.`
 
    Si no ve `contextData`, o si falta parte de la cadena, asegúrese de que la URL de adquisición sigue el formato indicado en [Crear vínculo de adquisición manualmente](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md).
-1. Repita el paso 3 para obtener un nuevo ID exclusivo.
+1. Repita el paso 3 para obtener un nuevo ID único.
 1. Compruebe que los siguientes ajustes del archivo de configuración son correctos:
 
    | Configuración | Valor |
@@ -118,7 +118,7 @@ Recuerde la información siguiente:
 
    Antes de hacer la prueba, actualice el SDK a la versión más reciente.
 
-* Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el identificador exclusivo y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 12.
+* Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el ID único y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 12.
 
    **Instalación de la herramienta Java**
 
