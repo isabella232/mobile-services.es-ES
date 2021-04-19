@@ -1,20 +1,20 @@
 ---
 description: Esta información sirve para comprender y personalizar los informes integrados.
-keywords: mobile
+keywords: móvil
 seo-description: Esta información sirve para comprender y personalizar los informes integrados.
 seo-title: Personalización de informes
 solution: Experience Cloud,Analytics
 title: Personalización de informes
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
+exl-id: 287b12fb-96f8-4fa9-a4f4-7325e30e1797
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # Personalización de informes {#customize-reports}
 
@@ -45,4 +45,3 @@ La siguiente información describe las áreas del informe y el carril **[!UICONT
 | 6 | Con **[!UICONTROL Filtro adhesivo]**, puede crear un filtro que abarque distintos informes. Tal vez le interese ver el rendimiento de un segmento concreto en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.  Para obtener más información, consulte [Agregar filtro adhesivo](/help/using/usage/reports-customize/t-sticky-filter.md). |
 | 7 | El **[!UICONTROL Gráfico de datos]** muestra los datos en un gráfico correspondiente en función de las métricas seleccionadas. Los tipos de gráficos incluyen gráficos de líneas, gráficos de barras, gráficos circulares, etc. |
 | 8 | La **[!UICONTROL Tabla de datos]** muestra los datos en forma de tabla. Puede hacer clic en un encabezado de columna para ordenar los datos de forma ascendente o descendente. |
-
