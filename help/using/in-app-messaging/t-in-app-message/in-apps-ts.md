@@ -1,20 +1,20 @@
 ---
 description: Esta información resulta útil para solucionar los problemas de mensajería en la aplicación.
-keywords: mobile
+keywords: móvil
 seo-description: Esta información resulta útil para solucionar los problemas de mensajería en la aplicación.
 seo-title: Solucionar los problemas de la mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Resolucion de problemas de la mensajería en la aplicación
-topic: Metrics
+topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
+exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
-
 
 # Resolucion de problemas de la mensajería en la aplicación {#troubleshooting-in-app-messaging}
 
