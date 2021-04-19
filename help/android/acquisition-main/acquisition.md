@@ -1,20 +1,20 @@
 ---
 description: Los vínculos de adquisición con códigos de seguimiento únicos se pueden generar en Adobe Mobile Services. Cuando un usuario descarga y ejecuta una aplicación desde la tienda de aplicaciones después de hacer clic en el vínculo generado, el SDK recopila y envía automáticamente los datos de adquisición a Adobe Mobile Services.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Los vínculos de adquisición con códigos de seguimiento únicos se pueden generar en Adobe Mobile Services. Cuando un usuario descarga y ejecuta una aplicación desde la tienda de aplicaciones después de hacer clic en el vínculo generado, el SDK recopila y envía automáticamente los datos de adquisición a Adobe Mobile Services.
 seo-title: Adquisición de aplicación móvil
 solution: Experience Cloud,Analytics
 title: Adquisición de aplicación móvil
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
+exl-id: 266f0266-38f5-410b-ae14-92874fb0e7ce
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # Adquisición de aplicación móvil {#mobile-app-acquisition}
 
