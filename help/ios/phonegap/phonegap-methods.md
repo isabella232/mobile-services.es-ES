@@ -5,16 +5,16 @@ seo-description: Puede utilizar métodos del complemento PhoneGap de iOS para co
 seo-title: Métodos del complemento PhoneGap
 solution: Experience Cloud,Analytics
 title: Métodos del complemento PhoneGap
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
+exl-id: 7ffdf008-1605-471f-93fb-f9c6b38a3bcb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1731'
 ht-degree: 100%
 
 ---
-
 
 # Métodos del complemento PhoneGap {#phonegap-plug-in-methods}
 
@@ -90,7 +90,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
 * **trackingIdentifier**
 
-   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID único de visitante y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    >[!TIP]
    >
@@ -815,4 +815,3 @@ En el `AppDelegate` que genera Cordova, realice una llamada a `[ADBMobile setAdv
       ```java
       ADB.visitorGetIDs(function(value){alert(value);},function(value){alert('fail');}); 
       ```
-
