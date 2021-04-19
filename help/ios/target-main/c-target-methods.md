@@ -4,16 +4,16 @@ seo-description: Esta es una lista de métodos de Adobe Target que proporciona l
 seo-title: Métodos de Target de iOS para Adobe Mobile Services
 solution: Experience Cloud,Analytics
 title: Métodos de Target para iOS
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
+exl-id: ba03f865-970c-4b48-af35-749f05b273d8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
-
 
 # Métodos de Target para iOS {#target-methods}
 
@@ -56,8 +56,9 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* Si utiliza algún SDK **anterior** a la versión 4.14.0, consulte [Parámetros de entrada](https://developers.adobetarget.com/api/#input-parameters) para obtener información sobre las limitaciones de parámetros.
->
->* Si utiliza algún SDK de la versión 4.14.0 **o posterior**, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters) para obtener información sobre las limitaciones de parámetros.
+   >
+   >
+* Si utiliza algún SDK de la versión 4.14.0 **o posterior**, consulte [Parámetros de entrada en bloque](https://developers.adobetarget.com/api/#batch-input-parameters) para obtener información sobre las limitaciones de parámetros.
 
 
 ### Métodos
