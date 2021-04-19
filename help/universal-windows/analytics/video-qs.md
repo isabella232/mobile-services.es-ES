@@ -4,28 +4,28 @@ seo-description: Información para ayudarle con Video Analytics.
 seo-title: Video Analytics
 solution: Experience Cloud,Analytics
 title: Video Analytics
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
+exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 72%
 
 ---
 
-
 # Video Analytics  {#video-analytics}
 
 Información para ayudarle con Video Analytics.
 
-La medición de vídeo se describe en detalle en la guía [Medición de vídeo y audio en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) . El proceso general para medir vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
+La medición de vídeo se describe detalladamente en la guía [Medición de vídeo y audio en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html). El proceso general de medición de vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
 
 La siguiente tabla indica los datos multimedia que se envían a Analytics. Utilice reglas de procesamiento para asignar los datos de contexto a una variable de Analytics.
 
 * **a.media.name**
 
-   (**Obligatorio**) Recopila el nombre del vídeo, tal como se especifica en la implementación, cuando un visitante vista el vídeo de alguna manera.Puede agregar clasificaciones para esta variable.
+   (**Requerido**) Recopila el nombre del vídeo, tal como se especifica en la implementación, cuando un visitante ve el vídeo de alguna manera. Puede agregar clasificaciones para esta variable.
 
    (**Opcional**) La variable de Custom Insight proporciona información de las rutas de vídeo.
 
@@ -44,16 +44,16 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    (**Obligatoria**) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo.
 
-   Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` segments eVar.
+   Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst podría recopilar lo siguiente en el eVar de segmentos `1:M:0-25`.
 
-   El método de recopilación de datos de vídeo predeterminado recopila datos en los puntos siguientes: inicio de vídeo (reproducción), inicio del segmento y final del vídeo (parada). Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante empieza a ver. Vistas de segmentos posteriores desde el inicio del segmento.
+   El método predeterminado de recopilación de datos de vídeo recopila datos en los puntos siguientes: inicio de vídeo (reproducción), inicio del segmento y finalización del vídeo (detención). Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante empieza a ver. Vistas de segmentos posteriores desde el inicio del segmento.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página
 
 * **a.contentType**
 
-   Recopila datos sobre el tipo de contenido que un visitante ve. A las visitas enviadas por medición de vídeo se les asigna un tipo de contenido de &quot;vídeo&quot;. Esta variable no necesita estar reservada exclusivamente para el seguimiento de videos. Tener otro tipo de contenido de informe de contenido usando esta misma variable permite analizar la distribución de visitantes en los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable.
+   Recopila datos sobre el tipo de contenido que un visitante ve. A las visitas enviadas por la medición de vídeo se les asigna un tipo de contenido de &quot;vídeo&quot;. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otro tipo de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable.
 
    Desde una perspectiva de medición de vídeo, Tipo de contenido permite identificar visitantes de vídeo y, por consiguiente, calcular las tasas de conversión de vídeo.
 
@@ -159,9 +159,9 @@ property bool isMediaAd;
       var  myAdSettings = ADB.Media.adSettingsWith("name", 10,  "playerName", "parentName", "parentPod", 5, "myCPM");
       ```
 
-* **Open (winJS: open)**
+* **Apertura (winJS: open)**
 
-   Rastrea un medio abierto mediante la configuración definida en `settings`.
+   Rastrea una apertura de medios con la configuración definida en `settings`.
 
    * Esta es la sintaxis para este método:
 
@@ -177,7 +177,7 @@ property bool isMediaAd;
 
 * **Cerrar (winJS: close)**
 
-   Rastrea un cierre de medios para el elemento de medios denominado *`name`*.
+   Realiza un seguimiento del cierre de un medio para el elemento multimedia denominado *`name`*.
 
    * Esta es la sintaxis para este método:
 
@@ -193,7 +193,7 @@ property bool isMediaAd;
 
 * **Play (winJS: play)**
 
-   Rastrea una reproducción de medios para el elemento de medios denominado *`name`* en el *desplazamiento* dado (en segundos).
+   Realiza el seguimiento de una reproducción de contenido para el elemento multimedia denominado *`name`* en el *offset* dado (en segundos).
 
    * Esta es la sintaxis para este método:
 
@@ -239,7 +239,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName",  4);
       ```
 
-* **Haga clic en (winJS: click)**
+* **Haga clic (winJS: click)**
 
    Notifica al módulo de medios que se ha hecho clic en el elemento de medios.
 
