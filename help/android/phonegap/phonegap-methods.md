@@ -1,20 +1,20 @@
 ---
 description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
 seo-title: Métodos del complemento PhoneGap
 solution: Experience Cloud,Analytics
 title: Métodos del complemento PhoneGap
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
+exl-id: 4e6cf200-c826-4b23-87cf-4b8e1e691981
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
-
 
 # Métodos del complemento PhoneGap {#phonegap-plug-in-methods}
 
@@ -96,7 +96,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
 
    Devuelve el identificador de visitante generado automáticamente.
 
-   Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Se trata de un ID único de visitante y específico para la aplicación que se genera al iniciar la aplicación por primera vez y que se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    >[!TIP]
    >
