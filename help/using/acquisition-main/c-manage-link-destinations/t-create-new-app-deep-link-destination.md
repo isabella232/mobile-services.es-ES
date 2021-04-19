@@ -1,20 +1,20 @@
 ---
 description: Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo web o profundo en su aplicación.
-keywords: mobile
+keywords: móvil
 seo-description: Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo web o profundo en su aplicación.
 seo-title: Crear un nuevo destino de vínculo
 solution: Experience Cloud,Analytics
 title: Crear un nuevo destino de vínculo
-topic: Metrics
+topic-fix: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
+exl-id: 2d2f5938-1461-43e2-a375-45c18afc9d5a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # Crear un nuevo destino de vínculo {#create-new-link-destination}
 
