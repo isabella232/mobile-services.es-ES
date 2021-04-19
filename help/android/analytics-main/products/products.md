@@ -1,20 +1,20 @@
 ---
 description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos en la llamada al servidor.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: La variable de productos no se puede establecer mediante reglas de procesamiento. En el SDK de Mobile, debe utilizar una sintaxis especial en el parámetro de datos de contexto para establecer productos en la llamada al servidor.
 seo-title: Variable products
 solution: Experience Cloud,Analytics
 title: Variable products
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
+exl-id: 1d850ce1-6fd4-463e-8949-8b8cf40d8467
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 100%
 
 ---
-
 
 # Variable Products {#products-variable}
 
