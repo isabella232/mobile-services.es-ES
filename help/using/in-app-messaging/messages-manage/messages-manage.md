@@ -1,20 +1,20 @@
 ---
 description: Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y el estado activo o desactivado de cada mensaje.
-keywords: mobile
+keywords: móvil
 seo-description: Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y el estado activo o desactivado de cada mensaje.
 seo-title: Administrar mensajes
 solution: Experience Cloud,Analytics
 title: Administrar mensajes
-topic: Metrics
+topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
+exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Administrar mensajes {#manage-messages}
 
@@ -66,4 +66,3 @@ A continuación se proporciona información adicional sobre las tareas que puede
 
    1. Haga clic en **[!UICONTROL Ver archivo]**.
    1. Seleccione la casilla de verificación que hay junto a un mensaje archivado por lo menos y haga clic en **[!UICONTROL Desarchivar seleccionados]**.
-
