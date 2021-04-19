@@ -1,20 +1,20 @@
 ---
 description: Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
-keywords: mobile
+keywords: móvil
 seo-description: Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionarlos configurando diversas variables y métricas.
 seo-title: Gestionar su aplicación
 solution: Experience Cloud,Analytics
 title: Gestionar su aplicación
-topic: Metrics
+topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
+exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1040'
 ht-degree: 100%
 
 ---
-
 
 # Gestionar su aplicación {#managing-your-app}
 
