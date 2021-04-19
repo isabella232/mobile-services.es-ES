@@ -4,16 +4,16 @@ seo-description: Esta información le será de ayuda para la solicitud de elimin
 seo-title: Configuración del estado de exclusión del usuario
 solution: Experience Cloud,Analytics
 title: Configuración del estado de exclusión del usuario
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
+exl-id: 8fd30bea-6316-46ac-9787-8ca594545d1b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
 ---
-
 
 # Configuración del estado de exclusión del usuario {#setting-the-user-s-opt-status}
 
@@ -77,4 +77,3 @@ Esta es la información sobre cada estado de privacidad:
  [ADBMobile setPrivacyStatus:ADBMobilePrivacyStatusUnknown]; 
 }
 ```
-
