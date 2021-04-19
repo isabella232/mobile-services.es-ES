@@ -1,23 +1,23 @@
 ---
-description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
-seo-description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
+description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
+seo-description: Un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
 seo-title: Variable products con eVars de comercialización y eventos específicos de productos
 solution: Experience Cloud,Analytics
 title: Variable products con eVars de comercialización y eventos específicos de productos
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
+exl-id: 3a90f624-da13-4c26-9e4c-3a4af33bc5ee
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 27%
 
 ---
 
-
 # Variable products con eVars de comercialización y eventos específicos de productos{#products-variable-with-merchandising-evars-and-product-specific-events}
 
-Un ejemplo de la variable products con eVars de comercialización y eventos específicos del producto.
+Un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
 
 ```
 //create a context data dictionary 
@@ -40,5 +40,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->Si se activa un evento específico del producto mediante la *`&&products`* variable, también se debe establecer ese evento en la *`&&events`* variable; de lo contrario, el evento se filtrará durante el procesamiento.
-
+>Si se déclencheur un evento específico de producto mediante la variable *`&&products`* , también se debe configurar ese evento en la variable *`&&events`* ; de lo contrario, el evento se filtrará durante el procesamiento.
