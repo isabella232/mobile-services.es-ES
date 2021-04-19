@@ -4,16 +4,16 @@ seo-description: Esta es una lista de métodos de TVJS que proporciona la biblio
 seo-title: Métodos de TVJS
 solution: Experience Cloud,Analytics
 title: Métodos de TVJS
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
+exl-id: 4e0c6a29-953d-49fc-b44f-533dd393ffb1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 100%
 
 ---
-
 
 # Métodos de TVJS {#tvjs-methods}
 
@@ -427,7 +427,7 @@ Esta es una lista de métodos de TVJS que proporciona la biblioteca tvOS.
 
    Devuelve el identificador de visitante generado automáticamente.
 
-   Se trata de un ID de visitante exclusivo y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante la CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalarla.
+   Se trata de un ID único de visitante y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante la CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalarla.
 
    >[!TIP]
    >
