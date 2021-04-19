@@ -4,16 +4,16 @@ seo-description: Si su aplicación abre contenido de una web móvil, asegúrese 
 seo-title: Seguimiento de visitantes entre una aplicación y la web móvil
 solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
+exl-id: 7ca98572-138d-48f8-aa2a-d376eebb0b2c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de visitantes entre una aplicación y la web móvil {#visitor-tracking-between-an-app-and-mobile-web}
 
@@ -21,7 +21,7 @@ Si su aplicación abre contenido de una web móvil, asegúrese de que los visita
 
 ## ID de visitante en aplicaciones
 
-El SDK de Android genera un ID de visitante único cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil, se envía con cada visita y se elimina solo cuando el usuario desinstala la aplicación.
+El SDK de Android genera un ID único de visitante cuando se instala una aplicación. Este ID se almacena en la memoria persistente del dispositivo móvil, se envía con cada visita y se elimina solo cuando el usuario desinstala la aplicación.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ El SDK de Android genera un ID de visitante único cuando se instala una aplicac
 
 ## ID de visitante en la web móvil
 
-Las implementaciones web móviles típicas utilizan las mismas bibliotecas `s_code.js` o `AppMeasurement.js` estándar de Analytics que se emplean en los sitios de escritorio. Las bibliotecas de JavaScript tienen sus propios métodos para generar ID de visitante exclusivos, lo que causa que se genere un ID de visitante distinto al abrir contenido de la web móvil desde la aplicación.
+Las implementaciones web móviles típicas utilizan las mismas bibliotecas `s_code.js` o `AppMeasurement.js` estándar de Analytics que se emplean en los sitios de escritorio. Las bibliotecas de JavaScript tienen sus propios métodos para generar ID único de visitante, lo que causa que se genere un ID de visitante distinto al abrir contenido de la web móvil desde la aplicación.
 
 ## implementar Seguimiento de visitantes entre una aplicación y la web móvil {#section_1755BCCFD42D456EB2319141030FDDFF}
 
@@ -94,4 +94,3 @@ Si estos pasos no solucionan sus problemas, póngase en contacto con Adobe Exper
 >[!IMPORTANT]
 >
 >Para permitir que Adobe valide la implementación, deberá compartir una aplicación de ejemplo y el sitio asociado.
-
