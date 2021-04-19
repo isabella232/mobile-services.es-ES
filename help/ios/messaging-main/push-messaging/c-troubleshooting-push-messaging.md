@@ -1,20 +1,20 @@
 ---
 description: Esta información le ayuda a solucionar problemas de la mensajería push.
-keywords: mobile
+keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería push.
 seo-title: Resolución de problemas de mensajería push
 solution: Experience Cloud,Analytics
 title: Solucionar los problemas de la mensajería push
-topic: Metrics
+topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
+exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
-
 
 # Resolución de problemas de mensajería push {#troubleshooting-push-messaging}
 
@@ -39,8 +39,9 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
    >Los servicios push no garantizan el envío de un mensaje. Para obtener más información acerca de la fiabilidad de los servicios, consulte la documentación apropiada:
    >
    >* **APNS**: [Calidad del servicio](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**: [Vida útil de un mensaje](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**: [Vida útil de un mensaje](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## ¿Cómo renuevo mi certificado de servicio push de Apple?
