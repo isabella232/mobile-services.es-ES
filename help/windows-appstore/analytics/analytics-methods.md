@@ -1,35 +1,35 @@
 ---
-description: Información útil para utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
-seo-description: Información útil para utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
+description: Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
+seo-description: Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
 seo-title: Métodos de Analytics
 solution: Experience Cloud,Analytics
 title: Métodos de Analytics
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
+exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 52%
 
 ---
 
-
 # Métodos de Analytics {#analytics-methods}
 
-Información útil para utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
+Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Destinatario y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Los métodos de Analytics llevan el prefijo &quot;Analytics&quot;.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Los métodos de Analytics llevan el prefijo &quot;Analytics&quot;.
 
 Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Analytics.
 
 >[!TIP]
 >
->Cuando se consumen `winmd` métodos de winJS (JavaScript), se reduce automáticamente la primera letra de todos los métodos.
+>Cuando consume métodos `winmd` de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
 
 * **TrackState (winJS: trackState)**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;panel principal&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. If `state` is empty, it displays as &quot;app name app version (build)&quot; in reports. If you see this value in reports, make sure you are setting `state` in each `TrackState` call.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como &quot;tablero de inicio&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si `state` está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está configurando `state` en cada llamada `TrackState`.
 
    >[!TIP]
    >
@@ -50,7 +50,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **TrackAction (winJS: trackAction)**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;inicios de sesión&quot;, &quot;toques en banners&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;inicios de sesión&quot;, &quot;pulsaciones en banners&quot;, &quot;suscripciones a fuentes&quot; y otras métricas.
 
    * Esta es la sintaxis para este método:
 
@@ -67,7 +67,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **GetTrackingIdentifierAsync (winJS: getTrackingIdentifierAsync)**
 
-   Devuelve el identificador de usuario generado de forma automática para Analytics. Se trata de un ID de visitante exclusivo y específico para la aplicación que se genera durante el primer inicio y que luego se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
+   Devuelve el identificador de usuario generado de forma automática para Analytics. Se trata de un identificador de visitante exclusivo y específico para la aplicación que se genera durante el primer inicio y que después se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación y se elimina al desinstalarla.
 
    * Esta es la sintaxis para este método:
 
@@ -141,7 +141,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
-   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. The `data` passed is appended to the existing data for the given action, and overwrites the data if the same key is already defined for `action`.
+   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. El `data` pasado se anexa a los datos existentes de la acción determinada y los sobrescribe si ya se ha definido la misma clave para `action`.
 
    >[!TIP]
    >
@@ -164,7 +164,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **TrackTimedActionExistsAsync (winJS: trackTimedActionExistsAsync)**
 
-   Devuelve true si existe la acción temporizada dada y false si no lo hace.
+   Devuelve true si existe la acción temporizada dada y false si no existe.
 
    * Esta es la sintaxis para este método:
 
@@ -201,13 +201,13 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
    Borra todas las visitas almacenadas de la cola de seguimiento de Analytics.
 
-   * Esta es la sintaxis de este mensaje:
+   * Esta es la sintaxis para este mensaje:
 
       ```csharp
       static void ClearTrackingQueue();
       ```
 
-   * Este es el ejemplo de código:
+   * Este es un ejemplo de código:
 
       ```js
       ADBMobile.Analytics.clearTrackingQueue();
