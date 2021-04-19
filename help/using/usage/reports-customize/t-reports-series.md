@@ -1,20 +1,20 @@
 ---
 description: Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
-keywords: mobile
+keywords: móvil
 seo-description: Esta información sirve para personalizar los informes integrados mediante la adición de series (métricas) adicionales o aplicaciones en distintos grupos de informes para comparar los datos.
 seo-title: Agregar series (métricas) a informes
 solution: Experience Cloud,Analytics
 title: Agregar series (métricas) a informes
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
+exl-id: 1b1356c6-7f62-4b88-996a-09ed33b19c9d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # Agregar series (métricas) a informes {#add-series-metrics-to-reports}
 
