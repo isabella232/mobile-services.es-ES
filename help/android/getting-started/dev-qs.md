@@ -1,20 +1,20 @@
 ---
 description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Esta información le ayuda a implementar la biblioteca Android y a recopilar métricas del ciclo vital como lanzamientos, actualizaciones, sesiones, usuarios comprometidos, etcétera.
 seo-title: Implementación principal y ciclo vital
 solution: Experience Cloud,Analytics
 title: Implementación principal y ciclo vital
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
+exl-id: 67aba85a-42a0-473a-bb05-e5fcb35263d9
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # Implementación principal y ciclo vital {#core-implementation-and-lifecycle}
 
@@ -155,4 +155,3 @@ Complete las siguientes tareas:
 
 * [Seguimiento de estados de aplicaciones](/help/android/analytics-main/states.md)
 * [Seguimiento de acciones de aplicaciones](/help/android/analytics-main/actions.md)
-
