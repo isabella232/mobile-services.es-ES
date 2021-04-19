@@ -1,20 +1,20 @@
 ---
 description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
-keywords: mobile
+keywords: móvil
 seo-description: Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones).
 seo-title: Intersticiales
 solution: Experience Cloud,Analytics
 title: Intersticiales
-topic: Metrics
+topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
+exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
-
 
 # Intersticiales {#interstitials}
 
