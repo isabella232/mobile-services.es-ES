@@ -1,20 +1,20 @@
 ---
 description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Las siguientes instrucciones le ayudan a realizar una campaña de adquisición de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 seo-title: Prueba de adquisición de vínculos de marketing
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición de vínculos de marketing
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
+exl-id: 86fdaef7-5b6c-4e9d-a470-df66c96f2e9d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
-
 
 # Prueba de adquisición de vínculos de marketing {#testing-marketing-link-acquisition}
 
@@ -39,11 +39,11 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copie el ID exclusivo después de `utm_content%3D`.
+1. Copie el ID único después de `utm_content%3D`.
 
    En el ejemplo anterior, el ID es `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`.
 
-   Si no puede obtener el ID exclusivo en el dispositivo, ejecute el siguiente comando `CURL` en el equipo de escritorio para obtener el ID exclusivo de la cadena de respuesta.
+   Si no puede obtener el ID único en el dispositivo, ejecute el siguiente comando `CURL` en el equipo de escritorio para obtener el ID único de la cadena de respuesta.
 
    `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" <Your Marketing Link>`
 
@@ -51,7 +51,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
 
    `curl -A "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815Y Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36" https://c00.adobe.com/v3/da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d/start?a_dl=573e5bb3248a501360c2890b`
 
-1. Construya el vínculo de fin de adquisición utilizando el identificador exclusivo del paso 3, empleando el siguiente formato:
+1. Construya el vínculo de fin de adquisición utilizando el ID único del paso 3, empleando el siguiente formato:
 
    `https://c00.adobe.com/v3/<appid>/end?a_ugid=<unique id>`
 
@@ -67,7 +67,7 @@ Las pruebas siempre se deben realizar con la aplicación recién instalada, o de
    ,"adobeData":{"unique_id":"9a2be52764a8db125c29a8c10f3b1b3d5d8ed915","deeplinkid":"57476c26072932ec6d3a470b"}}.
    ```
 
-1. Repita el paso 3 para obtener un nuevo ID exclusivo.
+1. Repita el paso 3 para obtener un nuevo ID único.
 1. Compruebe que los siguientes ajustes del archivo de configuración son correctos:
 
    | Configuración | Valor |
@@ -124,7 +124,7 @@ Recuerde la información siguiente:
 
 * Las visitas que se envían desde la aplicación se pueden supervisar mediante herramientas de supervisión HTTP para verificar la atribución de adquisición.
 * Para obtener más información acerca de cómo emitir `INSTALL_REFERRER`, consulte [Prueba de medición de campaña de Google Play](https://developers.google.com/analytics/solutions/testing-play-campaigns) en la Guía para desarrolladores de Google.
-* Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el identificador exclusivo y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 10.
+* Puede utilizar la herramienta Java `acquisitionTest.jar` que se proporciona para ayudarle a obtener el ID único y el referente de instalación de emisión, lo que a su vez le ayuda a obtener la información en los pasos 3 al 10.
 
 **Instalación de la herramienta Java**
 
