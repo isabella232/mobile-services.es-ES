@@ -4,16 +4,16 @@ seo-description: Complete estos pasos para configurar un grupo de informes con l
 seo-title: Antes de comenzar
 solution: Experience Cloud,Analytics
 title: Antes de comenzar
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
+exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Antes de comenzar {#before-you-start}
 
@@ -75,7 +75,7 @@ Para crear un grupo de informes a fin de recopilar datos de aplicaciones y defin
 
 1. En la lista desplegable **[!UICONTROL Grupo de informes]**, seleccione **[!UICONTROL Nuevo grupo de informes]**.
 
-1. Introduzca el nombre de su aplicación y seleccione un ID de grupo de informes exclusivo.
+1. Introduzca el nombre de su aplicación y seleccione un ID de grupo de informes único.
 
    Un ejemplo de ID de grupo de informes es `mycomobileappdev`. Debe configurar grupos de informes y aplicaciones independientes para las versiones de desarrollo y producción. Cuando esté listo para configurar la versión de producción, repita estos pasos.
 1. Deje seleccionado **[!UICONTROL Plantilla de aplicación móvil]**.
@@ -101,4 +101,3 @@ Para descargar el SDK de Mobile:
 >[!TIP]
 >
 >La descarga del SDK incluye automáticamente un archivo de configuración para su aplicación, por lo que no es necesario que descargue ese archivo separadamente. Sin embargo, si ya ha descargado el SDK y quiere actualizar la configuración, descargue de nuevo el archivo de configuración.
-
