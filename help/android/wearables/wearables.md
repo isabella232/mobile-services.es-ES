@@ -4,16 +4,16 @@ seo-description: A partir de la versión 4.5 del SDK para Android, se ha añadid
 seo-title: Información general de Wearables
 solution: Experience Cloud,Analytics
 title: Información general de Wearables
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f9a5d692-0ef6-4cdf-831e-e50be291f083
+exl-id: 5b390aa9-5bbd-4f69-9b09-49b9900fa550
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
 ---
-
 
 # Información general de Wearables {#wearables}
 
