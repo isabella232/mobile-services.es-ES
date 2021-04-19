@@ -4,16 +4,16 @@ seo-description: Esta información le ayuda a hacer la migración de las version
 seo-title: Migración a la biblioteca iOS 4.x
 solution: Experience Cloud,Analytics
 title: Migración a la biblioteca iOS 4.x
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: ht
-source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: ht
+exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
 ---
-
 
 # Migración a la biblioteca iOS 4.x {#migrating-to-the-x-ios-library}
 
