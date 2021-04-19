@@ -1,20 +1,20 @@
 ---
-description: Este es un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
-keywords: android;library;mobile;sdk
-seo-description: Este es un ejemplo de la variable products con eVars de comercialización y eventos específicos de productos.
+description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
+keywords: android, biblioteca, mobile, móvil, sdk
+seo-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
 seo-title: Variable products con eVars de comercialización y eventos específicos de productos
 solution: Experience Cloud,Analytics
 title: Variable products con eVars de comercialización y eventos específicos de productos
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
+exl-id: 2ede6341-3068-4423-a509-c0ec3a2db5e8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
-
 
 # Variable products con eVars de comercialización y eventos específicos de productos {#products-variable-with-merchandising-evars-and-product-specific-events}
 
@@ -41,4 +41,3 @@ Analytics.trackState("Order Confirmation", cdata);
 >[!TIP]
 >
 >Si activa un evento específico de producto mediante la variable *`&&products`*, también debe configurar ese evento en la variable *`&&events`*. Si no lo hace, el evento queda fuera del filtro durante el procesamiento.
-
