@@ -1,13 +1,13 @@
 ---
-description: Información para ayudarle a distribuir contenido de destino en aplicaciones Universal App Store para Windows 8.1.
-seo-description: Información para ayudarle a distribuir contenido de destino en aplicaciones Universal App Store para Windows 8.1.
+description: Información para ayudarle a enviar contenido de destino en aplicaciones Universal App Store para Windows 8.1.
+seo-description: Información para ayudarle a enviar contenido de destino en aplicaciones Universal App Store para Windows 8.1.
 seo-title: Target
 solution: Experience Cloud,Analytics
 title: Target
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c57bdf85-c1a9-446d-9ec9-4a483b189522
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 15%
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 # Target {#target}
 
-Información para ayudarle a distribuir contenido de destino en aplicaciones Universal App Store para Windows 8.1.
+Información para ayudarle a enviar contenido de destino en aplicaciones Universal App Store para Windows 8.1.
 
 ## Más información
 
