@@ -1,20 +1,20 @@
 ---
 description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
-keywords: mobile
+keywords: móvil
 seo-description: Esta información le ayuda a solucionar problemas de la mensajería en la aplicación.
 seo-title: Resolución de problemas de mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Resolución de problemas de mensajería en la aplicación
-topic: Metrics
+topic-fix: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
+exl-id: 6c7d97ed-3b0a-48ff-b761-1485aea5e96d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # Resolución de problemas de mensajería en la aplicación {#troubleshooting-in-app-messaging}
 
@@ -70,6 +70,4 @@ Aquí detallamos la colocación exacta y las reglas de cambio de dimensión para
 * **Horizontal**
    * La imagen se amplió al 100% de la altura del dispositivo.
    * El ancho es del 75% del dispositivo, con una atenuación a la derecha.
-
    Si tiene problemas con la plantilla de pantalla completa, puede descargar y usar la plantilla HTML personalizada. Esta plantilla proporciona más flexibilidad para las imágenes y permite un control total de la plantilla.
-
