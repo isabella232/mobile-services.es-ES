@@ -4,16 +4,16 @@ seo-description: El SDK de Adobe Mobile y Adobe Mobile permiten enviar mensajes 
 seo-title: Mensajería push
 solution: Experience Cloud,Analytics
 title: Mensajería push
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
+exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # Mensajería push {#push-messaging}
 
@@ -77,6 +77,3 @@ Para utilizar la mensajería push **necesita** la versión 4.6 o posterior del S
       * Use `Config.collectLifecycleData(this)` o `Config.collectLifecycleData(this, contextData)`.
 
       * **No** utilice `Config.collectLifecycleData()`.
-
-
-
