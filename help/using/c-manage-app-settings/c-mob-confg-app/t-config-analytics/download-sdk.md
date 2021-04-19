@@ -5,16 +5,16 @@ seo-description: Esta información sirve para descargar los SDK y las herramient
 seo-title: Descargar las herramientas y los SDK de Mobile
 solution: Experience Cloud,Analytics
 title: Descargar las herramientas y los SDK de Mobile
-topic: Developer and implementation,Metrics
+topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
+exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
-
 
 # Descargar las herramientas y los SDK de Mobile {#download-mobile-sdks-and-tools}
 
@@ -36,4 +36,3 @@ Configure la aplicación en Adobe Mobile Services para poder descargar un paquet
 * [Instrucciones de Android](/help/android/getting-started/requirements.md)
 
 Para ver la documentación de las bibliotecas nativas, incluidas las de Windows Phone 8, Blackberry, Xamarin y otras, consulte la sección *Documentación del SDK* en [Adobe Mobile Services](/help/using/home.md).
-
