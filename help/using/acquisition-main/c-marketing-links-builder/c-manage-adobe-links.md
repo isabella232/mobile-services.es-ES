@@ -1,20 +1,20 @@
 ---
 description: Puede usar la página Vínculos de marketing para crear, utilizar y archivar vínculos de marketing.
-keywords: mobile
+keywords: móvil
 seo-description: Puede usar la página Vínculos de marketing para crear, utilizar y archivar vínculos de marketing.
 seo-title: Administrar vínculos de marketing
 solution: Experience Cloud,Analytics
 title: Administrar vínculos de marketing
-topic: Metrics
+topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
+exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
-
 
 # Administrar vínculos de marketing {#manage-marketing-links}
 
@@ -38,4 +38,3 @@ En la página Vínculos de marketing, complete las tareas siguientes:
    * Para desarchivar un vínculos de marketing, haga clic en **[!UICONTROL Ver archivo]**, seleccione al menos uno y haga clic en **[!UICONTROL Desarchivar seleccionados]**.
 
       En la página Ver archivo solo figuran los vínculos de marketing que previamente se han archivado.
-
