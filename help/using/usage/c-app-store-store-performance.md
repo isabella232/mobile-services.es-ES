@@ -1,20 +1,20 @@
 ---
 description: El informe Información general de la App Store le proporciona una instantánea de las métricas del almacén de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio del almacén de aplicaciones, los ingresos de descargas, los ingresos en la aplicación, las descargas por país, las descargas por almacén de aplicaciones y las compras en la aplicación por nombre.
-keywords: mobile
+keywords: móvil
 seo-description: El informe Información general de la App Store le proporciona una instantánea de las métricas del almacén de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio del almacén de aplicaciones, los ingresos de descargas, los ingresos en la aplicación, las descargas por país, las descargas por almacén de aplicaciones y las compras en la aplicación por nombre.
 seo-title: Informe de información general de la tienda de aplicaciones
 solution: Experience Cloud,Analytics
 title: Informe de información general de la tienda de aplicaciones
-topic: Metrics
+topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
+exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # Informe de información general de la tienda de aplicaciones {#app-store-overview-report}
 
@@ -56,7 +56,7 @@ Este informe muestra la cantidad de ingresos que generan las descargas de su apl
 
 Este informe muestra la cantidad de ingresos procedentes de las ventas en la aplicación que se realizaron con su aplicación.
 
-## Descargas por País  {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## Descargas por País   {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 Este informe muestra el número de descargas de su aplicación agrupadas por país.
 
@@ -66,7 +66,7 @@ Para mostrar un gráfico con el número de descargas por país y fecha, haga cli
 
 ![](assets/downloads_by_country.png)
 
-## Descargas por App Store  {#section_F1CD1A3F0105469D879E4F280CE32484}
+## Descargas por App Store   {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 Este informe muestra el número de descargas de su aplicación agrupadas por tienda de aplicaciones.
 
@@ -76,6 +76,6 @@ Para mostrar un gráfico con el número de descargas por tienda de aplicaciones 
 
 ![](assets/app_store_downloads_detail.png)
 
-## Compras en la aplicación por Nombre  {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## Compras en la aplicación por Nombre   {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 Este informe muestra todas las compras en la aplicación por nombre.
