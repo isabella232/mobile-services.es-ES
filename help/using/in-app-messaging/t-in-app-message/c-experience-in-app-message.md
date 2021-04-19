@@ -1,20 +1,20 @@
 ---
 description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
-keywords: mobile
+keywords: móvil
 seo-description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 seo-title: Experience  Mensaje en la aplicación
 solution: Experience Cloud,Analytics
 title: Experience  Mensaje en la aplicación
-topic: Metrics
+topic-fix: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
+exl-id: eeb1527d-c546-4951-9947-db810fdb8eee
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
-
 
 # Experience: Mensaje en la aplicación {#experience-in-app-message}
 
@@ -93,7 +93,7 @@ Configure las opciones de experiencia de los mensajes en la aplicación, incluid
 
       * `{userId}`, que se sustituye por el identificador de usuario o se queda en blanco cuando este no se define.
       * `{trackingId}`, que se sustituye por la ayuda (se correlaciona con la cookie *s_vi*).
-      * `{messageId}`, que se sustituye por el identificador único del mensaje en la aplicación.
+      * `{messageId}`, que se sustituye por el ID único del mensaje en la aplicación.
       * `{lifetimeValue}`, que se sustituye por el valor de duración o por 0 si este no existe.
 
       Este es un ejemplo de seguimiento del identificador de usuario: `https://www.mysite.com?uid={userId}`.
