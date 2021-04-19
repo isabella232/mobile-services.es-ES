@@ -1,20 +1,20 @@
 ---
 description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
-keywords: mobile
+keywords: móvil
 seo-description: Puede crear vínculos de marketing para adquirir nuevos usuarios de aplicaciones móviles sobre la marcha configurando de forma manual los parámetros de URL.
 seo-title: Creación manual de vínculos de adquisición
 solution: Experience Cloud,Analytics
 title: Creación manual de vínculos de adquisición
-topic: Metrics
+topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
+exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
-
 
 # Creación manual de vínculos de adquisición {#create-acquisition-link-manually}
 
@@ -146,4 +146,3 @@ Cuando cree vínculos de adquisición manualmente, recuerde la siguiente informa
    Un ejemplo de ID de tienda sería `a_g_id`/ `a_i_id`.
 
 * Si la tienda de destino no se puede determinar automáticamente y no hay ninguna predeterminada, se devuelve el error 404.
-
