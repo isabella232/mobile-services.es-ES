@@ -1,20 +1,20 @@
 ---
 description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
-keywords: mobile
+keywords: móvil
 seo-description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
 seo-title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 solution: Experience Cloud,Analytics
 title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
-topic: Metrics
+topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
+exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Audience: mensajes push {#audience-define-and-configure-audience-segments-for-push-messages}
 
@@ -58,7 +58,7 @@ Para enviar el mensaje push a las aplicaciones de la lista, seleccione la casill
 Tenga presentes estas recomendaciones:
 
 * Para reducir las confusiones, **evite** definir grupos de informes virtuales de aplicación móvil que contengan datos de varias aplicaciones.
-* Use un identificador de aplicación único como parte de un segmento de audiencia **siempre** que quiera enviar un mensaje push.
+* Use un ID único de aplicación como parte de un segmento de audiencia **siempre** que quiera enviar un mensaje push.
 Esto garantiza que las notificaciones push se envíen a un segmento de audiencia que **solo** pertenezca a una aplicación.
 
 ### Ejemplos
