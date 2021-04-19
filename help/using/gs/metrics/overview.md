@@ -1,20 +1,20 @@
 ---
 description: Puede mostrar las métricas de rendimiento clave de las aplicaciones que ha visto más recientemente. De forma predeterminada, puede ver hasta 12 aplicaciones. Puede cambiar el intervalo de fechas y crear filtros para segmentar los datos y editar cualquier aplicación en la página Información general.
-keywords: mobile
+keywords: móvil
 seo-description: Puede mostrar las métricas de rendimiento clave de las aplicaciones que ha visto más recientemente. De forma predeterminada, puede ver hasta 12 aplicaciones. Puede cambiar el intervalo de fechas y crear filtros para segmentar los datos y editar cualquier aplicación en la página Información general.
 seo-title: Mostrar las métricas móviles
 solution: Experience Cloud,Analytics
 title: Mostrar las métricas móviles
-topic: Metrics
+topic-fix: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
+exl-id: aab6448d-4362-4c75-949a-7a519da76606
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # Mostrar las métricas móviles {#display-mobile-metrics}
 
