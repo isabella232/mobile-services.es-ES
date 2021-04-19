@@ -4,16 +4,16 @@ seo-description: La extensión iOS le ayuda a recopilar datos de uso de las apli
 seo-title: Implementación de extensiones iOS
 solution: Experience Cloud,Analytics
 title: Implementación de extensiones iOS
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
+exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
 ---
-
 
 # Implementación de extensiones iOS {#ios-extension-implementation}
 
@@ -48,6 +48,7 @@ Utilice el SDK para iOS aunque estos tres métodos de seguimiento cumplan con su
 >
 >* Un destinatario para contener la aplicación.
 >* Un destinatario para la extensión.
+
 >
 
 
@@ -114,4 +115,3 @@ Información que debe recordar:
 * Si la aplicación contenedora nunca se inicia, las visitas de la extensión se descartan.
 * El número de versión y el número de compilación deben ser los mismos entre la aplicación contenedora y la aplicación de extensión.
 * En las aplicaciones de extensión de iOS no se activa ninguna llamada de ciclo vital.
-
