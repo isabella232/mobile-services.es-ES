@@ -1,20 +1,20 @@
 ---
 description: Preguntas más frecuentes y respuestas sobre Adobe Mobile Services, además de una descripción general de las funciones.
-keywords: mobile
+keywords: móvil
 seo-description: Preguntas más frecuentes y respuestas sobre Adobe Mobile Services, además de una descripción general de las funciones.
 seo-title: Preguntas frecuentes
 solution: Experience Cloud,Analytics
 title: Preguntas frecuentes
-topic: Metrics
+topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
+exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes {#frequently-asked-questions}
 
@@ -28,7 +28,7 @@ Sí, constantemente hacemos actualizaciones para ofrecerle los SDK más seguros,
 
 ### ¿Qué versión del SDK debería tener?
 
-Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte nuestras [Notas de la versión](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte nuestras [Notas de la versión](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ### ¿Dónde puedo descargar los SDK?
 
