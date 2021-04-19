@@ -1,20 +1,20 @@
 ---
 description: Los widgets de Android se pueden rastrear utilizando los mismos métodos que se emplean en la aplicación. Los widgets comparten el contexto de la aplicación con la aplicación, por lo que se conservan el orden de visitas y la identificación del visitante.
-keywords: android;library;mobile;sdk
+keywords: android, biblioteca, mobile, móvil, sdk
 seo-description: Los widgets de Android se pueden rastrear utilizando los mismos métodos que se emplean en la aplicación. Los widgets comparten el contexto de la aplicación con la aplicación, por lo que se conservan el orden de visitas y la identificación del visitante.
 seo-title: Widgets de Android
 solution: Experience Cloud,Analytics
 title: Widgets de Android
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
+exl-id: 229ea987-256a-45f4-a5ca-afe17dd596b8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # Widgets de Android {#android-widgets}
 
@@ -29,4 +29,3 @@ Las siguientes directrices le ayudarán a hacer el seguimiento de las utilidades
 * Para realizar un seguimiento de cuándo se inicia la aplicación desde un widget, agregue una llamada `trackState` o `trackEvent` antes de crear un objeto Intent para iniciar la aplicación.
 
 * Para realizar el seguimiento del contexto de una acción, puede definir una variable `ContextData` que proporcione la opción de segmentar cada acción separadamente (por ejemplo, `AppExperienceType="widget"` o `app`).
-
