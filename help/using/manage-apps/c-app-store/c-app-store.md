@@ -1,20 +1,20 @@
 ---
 description: La integración del conector de datos appFigures combina la potencia de los análisis integrados del almacén de aplicaciones móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
-keywords: mobile
+keywords: móvil
 seo-description: La integración del conector de datos appFigures combina la potencia de los análisis integrados del almacén de aplicaciones móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
 seo-title: Tienda de aplicaciones
 solution: Experience Cloud,Analytics
 title: Tienda de aplicaciones
-topic: Metrics
+topic-fix: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
+exl-id: 27c65823-49ca-4bd4-b929-ba3df86e0a13
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # Tienda de aplicaciones {#app-store}
 
