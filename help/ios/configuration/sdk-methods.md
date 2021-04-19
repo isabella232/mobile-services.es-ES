@@ -4,16 +4,16 @@ seo-description: Esta es una lista de métodos que proporciona la biblioteca iOS
 seo-title: Métodos de configuración
 solution: Experience Cloud,Analytics
 title: Métodos de configuración
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
+exl-id: b6841808-8fa8-4090-8cb3-ce647a3d5d08
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
-
 
 # Métodos de configuración {#configuration-methods}
 
@@ -124,7 +124,7 @@ El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
 * **trackingIdentifier**
 
-   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID de visitante exclusivo y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante la CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalar.
+   Devuelve el identificador de visitante generado automáticamente. Se trata de un ID único de visitante y específico para la aplicación que generan los servidores de Adobe. Si no se puede acceder a los servidores de Adobe en el momento de la generación, el ID se genera mediante la CFUUID de Apple. El valor se genera en el primer inicio y se almacena y utiliza a partir de ese momento. Este ID se preserva al actualizar la aplicación, se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar y se elimina al desinstalar.
 
    >[!TIP]
    >
@@ -388,4 +388,3 @@ typedef NS_ENUM(NSUInteger, ADBMobileAppExtensionType) {
     ADBMobileAppExtensionTypeStandAlone = 1 /*!< Enum value ADBMobileAppExtensionTypeStandAlone. */ 
 };
 ```
-
