@@ -1,20 +1,20 @@
 ---
 description: Complete los siguientes requisitos previos para poder usar los vínculos de adquisición.
-keywords: mobile
+keywords: móvil
 seo-description: Complete los siguientes requisitos previos para poder usar los vínculos de adquisición.
 seo-title: Requisitos previos de adquisición
 solution: Experience Cloud,Analytics
 title: Requisitos previos de adquisición
-topic: Metrics
+topic-fix: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
+exl-id: 31201bec-e823-47b1-8912-2f8d69cea5be
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 100%
 
 ---
-
 
 # Requisitos previos de adquisición {#acquisition-prerequisites}
 
