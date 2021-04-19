@@ -4,16 +4,16 @@ seo-description: La geolocalización le ayuda a medir los datos de ubicación ut
 seo-title: Geolocalización y puntos de interés
 solution: Experience Cloud,Analytics
 title: Geolocalización y puntos de interés
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
+exl-id: 732c3863-2010-4d04-a17b-a656e857f567
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
 ---
-
 
 # Geolocalización y puntos de interés {#geo-location-and-points-of-interest}
 
@@ -116,4 +116,3 @@ Recuerde la información siguiente:
 * Cuando el diámetro de dos puntos de interés se superpone, se utiliza el primer punto de interés que contenga la ubicación actual.
 
    Si los puntos de interés se superponen, debe detallar los puntos de interés en orden del más granular al menos granular para garantizar que se informa del punto de interés más granular.
-
