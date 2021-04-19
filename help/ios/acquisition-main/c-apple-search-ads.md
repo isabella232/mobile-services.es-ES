@@ -4,16 +4,16 @@ seo-description: El SDK de Adobe aprovecha las API de Atribución de la aplicaci
 seo-title: Search Ads de Apple
 solution: Experience Cloud,Analytics
 title: Search Ads de Apple
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
+exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
 ---
-
 
 # Search Ads de Apple {#apple-search-ads}
 
@@ -40,7 +40,7 @@ Para habilitar su aplicación para la atribución de Search Ads:
 
 1. Agregue el marco iAd al archivo del proyecto Xcode de la aplicación.
 
-## Realización de informes de atribución de Search Ads  {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
+## Realización de informes de atribución de Search Ads   {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
 
 1. Los datos de atribución de Search Ads de Apple se proporcionan en el nombre de adquisición, la fuente y el valor de los términos.
 
@@ -49,7 +49,7 @@ Para habilitar su aplicación para la atribución de Search Ads:
    Además, se asignarán los siguientes valores del diccionario `"iad"` a campos habituales de datos de contexto de adquisición:
 
    * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
-   * `"iad-keyword"` --> `"a.referrer.campaign.term"`
+   * `"iad-campaign-name"` —>  `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` —>  `"a.referrer.campaign.content"`
+   * `"iad-keyword"` —>  `"a.referrer.campaign.term"`
    Esta asignación permite realizar informes estándar con los valores.
