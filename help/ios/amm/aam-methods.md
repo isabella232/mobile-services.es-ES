@@ -4,16 +4,16 @@ seo-description: Esta es una lista de métodos de Audience Manager que proporcio
 seo-title: Métodos de Audience Manager
 solution: Experience Cloud,Analytics
 title: Métodos de Audience Manager
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
+exl-id: b843a52f-2b83-4e19-9f43-895bd582d4ef
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
-
 
 # Métodos de Audience Manager {#audience-manager-methods}
 
@@ -76,7 +76,7 @@ Si Audience Manager está configurado en su archivo JSON, junto a `application:d
    Establece el DPID y el DPUUID. Cuando se establece, ambos se anexan a cada señal.
 
    * El ID del proveedor **de datos (DPID)** es el ID del socio de datos asignado por el Audience Manager.
-   * El ID único de usuario del **proveedor de datos (DPUUID)** es el ID exclusivo del proveedor de datos para el usuario.
+   * El ID único de usuario del **proveedor de datos (DPUUID)** es el ID único del proveedor de datos para el usuario.
 
       >[!IMPORTANT]
       >
