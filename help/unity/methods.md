@@ -1,19 +1,17 @@
 ---
-description: 'null'
+description: Métodos de configuración de ADBMobile.cs
 keywords: Unity
-seo-description: 'null'
-seo-title: Métodos ADBMobile.cs
 solution: Experience Cloud
 title: Métodos ADBMobile.cs
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
+exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 70%
 
 ---
-
 
 # Métodos ADBMobile.cs {#adbmobile-cs-methods}
 
@@ -90,7 +88,7 @@ ht-degree: 70%
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Se descartan las visitas.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas).
 
-      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
+      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
 
@@ -106,7 +104,7 @@ ht-degree: 70%
 
 * **GetUserIdentifier**
 
-   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -142,7 +140,7 @@ ht-degree: 70%
 
    >[!TIP]
    >
-   >Este método está diseñado para utilizarse en aplicaciones que se registran para recibir notificaciones mientras se encuentran en segundo plano y solo debe invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >El propósito de este método es que se utilice en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano, y solo debería invocarse desde el código que se está ejecutando cuando la aplicación esté en segundo plano.
 
    * Esta es la sintaxis para este método:
 
@@ -158,7 +156,7 @@ ht-degree: 70%
 
 * **PauseCollectingLifecycleData (solo Android)**
 
-   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, en pausa recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -190,7 +188,7 @@ ht-degree: 70%
 
 * **SetDebugLogging**
 
-   Establece la preferencia de registro de depuración en enabled.
+   Establece la preferencia de registro de depuración como habilitada.
 
    * Esta es la sintaxis para este método:
 
@@ -206,7 +204,7 @@ ht-degree: 70%
 
 * **SetPrivacyStatus**
 
-   Establece el estado de privacidad del usuario actual en estado. Establezca uno de los siguientes valores:
+   Establece el estado de privacidad del usuario actual en estado . Establezca uno de los siguientes valores:
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: Las visitas se envían inmediatamente.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Se descartan las visitas.
@@ -218,7 +216,7 @@ ht-degree: 70%
       public static void SetPrivacyStatus(ADBPrivacyStatusstatus);
       ```
 
-   * Este es el ejemplo de código para esta sintaxis:
+   * Este es un ejemplo de código para esta sintaxis:
 
       ```java
       ADBMobile.SetPrivacyStatus(ADBMobile.ADBPrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
@@ -260,9 +258,9 @@ ht-degree: 70%
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
 
-   Si el estado está vacío, se muestra como *`app name app version (build)`* en los informes. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Si el estado está vacío, en los informes se muestra *`app name app version (build)`*. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
 
    >[!TIP]
    >
@@ -284,7 +282,7 @@ ht-degree: 70%
 
 * **TrackAction**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;muertes&quot;, &quot;aumento de nivel&quot;, &quot;suscripciones a fuentes&quot; y otras métricas.
 
    >[!TIP]
    >
@@ -324,7 +322,7 @@ ht-degree: 70%
 
 * **TrackLocation**
 
-   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordenadas actuales están dentro de un punto de interés definido, se rellena una variable de datos de contexto y se envía con la llamada TrackLocation.
+   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran dentro de un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada TrackLocation .
 
    * Esta es la sintaxis para este método:
 
@@ -366,7 +364,7 @@ ht-degree: 70%
 
 * **TrackLifetimeValueIncrease**
 
-   Añade la cantidad al valor de duración del usuario.
+   Agrega una cantidad al valor de duración del usuario.
 
    * Esta es la sintaxis para este método:
 
@@ -402,7 +400,7 @@ ht-degree: 70%
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
+   Pasa datos para actualizar los datos de contexto asociados a la acción determinada. Los datos que se pasan se anexan a los ya existentes para la acción determinada y se sobrescriben si ya se ha definido la misma clave para la acción.
 
    >[!TIP]
    >
@@ -522,7 +520,7 @@ ht-degree: 70%
 
 * **VisitorSyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de Visitante acepta varios ID de cliente para el mismo visitante, junto con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
+   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, además de un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -542,7 +540,7 @@ ht-degree: 70%
 
 * **ProcessGooglePlayInstallReferrerUrl** *(solo Android)*
 
-   Pase la URL de remitente del reenvío devuelta desde una llamada a la API de Remitente del reenvío de instalación de Google Play a este método.
+   Pase la URL del referente devuelta por una llamada a la API del referente de instalación de Google Play a este método.
 
    * Esta es la sintaxis para este método:
 
