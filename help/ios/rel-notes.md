@@ -8,16 +8,20 @@ topic-fix: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 exl-id: dd1e6bab-65e7-4a68-b3ec-21fb1a08aca2
 translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: a6663bf682f0a4283978f2f07277a4d4d43615f6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notas de la versión {#release-notes}
 
 Estas son las notas de la versión, los problemas conocidos y la información sobre correcciones rápidas de los SDK para iOS 4.x para soluciones de Experience Cloud:
+
+**13 de abril de 2021: Versión 4.21.2**
+
+* Servicio de ID de visitante : se ha corregido un problema por el que se sincronizaban identificadores de publicidad vacíos con el servicio de ID de visitante.
 
 **13 de enero de 2021: versión 4.21.1**
 
