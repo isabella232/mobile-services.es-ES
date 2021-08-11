@@ -8,11 +8,10 @@ title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +25,7 @@ Cuando se crea un segmento de audiencia para mensajería push, este podría incl
 
 En Adobe Mobile Services, los especialistas en marketing solo pueden insertar una aplicación por plataforma. Si los especialistas en marketing intentan insertar segmentos que contienen usuarios de varias aplicaciones, se muestra una advertencia que indica que continuar puede provocar errores de inserción graves y la posible lista de usuarios bloqueados. Si se produce un error de inserción, consulte *Resolver errores de mensajes push* en   [Solucionar los problemas de la mensajería push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
-Para usar datos de Audience Manager en su definición de segmento, consulte [Audience Analytics](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/mc-audiences-aam.html).
+Para usar datos de Audience Manager en su definición de segmento, consulte [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 >[!IMPORTANT]
 >
