@@ -3,11 +3,10 @@ audience: end-user
 user-guide-title: Guía de Mobile Services
 breadcrumb-title: Guía de Mobile Services
 user-guide-description: Mobile Services es una solución integral que le ayuda a adquirir e interactuar con los usuarios de aplicaciones móviles y a optimizar sus experiencias.
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,36 +14,36 @@ ht-degree: 100%
 # Guía de Mobile Services {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [Notas de la versión](whatsnew.md)
++ [Anuncio de fin de vida útil](eol.md)
 + Primeros pasos {#get-started-ug}
    + [Primeros pasos](gs/gs.md)
    + [Roles y permisos](gs/c-mob-roles-and-permissions.md)
    + [Iniciando sesión](gs/gs-signin.md)
    + [Tipos de informes](gs/reports-types.md)
    + Métricas móviles {#mobile-metrics}
-      + [Métricas móviles](gs/metrics/metrics.md)
+      + [Métricas móviles ](gs/metrics/metrics.md)
       + [Mostrar las métricas móviles](gs/metrics/overview.md)
       + [Métricas de Mobile y referencia de dimensiones](gs/metrics/metrics-reference.md)
 + Administrar aplicaciones {#manage-apps-ug}
    + [Información general sobre la gestión de aplicaciones](manage-apps/manage-apps.md)
-   + [Agregar nueva aplicación](manage-apps/t-new-app.md)
+   + [Agregar nueva aplicación ](manage-apps/t-new-app.md)
    + [Grupos de informes virtuales](manage-apps/c-mob-vrs.md)
    + Tienda de aplicaciones {#app-store}
       + [Información general sobre la tienda de aplicaciones](manage-apps/c-app-store/c-app-store.md)
       + [Agregar una aplicación desde una tienda de aplicaciones](manage-apps/c-app-store/t-app-store-app.md)
-      + [Eliminar una aplicación](manage-apps/t-delete-apps.md)
+      + [Eliminar una aplicación ](manage-apps/t-delete-apps.md)
 + Administrar configuración de aplicación {#manage-app-settings-ug}
    + [Administrar configuración de aplicación](c-manage-app-settings/c-manage-app-settings.md)
    + Configurar su aplicación {#configuring-app}
       + [Configurar su aplicación ](c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)
       + [Configurar las opciones de SDK Analytics](c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
-      + [Descargar las herramientas y los SDK de Mobile](c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
+      + [Descargar las herramientas y los SDK de Mobile ](c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
       + [Configurar las opciones de Audience Manager](c-manage-app-settings/c-mob-confg-app/t-config-aam.md)
-      + [Configurar las opciones de adquisición de SDK](c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
+      + [Configurar las opciones de adquisición de SDK ](c-manage-app-settings/c-mob-confg-app/t-config-acquisition.md)
       + [Vínculos universales de Apple y de la aplicación de Android](c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)
       + [Configuración de las opciones del SDK de servicio de ID](c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)
       + [Configurar los postbacks](c-manage-app-settings/c-mob-confg-app/signals.md)
-      + [Configurar la mensajería push](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
+      + [Configurar la mensajería push ](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
       + [Requisitos previos para activar la mensajería push](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
       + [Configurar las aplicaciones para utilizar APNS o FCM](c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)
    + [Gestionar su aplicación](c-manage-app-settings/c-mob-manage-app.md)
@@ -61,10 +60,10 @@ ht-degree: 100%
    + [Informe de bloqueos](usage/c-crashes.md)
    + [Informe de información general de la tienda de aplicaciones](usage/c-app-store-store-performance.md)
 + Uso de informes {#work-with-reports-ug}
-   + [Personalización de informes](usage/reports-customize/reports-customize.md)
-   + [Añadir filtros a informes](usage/reports-customize/t-reports-customize.md)
-   + [Agregar series (métricas) a informes](usage/reports-customize/t-reports-series.md)
-   + [Agregar un filtro adhesivo](usage/reports-customize/t-sticky-filter.md)
+   + [Personalización de informes ](usage/reports-customize/reports-customize.md)
+   + [Añadir filtros a informes ](usage/reports-customize/t-reports-customize.md)
+   + [Agregar series (métricas) a informes ](usage/reports-customize/t-reports-series.md)
+   + [Agregar un filtro adhesivo ](usage/reports-customize/t-sticky-filter.md)
 + Digital Publishing Suite {#dps-ug}
    + [Información general de Digital Publishing Suite](dps/dps.md)
    + [Principales 10 artículos](dps/dps-top-ten-articles.md)
@@ -73,13 +72,13 @@ ht-degree: 100%
    + [Métricas de banner](dps/dps-banner-metrics.md)
 + Adquisición {#acquisition-main-ug}
    + [Información general sobre adquisición](acquisition-main/acquisition-main.md)
-   + [Requisitos previos de adquisición](acquisition-main/c-acquisition-prerequisites.md)
+   + [Requisitos previos de adquisición ](acquisition-main/c-acquisition-prerequisites.md)
    + [Configurar la adquisición](acquisition-main/t-enable-acquisition.md)
    + [Destinos](acquisition-main/c-create-destinations.md)
    + Crear y administrar destinos de vínculo {#create-manage-link-destination}
       + [Crear y administrar destinos de vínculo ](acquisition-main/c-manage-link-destinations/c-manage-link-destinations.md)
       + [Crear un nuevo destino de vínculo](acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)
-      + [Administrar destinos de vínculo](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
+      + [Administrar destinos de vínculo ](acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)
       + Generador de vínculos de marketing {#marketing-links-builder}
          + [Generador de vínculos de marketing](acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)
          + [Crear o editar vínculos de marketing](acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-create-edit-adobe-links.md)
@@ -93,12 +92,12 @@ ht-degree: 100%
          + [Administrar vínculos de marketing](acquisition-main/c-marketing-links-builder/c-manage-adobe-links.md)
          + [Creación manual de vínculos de adquisición](acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)
 + Ubicación {#location-ug}
-   + [Información general de ubicación](location/location-overview.md)
+   + [Información general sobre la ubicación](location/location-overview.md)
    + [Información general (ubicación)](location/c-location-overview.md)
    + [Mapa](location/c-map-points.md)
    + [Administrar puntos de interés](location/t-manage-points.md)
 + Mensajería {#messaging-ug}
-   + [Información general de la mensajería](in-app-messaging/in-app-messaging.md)
+   + [Información general sobre mensajería](in-app-messaging/in-app-messaging.md)
    + [Administrar mensajes](in-app-messaging/messages-manage/messages-manage.md)
    + [Ver informes de mensajes](in-app-messaging/messages-manage/view-message-reports.md)
    + Mensajes push {#push-messages}
@@ -106,12 +105,12 @@ ht-degree: 100%
       + [Audience: mensajes push](in-app-messaging/t-create-push-message/c-audience-push-message.md)
       + [Experience: Mensaje push](in-app-messaging/t-create-push-message/c-experience-push-message.md)
       + [Programación: mensajes push](in-app-messaging/t-create-push-message/c-schedule-push-message.md)
-      + [Solucionar los problemas de la mensajería push](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
+      + [Solucionar los problemas de la mensajería push ](in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)
    + Mensajes en la aplicación {#inapp-messages}
       + [Crear un mensaje en la aplicación](in-app-messaging/t-in-app-message/t-in-app-message.md)
       + [Audience: Mensaje en la aplicación](in-app-messaging/t-in-app-message/c-audience-in-app-message.md)
       + [Experience: Mensaje en la aplicación](in-app-messaging/t-in-app-message/c-experience-in-app-message.md)
       + [Programación: Mensaje en la aplicación](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
-      + [Solucionar los problemas de la mensajería en la aplicación](in-app-messaging/t-in-app-message/in-apps-ts.md)
+      + [Resolucion de problemas de la mensajería en la aplicación ](in-app-messaging/t-in-app-message/in-apps-ts.md)
       + [Activador de mensajes en la aplicación al abrirla mediante un mensaje push](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
 + [Preguntas frecuentes](faq-mobile.md)

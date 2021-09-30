@@ -1,0 +1,39 @@
+---
+title: Preguntas frecuentes sobre la finalización de la vida útil de Adobe Mobile Services
+description: Obtenga respuestas a las preguntas más frecuentes sobre el anuncio de fin de vida útil de Adobe Mobile Services.
+source-git-commit: 08102faa8470645b4088bd8178ccb630d2368752
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 0%
+
+---
+
+# Preguntas frecuentes sobre la finalización de la vida útil de Adobe Mobile Services
+
+La fecha de finalización de la vida útil de Adobe Mobile Service es **31 de diciembre de 2022**.
+
+## ¿Qué está pasando?
+
+Mobile Services finaliza su vida útil el 31 de diciembre de 2022. Mobile Services, que admite una interfaz de usuario centrada en el móvil, la adquisición, la vinculación profunda, la mensajería en la aplicación, la notificación push y la ubicación geográfica ya no es compatible a partir de esta fecha.
+
+## ¿Qué se incluye y qué no se incluye?
+
+Esta finalización de la vida útil solo incluye Adobe Mobile Services, la plataforma independiente de [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com). Los SDK de la versión 4 de Mobile que dependen de esta interfaz caducaron el 31 de agosto de 2021.
+
+Esta finalización de la vida útil NO incluye Adobe Analytics para aplicaciones móviles, parte de los SDK para móviles de Adobe Experience Platform. Estas funciones, que incluyen el comportamiento dentro de la aplicación, el análisis del ciclo vital, el seguimiento de las interacciones de mensajería y los perfiles de audiencia, siguen recibiendo asistencia de Adobe.
+
+## ¿Por qué se retira la capacidad?
+
+A medida que el Adobe siga ampliando sus capacidades de marketing móvil, las funciones que antes estaban disponibles en Mobile Services se lanzarán en soluciones de Adobe Experience Cloud u se ofrecerán a través de los socios Premier de Adobe Exchange. Esta transición le proporciona funciones de marketing móvil más potentes y flexibles.
+
+## ¿Qué opciones de transición están disponibles?
+
+Adobe ofrece tres rutas de transición en función del caso de uso de su organización.
+
+1. **Mensajería en la aplicación y notificaciones** push: Adobe puede realizar la transición de sus flujos de trabajo de mensajería a Adobe Journey Optimizer. Este producto ayuda a las organizaciones a optimizar y personalizar experiencias en todo el recorrido de clientes, incluida la mensajería móvil.
+1. **Adquisición y vinculación** profunda: La adquisición y la vinculación profunda se ofrecen a través del programa Adobe Exchange Premier Partners. Estos socios incluyen Ajustar, AppsFlyer y Rama, que ofrecen amplias capacidades de adquisición. El equipo de colaboración de Adobe puede realizar las presentaciones adecuadas para asegurarse de encontrar la solución que mejor se adapte a sus necesidades.
+1. **Servicio de Places**: El servicio Places ofrece funciones de localización geográfica gratuitas. Consulte la [Documentación del servicio Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+
+## ¿Dónde puedo ir si tengo preguntas?
+
+Consulte la [página de demostración de fin de vida útil de Adobe Mobile Services](https://spark.adobe.com/page/C6D30y09zaRpD/) para obtener más información. Póngase en contacto con su representante del Adobe si tiene más preguntas.
