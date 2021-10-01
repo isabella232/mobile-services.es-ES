@@ -1,17 +1,14 @@
 ---
 description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Este es un ejemplo de la variable products con eVars de comercialización y events (eventos) específicos de productos.
-seo-title: Variable products con eVars de comercialización y eventos específicos de productos
 solution: Experience Cloud,Analytics
 title: Variable products con eVars de comercialización y eventos específicos de productos
 topic-fix: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
 exl-id: 2ede6341-3068-4423-a509-c0ec3a2db5e8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '80'
 ht-degree: 100%
 
 ---

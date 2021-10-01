@@ -1,17 +1,14 @@
 ---
 description: Después de configurar la URL de vinculación profunda en la interfaz de usuario de Adobe Mobile Services, esta URL estará en la carga útil push con la clave adb_deeplink.
-seo-description: Después de configurar la URL de vinculación profunda en la interfaz de usuario de Adobe Mobile Services, esta URL estará en la carga útil push con la clave adb_deeplink.
-seo-title: Implementar la mensajería push con vinculación profunda
 title: Implementar la mensajería push con vinculación profunda
 uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
-translation-type: tm+mt
-source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
+exl-id: ab97db32-d9d2-41ec-aae8-a951c7745df8
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 75%
+source-wordcount: '154'
+ht-degree: 74%
 
 ---
-
 
 # Implementar la mensajería push con vinculación profunda {#implement-push-messaging-with-deep-linking}
 
@@ -29,7 +26,7 @@ Puede obtener la dirección URL llamando a `remoteMessage.getData().get("adb_dee
 
       Cuando el usuario hace clic en el mensaje push, se activa un vínculo profundo.
 
-   * Si la URL de vinculación profunda no **está** en la carga útil push, cree una intención que abra una de sus actividades.
+   * Si la URL de vinculación profunda **no está** en la carga útil push, cree un objeto Intent que abra una de las actividades.
 
 ## Ejemplo
 

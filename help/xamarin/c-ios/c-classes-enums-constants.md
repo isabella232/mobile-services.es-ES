@@ -1,21 +1,18 @@
 ---
-description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
-seo-description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
-seo-title: Clases y enumeraciones
+description: Lista de clases y enumeraciones para su uso en aplicaciones Xamarin.
 title: Clases y enumeraciones
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
-translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+exl-id: 9486e654-18d1-4e71-a096-5925d928bf84
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '37'
 ht-degree: 24%
 
 ---
 
-
 # Clases y enumeraciones{#classes-and-enums}
 
-Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
+Lista de clases y enumeraciones para su uso en aplicaciones Xamarin.
 
 ## Clases {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 

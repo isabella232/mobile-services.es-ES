@@ -1,21 +1,18 @@
 ---
-description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS realizando reemplazos directos en sus archivos .xml. Designe las áreas de la página que se reemplazarán por contenido de Destinatario mediante el elemento XML personalizado ADBTarget.
-seo-description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS realizando reemplazos directos en sus archivos .xml. Designe las áreas de la página que se reemplazarán por contenido de Destinatario mediante el elemento XML personalizado ADBTarget.
-seo-title: Adobe Target para TVML/TVJS
+description: Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS realizando reemplazos directos en sus archivos .xml. Designe áreas de la página que se reemplazarán con contenido de Target usando el elemento XML personalizado ADBTarget .
 title: Adobe Target para TVML/TVJS
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+exl-id: 9348d49c-2a5a-4ea0-b90d-99d446bd336a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 70%
+source-wordcount: '461'
+ht-degree: 75%
 
 ---
 
-
 # Adobe Target para TVML/TVJS{#adobe-target-for-tvml-tvjs}
 
-Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS realizando reemplazos directos en sus archivos .xml. Designe las áreas de la página que se reemplazarán por contenido de Destinatario mediante el elemento XML personalizado ADBTarget.
+Puede aprovechar Adobe Target en sus aplicaciones TVML/TVJS realizando reemplazos directos en sus archivos .xml. Designe áreas de la página que se reemplazarán con contenido de Target usando el elemento XML personalizado ADBTarget .
 
 >[!IMPORTANT]
 >
@@ -114,7 +111,7 @@ Suponga que tiene una ubicación Mbox llamada `landingPage` y que el contenido d
 
 #### Configure landingPage.xml.js
 
-* Esta es la configuración de landingPage.xml.js:
+* Esta es la configuración para landingPage.xml.js:
 
    ```js
    <alertTemplate> 
@@ -125,7 +122,7 @@ Suponga que tiene una ubicación Mbox llamada `landingPage` y que el contenido d
    </alertTemplate> 
    ```
 
-* Si la solicitud de Destinatario se realiza correctamente y se devuelve el contenido de la oferta, la página resultará con:
+* Si la solicitud a Target se realiza correctamente y se devuelve el contenido de la oferta, la página resultará así:
 
    ```objective-c
    <alertTemplate> 
@@ -134,7 +131,7 @@ Suponga que tiene una ubicación Mbox llamada `landingPage` y que el contenido d
    </alertTemplate>
    ```
 
-* Si no se puede acceder al servidor de Destinatario o se agota el tiempo de espera de la solicitud, la página resultará en:
+* Si no se puede acceder al servidor de Target o se agota el tiempo de espera de la solicitud, su página resultará así:
 
    ```objective-c
    <alertTemplate> 

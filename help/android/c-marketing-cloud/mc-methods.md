@@ -1,22 +1,19 @@
 ---
 description: Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
-seo-title: Métodos del servicio de ID de Adobe Experience Platform
 solution: Experience Cloud,Analytics
 title: Métodos del servicio de ID de Adobe Experience Platform
 topic-fix: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 exl-id: 8eb98c3f-c6ef-4593-ad3a-f566f4d4b6a2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
-# Métodos del servicio de ID de Adobe Experience Platform {#experience-cloud-id-service-methods}
+# Métodos del servicio de ID de Adobe Experience Platform{#experience-cloud-id-service-methods}
 
 Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
 
@@ -26,7 +23,7 @@ Los métodos tienen un prefijo de acuerdo con la solución. Por ejemplo, los mé
 
 * **public static String appendToURL(final String URL)**
 
-   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Debe tener el SDK de Mobile 4.12 o posterior para usar este método. Para obtener más información, consulte [Función Asistente de agregación de ID de visitante](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/appendvisitorid.html).
+   Adjunta datos de visitantes de Adobe a una cadena URL para su uso con la biblioteca JavaScript de Adobe. Debe tener el SDK de Mobile 4.12 o posterior para usar este método. Para obtener más información, consulte [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es) en la documentación del servicio de identidad de Adobe Experience Cloud.
 
    >[!IMPORTANT]
    >

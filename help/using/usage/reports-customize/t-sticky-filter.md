@@ -1,17 +1,14 @@
 ---
 description: Cree un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento determinado en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
 keywords: móvil
-seo-description: Cree un filtro que incluya distintos informes con el fin de ver el comportamiento de un segmento determinado en todos los informes móviles. Un filtro adhesivo le permite definir un filtro que se aplica a todos los informes sin rutas.
-seo-title: Agregar un filtro adhesivo
 solution: Experience Cloud,Analytics
 title: Agregar un filtro adhesivo
 topic-fix: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
 exl-id: 5f6f725a-a1ae-40c2-abe0-87ebabdc582a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

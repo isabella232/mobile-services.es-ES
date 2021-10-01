@@ -5,11 +5,10 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 20%
+source-wordcount: '948'
+ht-degree: 19%
 
 ---
 
@@ -29,13 +28,13 @@ Antes de agregar código, pida a su administrador de Analytics que complete lo s
 
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de móviles]** > **[!UICONTROL Informes de aplicaciones móviles]**.
 
-   ![](assets/mobile-settings.png)
+   ![Configuración móvil](assets/mobile-settings.png)
 
 1. Haga clic en **[!UICONTROL Habilitar los informes de aplicaciones más recientes]**.
 
    De forma opcional, también puede hacer clic en **[!UICONTROL Habilitar el seguimiento de ubicación móvil]** o **[!UICONTROL Habilitar el sistema de informes y la atribución anteriores para las visitas en segundo plano]**.
 
-   ![](assets/enable-lifecycle.png)
+   ![Habilitar ciclo vital](assets/enable-lifecycle.png)
 
 Las métricas del ciclo vital ya están listas para capturarse, e Informes de aplicaciones móviles aparece en el menú **[!UICONTROL Informes]** de la interfaz de informes de marketing.
 
@@ -59,7 +58,7 @@ app.onactivated = function (args) {
 }; 
 app.oncheckpoint = function (args) { 
   ADBMobile.Config.pauseCollectingLifecycleData(); 
-}
+};
 ```
 
 ### C# en App.xaml.cs
@@ -139,49 +138,47 @@ Las reglas de procesamiento se utilizan para copiar los datos que envía en vari
 
 [Formación sobre reglas de procesamiento](https://tv.adobe.com/embed/1181/16506/) en Summit 2013
 
-[Ayuda de las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[Ayuda de las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[Obtenga autorización para utilizar reglas de procesamiento](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
-
-Se recomienda agrupar las variables de datos de contexto mediante &quot;áreas de nombres&quot;, ya que esto le ayuda a mantener un orden lógico. Por ejemplo, si desea recopilar información sobre un producto, puede definir las siguientes variables:
+Adobe recomienda agrupar las variables de datos de contexto mediante &quot;áreas de nombres&quot;, ya que ayuda a mantener el orden lógico. Por ejemplo, si desea recopilar información sobre un producto, puede definir las siguientes variables:
 
 ```javascript
-"product.type":"hat" 
-"product.team":"mariners" 
-"product.color":"blue"
+"product.type":"hat";
+"product.team":"mariners";
+"product.color":"blue";
 ```
 
 Las variables de datos de contexto se ordenan alfabéticamente en la interfaz de reglas de procesamiento, por lo que los espacios de nombres permiten ver rápidamente las variables que están en el mismo espacio de nombres.
 
-Además, hemos oído que algunos de ustedes están nombrando claves de datos de contexto utilizando el número de eVar o prop:
+Además, hemos oído que algunos de ustedes están nombrando claves de datos de contexto usando el número de eVar o propiedad:
 
 ```js
-"eVar1":"jimbo"
+"eVar1":"jimbo";
 ```
 
 Esto puede facilitar *ligeramente* la tarea de asignar de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, se recomienda encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
-"username":"jimbo"
+"username":"jimbo";
 ```
 
 Establezca variables de contexto que definan eventos de contador con el valor &quot;1&quot;:
 
 ```js
-"logon":"1"
+"logon":"1";
 ```
 
 Las variables de datos de contexto que definen eventos de aumento pueden tener el valor que aumentar:
 
 ```js
-"levels completed":"6"
+"levels completed":"6";
 ```
 
 >[!TIP]
 >
 >Adobe reserva el espacio de nombres `a.`. Aparte de esta restricción, las variables de datos de contexto solo deben ser exclusivas en su empresa de inicio de sesión para evitar conflictos.
 
-## Variable Products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variable products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Para obtener más información, consulte [Variable products](/help/universal-windows/analytics/products.md).
 

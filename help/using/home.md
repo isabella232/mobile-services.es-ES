@@ -1,15 +1,13 @@
 ---
 description: Documentos técnicos para Adobe Mobile Services
-seo-description: This guide outlines technical documentation and self help for Adobe Mobile Services, which brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, allowing you to understand and improve user engagement with mobile applications.
-seo-title: Adobe Mobile Services
 solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 exl-id: 5ca1dad0-aa34-4950-b8e7-b73d691e4b03
-source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 74%
+source-wordcount: '252'
+ht-degree: 72%
 
 ---
 
@@ -28,11 +26,6 @@ La compatibilidad con los SDK [versión 4](https://github.com/Adobe-Marketing-Cl
 ## SDK para Adobe Experience Platform
 
 La solución actual de Adobe para marketing móvil son los SDK para Adobe Experience Platform. Consulte la [documentación del SDK de Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/).
-
-## Recursos para desarrolladores
-
-* [Descargar las herramientas y los SDK de Mobile](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [Desarrollador](https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html)
 
 ## Documentación del SDK {#section_3A500233347C4305AB545E298A827CEA}
 

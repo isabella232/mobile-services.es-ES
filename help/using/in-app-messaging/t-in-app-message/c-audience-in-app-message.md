@@ -1,17 +1,14 @@
 ---
 description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
 keywords: móvil
-seo-description: Puede configurar las opciones de audiencia para los mensajes en la aplicación, incluidas las opciones de visualización, activadores y características.
-seo-title: Audience  Mensaje en la aplicación
 solution: Experience Cloud,Analytics
 title: Audience  Mensaje en la aplicación
 topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -47,7 +44,6 @@ Puede configurar las opciones de audiencia para los mensajes en la aplicación, 
       >Si selecciona varios activadores, todos deben producirse en la misma visita para que el mensaje se muestre.
 
    * **[!UICONTROL Características]** Puede determinar quién debe ver el mensaje en la aplicación cuando se activa y filtrar (segmentar) la audiencia según las visitas que contengan datos concretos. Por ejemplo, puede definir una regla en la que los puntos de interés contienen Denver. Este filtro le permite mostrar el mensaje a los clientes que estén en uno de sus puntos de interés con Denver en el nombre, en el momento de activar el mensaje.
-
 
 
 ## Información adicional sobre características y activadores {#section_48C39EFB8CAA4F62B994FCC91DF588E6}

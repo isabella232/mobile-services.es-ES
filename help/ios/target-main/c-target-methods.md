@@ -1,17 +1,14 @@
 ---
 description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
-seo-description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
-seo-title: Métodos de Target de iOS para Adobe Mobile Services
 solution: Experience Cloud,Analytics
 title: Métodos de Target para iOS
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -82,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**
+* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameprofileParametersmboxParameterscallback:**
 
    Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno de bloque.
 
@@ -154,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obtener más información sobre la API de Target subyacente, consulte [Desarrolladores de Adobe Target](https://docs.adobe.com/dev/products/target/reference/delivery.html).
+      Para obtener más información sobre la API de Target subyacente, consulte la [referencia de la API de Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
 
 
 
@@ -162,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
+* **:defaultContent::orderParameters:targetLoadRequestWithNameprofileParametersmboxParameters:callback**
 
    Envía una solicitud al servidor de Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno de bloque.
 

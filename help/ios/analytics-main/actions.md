@@ -1,16 +1,13 @@
 ---
 description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, podría hacer el seguimiento de cada nueva suscripción, cada vez que se vea un artículo o cuando se complete un nivel. Las métricas correspondientes para estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
-seo-description: Las acciones son los eventos que tienen lugar en su aplicación y que desea medir. Cada acción tiene una o más métricas correspondientes que se incrementan cada vez que tiene lugar el evento. Por ejemplo, podría hacer el seguimiento de cada nueva suscripción, cada vez que se vea un artículo o cuando se complete un nivel. Las métricas correspondientes para estos eventos se configuran como suscripciones, artículos leídos y niveles completados.
-seo-title: Seguimiento de acciones de aplicaciones
 solution: Experience Cloud,Analytics
 title: Seguimiento de acciones de aplicaciones
 topic-fix: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 exl-id: ff317eff-1b8e-46e1-a305-a404979447cb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '468'
 ht-degree: 100%
 
 ---

@@ -1,22 +1,19 @@
 ---
 description: El informe Embudo identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe Embudo para comparar las acciones de diferentes segmentos.
 keywords: móvil
-seo-description: El informe Embudo identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe Embudo para comparar las acciones de diferentes segmentos.
-seo-title: Informe Embudo
 solution: Experience Cloud,Analytics
 title: Informe Embudo
 topic-fix: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 exl-id: 43f9d0aa-0651-42c6-85ea-307ed253cf8d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
 
-# Informe Embudo {#funnel}
+# Informe Embudo{#funnel}
 
 El informe **[!UICONTROL Embudo]** identifica el punto en el que los clientes abandonaron una campaña de marketing o se desviaron de una ruta de conversión definida al interactuar con la aplicación móvil. Asimismo, puede utilizar el informe **[!UICONTROL Embudo]** para comparar las acciones de diferentes segmentos.
 

@@ -1,23 +1,20 @@
 ---
 description: La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
-seo-description: La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
-seo-title: Vista previa de Target en iOS
 title: Vista previa de Target en iOS
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: d5695156-59cd-42c5-b9a3-d8e0ebbb89d0
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 76%
 
 ---
 
-
-# Vista previa de Target en iOS {#target-preview-on-ios}
+# Vista previa de Target en iOS{#target-preview-on-ios}
 
 La vista previa de Target permite realizar un completo QA para actividades de Target y previsualizar estas actividades en el dispositivo.
 
-Para obtener más información acerca de cómo configurar y utilizar Vista previa de Target, consulte [Vista previa de Target Mobile](https://docs.adobe.com/content/help/es-ES/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+Para obtener más información sobre cómo configurar y utilizar Vista previa de Target, consulte [Vista previa para móviles de Target](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/target-mobile-preview.html) en la documentación de Adobe Target.
 
 >[!IMPORTANT]
 >
@@ -38,5 +35,5 @@ Para obtener más información acerca de cómo configurar y utilizar Vista previ
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-      [ADBMobile targetPreviewRestartDeepLink:@" myapp://myhost"]; 
+      [ADBMobile targetPreviewRestartDeepLink:@"myapp://myhost"]; 
       ```

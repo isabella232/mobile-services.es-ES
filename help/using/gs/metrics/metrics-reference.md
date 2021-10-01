@@ -1,17 +1,14 @@
 ---
 description: Aquí encontrará la información de referencia sobre las dimensiones y las métricas móviles predeterminadas.
 keywords: móvil
-seo-description: Aquí encontrará la información de referencia sobre las dimensiones y las métricas móviles predeterminadas.
-seo-title: Métricas de Mobile y referencia de dimensiones
 solution: Experience Cloud,Analytics
 title: Métricas de Mobile y referencia de dimensiones
 topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---

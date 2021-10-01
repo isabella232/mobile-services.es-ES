@@ -1,17 +1,14 @@
 ---
 description: El informe Retención (anteriormente, cohorte de primer inicio) es un informe de cohorte que muestra cuántos usuarios únicos iniciaron la aplicación por primera vez y luego la volvieron a iniciar al menos una vez durante los meses siguientes.
 keywords: móvil
-seo-description: El informe Retención (anteriormente, cohorte de primer inicio) es un informe de cohorte que muestra cuántos usuarios únicos iniciaron la aplicación por primera vez y luego la volvieron a iniciar al menos una vez durante los meses siguientes.
-seo-title: Informe Retención
 solution: Experience Cloud,Analytics
 title: Informe Retención
 topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---

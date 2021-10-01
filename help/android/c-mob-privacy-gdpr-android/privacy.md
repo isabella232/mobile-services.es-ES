@@ -1,21 +1,18 @@
 ---
 description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
-seo-description: Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
-seo-title: Configuración del estado de exclusión del usuario
 solution: Experience Cloud,Analytics
 title: Configuración del estado de exclusión del usuario
 topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
 exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
-# Configuración del estado de exclusión del usuario {#setting-the-user-s-opt-status}
+# Configuración del estado de exclusión del usuario{#setting-the-user-s-opt-status}
 
 Esta información le será de ayuda para la solicitud de eliminación de datos del RGPD.
 

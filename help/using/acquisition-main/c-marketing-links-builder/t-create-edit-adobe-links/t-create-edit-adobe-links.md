@@ -1,18 +1,15 @@
 ---
 description: Puede crear o editar vínculos de marketing para proporcionar vínculos profundos a su aplicación móvil o sitio web.
 keywords: móvil
-seo-description: Puede crear o editar vínculos de marketing para proporcionar vínculos profundos a su aplicación móvil o sitio web.
-seo-title: Crear o editar vínculos de marketing
 solution: Experience Cloud,Analytics
 title: Crear o editar vínculos de marketing
 topic-fix: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +39,7 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
       Las siguientes etiquetas preestablecidas están disponibles:
 
-      * **Datos de contexto personalizados** Especifique la clave y el valor. Si agrega datos de contexto personalizados, debe crear una regla de procesamiento. Para obtener más información, consulte [Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+      * **Datos de contexto personalizados** Especifique la clave y el valor. Si agrega datos de contexto personalizados, debe crear una regla de procesamiento. Para obtener más información, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) en la documentación de Adobe Analytics.
 
       * **Origen** Especifique el referente original, como “newsletter” o “página principal”.
 

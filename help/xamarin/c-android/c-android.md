@@ -1,13 +1,10 @@
 ---
-description: Esta sección contiene información sobre el uso del componente Xamarin del SDK de Adobe Mobile para Android.
-seo-description: Esta sección contiene información sobre el uso del componente Xamarin del SDK de Adobe Mobile para Android.
-seo-title: Android
+description: Esta sección contiene información relacionada con el uso del componente Xamarin del SDK móvil de Adobe para Android.
 title: Android
 uuid: 7ce20d9f-afbb-447c-a3bd-3e1f75421bb4
-translation-type: tm+mt
-source-git-commit: 04a55b2f73a5ed7fe629ff8ab06217fafd3a2c71
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '32'
 ht-degree: 6%
 
 ---
@@ -15,5 +12,5 @@ ht-degree: 6%
 
 # Android {#android}
 
-Esta sección contiene información sobre el uso del componente Xamarin del SDK de Adobe Mobile para Android.
+Esta sección contiene información relacionada con el uso del componente Xamarin del SDK móvil de Adobe para Android.
 

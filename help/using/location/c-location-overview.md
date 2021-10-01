@@ -1,22 +1,19 @@
 ---
 description: El informe Información general de ubicación le permite ver los diferentes países, regiones y puntos de interés en los que se utiliza la aplicación.
 keywords: móvil
-seo-description: El informe Información general de ubicación le permite ver los diferentes países, regiones y puntos de interés en los que se utiliza la aplicación.
-seo-title: Información general (ubicación)
 solution: Experience Cloud,Analytics
 title: Información general (ubicación)
 topic-fix: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 exl-id: 9a9f4f64-251f-48d4-a838-af14a357c575
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '556'
 ht-degree: 100%
 
 ---
 
-# Información general (ubicación) {#overview-location}
+# Información general (ubicación){#overview-location}
 
 El informe **[!UICONTROL Información general de la ubicación]** le permite ver los diferentes países, regiones y puntos de interés en los que se utiliza la aplicación.
 

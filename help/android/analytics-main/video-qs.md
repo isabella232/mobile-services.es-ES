@@ -1,18 +1,15 @@
 ---
 description: A continuación encontrará más información sobre la medición de vídeo en Android mediante la solución de medición de vídeo.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: A continuación encontrará más información sobre la medición de vídeo en Android mediante la solución de medición de vídeo.
-seo-title: Video Analytics
 solution: Experience Cloud,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
 exl-id: 1b7f5523-767a-45e8-b2e7-ecf9984849e4
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +19,7 @@ A continuación encontrará más información sobre la medición de vídeo en An
 
 >[!TIP]
 >
->Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información acerca de la solución de medición de vídeo de Adobe, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
+>Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información sobre la solución de medición de vídeo de Adobe, consulte [Medición de medios de flujo continuo en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 El proceso general de medición de vídeos es muy similar en todas las plataformas. Este contenido ofrece una visión general de las tareas del desarrollador, con ejemplos de código. La siguiente tabla indica los datos multimedia que se envían a Analytics. Las reglas de procesamiento se utilizan para asignar los datos de contexto a una variable de Analytics.
 

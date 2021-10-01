@@ -1,17 +1,15 @@
 ---
 description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
 keywords: móvil
-seo-description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
-seo-title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 solution: Experience Cloud,Analytics
 title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '976'
+ht-degree: 98%
 
 ---
 
@@ -90,11 +88,10 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
 
    * Para obtener más información sobre la solución de problemas con la mensajería push, consulte estos temas:
 
-      * [Mensajería push en iOS](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [Mensajería push en iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      * [Mensajería push en Android](/help/android/messaging-main/push-messaging/push-messaging.md)
 
-      * [Mensajería push en Android](https://docs.adobe.com/content/help/es-ES/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
-
-1. Rellene los campos siguientes:
+2. Rellene los campos siguientes:
 
    * **[!UICONTROL Durante el]**
 
@@ -110,7 +107,7 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
 
    * **[!UICONTROL Segmentos de Analytics]**
 
-      Seleccione un segmento de Adobe Analytics existente en la lista desplegable. Para obtener más información, consulte [Generar segmentos](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+      Seleccione un segmento de Adobe Analytics existente en la lista desplegable. Para obtener más información, consulte el [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) en la documentación de Adobe Analytics.
 
    * **[!UICONTROL Segmentos personalizados]**
 

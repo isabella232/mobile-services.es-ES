@@ -1,17 +1,14 @@
 ---
 description: Puede configurar su aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud (FCM).
 keywords: móvil
-seo-description: Puede configurar su aplicación para que utilice el servicio de notificaciones push de Apple (APNS) o la mensajería de Firebase Cloud (FCM).
-seo-title: Configurar las aplicaciones para utilizar APNS o FCM
 solution: Experience Cloud,Analytics
 title: Configurar las aplicaciones para utilizar APNS o FCM
 topic-fix: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
 exl-id: 9064e1f3-f176-4699-b1e6-90f29e1af0d3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---

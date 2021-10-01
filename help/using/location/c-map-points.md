@@ -1,17 +1,14 @@
 ---
 description: Puede ver un mapa interactivo que muestra sus puntos de interés y otros marcadores de datos.
 keywords: móvil
-seo-description: Puede ver un mapa interactivo que muestra sus puntos de interés y otros marcadores de datos.
-seo-title: Mapa
 solution: Experience Cloud,Analytics
 title: Mapa
 topic-fix: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 exl-id: a7e75333-2919-44bf-9963-f40cdee2d6b6
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

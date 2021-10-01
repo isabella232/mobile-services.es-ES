@@ -1,22 +1,19 @@
 ---
 description: El informe Principales 50 artículos muestra un gráfico de barras y un informe de clasificación que indica los artículos más leídos y mostrados mediante el uso de la aplicación. Este informe solo está disponible para los clientes de Digital Publishing Suites (DPS).
 keywords: móvil
-seo-description: El informe Principales 50 artículos muestra un gráfico de barras y un informe de clasificación que indica los artículos más leídos y mostrados mediante el uso de la aplicación. Este informe solo está disponible para los clientes de Digital Publishing Suites (DPS).
-seo-title: Principales 50 artículos
 solution: Experience Cloud,Analytics
 title: Principales 50 artículos
 topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
 
-# Informe Principales 50 artículos {#top-articles}
+# Principales 50 artículos informe{#top-articles}
 
 El informe **[!UICONTROL Principales 50 artículos]** muestra un gráfico de barras y un informe de clasificación que indica los artículos más leídos y mostrados mediante el uso de la aplicación. Este informe solo está disponible para los clientes de DPS.
 

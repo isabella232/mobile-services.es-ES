@@ -1,17 +1,14 @@
 ---
 description: El SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud le permite medir aplicaciones nativas de BlackBerry 10 con Adobe Analytics.
-seo-description: El SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud le permite medir aplicaciones nativas de BlackBerry 10 con Adobe Analytics
-seo-title: SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud
 title: SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud
 uuid: c336db33-2cb5-48fe-a3f5-2d3ced6c3966
-translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+exl-id: 4ecd9cdd-bca5-4a30-bc22-0e38918eefd3
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 84%
 
 ---
-
 
 # SDK 4.x de BlackBerry 10 para soluciones de Experience Cloud {#blackberry-sdk-x-for-experience-cloud-solutions}
 
@@ -37,10 +34,10 @@ Además de las mejoras importantes de rendimiento, la versión 4 agrega las sigu
 |--- |--- |
 | Inclusión/exclusión | Habilite y deshabilite Analytics rápidamente. |
 
-Para obtener más información sobre las notas de la versión de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Para obtener más información sobre las notas de la versión de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ## Uso de Bloodhound
 
 >[!IMPORTANT]
 >
->Adobe Bloodhound expiró el **30 de abril de 2017**. Desde el 1 de mayo de 2017 no se proporcionarán nuevas mejoras ni se ofrecerá más soporte técnico de ingeniería o Adobe Expert Care.
+>A partir del **30 de abril de 2017**, el Adobe Bloodhound ha expirado. A partir del 1 de mayo de 2017, no se proporcionarán mejoras adicionales ni se ofrecerá asistencia técnica adicional para expertos en ingeniería o Adobe.

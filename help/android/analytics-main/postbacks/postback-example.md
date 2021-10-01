@@ -1,17 +1,14 @@
 ---
 description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Puede utilizar esta información para comprender mejor qué son los postbacks y cómo funcionan.
-seo-title: Ejemplo de Postbacks
 solution: Experience Cloud,Analytics
 title: Ejemplo de Postbacks
 topic-fix: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
 exl-id: 2ff41066-e2ee-425f-8aff-e5e3f3e5f0f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -24,7 +21,7 @@ Puede utilizar esta información para comprender mejor qué son los postbacks y 
 >
 >Este ejemplo tiene propósitos meramente informativos. El archivo `ADBMobileConfig.json` debe configurarse en la interfaz de usuario de Adobe Mobile y no debería modificarse de forma manual. Un archivo de configuración editado de forma manual puede ser peligroso si tiene habilitada la configuración de mensajes remotos.
 
-## Definición de `ADBMobileConfig.json` {#section_8751E8176F3546C09420341A39758AFF}
+## Definición de `ADBMobileConfig.json`  {#section_8751E8176F3546C09420341A39758AFF}
 
 ```js
 "messages": [ 
@@ -64,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-Como su estado es `“MainMenu”`, esta llamada de seguimiento activa el mensaje de postback anterior. La URL reemplazará todas las variables de plantilla con los valores de la visita. Suponiendo que la sesión anterior del usuario tuviera una duración de 132 segundos y que el usuario utilice la versión 4.6.0 del SDK para Android, la URL resultante tendría este aspecto:
+Como su estado es `"MainMenu"`, esta llamada de seguimiento activa el mensaje de postback anterior. La URL reemplazará todas las variables de plantilla con los valores de la visita. Suponiendo que la sesión anterior del usuario tuviera una duración de 132 segundos y que el usuario utilice la versión 4.6.0 del SDK para Android, la URL resultante tendría este aspecto:
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`

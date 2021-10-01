@@ -1,17 +1,14 @@
 ---
 description: Los widgets de Android se pueden rastrear utilizando los mismos métodos que se emplean en la aplicación. Los widgets comparten el contexto de la aplicación con la aplicación, por lo que se conservan el orden de visitas y la identificación del visitante.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Los widgets de Android se pueden rastrear utilizando los mismos métodos que se emplean en la aplicación. Los widgets comparten el contexto de la aplicación con la aplicación, por lo que se conservan el orden de visitas y la identificación del visitante.
-seo-title: Widgets de Android
 solution: Experience Cloud,Analytics
 title: Widgets de Android
 topic-fix: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
 exl-id: 229ea987-256a-45f4-a5ca-afe17dd596b8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---

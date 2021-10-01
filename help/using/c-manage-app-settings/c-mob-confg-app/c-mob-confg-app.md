@@ -1,17 +1,14 @@
 ---
 description: 'En la página Administrar configuración de aplicación, puede realizar los siguientes tipos de cambios '
-seo-description: 'En la página Administrar configuración de aplicación, puede realizar los siguientes tipos de cambios '
-seo-title: Configurar su aplicación
 title: Configurar su aplicación
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '351'
+ht-degree: 31%
 
 ---
-
 
 # Configurar su aplicación {#configuring-your-app}
 
@@ -19,7 +16,7 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
 
 * **Información de la aplicación**
 
-   Esta sección incluye información como el nombre de la aplicación, el tipo de aplicación, las métricas clave, el ciclo vital y los informes de ubicación.
+   Esta sección incluye información como el nombre de la aplicación, el tipo, las métricas clave, el ciclo de vida y los informes de ubicación.
 
    * **Informes de ciclo de vida**
 
@@ -31,7 +28,7 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
 
       * **Adquisición**
 
-         Rastree las direcciones URL de referencia para las campañas de descarga de aplicaciones. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
+         Rastree las direcciones URL de referencia para las campañas de descarga de la aplicación. Para obtener más información, consulte [Adquisición](/help/using/acquisition-main/acquisition-main.md).
 
       * **Ciclo de vida**
 
@@ -43,27 +40,27 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
          * [Métricas del ciclo vital de BlackBerry](/help/blackberry/metrics.md)
       * **Acciones de la aplicación**
 
-         Habilite informes y rutas basadas en acciones en la aplicación.
+         Habilite informes y rutas basadas en acciones internas de la aplicación.
 
       * **Valor de duración**
 
-         Comprenda cómo acumulan valor los usuarios con el tiempo mediante KPI de la aplicación, como compras, vistas de anuncios, vídeos completos, compartidos en redes sociales, cargas de fotografías y mucho más.
+         Comprenda cómo acumulan valor los usuarios a lo largo del tiempo mediante los KPI de la aplicación, como compras, vistas de anuncios, vídeos completos, compartido en medios sociales, cargas de fotografías, etc.
 
       * **Eventos temporizados**
 
-         Mida la cantidad de tiempo que transcurre (en la aplicación y el tiempo total) entre las acciones clave de la aplicación, como el tiempo transcurrido antes de la primera compra.
+         Mida la cantidad de tiempo que transcurre (en la aplicación y el tiempo total) entre las acciones clave de la aplicación (como el tiempo transcurrido hasta la primera compra).
 
 
 * **Informes de ubicación**
 
-   Esta opción le permite habilitar informes para rastrear la latitud y la longitud e identificar puntos de interés (POI) específicos. También puede rastrear señalizaciones Bluetooth (UUID, principal, secundaria y de proximidad).
+   Esta opción permite activar informes para realizar un seguimiento de la latitud y la longitud, así como identificar puntos de interés (POI) específicos. También puede realizar el seguimiento de señalizaciones Bluetooth (UUID, principal, secundaria y proximidad).
 
-* **SDK de la aplicación y herramientas de desarrollador de prueba**
+* **SDK de aplicación y herramientas para el desarrollador y el evaluador**
 
    >[!IMPORTANT]
    >
    >Antes de descargar los SDK y las herramientas, debe configurar las opciones de SDK Analytics. Para obtener más información, consulte [Configuración de las opciones de SDK Analytics](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
-   Cuando esté listo para actualizar a los SDK 4.x o si está trabajando en una aplicación nueva, descargue los SDK y las herramientas de desarrollo más recientes desde la parte inferior de la página Administrar configuración de aplicación.
+   Cuando esté listo para actualizar a los SDK 4.x, o si está trabajando en una aplicación nueva, descargue los SDK y las herramientas de desarrollo más recientes desde la parte inferior de la página Administrar configuración de aplicación.
 
-   Una vez que la configuración se haya completado, puede enviar el archivo de configuración a los desarrolladores para que los datos se puedan recopilar correctamente. Si no está listo para descargarlos ahora, haga clic en Administrar configuración de aplicación y luego en la aplicación para mostrar la página Información de la aplicación en cualquier momento.
+   Una vez completada la configuración, puede enviar el archivo de configuración a los desarrolladores para que los datos se puedan recopilar correctamente. Si no está listo para descargarlos ahora, haga clic en Administrar configuración de aplicación y luego en la aplicación para mostrar la página Información de la aplicación en cualquier momento.

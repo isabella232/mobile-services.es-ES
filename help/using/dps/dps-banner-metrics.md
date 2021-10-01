@@ -1,17 +1,14 @@
 ---
 description: El informe Métricas de banner proporciona una visualización de destello solar de los datos existentes. Este informe está disponible solo para los clientes de Digital Publishing Suite (DPS).
 keywords: móvil
-seo-description: El informe Métricas de banner proporciona una visualización de destello solar de los datos existentes. Este informe está disponible solo para los clientes de Digital Publishing Suite (DPS).
-seo-title: Métricas de banner
 solution: Experience Cloud,Analytics
 title: Métricas de banner
 topic-fix: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
 exl-id: 0383e23f-579e-4177-922d-71f193a3c606
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---

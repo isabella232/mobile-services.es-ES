@@ -1,17 +1,14 @@
 ---
 description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
-seo-description: 'Antes de configurar un grupo de informes y recopilar datos de aplicaciones Android, complete las siguientes tareas previas necesarias '
-seo-title: Antes de comenzar
 solution: Experience Cloud,Analytics
 title: Antes de comenzar
 topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '731'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +49,7 @@ Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una 
 
 ### Experience Cloud
 
-Inicie sesión en [Experience Cloud](https://experiencecloud.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Inicie sesión en [Experience Cloud](https://experiencecloud.adobe.com) con su Adobe ID. Este método asume que su empresa está aprovisionada en Experience Cloud y que usted ha vinculado su cuenta de Analytics. Para obtener más información, consulte [Administrar usuarios y productos del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) en la guía Componentes de la interfaz central del Experience Cloud.
 
 >[!TIP]
 >
@@ -66,7 +63,7 @@ Haga clic en **[!UICONTROL Iniciar sesión en Analytics]** e introduzca su nomb
 
 Para crear un grupo de informes a fin de recopilar datos de aplicaciones y definir una aplicación:
 
-1. Para iniciar sesión en la interfaz de usuario de Mobile Services, ingrese [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) en un navegador.
+1. Inicie sesión en [Adobe Mobile Services](https://mobilemarketing.adobe.com).
 1. Haga clic en **[!UICONTROL Crear una aplicación]**.
 
    Si no ve este botón, haga clic en **[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL Agregar]**.
@@ -93,7 +90,7 @@ También puede seleccionarla en el panel derecho.
 
    >[!IMPORTANT]
    >
-   >Para ver su aplicación en el panel derecho, primero debe crearla. Para obtener información sobre cómo crear una aplicación, consulte [Agregar una aplicación nueva.](https://docs.adobe.com/content/help/es-ES/mobile-services/using/manage-apps-ug/t-new-app.html)
+   >Para ver su aplicación en el panel derecho, primero debe crearla. Para obtener información sobre cómo crear una aplicación, consulte [Agregar una aplicación nueva](/help/using/manage-apps/t-new-app.md).
 
 1. En la aplicación, en el panel izquierdo, haga clic en **[!UICONTROL Administrar configuración de la aplicación]**.
 

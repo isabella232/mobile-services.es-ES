@@ -1,16 +1,13 @@
 ---
 description: Si su aplicación abre contenido de una web móvil, asegúrese de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
-seo-description: Si su aplicación abre contenido de una web móvil, asegúrese de que los visitantes no se identifiquen separadamente al moverlos entre la web nativa y la web móvil.
-seo-title: Seguimiento de visitantes entre una aplicación y la web móvil
 solution: Experience Cloud,Analytics
 title: Seguimiento de visitantes entre una aplicación y la web móvil
 topic-fix: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 exl-id: 7ca98572-138d-48f8-aa2a-d376eebb0b2c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---

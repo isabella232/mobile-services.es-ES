@@ -1,23 +1,20 @@
 ---
-description: Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
+description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
-seo-description: Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
-seo-title: Métodos de iOS
 solution: Experience Cloud
 title: Métodos de iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1737'
 ht-degree: 70%
 
 ---
 
-
 # Métodos de iOS{#ios-methods}
 
-Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud 4.x.
+Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 
 ## Métodos de configuración {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -55,7 +52,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **SetDebugLogging**
 
-   Establece la preferencia de registro de depuración en enabled.
+   Establece la preferencia de registro de depuración como habilitada.
 
    * Esta es la sintaxis para este método:
 
@@ -90,9 +87,9 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
    * `ADBMobilePrivacyStatus.OptIn`: las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
-   * ADBMobilePrivacyStatus.Unknown: si el seguimiento sin conexión está activado, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento sin conexión está deshabilitado, las visitas se descartan hasta que el estado de privacidad cambie para adhesión.
+   * ADBMobilePrivacyStatus.Unknown : si el seguimiento en línea está activado, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea está desactivado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-   The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   El valor predeterminado se establece en [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
 
@@ -109,7 +106,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **SetPrivacyStatus**
 
-   Establece el estado de privacidad del usuario actual en estado. Establezca uno de los siguientes valores:
+   Establece el estado de privacidad del usuario actual en estado . Establezca uno de los siguientes valores:
    * `ADBMobilePrivacyStatus.OptIn`: las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
    * `ADBMobilePrivacyStatus.Unknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
@@ -128,7 +125,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **UserIdentifier**
 
-   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -144,7 +141,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **SetUserIdentifier**
 
-   Devuelve el identificador de usuario personalizado si se ha establecido un identificador personalizado. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
+   Devuelve el identificador de usuario personalizado si se ha establecido. Devuelve null si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -155,7 +152,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
    * Este es un ejemplo de código para este método:
 
       ```objective-c
-      ADBMobile.SetUserIdentifier ("customUserIdentifier”); 
+      ADBMobile.SetUserIdentifier ("customUserIdentifier"); 
       ```
 
 * **GetVersion**
@@ -180,7 +177,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
    >[!TIP]
    >
-   >Este método está diseñado para utilizarse en aplicaciones que se registran para recibir notificaciones en segundo plano y solo debe invocarse desde el código que se ejecuta mientras la aplicación está en segundo plano.
+   >El propósito de este método es que se utilice en aplicaciones que realizan un registro de notificaciones mientras se encuentran en segundo plano, y solo debería invocarse desde el código que se está ejecutando cuando la aplicación esté en segundo plano.
 
    * Esta es la sintaxis para este método:
 
@@ -214,7 +211,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas incrementan las vistas de página.Si el estado está vacío, se muestra como &quot;nombre de aplicación versión de la aplicación (compilación)&quot; en los informes. `TrackState` If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las vistas de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
 
    >[!TIP]
    >
@@ -236,7 +233,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TrackAction**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;muertes&quot;, &quot;aumento de nivel&quot;, &quot;suscripciones a fuentes&quot; y otras métricas.
 
    >[!TIP]
    >
@@ -326,11 +323,11 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TrackLifetimeValueIncrease**
 
-   Añade la cantidad al valor de duración del usuario.
+   Agrega una cantidad al valor de duración del usuario.
 
    * Esta es la sintaxis para este método:
 
-      public nbsp;static void TrackLifetimeValueIncrease(cantidad de doble, datos NSDictionary);
+      public nbsp;static void TrackLifetimeValueIncrease(doble amount, NSDictionary data);
 
    * Este es un ejemplo de código para este método:
 
@@ -360,7 +357,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TrackTimedActionUpdate**
 
-   Pasa datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
+   Pasa datos para actualizar los datos de contexto asociados a la acción determinada. Los datos que se pasan se anexan a los ya existentes para la acción determinada y se sobrescriben si ya se ha definido la misma clave para la acción.
 
    >[!TIP]
    >
@@ -464,7 +461,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
       var queueSize = ADBMobile.TrackingGetQueueSize(); 
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Métodos de ID de Experience Cloud {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **GetMarketingCloudID**
 
@@ -484,7 +481,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **VisitorSyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de Visitante acepta varios ID de cliente para el mismo visitante, junto con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
+   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, además de un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a setCustomerIDs en la biblioteca JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -503,7 +500,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TargetLoadRequest**
 
-   Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno `Action<NSDictionary>`.
 
    * Esta es la sintaxis para este método:
 
@@ -523,7 +520,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **TargetCreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros dados.
 
    * Esta es la sintaxis para este método:
 
@@ -574,7 +571,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **AudienceVisitorProfile**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve nil si todavía no se ha enviado ninguna señal. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve &quot;nil&quot; si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -622,7 +619,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **AudienceSetDpidAndDpuuid**
 
-   Establece el dpid y el dpuuid. Si dpid y dpuuid están establecidos, se enviarán con cada señal.
+   Establece el dpid y el dpuuid. Si se establecen dpid y dpuuid, se envían con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -638,7 +635,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 * **AudienceSignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>`  callback.
+   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno `Action<NSDictionary>`.
 
    * Esta es la sintaxis para este método:
 
@@ -673,7 +670,7 @@ Métodos iOS para el SDK de componentes Xamarin para soluciones Experience Cloud
 
 ## Vídeo {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Para obtener más información, consulte Análisis [de vídeo](/help/ios/getting-started/dev-qs.md).
+Para obtener más información, consulte [Video Analytics](/help/ios/getting-started/dev-qs.md).
 
 * **MediaCreateSettings**
 

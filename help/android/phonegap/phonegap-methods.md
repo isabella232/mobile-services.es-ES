@@ -1,22 +1,19 @@
 ---
 description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Puede utilizar métodos del complemento PhoneGap de iOS para completar diversas tareas.
-seo-title: Métodos del complemento PhoneGap
 solution: Experience Cloud,Analytics
 title: Métodos del complemento PhoneGap
 topic-fix: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
 exl-id: 4e6cf200-c826-4b23-87cf-4b8e1e691981
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1557'
 ht-degree: 100%
 
 ---
 
-# Métodos del complemento PhoneGap {#phonegap-plug-in-methods}
+# Métodos del complemento PhoneGap{#phonegap-plug-in-methods}
 
 Puede utilizar métodos del complemento PhoneGap de Android para completar diversas tareas.
 
@@ -564,7 +561,7 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
        ADB.targetThirdPartyID(function (value) { alert(value); },function (value) { alert('fail')__;});
       ```
 
-## Métodos de adquisición {#section_EDEA25C4B2884487827069E9257A0BA6}
+## Métodos de adquisición  {#section_EDEA25C4B2884487827069E9257A0BA6}
 
 * **acquisitionCampaignStartForApp**
 
@@ -579,11 +576,11 @@ Cuando quiera utilizar el seguimiento en archivos `html`, agregue lo siguiente a
    * Estos son ejemplos de código para este método:
 
       ```java
-      ADB.acquisitionCampaignStartForApp(“appId”, {‘key’:‘value’}, function() {…}, function() {…}));
+      ADB.acquisitionCampaignStartForApp("appId", {‘key’:‘value’}, function() {…}, function() {…}));
       ```
 
       ```java
-      ADB.acquisitionCampaignStartForApp(“appId”, {‘key’:‘value’});  
+      ADB.acquisitionCampaignStartForApp("appId", {‘key’:‘value’});  
       ```
 
 ## Identificador de publicidad {#section_194607D101B047A19C51B19E176E1500}

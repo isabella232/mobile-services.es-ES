@@ -1,21 +1,18 @@
 ---
-description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
-seo-description: Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
-seo-title: Clases, enumeraciones e interfaces
+description: Lista de clases y enumeraciones para su uso en aplicaciones Xamarin.
 title: Clases, enumeraciones e interfaces
 uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
-translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+exl-id: 72bc40f6-005c-4fb4-b41d-761d48fe78da
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 25%
+source-wordcount: '42'
+ht-degree: 23%
 
 ---
 
-
 # Clases, enumeraciones e interfaces{#classes-enums-and-interfaces}
 
-Lista de clases y listas desglosadas para su uso en aplicaciones Xamarin.
+Lista de clases y enumeraciones para su uso en aplicaciones Xamarin.
 
 ## Clases {#section_30E9E14CF38843B5B9792BBEC07667DC}
 

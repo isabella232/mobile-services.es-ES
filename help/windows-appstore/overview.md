@@ -1,21 +1,18 @@
 ---
 description: El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
-seo-description: El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
-seo-title: SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud
 solution: Experience Cloud,Analytics
 title: SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud
 topic-fix: Developer and implementation
 uuid: a06d8cf2-5d2d-49a8-86ac-102e2934ea59
 exl-id: 5c511dea-99d8-40e9-a98f-8bc3cad937b8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
 
-# SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud {#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
+# SDK 4.x Universal App Store para Windows 8.1 para las soluciones Experience Cloud{#windows-universal-app-store-sdk-x-for-experience-cloud-solutions}
 
 El SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud le permite medir aplicaciones nativas de Windows 8.1 y Windows Phone 8.1, entregar contenido de destino en la aplicación y aprovechar y recopilar datos de audiencia mediante Audience Manager.
 

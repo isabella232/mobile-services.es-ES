@@ -1,17 +1,14 @@
 ---
 description: Lista de métodos de Target que proporciona la biblioteca Universal App Store para Windows 8.1.
-seo-description: Lista de métodos de Target que proporciona la biblioteca Universal App Store para Windows 8.1.
-seo-title: Métodos de Target
 solution: Experience Cloud,Analytics
 title: Métodos de Target
 topic-fix: Developer and implementation
 uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 exl-id: 2db9f594-01e7-4ca8-a90e-9d12278350d0
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 42%
+source-wordcount: '267'
+ht-degree: 43%
 
 ---
 

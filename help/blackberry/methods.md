@@ -1,33 +1,30 @@
 ---
-description: Clases y métodos proporcionados por la biblioteca BlackBerry.
-seo-description: Clases y métodos proporcionados por la biblioteca BlackBerry.
-seo-title: Referencia de métodos y clases de Adobe Mobile
+description: Clases y métodos proporcionados por la biblioteca de BlackBerry.
 title: Referencia de métodos y clases de Adobe Mobile
 uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: ad73ec1d-d082-4237-b7cb-b8ec2f7595a3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 59%
+source-wordcount: '974'
+ht-degree: 60%
 
 ---
 
-
 # Referencia de métodos y clases de Adobe Mobile {#adobe-mobile-class-and-method-reference}
 
-Clases y métodos proporcionados por la biblioteca BlackBerry.
+Clases y métodos proporcionados por la biblioteca de BlackBerry.
 
-Actualmente, el SDK admite Adobe Analytics y los métodos están en clases independientes basadas en la solución.
+Actualmente, el SDK es compatible con Adobe Analytics y los métodos se encuentran en clases independientes basadas en la solución .
 
-## Ajustes del SDK {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## Configuración del SDK {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **getPrivacyStatus**
 
    Devuelve la representación de enumeración del estado de privacidad del usuario actual.
 
-   * ADBMobilePrivacyStatusOptIn: las visitas se envían inmediatamente.
-   * ADBMobilePrivacyStatusOptOut: las visitas se descartan.
-   * ADBMobilePrivacyStatusUnknown: si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
+   * ADBMobilePrivacyStatusOptIn : las visitas se envían inmediatamente.
+   * ADBMobilePrivacyStatusOptOut : las visitas se descartan.
+   * ADBMobilePrivacyStatusUnknown : si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
       El valor predeterminado se establece en el archivo `ADBMobileConfig.json`.
 
@@ -49,7 +46,7 @@ Actualmente, el SDK admite Adobe Analytics y los métodos están en clases indep
 
    * `ADBMobilePrivacyStatusOptIn`: las visitas se envían inmediatamente.
    * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
-   * `ADBMobilePrivacyStatusUnknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
+   * `ADBMobilePrivacyStatusUnknown` : Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (entonces se envían las visitas) u excluido (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
    * Esta es la sintaxis para este método:
 
@@ -65,7 +62,7 @@ Actualmente, el SDK admite Adobe Analytics y los métodos están en clases indep
 
 * **getUserIdentifier**
 
-   Devuelve el identificador del usuario si se ha establecido uno personalizado. Returns `null` if a custom identifier is not set. El valor predeterminado es `null`.
+   Devuelve el identificador del usuario si se ha establecido uno personalizado. Devuelve `null` si no se ha establecido un identificador personalizado. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -152,7 +149,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **trackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas disponibles en la aplicación, como &quot;panel principal&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `trackState` incrementan las visualizaciones de página.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como &quot;tablero de inicio&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `trackState` incrementan las visualizaciones de página.
 
    >[!TIP]
    >
@@ -172,7 +169,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **trackAction**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;inicios de sesión&quot;, &quot;toques en banners&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;inicios de sesión&quot;, &quot;pulsaciones en banners&quot;, &quot;suscripciones a fuentes&quot; y otras métricas.
 
    * Esta es la sintaxis para este método:
 
@@ -188,7 +185,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **trackLocation**
 
-   Envía las coordenadas x e y actuales. Reemplazar evento por el evento recibido del suscriptor de BPS.
+   Envía las coordenadas x e y actuales. Sustituya el evento por el evento que recibe del suscriptor a BPS.
 
    * Esta es la sintaxis para este método:
 
@@ -204,13 +201,13 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 ## `ADBMobileConfig.json` Referencia del archivo de configuración {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
-The `ADBMobileConfig.json` file must be placed in the *assets* folder.
+El archivo `ADBMobileConfig.json` debe colocarse en la carpeta *assets*.
 
 * **rsids**
 
-   (Requerido) Uno o más grupos de informes para recibir datos de Analytics. Las ID de varios grupos de informes deben separarse con comas sin espacios entre ellos.
+   (Obligatorio) Uno o más grupos de informes para recibir datos de Analytics. Las ID de varios grupos de informes deben separarse con comas sin espacios entre ellos.
 
-   Este es el ejemplo de código para esta variable:
+   Este es un ejemplo de código para esta variable:
 
    ```js
    "rsids" : "rsid"
@@ -222,7 +219,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **server**
 
-   (Requerido). Servidor de Analytics. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. El prefijo de protocolo lo gestiona automáticamente la biblioteca en función de la `ssl` variable. Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
+   (Requerido). Servidor de Analytics. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. El prefijo de protocolo lo gestiona automáticamente la biblioteca en función de la variable `ssl` . Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
 
 * **charset**
 
@@ -234,13 +231,13 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **offlineEnabled**
 
-   When enabled (`true`), hits are queued while the device is offline and sent later when the device is online. El grupo de informes debe tener habilitada la marca de fecha y hora para poder utilizar el seguimiento sin conexión.
+   Cuando está habilitado (`true`), las visitas se ponen en cola mientras el dispositivo está sin conexión y se envían más tarde, cuando el dispositivo está en línea. El grupo de informes debe tener habilitada la marca de fecha y hora para poder utilizar el seguimiento sin conexión.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   [Asistencia](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)empresarial.
+   >Si las marcas de tiempo están habilitadas en el grupo de informes, la propiedad de configuración `offlineEnabled` *debe* ser `true`. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   [Soporte Enterprise](https://helpx.adobe.com/es/contact/enterprise-support.ec.html).
 
-   If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data, or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite configurar un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp` .
 
    El valor predeterminado es `false`.
 
@@ -258,14 +255,14 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    * `optedin`: las visitas se envían inmediatamente.
    * `optedout`: las visitas se descartarán.
-   * `optunknown` - Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a Opt-in (entonces se envían las visitas) u Opt-out (entonces se descartan las visitas).
+   * `optunknown` : Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (entonces se envían las visitas) u excluido (entonces se descartan las visitas).
 
       Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
-   Esta variable sólo establece el valor inicial. Si este valor se establece o se cambia en el código, se utilizará el nuevo valor en adelante hasta que se modifique o la aplicación se desinstale y vuelva a instalarse.
+   Esta variable establece únicamente el valor inicial. Si este valor se establece o se cambia en el código en algún momento, se utilizará el nuevo valor en adelante hasta que se cambie, o hasta que la aplicación se desinstale y se vuelva a instalar.
 
    El valor predeterminado es `optedin`.
 
-The following is an example of an `ADBMobileConfig.json` file:
+El siguiente es un ejemplo de archivo `ADBMobileConfig.json`:
 
 ```js
 { 

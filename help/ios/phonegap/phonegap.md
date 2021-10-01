@@ -1,17 +1,14 @@
 ---
 description: Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto PhoneGap.
 keywords: phonegap
-seo-description: Este complemento le permite enviar llamadas iOS AppMeasurement desde el proyecto PhoneGap.
-seo-title: Complemento PhoneGap
 solution: Experience Cloud,Analytics
 title: Complemento PhoneGap
 topic-fix: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 exl-id: c20b2f85-b8d4-47c7-8177-106c7ddfe083
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---

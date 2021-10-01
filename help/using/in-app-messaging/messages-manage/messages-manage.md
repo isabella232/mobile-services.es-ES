@@ -1,22 +1,19 @@
 ---
 description: Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y el estado activo o desactivado de cada mensaje.
 keywords: móvil
-seo-description: Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y el estado activo o desactivado de cada mensaje.
-seo-title: Administrar mensajes
 solution: Experience Cloud,Analytics
 title: Administrar mensajes
 topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
 exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
 
-# Administrar mensajes {#manage-messages}
+# Administrar mensajes{#manage-messages}
 
 Vea una lista de los mensajes push y en la aplicación con detalles sobre la última actualización y si los mensajes se han activado o desactivado.
 

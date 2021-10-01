@@ -1,17 +1,14 @@
 ---
 description: Utilice el SDK para iOS para implementar el seguimiento de vínculos profundos diferidos de terceros.
-seo-description: Utilice el SDK para iOS para implementar el seguimiento de vínculos profundos diferidos de terceros.
-seo-title: Seguimiento de vínculos profundos diferidos de terceros
 title: Seguimiento de vínculos profundos diferidos de terceros
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-translation-type: tm+mt
-source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+exl-id: c6d2ec6e-cd2a-4670-96e9-cb5e09f7cc10
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 90%
+source-wordcount: '396'
+ht-degree: 91%
 
 ---
-
 
 # Seguimiento de vínculos profundos diferidos de terceros {#tracking-third-party-deferred-deep-links}
 
@@ -23,7 +20,7 @@ En la actualidad, Adobe Mobile SDK admite la vinculación profunda: se espera qu
 
 ## Vinculación profunda con Facebook {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
-Un creador de anuncios puede crear un anuncio en Facebook como vínculo profundo. Cuando los usuarios hacen clic en el anuncio en Facebook, esta se dirige a la información que les interesa en la aplicación. El vínculo profundo **no** es una URL de plataforma de huellas digitales. No obstante, durante la configuración del anuncio existe la opción de proporcionar un vínculo profundo (URL) de terceros. Se espera que un desarrollador de aplicaciones que utilice los SDK y servicios de Experience Cloud Mobile introduzca en este campo la URL de la plataforma de huellas digitales configurada para Mobile Services. Si todo está configurado correctamente, el SDK de Facebook pasa esta URL a la aplicación cuando esta se instala o inicia.
+Un creador de anuncios puede crear un anuncio en Facebook como vínculo profundo. Cuando los usuarios hacen clic en el anuncio en Facebook, esta se dirige a la información que les interesa en la aplicación. El vínculo profundo **no** es una URL de plataforma de huellas digitales. No obstante, durante la configuración del anuncio existe la opción de proporcionar un vínculo profundo (URL) de terceros. Un desarrollador de aplicaciones que utilice los SDK y servicios de Mobile de Experience Cloud debe introducir en este campo la URL de la plataforma de huellas digitales configurada para Mobile Services. Si todo está configurado correctamente, el SDK de Facebook pasa esta URL a la aplicación cuando esta se instala o inicia.
 
 ## Configuración de los SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
@@ -141,4 +138,3 @@ Si la aplicación se configura como se ha indicado arriba, la versión actual de
           return YES; 
       }
       ```
-

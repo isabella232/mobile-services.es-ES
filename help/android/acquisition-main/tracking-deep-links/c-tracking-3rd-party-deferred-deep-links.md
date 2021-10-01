@@ -1,17 +1,14 @@
 ---
 description: Utilice el SDK para Android para implementar el seguimiento de vínculos profundos diferidos de terceros.
-seo-description: Utilice el SDK para Android para implementar el seguimiento de vínculos profundos diferidos de terceros.
-seo-title: Seguimiento de vínculos profundos diferidos de terceros
 title: Seguimiento de vínculos profundos diferidos de terceros
 uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
-translation-type: tm+mt
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+exl-id: d8cbc679-a512-44db-8c30-6a029ff738ae
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '495'
 ht-degree: 84%
 
 ---
-
 
 # Seguimiento de vínculos profundos diferidos de terceros{#tracking-third-party-deferred-deep-links}
 
@@ -37,13 +34,13 @@ Con el fin de prepararse para añadir compatibilidad con la vinculación profund
 
    Para obtener más información, consulte [Configuración de vínculos profundos](https://developers.facebook.com/docs/app-ads/deep-linking#os).
 
-Si la aplicación está correctamente configurada, la API `trackAdobeDeepLink()` debería permitir la recopilación de la información de vínculo profundo de la campaña de adquisición de Facebook y enviarla a Adobe Mobile Services. Si la visita de instalación no se ha enviado a Adobe Mobile Service en el primer inicio, esta información se agregará a la visita del ciclo vital. De lo contrario, se enviará como una visita de vínculo profundo de Adobe.
+Si la aplicación está correctamente configurada, la API `trackAdobeDeepLink()` debería permitir la recopilación de la información de vínculo profundo de la campaña de adquisición de Facebook y enviarla a Adobe Mobile Services. Si la visita de instalación no se ha enviado a Adobe Mobile Service en el primer inicio, esta información se agregará a la visita del ciclo vital. De lo contrario, se envía como visita de vínculo profundo de Adobe.
 
 >[!TIP]
 >
 >Compruebe que la URL de vínculo profundo tiene una clave denominada `a.deeplink.id`. Si en la URL falta el parámetro de identificación de vínculo profundo, los parámetros de URL no se adjuntarán a los datos de contexto.
 
-Si el vínculo puede atribuirse a una adquisición, el SDK de Adobe Mobile almacenará los datos de adquisición del vínculo profundo de Facebook utilizado para llamar a `trackAdobeDeepLink()`. Estos datos estarán disponibles para el SDK de Adobe Mobile en lanzamientos futuros. Si se ha registrado una llamada de retorno, la llamada de retorno de Adobe también se utilizará para enviar los datos al cliente.
+Si el vínculo puede atribuirse a una adquisición, el SDK de Adobe Mobile almacenará los datos de adquisición del vínculo profundo de Facebook utilizado para llamar a `trackAdobeDeepLink()`. Estos datos estarán disponibles para el SDK de Adobe Mobile en futuros lanzamientos. Si se ha registrado una rellamada, la rellamada de Adobe también se utilizará para enviar los datos al cliente.
 
 ## Habilitar la vinculación profunda en una aplicación Android {#section_64C15E269E89424B8E3D029F88094620}
 
@@ -84,4 +81,3 @@ Si el vínculo puede atribuirse a una adquisición, el SDK de Adobe Mobile almac
       ); 
    }
    ```
-

@@ -1,17 +1,14 @@
 ---
 description: El seguimiento de adquisición debe estar activado en la configuración de SDK para que pueda realizar el seguimiento y elaborar informes sobre los vínculos de marketing.
 keywords: móvil
-seo-description: El seguimiento de adquisición debe estar activado en la configuración de SDK para que pueda realizar el seguimiento y elaborar informes sobre los vínculos de marketing.
-seo-title: Configurar la adquisición
 solution: Experience Cloud,Analytics
 title: Configurar la adquisición
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---

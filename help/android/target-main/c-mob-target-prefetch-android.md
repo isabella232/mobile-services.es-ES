@@ -1,17 +1,14 @@
 ---
 description: La función de recuperación previa de Adobe Target usa los SDK de Mobile para Android y permite almacenar en caché las respuestas del servidor para recuperar contenido de ofertas el menor número posible de veces.
-seo-description: La función de recuperación previa de Adobe Target usa los SDK de Mobile para Android y permite almacenar en caché las respuestas del servidor para recuperar contenido de ofertas el menor número posible de veces.
-seo-title: Recuperación previa del contenido de ofertas en Android
 title: Recuperación previa del contenido de ofertas en Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 60fd9703-972b-4c2c-bf9c-86e1f59bfba5
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '762'
 ht-degree: 92%
 
 ---
-
 
 # Recuperación previa del contenido de ofertas en Android {#prefetch-offer-content-in-android}
 
@@ -21,7 +18,7 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para A
 >
 >La funcionalidad de recuperación previa en los SDK móviles para Android no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
-Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y este contenido se recuperará de la caché para todas las llamadas futuras que contengan contenido en caché para el nombre de mbox especificado.
+Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target sobre qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la caché para todas las llamadas futuras que contengan contenido almacenado en caché para el nombre de mbox especificado.
 
 El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
 
@@ -278,7 +275,7 @@ locationRequests.add(Target.createTargetRequestObject("mboxName2", "defaultConte
 Target.loadRequests(locationRequests, profileParameters); 
 ```
 
-## Información adicional {#section_A454BAD1CD49423E86C71BAEE06125FD}
+## Más información {#section_A454BAD1CD49423E86C71BAEE06125FD}
 
 A continuación encontrará información adicional sobre estos ejemplos:
 

@@ -1,21 +1,18 @@
 ---
 description: Puede enviar mensajes en la aplicación que se activen a partir de cualquier evento o dato de análisis. Después de la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
-seo-description: Puede enviar mensajes en la aplicación que se activen a partir de cualquier evento o dato de análisis. Después de la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
-seo-title: Mensajería en la aplicación
 solution: Experience Cloud,Analytics
 title: Mensajería en la aplicación
 topic-fix: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 exl-id: ca9414d1-86e6-4bb2-a2d6-57df37df2403
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
-# Mensajería en la aplicación {#in-app-messaging}
+# Mensajería en la aplicación  {#in-app-messaging}
 
 Puede enviar mensajes en la aplicación que se activen a partir de cualquier evento o dato de análisis. Después de la implementación, los mensajes se envían de forma dinámica a la aplicación y no requieren una actualización de código.
 
@@ -95,25 +92,25 @@ Puede crear mensajes y reglas de Adobe Mobile Services que definen cuándo se vi
    Para que los mensajes en la aplicación se actualicen de forma dinámica en el inicio, el objeto `remotes` debe estar presente y adecuadamente configurado:
 
    ```js
-   “messages”: [ 
+   "messages": [ 
        { 
-           “messageId”: “de45c43c-37bf-441f-8cbd-cc3ba3469ebe”, 
-           “template”: “fullscreen”, 
-           “showOffline”: false, 
-           “showRule”: “always”, 
-           “endDate”: 2524730400, 
-           “startDate”: 0, 
-           “audiences”: [], 
-           “triggers”: [], 
-           “payload”: { // contents change depending on template 
-               “html”: “<html>html code goes here</html>” 
+           "messageId": "de45c43c-37bf-441f-8cbd-cc3ba3469ebe", 
+           "template": "fullscreen", 
+           "showOffline": false, 
+           "showRule": "always", 
+           "endDate": 2524730400, 
+           "startDate": 0, 
+           "audiences": [], 
+           "triggers": [], 
+           "payload": { // contents change depending on template 
+               "html": "<html>html code goes here</html>" 
            }, 
        }, 
        … 
    ] 
-   “remotes” : { 
-       “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”, 
-       “messages”: “https://assets.adobedtm.com/…/yourfile.json” 
+   "remotes" : { 
+       "analytics.poi": "https://assets.adobedtm.com/…/yourfile.json", 
+       "messages": "https://assets.adobedtm.com/…/yourfile.json" 
    }
    ```
 

@@ -1,22 +1,19 @@
 ---
 description: Enumera las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Enumera las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
-seo-title: Métricas del ciclo vital
 solution: Experience Cloud,Analytics
 title: Métricas del ciclo vital
 topic-fix: Developer and implementation
 uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 exl-id: a1e4eeca-8b8f-47ca-a489-acc338238c42
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 63%
+source-wordcount: '876'
+ht-degree: 64%
 
 ---
 
-# Métricas del ciclo vital {#lifecycle-metrics}
+# Métricas del ciclo vital{#lifecycle-metrics}
 
 Enumera las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
 

@@ -1,23 +1,20 @@
 ---
-description: Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
+description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
-seo-description: Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
-seo-title: Métodos de Android
 solution: Experience Cloud
 title: Métodos de Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 67%
+source-wordcount: '1755'
+ht-degree: 68%
 
 ---
 
-
 # Métodos de Android{#android-methods}
 
-Métodos de Android para el SDK de componentes Xamarin para soluciones de Experience Cloud 4.x.
+Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 
 ## Métodos de configuración {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -61,7 +58,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
    * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
    * `ADBMobilePrivacyStatus.Unknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
-   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
+   El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
 
@@ -79,7 +76,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **UserIdentifier**
 
-   Si se ha establecido un identificador personalizado, devuelve este identificador. Si no se establece un identificador personalizado, devuelve null. El valor predeterminado es `null`.
+   Si se ha establecido un identificador personalizado, devuelve este identificador. Si no se ha establecido un identificador personalizado, devuelve nulo. El valor predeterminado es `null`.
 
    * Esta es la sintaxis para este método:
 
@@ -112,7 +109,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **PauseCollectingLifecycleData**
 
-   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, al pausar recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   Indica al SDK que la aplicación está en pausa, para que las métricas del ciclo vital se calculen correctamente. Por ejemplo, en pausa recopila una marca de tiempo para determinar la duración de la sesión anterior. Esto también establece un indicador para que el ciclo vital sepa que la aplicación no se bloqueó. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -126,9 +123,9 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
       Config.PauseCollectingLifecycleData();
       ```
 
-* **CollectLifecycleData (actividad de Actividad)**
+* **CollectLifecycleData (actividad)**
 
-   (4.2 o posterior) Indica al SDK que los datos del ciclo vital deben recopilarse para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   (4.2 o posterior) Indica al SDK que se deben recopilar los datos del ciclo vital para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -142,9 +139,9 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
       Config.CollectLifecycleData (this);
       ```
 
-* **CollectLifecycleData (actividad de Actividad)**
+* **CollectLifecycleData (actividad)**
 
-   (4.2 o posterior) Indica al SDK que los datos del ciclo vital deben recopilarse para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
+   (4.2 o posterior) Indica al SDK que se deben recopilar los datos del ciclo vital para su uso en todas las soluciones del SDK. Para obtener más información, consulte [Métricas del ciclo vital](/help/android/metrics.md).
 
    * Esta es la sintaxis para este método:
 
@@ -163,7 +160,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **OverrideConfigStream**
 
-   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   (4.2 o posterior) Le permite cargar un archivo de configuración `ADBMobile JSON` diferente al iniciar la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -230,7 +227,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States` son las vistas disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, se muestra como &quot;nombre de aplicación versión de la aplicación (compilación)&quot; en los informes. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States` son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
 
    >[!TIP]
    >
@@ -253,7 +250,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **TrackAction**
 
-   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que desea medir, como &quot;muertes&quot;, &quot;nivel ganado&quot;, &quot;suscripciones de fuentes&quot; y otras métricas.
+   Realiza el seguimiento de una acción en la aplicación. Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;muertes&quot;, &quot;aumento de nivel&quot;, &quot;suscripciones a fuentes&quot; y otras métricas.
 
    >[!TIP]
    >
@@ -277,7 +274,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **TrackLocation**
 
-   Envía las coordenadas de latitud y longitud actuales. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine whether the location that was provided as a parameter is in any of your POIs. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada a `TrackLocation`.
+   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada a `TrackLocation`.
 
    * Esta es la sintaxis para este método:
 
@@ -366,7 +363,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **TrackTimedActionUpdate**
 
-   Se transfieren datos para actualizar los datos de contexto asociados con la acción determinada. Los datos pasados se anexan a los datos existentes para la acción dada y se sobrescriben si la misma clave ya está definida para action.
+   Se transfieren datos para actualizar los datos de contexto asociados con la acción determinada. Los datos que se pasan se anexan a los ya existentes para la acción determinada y se sobrescriben si ya se ha definido la misma clave para la acción.
 
    >[!TIP]
    >
@@ -428,7 +425,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **SendQueuedHits**
 
-   Obliga a la biblioteca a enviar todas las visitas en la cola sin conexión, independientemente de cuántas visitas haya en la cola.
+   Fuerza a la biblioteca a enviar todas las visitas en la cola sin conexión, independientemente de cuántas haya.
 
    * Esta es la sintaxis para este método:
 
@@ -474,7 +471,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
       var queueSize = Analytics.QueueSize();
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Métodos de ID de Experience Cloud {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **MarketingCloudId**
 
@@ -494,7 +491,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **SyncIdentifiers**
 
-   Con el ID de Experience Cloud, puede establecer ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
+   Con el ID de Experience Cloud, puede configurar ID de cliente adicionales para asociarlos a cada visitante. La API de visitante acepta varios ID de cliente para el mismo visitante, con un identificador de tipo de cliente para separar el ámbito de los distintos ID de cliente. Este método corresponde a `setCustomerIDs` en la biblioteca de JavaScript.
 
    * Esta es la sintaxis para este método:
 
@@ -514,7 +511,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **LoadRequest**
 
-   Sends a request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno `Action<NSDictionary>`.
 
    * Esta es la sintaxis para este método:
 
@@ -537,7 +534,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **CreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros dados.
 
    * Esta es la sintaxis para este método:
 
@@ -571,7 +568,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **ClearCookies**
 
-   Borra las cookies de Destinatario de la aplicación.
+   Borra las cookies de Target de su aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -589,7 +586,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **VisitorProfile**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve nil si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve &quot;nil&quot; si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -605,7 +602,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **Dpid**
 
-   Returns the current `DPID`.
+   Devuelve el `DPID` actual.
 
    * Esta es la sintaxis para este método:
 
@@ -621,7 +618,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **Dpuuid**
 
-   Returns the current `DPUUID`.
+   Devuelve el `DPUUID` actual.
 
    * Esta es la sintaxis para este método:
 
@@ -637,7 +634,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **AudienceSetDpidAndDpuuid**
 
-   Establece el `dpid` y `dpuuid`. Si `dpid` y `dpuuid` están configurados, se envían con cada señal.
+   Establece los valores `dpid` y `dpuuid`. Si `dpid` y `dpuuid` están configurados, se envían con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -653,7 +650,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **SignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>` callback.
+   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno `Action<NSDictionary>`.
 
    * Esta es la sintaxis para este método:
 
@@ -679,7 +676,7 @@ Métodos de Android para el SDK de componentes Xamarin para soluciones de Experi
 
 * **Restablecer**
 
-   Resets audience manager `UUID` and purges current visitor profile.
+   Restaura audience manager `UUID` y purga el perfil del visitante actual.
 
    * Esta es la sintaxis para este método:
 
@@ -731,7 +728,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       MediaSettings adSettings = Media.AdSettingsWith ("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1"); 
       ```
 
-* **Open**
+* **Abri**
 
    Abre un objeto `ADBMediaSettings` para su seguimiento.
 
@@ -817,7 +814,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Stop (settings.Name, 3);
       ```
 
-* **Haga clic en**
+* **Click**
 
    Notifica al módulo de medios que se ha hecho clic en el elemento de medios.
 
@@ -833,7 +830,7 @@ Para obtener más información sobre Video Analytics, consulte [Video Analytics]
       Media.Click (settings.Name, 3); 
       ```
 
-* **Seguimiento**
+* **Track**
 
    Envía una llamada de acción de seguimiento (sin visualización de página) al estado de medios actual.
 

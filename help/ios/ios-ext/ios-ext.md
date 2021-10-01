@@ -1,16 +1,13 @@
 ---
 description: La extensión iOS le ayuda a recopilar datos de uso de las aplicaciones del Apple Watch (WatchOS 1), los widgets Today y Photo Editing, y otras aplicaciones de extensión de iOS.
-seo-description: La extensión iOS le ayuda a recopilar datos de uso de las aplicaciones del Apple Watch (WatchOS 1), los widgets Today y Photo Editing, y otras aplicaciones de extensión de iOS.
-seo-title: Implementación de extensiones iOS
 solution: Experience Cloud,Analytics
 title: Implementación de extensiones iOS
 topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '691'
 ht-degree: 100%
 
 ---
@@ -48,8 +45,8 @@ Utilice el SDK para iOS aunque estos tres métodos de seguimiento cumplan con su
 >
 >* Un destinatario para contener la aplicación.
 >* Un destinatario para la extensión.
->
 
+>
 
 
 Si está trabajando en una aplicación WatchKit, debería tener un tercer destinatario. Para obtener más información sobre el desarrollo de Apple Watch, consulte [Desarrollo de Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1).

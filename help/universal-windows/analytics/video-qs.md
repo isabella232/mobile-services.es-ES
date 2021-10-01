@@ -1,17 +1,14 @@
 ---
 description: Información para ayudarle con Video Analytics.
-seo-description: Información para ayudarle con Video Analytics.
-seo-title: Video Analytics
 solution: Experience Cloud,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 72%
+source-wordcount: '888'
+ht-degree: 71%
 
 ---
 
@@ -19,7 +16,7 @@ ht-degree: 72%
 
 Información para ayudarle con Video Analytics.
 
-La medición de vídeo se describe detalladamente en la guía [Medición de vídeo y audio en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html). El proceso general de medición de vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
+La medición de vídeo se describe detalladamente en la guía [Medición de flujo continuo en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es). El proceso general de medición de vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
 
 La siguiente tabla indica los datos multimedia que se envían a Analytics. Utilice reglas de procesamiento para asignar los datos de contexto a una variable de Analytics.
 
@@ -35,7 +32,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.name**
 
-   (**Opcional**) Proporciona información sobre la ruta del vídeo. ClientCare debe habilitar las rutas para esta variable.
+   (**Opcional**) Proporciona información sobre la ruta del vídeo. El servicio de atención al cliente debe habilitar las rutas para esta variable.
 
    * Tipo de evento: Insight personalizada (s.prop).
    * Tipo de variable: Custom Insight (s.prop)
@@ -53,7 +50,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.contentType**
 
-   Recopila datos sobre el tipo de contenido que un visitante ve. A las visitas enviadas por la medición de vídeo se les asigna un tipo de contenido de &quot;vídeo&quot;. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otro tipo de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable.
+   Recopila datos sobre el tipo de contenido que un visitante ve. A las visitas enviadas por la medición de vídeo se les asigna un tipo de contenido de &quot;vídeo&quot;. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otro tipo de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, podría etiquetar otros tipos de contenido con valores como &quot;artículo&quot; o &quot;página de producto&quot; usando esta variable.
 
    Desde una perspectiva de medición de vídeo, Tipo de contenido permite identificar visitantes de vídeo y, por consiguiente, calcular las tasas de conversión de vídeo.
 

@@ -1,17 +1,14 @@
 ---
 description: Para empezar a usar la cooperación entre dispositivos de Experience Cloud, póngase en contacto con su representante de Adobe.
-seo-description: Para empezar a usar la cooperación entre dispositivos de Experience Cloud, póngase en contacto con su representante de Adobe.
-seo-title: Cooperación entre dispositivos de Experience Cloud
 title: Cooperación entre dispositivos de Experience Cloud
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
-translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+exl-id: bf4f7a81-152c-4033-bcdf-22a939a3109e
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
-
 
 # Cooperación entre dispositivos de Experience Cloud {#experience-cloud-device-co-op}
 
@@ -23,7 +20,7 @@ Para habilitar sus aplicaciones móviles en la cooperación entre dispositivos d
 >
 >Esta funcionalidad requiere la versión 4.8.5 o posterior del SDK para iOS.
 
-A partir de la versión 4.16.1 del SDK, los miembros de Device Co-op pueden desactivar los datos de sus dispositivos móviles en Experience Cloud Device Co-op. Para obtener más información, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) y el `visitorAPI.js` método para [isCoopSafe](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/configurations/coopsafe.html).
+A partir de la versión 4.16.1 del SDK, los miembros de Device Co-op pueden desactivar los datos de sus dispositivos móviles en Experience Cloud Device Co-op. Para obtener más información, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) y el método `visitorAPI.js` para [isCoopSafe](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/coopsafe.html) en la documentación del servicio de identidad de Adobe Experience Cloud.
 
 1. Implemente el SDK de Adobe Mobile.
 
@@ -50,5 +47,3 @@ Recuerde la información siguiente:
 
 * Cuando `coopUnsafe` está establecido en `true`, `coop_unsafe=1` se añadirá siempre a las coincidencias de Audience Manager y Visitor ID.
 * Si activa el reenvío del lado del servidor de Analytics a Audience Manager, también verá `coop_unsafe=1` en las coincidencias de Analytics.
-
-

@@ -1,17 +1,14 @@
 ---
 description: Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hitos de vídeo.
-seo-description: Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hitos de vídeo.
-seo-title: Video Analytics
 solution: Experience Cloud,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 exl-id: d4d11ca0-1280-49db-8983-5b6d83856482
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +18,7 @@ Aquí tiene alguna información sobre la medición de vídeo en iOS mediante hit
 
 >[!TIP]
 >
->Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información, consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
+>Durante la reproducción de vídeo, se envían llamadas frecuentes de monitoreo del funcionamiento a este servicio para medir el tiempo de reproducción. Estas llamadas de monitoreo del funcionamiento se envían cada diez segundos, lo que crea métricas de participación de vídeo granulares e informes de visitas de vídeo más precisos. Para obtener más información, consulte [Medición de contenidos de flujo continuo en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 El proceso general de medición de vídeos es similar en todas las plataformas. Este contenido ofrece información general básica sobre las tareas del desarrollador, con ejemplos de código.
 
@@ -48,7 +45,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.media.segment**
 
-   (Obligatoria) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst podría recopilar lo siguiente en la eVar de Segments `1:M:0-25`.
+   (Obligatoria) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo. Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst podría recopilar lo siguiente en el eVar `1:M:0-25` Segmentos.
 
    El método de recopilación de datos de vídeo predeterminado recopila datos en los puntos siguientes:
 
@@ -64,7 +61,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
 * **a.contentType**
 
-   Recopila datos sobre el tipo de contenido que un visitante ve. Las visitas enviadas por la medición de vídeo tienen asignado un tipo de contenido de `video`. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otros tipos de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, puede etiquetar otros tipos de contenido usando valores como “artículo” o “página de producto” mediante esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
+   Recopila datos sobre el tipo de contenido que un visitante ve. Las visitas enviadas por la medición de vídeo tienen asignado un tipo de contenido de `video`. Esta variable no necesita estar reservada exclusivamente para el seguimiento de vídeo. El hecho de disponer de otros tipos de contenido de informe de contenido mediante el uso de esta misma variable le permite analizar la distribución de los visitantes entre los distintos tipos de contenido. Por ejemplo, podría etiquetar otros tipos de contenido con valores como &quot;artículo&quot; o &quot;página de producto&quot; usando esta variable. Desde la perspectiva de medición de vídeo, Tipo de contenido le permite identificar visitantes de vídeo y calcular tasas de conversión de vídeo.
 
    * Tipo de variable: eVar
    * Caducidad predeterminada: vista de página

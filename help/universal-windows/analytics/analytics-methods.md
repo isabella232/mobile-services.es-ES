@@ -1,17 +1,14 @@
 ---
 description: Información para ayudarle a utilizar el SDK de la Plataforma universal de Windows con Adobe Analytics.
-seo-description: Información para ayudarle a utilizar el SDK de la Plataforma universal de Windows con Adobe Analytics.
-seo-title: Métodos de Analytics
 solution: Experience Cloud,Analytics
 title: Métodos de Analytics
 topic-fix: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 exl-id: 3ceaedfa-274f-4dc7-9e4c-15233d09f935
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 57%
+source-wordcount: '617'
+ht-degree: 58%
 
 ---
 

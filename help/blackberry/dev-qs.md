@@ -1,26 +1,23 @@
 ---
 title: Inicio rápido para desarrolladores
-seo-title: Inicio rápido para desarrolladores de BlackBerry para Adobe Mobile Services
-description: La Guía de Inicio rápido para desarrolladores de BlackBerry le ayuda a comprender el proceso de implementación de la biblioteca de BlackBerry para Adobe Mobile Services.
-seo-description: La Guía de Inicio rápido para desarrolladores de BlackBerry le ayuda a comprender el proceso de implementación de la biblioteca de BlackBerry para Adobe Mobile Services.
-translation-type: tm+mt
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+description: La Guía de inicio rápido para desarrolladores de BlackBerry le ayuda a comprender el proceso de implementación de la biblioteca de BlackBerry para Adobe Mobile Services.
+exl-id: 65f39667-541a-4bbd-af9b-823638aa6f42
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
 
-
 # Inicio rápido para desarrolladores
 
-Esta información le ayuda a comprender el proceso de implementación de la biblioteca BlackBerry.
+Esta información le ayuda a comprender el proceso de implementación de la biblioteca de BlackBerry.
 
 ## Obtención del SDK  
 
 **El SDK requiere BlackBerry 10 o posterior.**
 
-Después de descomprimir el SDK descargado, compruebe que los siguientes archivos existen en una `AdobeMobile` carpeta:
+Después de descomprimir el SDK descargado, compruebe que los siguientes archivos existan en una carpeta `AdobeMobile`:
 
 * `Device-Coverage/libADBMobileShared.so`
 * `Device-Debug/libADBMobileShared.so`
@@ -34,46 +31,46 @@ Después de descomprimir el SDK descargado, compruebe que los siguientes archivo
 * `Simulator-Debug/libADBMobileShared.so`
 * `Simulator-Profile/libADBMobileShared.so`
 
-## Añadir los SDK en el proyecto
+## Añadir los SDK al proyecto
 
-1. Haga clic con el botón derecho en el proyecto y seleccione **[!UICONTROL Configurar]** > **[!UICONTROL Añadir biblioteca]**.
-1. Seleccione Biblioteca **** externa y haga clic en **[!UICONTROL Siguiente]**.
-1. Haga clic en **[!UICONTROL Examinar]** junto al campo Biblioteca **[!UICONTROL de]** dispositivos.
-1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. En la `Device-Debug` carpeta, seleccione `libADBMobileShared.so` y haga clic en **[!UICONTROL Abrir]**.
-1. Haga clic en **[!UICONTROL Examinar]** junto al campo Biblioteca **[!UICONTROL del]** simulador.
-1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. En la `Device-Debug` carpeta, seleccione `libADBMobileShared.so` y haga clic en **[!UICONTROL Abrir]**.
-1. Haga clic en **[!UICONTROL Añadir]** junto al campo **[!UICONTROL Incluir carpetas]** .
-1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. Añada la `public` carpeta a sus inclusiones.
-1. En la `ADBMobile-4.0.0BETA-BlackBerry` carpeta, hay un archivo `.json` de configuración denominado `ADBMobileConfig.json`.
+1. Haga clic con el botón derecho en el proyecto y seleccione **[!UICONTROL Configurar]** > **[!UICONTROL Agregar biblioteca]**.
+1. Seleccione **[!UICONTROL External library]** y haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Browse]** junto al campo **[!UICONTROL Device library]**.
+1. Vaya a la carpeta `ADBMobile-4.0.0BETA-BlackBerry` .
+1. En la carpeta `Device-Debug`, seleccione `libADBMobileShared.so` y haga clic en **[!UICONTROL Abrir]**.
+1. Haga clic en **[!UICONTROL Browse]** junto al campo **[!UICONTROL Simulator library]**.
+1. Vaya a la carpeta `ADBMobile-4.0.0BETA-BlackBerry` .
+1. En la carpeta `Device-Debug`, seleccione `libADBMobileShared.so` y haga clic en **[!UICONTROL Abrir]**.
+1. Haga clic en **[!UICONTROL Add]** junto al campo **[!UICONTROL Include folders]**.
+1. Vaya a la carpeta `ADBMobile-4.0.0BETA-BlackBerry` .
+1. Añada la carpeta `public` a las inclusiones.
+1. En la carpeta `ADBMobile-4.0.0BETA-BlackBerry` hay un archivo de configuración `.json` llamado `ADBMobileConfig.json`.
 
    Copie ese archivo en la raíz del proyecto.
-1. Haga clic con el botón derecho en el proyecto y seleccione **[!UICONTROL Actualizar]**.
+1. Haga clic con el botón derecho en el proyecto y seleccione **[!UICONTROL Refresh]**.
 
-   El `.json` archivo debe estar visible en el Explorador **[!UICONTROL de proyectos]**.
-1. Abra el `bar-descriptor.xml` archivo del proyecto.
-1. En la parte inferior de la ventana, seleccione la ficha **[!UICONTROL Recursos]** .
-1. Confirme que **[!UICONTROL (Todas las configuraciones)]** está seleccionada y, a continuación, haga clic en **[!UICONTROL Añadir archivos]** en la sección **[!UICONTROL Recursos]** de la ventana.
+   El archivo `.json` debe estar visible en el **[!UICONTROL Explorador del proyecto]**.
+1. Abra el archivo `bar-descriptor.xml` del proyecto.
+1. En la parte inferior de la ventana, seleccione la pestaña **[!UICONTROL Assets]**.
+1. Confirme que **[!UICONTROL (Todas las configuraciones)]** está seleccionado y haga clic en **[!UICONTROL Agregar archivos]** en la sección **[!UICONTROL Recursos]** de la ventana.
    >[!TIP]
    >
    >Hay un error en el IDE de QNX Momentics que a veces evita que esos botones sean visibles. Si no puede ver los botones, cambie el tamaño de las ventanas hasta que aparezcan.
 
-1. Haga clic en **[!UICONTROL Espacio de trabajo]**.
-1. Busque el `ADBMobileConfig.json` archivo en el proyecto y haga clic en **[!UICONTROL Aceptar]**.
+1. Haga clic en **[!UICONTROL Workspace]**.
+1. Busque el archivo `ADBMobileConfig.json` en el proyecto y haga clic en **[!UICONTROL OK]**.
 
-La aplicación puede importar las clases e interfaces de la `adobeMobileLibrary.jar` biblioteca mediante `#include <ADBMobile.hpp>`.
+La aplicación puede importar las clases e interfaces de la biblioteca `adobeMobileLibrary.jar` utilizando `#include <ADBMobile.hpp>`.
 
 ## Añadir permisos de aplicaciones
 
-En `bar-descriptor.xml` el directorio del proyecto, agregue la línea `<permission>access_internet</permission>`o, en el IDE de QNX Momentics, seleccione el cuadro de **[!UICONTROL Internet]** en la sección Permisos de la ficha **[!UICONTROL Aplicación]** .
+En `bar-descriptor.xml` en el directorio del proyecto, añada la línea `<permission>access_internet</permission>` o, en el IDE de QNX Momentics, seleccione el cuadro **[!UICONTROL Internet]** en la sección de permisos de la pestaña **[!UICONTROL Application]**.
 
-## Actualizar el archivo `ADBMobileConfig.json` de configuración
+## Actualizar el archivo de configuración `ADBMobileConfig.json`
 
-El `ADBMobileConfig.json` archivo contiene la configuración global del SDK. Debe actualizar algunos valores para empezar.
+El archivo `ADBMobileConfig.json` contiene la configuración global del SDK. Debe actualizar algunos valores para empezar.
 
-The following is an example of an `ADBMobileConfig.json` file:
+El siguiente es un ejemplo de archivo `ADBMobileConfig.json`:
 
 ```json
 {
@@ -90,6 +87,6 @@ The following is an example of an `ADBMobileConfig.json` file:
 }
 ```
 
-Al menos debe actualizar los parámetros `rsids` y `server` . Para obtener más información, consulte Referencia [de métodos y clases de](/help/blackberry/methods.md)Adobe Mobile.
+Debe actualizar al menos los parámetros `rsids` y `server`. Para obtener más información, consulte [Referencia de métodos y clases móviles de Adobe](/help/blackberry/methods.md).
 
-Ahora puede implementar Analytics en la aplicación BlackBerry 10.
+Ahora puede implementar Analytics en su aplicación de BlackBerry 10.

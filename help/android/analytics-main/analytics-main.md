@@ -1,18 +1,15 @@
 ---
 description: Esta información le ayuda a utilizar el SDK para Android con Adobe Analytics.
 keywords: android, biblioteca, mobile, móvil, sdk
-seo-description: Esta información le ayuda a utilizar el SDK para Android con Adobe Analytics.
-seo-title: Información general de Analytics
 solution: Experience Cloud,Analytics
 title: Información general de Analytics
 topic-fix: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 exl-id: ed9f55e6-f3ab-4c1e-9a2f-1ee67a7b4c03
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -43,4 +40,4 @@ En los SDK, los identificadores se utilizan para rastrear usuarios y aquí está
 
 El SDK genera el AID, que a veces también se denomina Identificador de seguimiento, cuando la aplicación no está configurada para utilizar una MID. El valor persiste entre inicios y actualizaciones de aplicaciones en `SharedPreferences`. Si el usuario elimina la aplicación de su dispositivo y luego la reinstala, o si el desarrollador de la aplicación elimina SharedPreferences, el SDK genera un nuevo identificador. Este proceso genera un nuevo usuario en el sistema de informes de Analytics.
 
-Para los usuarios de una aplicación que introduce la compatibilidad con el servicio de identidad (MID), los valores de AID existentes se envían con las visitas de Analytics, y la visita de Analytics contiene un AID y un MID. Para los usuarios nuevos de una aplicación con compatibilidad con el servicio de identidad, las solicitudes de Analytics solo contienen un MID. Para obtener más información sobre la identificación de visitantes, consulte [Identificar visitantes](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-calculate.html).
+Para los usuarios de una aplicación que introduce la compatibilidad con el servicio de identidad (MID), los valores de AID existentes se envían con las visitas de Analytics, y la visita de Analytics contiene un AID y un MID. Para los usuarios nuevos de una aplicación con compatibilidad con el servicio de identidad, las solicitudes de Analytics solo contienen un MID. Para obtener más información sobre la identificación de visitantes, consulte [Visitantes únicos](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=es) en la documentación de Adobe Analytics.

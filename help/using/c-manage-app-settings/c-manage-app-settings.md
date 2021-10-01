@@ -1,22 +1,19 @@
 ---
 description: Para gestionar las aplicaciones, hay que configurar una aplicación y definir diversas variables y métricas.
 keywords: móvil
-seo-description: Para gestionar las aplicaciones, hay que configurar una aplicación y definir diversas variables y métricas.
-seo-title: Administrar configuración de aplicación
 solution: Experience Cloud,Analytics
 title: Administrar configuración de aplicación
 topic-fix: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
 exl-id: ed7b955e-f1db-42e5-95b4-a4fb8f169097
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '71'
 ht-degree: 100%
 
 ---
 
-# Administrar configuración de aplicación {#manage-app-settings}
+# Administrar configuración de aplicación{#manage-app-settings}
 
 Para gestionar las aplicaciones, hay que configurar una aplicación y definir diversas variables y métricas.
 

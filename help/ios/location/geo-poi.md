@@ -1,16 +1,13 @@
 ---
 description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
-seo-description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
-seo-title: Geolocalización y puntos de interés
 solution: Experience Cloud,Analytics
 title: Geolocalización y puntos de interés
 topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 exl-id: 732c3863-2010-4d04-a17b-a656e857f567
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ Cada llamada a `trackLocation` envía lo siguiente:
 A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere una configuración `analytics.poi` en el archivo `ADBMobile.json`:
 
 ```js
-“analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
+"analytics.poi": "https://assets.adobedtm.com/…/yourfile.json",
 ```
 
 Para obtener más información, consulte [Configuración JSON de ADBMobile](/help/ios/configuration/json-config/json-config.md).
@@ -96,7 +93,7 @@ Por ejemplo, las coordenadas lat = 40.93231, lon = -111.93152 representan una ub
 
 Algunos niveles de precisión podrían aparecer como “00”, en función de la precisión de la ubicación actual. Por ejemplo, si la ubicación tiene actualmente una precisión de 100 metros, `a.loc.lat.c` y `a.loc.lon.c` se rellenarán con el valor “00”.
 
-## Información adicional {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
+## Más información {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
 
 Recuerde la información siguiente:
 

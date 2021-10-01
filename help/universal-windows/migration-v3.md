@@ -1,21 +1,18 @@
 ---
 description: En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
-seo-description: En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
-seo-title: Migrar a 4.x
 solution: Experience Cloud,Analytics
 title: Migrar a 4.x
 topic-fix: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 exl-id: 68de505b-dcff-4a78-9f01-b1d103846281
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 26%
+source-wordcount: '675'
+ht-degree: 27%
 
 ---
 
-# Migrar a los SDK 4.x{#migrate-to-x}
+# Migración a los SDK 4.x{#migrate-to-x}
 
 En esta sección se describe cómo migrar de la versión 3.x del SDK móvil de Windows al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
 
@@ -127,7 +124,7 @@ En todo el código, elimine las llamadas a los siguientes métodos:
 * SetOnline
 * SetOffline
 
-## Variable Products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Variable products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 Como la variable no está disponible en las reglas de procesamiento, puede utilizar la siguiente sintaxis para establecer `products`products:
 

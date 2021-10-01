@@ -1,17 +1,14 @@
 ---
 description: La función de recuperación previa de Adobe Target usa los SDK de Mobile para iOS para recuperar contenido de ofertas el menor número de veces posible almacenando en caché las respuestas del servidor.
-seo-description: La función de recuperación previa de Adobe Target usa los SDK de Mobile para iOS para recuperar contenido de ofertas el menor número de veces posible almacenando en caché las respuestas del servidor.
-seo-title: Recuperar previamente contenido de ofertas en iOS
 title: Recuperar previamente contenido de ofertas en iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 86%
+source-wordcount: '731'
+ht-degree: 85%
 
 ---
-
 
 # Recuperar previamente contenido de ofertas en iOS {#prefetch-offer-content-in-ios}
 
@@ -21,7 +18,7 @@ La función de recuperación previa de Adobe Target usa los SDK de Mobile para i
 >
 >La funcionalidad de recuperación previa en los SDK móviles para iOS no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
-Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y este contenido se recuperará de la caché para todas las llamadas futuras que contengan contenido en caché para el nombre de mbox especificado.
+Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target sobre qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la caché para todas las llamadas futuras que contengan contenido almacenado en caché para el nombre de mbox especificado.
 
 El contenido de recuperación previa no persiste de un inicio a otro. El contenido de recuperación previa se guarda en caché mientras la aplicación esté activa o hasta que se realice una llamada al método `clearPrefetchCache()`.
 
@@ -163,7 +160,7 @@ Encapsula el nombre de mbox y los parámetros que se utilizan para la recuperaci
 
 * **`productParameters`**
 
-   Diccionario que contiene los pares de clave-valor de los parámetros de producto.
+   Diccionario que contiene los pares clave-valor de los parámetros del producto.
 
    * **Tipo:** NSDictionary*
 
@@ -185,7 +182,7 @@ Esta clase encapsula el nombre de mbox, el contenido predeterminado, los paráme
 
 * **`defaultContent`**
 
-   El contenido predeterminado que se devolverá si los servidores de Destinatario están inaccesibles.
+   El contenido predeterminado que se devolverá si los servidores de Target no están disponibles.
 
    * **Tipo:** NSString*
 
@@ -283,7 +280,7 @@ Este es un ejemplo del lote `loadRequest` mediante el uso de los SDK para iOS:
     [ADBMobile targetLoadRequests:requestArray withProfileParameters:profileParmeters];
 ```
 
-## Información adicional {#section_A454BAD1CD49423E86C71BAEE06125FD}
+## Más información {#section_A454BAD1CD49423E86C71BAEE06125FD}
 
 A continuación encontrará información adicional sobre estos ejemplos:
 

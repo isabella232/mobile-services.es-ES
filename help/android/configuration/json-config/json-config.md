@@ -1,16 +1,13 @@
 ---
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
-seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
-seo-title: Configuración JSON de ADBMobile
 solution: Experience Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1666'
 ht-degree: 100%
 
 ---
@@ -155,8 +152,8 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
       A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere el ajuste `analytics.poi`:
 
       ```javascript
-        “analytics.poi“: `https://assets.adobedtm.com/`
-      …/yourfile.json”`,
+        "analytics.poi": `https://assets.adobedtm.com/`
+      …/yourfile.json"`,
       ```
 
       Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de comenzar](/help/android/getting-started/requirements.md).
@@ -242,7 +239,7 @@ Esta es una lista de las variables del archivo JSON y la versión mínima del SD
    * Determina cuánto tiempo espera Target una respuesta.
 
 
-## Archivo de muestra `ADBMobileConfig.json` {#section_4655EF79744649E5A5AE19E3224C472C}
+## Archivo de muestra `ADBMobileConfig.json`  {#section_4655EF79744649E5A5AE19E3224C472C}
 
 Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 

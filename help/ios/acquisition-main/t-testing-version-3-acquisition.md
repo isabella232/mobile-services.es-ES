@@ -1,14 +1,12 @@
 ---
 description: Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
-seo-description: Esta información le ayuda a realizar una campaña de adquisición Versión 3 de ida y vuelta basada en la huella de un dispositivo mediante un vínculo de marketing.
-seo-title: Prueba de adquisición V3
 solution: Experience Cloud,Analytics
 title: Prueba de adquisición V3
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 exl-id: 3cf66802-1f2c-428f-86ef-a9afc57e3470
-source-git-commit: 8db8f51a42acbbc0bbc4545b7d97cb214b490ab3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '602'
 ht-degree: 100%
 
 ---

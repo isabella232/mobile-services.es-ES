@@ -1,17 +1,14 @@
 ---
 description: Información para ayudarle a utilizar el archivo de configuración JSON de ADBMobile.
-seo-description: Información para ayudarle a utilizar el archivo de configuración JSON de ADBMobile.
-seo-title: Configuración de ADBMobileConfig.json
 solution: Experience Cloud,Analytics
 title: Configuración de ADBMobileConfig.json
 topic-fix: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 exl-id: 57d50d30-651c-4943-835e-1cbce7467baf
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 45%
+source-wordcount: '613'
+ht-degree: 44%
 
 ---
 
@@ -43,7 +40,7 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos enviados a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos enviados a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte la variable [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=es) en la documentación de Adobe Analytics.
 
 * **ssl**
 

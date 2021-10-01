@@ -1,17 +1,14 @@
 ---
 description: Esta información le permite recuperar identidades del SDK almacenados de forma local de su aplicación Android y con solicitudes de acceso a datos RGPD.
-seo-description: Esta información le permite recuperar identidades del SDK almacenados de forma local de su aplicación Android y con solicitudes de acceso a datos RGPD.
-seo-title: Recuperación de identificadores almacenados
 title: Recuperación de identificadores almacenados
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
-translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+exl-id: 86c990d8-334b-4003-b0ac-d5404cb598e4
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 76%
+source-wordcount: '131'
+ht-degree: 72%
 
 ---
-
 
 # Recuperación de identificadores almacenados{#retrieving-stored-identifiers}
 
@@ -19,7 +16,7 @@ Esta información le permite recuperar identidades del SDK almacenados de forma 
 
 >[!IMPORTANT]
 >
->El método `getAllIdentifiersAsync` recupera identidades almacenadas en el SDK. You must call this method **before** the user opts-out.
+>El método `getAllIdentifiersAsync` recupera identidades almacenadas en el SDK. Debe llamar a este método **antes** de que el usuario se excluya.
 
 Las identidades del SDK (según corresponda) se almacenan localmente y se devuelven en una cadena JSON, que puede contener:
 
@@ -29,7 +26,7 @@ Las identidades del SDK (según corresponda) se almacenan localmente y se devuel
 * Códigos de integración (ADID, Push ID)
 * ID de fuentes de datos (DPID, DPUUID)
 * ID de Analytics (AVID, AID, VID y RSID asociados)
-* ID de destinatario heredados (TNTID, TNT3rdpartyID)
+* ID heredados de Target (TNTID, TNT3rdpartyID)
 * ID de Audience Manager (UUID)
 
 Este es un ejemplo del método `ADBMobile getAllIdentifiersAsync` en Android:

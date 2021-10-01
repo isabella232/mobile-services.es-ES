@@ -1,21 +1,18 @@
 ---
-description: Puede adjuntar archivos de imagen a sus notificaciones de Android. Añadir componentes visuales puede aumentar significativamente la participación del usuario con las notificaciones push.
-seo-description: Puede adjuntar archivos de imagen a sus notificaciones de Android. Añadir componentes visuales puede aumentar significativamente la participación del usuario con las notificaciones push.
-seo-title: Recibir notificaciones push enriquecidas
+description: Puede adjuntar archivos de imagen a sus notificaciones de Android. La adición de componentes visuales puede aumentar significativamente la participación del usuario en las notificaciones push.
 title: Recibir notificaciones push enriquecidas
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
-source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
+exl-id: 5776411c-aa0e-4e67-83aa-e78f5d1ed4f7
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 60%
+source-wordcount: '191'
+ht-degree: 68%
 
 ---
 
-
 # Recibir notificaciones push enriquecidas {#receive-rich-push-notifications}
 
-Puede adjuntar archivos de imagen a sus notificaciones de Android. Añadir componentes visuales puede aumentar significativamente la participación del usuario con las notificaciones push.
+Puede adjuntar archivos de imagen a sus notificaciones de Android. La adición de componentes visuales puede aumentar significativamente la participación del usuario en las notificaciones push.
 
 ## Gestión del mensaje push enriquecido entrante (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
@@ -101,4 +98,4 @@ Este es un ejemplo de notificación push enriquecida con una imagen:
 
 ![](assets/rich-push-notification_example.png)
 
-For more information about rich push notifications with Android, see [Engage with Rich Notifications](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).
+Para obtener más información sobre notificaciones push enriquecidas con Android, consulte [Participación con notificaciones enriquecidas](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).

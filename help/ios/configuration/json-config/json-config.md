@@ -1,17 +1,14 @@
 ---
 description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
-seo-description: Esta información le ayuda a utilizar el archivo de configuración ADBMobile.json.
-seo-title: Configuración JSON de ADBMobile
 solution: Experience Cloud,Analytics
 title: Configuración JSON de ADBMobile
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +70,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte [s.charSet](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/charset.html).
+   Define el conjunto de caracteres que utiliza para los datos que se envían a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte la variable [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=es) en la documentación de Adobe Analytics.
 
    * Versión mínima del SDK: 4.0
 
@@ -162,7 +159,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
    >A partir de la versión 4.2, los puntos de interés se definen en la interfaz de Adobe Mobile y se sincronizan de forma dinámica con el archivo de configuración de la aplicación. Esta sincronización requiere el ajuste `analytics.poi`:
 
    ```js
-   “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
+   "analytics.poi": "`https://assets.adobedtm.com/…/yourfile.json`",
    ```
 
    Si el ajuste no está configurado, se debe actualizar el archivo `ADBMobile.json` para que incluya esta línea. Para descargar un archivo de configuración actualizado, consulte [Antes de comenzar](/help/ios/getting-started/requirements.md).
@@ -275,8 +272,7 @@ El mismo archivo de configuración puede utilizarse para su aplicación en varia
 
    * Versión mínima del SDK: 4.0
 
-
-## Archivo de muestra `ADBMobileConfig.json` {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## Archivo de muestra `ADBMobileConfig.json`  {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 Aquí tiene un archivo `ADBMobileConfig.json` de ejemplo:
 

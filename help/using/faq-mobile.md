@@ -1,18 +1,15 @@
 ---
 description: Preguntas más frecuentes y respuestas sobre Adobe Mobile Services, además de una descripción general de las funciones.
 keywords: móvil
-seo-description: Preguntas más frecuentes y respuestas sobre Adobe Mobile Services, además de una descripción general de las funciones.
-seo-title: Preguntas frecuentes
 solution: Experience Cloud,Analytics
 title: Preguntas frecuentes
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 96%
 
 ---
 
@@ -22,13 +19,9 @@ La siguiente tabla contiene una lista de preguntas frecuentes sobre Adobe Mobile
 
 ## SDK de Adobe Mobile {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 
-### ¿Hace actualizaciones frecuentes con el SDK?
-
-Sí, constantemente hacemos actualizaciones para ofrecerle los SDK más seguros, compatibles con las normas y enriquecidos con funciones. Generalmente lanzamos una nueva versión todos los meses. Estas actualizaciones de SDK son sustitutos integrados (para la versión 4x) que facilitan la implementación. Para obtener más información sobre nuestras actualizaciones, consulte nuestras [Notas de la versión](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
-
 ### ¿Qué versión del SDK debería tener?
 
-Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte nuestras [Notas de la versión](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte las [Notas de la versión](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ### ¿Dónde puedo descargar los SDK?
 
@@ -44,7 +37,6 @@ Los SDK de Adobe Mobile utilizan las pilas de red estándar de iOS y Android. Pa
 
 *Si está creando una aplicación del lado del cliente utilizando API de red de alto nivel, como los módulos NSURLSession y CFNetwork, y se conecta con el nombre, no debe alterar ningún elemento para permitir que la aplicación funcione con direcciones IPv6.* Para obtener más información, consulte [Compatibilidad con redes IPv6 DNS64/NAT64](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1).
 
-
 ## Adobe Analytics {#section_78EC9D83791F477AAED678720CEBA9F6}
 
 ### ¿Qué son las métricas del ciclo vital?
@@ -53,7 +45,7 @@ Las métricas del ciclo vital son métricas “listas para usar” que se recopi
 
 ### ¿Cómo puedo solucionar problemas relacionados con las reglas de procesamiento?
 
-Para obtener más información, consulte [Consejos y trucos sobre reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html).
+Consulte [Consejos y trucos sobre reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) en la documentación de Adobe Analytics.
 
 ### ¿Puedo enviar mis datos de análisis a varios grupos de informes?
 

@@ -1,16 +1,13 @@
 ---
 description: La siguiente tabla contiene la cadena de versión iOS que envían muchos de los dispositivos iOS.
-seo-description: La siguiente tabla contiene la cadena de versión iOS que envían muchos de los dispositivos iOS.
-seo-title: Versiones de dispositivo iOS
 solution: Experience Cloud,Analytics
 title: Versiones de dispositivo iOS
 topic-fix: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
 exl-id: 9aaf2f35-4de9-47a0-8e9d-8d098dfaadef
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '343'
 ht-degree: 100%
 
 ---

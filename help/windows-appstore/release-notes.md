@@ -1,21 +1,18 @@
 ---
 description: Notas de la versión y problemas conocidos del SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud.
-seo-description: Notas de la versión y problemas conocidos del SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud.
-seo-title: Notas de la versión
 solution: Experience Cloud,Analytics
 title: Notas de la versión
 topic-fix: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
 exl-id: 21bd2e72-cc9e-4fc0-940f-dfc560d7a536
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
 
-# Notas de la versión {#release-notes}
+# Notas de la versión{#release-notes}
 
 Notas de la versión y problemas conocidos del SDK 4.x Universal App Store para Windows 8.1 para soluciones Experience Cloud.
 
@@ -30,5 +27,4 @@ Además de las mejoras importantes de rendimiento, la versión 4 agrega las sigu
 | Acción temporizada | Las acciones temporizadas son una forma sencilla de ver cuánto tiempo tardan los usuarios en completar un proceso de extremo a extremo en la aplicación. Las acciones temporizadas le permiten calcular la cantidad de tiempo de la sesión y el tiempo total (entre sesiones) que tarda la acción en completarse. Para obtener más información, consulte *Acciones* temporizadas en [Analytics](/help/windows-appstore/analytics/analytics.md). |
 | Inclusión/exclusión | Habilite y deshabilite Analytics rápidamente. |
 
-
-Para obtener más información sobre las notas de la versión de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Para obtener más información sobre las notas de la versión de todas las soluciones, consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).

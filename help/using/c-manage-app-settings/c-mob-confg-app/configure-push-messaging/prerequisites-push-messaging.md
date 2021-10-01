@@ -1,18 +1,15 @@
 ---
 description: Debe completar estas tareas antes de configurar la mensajería push en las aplicaciones.
 keywords: móvil
-seo-description: Debe completar estas tareas antes de configurar la mensajería push en las aplicaciones.
-seo-title: Requisitos previos para activar la mensajería push
 solution: Experience Cloud,Analytics
 title: Requisitos previos para activar la mensajería push
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +55,7 @@ Si los usuarios no tienen un Adobe ID, siga estos pasos:
 
 Todos los usuarios deben vincular la cuenta de la solución Analytics desde la organización de Experience Cloud.
 
-1. Para iniciar sesión en Experience Cloud con un Adobe ID, escriba [https://marketing.adobe.com](https://marketing.adobe.com) en un explorador.
+1. Inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com) con un Adobe ID.
 
 1. En la esquina superior derecha, seleccione el nombre de empresa de Analytics.
 
@@ -68,7 +65,7 @@ Todos los usuarios deben vincular la cuenta de la solución Analytics desde la o
 
    Ahora, el Adobe ID está vinculado a la cuenta, la empresa y las credenciales de inicio de sesión de Analytics.
 
-Para obtener más información, consulte [Solución de problemas con la vinculación de cuentas](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html).
+Para obtener más información, consulte [Organizaciones en el Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) en la guía Componentes de la interfaz central del Experience Cloud.
 
 ## Configuración de servicios push y el SDK de servicio de ID en la interfaz de usuario de Mobile
 

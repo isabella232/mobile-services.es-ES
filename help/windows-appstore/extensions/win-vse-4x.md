@@ -1,17 +1,14 @@
 ---
 description: Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK para Windows de soluciones de Experience Cloud 4.x en su proyecto.
-seo-description: Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK para Windows de soluciones de Experience Cloud 4.x en su proyecto.
-seo-title: Extensiones de Windows Visual Studio para soluciones de SDK de Experience Cloud 4.x
 solution: Experience Cloud,Analytics
 title: Extensiones de Windows Visual Studio para soluciones de SDK de Experience Cloud 4.x
 topic-fix: Developer and implementation
 uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 exl-id: 63e9e5c7-2a12-47b3-a712-bf51e12821aa
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 16%
+source-wordcount: '181'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +16,7 @@ ht-degree: 16%
 
 Estas extensiones le proporcionan una forma mucho más sencilla de agregar la referencia del SDK para Windows de soluciones de Experience Cloud 4.x en su proyecto.
 
-## Instale la biblioteca desde GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
+## Instalación de la biblioteca desde GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}
 
 1. Descargue el SDK universal de Windows desde [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 1. Descomprima el archivo descargado localmente.
