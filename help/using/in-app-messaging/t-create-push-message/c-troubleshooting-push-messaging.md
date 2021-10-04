@@ -6,9 +6,9 @@ title: Solucionar los problemas de la mensajería push
 topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '714'
 ht-degree: 100%
 
 ---
@@ -33,12 +33,11 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
    >[!TIP]
    >
-   >Este número es la cantidad de mensajes que se han entregado al servicio push. Los servicios push no garantizan el envío de un mensaje.
+   >Los servicios push no garantizan el envío de un mensaje. Para obtener más información acerca de la fiabilidad de los servicios, consulte la documentación apropiada:
+   >
+   >* **APNS**: [Calidad del servicio](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **FCM**: [Duración de un mensaje](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
-   Para obtener más información sobre la fiabilidad del servicio, consulte:
-
-   * [calidad de servicio](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [ciclo vital de un mensaje](https://developers.google.com/cloud-messaging/concept-options#lifetime).
 
 ## ¿Por qué mi clave de API GCM de Android no es válida?
 
@@ -52,8 +51,6 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 * **Determinar la validez de la clave de API**
 
    Para determinar la validez de la clave de API, ejecute el siguiente comando:
-
-   **Android**
 
    ```java
    # api_key=YOUR_API_KEY
@@ -81,8 +78,6 @@ El certificado de APNS puede no ser válido por los siguientes motivos:
 * Está usando un archivo `.p8` en lugar de un archivo `.p12`.
 
 ## Resolver errores de mensajes push
-
-**Un ejemplo**
 
 El siguiente ejemplo ilustra cómo se puede resolver un error de inserción al utilizar un VRS.
 
