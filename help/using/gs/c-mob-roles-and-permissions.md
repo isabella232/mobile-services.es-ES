@@ -3,10 +3,10 @@ description: En Adobe Analytics, puede administrar los roles en la página princ
 title: Roles y permisos
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 exl-id: 70f0b427-60d5-4a79-a8d3-e03274edd917
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: f6a62a46a90c30edaf999085873bf21f2a03a68e
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 45%
+source-wordcount: '592'
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,7 @@ Los roles siguientes administran los permisos en la interfaz de usuario de Mobil
 
 ### Administrador de Analytics
 
-Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador del Experience Cloud vincula su Adobe ID con su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener más información sobre el administrador de Experience Cloud, consulte [Administrar usuarios y productos del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) en la guía Componentes de la interfaz central del Experience Cloud.
+Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador del Experience Cloud vincula su Adobe ID con su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener más información sobre el administrador del Experience Cloud, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) en la guía Componentes de la interfaz central del Experience Cloud.
 
 >[!TIP]
 >
@@ -28,8 +28,8 @@ Un administrador de Analytics administra grupos de usuarios y asigna permisos, u
 
 Para obtener más información sobre esta función, consulte el siguiente contenido en la documentación de Adobe Analytics:
 
-* [Información general sobre la administración de usuarios](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/users.html)
-* [Cambios en los permisos de usuarios y grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [Información general sobre la administración de usuarios](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es)
+* [Cambios en los permisos de usuarios y grupos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Administrador de aplicaciones móviles
 
@@ -79,7 +79,7 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
    * Configurar las opciones del SDK de Mobile de la aplicación
    * Configurar los ajustes de la interfaz de usuario de la aplicación
-   * Configurar aplicaciones de tiendas de aplicaciones vinculadas
+   * Configuración de aplicaciones de App Store vinculadas
    * Configurar las opciones de vínculo universal de la aplicación
    * Configuración de certificados y claves de API de servicios push
    * Crear/actualizar/activar/desactivar/duplicar/archivar/eliminar postbacks
@@ -93,8 +93,8 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
 Para obtener más información sobre grupos y usuarios, consulte el siguiente contenido en la documentación de Adobe Analytics:
 
-* [Configuración de grupos de usuarios (heredado)](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)
-* [Agregar un usuario a un grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [Configuración de grupos de usuarios (heredado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [Agregar un usuario a un grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Usuario de Mobile Services
 
