@@ -1,45 +1,45 @@
 ---
-title: Preguntas frecuentes sobre la finalización de la vida útil de Adobe Mobile Services
-description: Obtenga respuestas a las preguntas más frecuentes sobre el anuncio de fin de vida útil de Adobe Mobile Services.
-source-git-commit: 7c3886cbc33c155e527a1d77eccbd3d99609c3d1
+title: Adobe Mobile Services end-of-life FAQ
+description: Get answers to commonly asked questions around the end-of-life announcement for Adobe Mobile Services.
+source-git-commit: a0f834247c328b40d0f47fdf515c239cf66b7566
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
-# Preguntas frecuentes sobre la finalización de la vida útil de Adobe Mobile Services
+# Adobe Mobile Services end-of-life FAQ
 
-La fecha de finalización del servicio de Mobile de Adobe es **31 de diciembre de 2022**.
+****
 
-## ¿Qué está pasando?
+## What is happening?
 
-Mobile Services finaliza el 31 de diciembre de 2022. Mobile Services, que admite una interfaz de usuario centrada en el móvil, la adquisición, la vinculación profunda, la mensajería en la aplicación, la notificación push y la ubicación geográfica ya no es compatible a partir de esta fecha.
+Mobile Services reaches end-of-life on December 31, 2022. Mobile Services, which supports a mobile-centric UI, acquisition, deep linking, in-app messaging, push notification, and geo-location is no longer supported after this date.
 
-## ¿Qué se incluye y qué no se incluye?
+## What is included, and what is not included?
 
-Esta finalización de la vida útil solo incluye Adobe Mobile Services, la plataforma independiente de [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com). Los SDK de la versión 4 de Mobile que dependen de esta interfaz expiraron el 31 de agosto de 2021.
+[](https://mobilemarketing.adobe.com) The Mobile version 4 SDKs that rely on this interface were sunset on August 31, 2021.
 
-Esta finalización de la vida útil NO incluye Adobe Analytics para aplicaciones móviles, parte de los SDK para Mobile de Adobe Experience Platform. Estas funciones, que incluyen el comportamiento dentro de la aplicación, el análisis del ciclo vital, el seguimiento de las interacciones de mensajería y los perfiles de audiencia, siguen recibiendo asistencia de Adobe.
+This end-of-life does NOT include Adobe Analytics for mobile apps, part of the Adobe Experience Platform Mobile SDKs. These features, which include in-app behavior, lifecycle analysis, messaging interaction tracking, and audience profiles, continue to receive support from Adobe.
 
-## ¿Por qué se retira la capacidad?
+## Why is the capability being retired?
 
-A medida que Adobe siga ampliando sus capacidades de marketing móvil, las funciones disponibles anteriormente en Mobile Services se lanzarán en soluciones de Adobe Experience Cloud u se ofrecerán a través de socios Premier de Exchange de Adobe. Esta transición le proporciona funciones de marketing móvil más potentes y flexibles.
+As Adobe continues to expand its mobile marketing capabilities, features previously available in Mobile Services will be released in Adobe Experience Cloud solutions or offered through Adobe Exchange Premier Partners. This transition provides you with more powerful and flexible mobile marketing capabilities.
 
-## ¿Qué sucede con las reglas de procesamiento existentes creadas en los servicios de Mobile?
+## What happens to existing processing rules created in Mobile Services?
 
-[Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) creado o generado en la interfaz de usuario de Mobile Services se migrará automáticamente a Adobe Analytics en el primer semestre de 2022, antes de la fecha de finalización de Mobile Services. Las reglas de procesamiento migradas se comportan de manera similar a otras reglas de procesamiento de Adobe Analytics, donde puede verlas o editarlas libremente. No es necesario que el usuario realice ninguna acción para esta migración.
+[](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) Migrated processing rules behave similarly to other processing rules in Adobe Analytics, where you can freely view or edit them. No user action is required for this migration.
 
-Una vez que Mobile Services haya finalizado, toda la lógica de reglas de procesamiento se gestionará exclusivamente dentro de Adobe Analytics, incluido el uso de [Variables de datos de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=en).
+[](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=es)
 
-## ¿Qué opciones de transición están disponibles?
+## What transition options are available?
 
-Adobe ofrece tres rutas de transición en función del caso de uso de su organización.
+Adobe offers three transition paths depending on your organization&#39;s use case.
 
-1. **Mensajería en la aplicación y notificaciones push**: Adobe puede realizar la transición de sus flujos de trabajo de mensajería a Adobe Journey Optimizer. Este producto ayuda a las organizaciones a optimizar y personalizar experiencias en todo el recorrido de clientes, incluida la mensajería móvil.
-1. **Adquisición y vinculación profunda**: La adquisición y la vinculación profunda se ofrecen a través del programa Adobe Exchange Premier Partners. Estos socios incluyen Ajustar, AppsFlyer y Rama, que ofrecen amplias capacidades de adquisición. El equipo de colaboración de Adobe puede realizar las presentaciones adecuadas para asegurarse de encontrar la solución que mejor se adapte a sus necesidades.
-1. **Servicio de Places**: El servicio Places ofrece funciones de localización geográfica gratuitas. Consulte la [Documentación del servicio Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+1. **** This product helps organizations optimize and personalize experiences across the entire customer journey, including mobile messaging.
+1. **** These partners include Adjust, AppsFlyer, and Branch, who offer extensive acquisition capabilities. Adobe&#39;s partnership team can make appropriate introductions to ensure that you find the solution that best fits your needs.
+1. **** [](https://experienceleague.adobe.com/docs/places/using/home.html)
 
-## ¿Dónde puedo ir si tengo preguntas?
+## Where can I go if I have questions?
 
-Consulte la [Adobe de la página de demostración de fin de vida útil de Mobile Services](https://spark.adobe.com/page/C6D30y09zaRpD/) para obtener más información. Póngase en contacto con su representante del Adobe si tiene más preguntas.
+[](https://spark.adobe.com/page/C6D30y09zaRpD/) Contact your Adobe representative with any additional questions.
