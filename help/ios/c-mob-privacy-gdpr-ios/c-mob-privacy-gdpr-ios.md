@@ -3,10 +3,10 @@ description: Los SDK móviles de Experience Cloud ofrecen API preparadas para el
 title: Reglamento general de protección de datos
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 exl-id: 8549310d-31b8-49a3-9276-f8e9ab980a10
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: bd55e3525488f24bc9845220f0df62706ec28f31
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 71%
+source-wordcount: '336'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,7 @@ En septiembre de 2018, publicamos una nueva versión principal del SDK. Estos nu
 
 Cuando el Adobe proporciona software y servicios a una empresa, el Adobe actúa como encargado del tratamiento de datos de cualquier dato personal que procese y almacene como parte de la prestación de estos servicios. Como encargado del tratamiento de datos, Adobe procesa los datos personales de acuerdo con los permisos e instrucciones de su empresa (por ejemplo, según lo establecido en su acuerdo con el Adobe).
 
-Como controlador de datos, puede utilizar los SDK de Adobe Mobile Services para admitir solicitudes de recuperación y eliminación del RGPD de sus aplicaciones móviles.
+Como controlador de datos, puede utilizar los SDK de servicios de Mobile de Adobe para admitir solicitudes de recuperación y eliminación del RGPD de sus aplicaciones móviles.
 
 Para las partes de sus aplicaciones móviles correspondientes al SDK de Adobe Mobile, puede utilizar las opciones de configuración y los métodos siguientes:
 
@@ -49,4 +49,3 @@ Para las partes de sus aplicaciones móviles correspondientes al SDK de Adobe Mo
 ## Más información {#section_7C7124C50D85469C8C8714533FB1A37D}
 
 * Para obtener más información sobre el RGPD, consulte [RGPD y su empresa](https://www.adobe.com/es/privacy/general-data-protection-regulation.html).
-* Para ver la documentación de la API del RGPD, vaya a [API del Reglamento General de Protección de Datos](https://adobe.io/apis/cloudplatform/gdpr.html).
