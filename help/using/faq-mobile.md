@@ -1,12 +1,12 @@
 ---
 description: Preguntas más frecuentes y respuestas sobre Adobe Mobile Services, además de una descripción general de las funciones.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Preguntas frecuentes
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 96%
@@ -21,7 +21,7 @@ La siguiente tabla contiene una lista de preguntas frecuentes sobre Adobe Mobile
 
 ### ¿Qué versión del SDK debería tener?
 
-Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte las [Notas de la versión](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte la [Notas de la versión](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ### ¿Dónde puedo descargar los SDK?
 
@@ -45,7 +45,7 @@ Las métricas del ciclo vital son métricas “listas para usar” que se recopi
 
 ### ¿Cómo puedo solucionar problemas relacionados con las reglas de procesamiento?
 
-Consulte [Consejos y trucos sobre reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) en la documentación de Adobe Analytics.
+See [Processing Rules Tips and Tricks](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) in the Adobe Analytics documentation.
 
 ### ¿Puedo enviar mis datos de análisis a varios grupos de informes?
 

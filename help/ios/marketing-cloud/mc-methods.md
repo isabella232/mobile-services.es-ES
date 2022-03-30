@@ -1,11 +1,11 @@
 ---
 description: Esta es una lista de métodos del servicio de ID de Adobe Experience Platform que proporciona la biblioteca iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos del servicio de ID de Adobe Experience Platform
 topic-fix: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 exl-id: 82a246fc-f679-4fa5-b9c0-dc909a7e7d93
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 96%

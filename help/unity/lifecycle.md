@@ -1,12 +1,11 @@
 ---
 description: Medir métricas y dimensiones que la biblioteca móvil puede medir automáticamente
 keywords: Unity
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Implementar el ciclo vital
 uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 exl-id: eca0cebb-6c69-4b0f-b003-c7fc422d0383
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
@@ -23,7 +22,7 @@ Las métricas del ciclo vital se recopilan automáticamente en iOS.
 
 ## Android
 
-En la secuencia de comandos Unity, se establece el contexto de aplicación para el SDK de Android. Agregue el siguiente código a la función `Awake()` de la PRIMERA escena:
+En la secuencia de comandos Unity, se establece el contexto de aplicación para el SDK de Android. Agregue el código siguiente al `Awake()` función de la PRIMERA escena:
 
 ```java
 void Awake()

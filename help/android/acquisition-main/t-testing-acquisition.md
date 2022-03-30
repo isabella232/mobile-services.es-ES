@@ -1,12 +1,12 @@
 ---
 description: La siguiente información le ayuda a realizar una adquisición de elementos heredados de ida y vuelta en un dispositivo Android mediante un vínculo de marketing.
 keywords: android, biblioteca, mobile, móvil, sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Prueba de adquisición de elementos heredados
 topic-fix: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 exl-id: 43e3b24e-e8bc-407c-b788-5ab85e459a90
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%

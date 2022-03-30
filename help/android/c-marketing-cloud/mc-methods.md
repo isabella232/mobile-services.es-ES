@@ -1,12 +1,12 @@
 ---
 description: Esta es una lista de métodos del servicio de Experience Cloud ID que proporciona la biblioteca Android.
 keywords: android, biblioteca, mobile, móvil, sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos del servicio de ID de Adobe Experience Platform
 topic-fix: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 exl-id: 8eb98c3f-c6ef-4593-ad3a-f566f4d4b6a2
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 97%

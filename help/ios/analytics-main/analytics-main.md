@@ -1,11 +1,11 @@
 ---
 description: Esta información le ayuda a utilizar el SDK para iOS con Adobe Analytics.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Información general de Analytics
 topic-fix: Developer and implementation
 uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
 exl-id: 7c383b1d-2e59-4473-9de5-80c84d896f6d
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 95%

@@ -1,11 +1,11 @@
 ---
 description: Las acciones temporizadas le permiten medir el tiempo en la aplicación y el tiempo total entre el comienzo y el final de una acción. El SDK calcula la cantidad de tiempo de cada sesión y el tiempo total entre sesiones que tardará la acción en completarse. Puede utilizar acciones temporizadas para definir segmentos y comparar tiempos de compra, niveles de pase, flujos de cierre de compra, etcétera.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Acciones temporizadas
 topic-fix: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 exl-id: 3499766b-55f6-4861-8291-2269d56ba983
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%

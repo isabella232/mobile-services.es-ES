@@ -1,11 +1,11 @@
 ---
 description: Las reglas de procesamiento se utilizan para copiar los datos que envía en variables de datos de contexto a eVars, props y otras variables con el fin de realizar informes.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Reglas de procesamiento y datos de contexto
 topic-fix: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
 exl-id: 543201fd-8118-485f-8235-26ec8f9bbb11
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 72%

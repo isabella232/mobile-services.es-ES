@@ -1,12 +1,12 @@
 ---
 description: Enumera las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
 keywords: android, biblioteca, mobile, móvil, sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métricas del ciclo vital
 topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 84%
@@ -17,14 +17,14 @@ ht-degree: 84%
 
 Enumera las métricas y dimensiones que la biblioteca móvil puede medir automáticamente.
 
-Para obtener más información, consulte [Solución de problemas con los datos del ciclo vital](https://helpx.adobe.com/es/analytics/kb/troubleshoot-lifecycle-data.html).
+Para obtener más información, consulte [Resolución de problemas de datos del ciclo vital](https://helpx.adobe.com/es/analytics/kb/troubleshoot-lifecycle-data.html).
 
 
 ## Métricas y dimensiones del ciclo vital {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 Cuando están configuradas, las métricas del ciclo vital se envían en parámetros de datos de contexto a Analytics, en parámetros a Target con cada llamada de mbox y como señal a Audience Manager. Analytics y Target usan el mismo formato, mientras que Audience Manager usa un prefijo distinto para cada métrica.
 
-En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se comunican usando la métrica o la dimensión. El contenido incluye excepciones.
+En Analytics, los datos de contexto que se envían con cada llamada de seguimiento del ciclo vital se capturan automáticamente y se comunican usando la métrica o la dimensión. Exceptions are noted in the content.
 
 ## Métricas
 
@@ -194,7 +194,7 @@ En Analytics, los datos de contexto que se envían con cada llamada de seguimien
 
 ## Métricas y dimensiones móviles adicionales {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-Las siguientes métricas y dimensiones se capturan en variables de soluciones móviles mediante el siguiente método:
+The following metrics and dimensions are captured in mobile solution variables by the following method:
 
 ### Métricas
 
@@ -228,7 +228,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Rasgos del Audience Manager:
+   * Audience Manager trait(s):
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -238,7 +238,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
    Rellenado con métodos `trackLocation`.
 
-   * Parámetros de Target/datos contextuales de Analytics:
+   * Analytics Context Data/Target parameter(s):
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -252,11 +252,11 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
    Rellenado con métodos `trackLocation`.
 
-   * Parámetros de Target/datos contextuales de Analytics:
+   * Analytics Context Data/Target parameter(s):
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Rasgos del Audience Manager:
+   * Audience Manager trait(s):
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -264,14 +264,14 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Nombre del punto de interés**
 
-   Rellenado con métodos `trackLocation` cuando el dispositivo está en un punto de interés definido.
+   Rellenado por `trackLocation` métodos cuando el dispositivo está en un punto de interés definido.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.loc.poi`
    * Rasgo de Audience Manager: `c_a_loc_poi`
 
 * **Distancia hasta el centro del punto de interés**
 
-   Rellenado con métodos `trackLocation` cuando el dispositivo está dentro de un punto de interés definido.
+   Populated by `trackLocation` methods when device is within a defined POI.
 
    * Parámetro de Target/datos contextuales de Analytics: `a.loc.dist`
    * Rasgo de Audience Manager: `c_a_loc_dist`

@@ -1,11 +1,11 @@
 ---
 description: Información para ayudarle a utilizar el SDK Universal App Store para Windows 8.1 con Adobe Analytics.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos de Analytics
 topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
 exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 53%
@@ -22,11 +22,11 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 >[!TIP]
 >
->Cuando consume métodos `winmd` de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
+>Cuando consume `winmd` a partir de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
 
 * **TrackState (winJS: trackState)**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como &quot;tablero de inicio&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si `state` está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está configurando `state` en cada llamada `TrackState`.
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las visualizaciones disponibles en su aplicación, como &quot;tablero de inicio&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. If `state` está vacía, aparece como &quot;nombre de aplicación versión de la aplicación (compilación)&quot; en los informes. Si observa este valor en los informes, asegúrese de que está configurando `state` en cada `TrackState` llamada a .
 
    >[!TIP]
    >
@@ -138,7 +138,7 @@ Estos métodos se emplean para enviar datos a su grupo de informes de Adobe Anal
 
 * **TrackTimed &#x200B; ActionUpdate (winJS: trackTimed &#x200B; ActionUpdate)**
 
-   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. El `data` pasado se anexa a los datos existentes de la acción determinada y los sobrescribe si ya se ha definido la misma clave para `action`.
+   Pasa `contextData` para actualizar los datos de contexto asociados a `action` en cuestión. La variable `data` se anexa a los datos existentes de la acción determinada y se sobrescriben si ya se ha definido la misma clave para `action`.
 
    >[!TIP]
    >

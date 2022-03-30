@@ -1,10 +1,10 @@
 ---
 description: Los postbacks le permiten enviar datos recopilados por el SDK a un servidor de terceros. Con los mismos desencadenadores y las mismas características que se emplean para mostrar un mensaje en la aplicación, es posible configurar el SDK para que envíe datos personalizados a un destino de terceros.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Información general de Postbacks
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
 exl-id: c5aa0b99-2cb3-4dd7-9da8-e573241e864b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%

@@ -1,11 +1,11 @@
 ---
 description: Información para ayudarle a utilizar el archivo de configuración JSON de ADBMobile.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Archivo de configuración ADBMobileConfig.json
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # `ADBMobileConfig.json` Archivo de configuración {#adbmobileconfig-json-config}
 
-Información para ayudarle a utilizar el archivo de configuración `ADBMobile.json`.
+Información para ayudarle a usar la variable `ADBMobile.json` Archivo de configuración.
 
 Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo que depende de la solución. Los métodos de configuración llevan el prefijo &quot;Config&quot;.
 
@@ -34,17 +34,17 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 * **server**
 
-   (Necesario para Analytics y Gestión de público). Servidor de Analytics o Gestión de público, basado en el nodo principal. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. El prefijo de protocolo lo gestiona automáticamente la biblioteca en función de la variable `ssl` .
+   (Necesario para Analytics y Gestión de público). Servidor de Analytics o Gestión de público, basado en el nodo principal. Esta variable se debe rellenar con el dominio del servidor, sin incluir los prefijos de protocolo `https://` o `https://`. La biblioteca gestiona automáticamente el prefijo de protocolo en función de la variable `ssl` variable.
 
    Si `ssl` es `true`, se establece una conexión segura con el servidor. Si `ssl` es `false`, se establece una conexión con el servidor que no es segura.
 
 * **charset**
 
-   Define el conjunto de caracteres que utiliza para los datos enviados a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte la variable [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=es) en la documentación de Adobe Analytics.
+   Define el conjunto de caracteres que utiliza para los datos enviados a Analytics. El conjunto de caracteres se utiliza para convertir los datos entrantes a UTF-8 para su almacenamiento y la elaboración de informes. Para obtener más información, consulte la [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html?lang=es) en la documentación de Adobe Analytics.
 
 * **ssl**
 
-   Habilita (`true`) o deshabilita (`false`) el envío de datos de medición a través de SSL (HTTPS). El valor predeterminado es `false`.
+   Habilita (`true`) o deshabilita (`false`) envío de datos de medición mediante SSL (HTTPS). El valor predeterminado es `false`.
 
 * **offlineEnabled**
 
@@ -52,7 +52,7 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
    >[!IMPORTANT]
    >
-   >Si las marcas de tiempo están habilitadas en el grupo de informes, la propiedad `offlineEnabled` de configuración *debe* tener el valor true. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   Servicio de atención al cliente. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite configurar un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp` .
+   >Si las marcas de tiempo están habilitadas en el grupo de informes, su `offlineEnabled` propiedad configuration *must* sea verdad. Si no están habilitadas, la propiedad `offlineEnabled` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo,   póngase en contacto   Servicio de atención al cliente. Si está enviando datos de AppMeasurement a un grupo de informes que también recopila datos de JavaScript, tal vez necesite configurar un grupo de informes independiente para datos móviles o incluir una marca de fecha y hora personalizada en todas las visitas de JavaScript que utilicen la variable `s.timestamp` variable.
 
 * **lifecycleTimeout**
 
@@ -60,7 +60,7 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 * **batchLimit**
 
-   Envíe visitas en lotes. Por ejemplo, si se establece en 50, las visitas se ponen en cola hasta que se almacenan 50 y entonces se envían todas. Requiere `offlineEnabled=true`. El valor predeterminado es `0` (sin agrupamiento).
+   Envíe visitas en lotes. Por ejemplo, si se establece en 50, las visitas se ponen en cola hasta que se almacenan 50 y entonces se envían todas. Requiere `offlineEnabled=true`. El valor predeterminado es `0` (Sin agrupamiento).
 
 * **privacyDefault**
 
@@ -89,13 +89,13 @@ Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluida
 
 * **clientCode**
 
-   (**Necesario para Target**) Su código de cliente asignado.
+   (**Requerido por Target**) Su código de cliente asignado.
 
 * **timeout**
 
    Determina cuánto tiempo espera Target una respuesta.
 
-El siguiente es un ejemplo de archivo `ADBMobileConfig.json`:
+El siguiente es un ejemplo de `ADBMobileConfig.json` archivo:
 
 ```js
 { 

@@ -1,11 +1,11 @@
 ---
 description: Esta es una lista de métodos de Adobe Target que proporciona la biblioteca iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos de Target para iOS
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -79,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameprofileParametersmboxParameterscallback:**
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:llamada de retorno:**
 
    Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno de bloque.
 
@@ -151,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      Para obtener más información sobre la API de Target subyacente, consulte la [referencia de la API de Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
+      Para obtener más información sobre la API de Target subyacente, consulte la [Referencia de la API de Target](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated).
 
 
 
@@ -159,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **:defaultContent::orderParameters:targetLoadRequestWithNameprofileParametersmboxParameters:callback**
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
 
    Envía una solicitud al servidor de Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno de bloque.
 

@@ -1,12 +1,12 @@
 ---
 description: Esta información sirve para comprender y usar Adobe Mobile Services.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Primeros pasos
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 97%
@@ -111,7 +111,7 @@ Para obtener más información sobre cómo crear mensajes en la aplicación, con
 
 En *Optimizar*, puede optimizar las conversiones (suscripciones, comercio, ingresos publicitarios, etc.) y mejorar la retención de clientes. La optimización de la experiencia del usuario en la aplicación puede ayudarle a personalizar su contenido para lograr el máximo rendimiento de la inversión y conversión.
 
-Para obtener más información sobre las pruebas y Adobe Target, consulte la documentación de [Adobe Target](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html).
+Para obtener más información sobre las pruebas y Adobe Target, consulte la [Adobe Target](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html) documentación.
 
 ### Segmentación geográfica
 

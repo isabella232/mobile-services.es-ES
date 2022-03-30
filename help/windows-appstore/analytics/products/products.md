@@ -1,11 +1,11 @@
 ---
-description: La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
-solution: Experience Cloud,Analytics
+description: The products variable cannot be set using processing rules. In the mobile SDK, you must use a special syntax within the context data parameter to set products directly on the server call.
+solution: Experience Cloud Services,Analytics
 title: Variable products
 topic-fix: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
 exl-id: b731e794-7134-4c6d-a41b-09ac9b84763d
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 La variable products no se puede establecer mediante reglas de procesamiento. En el SDK móvil, debe utilizar una sintaxis especial dentro del parámetro de datos de contexto para establecer products directamente en la llamada del servidor.
 
-Para establecer la variable *`products`* , establezca una clave de datos de contexto en `"&&products"` y establezca el valor utilizando la sintaxis definida para *`products`*:
+Para configurar la variable *`products`* establezca una clave de datos de contexto en `"&&products"`y establezca el valor utilizando la sintaxis definida para la variable *`products`*:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -46,4 +46,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 ![](assets/products-procrules.png)
 
-No es necesario asignar la variable *`products`* mediante reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.
+No es necesario asignar la variable *`products`* empleando reglas de procesamiento, ya que el SDK la establece directamente en la solicitud de imagen.

@@ -1,11 +1,11 @@
 ---
 description: Los estados son las distintas pantallas o vistas de su aplicación. Cada vez que se muestra un nuevo estado en su aplicación (por ejemplo, cuando un usuario navega de la página principal al suministro de noticias), se enviará una llamada de seguimiento de estados. En iOS, el seguimiento de un estado suele realizarse en el método viewDidLoad de cada vista.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Seguimiento de estados de aplicaciones
 topic-fix: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 exl-id: 1b7d2fbb-d2df-4063-b923-e59fa3582830
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%

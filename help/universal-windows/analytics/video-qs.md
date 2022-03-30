@@ -1,11 +1,11 @@
 ---
 description: Información para ayudarle con Video Analytics.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 71%
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 Información para ayudarle con Video Analytics.
 
-La medición de vídeo se describe detalladamente en la guía [Medición de flujo continuo en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es). El proceso general de medición de vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
+La medición de vídeo se describe detalladamente en la sección [Medición de medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es) guía. El proceso general de medición de vídeos es muy similar en todas las plataformas de AppMeasurement. Esta sección de inicio rápido proporciona una descripción general básica de las tareas del desarrollador junto con ejemplos de código.
 
 La siguiente tabla indica los datos multimedia que se envían a Analytics. Utilice reglas de procesamiento para asignar los datos de contexto a una variable de Analytics.
 
@@ -41,7 +41,7 @@ La siguiente tabla indica los datos multimedia que se envían a Analytics. Utili
 
    (**Obligatoria**) Recopila datos de segmento del vídeo, incluido el nombre del segmento y el orden en que aparece el segmento en el vídeo.
 
-   Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst podría recopilar lo siguiente en el eVar de segmentos `1:M:0-25`.
+   Esta variable se completa al habilitar la variable `segmentByMilestones` cuando se rastrean eventos de reproductor automáticamente, o al establecer un nombre de segmento personalizado cuando se rastrean eventos de reproductor manualmente. Por ejemplo, cuando un visitante ve el primer segmento de un vídeo, SiteCatalyst puede recopilar lo siguiente en la sección `1:M:0-25` eVar de segmentos.
 
    El método predeterminado de recopilación de datos de vídeo recopila datos en los puntos siguientes: inicio de vídeo (reproducción), inicio del segmento y finalización del vídeo (detención). Analytics cuenta la primera vista de segmentos en el inicio del segmento, cuando el visitante empieza a ver. Vistas de segmentos posteriores desde el inicio del segmento.
 
@@ -158,7 +158,7 @@ property bool isMediaAd;
 
 * **Apertura (winJS: open)**
 
-   Rastrea una apertura de medios con la configuración definida en `settings`.
+   Realiza el seguimiento de una apertura de medios utilizando la configuración definida en `settings`.
 
    * Esta es la sintaxis para este método:
 
@@ -174,7 +174,7 @@ property bool isMediaAd;
 
 * **Cerrar (winJS: close)**
 
-   Realiza un seguimiento del cierre de un medio para el elemento multimedia denominado *`name`*.
+   Realiza el seguimiento del cierre de un medio para el elemento de medios llamado *`name`*.
 
    * Esta es la sintaxis para este método:
 
@@ -190,7 +190,7 @@ property bool isMediaAd;
 
 * **Play (winJS: play)**
 
-   Realiza el seguimiento de una reproducción de contenido para el elemento multimedia denominado *`name`* en el *offset* dado (en segundos).
+   Realiza el seguimiento de una reproducción de contenido para el elemento de medios llamado *`name`* en el *offset* (en segundos).
 
    * Esta es la sintaxis para este método:
 

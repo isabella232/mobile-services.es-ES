@@ -1,12 +1,12 @@
 ---
 description: El informe Rutas de acción se basa en el análisis de las rutas y muestra un gráfico que representa las rutas que han pasado de un estado a otro en la aplicación.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Informe de rutas de acción
 topic-fix: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 exl-id: 4c97b07f-17df-49cb-b2f7-dcb682d9d3c6
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%

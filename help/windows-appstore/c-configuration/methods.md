@@ -1,11 +1,11 @@
 ---
 description: Clases y métodos proporcionados por la biblioteca Universal App Store para Windows 8.1.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos SDK
 topic-fix: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 exl-id: c328fd79-6e10-43b7-9d08-8da395098b60
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 51%
@@ -18,7 +18,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
 >[!TIP]
 >
->Cuando consume métodos `winmd` de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
+>Cuando consume `winmd` a partir de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -44,7 +44,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
    * `ADBMobilePrivacyStatusOptOut`: las visitas se descartarán.
    * `ADBMobilePrivacyStatusUnknown` : Si el grupo de informes tiene habilitada la marca de fecha y hora, las visitas se guardan hasta que el estado de privacidad cambie a incluido (entonces se envían las visitas) u excluido (entonces se descartan las visitas). Si el grupo de informes no tiene habilitada la marca de fecha y hora, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-      El valor predeterminado se establece en el archivo [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md).
+      El valor predeterminado se establece en la variable [Configuración de ADBMobileConfig.json](/help/windows-appstore/c-configuration/c.json.md) archivo.
 
    * Esta es la sintaxis para este método:
 
@@ -122,7 +122,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
    >[!TIP]
    >
-   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que se establece.
+   >Si la aplicación se actualiza del SDK 3.x al 4.x de Experience Cloud, el ID anterior (personalizado o generado automáticamente) se recupera y se almacena como identificador de usuario personalizado. De este modo, se preservan los datos de visitante tras actualizar el SDK. Para nuevas instalaciones sobre el SDK 4.x, el identificador de usuario es `null` hasta que esté configurado.
 
    * Esta es la sintaxis para este método:
 
@@ -194,7 +194,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
    >[!TIP]
    >
-   >Invoque este método en el método `onResume()` de cada actividad dentro de la aplicación, como se muestra en el siguiente ejemplo. También se recomienda pasar la actividad o el servicio como el objeto de contexto en lugar del contexto de aplicación global.
+   >Invocar este método en el `onResume()` en cada actividad dentro de la aplicación, como se muestra en el siguiente ejemplo. También se recomienda pasar la actividad o el servicio como el objeto de contexto en lugar del contexto de aplicación global.
 
    * Esta es la sintaxis para este método:
 
@@ -215,7 +215,7 @@ Clases y métodos proporcionados por la biblioteca Universal App Store para Wind
 
    >[!TIP]
    >
-   >Invoque este método en los métodos `onPause()` de cada actividad dentro de su aplicación, como se muestra en el ejemplo. También se recomienda pasar la actividad o el servicio como el objeto de contexto en lugar del contexto de aplicación global.
+   >Invocar este método en el `onPause()` en cada actividad dentro de la aplicación, como se muestra en el ejemplo. También se recomienda pasar la actividad o el servicio como el objeto de contexto en lugar del contexto de aplicación global.
 
    * Esta es la sintaxis para este método:
 

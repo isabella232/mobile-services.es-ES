@@ -1,10 +1,10 @@
 ---
 description: Puede utilizar esta información para realizar un seguimiento de vínculos profundos y vínculos profundos diferidos en sus aplicaciones móviles mediante el SDK para iOS de Adobe Mobile.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Seguimiento de vínculos profundos
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 exl-id: a8b20233-d800-4318-ad4f-39229d8b3a5e
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%

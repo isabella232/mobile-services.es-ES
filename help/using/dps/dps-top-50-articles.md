@@ -1,12 +1,12 @@
 ---
 description: El informe Principales 50 artículos muestra un gráfico de barras y un informe de clasificación que indica los artículos más leídos y mostrados mediante el uso de la aplicación. Este informe solo está disponible para los clientes de Digital Publishing Suites (DPS).
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Principales 50 artículos
 topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%

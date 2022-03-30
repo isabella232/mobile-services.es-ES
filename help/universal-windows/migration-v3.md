@@ -1,11 +1,11 @@
 ---
 description: En esta sección se describe cómo migrar de la versión 3.x de un SDK móvil de Windows anterior al SDK 4.x de la Plataforma universal de Windows para las soluciones de Experience Cloud.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Migrar a 4.x
 topic-fix: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 exl-id: 68de505b-dcff-4a78-9f01-b1d103846281
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 27%
@@ -22,7 +22,7 @@ Las siguientes secciones le guían a través de la migración de la versión 3.x
 
 ## Eliminación de propiedades no utilizadas {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-Probablemente haya notado un nuevo archivo `ADBMobileConfig.json` incluido con su descarga. Este archivo contiene ajustes globales y específicos de la aplicación, y reemplaza la mayoría de las variables de configuración utilizadas en versiones anteriores.
+Probablemente notó un nuevo `ADBMobileConfig.json` incluido en la descarga. Este archivo contiene ajustes globales y específicos de la aplicación, y reemplaza la mayoría de las variables de configuración utilizadas en versiones anteriores.
 
 Este es un ejemplo de archivo `ADBMobileConfig.json`:
 
@@ -58,7 +58,7 @@ Las siguientes tablas listan las variables de configuración que debe mover al a
 
 La siguiente tabla proporciona una lista de variables en los SDK 3.x y el nuevo nombre en los SDK 4.x:
 
-| Variable de configuración/Método | Variable en el archivo `ADBMobileConfig.json`. |
+| Variable de configuración/Método | en la variable `ADBMobileConfig.json` archivo. |
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
 | reportSuiteIDs | &quot;rsids&quot; |
@@ -72,17 +72,17 @@ La siguiente tabla proporciona una lista de variables en los SDK 3.x y el nuevo 
 
 ## Actualización de llamadas y variables de seguimiento {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
-En lugar de utilizar las llamadas `Track` y `TrackLink` centradas en la web, la versión 4 del SDK emplea dos métodos que tienen un poco más de sentido en el mundo móvil:
+En lugar de usar el foco web `Track` y `TrackLink` , la versión 4 del SDK emplea dos métodos que tienen más sentido en el mundo móvil:
 
 * `TrackState` Los estados son las visualizaciones disponibles en su aplicación, como &quot;tablero de inicio&quot;, &quot;configuración de la aplicación&quot;, &quot;carrito&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `trackState` incrementan las visualizaciones de página.
 
 * `TrackAction` Las acciones son cosas que suceden en la aplicación y que es interesante medir, por ejemplo, &quot;inicios de sesión&quot;, &quot;pulsaciones en banners&quot;, &quot;suscripciones a fuentes&quot; y otras métricas. Estas llamadas no incrementan las visualizaciones de página.
 
-El parámetro `contextData` para ambos métodos contiene pares de nombre-valor que se envían como datos de contexto.
+La variable `contextData` para ambos métodos contiene pares de nombre-valor que se envían como datos de contexto.
 
 ### Eventos, props y eVars
 
-Si ha visto los [métodos del SDK](/help/universal-windows/c-configuration/methods.md), probablemente se esté preguntando dónde establecer eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
+Si ha visto el [Métodos SDK](/help/universal-windows/c-configuration/methods.md), probablemente se esté preguntando dónde se configuran los eventos, las eVars, las props, los herederos y las listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
 
 Las reglas de procesamiento ofrecen las siguientes ventajas:
 
@@ -90,13 +90,13 @@ Las reglas de procesamiento ofrecen las siguientes ventajas:
 * Puede utilizar nombres significativos para los datos en lugar de establecer variables específicas de un grupo de informes.
 * El envío de datos adicionales tiene poco impacto. Estos valores no aparecerán en los informes hasta que se asignen mediante reglas de procesamiento.
 
-Para obtener más información, consulte la sección *Reglas de procesamiento* en [Información general de Analytics](/help/universal-windows/analytics/analytics.md).
+Para obtener más información, consulte la *Reglas de procesamiento* en [Información general de Analytics](/help/universal-windows/analytics/analytics.md).
 
-Cualquier valor que asignara directamente a variables debe agregarse a los datos de contexto. Esto significa que las llamadas a `SetProp`, `SetEvar` y las asignaciones a datos de contexto persistentes deben eliminarse, y los valores deben agregarse a los datos de contexto.
+Cualquier valor que asignara directamente a variables debe agregarse a los datos de contexto. Esto significa que llama a `SetProp`, `SetEvar`, y las asignaciones a datos de contexto persistentes deberían eliminarse, así como los valores agregados a los datos de contexto.
 
 ### AppSection/Server, GeoZip, Transaction ID, Campaign y otras variables estándar
 
-Los demás datos que configurara en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse a los datos de contexto. Es decir, los únicos datos que se envían con una llamada `TrackState` o `TrackAction` son la carga útil del parámetro `data`.
+Los demás datos que configurara en el objeto de medición, incluidas las variables arriba indicadas, deberían agregarse a los datos de contexto. Es decir, los únicos datos que se envían con un `TrackState` o `TrackAction` es la carga útil en la variable `data` parámetro.
 
 **Reemplazo de las llamadas de seguimiento**
 
@@ -115,7 +115,7 @@ Reemplace la variable `visitorID` con una llamada a `setUserIdentifier`.
 
 ## Seguimiento sin conexión {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-El seguimiento sin conexión está habilitado en el archivo `ADBMobileConfig.json` . El resto de la configuración sin conexión se realiza automáticamente.
+El seguimiento sin conexión está habilitado en la variable `ADBMobileConfig.json` archivo. El resto de la configuración sin conexión se realiza automáticamente.
 
 En todo el código, elimine las llamadas a los siguientes métodos:
 

@@ -1,12 +1,12 @@
 ---
 description: Puede definir y configurar las opciones de audiencia para los mensajes push, incluidas las opciones de intervalos de fechas, segmentos de Analytics y segmentos personalizados.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes push'
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 98%
@@ -107,7 +107,7 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
 
    * **[!UICONTROL Segmentos de Analytics]**
 
-      Seleccione un segmento de Adobe Analytics existente en la lista desplegable. Para obtener más información, consulte el [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) en la documentación de Adobe Analytics.
+      Seleccione un segmento de Adobe Analytics existente en la lista desplegable. Para obtener más información, consulte la [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) en la documentación de Adobe Analytics.
 
    * **[!UICONTROL Segmentos personalizados]**
 

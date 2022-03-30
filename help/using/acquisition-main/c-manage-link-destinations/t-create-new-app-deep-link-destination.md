@@ -1,12 +1,12 @@
 ---
 description: Puede crear un nuevo destino de vínculo que dirija a los usuarios a un vínculo web o profundo en su aplicación.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Crear un nuevo destino de vínculo
 topic-fix: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 exl-id: 2d2f5938-1461-43e2-a375-45c18afc9d5a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%

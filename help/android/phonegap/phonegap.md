@@ -1,12 +1,12 @@
 ---
 description: Este complemento le permite enviar llamadas de AppMeasurement de Android desde el proyecto de PhoneGap.
 keywords: android, biblioteca, mobile, móvil, sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Información general del complemento PhoneGap
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 97%
@@ -68,7 +68,7 @@ cordova plugin add adobe-mobile-services
 
    Para mover este archivo, haga clic en **[!UICONTROL Aceptar]**.
 
-1. Haga clic con el botón derecho en el archivo `adobeMobileLibrary.jar` y seleccione **[!UICONTROL Agregar como biblioteca]**.
+1. Haga clic con el botón derecho en el `adobeMobileLibrary.jar` y seleccione **[!UICONTROL Agregar como biblioteca]**.
 1. En función de los requisitos de su proyecto, introduzca el nombre, nivel y ubicación de la biblioteca.
 1. Arrastre el archivo `ADBMobileConfig.json` a su carpeta `assets` en la raíz de la aplicación.
 1. Confirme que ha seleccionado la raíz de la aplicación y **no** una aplicación dentro de una aplicación.

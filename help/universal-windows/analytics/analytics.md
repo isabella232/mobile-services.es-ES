@@ -1,11 +1,11 @@
 ---
 description: Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las llamadas de método de Analytics en cualquier parte de la aplicación.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 19%
@@ -22,21 +22,21 @@ Después de agregar la biblioteca al proyecto, puede realizar cualquiera de las 
 
 ## Habilitar los informes de aplicaciones móviles en Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
-Antes de agregar código, pida a su administrador de Analytics que complete lo siguiente para habilitar el seguimiento del ciclo vital de las aplicaciones móviles. Esto garantiza que el grupo de informes esté listo para capturar métricas a medida que comience el desarrollo.
+Antes de agregar código, pida a su administrador de Analytics que complete lo siguiente para habilitar el seguimiento de ciclo vital de las aplicaciones de Mobile. Esto garantiza que el grupo de informes esté listo para capturar métricas a medida que comience el desarrollo.
 
-1. Abra **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Grupos de informes]** y seleccione los grupos de informes móviles.
+1. Apertura **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Grupos de informes]** y seleccione sus grupos de informes móviles.
 
-1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de móviles]** > **[!UICONTROL Informes de aplicaciones móviles]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de Mobile]** > **[!UICONTROL Informes de aplicaciones de Mobile]**.
 
-   ![Configuración móvil](assets/mobile-settings.png)
+   ![Configuración de Mobile](assets/mobile-settings.png)
 
 1. Haga clic en **[!UICONTROL Habilitar los informes de aplicaciones más recientes]**.
 
-   De forma opcional, también puede hacer clic en **[!UICONTROL Habilitar el seguimiento de ubicación móvil]** o **[!UICONTROL Habilitar el sistema de informes y la atribución anteriores para las visitas en segundo plano]**.
+   Opcionalmente, también puede hacer clic en **[!UICONTROL Habilitar el seguimiento de ubicación de Mobile]** o **[!UICONTROL Habilitar la atribución y los informes heredados para las visitas individuales en segundo plano]**.
 
    ![Habilitar ciclo vital](assets/enable-lifecycle.png)
 
-Las métricas del ciclo vital ya están listas para capturarse, e Informes de aplicaciones móviles aparece en el menú **[!UICONTROL Informes]** de la interfaz de informes de marketing.
+Las métricas del ciclo vital ya están listas para capturarse, y los informes de aplicaciones de Mobile aparecen en la sección **[!UICONTROL Informes]** en la interfaz de informes de marketing.
 
 ### Nuevas versiones
 
@@ -118,11 +118,11 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-Si se llama a `CollectLifecycleData()` dos veces en la misma sesión, la aplicación informa de un bloqueo en cada llamada posterior a la primera. El SDK establece un indicador cuando la aplicación se cierra, que indica una salida correcta. Si no se establece este indicador, `CollectLifecyleData()` informa de un bloqueo.
+If `CollectLifecycleData()` se llama dos veces en la misma sesión, la aplicación informa de un bloqueo en cada llamada posterior a la primera. El SDK establece un indicador cuando la aplicación se cierra, que indica una salida correcta. Si no se establece este indicador, `CollectLifecyleData()` informa de un bloqueo.
 
 ## Eventos, props y eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-Si ha visto [métodos del SDK](/help/universal-windows/c-configuration/methods.md), probablemente se esté preguntando dónde establecer eventos, eVars, props, herederos y listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
+Si ha visto [Métodos SDK](/help/universal-windows/c-configuration/methods.md), probablemente se esté preguntando dónde se configuran los eventos, las eVars, las props, los herederos y las listas. En la versión 4, ya no puede asignar estos tipos de variables directamente en la aplicación. En su lugar, el SDK utiliza datos de contexto y reglas de procesamiento para asignar los datos de la aplicación a variables de Analytics para el sistema de informes.
 
 Las reglas de procesamiento ofrecen varias ventajas:
 
@@ -154,7 +154,7 @@ Además, hemos oído que algunos de ustedes están nombrando claves de datos de 
 "eVar1":"jimbo";
 ```
 
-Esto puede facilitar *ligeramente* la tarea de asignar de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y las futuras actualizaciones de código pueden resultar más difíciles. En su lugar, se recomienda encarecidamente utilizar nombres descriptivos para claves y valores:
+Esto podría hacer que *ligeramente* es más fácil cuando se realiza la asignación de una sola vez en las reglas de procesamiento, pero se pierde la legibilidad durante la depuración y las futuras actualizaciones de código pueden ser más difíciles. En su lugar, se recomienda encarecidamente utilizar nombres descriptivos para claves y valores:
 
 ```js
 "username":"jimbo";
@@ -178,17 +178,17 @@ Las variables de datos de contexto que definen eventos de aumento pueden tener e
 
 ## Variable products {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Para establecer *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Para obtener más información, consulte [Variable products](/help/universal-windows/analytics/products.md).
+Para configurar *`products`* en el SDK móvil, debe utilizar una sintaxis especial. Para obtener más información, consulte [Variable products](/help/universal-windows/analytics/products.md).
 
 ## (Opcional) Habilitar el seguimiento sin conexión {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-Para almacenar las visitas cuando el dispositivo está sin conexión, puede habilitar el seguimiento sin conexión en el archivo [métodos del SDK](/help/universal-windows/c-configuration/methods.md). Preste mucha atención a los requisitos de marca de tiempo descritos en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
+Para almacenar visitas cuando el dispositivo está sin conexión, puede habilitar el seguimiento sin conexión en la [Métodos SDK](/help/universal-windows/c-configuration/methods.md) archivo. Preste mucha atención a los requisitos de marca de tiempo descritos en la referencia del archivo de configuración antes de habilitar el seguimiento sin conexión.
 
 ## Geolocalización y puntos de interés {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-La geolocalización le permite medir datos de ubicación (latitud/longitud) y puntos de interés predefinidos. Cada llamada `TrackLocation` envía:
+La geolocalización le permite medir datos de ubicación (latitud/longitud) y puntos de interés predefinidos. Cada `TrackLocation` envía llamadas:
 
-* Latitud/Longitud y puntos de interés (si se encuentran dentro de un punto de interés definido en el archivo de configuración `ADBMobileConfig.json`).
+* Latitud/longitud y puntos de interés (si se encuentra dentro de un punto de interés definido en la variable `ADBMobileConfig.json` archivo de configuración).
 
    Se pasan a variables de soluciones móviles para el sistema de informes automático.
 
@@ -203,7 +203,7 @@ var ADB = ADBMobile;
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-Si el siguiente POI está definido en el archivo de configuración `ADBMobileConfig.json`:
+Si el siguiente punto de interés está definido en la variable `ADBMobileConfig.json` Archivo de configuración:
 
 ```js
 "poi" : [ 
@@ -211,7 +211,7 @@ Si el siguiente POI está definido en el archivo de configuración `ADBMobileCon
         ]
 ```
 
-Cuando se determina que la ubicación del dispositivo está dentro de un radio de 7000 metros del punto definido, se envía una variable de datos de contexto `a.loc.poi` con el valor `San Francisco` junto a la visita `TrackLocation`. Se envía una variable de contexto `a.loc.dist` con la distancia en metros desde las coordenadas definidas.
+Cuando se determina que la ubicación del dispositivo se encuentra dentro de un radio de 7000 metros del punto definido, se `a.loc.poi` variable de datos de contexto con el valor `San Francisco` se envía con la variable `TrackLocation` visita individual. Un `a.loc.dist` la variable de contexto se envía con la distancia en metros desde las coordenadas definidas.
 
 ## Valor de duración {#section_D2C6971545BA4D639FBE07F13EF08895}
 

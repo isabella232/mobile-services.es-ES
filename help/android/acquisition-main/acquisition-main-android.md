@@ -1,11 +1,11 @@
 ---
 description: Esta información le ayuda a utilizar vínculos de seguimiento de adquisición en sus aplicaciones iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Información general sobre adquisición
 topic-fix: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
 exl-id: 0315f8ed-41cb-4a2c-bfe0-56bdebf1af52
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

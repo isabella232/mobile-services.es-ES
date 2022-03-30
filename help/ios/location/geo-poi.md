@@ -1,11 +1,11 @@
 ---
 description: La geolocalización le ayuda a medir los datos de ubicación utilizando latitudes, longitudes y puntos de interés predefinidos en sus aplicaciones iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Geolocalización y puntos de interés
 topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 exl-id: 732c3863-2010-4d04-a17b-a656e857f567
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%

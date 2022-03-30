@@ -1,15 +1,15 @@
 ---
 description: Debe completar estas tareas antes de configurar la mensajería push en las aplicaciones.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Requisitos previos para activar la mensajería push
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -65,7 +65,7 @@ Todos los usuarios deben vincular la cuenta de la solución Analytics desde la o
 
    Ahora, el Adobe ID está vinculado a la cuenta, la empresa y las credenciales de inicio de sesión de Analytics.
 
-Para obtener más información, consulte [Organizaciones en el Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) en la guía Componentes de la interfaz central del Experience Cloud.
+Para obtener más información, consulte [Organizaciones del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) en la guía Componentes de la interfaz central del Experience Cloud.
 
 ## Configuración de servicios push y el SDK de servicio de ID en la interfaz de usuario de Mobile
 

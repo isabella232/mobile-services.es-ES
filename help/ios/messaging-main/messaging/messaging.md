@@ -1,11 +1,11 @@
 ---
 description: Esta información le ayuda a usar la mensajería en sus aplicaciones iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Mensajería en la aplicación
 topic-fix: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 exl-id: 70b0ade4-dcd1-4e00-9800-352f11c4001d
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%

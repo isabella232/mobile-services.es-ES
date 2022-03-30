@@ -1,12 +1,12 @@
 ---
 description: Los especialistas en marketing pueden crear vínculos de seguimiento para promover y llevar el tráfico a sus aplicaciones. Estos vínculos de seguimiento pueden llevar a los usuarios hasta tiendas de aplicaciones, vínculos profundos de aplicaciones e intersticiales. Esto se puede correlacionar después con el comportamiento dentro de las aplicaciones. Un especialista en mercadotecnia puede crear un vínculo para dirigir a los usuarios a iOS, Android u otras plataformas según corresponda.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Adquisición
 topic-fix: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 exl-id: ed0842a8-e3cb-4c5a-b001-c0ea3ca69583
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%

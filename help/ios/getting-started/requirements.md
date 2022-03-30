@@ -1,14 +1,14 @@
 ---
 description: Complete estos pasos para configurar un grupo de informes con los que recopilar datos de aplicaciones iOS.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Antes de comenzar
 topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ Puede iniciar sesión en la interfaz de usuario de Adobe Mobile Services de una 
 
    Inicie sesión en [Experience Cloud](https://experience.adobe.com) con su Adobe ID.
 
-   Este método supone que su empresa ha sido aprovisionada y que ha vinculado su cuenta de Analytics. Para obtener más información sobre el aprovisionamiento, consulte [Administrar usuarios y productos del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) en la guía Componentes de la interfaz central del Experience Cloud. Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones en el Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+   Este método supone que su empresa ha sido aprovisionada y que ha vinculado su cuenta de Analytics. Para obtener más información sobre el aprovisionamiento, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) en la guía Componentes de la interfaz central del Experience Cloud. Para obtener más información sobre cómo vincular su cuenta, consulte [Organizaciones del Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es).
 
    >[!TIP]
    >

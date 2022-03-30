@@ -1,11 +1,11 @@
 ---
-description: Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+description: Métodos de iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos de iOS
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 70%
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # Métodos de iOS{#ios-methods}
 
-Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
+Métodos de iOS para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 
 ## Métodos de configuración {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -89,7 +89,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
    * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
    * ADBMobilePrivacyStatus.Unknown : si el seguimiento en línea está activado, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea está desactivado, las visitas se descartan hasta que el estado de privacidad cambie a Opt-in.
 
-   El valor predeterminado se establece en [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   El valor predeterminado se establece en la variable [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * Esta es la sintaxis para este método:
 
@@ -211,7 +211,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las vistas de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y `TrackState` Las llamadas incrementan las visualizaciones de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada `TrackState` llamada a .
 
    >[!TIP]
    >
@@ -327,7 +327,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
    * Esta es la sintaxis para este método:
 
-      public nbsp;static void TrackLifetimeValueIncrease(doble amount, NSDictionary data);
+      public nbsp;static void TrackLifetimeValueIncrease(double amount, NSDictionary cdata);
 
    * Este es un ejemplo de código para este método:
 
@@ -500,7 +500,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TargetLoadRequest**
 
-   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno `Action<NSDictionary>`.
+   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una `Action<NSDictionary>` llamada de retorno.
 
    * Esta es la sintaxis para este método:
 
@@ -520,7 +520,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **TargetCreateRequest**
 
-   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros dados.
+   Constructor de conveniencia para crear un `ADBTargetLocationRequest` con los parámetros dados.
 
    * Esta es la sintaxis para este método:
 
@@ -571,7 +571,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **AudienceVisitorProfile**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve &quot;nil&quot; si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve &quot;nil&quot; si todavía no se ha enviado ninguna señal. El perfil del visitante se guarda en `NSUserDefaults` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -635,7 +635,7 @@ Métodos iOS para el SDK de los componentes Xamarin para soluciones de Experienc
 
 * **AudienceSignalWithData**
 
-   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno `Action<NSDictionary>`.
+   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una `Action<NSDictionary>`  llamada de retorno.
 
    * Esta es la sintaxis para este método:
 

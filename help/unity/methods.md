@@ -1,12 +1,11 @@
 ---
 description: Métodos de configuración de ADBMobile.cs
 keywords: Unity
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos ADBMobile.cs
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 70%
@@ -88,7 +87,7 @@ ht-degree: 70%
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: Se descartan las visitas.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas).
 
-      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+      Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in. El valor predeterminado se establece en la variable [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) archivo.
 
    * Esta es la sintaxis para este método:
 
@@ -260,7 +259,7 @@ ht-degree: 70%
 
    Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. Los estados son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página.
 
-   Si el estado está vacío, en los informes se muestra *`app name app version (build)`*. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
+   Si el estado está vacío, se muestra como *`app name app version (build)`* en los informes. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada `TrackState` llamada a .
 
    >[!TIP]
    >

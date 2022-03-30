@@ -1,12 +1,12 @@
 ---
 description: Configure las opciones de experiencia de los mensajes en la aplicación, incluido el tipo (pantalla completa, alerta o notificación) y las opciones de visualización, de texto y del botón.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Experience  Mensaje en la aplicación
 topic-fix: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 exl-id: eeb1527d-c546-4951-9947-db810fdb8eee
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%

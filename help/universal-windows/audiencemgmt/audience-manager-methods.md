@@ -1,11 +1,11 @@
 ---
 description: Lista de métodos de Audience Manager proporcionados por la biblioteca de la Plataforma universal de Windows.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métodos de Audience Manager
 topic-fix: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 exl-id: a7b4001d-d90f-4a8a-a801-d66e56ea43b5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 44%
@@ -16,17 +16,17 @@ ht-degree: 44%
 
 Lista de métodos de Audience Manager proporcionados por la biblioteca de la Plataforma universal de Windows.
 
-Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo de acuerdo con la solución. Los métodos del Audience Manager llevan el prefijo `AudienceManager`.
+Actualmente, el SDK admite varias soluciones de Adobe Experience Cloud, incluidas Analytics, Target y Audience Manager. Los métodos tienen un prefijo de acuerdo con la solución. Los métodos de Audience Manager llevan el prefijo `AudienceManager`.
 
 >[!TIP]
 >
->Cuando consume métodos `winmd` de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
+>Cuando consume `winmd` a partir de winJS (JavaScript), la primera letra de todos los métodos se hace minúscula automáticamente.
 
 Si Audience Manager está configurado en su archivo JSON, junto a su visita de ciclo vital se envía una señal que contiene métricas del ciclo vital.
 
 * **GetVisitorProfile (winJS: getVisitorProfile)**
 
-   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve `null` si todavía no se ha enviado ninguna señal. El perfil del visitante está guardado en `SharedPreferences` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
+   Devuelve el perfil del visitante que se haya obtenido más recientemente. Devuelve `null` si todavía no se ha enviado ninguna señal. El perfil del visitante se guarda en `SharedPreferences` para acceder fácilmente entre los distintos lanzamientos de la aplicación.
 
    * Esta es la sintaxis para este método:
 

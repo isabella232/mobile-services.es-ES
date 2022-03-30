@@ -1,11 +1,11 @@
 ---
 description: Métodos Android para el SDK de los componentes Xamarin para soluciones de Experience Cloud 4.x.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Métodos de Android
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 68%
@@ -58,7 +58,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
    * `ADBMobilePrivacyStatus.OptOut`: las visitas se descartarán.
    * `ADBMobilePrivacyStatus.Unknown`: si está activado el seguimiento en línea, las visitas se guardan hasta que el estado de privacidad cambia a opt-in (entonces se envían las visitas) u opt-out (entonces se descartan las visitas). Si el seguimiento en línea no está activado, las visitas se descartan hasta que el estado de privacidad cambia a opt-in.
 
-   El valor predeterminado se establece en el archivo [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md).
+   El valor predeterminado se establece en la variable [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) archivo.
 
    * Esta es la sintaxis para este método:
 
@@ -160,7 +160,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **OverrideConfigStream**
 
-   (4.2 o posterior) Le permite cargar un archivo de configuración `ADBMobile JSON` diferente al iniciar la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
+   (4.2 o posterior) Le permite cargar un `ADBMobile JSON` archivo de configuración cuando se inicie la aplicación. Se utiliza la configuración distinta hasta que se cierre la aplicación.
 
    * Esta es la sintaxis para este método:
 
@@ -227,7 +227,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackState**
 
-   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States` son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada llamada `TrackState` .
+   Realiza el seguimiento del estado de una aplicación con datos de contexto opcionales. `States` son las vistas que están disponibles en la aplicación, como &quot;pantalla de título&quot;, &quot;nivel 1&quot;, &quot;pausa&quot;, etc. Estos estados son similares a las páginas de un sitio web y las llamadas `TrackState` incrementan las visualizaciones de página. Si el estado está vacío, en los informes se muestra &quot;app name app version (build)&quot;. Si observa este valor en los informes, asegúrese de que está estableciendo un estado en cada `TrackState` llamada a .
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **TrackLocation**
 
-   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en el archivo `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada a `TrackLocation`.
+   Envía las coordenadas de latitud y longitud actuales. También utiliza puntos de interés definidos en la variable `ADBMobileConfig.json` para determinar si la ubicación proporcionada como parámetro se encuentra en alguno de sus puntos de interés. Si las coordinadas actuales se encuentran en un punto de interés definido, se rellena una variable de datos de contexto y se envía junto con la llamada a `TrackLocation`.
 
    * Esta es la sintaxis para este método:
 
@@ -511,7 +511,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **LoadRequest**
 
-   Envía una solicitud al servidor Target configurado y devuelve el valor de la cadena de la oferta generada en una llamada de retorno `Action<NSDictionary>`.
+   Envía una solicitud al servidor Target configurado y devuelve el valor de cadena de la oferta generada en una `Action<NSDictionary>` llamada de retorno.
 
    * Esta es la sintaxis para este método:
 
@@ -534,7 +534,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **CreateRequest**
 
-   Constructor de conveniencia para crear un objeto `ADBTargetLocationRequest` con los parámetros dados.
+   Constructor de conveniencia para crear un `ADBTargetLocationRequest` con los parámetros dados.
 
    * Esta es la sintaxis para este método:
 
@@ -602,7 +602,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **Dpid**
 
-   Devuelve el `DPID` actual.
+   Devuelve el valor de `DPID`.
 
    * Esta es la sintaxis para este método:
 
@@ -618,7 +618,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **Dpuuid**
 
-   Devuelve el `DPUUID` actual.
+   Devuelve el valor de `DPUUID`.
 
    * Esta es la sintaxis para este método:
 
@@ -634,7 +634,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **AudienceSetDpidAndDpuuid**
 
-   Establece los valores `dpid` y `dpuuid`. Si `dpid` y `dpuuid` están configurados, se envían con cada señal.
+   Establece la variable `dpid` y `dpuuid`. If `dpid` y `dpuuid` se establecen, se envían con cada señal.
 
    * Esta es la sintaxis para este método:
 
@@ -650,7 +650,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **SignalWithData**
 
-   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una llamada de retorno `Action<NSDictionary>`.
+   Envía a la gestión de público una señal con características y obtiene una devolución de los segmentos coincidentes en una `Action<NSDictionary>` llamada de retorno.
 
    * Esta es la sintaxis para este método:
 
@@ -676,7 +676,7 @@ Métodos Android para el SDK de los componentes Xamarin para soluciones de Exper
 
 * **Restablecer**
 
-   Restaura audience manager `UUID` y purga el perfil del visitante actual.
+   Restaura Audience Manager `UUID` y purga el perfil del visitante actual.
 
    * Esta es la sintaxis para este método:
 

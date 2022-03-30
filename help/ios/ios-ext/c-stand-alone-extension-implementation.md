@@ -1,11 +1,11 @@
 ---
 description: A partir de iOS 10, Apple le permite crear una extensión denominada extensión independiente que se puede distribuir sin una aplicación contenedora. Con esta extensión, no necesita un grupo de aplicaciones, ya que no hay ninguna aplicación contenedora con la que compartir datos.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Implementación de extensiones independientes
 topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%

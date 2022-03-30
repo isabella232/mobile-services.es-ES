@@ -1,12 +1,12 @@
 ---
 description: A continuación encontrará las métricas y dimensiones que la biblioteca móvil puede medir automáticamente, una vez implementado el ciclo de duración, así como un vínculo para solucionar problemas en los datos del ciclo.
 keywords: android, biblioteca, mobile, móvil, sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Métricas del ciclo vital
 topic-fix: Developer and implementation
 uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 exl-id: d7436411-65bd-4cf7-ae3e-cec829a7690a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 77%
@@ -240,7 +240,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Nombre del punto de interés**
 
-   Rellenado con métodos `trackLocation` cuando el dispositivo está dentro de un punto de interés definido.
+   Rellenado por `trackLocation` métodos cuando el dispositivo está dentro de un punto de interés definido.
 
    * Parámetro Target/datos contextuales de Analytics:
 
@@ -252,7 +252,7 @@ Las siguientes métricas y dimensiones se capturan en variables de soluciones m�
 
 * **Distancia hasta el centro del punto de interés**
 
-   Rellenado con métodos `trackLocation` cuando el dispositivo está dentro de un punto de interés definido.
+   Rellenado por `trackLocation` métodos cuando el dispositivo está dentro de un punto de interés definido.
 
    * Parámetro Target/datos contextuales de Analytics:
 

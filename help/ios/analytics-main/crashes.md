@@ -1,11 +1,11 @@
 ---
 description: Esta información le ayuda a comprender cómo se realiza el seguimiento de bloqueos y cuáles son las prácticas recomendadas para encargarse de los falsos bloqueos.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Seguimiento de bloqueos de aplicaciones
 topic-fix: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
 exl-id: d6b4c763-7e02-42d0-aaf2-cda8640e5b9f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%

@@ -1,11 +1,11 @@
 ---
 description: Los vínculos de adquisición con códigos de seguimiento únicos se pueden generar en Adobe Mobile Services. Cuando un usuario descarga y ejecuta una aplicación desde la Apple App Store después de hacer clic en el vínculo generado, el SDK recopila y envía automáticamente los datos de adquisición a Adobe Mobile Services.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Adquisición de aplicación móvil
 topic-fix: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
 exl-id: a90dcb2f-babb-4c97-b67a-8468925ee5c8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%

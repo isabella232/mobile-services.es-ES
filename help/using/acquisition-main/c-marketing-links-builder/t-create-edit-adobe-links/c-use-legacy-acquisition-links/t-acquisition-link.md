@@ -1,12 +1,12 @@
 ---
 description: Puede crear vínculos de tienda de aplicaciones para descargar aplicaciones directamente desde el Apple App Store y Google Play. Los vínculos que crea permiten atribuir los eventos de éxito a las descargas.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Creación un vínculo de adquisición
 topic-fix: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 exl-id: bc351d1e-c7da-4418-ac5a-9e5f989dd566
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 description: Puede crear y gestionar puntos de interés que permiten definir ubicaciones geográficas que puede utilizar para fines de correlación o para dirigir los mensajes en la aplicación, entre otras opciones. Al enviar una visita en un punto de interés, este se adjunta a la visita.
 keywords: móvil
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Administrar puntos de interés
 topic-fix: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
 exl-id: 9598b06b-fb6a-436c-811c-f74015cc2ab0
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
