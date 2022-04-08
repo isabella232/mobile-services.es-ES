@@ -3,9 +3,9 @@ description: La función de recuperación previa de Adobe Target usa los SDK de 
 title: Recuperación previa del contenido de ofertas en Android
 uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
 exl-id: 60fd9703-972b-4c2c-bf9c-86e1f59bfba5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5d44c09a18a557e934628533c4eefaa9e26aba42
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '738'
 ht-degree: 92%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 92%
 # Recuperación previa del contenido de ofertas en Android {#prefetch-offer-content-in-android}
 
 La función de recuperación previa de Adobe Target usa los SDK de Mobile para Android y permite almacenar en caché las respuestas del servidor para recuperar contenido de ofertas el menor número posible de veces.
-
->[!IMPORTANT]
->
->La funcionalidad de recuperación previa en los SDK móviles para Android no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
 Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target sobre qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la caché para todas las llamadas futuras que contengan contenido almacenado en caché para el nombre de mbox especificado.
 

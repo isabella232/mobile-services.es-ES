@@ -3,9 +3,9 @@ description: La función de recuperación previa de Adobe Target usa los SDK de 
 title: Recuperar previamente contenido de ofertas en iOS
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5d44c09a18a557e934628533c4eefaa9e26aba42
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 85%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 85%
 # Recuperar previamente contenido de ofertas en iOS {#prefetch-offer-content-in-ios}
 
 La función de recuperación previa de Adobe Target usa los SDK de Mobile para iOS para recuperar contenido de ofertas el menor número de veces posible almacenando en caché las respuestas del servidor.
-
->[!IMPORTANT]
->
->La funcionalidad de recuperación previa en los SDK móviles para iOS no se admite en los tipos de actividad de segmentación automática, asignación automática y Automated Personalization de Adobe Target.
 
 Este proceso reduce el tiempo de carga, evita múltiples llamadas de red y permite que se notifique a Adobe Target sobre qué mbox visitó el usuario de la aplicación móvil. Todo el contenido se recuperará y almacenará en caché durante la llamada de recuperación previa, y se recuperará de la caché para todas las llamadas futuras que contengan contenido almacenado en caché para el nombre de mbox especificado.
 
