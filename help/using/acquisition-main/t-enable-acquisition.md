@@ -6,9 +6,9 @@ title: Configurar la adquisición
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -33,4 +33,4 @@ El seguimiento de adquisición debe estar activado en la configuración de SDK p
 1. Descargue y use el nuevo archivo de configuración del SDK en su aplicación.
 
    Ha configurado correctamente la adquisición en **iOS**. 
-Para activar la adquisición en **Android**, realice los pasos que se detallan en [Seguimiento de adquisición móvil](/help/android/acquisition-main/acquisition.md).
+

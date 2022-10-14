@@ -6,9 +6,9 @@ title: Preguntas frecuentes
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1013'
 ht-degree: 96%
 
 ---
@@ -41,15 +41,15 @@ Los SDK de Adobe Mobile utilizan las pilas de red estándar de iOS y Android. Pa
 
 ### ¿Qué son las métricas del ciclo vital?
 
-Las métricas del ciclo vital son métricas “listas para usar” que se recopilan automáticamente cuando el SDK se implementa por primera vez en la aplicación. Para obtener más información, consulte [Métricas del ciclo vital (Android)](/help/android/metrics.md) y [Métricas del ciclo vital (iOS)](/help/ios/metrics.md).
+Las métricas del ciclo vital son métricas “listas para usar” que se recopilan automáticamente cuando el SDK se implementa por primera vez en la aplicación.
 
 ### ¿Cómo puedo solucionar problemas relacionados con las reglas de procesamiento?
 
-See [Processing Rules Tips and Tricks](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) in the Adobe Analytics documentation.
+Consulte [Consejos y dificultades de reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) en la documentación de Adobe Analytics.
 
 ### ¿Puedo enviar mis datos de análisis a varios grupos de informes?
 
-Sí. Los SDK permiten enviar datos a varios grupos de informes de Adobe Analytics. Para capturar datos de varios grupos de informes usando una solicitud de imagen, defina todos los ID de estos grupos en el campo **[!UICONTROL rsids]** de la sección **[!UICONTROL Analytics]** en el archivo `ADBMobileConfig.json` separados por comas sin espacios. Para obtener más información, consulte [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md).
+Sí. Los SDK permiten enviar datos a varios grupos de informes de Adobe Analytics. Para capturar datos de varios grupos de informes usando una solicitud de imagen, defina todos los ID de estos grupos en el campo **[!UICONTROL rsids]** de la sección **[!UICONTROL Analytics]** en el archivo `ADBMobileConfig.json` separados por comas sin espacios.
 
 ### ¿En qué se diferencian las visitas de Mobile de los lanzamientos?
 

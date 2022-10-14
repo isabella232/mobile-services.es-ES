@@ -1,12 +1,12 @@
 ---
-description: 'En la página Administrar configuración de aplicación, puede realizar los siguientes tipos de cambios '
+description: En la página Administrar configuración de aplicación, puede realizar los siguientes tipos de cambios
 title: Configurar su aplicación
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 31%
+source-wordcount: '331'
+ht-degree: 33%
 
 ---
 
@@ -32,12 +32,8 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
 
       * **Ciclo de vida**
 
-         Rastree las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital. Para obtener más información, consulte las secciones siguientes:
+         Rastree las métricas y dimensiones que la biblioteca móvil puede medir automáticamente una vez implementado el ciclo vital.
 
-         * [Métricas del ciclo vital del SDK de iOS](/help/ios/metrics.md)
-         * [Métricas del ciclo vital de Android](/help/android/metrics.md)
-         * [Métricas del ciclo vital de Windows](/help/universal-windows/metrics.md)
-         * [Métricas del ciclo vital de BlackBerry](/help/blackberry/metrics.md)
       * **Acciones de la aplicación**
 
          Habilite informes y rutas basadas en acciones internas de la aplicación.
@@ -49,7 +45,6 @@ En la página Administrar configuración de aplicación, puede realizar los sigu
       * **Eventos temporizados**
 
          Mida la cantidad de tiempo que transcurre (en la aplicación y el tiempo total) entre las acciones clave de la aplicación (como el tiempo transcurrido hasta la primera compra).
-
 
 * **Informes de ubicación**
 

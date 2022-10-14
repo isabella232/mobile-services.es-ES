@@ -6,10 +6,10 @@ title: Gestionar su aplicación
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 92%
 
 ---
 
@@ -23,11 +23,6 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
    Cada aplicación incluye variables y métricas para rastrear el carro de compras y las actividades de compra. Parte de la información de las compras no se puede controlar con las reglas de procesamiento, por lo que el SDK expone los datos de contexto especiales de `"&&products"` Por ejemplo: puede tener variables como adiciones al carro de compras, eliminaciones del carro de compras, cierres de compras, pedidos, etc. Los datos de contexto deben asignarse a los datos de Adobe Analytics. Si esta variable se rellena con una asignación simple de datos de contexto, esta es la clave que se asigna. Déjela vacía si unas reglas más complejas rellenan la variable en las Herramientas de administración de Analytics.
 
-   Para obtener más información sobre estas variables y métricas, consulte los siguientes temas:
-
-   * [Variables de producto en Android](/help/android/analytics-main/products/products.md)
-   * [Variables de producto en iOS](/help/ios/analytics-main/products/products.md)
-
 * **Variables personalizadas**
 
    La página Variables personalizadas muestra todas las variables de Analytics personalizadas configuradas para el grupo de informes que contiene los datos de su aplicación. En esta página puede habilitar otras variables y asignar datos de contexto directamente a las variables de Analytics.
@@ -36,7 +31,7 @@ Puede hacer un seguimiento de los datos que recibe de la aplicación y gestionar
 
 Haga clic en **[!UICONTROL Administrar configuración de aplicación]** > **[!UICONTROL Administrar variables y métricas]** > **[!UICONTROL Variables personalizadas]**.
 
-These mappings call the same API that [Processing Rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) use in Adobe Analytics.
+Estas asignaciones llaman a la misma API que [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) en Adobe Analytics.
 
 ![Asignación de datos de contexto](assets/custom_data_content.png)
 
@@ -47,7 +42,7 @@ Esta lista recoge las variables personalizadas que se pueden configurar:
    Cuando se establece un valor para una propiedad en una llamada de seguimiento (o visita), solo se aplica a esa llamada.
 
 * La variable **[!UICONTROL Variables personalizadas]** (o eVars) también responden a la pregunta &quot;¿cuál?&quot;. Sin embargo, un valor de eVar no solo se puede aplicar a la visita en la que se envía, sino también a las variables y métricas enviadas en las visitas posteriores hasta que el valor caduque o hasta que se establezca un nuevo valor.
-* Las **[!UICONTROL Variables de lista personalizadas (o variables de valores múltiples)]** se comportan de la misma forma que las variables a excepción de que le permiten capturar varios valores en una visita. Para obtener más información, consulte [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en) en la documentación de Adobe Analytics.
+* Las **[!UICONTROL Variables de lista personalizadas (o variables de valores múltiples)]** se comportan de la misma forma que las variables a excepción de que le permiten capturar varios valores en una visita. Para obtener más información, consulte [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=es) en la documentación de Adobe Analytics.
 
 Las asignaciones se muestran en Analytics como si se hubieran creado en Mobile Services.
 

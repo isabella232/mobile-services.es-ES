@@ -6,9 +6,9 @@ title: Resolucion de problemas de la mensajería en la aplicación
 topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '603'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Si ha completado todos los requisitos para la mensajería en la aplicación, per
 
 ## Mi mensaje de notificación local en Android no funciona.
 
-Verifique si ha declarado en el manifiesto el receptor local de emisiones de notificación. Para obtener más información, consulte el paso número 1 en [Mensajería en la aplicación](/help/android/messaging-main/messaging/messaging.md).
+Verifique si ha declarado en el manifiesto el receptor local de emisiones de notificación.
 
 ## ¿El mensaje está activo?
 
@@ -43,7 +43,7 @@ Compruebe si esta configuración es correcta. En la página Audiencia, revise la
 
 ## Si se usa el evento de lanzamiento como activador…
 
-El inicio solo se desencadena en una nueva sesión. Para obtener información sobre cuándo comienza una sesión consulte  `lifecycleTimeout` en el archivo de [ADBMobile JSON config](/help/ios/configuration/json-config/json-config.md).
+El inicio solo se desencadena en una nueva sesión.
 
 ## He actualizado mi mensaje de forma remota, pero en mi aplicación aún aparece el mensaje antiguo.
 

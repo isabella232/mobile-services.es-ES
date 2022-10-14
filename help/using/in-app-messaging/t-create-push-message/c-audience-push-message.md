@@ -6,9 +6,9 @@ title: 'Audience: Definir y configurar segmentos de audiencias para los mensajes
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '958'
 ht-degree: 98%
 
 ---
@@ -85,11 +85,6 @@ A continuación se proporcionan algunos ejemplos para ayudarle a definir correct
       Esto significa que el SDK ha enviado el valor `True` en la eVar Inclusión del mensaje push.
 
    * Aunque el dispositivo tenga un token válido, el mensaje no se inserta en el dispositivo a menos que Adobe Analytics haya establecido la marca de inclusión.
-
-   * Para obtener más información sobre la solución de problemas con la mensajería push, consulte estos temas:
-
-      * [Mensajería push en iOS](/help/ios/messaging-main/push-messaging/push-messaging.md)
-      * [Mensajería push en Android](/help/android/messaging-main/push-messaging/push-messaging.md)
 
 2. Rellene los campos siguientes:
 

@@ -6,10 +6,10 @@ title: Experience Mensaje push
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 95%
 
 ---
 
@@ -60,6 +60,7 @@ Estos son los requisitos para enviar notificaciones push enriquecidas:
       >[!IMPORTANT]
       >
       >Recuerde la información siguiente:
+      >
       >* Los mensajes push enriquecidos enviados a versiones anteriores se entregarán, pero solo se verá el texto.
       >* En este momento no se ofrece compatibilidad de visualización.
 
@@ -75,12 +76,7 @@ Estos son los requisitos para enviar notificaciones push enriquecidas:
    * Solo HTTPS
 
 * **Tamaño**
-   * Las imágenes deben tener el formato 2:1; si no, se recortarán.
-
-Para obtener más información sobre cómo configurar notificaciones push enriquecidas, consulte los siguientes temas:
-
-* [Recibir notificaciones push en Android](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-* [Recibir notificaciones push enriquecidas en iOS](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
+   * Las imágenes deben tener el formato 2:1 o se recortarán.
 
 Para configurar un mensaje push en la página Experience:
 
@@ -88,7 +84,7 @@ Para configurar un mensaje push en la página Experience:
 
    * **[!UICONTROL Carga útil: datos]**
 
-      Proporcione una carga útil push personalizada en JSON que se enviará a la aplicación mediante una notificación push o local. El límite para Android e iOS es de 4 KB.
+      Proporcione una carga útil push personalizada en JSON que se envíe a la aplicación mediante una notificación push o local. El límite para Android e iOS es de 4 KB.
 
    * **[!UICONTROL Opciones de Apple: categoría]**
 
@@ -102,7 +98,7 @@ Para configurar un mensaje push en la página Experience:
 
       Seleccione esta opción para que, cuando el mensaje llegue, iOS active la aplicación en segundo plano y le permita ejecutar código basado en la carga útil del mensaje. Para obtener más información, consulte la sección [Servicio de producción de notificaciones push de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1) en la *biblioteca para desarrolladores de iOS*.
 
-1. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
+2. (Opcional) Obtenga una vista previa del diseño del mensaje haciendo clic en los siguientes iconos:
 
    * **[!UICONTROL Resumen x]**
 
@@ -125,11 +121,11 @@ Para configurar un mensaje push en la página Experience:
       Para obtener una vista previa del mensaje en la tableta del usuario, haga clic en el ![icono de la tableta](assets/icon_tablet.png).
    En la parte inferior del panel de vista previa, puede ver una descripción de la audiencia que seleccionó en el paso anterior.
 
-1. (**Opcional**) Haga clic en **[!UICONTROL Probar]** con el fin de insertar el mensaje en los dispositivos especificados para la realización de pruebas.
-1. Seleccione el servicio y escriba los tokens push de al menos un dispositivo donde desee insertar el mensaje.
+3. (**Opcional**) Haga clic en **[!UICONTROL Probar]** con el fin de insertar el mensaje en los dispositivos especificados para la realización de pruebas.
+4. Seleccione el servicio y escriba los tokens push de al menos un dispositivo donde desee insertar el mensaje.
 
    Especifique los tokens en una lista separada por comas para insertar el mensaje en más de un dispositivo.
 
-1. Configure las opciones de programación del mensaje.
+5. Configure las opciones de programación del mensaje.
 
    Para obtener más información, consulte [Programación: mensaje push](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
