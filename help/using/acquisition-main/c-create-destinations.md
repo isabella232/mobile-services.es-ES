@@ -6,7 +6,7 @@ title: Destinos
 topic-fix: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
 exl-id: e30128de-5b2d-4617-a871-44fe489ea6e7
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Destinos{#destinations}
+
+{#eol}
 
 Los especialistas en marketing pueden crear, guardar y editar destinos de vínculo, como vínculos web, profundos, etc., que se pueden utilizar mientras se generan vínculos de marketing a los que se pueda realizar un seguimiento.
 

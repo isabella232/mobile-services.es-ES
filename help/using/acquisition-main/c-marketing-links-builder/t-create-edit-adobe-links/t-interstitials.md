@@ -6,7 +6,7 @@ title: Intersticiales
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Intersticiales{#interstitials}
+
+{#eol}
 
 Puede dirigir a los usuarios a un destino dependiendo de si tienen la aplicación instalada (un vínculo profundo de la aplicación) o no instalada (a un sitio web o una tienda de aplicaciones). Es mejor dejar la opción de enrutamiento a los usuarios. Los especialistas en marketing pueden proporcionar opciones de usuario configurando una página intersticial que muestre a los usuarios los destinos de aterrizaje disponibles.
 

@@ -6,7 +6,7 @@ title: Configurar las opciones de SDK Analytics
 topic-fix: Metrics
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
 exl-id: f2c35b65-1052-4bfc-af9d-8778e4ff0522
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Configurar las opciones de SDK Analytics {#configure-sdk-analytics-options}
+
+{#eol}
 
 Puede configurar las opciones de SDK Analytics en la página Administrar configuración de aplicación a la hora de crear una aplicación nueva o editar una existente.
 

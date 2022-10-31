@@ -3,14 +3,16 @@ description: Un grupo de informes virtuales (VRS) se crea aplicando una o varias
 title: Grupos de informes virtuales
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 exl-id: c9ce7f7c-2023-4a9d-9e4d-bacc21f9ad40
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
 # Grupos de informes virtuales {#virtual-report-suites}
+
+{#eol}
 
 Un grupo de informes virtuales (VRS) se crea aplicando una o varias definiciones de segmentos a un grupo de informes. Esto permite a los usuarios mantener sus datos en un grupo de informes y gestionarlos como si estuvieran en grupos distintos.
 
@@ -51,7 +53,7 @@ Un VRS sirve para completar las tareas siguientes:
 
 >[!IMPORTANT]
 >
->Solo los administradores de Adobe Analytics pueden crear y modificar grupos de informes virtuales en Adobe Analytics. Para crear un grupo de informes virtuales, consulte [Crear grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) en la documentación de Adobe Analytics.
+>Solo los administradores de Adobe Analytics pueden crear y modificar grupos de informes virtuales en Adobe Analytics. Para crear un grupo de informes virtuales, consulte [Crear grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es) en la documentación de Adobe Analytics.
 
 Cada VRS tiene un ID único. Para ver el ID del grupo de informes principal en la interfaz de usuario de Adobe Mobile Services, en la página Administrar configuración de aplicación, en la sección **[!UICONTROL Información de la aplicación]**, haga clic en **[!UICONTROL Más detalles]**.
 
@@ -71,7 +73,7 @@ En Adobe Mobile Services, puede crear una aplicación basada en un grupo de info
 >
 >Las certificaciones push se adjuntan en el nivel de la aplicación en la interfaz de usuario de Mobile Services.
 
-Para garantizar que los mensajes push se envíen correctamente, el segmento de audiencia debe definirse correctamente. Para obtener más información, consulte [Audiencia: Defina y configure segmentos de audiencia para los mensajes push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+Para garantizar que los mensajes push se envíen correctamente, el segmento de audiencia debe definirse correctamente. Para obtener más información, consulte [Audiencia: Definir y configurar segmentos de audiencia para los mensajes push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
 
 ## Sobre las zonas horarias {#section_498E1EED22D741C3BDED44F01FACA72A}
 
@@ -119,5 +121,5 @@ Estas son las propiedades de los VRS:
 
 A continuación se proporciona información adicional sobre los grupos de informes virtuales:
 
-* Para obtener más información sobre los VRS, consulte [Información general sobre los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html).
+* Para obtener más información sobre los VRS, consulte [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es).
 * Para obtener más información sobre cómo planificar la implementación de un VRS, consulte [Flujo de trabajo del grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html).

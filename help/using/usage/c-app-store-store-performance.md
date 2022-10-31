@@ -6,7 +6,7 @@ title: Informe de información general de la tienda de aplicaciones
 topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Informe de información general de la tienda de aplicaciones {#app-store-overview-report}
+
+{#eol}
 
 El informe **[!UICONTROL Información general de la tienda de aplicaciones]** proporciona una instantánea de las métricas de la tienda de aplicaciones, incluido el número de descargas, las compras en la aplicación, la clasificación promedio de la tienda de aplicaciones, los ingresos procedentes de descargas, los ingresos en la aplicación, las descargas por país, las descargas por tienda de aplicaciones y las compras en la aplicación por nombre.
 

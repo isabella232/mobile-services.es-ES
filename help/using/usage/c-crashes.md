@@ -3,7 +3,7 @@ description: El informe de bloqueos ofrece una instantánea de los bloqueos de l
 title: Informe de bloqueos
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
 exl-id: 38db5207-b3fd-49c8-98bd-d287d27738b7
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # Informe de bloqueos {#crashes}
+
+{#eol}
 
 El informe de **[!UICONTROL bloqueos]** ofrece una instantánea de los bloqueos de la aplicación. Puede ver el número de bloqueos y la frecuencia de bloqueo, así como iniciar sesión en la interfaz de usuario de Apteligent.
 

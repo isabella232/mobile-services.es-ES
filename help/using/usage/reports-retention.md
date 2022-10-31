@@ -6,7 +6,7 @@ title: Informe Retención
 topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Informe Retención {#retention}
+
+{#eol}
 
 El informe **[!UICONTROL Retención]** (anteriormente, cohorte de primer inicio) es un informe de cohorte que muestra cuántos usuarios únicos iniciaron la aplicación por primera vez y luego la volvieron a iniciar al menos una vez durante los meses siguientes.
 
