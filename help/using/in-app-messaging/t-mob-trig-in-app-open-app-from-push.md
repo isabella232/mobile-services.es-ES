@@ -1,6 +1,6 @@
 ---
 description: Puede configurar el activador de mensajes en la aplicación para que este sea el ID del mensaje push que se envía cuando un usuario abre la aplicación mediante el mensaje push.
-title: Déclencheur de un mensaje en la aplicación cuando la aplicación se abre desde un mensaje push
+title: Almacenar en déclencheur un mensaje en la aplicación cuando la aplicación se abre desde un mensaje push
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
 exl-id: 4496222f-b6f0-4fa1-86c6-149b590244d3
 source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
@@ -18,7 +18,7 @@ Puede configurar el activador de mensajes en la aplicación para que este sea el
 
 1. Obtenga el ID del mensaje push que se enviará al usuario.
 
-   Puede encontrar el ID del mensaje push en la URL durante el flujo de trabajo de creación del mensaje.
+   Puede encontrar el ID del mensaje push en la dirección URL durante el flujo de trabajo de creación de mensajes.
 
    Vea el siguiente ejemplo:
 
@@ -39,8 +39,8 @@ Puede configurar el activador de mensajes en la aplicación para que este sea el
 1. Guarde y envíe el mensaje push que tenga el ID de push del paso 1.
 1. Haga clic en el mensaje push para abrir la aplicación y verificar que el mensaje en la aplicación se muestre al abrirla.
 
-   Mientras realice las pruebas, recuerde la siguiente información:
+   Mientras realiza la prueba, recuerde la siguiente información:
 
    * Después de guardar el mensaje en la aplicación, el archivo de configuración alojado tarda unos 45 segundos en actualizarse con el nuevo mensaje.
-   * La aplicación busca actualizaciones del archivo de configuración (el nuevo mensaje en la aplicación) cuando hay un **new** , por lo que debe asegurarse de que la aplicación está activando un nuevo inicio al hacer clic en el mensaje push.
-   Esto suele significar que debe asegurarse de que se ha agotado el tiempo de espera de la sesión. El tiempo de espera predeterminado es de 5 minutos.
+   * La aplicación busca actualizaciones del archivo de configuración (el nuevo mensaje en la aplicación) cuando hay un **nuevo** launch, por lo que debe asegurarse de que la aplicación active un nuevo inicio cuando se haga clic en el mensaje push.
+   Esto suele significar que debe asegurarse de que se ha producido el tiempo de espera de la sesión. El tiempo de espera predeterminado es de 5 minutos.

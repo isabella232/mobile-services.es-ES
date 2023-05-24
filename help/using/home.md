@@ -15,12 +15,12 @@ ht-degree: 46%
 
 Esta guía describe la documentación técnica y la autoayuda de Adobe Mobile Services, que aúna las capacidades de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en las aplicaciones móviles.
 
-## Finalización del servicio Mobile Services
+## Fin de la vida útil de Mobile Services
 
-Mobile Services llega al final de su vida útil en **31 de diciembre de 2022**. Consulte la [Preguntas frecuentes sobre la finalización de la vida útil de Mobile Services](eol.md).
+Mobile Services llega al final de su vida útil el **31 de diciembre de 2022**. Consulte la [Preguntas frecuentes sobre el fin de vida útil de Mobile Services](eol.md).
 
-## Finalización del servicio para SDK 4.x
+## Fin de la vida útil de los SDK 4.x
 
-Finaliza la compatibilidad con los SDK 4.x **31 de agosto de 2021**. Consulte la [Preguntas frecuentes sobre el fin de la compatibilidad de los SDK para móviles de la versión 4](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq). Si su organización aún requiere los SDK 4.x, puede [descargar los SDK y acceder a la documentación](https://github.com/Adobe-Marketing-Cloud/mobile-services) en GitHub.
+Finaliza la compatibilidad con los SDK 4.x **31 de agosto de 2021**. Consulte la [Preguntas frecuentes sobre el fin de la compatibilidad de los SDK móviles de la versión 4](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq). Si su organización aún requiere los SDK 4.x, puede [descargue los SDK y acceda a la documentación](https://github.com/Adobe-Marketing-Cloud/mobile-services) en GitHub.
 
-La solución actual de Adobe para marketing móvil son los SDK para Adobe Experience Platform. Consulte la [Documentación del SDK para Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/).
+La solución actual de Adobe para el marketing móvil son los SDK de Adobe Experience Platform. Consulte la [Documentación del SDK para Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/).

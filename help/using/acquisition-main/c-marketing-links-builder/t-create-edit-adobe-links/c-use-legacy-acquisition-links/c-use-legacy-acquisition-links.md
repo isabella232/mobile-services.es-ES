@@ -1,5 +1,5 @@
 ---
-description: Esta información le ayuda a utilizar la funcionalidad de vínculos de adquisición de elementos heredados.
+description: Esta información le ayuda a utilizar la funcionalidad de vínculo de adquisición heredada.
 title: Usar vínculos de adquisición de elementos heredados
 uuid: cee84d33-e7f9-428e-89a1-83554e7f4c5e
 exl-id: 361ccdac-f1bc-4ff7-bdb6-4bebc92a8404

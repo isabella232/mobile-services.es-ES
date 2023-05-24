@@ -75,8 +75,8 @@ Los siguientes tipos de retraso podrían estar asociados con los mensajes push d
 
 El certificado de APNS puede no ser válido por los siguientes motivos:
 
-* Es posible que esté utilizando un certificado de Sandbox en lugar del certificado de producción.
-* Está utilizando un nuevo certificado de producción/Sandbox que no es compatible.
+* Es posible que esté utilizando un certificado de zona protegida en lugar del certificado de producción.
+* Está utilizando un nuevo certificado de producción/zona protegida que no es compatible.
 * Está usando un archivo `.p8` en lugar de un archivo `.p12`.
 
 ## Resolver errores de mensajes push

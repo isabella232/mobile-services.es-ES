@@ -23,7 +23,7 @@ La siguiente tabla contiene una lista de preguntas frecuentes sobre Adobe Mobile
 
 ### ¿Qué versión del SDK debería tener?
 
-Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte la [Notas de la versión](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
+Nuestros SDK actuales están en la versión 4.11. Para obtener más información, consulte la [Notas de versión](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ### ¿Dónde puedo descargar los SDK?
 
@@ -47,7 +47,7 @@ Las métricas del ciclo vital son métricas “listas para usar” que se recopi
 
 ### ¿Cómo puedo solucionar problemas relacionados con las reglas de procesamiento?
 
-Consulte [Consejos y dificultades de reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) en la documentación de Adobe Analytics.
+Consulte [Consejos y sugerencias de reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) en la documentación de Adobe Analytics.
 
 ### ¿Puedo enviar mis datos de análisis a varios grupos de informes?
 

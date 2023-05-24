@@ -21,10 +21,10 @@ Las aplicaciones que usan VRS hacen lo mismo que las aplicaciones que usan grupo
 * Reglas de procesamiento
 * eVars/props/listvars/events
 * Opción habilitada para marca de hora
-* Indicadores de Dimension (ciclo de vida, ubicación, etc.)
+* Indicadores de Dimension (ciclo vital, ubicación, etc.)
 * Clasificaciones
 
-Estos valores se administran en el grupo de informes principal y se comparten con los VRS que pertenecen al mismo grupo de informes principal.
+Estos valores se administran en el grupo de informes superior y se comparten con los VRS que pertenecen al mismo grupo de informes superior.
 
 Puede acceder a las áreas siguientes desde la interfaz de usuario de Adobe Mobile Services independientemente del grupo de informes principal:
 
@@ -37,7 +37,7 @@ Puede acceder a las áreas siguientes desde la interfaz de usuario de Adobe Mobi
 
 Un VRS sirve para completar las tareas siguientes:
 
-* Restringir el acceso a los datos
+* Restringir el acceso a datos
 
    Una empresa multinacional tiene una aplicación que envía datos a un grupo de informes para todas las ubicaciones geográficas. Sin embargo, la empresa quiere restringir el acceso de un usuario del negocio de una región para impedir que vea los datos de otra región. El administrador de la empresa puede crear un VRS para segmentar a los usuarios por región y dar permiso para acceder a este VRS solo al usuario del negocio que administra la región.
 
@@ -57,13 +57,13 @@ Un VRS sirve para completar las tareas siguientes:
 
 Cada VRS tiene un ID único. Para ver el ID del grupo de informes principal en la interfaz de usuario de Adobe Mobile Services, en la página Administrar configuración de aplicación, en la sección **[!UICONTROL Información de la aplicación]**, haga clic en **[!UICONTROL Más detalles]**.
 
-En la interfaz de usuario de Adobe Mobile Services, puede usar un VRS para crear una aplicación y segmentar datos para un grupo específico de su organización. De esta manera, por ejemplo, un usuario comercial de España no puede ver los datos relevantes para un usuario comercial de Japón.
+En la interfaz de usuario de Adobe Mobile Services, puede utilizar un VRS para crear una aplicación y segmentar datos en un grupo específico de su organización. De este modo, por ejemplo, un usuario empresarial en España no puede ver los datos relevantes para un usuario empresarial en Japón.
 
 >[!TIP]
 >
 >Los valores que se heredan del grupo de informes principal no se pueden modificar.
 
-Un VRS es una definición de segmento del lado del servidor que se adjunta a un grupo de informes superior. Como resultado, no se puede realizar la recopilación de datos en un VRS, ya que el SDK solo envía las visitas al grupo de informes principal, que a su vez registra las visitas.
+Un VRS es una definición de segmento del lado del servidor que se adjunta a un grupo de informes principal. Como resultado, no se puede realizar la recopilación de datos en un VRS, ya que el SDK envía visitas únicamente al grupo de informes principal, que a su vez registra las visitas.
 
 ## Grupo de informes virtuales en Adobe Mobile Services y recopilación de datos {#section_8ED8FBA5B44044D9ABC2151A39C577D4}
 
@@ -73,7 +73,7 @@ En Adobe Mobile Services, puede crear una aplicación basada en un grupo de info
 >
 >Las certificaciones push se adjuntan en el nivel de la aplicación en la interfaz de usuario de Mobile Services.
 
-Para garantizar que los mensajes push se envíen correctamente, el segmento de audiencia debe definirse correctamente. Para obtener más información, consulte [Audiencia: Definir y configurar segmentos de audiencia para los mensajes push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+Para garantizar que los mensajes push se envíen correctamente, el segmento de audiencia debe estar definido correctamente. Para obtener más información, consulte [Audiencia: definir y configurar segmentos de audiencia para los mensajes push](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
 
 ## Sobre las zonas horarias {#section_498E1EED22D741C3BDED44F01FACA72A}
 
@@ -109,7 +109,7 @@ Estas son las propiedades de los VRS:
 | `analytics.ssl` | No | Sí |  |
 | `analytics.offlineEnabled` | Sí |  |  |
 | `analytics.charset` | Sí | No |  |
-| `analytics.lifecycleTimeout` | No | Sí | Debe ser el grupo de informes principal si los usuarios no desean que sus datos sean incoherentes. |
+| `analytics.lifecycleTimeout` | No | Sí | Debe ser el grupo de informes superior, si los usuarios no desean que sus datos sean incoherentes. |
 | `analytics.privacyDefault` | No | Sí |  |
 | `analytics.batchLimit` | No | Sí |  |
 | `analytics.timezone` | Sí | Sí, la primera vez que crea la aplicación. | Esta propiedad de zona horaria se utiliza para enviar datos a Adobe Analytics y es diferente de la propiedad de zona horaria que se establece cuando se crea un VRS. |
@@ -121,5 +121,5 @@ Estas son las propiedades de los VRS:
 
 A continuación se proporciona información adicional sobre los grupos de informes virtuales:
 
-* Para obtener más información sobre los VRS, consulte [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es).
+* Para obtener más información sobre los VRS, consulte [Información general de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es).
 * Para obtener más información sobre cómo planificar la implementación de un VRS, consulte [Flujo de trabajo del grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html).

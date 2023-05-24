@@ -22,7 +22,7 @@ Los roles siguientes administran los permisos en la interfaz de usuario de Mobil
 
 ### Administrador de Analytics
 
-Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador del Experience Cloud vincula su Adobe ID con su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener más información sobre el administrador del Experience Cloud, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) en la guía Componentes de la interfaz central del Experience Cloud.
+Un administrador de Analytics administra grupos de usuarios y asigna permisos, uno de los cuales es el de los administradores de aplicaciones móviles. El administrador del Experience Cloud vincula su Adobe ID a su cuenta de Adobe Analytics, lo que le permite iniciar sesión en la interfaz de usuario de Mobile Services con su Adobe ID. Para obtener más información sobre el administrador de Experience Cloud, consulte [Administración de usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) en la guía Componentes de la interfaz central de Experience Cloud.
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ A continuación, presentamos información adicional sobre el acceso a las opcion
 
 ### Aplicaciones y grupos de informes
 
-Todas las aplicaciones de Mobile Services están vinculadas a los grupos de informes. Si los usuarios no tienen acceso a un grupo de informes, no tendrán acceso a la aplicación asociada de ese grupo de informes.
+Todas las aplicaciones de Mobile Services están vinculadas a los grupos de informes. Si los usuarios no tienen acceso a un grupo de informes, no tendrán acceso a la aplicación asociada a dicho grupo de informes.
 
 ### Funciones de Mobile Services y Analytics
 
@@ -55,7 +55,7 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 ### Administrador de Analytics permissions
 
 * Todos los permisos de administración de usuarios y aplicaciones móviles
-* Crear aplicación con un nuevo grupo de informes
+* Crear aplicación con nuevo grupo de informes
 * Eliminar aplicación de Mobile Services
 
    >[!IMPORTANT]
@@ -64,57 +64,57 @@ Estos son los roles de la interfaz de usuario de Mobile Services y sus respectiv
 
 * Administrar configuración de aplicación
 
-   * Habilitar la creación de informes del ciclo vital
-   * Habilitar los informes de ubicación
+   * Habilitar informes de ciclo vital
+   * Activar informes de ubicación
    * Crear/actualizar/eliminar variables y métricas
 
 ### Administrador de aplicaciones móviles permissions
 
 * Todos los permisos de usuario
-* Crear aplicación con un grupo de informes existente
+* Crear aplicación con grupo de informes existente
 * Administrar configuración de aplicación
 
-   * Configurar las opciones del SDK de Mobile de la aplicación
-   * Configurar los ajustes de la interfaz de usuario de la aplicación
+   * Configurar las opciones del SDK móvil de la aplicación
+   * Configuración de la IU de la aplicación
    * Configuración de aplicaciones de App Store vinculadas
    * Configurar las opciones de vínculo universal de la aplicación
-   * Configuración de certificados y claves de API de servicios push
+   * Configuración de certificados de servicios push y claves API
    * Crear/actualizar/activar/desactivar/duplicar/archivar/eliminar postbacks
    * Crear/actualizar/archivar/eliminar destinos de vínculo
 
 * Crear/actualizar/archivar vínculos de marketing
-* Crear/importar/actualizar/eliminar vínculos de adquisición de elementos heredados
-* Crear/importar/actualizar/eliminar configuraciones de lugares (puntos de interés)
+* Crear/importar/actualizar/eliminar vínculos de adquisición heredados
+* Crear/importar/actualizar/eliminar configuración de lugares (puntos de interés)
 * Crear/actualizar/enviar/programar/cancelar/duplicar/archivar/eliminar mensajes push
 * Crear/actualizar/activar/desactivar/duplicar/archivar/eliminar mensajes en la aplicación
 
-Para obtener más información sobre grupos y usuarios, consulte el siguiente contenido en la documentación de Adobe Analytics:
+Para obtener más información sobre grupos y usuarios, consulte los siguientes temas en la documentación de Adobe Analytics:
 
-* [Configuración de grupos de usuarios (heredado)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es)
-* [Agregar un usuario a un grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [Configuración de grupos de usuarios (heredada)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es)
+* [Agregar un usuario a un grupo](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es)
 
 ### Usuario de Mobile Services
 
-Esta función solo tiene permisos de visualización y puede proporcionar comentarios en la interfaz de usuario de Mobile Services.
+Esta función tiene permisos de solo vista y puede proporcionar comentarios en la interfaz de usuario de Mobile Services.
 
-* Proporcionar comentarios en la interfaz de usuario de Mobile Services
+* Proporcionar comentarios sobre la interfaz de usuario de Mobile Services
 * Ver aplicaciones
 
    >[!IMPORTANT]
    >
    >Los usuarios solo pueden ver los grupos de informes a los que tienen acceso en Adobe Analytics.
 
-* Ver configuración de aplicación
+* Ver configuración de la aplicación
 
-   * Descargar la configuración del SDK de la aplicación
-   * Ver toda la configuración de la interfaz de usuario y el SDK
+   * Descargar configuración de App SDK
+   * Ver toda la configuración de IU y SDK
    * Ver la configuración de variables y métricas
    * Ver postbacks
    * Ver destinos de vínculo
 
 * Ver y ejecutar informes
 * Ver vínculos de marketing
-* Ver y exportar vínculos de adquisición de elementos heredados
-* Ver y exportar configuraciones de lugares (puntos de interés)
+* Ver y exportar vínculos de adquisición heredados
+* Ver y exportar la configuración de lugares (puntos de interés)
 * Ver mensajes push
 * Ver mensajes en la aplicación

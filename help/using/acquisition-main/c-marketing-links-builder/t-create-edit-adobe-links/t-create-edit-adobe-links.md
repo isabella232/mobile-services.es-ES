@@ -9,7 +9,7 @@ exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
 source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Puede crear o editar vínculos de marketing para proporcionar vínculos profundo
 
       Las siguientes etiquetas preestablecidas están disponibles:
 
-      * **Datos de contexto personalizados** Especifique la clave y el valor. Si agrega datos de contexto personalizados, debe crear una regla de procesamiento. Para obtener más información, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) en la documentación de Adobe Analytics.
+      * **Datos de contexto personalizados** Especifique la clave y el valor. Si agrega datos de contexto personalizados, debe crear una regla de procesamiento. Para obtener más información, consulte [Resumen de reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es) en la documentación de Adobe Analytics.
 
       * **Origen** Especifique el referente original, como “newsletter” o “página principal”.
 
