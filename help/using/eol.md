@@ -1,11 +1,10 @@
 ---
 title: Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services
 description: Obtenga respuestas a las preguntas más frecuentes sobre el anuncio de fin de vida útil de Adobe Mobile Services.
-exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: c349c0f83df9d42b61a419ae71d6d2b67c5f7819
+source-git-commit: 0a4e0c9e6172231d8a9f9b561d0a7b7fb230473a
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +38,7 @@ Adobe ofrece tres rutas de transición en función del caso de uso de su organiz
 
 1. **Mensajería en la aplicación y notificaciones push**: el Adobe puede realizar la transición de sus flujos de trabajo de mensajería a Adobe Journey Optimizer. Este producto ayuda a las organizaciones a optimizar y personalizar experiencias en todo el recorrido del cliente, incluida la mensajería móvil.
 1. **Adquisición y vinculación profunda**: la adquisición y la vinculación profunda se ofrecen a través del programa Premier Partners de Adobe Exchange. El equipo de socios de Adobe puede realizar las presentaciones adecuadas para garantizar que encuentra la solución que mejor se adapta a sus necesidades.
-1. **Servicio de lugares**: el servicio Places ofrece funciones de localización geográfica gratuitas. Consulte la [Documentación del servicio Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+1. **Servicio de lugares**: el servicio Places ofrece funciones de localización geográfica gratuitas. Consulte la [Documentación del servicio Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=es).
 
 ## ¿Dónde puedo ir si tengo preguntas?
 
